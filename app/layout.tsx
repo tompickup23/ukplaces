@@ -5,11 +5,11 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://ukplaces.tom-pickup-2333.chatgpt.site"),
   title: "UK Places | The context around every place",
   description:
-    "A considered starting point for independent UK data projects, organised around the places they illuminate.",
+    "A source-led index of local intelligence: democracy, demographics, public money, asylum and everyday life, organised around the places they illuminate.",
   openGraph: {
     title: "UK Places | The context around every place",
     description:
-      "Independent UK data projects, brought together around the places they illuminate.",
+      "Local intelligence on democracy, demographics, public money, asylum and everyday life—organised around the places they illuminate.",
     url: "https://ukplaces.tom-pickup-2333.chatgpt.site",
     siteName: "UK Places",
     locale: "en_GB",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "UK Places | The context around every place",
     description:
-      "Independent UK data projects, brought together around the places they illuminate.",
+      "Local intelligence on democracy, demographics, public money, asylum and everyday life—organised around the places they illuminate.",
     images: ["/og.png"],
   },
 };
