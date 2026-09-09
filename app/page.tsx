@@ -143,7 +143,7 @@ export default function Home() {
           <span><strong>UK Places</strong></span>
         </a>
         <p>A growing index of independent UK data projects.</p>
-        <a href="mailto:ukplaces@tompickup.co.uk">Get in touch</a>
+        <a href="#burnley">Browse Burnley</a>
       </footer>
     </main>
   );
