@@ -1,6 +1,5 @@
 import {
   ArrowUpRight,
-  BookOpenText,
   Check,
   Layers3,
   Search,
@@ -11,16 +10,17 @@ import { PlaceFinder } from "./place-finder";
 const burnleyProjects = [
   {
     name: "UK Elections",
-    focus: "Latest council result",
+    focus: "Council election result",
     stat: "11 / 45",
     statLabel: "Reform UK seats",
-    headline: "Reform UK is the largest group, but Burnley remains under no overall control.",
-    description: "The 7 May 2026 result left Reform 12 seats short of the 23 needed to run the council.",
+    headline: "Reform is the largest party. No overall control.",
+    description: "The 7 May 2026 result left Reform 12 seats short of the 23 needed to lead the council.",
     facts: [
       ["13 / 15", "ward winners called"],
       ["7 May 2026", "latest council vote"],
     ],
-    source: "UK Elections · declared result and model audit",
+    source: "UK Elections · 7 May 2026 result",
+    cta: "See council result",
     href: "https://ukelections.co.uk/seats/burnley/",
     theme: "elections",
     logo: "/brands/ukelections.svg",
@@ -28,16 +28,17 @@ const burnleyProjects = [
   },
   {
     name: "UK Demographics",
-    focus: "Crime and community context",
+    focus: "Crime",
     stat: "107.4",
     statLabel: "recorded crimes per 1,000",
-    headline: "Burnley’s police-recorded crime rate sits above most local areas.",
-    description: "The latest published rate is down 3.7% year-on-year. Explore the categories, local pressures and the data caveats behind it.",
+    headline: "Crime is higher than in most local areas.",
+    description: "The rate is down 3.7% on the previous year. See offence types and the limits of police-recorded crime data.",
     facts: [
       ["43.1", "violent crimes per 1,000"],
       ["84th", "national percentile"],
     ],
-    source: "UK Demographics · Home Office data, year ending Mar 2024",
+    source: "UK Demographics · Home Office · year ending Mar 2024",
+    cta: "See crime data",
     href: "https://ukdemographics.co.uk/places/burnley/",
     theme: "demographics",
     logo: "/brands/ukdemographics.svg",
@@ -45,16 +46,17 @@ const burnleyProjects = [
   },
   {
     name: "AI DOGE",
-    focus: "Public money",
+    focus: "Council spending",
     stat: "£38.1m",
-    statLabel: "published payments held",
-    headline: "See where Burnley Borough Council’s published payments went in 2025/26.",
-    description: "4,489 transactions over £500 are available to search, with every total linked back to the council’s published files.",
+    statLabel: "payments in 2025/26",
+    headline: "£38.1m in published council payments.",
+    description: "Search 4,489 payments over £500 and open the original files behind the total.",
     facts: [
       ["843", "suppliers in the record"],
       ["6 Sep 2026", "last source refresh"],
     ],
-    source: "AI DOGE · 2025/26 published payment records",
+    source: "AI DOGE · council files · 2025/26",
+    cta: "See spending record",
     href: "https://aidoge.co.uk/councils/burnley/",
     theme: "doge",
     logo: "/brands/aidoge.svg",
@@ -62,22 +64,29 @@ const burnleyProjects = [
   },
   {
     name: "Asylum Stats",
-    focus: "Asylum support",
+    focus: "Asylum data",
     stat: "471",
     statLabel: "people on asylum support",
-    headline: "Burnley’s published asylum-support rate is 46.66 per 10,000 residents.",
-    description: "Follow the local trend, accommodation split and the official data behind one of the country’s highest per-head support rates.",
+    headline: "46.66 people on support per 10,000 residents.",
+    description: "See the local trend and accommodation split in the latest Home Office data.",
     facts: [
       ["466", "in dispersal accommodation"],
       ["30 Jun 2026", "latest source update"],
     ],
-    source: "Asylum Stats · Home Office local data",
+    source: "Asylum Stats · Home Office · 30 Jun 2026",
+    cta: "See asylum data",
     href: "https://asylumstats.co.uk/places/burnley/",
     theme: "asylum",
     logo: "/brands/asylumstats.svg",
     index: "04",
   },
 ];
+
+const burnleySignals = burnleyProjects.map((project) => ({
+  value: project.stat,
+  label: project.statLabel,
+  theme: project.theme,
+}));
 
 const siteUrl = "https://ukplaces.tom-pickup-2333.chatgpt.site";
 
@@ -89,14 +98,14 @@ const structuredData = {
       "@id": `${siteUrl}/#website`,
       url: siteUrl,
       name: "UK Places",
-      description: "A source-led index for useful local intelligence.",
+      description: "Clear local facts with links to the full source.",
       inLanguage: "en-GB",
     },
     {
       "@type": "CollectionPage",
       "@id": `${siteUrl}/#burnley`,
       url: `${siteUrl}/#burnley`,
-      name: "Burnley: source routes for public life",
+      name: "Burnley local data",
       isPartOf: { "@id": `${siteUrl}/#website` },
       mainEntity: {
         "@type": "ItemList",
@@ -124,52 +133,60 @@ export default function Home() {
           <img src="/uk-places-mark.svg" width="38" height="38" alt="" />
           <span>
             <strong>UK Places</strong>
-            <small>PUBLIC LIFE, IN CONTEXT</small>
+            <small>LOCAL FACTS, CLEARLY LINKED</small>
           </span>
         </a>
         <nav aria-label="Primary navigation">
           <a href="#find">Find a place</a>
-          <a href="#burnley">Featured profile</a>
-          <a href="#about">About the index</a>
+          <a href="#burnley">Burnley</a>
+          <a href="#about">How it works</a>
         </nav>
-        <a className="header-action" href="#find"><Search size={15} aria-hidden="true" /> Find a place</a>
+        <a className="header-action" href="#find"><Search size={15} aria-hidden="true" /> Search</a>
       </header>
 
       <section className="masthead" id="top">
         <div className="masthead-copy">
-          <p className="eyebrow"><Layers3 size={15} aria-hidden="true" /> A place index for public life</p>
-          <h1>Know the place you call home.</h1>
+          <p className="eyebrow"><Layers3 size={15} aria-hidden="true" /> Local facts, in one place</p>
+          <h1>The facts about where you live.</h1>
           <p className="masthead-lede">
-            UK Places gives the work around a community one clear starting point.
-            Elections, population, public money and everyday services, linked directly
-            to the specialists behind the data.
+            Elections, crime, council spending and asylum data. Start with the headline,
+            then go straight to the full source.
           </p>
+          <p className="masthead-status">Burnley is the first full profile.</p>
         </div>
         <div className="masthead-tools">
           <PlaceFinder />
-          <div className="masthead-note">
-            <BookOpenText size={18} aria-hidden="true" />
-            <p><strong>One place, several useful routes.</strong> UK Places does not reproduce the data. It helps you arrive at the source that does the work.</p>
-          </div>
+          <section className="signal-brief" aria-labelledby="signal-brief-title">
+            <div className="signal-brief-head">
+              <p id="signal-brief-title">Burnley now</p>
+              <span>Latest source snapshots</span>
+            </div>
+            <dl className="signal-grid">
+              {burnleySignals.map((signal) => (
+                <div className={`signal signal--${signal.theme}`} key={signal.label}>
+                  <dt>{signal.label}</dt>
+                  <dd>{signal.value}</dd>
+                </div>
+              ))}
+            </dl>
+            <a className="signal-link" href="#burnley">See all Burnley facts <ArrowUpRight size={15} aria-hidden="true" /></a>
+          </section>
         </div>
       </section>
 
       <section className="featured-place" id="burnley" aria-labelledby="burnley-title">
         <div className="section-heading">
           <div>
-            <p className="eyebrow"><span className="number-chip">01</span> Featured place · Lancashire</p>
-            <h2 id="burnley-title">Burnley, seen from more than one angle.</h2>
+            <p className="eyebrow"><span className="number-chip">01</span> Burnley, Lancashire</p>
+            <h2 id="burnley-title">Burnley at a glance.</h2>
           </div>
-          <p>
-            This is the useful layer: real local signals, a clear source and a direct
-            route into the fuller work behind each one.
-          </p>
+          <p>Four current facts. Four links to the full record.</p>
         </div>
 
         <div className="place-ledger" aria-label="Burnley profile coverage">
-          <div><span>Profile coverage</span><strong>04 source routes</strong></div>
-          <div><span>Core lenses</span><strong>People · money · democracy</strong></div>
-          <div><span>Index principle</span><strong>Evidence before expansion</strong></div>
+          <div><span>Available now</span><strong>04 source pages</strong></div>
+          <div><span>Topics</span><strong>Votes · crime · money · asylum</strong></div>
+          <div><span>Data</span><strong>Source dates on every card</strong></div>
         </div>
 
         <div className="project-grid">
@@ -206,7 +223,7 @@ export default function Home() {
                 ))}
               </dl>
               <span className="project-source">{project.source}</span>
-              <span className="project-route">Read the full analysis <ArrowUpRight size={14} aria-hidden="true" /></span>
+              <span className="project-route">{project.cta} <ArrowUpRight size={14} aria-hidden="true" /></span>
             </a>
           ))}
         </div>
@@ -214,66 +231,65 @@ export default function Home() {
 
       <section className="profile-blueprint" id="about" aria-labelledby="blueprint-title">
         <div className="blueprint-intro">
-          <p className="eyebrow">What makes a place page worth finding</p>
-          <h2 id="blueprint-title">The useful parts of local life, held together.</h2>
+          <p className="eyebrow">What you can check</p>
+          <h2 id="blueprint-title">A quick answer. Then the full record.</h2>
           <p>
-            A place is not a single statistic. Each UK Places profile starts with the
-            headline a reader needs to know, then puts the source, time period and fuller
-            analysis one click away.
+            Each card gives you one useful fact, the source date and a direct link to
+            more detail.
           </p>
         </div>
         <div className="lens-list">
           <article>
             <span>01</span>
-            <h3>People &amp; change</h3>
-            <p>Population, homes, community pressures and the local indicators that give a place its shape.</p>
+            <h3>Votes &amp; representation</h3>
+            <p>Election results, council seats and ward-by-ward detail.</p>
           </article>
           <article>
             <span>02</span>
-            <h3>Safety &amp; everyday life</h3>
-            <p>Crime context, food hygiene and the public information people need close to home.</p>
+            <h3>Crime &amp; community</h3>
+            <p>Crime rates, population and local change.</p>
           </article>
           <article>
             <span>03</span>
-            <h3>Public money &amp; power</h3>
-            <p>Who represents an area, what public bodies spend and where to check the underlying record.</p>
+            <h3>Council spending</h3>
+            <p>Published payments, suppliers and the original files.</p>
           </article>
           <article>
             <span>04</span>
-            <h3>Asylum &amp; local context</h3>
-            <p>Careful local routes into national asylum data, framed with its source and limitations intact.</p>
+            <h3>Asylum support</h3>
+            <p>Local Home Office figures, trends and accommodation data.</p>
           </article>
         </div>
       </section>
 
       <section className="search-standard" aria-labelledby="search-standard-title">
         <div>
-          <p className="eyebrow">The UK Places standard</p>
-          <h2 id="search-standard-title">Built to earn the search, not chase it.</h2>
+          <p className="eyebrow">How UK Places works</p>
+          <h2 id="search-standard-title">Useful facts. Proper sources.</h2>
           <p>
-            The best local pages answer a real question, show their working and make the
-            next step obvious. UK Places will only index a profile when it can do all three.
+            Every page starts with a fact worth knowing. Then it shows where it came from
+            and sends you to the full work.
           </p>
         </div>
         <ol>
           <li>
             <span>01</span>
-            <div><h3>A specific local question</h3><p>Each page is built around the geography and topics that genuinely have current coverage.</p></div>
+            <div><h3>A useful local figure</h3><p>We only add a topic when there is current data for that place.</p></div>
           </li>
           <li>
             <span>02</span>
-            <div><h3>A verifiable snapshot</h3><p>Every useful fact carries a source, time period and context, never a copied or invented table.</p></div>
+            <div><h3>A date and a source</h3><p>Every figure tells you what it covers and where it came from.</p></div>
           </li>
           <li>
             <span>03</span>
-            <div><h3>A better onward route</h3><p>Readers can continue directly into Elections, Demographics, AI DOGE or Asylum Stats.</p></div>
+            <div><h3>The full record</h3><p>Each card links straight to the specialist project with the full data.</p></div>
           </li>
         </ol>
       </section>
 
       <section className="index-promise" aria-label="UK Places publishing promise">
         <Check size={21} aria-hidden="true" />
-        <p><strong>No copied tables. No filler profiles.</strong> Every new place earns its page with a genuinely useful local fact and a clear path to the source work.</p>
+        <p><strong>No filler. No copied data.</strong> Every place page starts with useful facts and links to the original work.</p>
       </section>
 
       <footer>
@@ -281,7 +297,7 @@ export default function Home() {
           <img src="/uk-places-mark.svg" width="35" height="35" alt="" />
           <span><strong>UK Places</strong></span>
         </a>
-        <p>A source-led index for useful local intelligence.</p>
+        <p>Local facts. Full sources.</p>
         <a href="#burnley">Browse Burnley</a>
       </footer>
     </main>
