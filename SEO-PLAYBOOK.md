@@ -30,6 +30,13 @@ Every module must state the source, the period it describes and the exact route
 to the specialist page. If a source does not support a place or a lens is not
 current, omit the module rather than filling it with a generic paragraph.
 
+Each source module opens with one reportable local signal, not an abstract
+description of the partner project. Pair that signal with a precise label, a
+source date, a short context sentence and a clear route to the full analysis.
+The page must distinguish observed data, models and estimates in the module
+itself. This makes the rendered page useful to readers and gives search engines
+substantive, attributable local content to understand.
+
 ## What makes a profile indexable
 
 Before publishing, a page needs all of the following:

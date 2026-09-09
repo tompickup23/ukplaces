@@ -11,8 +11,16 @@ import { PlaceFinder } from "./place-finder";
 const burnleyProjects = [
   {
     name: "UK Elections",
-    focus: "Representation & results",
-    description: "The political picture around Burnley, from constituency detail to local elections.",
+    focus: "Latest council result",
+    stat: "11 / 45",
+    statLabel: "Reform UK seats",
+    headline: "Reform UK is the largest group, but Burnley remains under no overall control.",
+    description: "The 7 May 2026 result left Reform 12 seats short of the 23 needed to run the council.",
+    facts: [
+      ["13 / 15", "ward winners called"],
+      ["7 May 2026", "latest council vote"],
+    ],
+    source: "UK Elections · declared result and model audit",
     href: "https://ukelections.co.uk/seats/burnley/",
     theme: "elections",
     logo: "/brands/ukelections.svg",
@@ -20,8 +28,16 @@ const burnleyProjects = [
   },
   {
     name: "UK Demographics",
-    focus: "Population & change",
-    description: "Population, homes, crime, schools and health, brought together at local-authority level.",
+    focus: "Crime and community context",
+    stat: "107.4",
+    statLabel: "recorded crimes per 1,000",
+    headline: "Burnley’s police-recorded crime rate sits above most local areas.",
+    description: "The latest published rate is down 3.7% year-on-year. Explore the categories, local pressures and the data caveats behind it.",
+    facts: [
+      ["43.1", "violent crimes per 1,000"],
+      ["84th", "national percentile"],
+    ],
+    source: "UK Demographics · Home Office data, year ending Mar 2024",
     href: "https://ukdemographics.co.uk/places/burnley/",
     theme: "demographics",
     logo: "/brands/ukdemographics.svg",
@@ -30,7 +46,15 @@ const burnleyProjects = [
   {
     name: "AI DOGE",
     focus: "Public money",
-    description: "What public bodies publish about the money they spend, with the source files in view.",
+    stat: "£38.1m",
+    statLabel: "published payments held",
+    headline: "See where Burnley Borough Council’s published payments went in 2025/26.",
+    description: "4,489 transactions over £500 are available to search, with every total linked back to the council’s published files.",
+    facts: [
+      ["843", "suppliers in the record"],
+      ["6 Sep 2026", "last source refresh"],
+    ],
+    source: "AI DOGE · 2025/26 published payment records",
     href: "https://aidoge.co.uk/councils/burnley/",
     theme: "doge",
     logo: "/brands/aidoge.svg",
@@ -38,21 +62,20 @@ const burnleyProjects = [
   },
   {
     name: "Asylum Stats",
-    focus: "Asylum & local context",
-    description: "Official asylum information in a local context, alongside the wider evidence.",
+    focus: "Asylum support",
+    stat: "471",
+    statLabel: "people on asylum support",
+    headline: "Burnley’s published asylum-support rate is 46.66 per 10,000 residents.",
+    description: "Follow the local trend, accommodation split and the official data behind one of the country’s highest per-head support rates.",
+    facts: [
+      ["466", "in dispersal accommodation"],
+      ["30 Jun 2026", "latest source update"],
+    ],
+    source: "Asylum Stats · Home Office local data",
     href: "https://asylumstats.co.uk/places/burnley/",
     theme: "asylum",
     logo: "/brands/asylumstats.svg",
     index: "04",
-  },
-  {
-    name: "UK Food Hygiene",
-    focus: "Food & places",
-    description: "Food hygiene ratings and the local register for Burnley businesses.",
-    href: "https://ukfoodhygiene.co.uk/towns/burnley/",
-    theme: "food",
-    logo: "/brands/ukfoodhygiene.svg",
-    index: "05",
   },
 ];
 
@@ -138,13 +161,13 @@ export default function Home() {
             <h2 id="burnley-title">Burnley, seen from more than one angle.</h2>
           </div>
           <p>
-            One clear place page, with the questions people actually search for and a
-            direct route to the specialist source behind each answer.
+            This is the useful layer: real local signals, a clear source and a direct
+            route into the fuller work behind each one.
           </p>
         </div>
 
         <div className="place-ledger" aria-label="Burnley profile coverage">
-          <div><span>Profile coverage</span><strong>05 source routes</strong></div>
+          <div><span>Profile coverage</span><strong>04 source routes</strong></div>
           <div><span>Core lenses</span><strong>People · money · democracy</strong></div>
           <div><span>Index principle</span><strong>Evidence before expansion</strong></div>
         </div>
@@ -163,14 +186,27 @@ export default function Home() {
                   <img src={project.logo} alt="" />
                   {project.theme === "asylum" && <span>asylumstats</span>}
                   {project.theme === "doge" && <span>AI DOGE</span>}
-                  {project.theme === "food" && <span>UK Food Hygiene</span>}
                 </div>
                 <span className="card-index">{project.index}</span>
               </div>
               <p className="project-focus">{project.focus}</p>
               <h3>{project.name}</h3>
+              <div className="project-stat" aria-label={`${project.stat} ${project.statLabel}`}>
+                <strong>{project.stat}</strong>
+                <span>{project.statLabel}</span>
+              </div>
+              <p className="project-headline">{project.headline}</p>
               <p className="project-description">{project.description}</p>
-              <span className="project-route">Explore the source <ArrowUpRight size={14} aria-hidden="true" /></span>
+              <dl className="project-facts">
+                {project.facts.map(([value, label]) => (
+                  <div key={label}>
+                    <dt>{label}</dt>
+                    <dd>{value}</dd>
+                  </div>
+                ))}
+              </dl>
+              <span className="project-source">{project.source}</span>
+              <span className="project-route">Read the full analysis <ArrowUpRight size={14} aria-hidden="true" /></span>
             </a>
           ))}
         </div>
@@ -181,9 +217,9 @@ export default function Home() {
           <p className="eyebrow">What makes a place page worth finding</p>
           <h2 id="blueprint-title">The useful parts of local life, held together.</h2>
           <p>
-            A place is not a single statistic. Each UK Places profile is designed as a
-            practical briefing: a small number of current, source-backed starting points
-            for the stories that shape a community.
+            A place is not a single statistic. Each UK Places profile starts with the
+            headline a reader needs to know, then puts the source, time period and fuller
+            analysis one click away.
           </p>
         </div>
         <div className="lens-list">
@@ -226,18 +262,18 @@ export default function Home() {
           </li>
           <li>
             <span>02</span>
-            <div><h3>A verifiable snapshot</h3><p>Every useful fact carries a source, time period and context—never a copied or invented table.</p></div>
+            <div><h3>A verifiable snapshot</h3><p>Every useful fact carries a source, time period and context, never a copied or invented table.</p></div>
           </li>
           <li>
             <span>03</span>
-            <div><h3>A better onward route</h3><p>Readers can continue directly into Elections, Demographics, AI DOGE, Asylum Stats or Food Hygiene.</p></div>
+            <div><h3>A better onward route</h3><p>Readers can continue directly into Elections, Demographics, AI DOGE or Asylum Stats.</p></div>
           </li>
         </ol>
       </section>
 
       <section className="index-promise" aria-label="UK Places publishing promise">
         <Check size={21} aria-hidden="true" />
-        <p><strong>No copied tables. No filler profiles.</strong> Every new place earns its page with useful local coverage and a clear path to the source work.</p>
+        <p><strong>No copied tables. No filler profiles.</strong> Every new place earns its page with a genuinely useful local fact and a clear path to the source work.</p>
       </section>
 
       <footer>

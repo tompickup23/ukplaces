@@ -3,13 +3,13 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://ukplaces.tom-pickup-2333.chatgpt.site"),
-  title: "UK Places | The context around every place",
+  title: "Burnley local data: elections, crime, spending and asylum | UK Places",
   description:
-    "A source-led index of local intelligence: democracy, demographics, public money, asylum and everyday life, organised around the places they illuminate.",
+    "Current Burnley snapshots on council election results, crime, published spending and asylum support, with direct routes to the source analysis.",
   openGraph: {
-    title: "UK Places | The context around every place",
+    title: "Burnley local data: elections, crime, spending and asylum | UK Places",
     description:
-      "Local intelligence on democracy, demographics, public money, asylum and everyday life—organised around the places they illuminate.",
+      "Current Burnley snapshots on council election results, crime, published spending and asylum support, with direct routes to the source analysis.",
     url: "https://ukplaces.tom-pickup-2333.chatgpt.site",
     siteName: "UK Places",
     locale: "en_GB",
@@ -25,9 +25,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "UK Places | The context around every place",
+    title: "Burnley local data: elections, crime, spending and asylum | UK Places",
     description:
-      "Local intelligence on democracy, demographics, public money, asylum and everyday life—organised around the places they illuminate.",
+      "Current Burnley snapshots on council election results, crime, published spending and asylum support, with direct routes to the source analysis.",
     images: ["/og.png"],
   },
 };
