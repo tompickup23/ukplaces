@@ -3,9 +3,6 @@
 import { type FormEvent, useState } from "react";
 import { ArrowUpRight, MapPin, Search } from "lucide-react";
 
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-
 export function PlaceFinder() {
   const [query, setQuery] = useState("");
   const [submitted, setSubmitted] = useState(false);
@@ -25,17 +22,17 @@ export function PlaceFinder() {
       </div>
       <form className="finder-form" onSubmit={handleSubmit}>
         <MapPin size={20} aria-hidden="true" />
-        <Input
+        <input
           className="finder-input"
           value={query}
           onChange={(event) => setQuery(event.target.value)}
           placeholder="Town, constituency or local authority"
           aria-label="Find a place"
         />
-        <Button className="finder-button" type="submit">
+        <button className="finder-button" type="submit">
           <Search aria-hidden="true" />
           Search
-        </Button>
+        </button>
       </form>
       <div className="finder-result" aria-live="polite">
         {!submitted && <p>Start with Burnley or use a place name to see what is being added next.</p>}
