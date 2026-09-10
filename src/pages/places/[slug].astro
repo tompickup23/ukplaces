@@ -4,17 +4,6 @@ import { SITE_URL } from "../../lib/site";
 import registry from "../../data/registry/places.json";
 import constituenciesByPlace from "../../data/registry/place-constituencies.json";
 import sources from "../../data/sources.json";
-import aidogeSignals from "../../data/signals/aidoge.json";
-import asylumstatsSignals from "../../data/signals/asylumstats.json";
-import ukdemographicsSignals from "../../data/signals/ukdemographics.json";
-import ukelectionsSignals from "../../data/signals/ukelections.json";
-
-const feeds = {
-  ukelections: ukelectionsSignals,
-  ukdemographics: ukdemographicsSignals,
-  aidoge: aidogeSignals,
-  asylumstats: asylumstatsSignals,
-};
 
 type Coverage = { hasPage: boolean; slug: string | null; url: string | null };
 type Place = {
@@ -36,7 +25,14 @@ type Signal = { value: string | number | null; unit: string | null; label: strin
 
 const placesByGss = registry as Record<string, Place>;
 const constituenciesByGss = constituenciesByPlace as Record<string, Constituency[]>;
-const feedsBySource = feeds as Record<string, Record<string, Signal>>;
+const signalModules = import.meta.glob("../../data/signals/*.json", { eager: true });
+const feedsBySource = Object.fromEntries(
+  Object.entries(signalModules).map(([filePath, module]) => [
+    filePath.split("/").at(-1)?.replace(/\.json$/, ""),
+    (module as { default: Record<string, Signal> }).default,
+  ]),
+) as Record<string, Record<string, Signal>>;
+const blankSignal: Signal = { value: null, unit: null, label: null, period: null, snapshotDate: null, url: null };
 
 export function getStaticPaths() {
   return Object.values(registry).map((place) => ({
@@ -50,7 +46,7 @@ const place = placesByGss[gss];
 const constituencies = constituenciesByGss[gss] ?? [];
 const coverageRows = sources
   .filter((source) => place.coverage[source.id]?.hasPage)
-  .map((source) => ({ source, signal: feedsBySource[source.id][gss] }));
+  .map((source) => ({ source, signal: feedsBySource[source.id]?.[gss] ?? blankSignal }));
 const reviewDates = coverageRows
   .map(({ signal }) => signal.snapshotDate)
   .filter((date): date is string => typeof date === "string")

@@ -17,7 +17,7 @@ Baseline `git rev-parse HEAD`: `2685f4f19c42c2d0d4be14fff4c3d40763408ee4`
 - [x] 10. Retire vinext and make Astro the root site.
 - [x] 11. Add constituencies and regions.
 - [x] 12. Integrate the registry with sister sites on review branches.
-- [ ] 13. Document and test adding a source.
+- [x] 13. Document and test adding a source.
 - [ ] 14. Write the release checklist for Tom only.
 
 ## Blocked
@@ -37,3 +37,4 @@ Baseline `git rev-parse HEAD`: `2685f4f19c42c2d0d4be14fff4c3d40763408ee4`
 - 2026-09-10 — Step 10: moved the Astro site to the repository root, removed vinext, Next, UI-library and formatter artefacts, added the GitHub Pages deploy and site-check workflows plus CNAME, and added a retained legacy-route parity check. The existing hosting configuration was left untouched; the formatter configuration was removed because no root script uses it. Verified a clean clone with `npm ci`, build, lint, contrast, text-size, sitemap and parity checks; next: step 11.
 - 2026-09-10 — Step 11: generated 650 constituency records from the specified election dataset, retaining missing PCON codes and unconfirmed demographic links as null, and added constituency pages, 12 regional indexes, directory links, navigation and sitemap coverage. Verified the source-record tests, a 1,030-page Astro build, ten unique constituency metadata samples, exact Burnley record details, text-size, contrast, sitemap and parity checks, and a browser review of the Burnley constituency page; next: step 12.
 - 2026-09-10 — Step 12: published the place and constituency registries under the site data path, made sister-site place links and cross-links resolve through the registry, and added per-place signal snapshot dates where available. Review branches: `ukelections: feat/ukplaces-registry-integration`; `ukdemographics: feat/ukplaces-registry-integration`; `aidoge-site: feat/ukplaces-registry-integration`; `asylumstats: feat/ukplaces-registry-integration`. Verified builds in all four sister repositories, the four generated Burnley links, the resolved Barking and Dagenham cross-link, UK Places publishing of byte-identical registries, and the root lint, build, signal, text-size, contrast, sitemap and parity checks; next: step 13.
+- 2026-09-10 — Step 13: documented the manifest, GSS-keyed feed and registry-coverage contract, made place-page signal loading follow the manifest, and retained a source-onboarding regression test. Verified lint plus the test’s temporary dummy source build, extra Burnley coverage row, unchanged template, restored data and restored production build; next: step 14.
