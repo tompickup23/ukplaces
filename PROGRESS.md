@@ -11,7 +11,7 @@ Baseline `git rev-parse HEAD`: `2685f4f19c42c2d0d4be14fff4c3d40763408ee4`
 - [x] 4. Create the source manifest and signal feeds.
 - [x] 5. Build the generated place page.
 - [x] 6. Build the directory, static pages, sitemap, and robots file.
-- [ ] 7. Build the home page and postcode door.
+- [x] 7. Build the home page and postcode door.
 - [ ] 8. Implement the header, footer, and type scale.
 - [ ] 9. Check parity against the current vinext site.
 - [ ] 10. Retire vinext and make Astro the root site.
@@ -31,3 +31,4 @@ Baseline `git rev-parse HEAD`: `2685f4f19c42c2d0d4be14fff4c3d40763408ee4`
 - 2026-09-10 — Step 4: added the four-source manifest and regenerated six-field signal feeds from the sister datasets, leaving unavailable source records null; verified every feed has 361 entries and exactly six fields per signal, Burnley matches the required signals, and the Astro build passes; next: step 5.
 - 2026-09-10 — Step 5: generated the 361 data-driven place pages with geography, source coverage, dates, metadata and structured data, plus source-confirmed constituency membership; verified all 361 pages render, ten random titles/descriptions are unique, Burnley matches the supplied board and structured-data checks, and text-size and contrast scripts pass; next: step 6.
 - 2026-09-10 — Step 6: added the full country/region directory with a no-JavaScript list and browser-verified client filter, recreated the static explanatory routes, generated updates, and added branded 404, sitemap and robots files; verified the sitemap has 361 place URLs plus five static URLs, all trailing-slash paths exist in dist, and text-size/contrast checks pass; next: step 7.
+- 2026-09-10 — Step 7: replaced the temporary home page with an accessible postcode and name finder, source-question cards, and a place-record overview; verified BB11 1PD resolves to Burnley through the live postcode service, invalid postcodes announce an error, a Tab/type/Enter path works, desktop and mobile captures are saved, and the production build, sitemap, text-size and contrast checks pass; next: step 8.
