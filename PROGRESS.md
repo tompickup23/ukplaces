@@ -22,6 +22,8 @@ Baseline `git rev-parse HEAD`: `2685f4f19c42c2d0d4be14fff4c3d40763408ee4`
 
 ## Blocked
 
+- 2026-09-10 — GitHub Pages cutover from the release checklist: blocked because this repository has no GitHub remote and `tompickup23/ukplaces` does not exist. Creating the replacement repository requires Tom to choose the target and visibility before the branch can be pushed, reviewed or connected to the custom domain.
+
 ## Release checklist for Tom (step 14 — written only)
 
 - [ ] Push `feat/home-burnley-rework`.
