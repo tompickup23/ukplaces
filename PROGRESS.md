@@ -7,7 +7,7 @@ Baseline `git rev-parse HEAD`: `2685f4f19c42c2d0d4be14fff4c3d40763408ee4`
 - [x] 0. Create PROGRESS.md with this checklist, the baseline revision, and the Blocked and Log sections.
 - [x] 1. Apply the stopgap fixes to the current vinext site.
 - [x] 2. Scaffold the Astro site in `site/`.
-- [ ] 3. Build registry v1 for all 361 local authorities.
+- [x] 3. Build registry v1 for all 361 local authorities.
 - [ ] 4. Create the source manifest and signal feeds.
 - [ ] 5. Build the generated place page.
 - [ ] 6. Build the directory, static pages, sitemap, and robots file.
@@ -27,3 +27,4 @@ Baseline `git rev-parse HEAD`: `2685f4f19c42c2d0d4be14fff4c3d40763408ee4`
 - 2026-09-10 — Step 0: created the progress checklist with baseline `2685f4f19c42c2d0d4be14fff4c3d40763408ee4`; verified the baseline, checklist, Blocked, and Log sections with `rg` and whitespace with `git diff --check`; next: step 1.
 - 2026-09-10 — Step 1: enabled trailing-slash routing, corrected per-page canonical and social metadata, fixed the Burnley breadcrumb target, and added the branded no-index 404; verified with `npm run build`, a local Wrangler server, `/usr/bin/curl` status/redirect checks, and generated-page metadata/link assertions; this commit is what Tom should deploy to the current host if the migration takes more than a few days; next: step 2.
 - 2026-09-10 — Step 2: created the static Astro scaffold in `site/`, with the neutral shared-token mapping, self-hosted identity assets, and the shared layout, site library, and components structure; verified `npm --prefix site run build` produces `site/dist/index.html`, assets are present, and the Astro configuration has the required static, trailing-slash, and canonical-site settings without a UI framework or Tailwind; next: step 3.
+- 2026-09-10 — Step 3: generated the GSS-keyed registry for all 361 local authorities, with source-confirmed coverage links, county relationships, neutral nulls for unverified identifiers, and the Lancashire reorganisation record from the local decision data; verified regeneration, 361-entry/unique URL/GSS/slug tests, an Astro build, exact Burnley coverage, and ten randomly selected live coverage URLs returning 200; next: step 4.
