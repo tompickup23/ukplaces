@@ -7,7 +7,11 @@ const siteRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), ".."
 const distRoot = path.join(siteRoot, "dist");
 const sitemap = fs.readFileSync(path.join(distRoot, "sitemap.xml"), "utf8");
 const urls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(([, url]) => url);
-assert.equal(urls.length, 366, "sitemap has 361 places plus five static routes");
+const places = Object.values(JSON.parse(fs.readFileSync(path.join(siteRoot, "src", "data", "registry", "places.json"), "utf8")));
+const constituencies = Object.values(JSON.parse(fs.readFileSync(path.join(siteRoot, "src", "data", "registry", "constituencies.json"), "utf8")));
+const regionSlugs = new Set(places.map((place) => place.region.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "")));
+const expectedUrlCount = 6 + places.length + constituencies.length + regionSlugs.size;
+assert.equal(urls.length, expectedUrlCount, "sitemap has static, place, constituency and region routes");
 
 for (const url of urls) {
   const pathname = new URL(url).pathname;

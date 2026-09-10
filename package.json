@@ -13,6 +13,8 @@
     "build:signals": "node scripts/build-signals.mjs",
     "test:signals": "node scripts/test-signals.mjs",
     "build:place-constituencies": "node scripts/build-place-constituencies.mjs",
+    "build:constituencies": "node scripts/build-constituencies.mjs",
+    "test:constituencies": "node scripts/test-constituencies.mjs",
     "check:text-size": "node scripts/check-text-size.mjs",
     "check:contrast": "node scripts/check-contrast.mjs",
     "check:sitemap": "node scripts/check-sitemap.mjs",

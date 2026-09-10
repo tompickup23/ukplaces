@@ -1,0 +1,28 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import constituencies from "../../data/registry/constituencies.json";
+
+const records = Object.values(constituencies).sort((left, right) => left.name.localeCompare(right.name));
+const displayName = (value: string) => value.replace(/_/g, " ").replace(/\b\w/g, (letter) => letter.toUpperCase());
+---
+
+<BaseLayout title="Constituencies" description="Browse all UK Places parliamentary constituency geography records.">
+  <main class="shell directory-page" id="main-content">
+    <section class="directory-hero">
+      <p class="eyebrow">Constituency directory</p>
+      <h1>Browse parliamentary constituency records</h1>
+      <p>All {records.length} records remain visible without JavaScript.</p>
+    </section>
+
+    <div class="directory-groups">
+      <section class="directory-group">
+        <h2>Constituencies</h2>
+        <ul class="directory-list">
+          {records.map((constituency) => (
+            <li><a href={`/constituencies/${constituency.slug}/`}>{constituency.name}<span>{constituency.country ? displayName(constituency.country) : "Country not present in source"}</span></a></li>
+          ))}
+        </ul>
+      </section>
+    </div>
+  </main>
+</BaseLayout>

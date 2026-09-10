@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import registry from "../../data/registry/places.json";
+import { regionSlug } from "../../lib/regions";
 
 const places = Object.values(registry).sort((left, right) => left.name.localeCompare(right.name));
 const countries = [...new Set(places.map((place) => place.country))].sort();
@@ -30,7 +31,7 @@ const grouped = countries.map((country) => ({
           <h2>{country}</h2>
           {regions.map(({ region, places: regionPlaces }) => (
             <div data-region={region}>
-              <h3>{region}</h3>
+              <h3><a href={`/places/regions/${regionSlug(region)}/`}>{region}</a></h3>
               <ul class="directory-list">
                 {regionPlaces.map((place) => (
                   <li data-place={place.name.toLowerCase()}><a href={`/places/${place.slug}/`}>{place.name}<span>{place.type}</span></a></li>
