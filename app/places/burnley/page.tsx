@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { ArrowRight, ArrowUpRight, CalendarDays, CheckCircle2, CircleHelp, FileText, MapPinned } from "lucide-react";
-import Link from "next/link";
 
 import { burnley, burnleyStructuredData } from "../../data";
 import { SiteFooter, SiteHeader } from "../../site-shell";
@@ -22,7 +21,7 @@ export default function BurnleyPage() {
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(burnleyStructuredData) }} />
         <article>
           <section className="profile-hero">
-            <nav className="breadcrumbs" aria-label="Breadcrumb"><Link href="/">UK Places</Link><span>/</span><Link href="/places/">Places</Link><span>/</span><span aria-current="page">Burnley</span></nav>
+            <nav className="breadcrumbs" aria-label="Breadcrumb"><a href="/">UK Places</a><span>/</span><a href="/places/">Places</a><span>/</span><span aria-current="page">Burnley</span></nav>
             <div className="profile-hero-grid">
               <div>
                 <p className="eyebrow"><MapPinned size={15} aria-hidden="true" /> Burnley · Lancashire · North West England</p>
@@ -77,7 +76,7 @@ export default function BurnleyPage() {
 
           <section className="profile-next">
             <div><p className="eyebrow">Next step</p><h2>Use the detailed record when the decision needs more detail.</h2></div>
-            <div><Link href="/places/">Browse published places <ArrowRight size={17} aria-hidden="true" /></Link><Link href="/methodology/">Read how the figures are selected <ArrowRight size={17} aria-hidden="true" /></Link></div>
+            <div><a href="/places/">Browse published places <ArrowRight size={17} aria-hidden="true" /></a><a href="/methodology/">Read how the figures are selected <ArrowRight size={17} aria-hidden="true" /></a></div>
           </section>
         </article>
       </main>

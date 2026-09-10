@@ -327,8 +327,10 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--rust); outline-
 .home-hero-copy-v2 h1 { max-width: 760px; margin-bottom: 25px; font-size: clamp(4.1rem, 7.1vw, 7.1rem); }
 .hero-lede-v2 { max-width: 640px; margin-bottom: 30px; color: var(--muted); font-size: clamp(1.1rem, 1.75vw, 1.32rem); line-height: 1.55; }
 .place-finder { position: relative; max-width: 600px; }
-.place-finder-input { display: flex; align-items: center; gap: 11px; min-height: 58px; padding: 0 17px; border: 1px solid var(--ink); background: var(--white); box-shadow: 5px 5px 0 var(--ink); }
+.place-finder-input { display: flex; align-items: center; gap: 11px; min-height: 58px; padding: 0 17px; border: 1px solid var(--ink); background: var(--white); box-shadow: 5px 5px 0 var(--ink); color: var(--ink); text-decoration: none; transition: transform 160ms ease, box-shadow 160ms ease; }
+.place-finder-input:hover { transform: translate(-2px, -2px); box-shadow: 7px 7px 0 var(--rust); }
 .place-finder-input svg { flex: 0 0 auto; color: var(--rust); }
+.place-finder-input span { flex: 1; font-size: 1rem; font-weight: 600; }
 .place-finder-input input { width: 100%; border: 0; outline: 0; background: transparent; color: var(--ink); font-family: var(--ui); font-size: 1rem; }
 .place-finder-input input::placeholder { color: #718078; }
 .place-search-results { position: absolute; z-index: 3; right: 0; left: 0; margin-top: 10px; border: 1px solid var(--ink); background: var(--white); box-shadow: 5px 5px 0 rgba(19,32,27,.23); }

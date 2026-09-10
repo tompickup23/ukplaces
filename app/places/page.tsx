@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { ArrowRight, CheckCircle2, MapPinned } from "lucide-react";
-import Link from "next/link";
 
 import { PlaceFinder } from "../place-finder";
 import { publishedPlaces } from "../data";
@@ -22,7 +21,7 @@ export default function PlacesPage() {
           <div>
             <p className="eyebrow"><MapPinned size={15} aria-hidden="true" /> Place directory</p>
             <h1>Find a local data profile.</h1>
-            <p>Search the profiles that have been checked against their source records. The national directory is growing deliberately, not by filling every place with the same generic text.</p>
+            <p>Browse profiles checked against their source records. The national directory is growing deliberately, not by filling every place with the same generic text.</p>
           </div>
           <PlaceFinder compact />
         </section>
@@ -31,11 +30,11 @@ export default function PlacesPage() {
           <h2 id="published-places-title">Profiles ready to read.</h2>
           <div className="place-grid">
             {publishedPlaces.map((place) => (
-              <Link className="place-tile" href={place.href} key={place.slug}>
+              <a className="place-tile" href={place.href} key={place.slug}>
                 <div><span className="place-tile-type">{place.boundary}</span><h3>{place.name}</h3><p>{place.region}</p></div>
                 <ul>{place.coverage.map((topic) => <li key={topic}><CheckCircle2 size={14} aria-hidden="true" /> {topic}</li>)}</ul>
                 <strong>Open profile <ArrowRight size={16} aria-hidden="true" /></strong>
-              </Link>
+              </a>
             ))}
           </div>
         </section>
