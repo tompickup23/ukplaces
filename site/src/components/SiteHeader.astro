@@ -1,0 +1,27 @@
+---
+import SiteMark from "./SiteMark.astro";
+
+const navigation = [
+  { href: "/places/", label: "Places" },
+  { href: "/sources/", label: "Sources" },
+  { href: "/methodology/", label: "Methodology" },
+];
+---
+
+<header class="site-header">
+  <div class="shell site-header__inner">
+    <a class="site-header__brand" href="/" aria-label="UK Places home">
+      <SiteMark size={30} />
+      <span>UK Places</span>
+    </a>
+    <nav class="site-header__nav" aria-label="Primary navigation">
+      {navigation.map((item) => <a href={item.href}>{item.label}</a>)}
+    </nav>
+    <details class="site-menu">
+      <summary>Menu</summary>
+      <nav aria-label="Primary navigation">
+        {navigation.map((item) => <a href={item.href}>{item.label}</a>)}
+      </nav>
+    </details>
+  </div>
+</header>

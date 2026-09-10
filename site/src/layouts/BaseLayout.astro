@@ -1,5 +1,7 @@
 ---
 import "../styles/global.css";
+import SiteFooter from "../components/SiteFooter.astro";
+import SiteHeader from "../components/SiteHeader.astro";
 import {
   DEFAULT_DESCRIPTION,
   DEFAULT_SOCIAL_IMAGE_PATH,
@@ -60,6 +62,9 @@ const socialImageUrl = /^https?:\/\//.test(image)
     ))}
   </head>
   <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <SiteHeader />
     <slot />
+    <SiteFooter />
   </body>
 </html>
