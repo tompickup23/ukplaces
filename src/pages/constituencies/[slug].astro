@@ -1,0 +1,125 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { SITE_URL } from "../../lib/site";
+import registry from "../../data/registry/places.json";
+import constituencies from "../../data/registry/constituencies.json";
+
+type Place = { gss: string; slug: string; name: string; type: string };
+type Constituency = {
+  slug: string;
+  name: string;
+  pcon24cd: string | null;
+  country: string | null;
+  region: string | null;
+  lad24cds: string[];
+  mp: { name: string; party: string; electedDate: string | null; snapshotDate: string | null } | null;
+  result: { winnerName: string | null; winnerParty: string | null; sourceUrl: string | null; url: string };
+  ukdemographics: { hasPage: boolean; slug: string | null; url: string | null };
+};
+
+export function getStaticPaths() {
+  return Object.values(constituencies).map((constituency) => ({
+    params: { slug: constituency.slug },
+    props: { slug: constituency.slug },
+  }));
+}
+
+const { slug } = Astro.props;
+const constituency = (constituencies as Record<string, Constituency>)[slug];
+const placesByGss = registry as Record<string, Place>;
+const localAuthorities = constituency.lad24cds.map((gss) => ({ gss, place: placesByGss[gss] ?? null }));
+const regionName = constituency.region?.replace(/_/g, " ").replace(/\b\w/g, (letter) => letter.toUpperCase()) ?? null;
+const canonicalUrl = `${SITE_URL}/constituencies/${constituency.slug}/`;
+const description = `${constituency.name} parliamentary constituency geography record: PCON code, constituent local authorities and source links.`;
+const structuredData = [
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "UK Places", item: `${SITE_URL}/` },
+      { "@type": "ListItem", position: 2, name: "Constituencies", item: `${SITE_URL}/constituencies/` },
+      { "@type": "ListItem", position: 3, name: constituency.name, item: canonicalUrl },
+    ],
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "AdministrativeArea",
+    "@id": `${canonicalUrl}#constituency`,
+    name: constituency.name,
+    url: canonicalUrl,
+    ...(constituency.pcon24cd ? {
+      identifier: {
+        "@type": "PropertyValue",
+        propertyID: "PCON code",
+        value: constituency.pcon24cd,
+      },
+    } : {}),
+  },
+];
+
+const formatDate = (date: string) => new Intl.DateTimeFormat("en-GB", {
+  day: "numeric",
+  month: "long",
+  year: "numeric",
+  timeZone: "UTC",
+}).format(new Date(`${date}T00:00:00Z`));
+---
+
+<BaseLayout title={`${constituency.name} constituency`} description={description} structuredData={structuredData}>
+  <main class="shell place-page" id="main-content">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="/">UK Places</a>
+      <span aria-hidden="true">/</span>
+      <a href="/constituencies/">Constituencies</a>
+      <span aria-hidden="true">/</span>
+      <span aria-current="page">{constituency.name}</span>
+    </nav>
+
+    <header class="place-hero">
+      <p class="eyebrow">Parliamentary constituency{regionName && ` · ${regionName}`}</p>
+      <h1>{constituency.name}</h1>
+      {constituency.pcon24cd ? <p class="place-hero__meta">PCON code {constituency.pcon24cd}</p> : <p class="place-hero__summary">PCON code is not present in the source file for this record.</p>}
+    </header>
+
+    <section class="place-section" aria-labelledby="geography-heading">
+      <p class="eyebrow">Geography</p>
+      <h2 id="geography-heading">Constituent local authorities</h2>
+      {localAuthorities.length > 0 ? (
+        <dl class="place-geo">
+          {localAuthorities.map(({ gss, place }) => (
+            <div class="place-geo__item">
+              <dt class="place-geo__label">Local authority</dt>
+              <dd class="place-geo__value">{place ? <a href={`/places/${place.slug}/`}>{place.name}</a> : `GSS code ${gss}`}</dd>
+            </div>
+          ))}
+        </dl>
+      ) : <p class="place-boundary-note">No local-authority codes are present in the source file for this record.</p>}
+    </section>
+
+    <section class="place-section" aria-labelledby="representation-heading">
+      <p class="eyebrow">Representation and result</p>
+      <h2 id="representation-heading">Source records</h2>
+      <dl class="place-geo">
+        <div class="place-geo__item">
+          <dt class="place-geo__label">MP record</dt>
+          <dd class="place-geo__value">
+            {constituency.mp ? <>{constituency.mp.name} · {constituency.mp.party}{constituency.mp.snapshotDate && <><br />Source record last updated {formatDate(constituency.mp.snapshotDate)}.</>}</> : "No MP entry is present in the source file for this record."}
+          </dd>
+        </div>
+        <div class="place-geo__item">
+          <dt class="place-geo__label">Election result</dt>
+          <dd class="place-geo__value">
+            {constituency.result.winnerName && constituency.result.winnerParty && <><span>2024 winner: {constituency.result.winnerName} · {constituency.result.winnerParty}</span><br /></>}
+            <a href={constituency.result.url}>Open the UKE result record</a>
+          </dd>
+        </div>
+        <div class="place-geo__item">
+          <dt class="place-geo__label">UK Demographics</dt>
+          <dd class="place-geo__value">
+            {constituency.ukdemographics.hasPage && constituency.ukdemographics.url ? <a href={constituency.ukdemographics.url}>Open the UK Demographics constituency record</a> : "No confirmed constituency page is present in the source file for this record."}
+          </dd>
+        </div>
+      </dl>
+    </section>
+  </main>
+</BaseLayout>

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "ukelections",
+    "name": "UK Elections",
+    "accent": "#6b5334",
+    "topic": "Election results and representation",
+    "levels": ["local-authority"],
+    "feedPath": "/data/signals/ukelections.json",
+    "schemaVersion": "signals-v1",
+    "siteUrl": "https://ukelections.co.uk"
+  },
+  {
+    "id": "ukdemographics",
+    "name": "UK Demographics",
+    "accent": "#4338ca",
+    "topic": "Population, crime and local context",
+    "levels": ["local-authority"],
+    "feedPath": "/data/signals/ukdemographics.json",
+    "schemaVersion": "signals-v1",
+    "siteUrl": "https://ukdemographics.co.uk"
+  },
+  {
+    "id": "aidoge",
+    "name": "AI DOGE",
+    "accent": "#18718a",
+    "topic": "Published council payment records",
+    "levels": ["local-authority"],
+    "feedPath": "/data/signals/aidoge.json",
+    "schemaVersion": "signals-v1",
+    "siteUrl": "https://aidoge.co.uk"
+  },
+  {
+    "id": "asylumstats",
+    "name": "Asylum Stats",
+    "accent": "#2f5773",
+    "topic": "Home Office asylum support data",
+    "levels": ["local-authority"],
+    "feedPath": "/data/signals/asylumstats.json",
+    "schemaVersion": "signals-v1",
+    "siteUrl": "https://asylumstats.co.uk"
+  }
+]

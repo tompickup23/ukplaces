@@ -1,0 +1,43 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { getRegionGroups, type RegionGroup } from "../../../lib/regions";
+
+export function getStaticPaths() {
+  return getRegionGroups().map((region) => ({
+    params: { slug: region.slug },
+    props: { region },
+  }));
+}
+
+const { region } = Astro.props as { region: RegionGroup };
+const description = `${region.name} local-authority geography records on UK Places.`;
+---
+
+<BaseLayout title={region.name} description={description}>
+  <main class="shell directory-page" id="main-content">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="/">UK Places</a>
+      <span aria-hidden="true">/</span>
+      <a href="/places/">Places</a>
+      <span aria-hidden="true">/</span>
+      <span aria-current="page">{region.name}</span>
+    </nav>
+
+    <section class="directory-hero">
+      <p class="eyebrow">{region.country}</p>
+      <h1>{region.name}</h1>
+      <p>{region.places.length} local-authority geography records.</p>
+    </section>
+
+    <div class="directory-groups">
+      <section class="directory-group">
+        <h2>{region.name} records</h2>
+        <ul class="directory-list">
+          {region.places.map((place) => (
+            <li><a href={`/places/${place.slug}/`}>{place.name}<span>{place.type}</span></a></li>
+          ))}
+        </ul>
+      </section>
+    </div>
+  </main>
+</BaseLayout>

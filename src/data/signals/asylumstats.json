@@ -1,0 +1,2890 @@
+{
+  "E06000001": {
+    "value": 379,
+    "unit": "people on support; 38.03 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/hartlepool/"
+  },
+  "E06000002": {
+    "value": 671,
+    "unit": "people on support; 43.92 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/middlesbrough/"
+  },
+  "E06000003": {
+    "value": 243,
+    "unit": "people on support; 17.41 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/redcar-and-cleveland/"
+  },
+  "E06000004": {
+    "value": 822,
+    "unit": "people on support; 39.68 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/stockton-on-tees/"
+  },
+  "E06000005": {
+    "value": 214,
+    "unit": "people on support; 18.87 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/darlington/"
+  },
+  "E06000006": {
+    "value": 604,
+    "unit": "people on support; 45.79 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/halton/"
+  },
+  "E06000007": {
+    "value": 397,
+    "unit": "people on support; 18.43 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/warrington/"
+  },
+  "E06000008": {
+    "value": 760,
+    "unit": "people on support; 46.40 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/blackburn-with-darwen/"
+  },
+  "E06000009": {
+    "value": 236,
+    "unit": "people on support; 16.45 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/blackpool/"
+  },
+  "E06000010": {
+    "value": 522,
+    "unit": "people on support; 19.10 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/kingston-upon-hull-city-of/"
+  },
+  "E06000011": {
+    "value": 55,
+    "unit": "people on support; 1.53 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/east-riding-of-yorkshire/"
+  },
+  "E06000012": {
+    "value": 267,
+    "unit": "people on support; 16.68 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/north-east-lincolnshire/"
+  },
+  "E06000013": {
+    "value": 87,
+    "unit": "people on support; 5.08 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/north-lincolnshire/"
+  },
+  "E06000014": {
+    "value": 366,
+    "unit": "people on support; 17.50 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/york/"
+  },
+  "E06000015": {
+    "value": 1127,
+    "unit": "people on support; 40.93 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/derby/"
+  },
+  "E06000016": {
+    "value": 1333,
+    "unit": "people on support; 34.79 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/leicester/"
+  },
+  "E06000017": {
+    "value": 8,
+    "unit": "people on support; 1.92 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/rutland/"
+  },
+  "E06000018": {
+    "value": 1352,
+    "unit": "people on support; 41.50 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/nottingham/"
+  },
+  "E06000019": {
+    "value": 25,
+    "unit": "people on support; 1.30 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/herefordshire-county-of/"
+  },
+  "E06000020": {
+    "value": 562,
+    "unit": "people on support; 28.19 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/telford-and-wrekin/"
+  },
+  "E06000021": {
+    "value": 1021,
+    "unit": "people on support; 37.50 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/stoke-on-trent/"
+  },
+  "E06000022": {
+    "value": 4,
+    "unit": "people on support; 0.20 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/bath-and-north-east-somerset/"
+  },
+  "E06000023": {
+    "value": 689,
+    "unit": "people on support; 13.91 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/bristol-city-of/"
+  },
+  "E06000024": {
+    "value": 83,
+    "unit": "people on support; 3.65 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/north-somerset/"
+  },
+  "E06000025": {
+    "value": 151,
+    "unit": "people on support; 4.89 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/south-gloucestershire/"
+  },
+  "E06000026": {
+    "value": 490,
+    "unit": "people on support; 18.06 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/plymouth/"
+  },
+  "E06000027": {
+    "value": 31,
+    "unit": "people on support; 2.22 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/torbay/"
+  },
+  "E06000030": {
+    "value": 511,
+    "unit": "people on support; 20.83 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/swindon/"
+  },
+  "E06000031": {
+    "value": 448,
+    "unit": "people on support; 19.93 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/peterborough/"
+  },
+  "E06000032": {
+    "value": 377,
+    "unit": "people on support; 15.95 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/luton/"
+  },
+  "E06000033": {
+    "value": 264,
+    "unit": "people on support; 14.25 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/southend-on-sea/"
+  },
+  "E06000034": {
+    "value": 155,
+    "unit": "people on support; 8.53 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/thurrock/"
+  },
+  "E06000035": {
+    "value": 346,
+    "unit": "people on support; 11.82 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/medway/"
+  },
+  "E06000036": {
+    "value": 12,
+    "unit": "people on support; 0.91 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/bracknell-forest/"
+  },
+  "E06000037": {
+    "value": 43,
+    "unit": "people on support; 2.60 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/west-berkshire/"
+  },
+  "E06000038": {
+    "value": 523,
+    "unit": "people on support; 28.46 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/reading/"
+  },
+  "E06000039": {
+    "value": 318,
+    "unit": "people on support; 18.99 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/slough/"
+  },
+  "E06000040": {
+    "value": 368,
+    "unit": "people on support; 23.03 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/windsor-and-maidenhead/"
+  },
+  "E06000041": {
+    "value": 125,
+    "unit": "people on support; 6.61 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/wokingham/"
+  },
+  "E06000042": {
+    "value": 443,
+    "unit": "people on support; 14.34 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/milton-keynes/"
+  },
+  "E06000043": {
+    "value": 188,
+    "unit": "people on support; 6.62 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/brighton-and-hove/"
+  },
+  "E06000044": {
+    "value": 660,
+    "unit": "people on support; 31.21 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/portsmouth/"
+  },
+  "E06000045": {
+    "value": 315,
+    "unit": "people on support; 12.15 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/southampton/"
+  },
+  "E06000046": {
+    "value": 0,
+    "unit": "people on support; 0.00 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/isle-of-wight/"
+  },
+  "E06000047": {
+    "value": 634,
+    "unit": "people on support; 11.76 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/county-durham/"
+  },
+  "E06000049": {
+    "value": 358,
+    "unit": "people on support; 8.41 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/cheshire-east/"
+  },
+  "E06000050": {
+    "value": 654,
+    "unit": "people on support; 17.49 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/cheshire-west-and-chester/"
+  },
+  "E06000051": {
+    "value": 111,
+    "unit": "people on support; 3.33 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/shropshire/"
+  },
+  "E06000052": {
+    "value": 15,
+    "unit": "people on support; 0.26 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/cornwall/"
+  },
+  "E06000053": {
+    "value": 0,
+    "unit": "people on support; 0.00 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/isles-of-scilly/"
+  },
+  "E06000054": {
+    "value": 196,
+    "unit": "people on support; 3.72 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/wiltshire/"
+  },
+  "E06000055": {
+    "value": 139,
+    "unit": "people on support; 7.08 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/bedford/"
+  },
+  "E06000056": {
+    "value": 73,
+    "unit": "people on support; 2.27 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/central-bedfordshire/"
+  },
+  "E06000057": {
+    "value": 678,
+    "unit": "people on support; 20.30 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/northumberland/"
+  },
+  "E06000058": {
+    "value": 333,
+    "unit": "people on support; 8.21 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/bournemouth-christchurch-and-poole/"
+  },
+  "E06000059": {
+    "value": 6,
+    "unit": "people on support; 0.15 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/dorset/"
+  },
+  "E06000060": {
+    "value": 180,
+    "unit": "people on support; 3.08 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/buckinghamshire/"
+  },
+  "E06000061": {
+    "value": 641,
+    "unit": "people on support; 16.89 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/north-northamptonshire/"
+  },
+  "E06000062": {
+    "value": 478,
+    "unit": "people on support; 10.76 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/west-northamptonshire/"
+  },
+  "E06000063": {
+    "value": 493,
+    "unit": "people on support; 17.46 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/cumberland/"
+  },
+  "E06000064": {
+    "value": 240,
+    "unit": "people on support; 10.38 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/westmorland-and-furness/"
+  },
+  "E06000065": {
+    "value": 325,
+    "unit": "people on support; 5.09 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/north-yorkshire/"
+  },
+  "E06000066": {
+    "value": 198,
+    "unit": "people on support; 3.35 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/somerset/"
+  },
+  "E07000008": {
+    "value": 14,
+    "unit": "people on support; 0.93 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/cambridge/"
+  },
+  "E07000009": {
+    "value": 20,
+    "unit": "people on support; 2.11 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/east-cambridgeshire/"
+  },
+  "E07000010": {
+    "value": 3,
+    "unit": "people on support; 0.28 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/fenland/"
+  },
+  "E07000011": {
+    "value": 23,
+    "unit": "people on support; 1.20 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/huntingdonshire/"
+  },
+  "E07000012": {
+    "value": 1,
+    "unit": "people on support; 0.06 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/south-cambridgeshire/"
+  },
+  "E07000032": {
+    "value": 124,
+    "unit": "people on support; 9.40 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/amber-valley/"
+  },
+  "E07000033": {
+    "value": 138,
+    "unit": "people on support; 16.35 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/bolsover/"
+  },
+  "E07000034": {
+    "value": 49,
+    "unit": "people on support; 4.60 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/chesterfield/"
+  },
+  "E07000035": {
+    "value": 0,
+    "unit": "people on support; 0.00 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/derbyshire-dales/"
+  },
+  "E07000036": {
+    "value": 90,
+    "unit": "people on support; 7.93 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/erewash/"
+  },
+  "E07000037": {
+    "value": 9,
+    "unit": "people on support; 0.98 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/high-peak/"
+  },
+  "E07000038": {
+    "value": 60,
+    "unit": "people on support; 5.56 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/north-east-derbyshire/"
+  },
+  "E07000039": {
+    "value": 36,
+    "unit": "people on support; 3.01 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/south-derbyshire/"
+  },
+  "E07000040": {
+    "value": 125,
+    "unit": "people on support; 7.83 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/east-devon/"
+  },
+  "E07000041": {
+    "value": 26,
+    "unit": "people on support; 1.89 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/exeter/"
+  },
+  "E07000042": {
+    "value": 0,
+    "unit": "people on support; 0.00 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/mid-devon/"
+  },
+  "E07000043": {
+    "value": 6,
+    "unit": "people on support; 0.59 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/north-devon/"
+  },
+  "E07000044": {
+    "value": 18,
+    "unit": "people on support; 1.93 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/south-hams/"
+  },
+  "E07000045": {
+    "value": 42,
+    "unit": "people on support; 3.03 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/teignbridge/"
+  },
+  "E07000046": {
+    "value": 6,
+    "unit": "people on support; 0.85 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/torridge/"
+  },
+  "E07000047": {
+    "value": 1,
+    "unit": "people on support; 0.17 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/west-devon/"
+  },
+  "E07000061": {
+    "value": 40,
+    "unit": "people on support; 3.85 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/eastbourne/"
+  },
+  "E07000062": {
+    "value": 99,
+    "unit": "people on support; 10.90 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/hastings/"
+  },
+  "E07000063": {
+    "value": 0,
+    "unit": "people on support; 0.00 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/lewes/"
+  },
+  "E07000064": {
+    "value": 6,
+    "unit": "people on support; 0.62 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/rother/"
+  },
+  "E07000065": {
+    "value": 419,
+    "unit": "people on support; 24.89 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/wealden/"
+  },
+  "E07000066": {
+    "value": 352,
+    "unit": "people on support; 18.19 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/basildon/"
+  },
+  "E07000067": {
+    "value": 791,
+    "unit": "people on support; 47.52 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/braintree/"
+  },
+  "E07000068": {
+    "value": 22,
+    "unit": "people on support; 2.75 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/brentwood/"
+  },
+  "E07000069": {
+    "value": 25,
+    "unit": "people on support; 2.76 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/castle-point/"
+  },
+  "E07000070": {
+    "value": 143,
+    "unit": "people on support; 7.50 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/chelmsford/"
+  },
+  "E07000071": {
+    "value": 302,
+    "unit": "people on support; 15.01 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/colchester/"
+  },
+  "E07000072": {
+    "value": 81,
+    "unit": "people on support; 5.85 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/epping-forest/"
+  },
+  "E07000073": {
+    "value": 56,
+    "unit": "people on support; 5.68 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/harlow/"
+  },
+  "E07000074": {
+    "value": 1,
+    "unit": "people on support; 0.14 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/maldon/"
+  },
+  "E07000075": {
+    "value": 141,
+    "unit": "people on support; 15.54 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/rochford/"
+  },
+  "E07000076": {
+    "value": 213,
+    "unit": "people on support; 13.39 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/tendring/"
+  },
+  "E07000077": {
+    "value": 21,
+    "unit": "people on support; 2.17 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/uttlesford/"
+  },
+  "E07000078": {
+    "value": 143,
+    "unit": "people on support; 11.77 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/cheltenham/"
+  },
+  "E07000079": {
+    "value": 0,
+    "unit": "people on support; 0.00 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/cotswold/"
+  },
+  "E07000080": {
+    "value": 6,
+    "unit": "people on support; 0.67 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/forest-of-dean/"
+  },
+  "E07000081": {
+    "value": 290,
+    "unit": "people on support; 20.93 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/gloucester/"
+  },
+  "E07000082": {
+    "value": 13,
+    "unit": "people on support; 1.03 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/stroud/"
+  },
+  "E07000083": {
+    "value": 4,
+    "unit": "people on support; 0.39 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/tewkesbury/"
+  },
+  "E07000084": {
+    "value": 20,
+    "unit": "people on support; 1.03 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/basingstoke-and-deane/"
+  },
+  "E07000085": {
+    "value": 8,
+    "unit": "people on support; 0.61 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/east-hampshire/"
+  },
+  "E07000086": {
+    "value": 10,
+    "unit": "people on support; 0.70 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/eastleigh/"
+  },
+  "E07000087": {
+    "value": 24,
+    "unit": "people on support; 2.08 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/fareham/"
+  },
+  "E07000088": {
+    "value": 23,
+    "unit": "people on support; 2.78 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/gosport/"
+  },
+  "E07000089": {
+    "value": 0,
+    "unit": "people on support; 0.00 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/hart/"
+  },
+  "E07000090": {
+    "value": 15,
+    "unit": "people on support; 1.18 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/havant/"
+  },
+  "E07000091": {
+    "value": 7,
+    "unit": "people on support; 0.40 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/new-forest/"
+  },
+  "E07000092": {
+    "value": 76,
+    "unit": "people on support; 7.16 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/rushmoor/"
+  },
+  "E07000093": {
+    "value": 22,
+    "unit": "people on support; 1.62 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/test-valley/"
+  },
+  "E07000094": {
+    "value": 67,
+    "unit": "people on support; 4.90 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/winchester/"
+  },
+  "E07000095": {
+    "value": 43,
+    "unit": "people on support; 4.17 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/broxbourne/"
+  },
+  "E07000096": {
+    "value": 274,
+    "unit": "people on support; 16.88 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/dacorum/"
+  },
+  "E07000098": {
+    "value": 58,
+    "unit": "people on support; 5.26 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/hertsmere/"
+  },
+  "E07000099": {
+    "value": 8,
+    "unit": "people on support; 0.58 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/north-hertfordshire/"
+  },
+  "E07000102": {
+    "value": 5,
+    "unit": "people on support; 0.52 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/three-rivers/"
+  },
+  "E07000103": {
+    "value": 24,
+    "unit": "people on support; 2.23 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/watford/"
+  },
+  "E07000105": {
+    "value": 38,
+    "unit": "people on support; 2.67 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/ashford/"
+  },
+  "E07000106": {
+    "value": 205,
+    "unit": "people on support; 12.61 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/canterbury/"
+  },
+  "E07000107": {
+    "value": 41,
+    "unit": "people on support; 3.25 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/dartford/"
+  },
+  "E07000108": {
+    "value": 83,
+    "unit": "people on support; 6.86 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/dover/"
+  },
+  "E07000109": {
+    "value": 71,
+    "unit": "people on support; 6.38 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/gravesham/"
+  },
+  "E07000110": {
+    "value": 46,
+    "unit": "people on support; 2.40 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/maidstone/"
+  },
+  "E07000111": {
+    "value": 4,
+    "unit": "people on support; 0.32 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/sevenoaks/"
+  },
+  "E07000112": {
+    "value": 45,
+    "unit": "people on support; 4.01 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/shepway/"
+  },
+  "E07000113": {
+    "value": 77,
+    "unit": "people on support; 4.79 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/swale/"
+  },
+  "E07000114": {
+    "value": 94,
+    "unit": "people on support; 6.55 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/thanet/"
+  },
+  "E07000115": {
+    "value": 9,
+    "unit": "people on support; 0.65 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/tonbridge-and-malling/"
+  },
+  "E07000116": {
+    "value": 1,
+    "unit": "people on support; 0.08 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/tunbridge-wells/"
+  },
+  "E07000117": {
+    "value": 471,
+    "unit": "people on support; 46.66 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/burnley/"
+  },
+  "E07000118": {
+    "value": 239,
+    "unit": "people on support; 19.62 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/chorley/"
+  },
+  "E07000119": {
+    "value": 88,
+    "unit": "people on support; 10.15 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/fylde/"
+  },
+  "E07000120": {
+    "value": 426,
+    "unit": "people on support; 49.02 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/hyndburn/"
+  },
+  "E07000121": {
+    "value": 238,
+    "unit": "people on support; 16.39 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/lancaster/"
+  },
+  "E07000122": {
+    "value": 441,
+    "unit": "people on support; 44.01 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/pendle/"
+  },
+  "E07000123": {
+    "value": 407,
+    "unit": "people on support; 24.74 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/preston/"
+  },
+  "E07000124": {
+    "value": 24,
+    "unit": "people on support; 3.59 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/ribble-valley/"
+  },
+  "E07000125": {
+    "value": 238,
+    "unit": "people on support; 32.30 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/rossendale/"
+  },
+  "E07000126": {
+    "value": 385,
+    "unit": "people on support; 32.75 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/south-ribble/"
+  },
+  "E07000127": {
+    "value": 420,
+    "unit": "people on support; 33.99 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/west-lancashire/"
+  },
+  "E07000128": {
+    "value": 361,
+    "unit": "people on support; 29.95 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/wyre/"
+  },
+  "E07000129": {
+    "value": 34,
+    "unit": "people on support; 3.14 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/blaby/"
+  },
+  "E07000130": {
+    "value": 103,
+    "unit": "people on support; 5.43 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/charnwood/"
+  },
+  "E07000131": {
+    "value": 1,
+    "unit": "people on support; 0.09 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/harborough/"
+  },
+  "E07000132": {
+    "value": 143,
+    "unit": "people on support; 12.09 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/hinckley-and-bosworth/"
+  },
+  "E07000133": {
+    "value": 16,
+    "unit": "people on support; 2.93 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/melton/"
+  },
+  "E07000134": {
+    "value": 101,
+    "unit": "people on support; 8.92 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/north-west-leicestershire/"
+  },
+  "E07000135": {
+    "value": 32,
+    "unit": "people on support; 5.20 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/oadby-and-wigston/"
+  },
+  "E07000136": {
+    "value": 108,
+    "unit": "people on support; 14.98 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/boston/"
+  },
+  "E07000137": {
+    "value": 110,
+    "unit": "people on support; 7.50 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/east-lindsey/"
+  },
+  "E07000138": {
+    "value": 30,
+    "unit": "people on support; 2.90 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/lincoln/"
+  },
+  "E07000139": {
+    "value": 35,
+    "unit": "people on support; 2.84 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/north-kesteven/"
+  },
+  "E07000140": {
+    "value": 76,
+    "unit": "people on support; 7.54 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/south-holland/"
+  },
+  "E07000141": {
+    "value": 283,
+    "unit": "people on support; 19.11 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/south-kesteven/"
+  },
+  "E07000142": {
+    "value": 64,
+    "unit": "people on support; 6.42 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/west-lindsey/"
+  },
+  "E07000143": {
+    "value": 56,
+    "unit": "people on support; 3.78 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/breckland/"
+  },
+  "E07000144": {
+    "value": 13,
+    "unit": "people on support; 0.93 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/broadland/"
+  },
+  "E07000145": {
+    "value": 12,
+    "unit": "people on support; 1.19 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/great-yarmouth/"
+  },
+  "E07000146": {
+    "value": 65,
+    "unit": "people on support; 4.14 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/king-s-lynn-and-west-norfolk/"
+  },
+  "E07000147": {
+    "value": 8,
+    "unit": "people on support; 0.77 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/north-norfolk/"
+  },
+  "E07000148": {
+    "value": 211,
+    "unit": "people on support; 14.48 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/norwich/"
+  },
+  "E07000149": {
+    "value": 19,
+    "unit": "people on support; 1.26 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/south-norfolk/"
+  },
+  "E07000170": {
+    "value": 185,
+    "unit": "people on support; 14.17 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/ashfield/"
+  },
+  "E07000171": {
+    "value": 197,
+    "unit": "people on support; 15.58 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/bassetlaw/"
+  },
+  "E07000172": {
+    "value": 264,
+    "unit": "people on support; 23.17 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/broxtowe/"
+  },
+  "E07000173": {
+    "value": 121,
+    "unit": "people on support; 9.99 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/gedling/"
+  },
+  "E07000174": {
+    "value": 192,
+    "unit": "people on support; 16.89 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/mansfield/"
+  },
+  "E07000175": {
+    "value": 110,
+    "unit": "people on support; 8.55 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/newark-and-sherwood/"
+  },
+  "E07000176": {
+    "value": 60,
+    "unit": "people on support; 4.69 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/rushcliffe/"
+  },
+  "E07000177": {
+    "value": 106,
+    "unit": "people on support; 6.16 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/cherwell/"
+  },
+  "E07000178": {
+    "value": 184,
+    "unit": "people on support; 11.09 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/oxford/"
+  },
+  "E07000179": {
+    "value": 23,
+    "unit": "people on support; 1.45 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/south-oxfordshire/"
+  },
+  "E07000180": {
+    "value": 85,
+    "unit": "people on support; 5.58 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/vale-of-white-horse/"
+  },
+  "E07000181": {
+    "value": 6,
+    "unit": "people on support; 0.49 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/west-oxfordshire/"
+  },
+  "E07000192": {
+    "value": 29,
+    "unit": "people on support; 2.78 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/cannock-chase/"
+  },
+  "E07000193": {
+    "value": 149,
+    "unit": "people on support; 11.33 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/east-staffordshire/"
+  },
+  "E07000194": {
+    "value": 5,
+    "unit": "people on support; 0.44 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/lichfield/"
+  },
+  "E07000195": {
+    "value": 192,
+    "unit": "people on support; 14.99 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/newcastle-under-lyme/"
+  },
+  "E07000196": {
+    "value": 22,
+    "unit": "people on support; 1.92 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/south-staffordshire/"
+  },
+  "E07000197": {
+    "value": 76,
+    "unit": "people on support; 5.32 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/stafford/"
+  },
+  "E07000198": {
+    "value": 36,
+    "unit": "people on support; 3.72 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/staffordshire-moorlands/"
+  },
+  "E07000199": {
+    "value": 133,
+    "unit": "people on support; 16.34 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/tamworth/"
+  },
+  "E07000200": {
+    "value": 6,
+    "unit": "people on support; 0.61 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/babergh/"
+  },
+  "E07000202": {
+    "value": 113,
+    "unit": "people on support; 8.10 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/ipswich/"
+  },
+  "E07000203": {
+    "value": 26,
+    "unit": "people on support; 2.30 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/mid-suffolk/"
+  },
+  "E07000207": {
+    "value": 13,
+    "unit": "people on support; 0.91 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/elmbridge/"
+  },
+  "E07000208": {
+    "value": 3,
+    "unit": "people on support; 0.36 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/epsom-and-ewell/"
+  },
+  "E07000209": {
+    "value": 1,
+    "unit": "people on support; 0.07 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/guildford/"
+  },
+  "E07000210": {
+    "value": 1,
+    "unit": "people on support; 0.11 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/mole-valley/"
+  },
+  "E07000211": {
+    "value": 249,
+    "unit": "people on support; 15.62 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/reigate-and-banstead/"
+  },
+  "E07000212": {
+    "value": 28,
+    "unit": "people on support; 3.01 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/runnymede/"
+  },
+  "E07000213": {
+    "value": 70,
+    "unit": "people on support; 6.53 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/spelthorne/"
+  },
+  "E07000214": {
+    "value": 37,
+    "unit": "people on support; 3.89 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/surrey-heath/"
+  },
+  "E07000215": {
+    "value": 16,
+    "unit": "people on support; 1.77 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/tandridge/"
+  },
+  "E07000216": {
+    "value": 6,
+    "unit": "people on support; 0.44 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/waverley/"
+  },
+  "E07000217": {
+    "value": 7,
+    "unit": "people on support; 0.66 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/woking/"
+  },
+  "E07000218": {
+    "value": 67,
+    "unit": "people on support; 9.90 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/north-warwickshire/"
+  },
+  "E07000219": {
+    "value": 318,
+    "unit": "people on support; 22.08 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/nuneaton-and-bedworth/"
+  },
+  "E07000220": {
+    "value": 567,
+    "unit": "people on support; 45.15 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/rugby/"
+  },
+  "E07000221": {
+    "value": 63,
+    "unit": "people on support; 4.23 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/stratford-on-avon/"
+  },
+  "E07000222": {
+    "value": 380,
+    "unit": "people on support; 24.06 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/warwick/"
+  },
+  "E07000223": {
+    "value": 1,
+    "unit": "people on support; 0.15 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/adur/"
+  },
+  "E07000224": {
+    "value": 3,
+    "unit": "people on support; 0.17 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/arun/"
+  },
+  "E07000225": {
+    "value": 86,
+    "unit": "people on support; 6.60 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/chichester/"
+  },
+  "E07000226": {
+    "value": 301,
+    "unit": "people on support; 24.18 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/crawley/"
+  },
+  "E07000227": {
+    "value": 4,
+    "unit": "people on support; 0.26 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/horsham/"
+  },
+  "E07000228": {
+    "value": 326,
+    "unit": "people on support; 19.93 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/mid-sussex/"
+  },
+  "E07000229": {
+    "value": 19,
+    "unit": "people on support; 1.67 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/worthing/"
+  },
+  "E07000234": {
+    "value": 4,
+    "unit": "people on support; 0.39 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/bromsgrove/"
+  },
+  "E07000235": {
+    "value": 7,
+    "unit": "people on support; 0.83 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/malvern-hills/"
+  },
+  "E07000236": {
+    "value": 13,
+    "unit": "people on support; 1.48 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/redditch/"
+  },
+  "E07000237": {
+    "value": 78,
+    "unit": "people on support; 7.29 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/worcester/"
+  },
+  "E07000238": {
+    "value": 42,
+    "unit": "people on support; 3.02 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/wychavon/"
+  },
+  "E07000239": {
+    "value": 56,
+    "unit": "people on support; 5.38 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/wyre-forest/"
+  },
+  "E07000240": {
+    "value": 24,
+    "unit": "people on support; 1.59 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/st-albans/"
+  },
+  "E07000241": {
+    "value": 131,
+    "unit": "people on support; 10.76 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/welwyn-hatfield/"
+  },
+  "E07000242": {
+    "value": 1,
+    "unit": "people on support; 0.06 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/east-hertfordshire/"
+  },
+  "E07000243": {
+    "value": 267,
+    "unit": "people on support; 29.00 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/stevenage/"
+  },
+  "E07000244": {
+    "value": 66,
+    "unit": "people on support; 2.64 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/east-suffolk/"
+  },
+  "E07000245": {
+    "value": 38,
+    "unit": "people on support; 2.01 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/west-suffolk/"
+  },
+  "E08000001": {
+    "value": 1037,
+    "unit": "people on support; 33.48 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/bolton/"
+  },
+  "E08000002": {
+    "value": 368,
+    "unit": "people on support; 18.47 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/bury/"
+  },
+  "E08000003": {
+    "value": 1509,
+    "unit": "people on support; 25.65 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/manchester/"
+  },
+  "E08000004": {
+    "value": 733,
+    "unit": "people on support; 29.10 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/oldham/"
+  },
+  "E08000005": {
+    "value": 727,
+    "unit": "people on support; 30.59 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/rochdale/"
+  },
+  "E08000006": {
+    "value": 656,
+    "unit": "people on support; 22.09 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/salford/"
+  },
+  "E08000007": {
+    "value": 664,
+    "unit": "people on support; 21.78 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/stockport/"
+  },
+  "E08000008": {
+    "value": 488,
+    "unit": "people on support; 20.26 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/tameside/"
+  },
+  "E08000009": {
+    "value": 165,
+    "unit": "people on support; 6.85 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/trafford/"
+  },
+  "E08000010": {
+    "value": 1193,
+    "unit": "people on support; 34.37 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/wigan/"
+  },
+  "E08000011": {
+    "value": 309,
+    "unit": "people on support; 18.87 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/knowsley/"
+  },
+  "E08000012": {
+    "value": 1961,
+    "unit": "people on support; 38.61 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/liverpool/"
+  },
+  "E08000013": {
+    "value": 560,
+    "unit": "people on support; 29.49 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/st-helens/"
+  },
+  "E08000014": {
+    "value": 411,
+    "unit": "people on support; 14.29 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/sefton/"
+  },
+  "E08000015": {
+    "value": 701,
+    "unit": "people on support; 21.25 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/wirral/"
+  },
+  "E08000017": {
+    "value": 538,
+    "unit": "people on support; 16.66 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/doncaster/"
+  },
+  "E08000018": {
+    "value": 388,
+    "unit": "people on support; 13.90 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/rotherham/"
+  },
+  "E08000021": {
+    "value": 915,
+    "unit": "people on support; 28.52 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/newcastle-upon-tyne/"
+  },
+  "E08000022": {
+    "value": 436,
+    "unit": "people on support; 20.24 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/north-tyneside/"
+  },
+  "E08000023": {
+    "value": 628,
+    "unit": "people on support; 41.52 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/south-tyneside/"
+  },
+  "E08000024": {
+    "value": 823,
+    "unit": "people on support; 28.67 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/sunderland/"
+  },
+  "E08000025": {
+    "value": 2136,
+    "unit": "people on support; 18.15 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/birmingham/"
+  },
+  "E08000026": {
+    "value": 1700,
+    "unit": "people on support; 46.61 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/coventry/"
+  },
+  "E08000027": {
+    "value": 611,
+    "unit": "people on support; 18.30 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/dudley/"
+  },
+  "E08000028": {
+    "value": 1467,
+    "unit": "people on support; 41.57 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/sandwell/"
+  },
+  "E08000029": {
+    "value": 205,
+    "unit": "people on support; 9.26 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/solihull/"
+  },
+  "E08000030": {
+    "value": 663,
+    "unit": "people on support; 22.42 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/walsall/"
+  },
+  "E08000031": {
+    "value": 1018,
+    "unit": "people on support; 36.17 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/wolverhampton/"
+  },
+  "E08000032": {
+    "value": 1097,
+    "unit": "people on support; 19.67 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/bradford/"
+  },
+  "E08000033": {
+    "value": 452,
+    "unit": "people on support; 21.45 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/calderdale/"
+  },
+  "E08000034": {
+    "value": 668,
+    "unit": "people on support; 14.98 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/kirklees/"
+  },
+  "E08000035": {
+    "value": 1365,
+    "unit": "people on support; 16.24 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/leeds/"
+  },
+  "E08000036": {
+    "value": 724,
+    "unit": "people on support; 19.60 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/wakefield/"
+  },
+  "E08000037": {
+    "value": 606,
+    "unit": "people on support; 29.92 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/gateshead/"
+  },
+  "E08000038": {
+    "value": 276,
+    "unit": "people on support; 10.92 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/barnsley/"
+  },
+  "E08000039": {
+    "value": 1034,
+    "unit": "people on support; 17.84 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/sheffield/"
+  },
+  "E09000001": {
+    "value": 1,
+    "unit": "people on support; 0.64 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/city-of-london/"
+  },
+  "E09000002": {
+    "value": 271,
+    "unit": "people on support; 11.37 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/barking-and-dagenham/"
+  },
+  "E09000003": {
+    "value": 878,
+    "unit": "people on support; 21.52 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/barnet/"
+  },
+  "E09000004": {
+    "value": 115,
+    "unit": "people on support; 4.47 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/bexley/"
+  },
+  "E09000005": {
+    "value": 789,
+    "unit": "people on support; 22.40 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/brent/"
+  },
+  "E09000006": {
+    "value": 144,
+    "unit": "people on support; 4.29 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/bromley/"
+  },
+  "E09000007": {
+    "value": 168,
+    "unit": "people on support; 7.75 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/camden/"
+  },
+  "E09000008": {
+    "value": 1008,
+    "unit": "people on support; 24.58 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/croydon/"
+  },
+  "E09000009": {
+    "value": 1073,
+    "unit": "people on support; 27.72 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/ealing/"
+  },
+  "E09000010": {
+    "value": 353,
+    "unit": "people on support; 10.72 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/enfield/"
+  },
+  "E09000011": {
+    "value": 153,
+    "unit": "people on support; 5.08 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/greenwich/"
+  },
+  "E09000012": {
+    "value": 373,
+    "unit": "people on support; 14.01 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/hackney/"
+  },
+  "E09000013": {
+    "value": 225,
+    "unit": "people on support; 11.83 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/hammersmith-and-fulham/"
+  },
+  "E09000014": {
+    "value": 154,
+    "unit": "people on support; 5.78 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/haringey/"
+  },
+  "E09000015": {
+    "value": 343,
+    "unit": "people on support; 12.58 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/harrow/"
+  },
+  "E09000016": {
+    "value": 186,
+    "unit": "people on support; 6.62 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/havering/"
+  },
+  "E09000017": {
+    "value": 1188,
+    "unit": "people on support; 36.37 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/hillingdon/"
+  },
+  "E09000018": {
+    "value": 1139,
+    "unit": "people on support; 38.03 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/hounslow/"
+  },
+  "E09000019": {
+    "value": 66,
+    "unit": "people on support; 2.94 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/islington/"
+  },
+  "E09000020": {
+    "value": 180,
+    "unit": "people on support; 12.35 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/kensington-and-chelsea/"
+  },
+  "E09000021": {
+    "value": 62,
+    "unit": "people on support; 3.59 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/kingston-upon-thames/"
+  },
+  "E09000022": {
+    "value": 285,
+    "unit": "people on support; 9.07 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/lambeth/"
+  },
+  "E09000023": {
+    "value": 210,
+    "unit": "people on support; 6.98 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/lewisham/"
+  },
+  "E09000024": {
+    "value": 209,
+    "unit": "people on support; 9.55 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/merton/"
+  },
+  "E09000025": {
+    "value": 866,
+    "unit": "people on support; 23.00 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/newham/"
+  },
+  "E09000026": {
+    "value": 413,
+    "unit": "people on support; 12.83 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/redbridge/"
+  },
+  "E09000027": {
+    "value": 15,
+    "unit": "people on support; 0.76 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/richmond-upon-thames/"
+  },
+  "E09000028": {
+    "value": 496,
+    "unit": "people on support; 15.88 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/southwark/"
+  },
+  "E09000029": {
+    "value": 28,
+    "unit": "people on support; 1.31 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/sutton/"
+  },
+  "E09000030": {
+    "value": 473,
+    "unit": "people on support; 14.15 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/tower-hamlets/"
+  },
+  "E09000031": {
+    "value": 161,
+    "unit": "people on support; 5.67 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/waltham-forest/"
+  },
+  "E09000032": {
+    "value": 73,
+    "unit": "people on support; 2.15 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/wandsworth/"
+  },
+  "E09000033": {
+    "value": 42,
+    "unit": "people on support; 1.98 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/westminster/"
+  },
+  "N09000001": {
+    "value": 199,
+    "unit": "people on support; 13.44 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/antrim-and-newtownabbey/"
+  },
+  "N09000002": {
+    "value": 72,
+    "unit": "people on support; 3.24 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/armagh-city-banbridge-and-craigavon/"
+  },
+  "N09000003": {
+    "value": 1540,
+    "unit": "people on support; 43.70 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/belfast/"
+  },
+  "N09000004": {
+    "value": 206,
+    "unit": "people on support; 14.51 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/causeway-coast-and-glens/"
+  },
+  "N09000005": {
+    "value": 206,
+    "unit": "people on support; 13.52 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/derry-city-and-strabane/"
+  },
+  "N09000006": {
+    "value": 2,
+    "unit": "people on support; 0.17 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/fermanagh-and-omagh/"
+  },
+  "N09000007": {
+    "value": 16,
+    "unit": "people on support; 1.05 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/lisburn-and-castlereagh/"
+  },
+  "N09000008": {
+    "value": 0,
+    "unit": "people on support; 0.00 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/mid-and-east-antrim/"
+  },
+  "N09000009": {
+    "value": 0,
+    "unit": "people on support; 0.00 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/mid-ulster/"
+  },
+  "N09000010": {
+    "value": 29,
+    "unit": "people on support; 1.58 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/newry-mourne-and-down/"
+  },
+  "N09000011": {
+    "value": 0,
+    "unit": "people on support; 0.00 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/ards-and-north-down/"
+  },
+  "S12000005": {
+    "value": 20,
+    "unit": "people on support; 3.88 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/clackmannanshire/"
+  },
+  "S12000006": {
+    "value": 30,
+    "unit": "people on support; 2.06 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/dumfries-and-galloway/"
+  },
+  "S12000008": {
+    "value": 78,
+    "unit": "people on support; 6.43 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/east-ayrshire/"
+  },
+  "S12000010": {
+    "value": 75,
+    "unit": "people on support; 6.44 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/east-lothian/"
+  },
+  "S12000011": {
+    "value": 9,
+    "unit": "people on support; 0.90 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/east-renfrewshire/"
+  },
+  "S12000013": {
+    "value": 0,
+    "unit": "people on support; 0.00 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/na-h-eileanan-siar/"
+  },
+  "S12000014": {
+    "value": 67,
+    "unit": "people on support; 4.18 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/falkirk/"
+  },
+  "S12000017": {
+    "value": 0,
+    "unit": "people on support; 0.00 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/highland/"
+  },
+  "S12000018": {
+    "value": 261,
+    "unit": "people on support; 33.23 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/inverclyde/"
+  },
+  "S12000019": {
+    "value": 79,
+    "unit": "people on support; 7.87 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/midlothian/"
+  },
+  "S12000020": {
+    "value": 2,
+    "unit": "people on support; 0.21 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/moray/"
+  },
+  "S12000021": {
+    "value": 82,
+    "unit": "people on support; 6.13 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/north-ayrshire/"
+  },
+  "S12000023": {
+    "value": 0,
+    "unit": "people on support; 0.00 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/orkney-islands/"
+  },
+  "S12000026": {
+    "value": 38,
+    "unit": "people on support; 3.25 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/scottish-borders/"
+  },
+  "S12000027": {
+    "value": 0,
+    "unit": "people on support; 0.00 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/shetland-islands/"
+  },
+  "S12000028": {
+    "value": 20,
+    "unit": "people on support; 1.78 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/south-ayrshire/"
+  },
+  "S12000029": {
+    "value": 269,
+    "unit": "people on support; 8.05 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/south-lanarkshire/"
+  },
+  "S12000030": {
+    "value": 6,
+    "unit": "people on support; 0.64 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/stirling/"
+  },
+  "S12000033": {
+    "value": 718,
+    "unit": "people on support; 31.19 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/aberdeen-city/"
+  },
+  "S12000034": {
+    "value": 216,
+    "unit": "people on support; 8.16 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/aberdeenshire/"
+  },
+  "S12000035": {
+    "value": 1,
+    "unit": "people on support; 0.11 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/argyll-and-bute/"
+  },
+  "S12000036": {
+    "value": 181,
+    "unit": "people on support; 3.41 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/city-of-edinburgh/"
+  },
+  "S12000038": {
+    "value": 133,
+    "unit": "people on support; 7.03 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/renfrewshire/"
+  },
+  "S12000039": {
+    "value": 49,
+    "unit": "people on support; 5.55 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/west-dunbartonshire/"
+  },
+  "S12000040": {
+    "value": 31,
+    "unit": "people on support; 1.66 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/west-lothian/"
+  },
+  "S12000041": {
+    "value": 73,
+    "unit": "people on support; 6.37 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/angus/"
+  },
+  "S12000042": {
+    "value": 78,
+    "unit": "people on support; 5.26 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/dundee-city/"
+  },
+  "S12000045": {
+    "value": 17,
+    "unit": "people on support; 1.55 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/east-dunbartonshire/"
+  },
+  "S12000047": {
+    "value": 45,
+    "unit": "people on support; 1.20 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/fife/"
+  },
+  "S12000048": {
+    "value": 70,
+    "unit": "people on support; 4.52 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/perth-and-kinross/"
+  },
+  "S12000049": {
+    "value": 3938,
+    "unit": "people on support; 60.18 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/glasgow-city/"
+  },
+  "S12000050": {
+    "value": 267,
+    "unit": "people on support; 7.76 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/north-lanarkshire/"
+  },
+  "W06000001": {
+    "value": 26,
+    "unit": "people on support; 3.79 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/isle-of-anglesey/"
+  },
+  "W06000002": {
+    "value": 91,
+    "unit": "people on support; 7.56 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/gwynedd/"
+  },
+  "W06000003": {
+    "value": 22,
+    "unit": "people on support; 1.92 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/conwy/"
+  },
+  "W06000004": {
+    "value": 66,
+    "unit": "people on support; 6.72 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/denbighshire/"
+  },
+  "W06000005": {
+    "value": 78,
+    "unit": "people on support; 5.00 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/flintshire/"
+  },
+  "W06000006": {
+    "value": 117,
+    "unit": "people on support; 8.48 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/wrexham/"
+  },
+  "W06000008": {
+    "value": 0,
+    "unit": "people on support; 0.00 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/ceredigion/"
+  },
+  "W06000009": {
+    "value": 16,
+    "unit": "people on support; 1.27 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/pembrokeshire/"
+  },
+  "W06000010": {
+    "value": 60,
+    "unit": "people on support; 3.16 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/carmarthenshire/"
+  },
+  "W06000011": {
+    "value": 618,
+    "unit": "people on support; 24.78 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/swansea/"
+  },
+  "W06000012": {
+    "value": 64,
+    "unit": "people on support; 4.51 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/neath-port-talbot/"
+  },
+  "W06000013": {
+    "value": 41,
+    "unit": "people on support; 2.79 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/bridgend/"
+  },
+  "W06000014": {
+    "value": 21,
+    "unit": "people on support; 1.55 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/vale-of-glamorgan/"
+  },
+  "W06000015": {
+    "value": 1313,
+    "unit": "people on support; 34.42 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/cardiff/"
+  },
+  "W06000016": {
+    "value": 188,
+    "unit": "people on support; 7.80 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/rhondda-cynon-taf/"
+  },
+  "W06000018": {
+    "value": 84,
+    "unit": "people on support; 4.77 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/caerphilly/"
+  },
+  "W06000019": {
+    "value": 42,
+    "unit": "people on support; 6.21 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/blaenau-gwent/"
+  },
+  "W06000020": {
+    "value": 10,
+    "unit": "people on support; 1.06 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/torfaen/"
+  },
+  "W06000021": {
+    "value": 1,
+    "unit": "people on support; 0.10 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/monmouthshire/"
+  },
+  "W06000022": {
+    "value": 306,
+    "unit": "people on support; 18.15 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/newport/"
+  },
+  "W06000023": {
+    "value": 5,
+    "unit": "people on support; 0.37 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/powys/"
+  },
+  "W06000024": {
+    "value": 54,
+    "unit": "people on support; 9.25 per 10,000",
+    "label": "Asylum support",
+    "period": "As at 30 June 2026.",
+    "snapshotDate": "2026-06-30",
+    "url": "https://asylumstats.co.uk/places/merthyr-tydfil/"
+  }
+}

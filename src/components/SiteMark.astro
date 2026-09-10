@@ -1,0 +1,9 @@
+---
+interface Props {
+  size?: number;
+}
+
+const { size = 38 } = Astro.props;
+---
+
+<img src="/uk-places-mark.svg" width={size} height={size} alt="" aria-hidden="true" />

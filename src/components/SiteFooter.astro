@@ -1,0 +1,28 @@
+---
+import SiteMark from "./SiteMark.astro";
+import sources from "../data/sources.json";
+---
+
+<footer class="site-footer">
+  <div class="shell site-footer__inner">
+    <div class="site-footer__identity">
+      <a class="site-footer__brand" href="/">
+        <SiteMark size={30} />
+        <span>UK Places</span>
+      </a>
+      <p>Local data, clearly sourced.</p>
+    </div>
+    <section aria-labelledby="sister-sites-heading">
+      <h2 id="sister-sites-heading">Sister sites</h2>
+      <ul class="site-footer__source-list">
+        {sources.map((source) => <li><a href={source.siteUrl}>{source.name}</a></li>)}
+      </ul>
+    </section>
+    <nav aria-label="Footer navigation">
+      <h2>Explore</h2>
+      <a href="/places/">Places</a>
+      <a href="/sources/">Sources</a>
+      <a href="/methodology/">Methodology</a>
+    </nav>
+  </div>
+</footer>

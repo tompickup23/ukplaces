@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "UK Places registry entry",
+  "type": "object",
+  "additionalProperties": {
+    "$ref": "#/$defs/place"
+  },
+  "$defs": {
+    "coverage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["hasPage", "slug", "url"],
+      "properties": {
+        "hasPage": { "type": "boolean" },
+        "slug": { "type": ["string", "null"] },
+        "url": { "type": ["string", "null"], "format": "uri" }
+      }
+    },
+    "reorganisation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "note", "sourceUrl", "sourceDate"],
+      "properties": {
+        "status": { "type": "string" },
+        "note": { "type": "string" },
+        "sourceUrl": { "type": "string", "format": "uri" },
+        "sourceDate": { "type": "string", "format": "date" }
+      }
+    },
+    "place": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "gss",
+        "slug",
+        "name",
+        "officialName",
+        "type",
+        "country",
+        "region",
+        "county",
+        "parentGss",
+        "wikidata",
+        "reorganisation",
+        "coverage"
+      ],
+      "properties": {
+        "gss": { "type": "string", "pattern": "^[ESWN][0-9]{8}$" },
+        "slug": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+        "name": { "type": "string" },
+        "officialName": { "type": "string" },
+        "type": { "type": "string" },
+        "country": { "type": "string" },
+        "region": { "type": "string" },
+        "county": { "type": ["string", "null"] },
+        "parentGss": { "type": ["string", "null"], "pattern": "^[ESWN][0-9]{8}$" },
+        "wikidata": { "type": ["string", "null"] },
+        "reorganisation": {
+          "anyOf": [
+            { "type": "null" },
+            { "$ref": "#/$defs/reorganisation" }
+          ]
+        },
+        "coverage": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["ukelections", "ukdemographics", "aidoge", "asylumstats"],
+          "properties": {
+            "ukelections": { "$ref": "#/$defs/coverage" },
+            "ukdemographics": { "$ref": "#/$defs/coverage" },
+            "aidoge": { "$ref": "#/$defs/coverage" },
+            "asylumstats": { "$ref": "#/$defs/coverage" }
+          }
+        }
+      }
+    }
+  }
+}

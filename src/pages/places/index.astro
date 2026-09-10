@@ -1,0 +1,60 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import registry from "../../data/registry/places.json";
+import { regionSlug } from "../../lib/regions";
+
+const places = Object.values(registry).sort((left, right) => left.name.localeCompare(right.name));
+const countries = [...new Set(places.map((place) => place.country))].sort();
+const grouped = countries.map((country) => ({
+  country,
+  regions: [...new Set(places.filter((place) => place.country === country).map((place) => place.region))]
+    .sort()
+    .map((region) => ({ region, places: places.filter((place) => place.country === country && place.region === region) })),
+}));
+---
+
+<BaseLayout title="Places" description="Browse all UK Places local-authority geography records.">
+  <main class="shell directory-page" id="main-content">
+    <section class="directory-hero">
+      <p class="eyebrow">Place directory</p>
+      <h1>Browse local-authority records</h1>
+      <p>All {places.length} records remain visible without JavaScript. Use the filter to narrow them by name.</p>
+      <div class="directory-filter">
+        <label for="place-filter">Filter by place name</label>
+        <input id="place-filter" type="search" autocomplete="off" placeholder="Start typing a place name" />
+      </div>
+    </section>
+
+    <div class="directory-groups" id="place-directory">
+      {grouped.map(({ country, regions }) => (
+        <section class="directory-group" data-country={country}>
+          <h2>{country}</h2>
+          {regions.map(({ region, places: regionPlaces }) => (
+            <div data-region={region}>
+              <h3><a href={`/places/regions/${regionSlug(region)}/`}>{region}</a></h3>
+              <ul class="directory-list">
+                {regionPlaces.map((place) => (
+                  <li data-place={place.name.toLowerCase()}><a href={`/places/${place.slug}/`}>{place.name}<span>{place.type}</span></a></li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </section>
+      ))}
+    </div>
+  </main>
+
+  <script is:inline>
+    const input = document.querySelector("#place-filter");
+    const items = [...document.querySelectorAll("[data-place]")];
+    const regions = [...document.querySelectorAll("[data-region]")];
+    const countries = [...document.querySelectorAll("[data-country]")];
+    input?.addEventListener("input", () => {
+      const query = input.value.trim().toLowerCase();
+      for (const item of items) item.hidden = Boolean(query && !item.dataset.place.includes(query));
+      const hasVisiblePlace = (element) => [...element.querySelectorAll("[data-place]")].some((item) => !item.hidden);
+      for (const region of regions) region.hidden = Boolean(query && !hasVisiblePlace(region));
+      for (const country of countries) country.hidden = Boolean(query && !hasVisiblePlace(country));
+    });
+  </script>
+</BaseLayout>

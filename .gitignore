@@ -16,6 +16,9 @@
 /.vinext/
 /out/
 
+# Astro
+/.astro/
+
 # misc
 .DS_Store
 *.pem
