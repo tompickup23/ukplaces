@@ -22,17 +22,18 @@ Baseline `git rev-parse HEAD`: `2685f4f19c42c2d0d4be14fff4c3d40763408ee4`
 
 ## Blocked
 
-- 2026-09-10 — GitHub Pages cutover from the release checklist: blocked because this repository has no GitHub remote and `tompickup23/ukplaces` does not exist. Creating the replacement repository requires Tom to choose the target and visibility before the branch can be pushed, reviewed or connected to the custom domain.
+- 2026-09-10 — HTTPS verification: GitHub Pages has the custom domain and the official apex A and AAAA records resolve publicly, but its API still reports that the certificate does not exist. HTTPS enforcement and the HTTPS-only production check remain pending certificate issuance.
+- 2026-09-10 — Sitemap submission: the currently signed-in Search Console account does not have access to the verified domain property. Submission needs a property-owner session.
 
 ## Release checklist for Tom (step 14 — written only)
 
-- [ ] Push `feat/home-burnley-rework`.
-- [ ] Open a pull request.
-- [ ] Enable GitHub Pages for the repository with the custom domain.
-- [ ] Change DNS from the OpenAI Sites host to GitHub Pages.
+- [x] Push `feat/home-burnley-rework`.
+- [x] Open a pull request.
+- [x] Enable GitHub Pages for the repository with the custom domain.
+- [x] Change DNS from the OpenAI Sites host to GitHub Pages.
 - [ ] Verify HTTPS.
 - [ ] Submit the sitemap in Search Console; the domain is already verified.
-- [ ] Shut down the OpenAI Sites project.
+- [x] Shut down the OpenAI Sites project.
 
 ## Log
 
@@ -52,3 +53,4 @@ Baseline `git rev-parse HEAD`: `2685f4f19c42c2d0d4be14fff4c3d40763408ee4`
 - 2026-09-10 — Step 13: documented the manifest, GSS-keyed feed and registry-coverage contract, made place-page signal loading follow the manifest, and retained a source-onboarding regression test. Verified lint plus the test’s temporary dummy source build, extra Burnley coverage row, unchanged template, restored data and restored production build; next: step 14.
 - 2026-09-10 — Step 14: recorded the release checklist for Tom only. Verified the checklist is written in PROGRESS.md and made no remote, DNS, deployment, hosting or Search Console changes; all steps are now complete.
 - 2026-09-10 — Post-plan hardening: upgraded Astro and its checker, added a production dependency audit to CI, constrained pull-request permissions, added dependency update configuration, and added a scheduled production monitor. Added an accessible constituency filter that preserves the full no-JavaScript directory, plus a weekly source-refresh automation that only accepts confirmed source-derived changes. Verified the full data, build, accessibility, sitemap, parity, production-monitor and browser checks.
+- 2026-09-10 — Release hardening: created and protected the public GitHub repository, merged the reviewed release, enabled Pages, enabled GitHub security controls, and reran the Pages workflow after the DNS cutover. Replaced the apex DNS records with the four official GitHub Pages A records and added the four official AAAA records; public resolvers return all eight records. Removed the former host's custom-domain binding and restricted its site access to the owner. HTTPS certificate issuance and Search Console property access remain recorded under Blocked.
