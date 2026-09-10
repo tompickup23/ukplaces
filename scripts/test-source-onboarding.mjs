@@ -22,6 +22,8 @@ const originals = {
   templateHash: crypto.createHash("sha256").update(fs.readFileSync(placeTemplatePath)).digest("hex"),
 };
 
+const escapeRegExp = (value) => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+
 function runBuild(label) {
   const result = spawnSync(process.execPath, [astroCliPath, "build"], {
     cwd: siteRoot,
@@ -59,8 +61,8 @@ try {
   runBuild("dummy-source");
 
   const burnley = fs.readFileSync(burnleyOutputPath, "utf8");
-  assert.match(burnley, new RegExp(dummyName));
-  assert.match(burnley, new RegExp(dummyUrl));
+  assert.match(burnley, new RegExp(escapeRegExp(dummyName)));
+  assert.match(burnley, new RegExp(escapeRegExp(dummyUrl)));
   assert.equal(
     crypto.createHash("sha256").update(fs.readFileSync(placeTemplatePath)).digest("hex"),
     originals.templateHash,
