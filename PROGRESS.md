@@ -1,0 +1,27 @@
+# UK Places progress
+
+Baseline `git rev-parse HEAD`: `2685f4f19c42c2d0d4be14fff4c3d40763408ee4`
+
+## Steps
+
+- [x] 0. Create PROGRESS.md with this checklist, the baseline revision, and the Blocked and Log sections.
+- [ ] 1. Apply the stopgap fixes to the current vinext site.
+- [ ] 2. Scaffold the Astro site in `site/`.
+- [ ] 3. Build registry v1 for all 361 local authorities.
+- [ ] 4. Create the source manifest and signal feeds.
+- [ ] 5. Build the generated place page.
+- [ ] 6. Build the directory, static pages, sitemap, and robots file.
+- [ ] 7. Build the home page and postcode door.
+- [ ] 8. Implement the header, footer, and type scale.
+- [ ] 9. Check parity against the current vinext site.
+- [ ] 10. Retire vinext and make Astro the root site.
+- [ ] 11. Add constituencies and regions.
+- [ ] 12. Integrate the registry with sister sites on review branches.
+- [ ] 13. Document and test adding a source.
+- [ ] 14. Write the release checklist for Tom only.
+
+## Blocked
+
+## Log
+
+- 2026-09-10 — Step 0: created the progress checklist with baseline `2685f4f19c42c2d0d4be14fff4c3d40763408ee4`; verified the baseline, checklist, Blocked, and Log sections with `rg` and whitespace with `git diff --check`; next: step 1.
