@@ -1,7 +1,0 @@
-<!-- Asylum Stats mark, for light grounds.
-     Two columns, one taller: a plain comparison of two quantities. Estate brand system,
-     23 August 2026. Drawn on the same 64 unit grid as the other four network sites. -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
-  <rect x="17" y="14" width="13" height="36" rx="2" fill="#2f5773"/>
-  <rect x="34" y="27" width="13" height="23" rx="2" fill="#82abcb"/>
-</svg>

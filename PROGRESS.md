@@ -14,7 +14,7 @@ Baseline `git rev-parse HEAD`: `2685f4f19c42c2d0d4be14fff4c3d40763408ee4`
 - [x] 7. Build the home page and postcode door.
 - [x] 8. Implement the header, footer, and type scale.
 - [x] 9. Check parity against the current vinext site.
-- [ ] 10. Retire vinext and make Astro the root site.
+- [x] 10. Retire vinext and make Astro the root site.
 - [ ] 11. Add constituencies and regions.
 - [ ] 12. Integrate the registry with sister sites on review branches.
 - [ ] 13. Document and test adding a source.
@@ -34,3 +34,4 @@ Baseline `git rev-parse HEAD`: `2685f4f19c42c2d0d4be14fff4c3d40763408ee4`
 - 2026-09-10 — Step 7: replaced the temporary home page with an accessible postcode and name finder, source-question cards, and a place-record overview; verified BB11 1PD resolves to Burnley through the live postcode service, invalid postcodes announce an error, a Tab/type/Enter path works, desktop and mobile captures are saved, and the production build, sitemap, text-size and contrast checks pass; next: step 8.
 - 2026-09-10 — Step 8: added neutral shared header/footer chrome, a responsive native mobile menu, visible focus states, and the required type-scale floor across every page; verified the production build, sitemap, text-size and contrast checks, reviewed Burnley at 1440px and 375px, and measured the mobile menu at 44px high; next: step 9.
 - 2026-09-10 — Step 9: built and served both implementations, then verified every one of the six original sitemap routes has a trailing-slash Astro output path and compared title, description and canonical metadata. Canonicals match on all six; Methodology, Sources and Updates metadata is unchanged. Intentional differences: the home title now uses the concise brand name; Places now describes the full local-authority directory; and Burnley now has neutral geography-record metadata rather than the prior topic-led local-data metadata. Next: step 10.
+- 2026-09-10 — Step 10: moved the Astro site to the repository root, removed vinext, Next, UI-library and formatter artefacts, added the GitHub Pages deploy and site-check workflows plus CNAME, and added a retained legacy-route parity check. The existing hosting configuration was left untouched; the formatter configuration was removed because no root script uses it. Verified a clean clone with `npm ci`, build, lint, contrast, text-size, sitemap and parity checks; next: step 11.

@@ -1,0 +1,169 @@
+---
+import SiteMark from "../components/SiteMark.astro";
+import sources from "../data/sources.json";
+import registry from "../data/registry/places.json";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { DEFAULT_DESCRIPTION, SITE_NAME } from "../lib/site";
+
+const places = Object.values(registry)
+  .map(({ gss, name, slug, type }) => ({ gss, name, slug, type }))
+  .sort((left, right) => left.name.localeCompare(right.name));
+
+const sourceAnswers: Record<string, string> = {
+  ukelections: "Who holds local seats and what changed at the last election.",
+  ukdemographics: "Police-recorded crime in context, with dates, rates and the limits of each measure.",
+  aidoge: "Published council payments, suppliers and source files.",
+  asylumstats: "Home Office support data with the reporting period, local rate and a clear definition of what it covers.",
+};
+---
+
+<BaseLayout title={SITE_NAME} description={DEFAULT_DESCRIPTION}>
+  <main class="home-page" id="main-content">
+    <section class="home-hero">
+      <div class="shell home-hero__inner">
+        <div class="home-identity">
+          <SiteMark size={42} />
+          <p class="eyebrow">UK local data directory</p>
+        </div>
+        <h1>Find your local-authority record.</h1>
+        <p class="home-hero__lede">Search by postcode or place name to find the geography, source coverage and dated local signals for an area.</p>
+
+        <form class="place-finder" id="place-finder" novalidate>
+          <label for="place-query">Postcode or place name</label>
+          <div class="place-finder__controls">
+            <input id="place-query" name="place" type="search" autocomplete="postal-code" placeholder="For example, BB11 1PD or Burnley" aria-describedby="postcode-privacy finder-status" />
+            <button type="submit">Find a place</button>
+          </div>
+          <p class="place-finder__privacy" id="postcode-privacy">A postcode is sent to <a href="https://api.postcodes.io/">postcodes.io</a> only to find its local authority. UK Places does not store it.</p>
+          <p class="place-finder__status" id="finder-status" aria-live="polite"></p>
+          <ul class="place-finder__matches" id="place-matches" aria-label="Matching places" hidden></ul>
+        </form>
+      </div>
+    </section>
+
+    <section class="shell home-section" aria-labelledby="source-questions-heading">
+      <p class="eyebrow">Source coverage</p>
+      <h2 id="source-questions-heading">Different questions need different records.</h2>
+      <p class="home-section__intro">Each source answers a distinct local question and keeps its detailed evidence on its own site.</p>
+      <div class="home-source-grid">
+        {sources.map((source) => (
+          <article class="home-source-card" style={`--source-accent: ${source.accent}`}>
+            <h3>{source.name}</h3>
+            <p>{sourceAnswers[source.id]}</p>
+            <a href="/sources/">About this source</a>
+          </article>
+        ))}
+      </div>
+    </section>
+
+    <section class="home-record-section">
+      <div class="shell home-record-section__inner">
+        <p class="eyebrow">What a place record contains</p>
+        <h2>One clear local-authority geography, with the evidence beside it.</h2>
+        <ul>
+          <li>The GSS code and local-authority geography for the record.</li>
+          <li>Links to detailed records where a source confirms coverage.</li>
+          <li>One dated local signal from each available source.</li>
+        </ul>
+        <a class="home-record-section__link" href="/places/">Browse all local-authority records</a>
+      </div>
+    </section>
+  </main>
+
+  <script is:inline id="place-index" type="application/json" set:html={JSON.stringify(places)}></script>
+  <script is:inline>
+    const finder = document.querySelector("#place-finder");
+    const input = document.querySelector("#place-query");
+    const status = document.querySelector("#finder-status");
+    const matchList = document.querySelector("#place-matches");
+    const places = JSON.parse(document.querySelector("#place-index")?.textContent || "[]");
+    const postcodePattern = /^[A-Z]{1,2}\d[A-Z\d]?\s*\d[A-Z]{2}$/i;
+
+    const normalise = (value) => value.trim().toLocaleLowerCase("en-GB");
+    const setStatus = (message) => {
+      status.textContent = message;
+    };
+    const matchingPlaces = (query) => places.filter((place) => normalise(place.name).includes(normalise(query)));
+
+    const renderMatches = (query) => {
+      const matches = query ? matchingPlaces(query).slice(0, 8) : [];
+      matchList.replaceChildren();
+      for (const place of matches) {
+        const item = document.createElement("li");
+        const link = document.createElement("a");
+        const detail = document.createElement("span");
+        link.href = `/places/${place.slug}/`;
+        link.textContent = place.name;
+        detail.textContent = place.type;
+        link.append(document.createElement("br"), detail);
+        item.append(link);
+        matchList.append(item);
+      }
+      matchList.hidden = matches.length === 0;
+    };
+
+    input?.addEventListener("input", () => {
+      const query = input.value.trim();
+      setStatus("");
+      if (!query || postcodePattern.test(query)) {
+        matchList.hidden = true;
+        matchList.replaceChildren();
+        return;
+      }
+      renderMatches(query);
+    });
+
+    finder?.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      const query = input?.value.trim() ?? "";
+      matchList.hidden = true;
+
+      if (!query) {
+        setStatus("Enter a postcode or place name to search the directory.");
+        input?.focus();
+        return;
+      }
+
+      if (!postcodePattern.test(query)) {
+        const matches = matchingPlaces(query);
+        const exactMatch = matches.find((place) => normalise(place.name) === normalise(query));
+        if (exactMatch) {
+          window.location.assign(`/places/${exactMatch.slug}/`);
+          return;
+        }
+        if (matches.length === 1) {
+          window.location.assign(`/places/${matches[0].slug}/`);
+          return;
+        }
+        if (matches.length) {
+          setStatus("Choose a matching local authority from the results below.");
+          renderMatches(query);
+          matchList.querySelector("a")?.focus();
+          return;
+        }
+        setStatus("No local-authority record matches that place name. Try another name or browse the directory.");
+        return;
+      }
+
+      setStatus("Looking up that postcode.");
+      try {
+        const response = await fetch(`https://api.postcodes.io/postcodes/${encodeURIComponent(query)}`);
+        if (!response.ok) throw new Error("postcode-not-found");
+        const payload = await response.json();
+        const postcodeCodes = {
+          adminDistrict: payload?.result?.codes?.admin_district ?? null,
+          parliamentaryConstituency: payload?.result?.codes?.parliamentary_constituency ?? null,
+          adminWard: payload?.result?.codes?.admin_ward ?? null,
+        };
+        const place = places.find((candidate) => candidate.gss === postcodeCodes.adminDistrict);
+        if (place) {
+          window.location.assign(`/places/${place.slug}/`);
+          return;
+        }
+        setStatus("That postcode resolved, but its local authority is not in this directory yet.");
+      } catch {
+        setStatus("We could not find that postcode. Check it and try again.");
+      }
+    });
+  </script>
+</BaseLayout>
