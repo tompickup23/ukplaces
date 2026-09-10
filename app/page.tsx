@@ -1,8 +1,8 @@
-import { ArrowRight, Check, Layers3, MapPin, ShieldCheck } from "lucide-react";
-import Image from "next/image";
+import { ArrowRight, CheckCircle2, Landmark, MapPinned, Search, ShieldCheck } from "lucide-react";
 import Link from "next/link";
 
-import { siteUrl, sources } from "./data";
+import { burnley, siteUrl, sources } from "./data";
+import { PlaceFinder } from "./place-finder";
 import { SiteFooter, SiteHeader } from "./site-shell";
 
 const websiteStructuredData = {
@@ -13,7 +13,7 @@ const websiteStructuredData = {
       "@id": `${siteUrl}/#website`,
       url: siteUrl,
       name: "UK Places",
-      description: "Source-led local data, explained clearly.",
+      description: "Clear, dated local data with direct links to the public records behind it.",
       inLanguage: "en-GB",
     },
     {
@@ -26,6 +26,13 @@ const websiteStructuredData = {
   ],
 };
 
+const topicDescriptions = [
+  ["Representation", "Who holds local seats, what changed at the last election and where to read the full record.", "elections"],
+  ["Crime and community", "Police-recorded crime in context, with dates, rates and the limits of each measure.", "demographics"],
+  ["Public money", "Published council payments, suppliers and source files—without confusing them with a whole budget.", "doge"],
+  ["Asylum support", "Home Office support data with the reporting period, local rate and a clear definition of what it covers.", "asylum"],
+] as const;
+
 export default function Home() {
   return (
     <>
@@ -33,69 +40,65 @@ export default function Home() {
       <SiteHeader />
       <main id="main-content">
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteStructuredData) }} />
-        <section className="home-hero">
-          <div className="home-hero-copy">
-            <p className="eyebrow"><Layers3 size={15} aria-hidden="true" /> UK place profiles</p>
-            <h1>Local data, clearly sourced.</h1>
-            <p className="hero-lede">
-              UK Places brings together the local figures that matter, explains what they
-              measure and links to the specialist record behind each one.
-            </p>
-            <div className="hero-actions">
-              <Link className="button button--primary" href="/places/burnley/">Explore Burnley <ArrowRight size={16} aria-hidden="true" /></Link>
-              <Link className="text-link" href="/methodology/">How we select a place</Link>
-            </div>
+
+        <section className="home-hero-v2" id="find-a-place">
+          <div className="home-hero-copy-v2">
+            <p className="eyebrow"><MapPinned size={15} aria-hidden="true" /> UK local data directory</p>
+            <h1>Know your area. Follow the evidence.</h1>
+            <p className="hero-lede-v2">UK Places brings together the public records that help explain an area—then shows the date, definition and detailed source behind every figure.</p>
+            <PlaceFinder />
+            <p className="finder-caption"><Search size={15} aria-hidden="true" /> Search published profiles. New places are added when their local source coverage has been checked.</p>
           </div>
-          <aside className="hero-index-card" aria-labelledby="index-card-title">
-            <div className="hero-index-head"><p id="index-card-title">The index</p><span>Profile coverage</span></div>
-            <div className="index-count"><strong>01</strong><span>complete place profile</span></div>
-            <Link className="index-place" href="/places/burnley/">
-              <span className="index-place-icon"><MapPin size={18} aria-hidden="true" /></span>
-              <span><strong>Burnley</strong><small>Lancashire · four source-led topics</small></span>
-              <ArrowRight size={17} aria-hidden="true" />
-            </Link>
-            <p className="index-note">More places are added only when each figure can be dated, defined and linked to its full source.</p>
+
+          <aside className="hero-proof-card" aria-labelledby="proof-title">
+            <p className="eyebrow">What you get</p>
+            <h2 id="proof-title">Useful before you click away.</h2>
+            <ul>
+              <li><span>01</span><div><strong>A clear local geography</strong><p>See whether a figure covers a council area, constituency or another defined boundary.</p></div></li>
+              <li><span>02</span><div><strong>Dates beside the data</strong><p>Different sources update at different times. We keep that visible.</p></div></li>
+              <li><span>03</span><div><strong>The full record in one click</strong><p>Every profile sends you to the specialist project that holds the detailed evidence.</p></div></li>
+            </ul>
+            <Link href="/methodology/">How UK Places works <ArrowRight size={16} aria-hidden="true" /></Link>
           </aside>
         </section>
 
-        <section className="directory-section" id="places" aria-labelledby="places-title">
-          <div className="section-heading section-heading--compact">
-            <div><p className="eyebrow"><span className="number-chip">01</span> Places</p><h2 id="places-title">A growing index, not a fake search box.</h2></div>
-            <p>Burnley is the first full profile. It is live because the sources, dates and definitions are all in place.</p>
-          </div>
-          <Link className="place-directory-card" href="/places/burnley/">
-            <div className="place-directory-main"><span className="place-directory-number">01</span><div><p>Burnley · Lancashire</p><h3>Four local records, one clearer starting point.</h3></div></div>
-            <dl className="place-directory-stats">
-              <div><dt>Representation</dt><dd>11 / 45 seats</dd></div>
-              <div><dt>Recorded crime</dt><dd>107.4 / 1,000</dd></div>
-              <div><dt>Published payments</dt><dd>£38.1m</dd></div>
-              <div><dt>Asylum support</dt><dd>471 people</dd></div>
+        <section className="home-featured" aria-labelledby="featured-title">
+          <div className="section-kicker"><span>Published profile</span><p>Each place page is reviewed by source, rather than filled with a generic national description.</p></div>
+          <div className="featured-profile-grid">
+            <div>
+              <p className="eyebrow"><Landmark size={15} aria-hidden="true" /> Burnley · Lancashire</p>
+              <h2 id="featured-title">The first full local profile.</h2>
+              <p>{burnley.description}</p>
+              <Link className="button button--primary" href="/places/burnley/">Read the Burnley profile <ArrowRight size={16} aria-hidden="true" /></Link>
+            </div>
+            <dl className="feature-metric-grid">
+              {burnley.topics.map((topic) => <div className={`feature-metric feature-metric--${topic.theme}`} key={topic.id}><dt>{topic.label}</dt><dd>{topic.value}</dd><small>{topic.valueLabel}</small><span>{topic.dataDate}</span></div>)}
             </dl>
-            <span className="place-directory-cta">Open Burnley profile <ArrowRight size={17} aria-hidden="true" /></span>
-          </Link>
+          </div>
         </section>
 
-        <section className="source-network" aria-labelledby="network-title">
-          <div className="network-intro"><p className="eyebrow">Source network</p><h2 id="network-title">The hub explains. The specialists go deeper.</h2><p>UK Places does not pretend one number tells the whole story. Each profile gives context first, then sends you to the data project built for that subject.</p></div>
-          <div className="source-list">
-            {sources.map((source, index) => (
-              <a className={`source-row source-row--${source.theme}`} href={source.href} key={source.key} rel="noreferrer" target="_blank">
-                <span className="source-number">0{index + 1}</span><Image src={source.logo} alt="" width={116} height={30} /><span className="source-topic">{source.topic}</span><ArrowRight size={17} aria-hidden="true" />
-              </a>
+        <section className="topic-section" id="topics" aria-labelledby="topics-title">
+          <div className="topic-intro"><p className="eyebrow"><ShieldCheck size={15} aria-hidden="true" /> Data topics</p><h2 id="topics-title">Different questions need different records.</h2><p>UK Places keeps local records distinct. A crime rate, election result, payment file and support count should not be rolled into one score.</p></div>
+          <div className="topic-grid">
+            {topicDescriptions.map(([name, description, theme], index) => (
+              <Link className={`topic-card topic-card--${theme}`} href="/places/burnley/" key={name}>
+                <span>0{index + 1}</span><h3>{name}</h3><p>{description}</p><strong>See a local example <ArrowRight size={16} aria-hidden="true" /></strong>
+              </Link>
             ))}
           </div>
         </section>
 
-        <section className="standards-section" aria-labelledby="standards-title">
-          <div><p className="eyebrow"><ShieldCheck size={15} aria-hidden="true" /> Publishing standards</p><h2 id="standards-title">Every number must earn its place.</h2></div>
-          <ol className="standard-list">
-            <li><span>01</span><div><h3>A named source</h3><p>We link to the specialist project and the underlying public record where it is available.</p></div></li>
-            <li><span>02</span><div><h3>A clear date</h3><p>Figures from different systems are never presented as if they were measured on the same day.</p></div></li>
-            <li><span>03</span><div><h3>A useful definition</h3><p>We explain what a figure includes, and just as importantly, what it does not.</p></div></li>
-          </ol>
+        <section className="source-network-v2" aria-labelledby="network-title">
+          <div><p className="eyebrow">The detailed records</p><h2 id="network-title">Start here. Go deeper there.</h2><p>UK Places is the practical starting point. The specialist projects below hold the complete data, methods and source files for each subject.</p><Link className="text-link text-link--light" href="/sources/">See the source directory <ArrowRight size={15} aria-hidden="true" /></Link></div>
+          <div className="source-link-list">
+            {sources.map((source) => <a className={`source-link source-link--${source.theme}`} href={source.href} key={source.key} rel="noreferrer" target="_blank"><span>{source.name}</span><small>{source.topic}</small><ArrowRight size={17} aria-hidden="true" /></a>)}
+          </div>
         </section>
 
-        <section className="home-promise" aria-label="UK Places promise"><Check size={21} aria-hidden="true" /><p><strong>Less noise. Better context.</strong> UK Places helps you find the source, understand the measure and decide what to read next.</p></section>
+        <section className="home-standards" aria-labelledby="standards-title">
+          <div><p className="eyebrow"><CheckCircle2 size={15} aria-hidden="true" /> Publishing standard</p><h2 id="standards-title">Useful beats exhaustive.</h2></div>
+          <div className="standards-copy"><p>We publish a profile only when it can answer real local questions with current, attributable evidence. If a source does not cover an area, we say so rather than use a placeholder.</p><Link href="/places/">Browse published places <ArrowRight size={16} aria-hidden="true" /></Link></div>
+        </section>
       </main>
       <SiteFooter />
     </>

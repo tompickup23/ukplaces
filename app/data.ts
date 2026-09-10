@@ -35,6 +35,20 @@ export const sources = [
   },
 ] as const;
 
+export const publishedPlaces = [
+  {
+    slug: "burnley",
+    name: "Burnley",
+    label: "Burnley local authority area",
+    region: "Lancashire · North West England",
+    boundary: "Local authority area",
+    href: "/places/burnley/",
+    aliases: ["burnley", "burnley borough", "burnley council"],
+    coverage: ["Representation", "Recorded crime", "Council payments", "Asylum support"],
+    profileReviewed: "10 September 2026",
+  },
+] as const;
+
 export const burnley = {
   name: "Burnley",
   region: "Lancashire · North West England",
@@ -145,6 +159,17 @@ export const burnleyStructuredData = {
       inLanguage: "en-GB",
       dateModified: "2026-09-10",
       isPartOf: { "@id": `${siteUrl}/#website` },
+      mainEntity: { "@id": `${siteUrl}/places/burnley/#place` },
+    },
+    {
+      "@type": "AdministrativeArea",
+      "@id": `${siteUrl}/places/burnley/#place`,
+      name: "Burnley",
+      description: "Burnley local authority area in Lancashire, North West England.",
+      containedInPlace: {
+        "@type": "AdministrativeArea",
+        name: "Lancashire",
+      },
     },
     {
       "@type": "BreadcrumbList",

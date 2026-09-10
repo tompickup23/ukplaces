@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
-import { ArrowUpRight, Check, Info, MoveRight } from "lucide-react";
+import { ArrowRight, ArrowUpRight, CalendarDays, CheckCircle2, CircleHelp, FileText, MapPinned } from "lucide-react";
 import Link from "next/link";
 
 import { burnley, burnleyStructuredData } from "../../data";
 import { SiteFooter, SiteHeader } from "../../site-shell";
 
 export const metadata: Metadata = {
-  title: "Burnley local data: elections, crime, payments and asylum support",
-  description: "Burnley local data, clearly sourced: council representation, recorded crime, published council payments and asylum support, with dates and definitions.",
+  title: "Burnley local data: elections, crime, council payments and asylum support",
+  description: "Burnley local authority data: council representation, recorded crime, published council payments and asylum support. Every figure includes its period, definition and source link.",
   alternates: { canonical: "/places/burnley/" },
   openGraph: { url: "/places/burnley/", title: "Burnley local data", description: "Council representation, recorded crime, published payments and asylum support—with dates, definitions and source links.", images: [] },
   twitter: { images: [] },
@@ -21,60 +21,64 @@ export default function BurnleyPage() {
       <main id="main-content">
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(burnleyStructuredData) }} />
         <article>
-          <section className="place-hero">
-            <nav className="breadcrumbs" aria-label="Breadcrumb"><Link href="/">UK Places</Link><span>/</span><Link href="/#places">Places</Link><span>/</span><span aria-current="page">Burnley</span></nav>
-            <div className="place-hero-grid">
+          <section className="profile-hero">
+            <nav className="breadcrumbs" aria-label="Breadcrumb"><Link href="/">UK Places</Link><span>/</span><Link href="/places/">Places</Link><span>/</span><span aria-current="page">Burnley</span></nav>
+            <div className="profile-hero-grid">
               <div>
-                <p className="eyebrow">Burnley · Lancashire</p>
+                <p className="eyebrow"><MapPinned size={15} aria-hidden="true" /> Burnley · Lancashire · North West England</p>
                 <h1>Burnley local data.</h1>
-                <p className="place-lede">{burnley.description}</p>
+                <p className="profile-lede">A clear starting point for Burnley’s council representation, recorded crime, published council payments and asylum support.</p>
+                <div className="profile-actions"><a className="button button--primary" href="#latest-figures">See the latest figures <ArrowRight size={16} aria-hidden="true" /></a><a className="text-link" href="#sources">Check every source</a></div>
               </div>
-              <aside className="review-card">
-                <span>Profile reviewed</span><strong>{burnley.profileReviewed}</strong>
-                <p>Each source has its own reference date. Use the date beside a figure before comparing it with another topic.</p>
+              <aside className="profile-status">
+                <span className="status-label"><CheckCircle2 size={15} aria-hidden="true" /> Profile reviewed</span>
+                <strong>{burnley.profileReviewed}</strong>
+                <dl><div><dt>Geography</dt><dd>Local authority area</dd></div><div><dt>Records included</dt><dd>4 source routes</dd></div></dl>
+                <p>Each record has its own reference date. Read the date beside a figure before comparing it with another subject.</p>
               </aside>
             </div>
           </section>
 
-          <nav className="topic-nav" aria-label="Burnley profile topics">
-            {burnley.topics.map((topic) => <a href={`#${topic.id}`} key={topic.id}><span>{topic.number}</span>{topic.label}</a>)}
-          </nav>
+          <section className="profile-navigation" aria-label="Burnley profile navigation">
+            <div><span>On this page</span><a href="#latest-figures">Latest figures</a><a href="#local-record">The local record</a><a href="#sources">Source ledger</a></div>
+            <p><CalendarDays size={15} aria-hidden="true" /> Reference dates vary by subject; each is shown beside its figure.</p>
+          </section>
 
-          <section className="snapshot-section" aria-labelledby="snapshot-title">
-            <div className="section-heading section-heading--compact"><div><p className="eyebrow"><span className="number-chip">01</span> Latest available figures</p><h2 id="snapshot-title">Start with the measure, not the claim.</h2></div><p>These four records answer different questions. Their source dates are deliberately kept visible.</p></div>
-            <div className="snapshot-grid">
-              {burnley.topics.map((topic) => <a className={`snapshot-card snapshot-card--${topic.theme}`} href={`#${topic.id}`} key={topic.id}><span className="snapshot-source">{topic.source}</span><strong>{topic.value}</strong><span className="snapshot-label">{topic.valueLabel}</span><small>{topic.dataDate}</small></a>)}
+          <section className="profile-snapshot" id="latest-figures" aria-labelledby="snapshot-title">
+            <div className="profile-section-heading"><p className="eyebrow"><span className="number-chip">01</span> Latest figures</p><h2 id="snapshot-title">Four local records, kept separate.</h2><p>These figures answer different questions. Their source date and definition are part of the result—not small print.</p></div>
+            <div className="profile-stat-grid">
+              {burnley.topics.map((topic) => <a className={`profile-stat profile-stat--${topic.theme}`} href={`#${topic.id}`} key={topic.id}><span>{topic.source}</span><strong>{topic.value}</strong><b>{topic.valueLabel}</b><small>{topic.dataDate}</small><ArrowRight size={16} aria-hidden="true" /></a>)}
             </div>
           </section>
 
-          <aside className="reading-note"><Info size={20} aria-hidden="true" /><div><strong>Read this profile with care.</strong><p>Representation, recorded crime, payment records and asylum support are not a single league table. They use different systems, periods and definitions.</p></div></aside>
+          <section className="comparison-note"><CircleHelp size={21} aria-hidden="true" /><div><strong>Do not turn this page into a league table.</strong><p>Representation, recorded crime, payment records and asylum support use different systems and periods. They are useful side by side, but they do not add up to one judgement about Burnley.</p></div></section>
 
-          <section className="evidence-section" aria-labelledby="evidence-title">
-            <div className="evidence-intro"><p className="eyebrow"><span className="number-chip">02</span> Evidence by subject</p><h2 id="evidence-title">What the figures say—and what they do not.</h2></div>
-            <div className="evidence-list">
-              {burnley.topics.map((topic) => (
-                <article className={`evidence-card evidence-card--${topic.theme}`} id={topic.id} key={topic.id}>
-                  <div className="evidence-marker"><span>{topic.number}</span><p>{topic.source}</p></div>
-                  <div className="evidence-copy"><p className="evidence-topic">{topic.label}</p><h3>{topic.headline}</h3><p>{topic.summary}</p><a href={topic.href} rel="noreferrer" target="_blank">Open the {topic.source} record <ArrowUpRight size={15} aria-hidden="true" /></a></div>
-                  <dl className="evidence-metrics">
-                    {topic.metrics.map(([label, value]) => <div key={label}><dt>{label}</dt><dd>{value}</dd></div>)}
-                  </dl>
-                  <div className="evidence-definition"><Info size={16} aria-hidden="true" /><p><strong>What this covers:</strong> {topic.definition}</p></div>
-                </article>
-              ))}
+          <section className="local-record-section" id="local-record" aria-labelledby="record-title">
+            <div className="profile-section-heading"><p className="eyebrow"><span className="number-chip">02</span> The local record</p><h2 id="record-title">What each source says about Burnley.</h2><p>Open the detailed record for current tables, trends, downloads and methodology.</p></div>
+            <div className="profile-content-layout">
+              <aside className="profile-rail"><span>Burnley data</span><a href="#representation">Representation</a><a href="#crime">Crime</a><a href="#payments">Public money</a><a href="#asylum-support">Asylum support</a></aside>
+              <div className="profile-topic-list">
+                {burnley.topics.map((topic) => (
+                  <section className={`profile-topic profile-topic--${topic.theme}`} id={topic.id} key={topic.id}>
+                    <div className="topic-head"><span>{topic.number}</span><p>{topic.source}</p></div>
+                    <div className="topic-main"><p className="topic-question">{topic.label}</p><h3>{topic.headline}</h3><p>{topic.summary}</p><a href={topic.href} rel="noreferrer" target="_blank">Open the full {topic.source} record <ArrowUpRight size={16} aria-hidden="true" /></a></div>
+                    <dl className="topic-metrics">{topic.metrics.map(([label, value]) => <div key={label}><dt>{label}</dt><dd>{value}</dd></div>)}</dl>
+                    <div className="topic-definition"><FileText size={16} aria-hidden="true" /><p><strong>What this covers:</strong> {topic.definition}</p></div>
+                  </section>
+                ))}
+              </div>
             </div>
           </section>
 
-          <section className="source-ledger" aria-labelledby="ledger-title">
-            <div className="ledger-intro"><p className="eyebrow"><span className="number-chip">03</span> Source ledger</p><h2 id="ledger-title">Where each figure comes from.</h2><p>The full methodology, update cadence and data download remain with the specialist project that owns the subject.</p></div>
-            <div className="ledger-table-wrap"><table><thead><tr><th>Subject</th><th>Source and period</th><th>What this profile uses</th><th><span className="sr-only">Source link</span></th></tr></thead><tbody>
-              {burnley.topics.map((topic) => <tr key={topic.id}><th scope="row">{topic.label}</th><td>{topic.source}<small>{topic.dataDate}</small></td><td>{topic.value} · {topic.valueLabel}</td><td><a href={topic.href} rel="noreferrer" target="_blank" aria-label={`Open ${topic.source} record for ${topic.label}`}><ArrowUpRight size={17} aria-hidden="true" /></a></td></tr>)}
-            </tbody></table></div>
+          <section className="source-ledger-v2" id="sources" aria-labelledby="sources-title">
+            <div className="ledger-v2-intro"><p className="eyebrow"><span className="number-chip">03</span> Source ledger</p><h2 id="sources-title">See exactly where the figures come from.</h2><p>UK Places summarises a local signal; the linked specialist project owns the detailed data, update schedule and methodology.</p></div>
+            <div className="source-ledger-list">{burnley.topics.map((topic) => <a href={topic.href} key={topic.id} rel="noreferrer" target="_blank"><span>{topic.label}</span><strong>{topic.source}</strong><small>{topic.dataDate}</small><ArrowUpRight size={17} aria-hidden="true" /></a>)}</div>
           </section>
 
-          <section className="next-read" aria-labelledby="next-read-title"><div><p className="eyebrow">Keep reading</p><h2 id="next-read-title">Understand the method before drawing a conclusion.</h2></div><div><Link href="/methodology/">How UK Places selects and explains data <MoveRight size={18} aria-hidden="true" /></Link><Link href="/sources/">See every source in the network <MoveRight size={18} aria-hidden="true" /></Link></div></section>
-
-          <section className="profile-promise" aria-label="Profile promise"><Check size={21} aria-hidden="true" /><p><strong>Clear context, not a verdict.</strong> For the current detail, trends and methodology, use the specialist source linked in every section.</p></section>
+          <section className="profile-next">
+            <div><p className="eyebrow">Next step</p><h2>Use the detailed record when the decision needs more detail.</h2></div>
+            <div><Link href="/places/">Browse published places <ArrowRight size={17} aria-hidden="true" /></Link><Link href="/methodology/">Read how the figures are selected <ArrowRight size={17} aria-hidden="true" /></Link></div>
+          </section>
         </article>
       </main>
       <SiteFooter />
