@@ -1,0 +1,19 @@
+import type { Metadata } from "next";
+import { Check, Layers3, Scale, Tags } from "lucide-react";
+
+import { SiteFooter, SiteHeader } from "../site-shell";
+
+export const metadata: Metadata = {
+  title: "Methodology",
+  description: "How UK Places selects sources, dates figures and explains local data without overstating what it shows.",
+  alternates: { canonical: "/methodology/" },
+};
+
+export default function MethodologyPage() {
+  return (
+    <><a className="skip-link" href="#main-content">Skip to content</a><SiteHeader /><main id="main-content"><section className="editorial-hero"><p className="eyebrow"><Layers3 size={15} aria-hidden="true" /> Methodology</p><h1>Useful local data needs context.</h1><p>UK Places is a guide to source-led local records. We summarise a figure only when we can say what it measures, when it was reported and where to check it.</p></section>
+      <section className="method-grid" aria-label="UK Places methodology"><article><Tags size={20} aria-hidden="true" /><h2>1. Start with a named source.</h2><p>Every subject belongs to a specialist data project with its own methodology. UK Places links there rather than recreating its full work.</p></article><article><Scale size={20} aria-hidden="true" /><h2>2. Keep unlike measures apart.</h2><p>An election result, crime rate, payment file and support count answer different questions. We do not combine them into a score or use one to explain another.</p></article><article><Check size={20} aria-hidden="true" /><h2>3. Show the date and the limit.</h2><p>We show the relevant period and explain the main boundary of a measure: recorded crime is not all crime, and published payments are not a whole budget.</p></article></section>
+      <section className="editorial-content"><h2>When a place is added</h2><p>A place profile is published only when the source coverage is clear enough to create a useful starting point. We do not use estimates in place of published figures, and we do not fill gaps with a generic national description.</p><h2>Corrections and updates</h2><p>Source projects update on their own schedules. UK Places records the source date beside each local figure and revises the profile when the source changes materially. A source link is always the best place to verify the live record.</p></section>
+    </main><SiteFooter /></>
+  );
+}
