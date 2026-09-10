@@ -5,7 +5,7 @@ Baseline `git rev-parse HEAD`: `2685f4f19c42c2d0d4be14fff4c3d40763408ee4`
 ## Steps
 
 - [x] 0. Create PROGRESS.md with this checklist, the baseline revision, and the Blocked and Log sections.
-- [ ] 1. Apply the stopgap fixes to the current vinext site.
+- [x] 1. Apply the stopgap fixes to the current vinext site.
 - [ ] 2. Scaffold the Astro site in `site/`.
 - [ ] 3. Build registry v1 for all 361 local authorities.
 - [ ] 4. Create the source manifest and signal feeds.
@@ -25,3 +25,4 @@ Baseline `git rev-parse HEAD`: `2685f4f19c42c2d0d4be14fff4c3d40763408ee4`
 ## Log
 
 - 2026-09-10 — Step 0: created the progress checklist with baseline `2685f4f19c42c2d0d4be14fff4c3d40763408ee4`; verified the baseline, checklist, Blocked, and Log sections with `rg` and whitespace with `git diff --check`; next: step 1.
+- 2026-09-10 — Step 1: enabled trailing-slash routing, corrected per-page canonical and social metadata, fixed the Burnley breadcrumb target, and added the branded no-index 404; verified with `npm run build`, a local Wrangler server, `/usr/bin/curl` status/redirect checks, and generated-page metadata/link assertions; this commit is what Tom should deploy to the current host if the migration takes more than a few days; next: step 2.

@@ -9,6 +9,11 @@ export const metadata: Metadata = {
   title: "Browse places",
   description: "Browse published UK Places local-data profiles. Each profile makes its geography, source dates and coverage clear.",
   alternates: { canonical: "/places/" },
+  openGraph: {
+    title: "Browse places | UK Places",
+    description: "Browse published UK Places local-data profiles. Each profile makes its geography, source dates and coverage clear.",
+    url: "/places/",
+  },
 };
 
 export default function PlacesPage() {

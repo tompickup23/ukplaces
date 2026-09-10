@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "UK Places | Local data, clearly sourced",
     description: "Source-led local data, explained clearly. Start with Burnley’s election, crime, published payment and asylum support records.",
-    url: siteUrl,
+    url: `${siteUrl}/`,
     siteName: "UK Places",
     locale: "en_GB",
     type: "website",

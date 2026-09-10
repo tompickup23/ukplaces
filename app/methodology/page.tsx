@@ -7,6 +7,11 @@ export const metadata: Metadata = {
   title: "Methodology",
   description: "How UK Places selects sources, dates figures and explains local data without overstating what it shows.",
   alternates: { canonical: "/methodology/" },
+  openGraph: {
+    title: "Methodology | UK Places",
+    description: "How UK Places selects sources, dates figures and explains local data without overstating what it shows.",
+    url: "/methodology/",
+  },
 };
 
 export default function MethodologyPage() {

@@ -175,7 +175,7 @@ export const burnleyStructuredData = {
       "@type": "BreadcrumbList",
       itemListElement: [
         { "@type": "ListItem", position: 1, name: "UK Places", item: siteUrl },
-        { "@type": "ListItem", position: 2, name: "Places", item: `${siteUrl}/#places` },
+        { "@type": "ListItem", position: 2, name: "Places", item: `${siteUrl}/places/` },
         { "@type": "ListItem", position: 3, name: "Burnley", item: `${siteUrl}/places/burnley/` },
       ],
     },

@@ -5,7 +5,16 @@ import Image from "next/image";
 import { sources } from "../data";
 import { SiteFooter, SiteHeader } from "../site-shell";
 
-export const metadata: Metadata = { title: "Sources", description: "The specialist UK data projects linked by UK Places and the subjects each one covers.", alternates: { canonical: "/sources/" } };
+export const metadata: Metadata = {
+  title: "Sources",
+  description: "The specialist UK data projects linked by UK Places and the subjects each one covers.",
+  alternates: { canonical: "/sources/" },
+  openGraph: {
+    title: "Sources | UK Places",
+    description: "The specialist UK data projects linked by UK Places and the subjects each one covers.",
+    url: "/sources/",
+  },
+};
 
 export default function SourcesPage() {
   return (

@@ -8,8 +8,13 @@ export const metadata: Metadata = {
   title: "Burnley local data: elections, crime, council payments and asylum support",
   description: "Burnley local authority data: council representation, recorded crime, published council payments and asylum support. Every figure includes its period, definition and source link.",
   alternates: { canonical: "/places/burnley/" },
-  openGraph: { url: "/places/burnley/", title: "Burnley local data", description: "Council representation, recorded crime, published payments and asylum support—with dates, definitions and source links.", images: [] },
-  twitter: { images: [] },
+  openGraph: {
+    url: "/places/burnley/",
+    title: "Burnley local data | UK Places",
+    description: "Council representation, recorded crime, published payments and asylum support—with dates, definitions and source links.",
+    images: [{ url: "/og.png", width: 1200, height: 630, alt: "UK Places — Local data, clearly sourced." }],
+  },
+  twitter: { images: ["/og.png"] },
 };
 
 export default function BurnleyPage() {

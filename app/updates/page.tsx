@@ -3,7 +3,16 @@ import { Clock3 } from "lucide-react";
 
 import { SiteFooter, SiteHeader } from "../site-shell";
 
-export const metadata: Metadata = { title: "Updates", description: "A concise record of material UK Places profile updates and source-review dates.", alternates: { canonical: "/updates/" } };
+export const metadata: Metadata = {
+  title: "Updates",
+  description: "A concise record of material UK Places profile updates and source-review dates.",
+  alternates: { canonical: "/updates/" },
+  openGraph: {
+    title: "Updates | UK Places",
+    description: "A concise record of material UK Places profile updates and source-review dates.",
+    url: "/updates/",
+  },
+};
 
 export default function UpdatesPage() {
   return (
