@@ -1,0 +1,17 @@
+---
+import SiteMark from "../components/SiteMark.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { SITE_NAME } from "../lib/site";
+---
+
+<BaseLayout title={SITE_NAME}>
+  <main class="shell">
+    <div class="site-intro">
+      <SiteMark />
+      <div>
+        <p class="eyebrow">Local data, clearly sourced</p>
+        <h1>UK Places</h1>
+      </div>
+    </div>
+  </main>
+</BaseLayout>
