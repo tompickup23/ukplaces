@@ -43,7 +43,7 @@ assert.deepEqual(feeds.ukdemographics.E07000117, {
   url: "https://ukdemographics.co.uk/places/burnley/",
 });
 assert.deepEqual(feeds.aidoge.E07000117, {
-  value: 38056787,
+  value: "£38,056,787",
   unit: "GBP",
   label: "Published payments",
   period: "2025/26",

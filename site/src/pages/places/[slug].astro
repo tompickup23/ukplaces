@@ -1,0 +1,136 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { SITE_URL } from "../../lib/site";
+import registry from "../../data/registry/places.json";
+import constituenciesByPlace from "../../data/registry/place-constituencies.json";
+import sources from "../../data/sources.json";
+import aidogeSignals from "../../data/signals/aidoge.json";
+import asylumstatsSignals from "../../data/signals/asylumstats.json";
+import ukdemographicsSignals from "../../data/signals/ukdemographics.json";
+import ukelectionsSignals from "../../data/signals/ukelections.json";
+
+const feeds = {
+  ukelections: ukelectionsSignals,
+  ukdemographics: ukdemographicsSignals,
+  aidoge: aidogeSignals,
+  asylumstats: asylumstatsSignals,
+};
+
+export function getStaticPaths() {
+  return Object.values(registry).map((place) => ({
+    params: { slug: place.slug },
+    props: { gss: place.gss },
+  }));
+}
+
+const { gss } = Astro.props;
+const place = registry[gss];
+const constituencies = constituenciesByPlace[gss] ?? [];
+const coverageRows = sources
+  .filter((source) => place.coverage[source.id].hasPage)
+  .map((source) => ({ source, signal: feeds[source.id][gss] }));
+const reviewDates = coverageRows
+  .map(({ signal }) => signal.snapshotDate)
+  .filter((date) => typeof date === "string")
+  .sort();
+const lastReviewed = reviewDates.at(-1) ?? null;
+const canonicalUrl = `${SITE_URL}/places/${place.slug}/`;
+const description = `${place.name} geography record: local authority code, geography and source coverage.`;
+const structuredData = [
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "UK Places", item: `${SITE_URL}/` },
+      { "@type": "ListItem", position: 2, name: "Places", item: `${SITE_URL}/places/` },
+      { "@type": "ListItem", position: 3, name: place.name, item: canonicalUrl },
+    ],
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "AdministrativeArea",
+    "@id": `${canonicalUrl}#place`,
+    name: place.name,
+    url: canonicalUrl,
+    identifier: {
+      "@type": "PropertyValue",
+      propertyID: "GSS code",
+      value: place.gss,
+    },
+    ...(place.wikidata ? { sameAs: place.wikidata } : {}),
+  },
+];
+const formatSignal = (signal) => signal.unit === "GBP" ? signal.value : `${signal.value} ${signal.unit}`;
+
+const formatDate = (date) => new Intl.DateTimeFormat("en-GB", {
+  day: "numeric",
+  month: "long",
+  year: "numeric",
+  timeZone: "UTC",
+}).format(new Date(`${date}T00:00:00Z`));
+---
+
+<BaseLayout title={place.name} description={description} structuredData={structuredData}>
+  <main class="shell place-page">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="/">UK Places</a>
+      <span aria-hidden="true">/</span>
+      <a href="/places/">Places</a>
+      <span aria-hidden="true">/</span>
+      <span aria-current="page">{place.name}</span>
+    </nav>
+
+    <header class="place-hero">
+      <p class="eyebrow">{place.type} · {place.region}</p>
+      <h1>{place.name}</h1>
+      <p class="place-hero__meta">GSS code {place.gss}</p>
+      {lastReviewed && <p class="place-hero__summary">Last reviewed {formatDate(lastReviewed)} from the latest source snapshot on this record.</p>}
+    </header>
+
+    <section class="place-section" aria-labelledby="geography-heading">
+      <p class="eyebrow">Geography</p>
+      <h2 id="geography-heading">The local-authority record</h2>
+      <dl class="place-geo">
+        <div class="place-geo__item"><dt class="place-geo__label">Council</dt><dd class="place-geo__value">{place.officialName}</dd></div>
+        <div class="place-geo__item"><dt class="place-geo__label">Authority type</dt><dd class="place-geo__value">{place.type}</dd></div>
+        <div class="place-geo__item"><dt class="place-geo__label">Country and region</dt><dd class="place-geo__value">{place.country} · {place.region}</dd></div>
+        {place.county && <div class="place-geo__item"><dt class="place-geo__label">Ceremonial county</dt><dd class="place-geo__value">{place.county}</dd></div>}
+        {place.parentGss && <div class="place-geo__item"><dt class="place-geo__label">Parent county GSS code</dt><dd class="place-geo__value">{place.parentGss}</dd></div>}
+        {constituencies.length > 0 && <div class="place-geo__item"><dt class="place-geo__label">Westminster constituency</dt><dd class="place-geo__value">{constituencies.map((constituency, index) => <Fragment>{index > 0 && ", "}<a href={constituency.url}>{constituency.name}</a></Fragment>)}</dd></div>}
+        {place.reorganisation && <div class="place-geo__item"><dt class="place-geo__label">Reorganisation</dt><dd class="place-geo__value">{place.reorganisation.note} <a href={place.reorganisation.sourceUrl}>Source</a></dd></div>}
+      </dl>
+      <p class="place-boundary-note"><strong>What this record is:</strong> this is the {place.type.toLowerCase()} named {place.name}; it is a geography record rather than a record for a settlement with the same name.</p>
+    </section>
+
+    <section class="place-section" aria-labelledby="coverage-heading">
+      <p class="eyebrow">Coverage</p>
+      <h2 id="coverage-heading">One current signal from each detailed source</h2>
+      <div class="place-coverage">
+        {coverageRows.map(({ source, signal }) => (
+          <article class="place-source" style={`--source-accent: ${source.accent}`}>
+            <span class="place-source__name">{source.name}</span>
+            {signal.value === null ? (
+              <p class="place-source__empty">This source has a place page, but no current signal is available in the source data read for this build.</p>
+            ) : (
+              <>
+                <strong class="place-source__signal">{formatSignal(signal)}</strong>
+                <span>{signal.label}</span>
+                <span class="place-source__period">{signal.period}</span>
+              </>
+            )}
+            <a class="place-source__link" href={signal.url ?? place.coverage[source.id].url}>Open the detailed {source.name} record</a>
+          </article>
+        ))}
+      </div>
+    </section>
+
+    <section class="place-section place-sources" aria-labelledby="sources-heading">
+      <p class="eyebrow">Sources and dates</p>
+      <h2 id="sources-heading">Each source keeps its own update cycle</h2>
+      <p class="place-sources__intro">The linked source holds the full record, methodology and latest detailed data.</p>
+      <dl class="place-sources__dates">
+        {coverageRows.map(({ source, signal }) => signal.snapshotDate && <div><dt>{source.name}</dt><dd>{formatDate(signal.snapshotDate)}</dd></div>)}
+      </dl>
+    </section>
+  </main>
+</BaseLayout>

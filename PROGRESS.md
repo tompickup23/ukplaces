@@ -9,7 +9,7 @@ Baseline `git rev-parse HEAD`: `2685f4f19c42c2d0d4be14fff4c3d40763408ee4`
 - [x] 2. Scaffold the Astro site in `site/`.
 - [x] 3. Build registry v1 for all 361 local authorities.
 - [x] 4. Create the source manifest and signal feeds.
-- [ ] 5. Build the generated place page.
+- [x] 5. Build the generated place page.
 - [ ] 6. Build the directory, static pages, sitemap, and robots file.
 - [ ] 7. Build the home page and postcode door.
 - [ ] 8. Implement the header, footer, and type scale.
@@ -29,3 +29,4 @@ Baseline `git rev-parse HEAD`: `2685f4f19c42c2d0d4be14fff4c3d40763408ee4`
 - 2026-09-10 — Step 2: created the static Astro scaffold in `site/`, with the neutral shared-token mapping, self-hosted identity assets, and the shared layout, site library, and components structure; verified `npm --prefix site run build` produces `site/dist/index.html`, assets are present, and the Astro configuration has the required static, trailing-slash, and canonical-site settings without a UI framework or Tailwind; next: step 3.
 - 2026-09-10 — Step 3: generated the GSS-keyed registry for all 361 local authorities, with source-confirmed coverage links, county relationships, neutral nulls for unverified identifiers, and the Lancashire reorganisation record from the local decision data; verified regeneration, 361-entry/unique URL/GSS/slug tests, an Astro build, exact Burnley coverage, and ten randomly selected live coverage URLs returning 200; next: step 4.
 - 2026-09-10 — Step 4: added the four-source manifest and regenerated six-field signal feeds from the sister datasets, leaving unavailable source records null; verified every feed has 361 entries and exactly six fields per signal, Burnley matches the required signals, and the Astro build passes; next: step 5.
+- 2026-09-10 — Step 5: generated the 361 data-driven place pages with geography, source coverage, dates, metadata and structured data, plus source-confirmed constituency membership; verified all 361 pages render, ten random titles/descriptions are unique, Burnley matches the supplied board and structured-data checks, and text-size and contrast scripts pass; next: step 6.

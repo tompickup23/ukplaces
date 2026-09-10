@@ -1,0 +1,5468 @@
+{
+  "E06000001": [
+    {
+      "pcon24cd": "E14001272",
+      "name": "Hartlepool",
+      "slug": "hartlepool",
+      "url": "https://ukelections.co.uk/seats/parliament/hartlepool/"
+    }
+  ],
+  "E06000002": [
+    {
+      "pcon24cd": "E14001367",
+      "name": "Middlesbrough and Thornaby East",
+      "slug": "middlesbrough-and-thornaby-east",
+      "url": "https://ukelections.co.uk/seats/parliament/middlesbrough-and-thornaby-east/"
+    },
+    {
+      "pcon24cd": "E14001368",
+      "name": "Middlesbrough South and East Cleveland",
+      "slug": "middlesbrough-south-and-east-cleveland",
+      "url": "https://ukelections.co.uk/seats/parliament/middlesbrough-south-and-east-cleveland/"
+    }
+  ],
+  "E06000003": [
+    {
+      "pcon24cd": "E14001368",
+      "name": "Middlesbrough South and East Cleveland",
+      "slug": "middlesbrough-south-and-east-cleveland",
+      "url": "https://ukelections.co.uk/seats/parliament/middlesbrough-south-and-east-cleveland/"
+    },
+    {
+      "pcon24cd": "E14001440",
+      "name": "Redcar",
+      "slug": "redcar",
+      "url": "https://ukelections.co.uk/seats/parliament/redcar/"
+    }
+  ],
+  "E06000004": [
+    {
+      "pcon24cd": "E14001367",
+      "name": "Middlesbrough and Thornaby East",
+      "slug": "middlesbrough-and-thornaby-east",
+      "url": "https://ukelections.co.uk/seats/parliament/middlesbrough-and-thornaby-east/"
+    },
+    {
+      "pcon24cd": "E14001518",
+      "name": "Stockton North",
+      "slug": "stockton-north",
+      "url": "https://ukelections.co.uk/seats/parliament/stockton-north/"
+    },
+    {
+      "pcon24cd": "E14001519",
+      "name": "Stockton West",
+      "slug": "stockton-west",
+      "url": "https://ukelections.co.uk/seats/parliament/stockton-west/"
+    }
+  ],
+  "E06000005": [
+    {
+      "pcon24cd": "E14001190",
+      "name": "Darlington",
+      "slug": "darlington",
+      "url": "https://ukelections.co.uk/seats/parliament/darlington/"
+    },
+    {
+      "pcon24cd": "E14001519",
+      "name": "Stockton West",
+      "slug": "stockton-west",
+      "url": "https://ukelections.co.uk/seats/parliament/stockton-west/"
+    }
+  ],
+  "E06000006": [
+    {
+      "pcon24cd": "E14001455",
+      "name": "Runcorn and Helsby",
+      "slug": "runcorn-and-helsby",
+      "url": "https://ukelections.co.uk/seats/parliament/runcorn-and-helsby/"
+    },
+    {
+      "pcon24cd": "E14001584",
+      "name": "Widnes and Halewood",
+      "slug": "widnes-and-halewood",
+      "url": "https://ukelections.co.uk/seats/parliament/widnes-and-halewood/"
+    }
+  ],
+  "E06000007": [
+    {
+      "pcon24cd": "E14001539",
+      "name": "Tatton",
+      "slug": "tatton",
+      "url": "https://ukelections.co.uk/seats/parliament/tatton/"
+    },
+    {
+      "pcon24cd": "E14001564",
+      "name": "Warrington North",
+      "slug": "warrington-north",
+      "url": "https://ukelections.co.uk/seats/parliament/warrington-north/"
+    },
+    {
+      "pcon24cd": "E14001565",
+      "name": "Warrington South",
+      "slug": "warrington-south",
+      "url": "https://ukelections.co.uk/seats/parliament/warrington-south/"
+    }
+  ],
+  "E06000008": [
+    {
+      "pcon24cd": "E14001102",
+      "name": "Blackburn",
+      "slug": "blackburn",
+      "url": "https://ukelections.co.uk/seats/parliament/blackburn/"
+    },
+    {
+      "pcon24cd": "E14001450",
+      "name": "Rossendale and Darwen",
+      "slug": "rossendale-and-darwen",
+      "url": "https://ukelections.co.uk/seats/parliament/rossendale-and-darwen/"
+    }
+  ],
+  "E06000009": [
+    {
+      "pcon24cd": "E14001104",
+      "name": "Blackpool North and Fleetwood",
+      "slug": "blackpool-north-and-fleetwood",
+      "url": "https://ukelections.co.uk/seats/parliament/blackpool-north-and-fleetwood/"
+    },
+    {
+      "pcon24cd": "E14001105",
+      "name": "Blackpool South",
+      "slug": "blackpool-south",
+      "url": "https://ukelections.co.uk/seats/parliament/blackpool-south/"
+    }
+  ],
+  "E06000010": [
+    {
+      "pcon24cd": "E14001313",
+      "name": "Kingston upon Hull East",
+      "slug": "kingston-upon-hull-east",
+      "url": "https://ukelections.co.uk/seats/parliament/kingston-upon-hull-east/"
+    },
+    {
+      "pcon24cd": "E14001314",
+      "name": "Kingston upon Hull North and Cottingham",
+      "slug": "kingston-upon-hull-north-and-cottingham",
+      "url": "https://ukelections.co.uk/seats/parliament/kingston-upon-hull-north-and-cottingham/"
+    },
+    {
+      "pcon24cd": "E14001315",
+      "name": "Kingston upon Hull West and Haltemprice",
+      "slug": "kingston-upon-hull-west-and-haltemprice",
+      "url": "https://ukelections.co.uk/seats/parliament/kingston-upon-hull-west-and-haltemprice/"
+    }
+  ],
+  "E06000011": [
+    {
+      "pcon24cd": "E14001087",
+      "name": "Beverley and Holderness",
+      "slug": "beverley-and-holderness",
+      "url": "https://ukelections.co.uk/seats/parliament/beverley-and-holderness/"
+    },
+    {
+      "pcon24cd": "E14001127",
+      "name": "Bridlington and The Wolds",
+      "slug": "bridlington-and-the-wolds",
+      "url": "https://ukelections.co.uk/seats/parliament/bridlington-and-the-wolds/"
+    },
+    {
+      "pcon24cd": "E14001250",
+      "name": "Goole and Pocklington",
+      "slug": "goole-and-pocklington",
+      "url": "https://ukelections.co.uk/seats/parliament/goole-and-pocklington/"
+    },
+    {
+      "pcon24cd": "E14001314",
+      "name": "Kingston upon Hull North and Cottingham",
+      "slug": "kingston-upon-hull-north-and-cottingham",
+      "url": "https://ukelections.co.uk/seats/parliament/kingston-upon-hull-north-and-cottingham/"
+    },
+    {
+      "pcon24cd": "E14001315",
+      "name": "Kingston upon Hull West and Haltemprice",
+      "slug": "kingston-upon-hull-west-and-haltemprice",
+      "url": "https://ukelections.co.uk/seats/parliament/kingston-upon-hull-west-and-haltemprice/"
+    }
+  ],
+  "E06000012": [
+    {
+      "pcon24cd": "E14001128",
+      "name": "Brigg and Immingham",
+      "slug": "brigg-and-immingham",
+      "url": "https://ukelections.co.uk/seats/parliament/brigg-and-immingham/"
+    },
+    {
+      "pcon24cd": "E14001255",
+      "name": "Great Grimsby and Cleethorpes",
+      "slug": "great-grimsby-and-cleethorpes",
+      "url": "https://ukelections.co.uk/seats/parliament/great-grimsby-and-cleethorpes/"
+    }
+  ],
+  "E06000013": [
+    {
+      "pcon24cd": "E14001128",
+      "name": "Brigg and Immingham",
+      "slug": "brigg-and-immingham",
+      "url": "https://ukelections.co.uk/seats/parliament/brigg-and-immingham/"
+    },
+    {
+      "pcon24cd": "E14001199",
+      "name": "Doncaster East and the Isle of Axholme",
+      "slug": "doncaster-east-and-the-isle-of-axholme",
+      "url": "https://ukelections.co.uk/seats/parliament/doncaster-east-and-the-isle-of-axholme/"
+    },
+    {
+      "pcon24cd": "E14001462",
+      "name": "Scunthorpe",
+      "slug": "scunthorpe",
+      "url": "https://ukelections.co.uk/seats/parliament/scunthorpe/"
+    }
+  ],
+  "E06000014": [
+    {
+      "pcon24cd": "E14001604",
+      "name": "York Central",
+      "slug": "york-central",
+      "url": "https://ukelections.co.uk/seats/parliament/york-central/"
+    },
+    {
+      "pcon24cd": "E14001605",
+      "name": "York Outer",
+      "slug": "york-outer",
+      "url": "https://ukelections.co.uk/seats/parliament/york-outer/"
+    }
+  ],
+  "E06000015": [
+    {
+      "pcon24cd": "E14001193",
+      "name": "Derby North",
+      "slug": "derby-north",
+      "url": "https://ukelections.co.uk/seats/parliament/derby-north/"
+    },
+    {
+      "pcon24cd": "E14001194",
+      "name": "Derby South",
+      "slug": "derby-south",
+      "url": "https://ukelections.co.uk/seats/parliament/derby-south/"
+    },
+    {
+      "pcon24cd": "E14001362",
+      "name": "Mid Derbyshire",
+      "slug": "mid-derbyshire",
+      "url": "https://ukelections.co.uk/seats/parliament/mid-derbyshire/"
+    }
+  ],
+  "E06000016": [
+    {
+      "pcon24cd": "E14001326",
+      "name": "Leicester East",
+      "slug": "leicester-east",
+      "url": "https://ukelections.co.uk/seats/parliament/leicester-east/"
+    },
+    {
+      "pcon24cd": "E14001327",
+      "name": "Leicester South",
+      "slug": "leicester-south",
+      "url": "https://ukelections.co.uk/seats/parliament/leicester-south/"
+    },
+    {
+      "pcon24cd": "E14001328",
+      "name": "Leicester West",
+      "slug": "leicester-west",
+      "url": "https://ukelections.co.uk/seats/parliament/leicester-west/"
+    }
+  ],
+  "E06000017": [
+    {
+      "pcon24cd": "E14001458",
+      "name": "Rutland and Stamford",
+      "slug": "rutland-and-stamford",
+      "url": "https://ukelections.co.uk/seats/parliament/rutland-and-stamford/"
+    }
+  ],
+  "E06000018": [
+    {
+      "pcon24cd": "E14001410",
+      "name": "Nottingham East",
+      "slug": "nottingham-east",
+      "url": "https://ukelections.co.uk/seats/parliament/nottingham-east/"
+    },
+    {
+      "pcon24cd": "E14001411",
+      "name": "Nottingham North and Kimberley",
+      "slug": "nottingham-north-and-kimberley",
+      "url": "https://ukelections.co.uk/seats/parliament/nottingham-north-and-kimberley/"
+    },
+    {
+      "pcon24cd": "E14001412",
+      "name": "Nottingham South",
+      "slug": "nottingham-south",
+      "url": "https://ukelections.co.uk/seats/parliament/nottingham-south/"
+    }
+  ],
+  "E06000019": [
+    {
+      "pcon24cd": "E14001281",
+      "name": "Hereford and South Herefordshire",
+      "slug": "hereford-and-south-herefordshire",
+      "url": "https://ukelections.co.uk/seats/parliament/hereford-and-south-herefordshire/"
+    },
+    {
+      "pcon24cd": "E14001395",
+      "name": "North Herefordshire",
+      "slug": "north-herefordshire",
+      "url": "https://ukelections.co.uk/seats/parliament/north-herefordshire/"
+    }
+  ],
+  "E06000020": [
+    {
+      "pcon24cd": "E14001541",
+      "name": "Telford",
+      "slug": "telford",
+      "url": "https://ukelections.co.uk/seats/parliament/telford/"
+    },
+    {
+      "pcon24cd": "E14001543",
+      "name": "The Wrekin",
+      "slug": "the-wrekin",
+      "url": "https://ukelections.co.uk/seats/parliament/the-wrekin/"
+    }
+  ],
+  "E06000021": [
+    {
+      "pcon24cd": "E14001520",
+      "name": "Stoke-on-Trent Central",
+      "slug": "stoke-on-trent-central",
+      "url": "https://ukelections.co.uk/seats/parliament/stoke-on-trent-central/"
+    },
+    {
+      "pcon24cd": "E14001521",
+      "name": "Stoke-on-Trent North",
+      "slug": "stoke-on-trent-north",
+      "url": "https://ukelections.co.uk/seats/parliament/stoke-on-trent-north/"
+    },
+    {
+      "pcon24cd": "E14001522",
+      "name": "Stoke-on-Trent South",
+      "slug": "stoke-on-trent-south",
+      "url": "https://ukelections.co.uk/seats/parliament/stoke-on-trent-south/"
+    }
+  ],
+  "E06000022": [
+    {
+      "pcon24cd": "E14001080",
+      "name": "Bath",
+      "slug": "bath",
+      "url": "https://ukelections.co.uk/seats/parliament/bath/"
+    },
+    {
+      "pcon24cd": "E14001241",
+      "name": "Frome and East Somerset",
+      "slug": "frome-and-east-somerset",
+      "url": "https://ukelections.co.uk/seats/parliament/frome-and-east-somerset/"
+    },
+    {
+      "pcon24cd": "E14001394",
+      "name": "North East Somerset and Hanham",
+      "slug": "north-east-somerset-and-hanham",
+      "url": "https://ukelections.co.uk/seats/parliament/north-east-somerset-and-hanham/"
+    }
+  ],
+  "E06000023": [
+    {
+      "pcon24cd": "E14001131",
+      "name": "Bristol Central",
+      "slug": "bristol-central",
+      "url": "https://ukelections.co.uk/seats/parliament/bristol-central/"
+    },
+    {
+      "pcon24cd": "E14001132",
+      "name": "Bristol East",
+      "slug": "bristol-east",
+      "url": "https://ukelections.co.uk/seats/parliament/bristol-east/"
+    },
+    {
+      "pcon24cd": "E14001133",
+      "name": "Bristol North East",
+      "slug": "bristol-north-east",
+      "url": "https://ukelections.co.uk/seats/parliament/bristol-north-east/"
+    },
+    {
+      "pcon24cd": "E14001134",
+      "name": "Bristol North West",
+      "slug": "bristol-north-west",
+      "url": "https://ukelections.co.uk/seats/parliament/bristol-north-west/"
+    },
+    {
+      "pcon24cd": "E14001135",
+      "name": "Bristol South",
+      "slug": "bristol-south",
+      "url": "https://ukelections.co.uk/seats/parliament/bristol-south/"
+    }
+  ],
+  "E06000024": [
+    {
+      "pcon24cd": "E14001399",
+      "name": "North Somerset",
+      "slug": "north-somerset",
+      "url": "https://ukelections.co.uk/seats/parliament/north-somerset/"
+    },
+    {
+      "pcon24cd": "E14001572",
+      "name": "Wells and Mendip Hills",
+      "slug": "wells-and-mendip-hills",
+      "url": "https://ukelections.co.uk/seats/parliament/wells-and-mendip-hills/"
+    },
+    {
+      "pcon24cd": "E14001581",
+      "name": "Weston-super-Mare",
+      "slug": "weston-super-mare",
+      "url": "https://ukelections.co.uk/seats/parliament/weston-super-mare/"
+    }
+  ],
+  "E06000025": [
+    {
+      "pcon24cd": "E14001133",
+      "name": "Bristol North East",
+      "slug": "bristol-north-east",
+      "url": "https://ukelections.co.uk/seats/parliament/bristol-north-east/"
+    },
+    {
+      "pcon24cd": "E14001237",
+      "name": "Filton and Bradley Stoke",
+      "slug": "filton-and-bradley-stoke",
+      "url": "https://ukelections.co.uk/seats/parliament/filton-and-bradley-stoke/"
+    },
+    {
+      "pcon24cd": "E14001394",
+      "name": "North East Somerset and Hanham",
+      "slug": "north-east-somerset-and-hanham",
+      "url": "https://ukelections.co.uk/seats/parliament/north-east-somerset-and-hanham/"
+    },
+    {
+      "pcon24cd": "E14001545",
+      "name": "Thornbury and Yate",
+      "slug": "thornbury-and-yate",
+      "url": "https://ukelections.co.uk/seats/parliament/thornbury-and-yate/"
+    }
+  ],
+  "E06000026": [
+    {
+      "pcon24cd": "E14001426",
+      "name": "Plymouth Moor View",
+      "slug": "plymouth-moor-view",
+      "url": "https://ukelections.co.uk/seats/parliament/plymouth-moor-view/"
+    },
+    {
+      "pcon24cd": "E14001427",
+      "name": "Plymouth Sutton and Devonport",
+      "slug": "plymouth-sutton-and-devonport",
+      "url": "https://ukelections.co.uk/seats/parliament/plymouth-sutton-and-devonport/"
+    },
+    {
+      "pcon24cd": "E14001495",
+      "name": "South West Devon",
+      "slug": "south-west-devon",
+      "url": "https://ukelections.co.uk/seats/parliament/south-west-devon/"
+    }
+  ],
+  "E06000027": [
+    {
+      "pcon24cd": "E14001484",
+      "name": "South Devon",
+      "slug": "south-devon",
+      "url": "https://ukelections.co.uk/seats/parliament/south-devon/"
+    },
+    {
+      "pcon24cd": "E14001551",
+      "name": "Torbay",
+      "slug": "torbay",
+      "url": "https://ukelections.co.uk/seats/parliament/torbay/"
+    }
+  ],
+  "E06000030": [
+    {
+      "pcon24cd": "E14001217",
+      "name": "East Wiltshire",
+      "slug": "east-wiltshire",
+      "url": "https://ukelections.co.uk/seats/parliament/east-wiltshire/"
+    },
+    {
+      "pcon24cd": "E14001536",
+      "name": "Swindon North",
+      "slug": "swindon-north",
+      "url": "https://ukelections.co.uk/seats/parliament/swindon-north/"
+    },
+    {
+      "pcon24cd": "E14001537",
+      "name": "Swindon South",
+      "slug": "swindon-south",
+      "url": "https://ukelections.co.uk/seats/parliament/swindon-south/"
+    }
+  ],
+  "E06000031": [
+    {
+      "pcon24cd": "E14001401",
+      "name": "North West Cambridgeshire",
+      "slug": "north-west-cambridgeshire",
+      "url": "https://ukelections.co.uk/seats/parliament/north-west-cambridgeshire/"
+    },
+    {
+      "pcon24cd": "E14001425",
+      "name": "Peterborough",
+      "slug": "peterborough",
+      "url": "https://ukelections.co.uk/seats/parliament/peterborough/"
+    }
+  ],
+  "E06000032": [
+    {
+      "pcon24cd": "E14001345",
+      "name": "Luton North",
+      "slug": "luton-north",
+      "url": "https://ukelections.co.uk/seats/parliament/luton-north/"
+    },
+    {
+      "pcon24cd": "E14001346",
+      "name": "Luton South and South Bedfordshire",
+      "slug": "luton-south-and-south-bedfordshire",
+      "url": "https://ukelections.co.uk/seats/parliament/luton-south-and-south-bedfordshire/"
+    }
+  ],
+  "E06000033": [
+    {
+      "pcon24cd": "E14001501",
+      "name": "Southend East and Rochford",
+      "slug": "southend-east-and-rochford",
+      "url": "https://ukelections.co.uk/seats/parliament/southend-east-and-rochford/"
+    },
+    {
+      "pcon24cd": "E14001502",
+      "name": "Southend West and Leigh",
+      "slug": "southend-west-and-leigh",
+      "url": "https://ukelections.co.uk/seats/parliament/southend-west-and-leigh/"
+    }
+  ],
+  "E06000034": [
+    {
+      "pcon24cd": "E14001480",
+      "name": "South Basildon and East Thurrock",
+      "slug": "south-basildon-and-east-thurrock",
+      "url": "https://ukelections.co.uk/seats/parliament/south-basildon-and-east-thurrock/"
+    },
+    {
+      "pcon24cd": "E14001546",
+      "name": "Thurrock",
+      "slug": "thurrock",
+      "url": "https://ukelections.co.uk/seats/parliament/thurrock/"
+    }
+  ],
+  "E06000035": [
+    {
+      "pcon24cd": "E14001157",
+      "name": "Chatham and Aylesford",
+      "slug": "chatham-and-aylesford",
+      "url": "https://ukelections.co.uk/seats/parliament/chatham-and-aylesford/"
+    },
+    {
+      "pcon24cd": "E14001246",
+      "name": "Gillingham and Rainham",
+      "slug": "gillingham-and-rainham",
+      "url": "https://ukelections.co.uk/seats/parliament/gillingham-and-rainham/"
+    },
+    {
+      "pcon24cd": "E14001447",
+      "name": "Rochester and Strood",
+      "slug": "rochester-and-strood",
+      "url": "https://ukelections.co.uk/seats/parliament/rochester-and-strood/"
+    }
+  ],
+  "E06000036": [
+    {
+      "pcon24cd": "E14001117",
+      "name": "Bracknell",
+      "slug": "bracknell",
+      "url": "https://ukelections.co.uk/seats/parliament/bracknell/"
+    },
+    {
+      "pcon24cd": "E14001348",
+      "name": "Maidenhead",
+      "slug": "maidenhead",
+      "url": "https://ukelections.co.uk/seats/parliament/maidenhead/"
+    }
+  ],
+  "E06000037": [
+    {
+      "pcon24cd": "E14001376",
+      "name": "Newbury",
+      "slug": "newbury",
+      "url": "https://ukelections.co.uk/seats/parliament/newbury/"
+    },
+    {
+      "pcon24cd": "E14001439",
+      "name": "Reading West and Mid Berkshire",
+      "slug": "reading-west-and-mid-berkshire",
+      "url": "https://ukelections.co.uk/seats/parliament/reading-west-and-mid-berkshire/"
+    }
+  ],
+  "E06000038": [
+    {
+      "pcon24cd": "E14001210",
+      "name": "Earley and Woodley",
+      "slug": "earley-and-woodley",
+      "url": "https://ukelections.co.uk/seats/parliament/earley-and-woodley/"
+    },
+    {
+      "pcon24cd": "E14001438",
+      "name": "Reading Central",
+      "slug": "reading-central",
+      "url": "https://ukelections.co.uk/seats/parliament/reading-central/"
+    },
+    {
+      "pcon24cd": "E14001439",
+      "name": "Reading West and Mid Berkshire",
+      "slug": "reading-west-and-mid-berkshire",
+      "url": "https://ukelections.co.uk/seats/parliament/reading-west-and-mid-berkshire/"
+    }
+  ],
+  "E06000039": [
+    {
+      "pcon24cd": "E14001477",
+      "name": "Slough",
+      "slug": "slough",
+      "url": "https://ukelections.co.uk/seats/parliament/slough/"
+    },
+    {
+      "pcon24cd": "E14001588",
+      "name": "Windsor",
+      "slug": "windsor",
+      "url": "https://ukelections.co.uk/seats/parliament/windsor/"
+    }
+  ],
+  "E06000040": [
+    {
+      "pcon24cd": "E14001348",
+      "name": "Maidenhead",
+      "slug": "maidenhead",
+      "url": "https://ukelections.co.uk/seats/parliament/maidenhead/"
+    },
+    {
+      "pcon24cd": "E14001588",
+      "name": "Windsor",
+      "slug": "windsor",
+      "url": "https://ukelections.co.uk/seats/parliament/windsor/"
+    }
+  ],
+  "E06000041": [
+    {
+      "pcon24cd": "E14001210",
+      "name": "Earley and Woodley",
+      "slug": "earley-and-woodley",
+      "url": "https://ukelections.co.uk/seats/parliament/earley-and-woodley/"
+    },
+    {
+      "pcon24cd": "E14001593",
+      "name": "Wokingham",
+      "slug": "wokingham",
+      "url": "https://ukelections.co.uk/seats/parliament/wokingham/"
+    }
+  ],
+  "E06000042": [
+    {
+      "pcon24cd": "E14001141",
+      "name": "Buckingham and Bletchley",
+      "slug": "buckingham-and-bletchley",
+      "url": "https://ukelections.co.uk/seats/parliament/buckingham-and-bletchley/"
+    },
+    {
+      "pcon24cd": "E14001369",
+      "name": "Milton Keynes Central",
+      "slug": "milton-keynes-central",
+      "url": "https://ukelections.co.uk/seats/parliament/milton-keynes-central/"
+    },
+    {
+      "pcon24cd": "E14001370",
+      "name": "Milton Keynes North",
+      "slug": "milton-keynes-north",
+      "url": "https://ukelections.co.uk/seats/parliament/milton-keynes-north/"
+    }
+  ],
+  "E06000043": [
+    {
+      "pcon24cd": "E14001129",
+      "name": "Brighton Kemptown and Peacehaven",
+      "slug": "brighton-kemptown-and-peacehaven",
+      "url": "https://ukelections.co.uk/seats/parliament/brighton-kemptown-and-peacehaven/"
+    },
+    {
+      "pcon24cd": "E14001130",
+      "name": "Brighton Pavilion",
+      "slug": "brighton-pavilion",
+      "url": "https://ukelections.co.uk/seats/parliament/brighton-pavilion/"
+    },
+    {
+      "pcon24cd": "E14001296",
+      "name": "Hove and Portslade",
+      "slug": "hove-and-portslade",
+      "url": "https://ukelections.co.uk/seats/parliament/hove-and-portslade/"
+    }
+  ],
+  "E06000044": [
+    {
+      "pcon24cd": "E14001431",
+      "name": "Portsmouth North",
+      "slug": "portsmouth-north",
+      "url": "https://ukelections.co.uk/seats/parliament/portsmouth-north/"
+    },
+    {
+      "pcon24cd": "E14001432",
+      "name": "Portsmouth South",
+      "slug": "portsmouth-south",
+      "url": "https://ukelections.co.uk/seats/parliament/portsmouth-south/"
+    }
+  ],
+  "E06000045": [
+    {
+      "pcon24cd": "E14001449",
+      "name": "Romsey and Southampton North",
+      "slug": "romsey-and-southampton-north",
+      "url": "https://ukelections.co.uk/seats/parliament/romsey-and-southampton-north/"
+    },
+    {
+      "pcon24cd": "E14001499",
+      "name": "Southampton Itchen",
+      "slug": "southampton-itchen",
+      "url": "https://ukelections.co.uk/seats/parliament/southampton-itchen/"
+    },
+    {
+      "pcon24cd": "E14001500",
+      "name": "Southampton Test",
+      "slug": "southampton-test",
+      "url": "https://ukelections.co.uk/seats/parliament/southampton-test/"
+    }
+  ],
+  "E06000046": [
+    {
+      "pcon24cd": "E14001303",
+      "name": "Isle of Wight East",
+      "slug": "isle-of-wight-east",
+      "url": "https://ukelections.co.uk/seats/parliament/isle-of-wight-east/"
+    },
+    {
+      "pcon24cd": "E14001304",
+      "name": "Isle of Wight West",
+      "slug": "isle-of-wight-west",
+      "url": "https://ukelections.co.uk/seats/parliament/isle-of-wight-west/"
+    }
+  ],
+  "E06000047": [
+    {
+      "pcon24cd": "E14001101",
+      "name": "Bishop Auckland",
+      "slug": "bishop-auckland",
+      "url": "https://ukelections.co.uk/seats/parliament/bishop-auckland/"
+    },
+    {
+      "pcon24cd": "E14001106",
+      "name": "Blaydon and Consett",
+      "slug": "blaydon-and-consett",
+      "url": "https://ukelections.co.uk/seats/parliament/blaydon-and-consett/"
+    },
+    {
+      "pcon24cd": "E14001173",
+      "name": "City of Durham",
+      "slug": "city-of-durham",
+      "url": "https://ukelections.co.uk/seats/parliament/city-of-durham/"
+    },
+    {
+      "pcon24cd": "E14001211",
+      "name": "Easington",
+      "slug": "easington",
+      "url": "https://ukelections.co.uk/seats/parliament/easington/"
+    },
+    {
+      "pcon24cd": "E14001382",
+      "name": "Newton Aycliffe and Spennymoor",
+      "slug": "newton-aycliffe-and-spennymoor",
+      "url": "https://ukelections.co.uk/seats/parliament/newton-aycliffe-and-spennymoor/"
+    },
+    {
+      "pcon24cd": "E14001389",
+      "name": "North Durham",
+      "slug": "north-durham",
+      "url": "https://ukelections.co.uk/seats/parliament/north-durham/"
+    }
+  ],
+  "E06000049": [
+    {
+      "pcon24cd": "E14001164",
+      "name": "Chester South and Eddisbury",
+      "slug": "chester-south-and-eddisbury",
+      "url": "https://ukelections.co.uk/seats/parliament/chester-south-and-eddisbury/"
+    },
+    {
+      "pcon24cd": "E14001178",
+      "name": "Congleton",
+      "slug": "congleton",
+      "url": "https://ukelections.co.uk/seats/parliament/congleton/"
+    },
+    {
+      "pcon24cd": "E14001185",
+      "name": "Crewe and Nantwich",
+      "slug": "crewe-and-nantwich",
+      "url": "https://ukelections.co.uk/seats/parliament/crewe-and-nantwich/"
+    },
+    {
+      "pcon24cd": "E14001347",
+      "name": "Macclesfield",
+      "slug": "macclesfield",
+      "url": "https://ukelections.co.uk/seats/parliament/macclesfield/"
+    },
+    {
+      "pcon24cd": "E14001361",
+      "name": "Mid Cheshire",
+      "slug": "mid-cheshire",
+      "url": "https://ukelections.co.uk/seats/parliament/mid-cheshire/"
+    },
+    {
+      "pcon24cd": "E14001539",
+      "name": "Tatton",
+      "slug": "tatton",
+      "url": "https://ukelections.co.uk/seats/parliament/tatton/"
+    }
+  ],
+  "E06000050": [
+    {
+      "pcon24cd": "E14001163",
+      "name": "Chester North and Neston",
+      "slug": "chester-north-and-neston",
+      "url": "https://ukelections.co.uk/seats/parliament/chester-north-and-neston/"
+    },
+    {
+      "pcon24cd": "E14001164",
+      "name": "Chester South and Eddisbury",
+      "slug": "chester-south-and-eddisbury",
+      "url": "https://ukelections.co.uk/seats/parliament/chester-south-and-eddisbury/"
+    },
+    {
+      "pcon24cd": "E14001222",
+      "name": "Ellesmere Port and Bromborough",
+      "slug": "ellesmere-port-and-bromborough",
+      "url": "https://ukelections.co.uk/seats/parliament/ellesmere-port-and-bromborough/"
+    },
+    {
+      "pcon24cd": "E14001361",
+      "name": "Mid Cheshire",
+      "slug": "mid-cheshire",
+      "url": "https://ukelections.co.uk/seats/parliament/mid-cheshire/"
+    },
+    {
+      "pcon24cd": "E14001455",
+      "name": "Runcorn and Helsby",
+      "slug": "runcorn-and-helsby",
+      "url": "https://ukelections.co.uk/seats/parliament/runcorn-and-helsby/"
+    },
+    {
+      "pcon24cd": "E14001539",
+      "name": "Tatton",
+      "slug": "tatton",
+      "url": "https://ukelections.co.uk/seats/parliament/tatton/"
+    }
+  ],
+  "E06000051": [
+    {
+      "pcon24cd": "E14001398",
+      "name": "North Shropshire",
+      "slug": "north-shropshire",
+      "url": "https://ukelections.co.uk/seats/parliament/north-shropshire/"
+    },
+    {
+      "pcon24cd": "E14001473",
+      "name": "Shrewsbury",
+      "slug": "shrewsbury",
+      "url": "https://ukelections.co.uk/seats/parliament/shrewsbury/"
+    },
+    {
+      "pcon24cd": "E14001493",
+      "name": "South Shropshire",
+      "slug": "south-shropshire",
+      "url": "https://ukelections.co.uk/seats/parliament/south-shropshire/"
+    },
+    {
+      "pcon24cd": "E14001543",
+      "name": "The Wrekin",
+      "slug": "the-wrekin",
+      "url": "https://ukelections.co.uk/seats/parliament/the-wrekin/"
+    }
+  ],
+  "E06000052": [
+    {
+      "pcon24cd": "E14001148",
+      "name": "Camborne and Redruth",
+      "slug": "camborne-and-redruth",
+      "url": "https://ukelections.co.uk/seats/parliament/camborne-and-redruth/"
+    },
+    {
+      "pcon24cd": "E14001385",
+      "name": "North Cornwall",
+      "slug": "north-cornwall",
+      "url": "https://ukelections.co.uk/seats/parliament/north-cornwall/"
+    },
+    {
+      "pcon24cd": "E14001486",
+      "name": "South East Cornwall",
+      "slug": "south-east-cornwall",
+      "url": "https://ukelections.co.uk/seats/parliament/south-east-cornwall/"
+    },
+    {
+      "pcon24cd": "E14001508",
+      "name": "St Austell and Newquay",
+      "slug": "st-austell-and-newquay",
+      "url": "https://ukelections.co.uk/seats/parliament/st-austell-and-newquay/"
+    },
+    {
+      "pcon24cd": "E14001511",
+      "name": "St Ives",
+      "slug": "st-ives",
+      "url": "https://ukelections.co.uk/seats/parliament/st-ives/"
+    },
+    {
+      "pcon24cd": "E14001554",
+      "name": "Truro and Falmouth",
+      "slug": "truro-and-falmouth",
+      "url": "https://ukelections.co.uk/seats/parliament/truro-and-falmouth/"
+    }
+  ],
+  "E06000053": [
+    {
+      "pcon24cd": "E14001511",
+      "name": "St Ives",
+      "slug": "st-ives",
+      "url": "https://ukelections.co.uk/seats/parliament/st-ives/"
+    }
+  ],
+  "E06000054": [
+    {
+      "pcon24cd": "E14001168",
+      "name": "Chippenham",
+      "slug": "chippenham",
+      "url": "https://ukelections.co.uk/seats/parliament/chippenham/"
+    },
+    {
+      "pcon24cd": "E14001217",
+      "name": "East Wiltshire",
+      "slug": "east-wiltshire",
+      "url": "https://ukelections.co.uk/seats/parliament/east-wiltshire/"
+    },
+    {
+      "pcon24cd": "E14001356",
+      "name": "Melksham and Devizes",
+      "slug": "melksham-and-devizes",
+      "url": "https://ukelections.co.uk/seats/parliament/melksham-and-devizes/"
+    },
+    {
+      "pcon24cd": "E14001460",
+      "name": "Salisbury",
+      "slug": "salisbury",
+      "url": "https://ukelections.co.uk/seats/parliament/salisbury/"
+    },
+    {
+      "pcon24cd": "E14001482",
+      "name": "South Cotswolds",
+      "slug": "south-cotswolds",
+      "url": "https://ukelections.co.uk/seats/parliament/south-cotswolds/"
+    },
+    {
+      "pcon24cd": "E14001498",
+      "name": "South West Wiltshire",
+      "slug": "south-west-wiltshire",
+      "url": "https://ukelections.co.uk/seats/parliament/south-west-wiltshire/"
+    }
+  ],
+  "E06000055": [
+    {
+      "pcon24cd": "E14001084",
+      "name": "Bedford",
+      "slug": "bedford",
+      "url": "https://ukelections.co.uk/seats/parliament/bedford/"
+    },
+    {
+      "pcon24cd": "E14001359",
+      "name": "Mid Bedfordshire",
+      "slug": "mid-bedfordshire",
+      "url": "https://ukelections.co.uk/seats/parliament/mid-bedfordshire/"
+    },
+    {
+      "pcon24cd": "E14001384",
+      "name": "North Bedfordshire",
+      "slug": "north-bedfordshire",
+      "url": "https://ukelections.co.uk/seats/parliament/north-bedfordshire/"
+    }
+  ],
+  "E06000056": [
+    {
+      "pcon24cd": "E14001206",
+      "name": "Dunstable and Leighton Buzzard",
+      "slug": "dunstable-and-leighton-buzzard",
+      "url": "https://ukelections.co.uk/seats/parliament/dunstable-and-leighton-buzzard/"
+    },
+    {
+      "pcon24cd": "E14001289",
+      "name": "Hitchin",
+      "slug": "hitchin",
+      "url": "https://ukelections.co.uk/seats/parliament/hitchin/"
+    },
+    {
+      "pcon24cd": "E14001346",
+      "name": "Luton South and South Bedfordshire",
+      "slug": "luton-south-and-south-bedfordshire",
+      "url": "https://ukelections.co.uk/seats/parliament/luton-south-and-south-bedfordshire/"
+    },
+    {
+      "pcon24cd": "E14001359",
+      "name": "Mid Bedfordshire",
+      "slug": "mid-bedfordshire",
+      "url": "https://ukelections.co.uk/seats/parliament/mid-bedfordshire/"
+    },
+    {
+      "pcon24cd": "E14001384",
+      "name": "North Bedfordshire",
+      "slug": "north-bedfordshire",
+      "url": "https://ukelections.co.uk/seats/parliament/north-bedfordshire/"
+    }
+  ],
+  "E06000057": [
+    {
+      "pcon24cd": "E14001107",
+      "name": "Blyth and Ashington",
+      "slug": "blyth-and-ashington",
+      "url": "https://ukelections.co.uk/seats/parliament/blyth-and-ashington/"
+    },
+    {
+      "pcon24cd": "E14001183",
+      "name": "Cramlington and Killingworth",
+      "slug": "cramlington-and-killingworth",
+      "url": "https://ukelections.co.uk/seats/parliament/cramlington-and-killingworth/"
+    },
+    {
+      "pcon24cd": "E14001285",
+      "name": "Hexham",
+      "slug": "hexham",
+      "url": "https://ukelections.co.uk/seats/parliament/hexham/"
+    },
+    {
+      "pcon24cd": "E14001397",
+      "name": "North Northumberland",
+      "slug": "north-northumberland",
+      "url": "https://ukelections.co.uk/seats/parliament/north-northumberland/"
+    }
+  ],
+  "E06000058": [
+    {
+      "pcon24cd": "E14001115",
+      "name": "Bournemouth East",
+      "slug": "bournemouth-east",
+      "url": "https://ukelections.co.uk/seats/parliament/bournemouth-east/"
+    },
+    {
+      "pcon24cd": "E14001116",
+      "name": "Bournemouth West",
+      "slug": "bournemouth-west",
+      "url": "https://ukelections.co.uk/seats/parliament/bournemouth-west/"
+    },
+    {
+      "pcon24cd": "E14001171",
+      "name": "Christchurch",
+      "slug": "christchurch",
+      "url": "https://ukelections.co.uk/seats/parliament/christchurch/"
+    },
+    {
+      "pcon24cd": "E14001363",
+      "name": "Mid Dorset and North Poole",
+      "slug": "mid-dorset-and-north-poole",
+      "url": "https://ukelections.co.uk/seats/parliament/mid-dorset-and-north-poole/"
+    },
+    {
+      "pcon24cd": "E14001429",
+      "name": "Poole",
+      "slug": "poole",
+      "url": "https://ukelections.co.uk/seats/parliament/poole/"
+    }
+  ],
+  "E06000059": [
+    {
+      "pcon24cd": "E14001171",
+      "name": "Christchurch",
+      "slug": "christchurch",
+      "url": "https://ukelections.co.uk/seats/parliament/christchurch/"
+    },
+    {
+      "pcon24cd": "E14001363",
+      "name": "Mid Dorset and North Poole",
+      "slug": "mid-dorset-and-north-poole",
+      "url": "https://ukelections.co.uk/seats/parliament/mid-dorset-and-north-poole/"
+    },
+    {
+      "pcon24cd": "E14001388",
+      "name": "North Dorset",
+      "slug": "north-dorset",
+      "url": "https://ukelections.co.uk/seats/parliament/north-dorset/"
+    },
+    {
+      "pcon24cd": "E14001485",
+      "name": "South Dorset",
+      "slug": "south-dorset",
+      "url": "https://ukelections.co.uk/seats/parliament/south-dorset/"
+    },
+    {
+      "pcon24cd": "E14001575",
+      "name": "West Dorset",
+      "slug": "west-dorset",
+      "url": "https://ukelections.co.uk/seats/parliament/west-dorset/"
+    }
+  ],
+  "E06000060": [
+    {
+      "pcon24cd": "E14001071",
+      "name": "Aylesbury",
+      "slug": "aylesbury",
+      "url": "https://ukelections.co.uk/seats/parliament/aylesbury/"
+    },
+    {
+      "pcon24cd": "E14001082",
+      "name": "Beaconsfield",
+      "slug": "beaconsfield",
+      "url": "https://ukelections.co.uk/seats/parliament/beaconsfield/"
+    },
+    {
+      "pcon24cd": "E14001141",
+      "name": "Buckingham and Bletchley",
+      "slug": "buckingham-and-bletchley",
+      "url": "https://ukelections.co.uk/seats/parliament/buckingham-and-bletchley/"
+    },
+    {
+      "pcon24cd": "E14001162",
+      "name": "Chesham and Amersham",
+      "slug": "chesham-and-amersham",
+      "url": "https://ukelections.co.uk/seats/parliament/chesham-and-amersham/"
+    },
+    {
+      "pcon24cd": "E14001360",
+      "name": "Mid Buckinghamshire",
+      "slug": "mid-buckinghamshire",
+      "url": "https://ukelections.co.uk/seats/parliament/mid-buckinghamshire/"
+    },
+    {
+      "pcon24cd": "E14001600",
+      "name": "Wycombe",
+      "slug": "wycombe",
+      "url": "https://ukelections.co.uk/seats/parliament/wycombe/"
+    }
+  ],
+  "E06000061": [
+    {
+      "pcon24cd": "E14001179",
+      "name": "Corby and East Northamptonshire",
+      "slug": "corby-and-east-northamptonshire",
+      "url": "https://ukelections.co.uk/seats/parliament/corby-and-east-northamptonshire/"
+    },
+    {
+      "pcon24cd": "E14001192",
+      "name": "Daventry",
+      "slug": "daventry",
+      "url": "https://ukelections.co.uk/seats/parliament/daventry/"
+    },
+    {
+      "pcon24cd": "E14001311",
+      "name": "Kettering",
+      "slug": "kettering",
+      "url": "https://ukelections.co.uk/seats/parliament/kettering/"
+    },
+    {
+      "pcon24cd": "E14001490",
+      "name": "South Northamptonshire",
+      "slug": "south-northamptonshire",
+      "url": "https://ukelections.co.uk/seats/parliament/south-northamptonshire/"
+    },
+    {
+      "pcon24cd": "E14001571",
+      "name": "Wellingborough and Rushden",
+      "slug": "wellingborough-and-rushden",
+      "url": "https://ukelections.co.uk/seats/parliament/wellingborough-and-rushden/"
+    }
+  ],
+  "E06000062": [
+    {
+      "pcon24cd": "E14001192",
+      "name": "Daventry",
+      "slug": "daventry",
+      "url": "https://ukelections.co.uk/seats/parliament/daventry/"
+    },
+    {
+      "pcon24cd": "E14001406",
+      "name": "Northampton North",
+      "slug": "northampton-north",
+      "url": "https://ukelections.co.uk/seats/parliament/northampton-north/"
+    },
+    {
+      "pcon24cd": "E14001407",
+      "name": "Northampton South",
+      "slug": "northampton-south",
+      "url": "https://ukelections.co.uk/seats/parliament/northampton-south/"
+    },
+    {
+      "pcon24cd": "E14001490",
+      "name": "South Northamptonshire",
+      "slug": "south-northamptonshire",
+      "url": "https://ukelections.co.uk/seats/parliament/south-northamptonshire/"
+    }
+  ],
+  "E06000063": [],
+  "E06000064": [],
+  "E06000065": [],
+  "E06000066": [],
+  "E07000008": [
+    {
+      "pcon24cd": "E14001149",
+      "name": "Cambridge",
+      "slug": "cambridge",
+      "url": "https://ukelections.co.uk/seats/parliament/cambridge/"
+    },
+    {
+      "pcon24cd": "E14001481",
+      "name": "South Cambridgeshire",
+      "slug": "south-cambridgeshire",
+      "url": "https://ukelections.co.uk/seats/parliament/south-cambridgeshire/"
+    }
+  ],
+  "E07000009": [
+    {
+      "pcon24cd": "E14001224",
+      "name": "Ely and East Cambridgeshire",
+      "slug": "ely-and-east-cambridgeshire",
+      "url": "https://ukelections.co.uk/seats/parliament/ely-and-east-cambridgeshire/"
+    }
+  ],
+  "E07000010": [
+    {
+      "pcon24cd": "E14001390",
+      "name": "North East Cambridgeshire",
+      "slug": "north-east-cambridgeshire",
+      "url": "https://ukelections.co.uk/seats/parliament/north-east-cambridgeshire/"
+    }
+  ],
+  "E07000011": [
+    {
+      "pcon24cd": "E14001298",
+      "name": "Huntingdon",
+      "slug": "huntingdon",
+      "url": "https://ukelections.co.uk/seats/parliament/huntingdon/"
+    },
+    {
+      "pcon24cd": "E14001401",
+      "name": "North West Cambridgeshire",
+      "slug": "north-west-cambridgeshire",
+      "url": "https://ukelections.co.uk/seats/parliament/north-west-cambridgeshire/"
+    },
+    {
+      "pcon24cd": "E14001512",
+      "name": "St Neots and Mid Cambridgeshire",
+      "slug": "st-neots-and-mid-cambridgeshire",
+      "url": "https://ukelections.co.uk/seats/parliament/st-neots-and-mid-cambridgeshire/"
+    }
+  ],
+  "E07000012": [
+    {
+      "pcon24cd": "E14001224",
+      "name": "Ely and East Cambridgeshire",
+      "slug": "ely-and-east-cambridgeshire",
+      "url": "https://ukelections.co.uk/seats/parliament/ely-and-east-cambridgeshire/"
+    },
+    {
+      "pcon24cd": "E14001481",
+      "name": "South Cambridgeshire",
+      "slug": "south-cambridgeshire",
+      "url": "https://ukelections.co.uk/seats/parliament/south-cambridgeshire/"
+    },
+    {
+      "pcon24cd": "E14001512",
+      "name": "St Neots and Mid Cambridgeshire",
+      "slug": "st-neots-and-mid-cambridgeshire",
+      "url": "https://ukelections.co.uk/seats/parliament/st-neots-and-mid-cambridgeshire/"
+    }
+  ],
+  "E07000032": [
+    {
+      "pcon24cd": "E14001066",
+      "name": "Amber Valley",
+      "slug": "amber-valley",
+      "url": "https://ukelections.co.uk/seats/parliament/amber-valley/"
+    },
+    {
+      "pcon24cd": "E14001195",
+      "name": "Derbyshire Dales",
+      "slug": "derbyshire-dales",
+      "url": "https://ukelections.co.uk/seats/parliament/derbyshire-dales/"
+    },
+    {
+      "pcon24cd": "E14001362",
+      "name": "Mid Derbyshire",
+      "slug": "mid-derbyshire",
+      "url": "https://ukelections.co.uk/seats/parliament/mid-derbyshire/"
+    }
+  ],
+  "E07000033": [
+    {
+      "pcon24cd": "E14001109",
+      "name": "Bolsover",
+      "slug": "bolsover",
+      "url": "https://ukelections.co.uk/seats/parliament/bolsover/"
+    }
+  ],
+  "E07000034": [
+    {
+      "pcon24cd": "E14001165",
+      "name": "Chesterfield",
+      "slug": "chesterfield",
+      "url": "https://ukelections.co.uk/seats/parliament/chesterfield/"
+    },
+    {
+      "pcon24cd": "E14001391",
+      "name": "North East Derbyshire",
+      "slug": "north-east-derbyshire",
+      "url": "https://ukelections.co.uk/seats/parliament/north-east-derbyshire/"
+    }
+  ],
+  "E07000035": [
+    {
+      "pcon24cd": "E14001195",
+      "name": "Derbyshire Dales",
+      "slug": "derbyshire-dales",
+      "url": "https://ukelections.co.uk/seats/parliament/derbyshire-dales/"
+    }
+  ],
+  "E07000036": [
+    {
+      "pcon24cd": "E14001228",
+      "name": "Erewash",
+      "slug": "erewash",
+      "url": "https://ukelections.co.uk/seats/parliament/erewash/"
+    },
+    {
+      "pcon24cd": "E14001362",
+      "name": "Mid Derbyshire",
+      "slug": "mid-derbyshire",
+      "url": "https://ukelections.co.uk/seats/parliament/mid-derbyshire/"
+    }
+  ],
+  "E07000037": [
+    {
+      "pcon24cd": "E14001287",
+      "name": "High Peak",
+      "slug": "high-peak",
+      "url": "https://ukelections.co.uk/seats/parliament/high-peak/"
+    }
+  ],
+  "E07000038": [
+    {
+      "pcon24cd": "E14001109",
+      "name": "Bolsover",
+      "slug": "bolsover",
+      "url": "https://ukelections.co.uk/seats/parliament/bolsover/"
+    },
+    {
+      "pcon24cd": "E14001391",
+      "name": "North East Derbyshire",
+      "slug": "north-east-derbyshire",
+      "url": "https://ukelections.co.uk/seats/parliament/north-east-derbyshire/"
+    }
+  ],
+  "E07000039": [
+    {
+      "pcon24cd": "E14001195",
+      "name": "Derbyshire Dales",
+      "slug": "derbyshire-dales",
+      "url": "https://ukelections.co.uk/seats/parliament/derbyshire-dales/"
+    },
+    {
+      "pcon24cd": "E14001483",
+      "name": "South Derbyshire",
+      "slug": "south-derbyshire",
+      "url": "https://ukelections.co.uk/seats/parliament/south-derbyshire/"
+    }
+  ],
+  "E07000040": [
+    {
+      "pcon24cd": "E14001232",
+      "name": "Exmouth and Exeter East",
+      "slug": "exmouth-and-exeter-east",
+      "url": "https://ukelections.co.uk/seats/parliament/exmouth-and-exeter-east/"
+    },
+    {
+      "pcon24cd": "E14001291",
+      "name": "Honiton and Sidmouth",
+      "slug": "honiton-and-sidmouth",
+      "url": "https://ukelections.co.uk/seats/parliament/honiton-and-sidmouth/"
+    }
+  ],
+  "E07000041": [
+    {
+      "pcon24cd": "E14001231",
+      "name": "Exeter",
+      "slug": "exeter",
+      "url": "https://ukelections.co.uk/seats/parliament/exeter/"
+    },
+    {
+      "pcon24cd": "E14001232",
+      "name": "Exmouth and Exeter East",
+      "slug": "exmouth-and-exeter-east",
+      "url": "https://ukelections.co.uk/seats/parliament/exmouth-and-exeter-east/"
+    }
+  ],
+  "E07000042": [
+    {
+      "pcon24cd": "E14001155",
+      "name": "Central Devon",
+      "slug": "central-devon",
+      "url": "https://ukelections.co.uk/seats/parliament/central-devon/"
+    },
+    {
+      "pcon24cd": "E14001291",
+      "name": "Honiton and Sidmouth",
+      "slug": "honiton-and-sidmouth",
+      "url": "https://ukelections.co.uk/seats/parliament/honiton-and-sidmouth/"
+    },
+    {
+      "pcon24cd": "E14001548",
+      "name": "Tiverton and Minehead",
+      "slug": "tiverton-and-minehead",
+      "url": "https://ukelections.co.uk/seats/parliament/tiverton-and-minehead/"
+    }
+  ],
+  "E07000043": [
+    {
+      "pcon24cd": "E14001387",
+      "name": "North Devon",
+      "slug": "north-devon",
+      "url": "https://ukelections.co.uk/seats/parliament/north-devon/"
+    }
+  ],
+  "E07000044": [
+    {
+      "pcon24cd": "E14001484",
+      "name": "South Devon",
+      "slug": "south-devon",
+      "url": "https://ukelections.co.uk/seats/parliament/south-devon/"
+    },
+    {
+      "pcon24cd": "E14001495",
+      "name": "South West Devon",
+      "slug": "south-west-devon",
+      "url": "https://ukelections.co.uk/seats/parliament/south-west-devon/"
+    }
+  ],
+  "E07000045": [
+    {
+      "pcon24cd": "E14001155",
+      "name": "Central Devon",
+      "slug": "central-devon",
+      "url": "https://ukelections.co.uk/seats/parliament/central-devon/"
+    },
+    {
+      "pcon24cd": "E14001381",
+      "name": "Newton Abbot",
+      "slug": "newton-abbot",
+      "url": "https://ukelections.co.uk/seats/parliament/newton-abbot/"
+    }
+  ],
+  "E07000046": [
+    {
+      "pcon24cd": "E14001552",
+      "name": "Torridge and Tavistock",
+      "slug": "torridge-and-tavistock",
+      "url": "https://ukelections.co.uk/seats/parliament/torridge-and-tavistock/"
+    }
+  ],
+  "E07000047": [
+    {
+      "pcon24cd": "E14001155",
+      "name": "Central Devon",
+      "slug": "central-devon",
+      "url": "https://ukelections.co.uk/seats/parliament/central-devon/"
+    },
+    {
+      "pcon24cd": "E14001495",
+      "name": "South West Devon",
+      "slug": "south-west-devon",
+      "url": "https://ukelections.co.uk/seats/parliament/south-west-devon/"
+    },
+    {
+      "pcon24cd": "E14001552",
+      "name": "Torridge and Tavistock",
+      "slug": "torridge-and-tavistock",
+      "url": "https://ukelections.co.uk/seats/parliament/torridge-and-tavistock/"
+    }
+  ],
+  "E07000061": [
+    {
+      "pcon24cd": "E14001219",
+      "name": "Eastbourne",
+      "slug": "eastbourne",
+      "url": "https://ukelections.co.uk/seats/parliament/eastbourne/"
+    }
+  ],
+  "E07000062": [
+    {
+      "pcon24cd": "E14001274",
+      "name": "Hastings and Rye",
+      "slug": "hastings-and-rye",
+      "url": "https://ukelections.co.uk/seats/parliament/hastings-and-rye/"
+    }
+  ],
+  "E07000063": [
+    {
+      "pcon24cd": "E14001129",
+      "name": "Brighton Kemptown and Peacehaven",
+      "slug": "brighton-kemptown-and-peacehaven",
+      "url": "https://ukelections.co.uk/seats/parliament/brighton-kemptown-and-peacehaven/"
+    },
+    {
+      "pcon24cd": "E14001212",
+      "name": "East Grinstead and Uckfield",
+      "slug": "east-grinstead-and-uckfield",
+      "url": "https://ukelections.co.uk/seats/parliament/east-grinstead-and-uckfield/"
+    },
+    {
+      "pcon24cd": "E14001330",
+      "name": "Lewes",
+      "slug": "lewes",
+      "url": "https://ukelections.co.uk/seats/parliament/lewes/"
+    }
+  ],
+  "E07000064": [
+    {
+      "pcon24cd": "E14001088",
+      "name": "Bexhill and Battle",
+      "slug": "bexhill-and-battle",
+      "url": "https://ukelections.co.uk/seats/parliament/bexhill-and-battle/"
+    },
+    {
+      "pcon24cd": "E14001274",
+      "name": "Hastings and Rye",
+      "slug": "hastings-and-rye",
+      "url": "https://ukelections.co.uk/seats/parliament/hastings-and-rye/"
+    }
+  ],
+  "E07000065": [
+    {
+      "pcon24cd": "E14001088",
+      "name": "Bexhill and Battle",
+      "slug": "bexhill-and-battle",
+      "url": "https://ukelections.co.uk/seats/parliament/bexhill-and-battle/"
+    },
+    {
+      "pcon24cd": "E14001212",
+      "name": "East Grinstead and Uckfield",
+      "slug": "east-grinstead-and-uckfield",
+      "url": "https://ukelections.co.uk/seats/parliament/east-grinstead-and-uckfield/"
+    },
+    {
+      "pcon24cd": "E14001330",
+      "name": "Lewes",
+      "slug": "lewes",
+      "url": "https://ukelections.co.uk/seats/parliament/lewes/"
+    },
+    {
+      "pcon24cd": "E14001533",
+      "name": "Sussex Weald",
+      "slug": "sussex-weald",
+      "url": "https://ukelections.co.uk/seats/parliament/sussex-weald/"
+    }
+  ],
+  "E07000066": [
+    {
+      "pcon24cd": "E14001077",
+      "name": "Basildon and Billericay",
+      "slug": "basildon-and-billericay",
+      "url": "https://ukelections.co.uk/seats/parliament/basildon-and-billericay/"
+    },
+    {
+      "pcon24cd": "E14001154",
+      "name": "Castle Point",
+      "slug": "castle-point",
+      "url": "https://ukelections.co.uk/seats/parliament/castle-point/"
+    },
+    {
+      "pcon24cd": "E14001437",
+      "name": "Rayleigh and Wickford",
+      "slug": "rayleigh-and-wickford",
+      "url": "https://ukelections.co.uk/seats/parliament/rayleigh-and-wickford/"
+    },
+    {
+      "pcon24cd": "E14001480",
+      "name": "South Basildon and East Thurrock",
+      "slug": "south-basildon-and-east-thurrock",
+      "url": "https://ukelections.co.uk/seats/parliament/south-basildon-and-east-thurrock/"
+    }
+  ],
+  "E07000067": [
+    {
+      "pcon24cd": "E14001121",
+      "name": "Braintree",
+      "slug": "braintree",
+      "url": "https://ukelections.co.uk/seats/parliament/braintree/"
+    },
+    {
+      "pcon24cd": "E14001590",
+      "name": "Witham",
+      "slug": "witham",
+      "url": "https://ukelections.co.uk/seats/parliament/witham/"
+    }
+  ],
+  "E07000068": [
+    {
+      "pcon24cd": "E14001125",
+      "name": "Brentwood and Ongar",
+      "slug": "brentwood-and-ongar",
+      "url": "https://ukelections.co.uk/seats/parliament/brentwood-and-ongar/"
+    }
+  ],
+  "E07000069": [
+    {
+      "pcon24cd": "E14001154",
+      "name": "Castle Point",
+      "slug": "castle-point",
+      "url": "https://ukelections.co.uk/seats/parliament/castle-point/"
+    }
+  ],
+  "E07000070": [
+    {
+      "pcon24cd": "E14001159",
+      "name": "Chelmsford",
+      "slug": "chelmsford",
+      "url": "https://ukelections.co.uk/seats/parliament/chelmsford/"
+    },
+    {
+      "pcon24cd": "E14001351",
+      "name": "Maldon",
+      "slug": "maldon",
+      "url": "https://ukelections.co.uk/seats/parliament/maldon/"
+    },
+    {
+      "pcon24cd": "E14001402",
+      "name": "North West Essex",
+      "slug": "north-west-essex",
+      "url": "https://ukelections.co.uk/seats/parliament/north-west-essex/"
+    }
+  ],
+  "E07000071": [
+    {
+      "pcon24cd": "E14001176",
+      "name": "Colchester",
+      "slug": "colchester",
+      "url": "https://ukelections.co.uk/seats/parliament/colchester/"
+    },
+    {
+      "pcon24cd": "E14001273",
+      "name": "Harwich and North Essex",
+      "slug": "harwich-and-north-essex",
+      "url": "https://ukelections.co.uk/seats/parliament/harwich-and-north-essex/"
+    },
+    {
+      "pcon24cd": "E14001590",
+      "name": "Witham",
+      "slug": "witham",
+      "url": "https://ukelections.co.uk/seats/parliament/witham/"
+    }
+  ],
+  "E07000072": [
+    {
+      "pcon24cd": "E14001125",
+      "name": "Brentwood and Ongar",
+      "slug": "brentwood-and-ongar",
+      "url": "https://ukelections.co.uk/seats/parliament/brentwood-and-ongar/"
+    },
+    {
+      "pcon24cd": "E14001226",
+      "name": "Epping Forest",
+      "slug": "epping-forest",
+      "url": "https://ukelections.co.uk/seats/parliament/epping-forest/"
+    },
+    {
+      "pcon24cd": "E14001267",
+      "name": "Harlow",
+      "slug": "harlow",
+      "url": "https://ukelections.co.uk/seats/parliament/harlow/"
+    }
+  ],
+  "E07000073": [
+    {
+      "pcon24cd": "E14001267",
+      "name": "Harlow",
+      "slug": "harlow",
+      "url": "https://ukelections.co.uk/seats/parliament/harlow/"
+    }
+  ],
+  "E07000074": [
+    {
+      "pcon24cd": "E14001351",
+      "name": "Maldon",
+      "slug": "maldon",
+      "url": "https://ukelections.co.uk/seats/parliament/maldon/"
+    },
+    {
+      "pcon24cd": "E14001590",
+      "name": "Witham",
+      "slug": "witham",
+      "url": "https://ukelections.co.uk/seats/parliament/witham/"
+    }
+  ],
+  "E07000075": [
+    {
+      "pcon24cd": "E14001437",
+      "name": "Rayleigh and Wickford",
+      "slug": "rayleigh-and-wickford",
+      "url": "https://ukelections.co.uk/seats/parliament/rayleigh-and-wickford/"
+    },
+    {
+      "pcon24cd": "E14001501",
+      "name": "Southend East and Rochford",
+      "slug": "southend-east-and-rochford",
+      "url": "https://ukelections.co.uk/seats/parliament/southend-east-and-rochford/"
+    }
+  ],
+  "E07000076": [
+    {
+      "pcon24cd": "E14001174",
+      "name": "Clacton",
+      "slug": "clacton",
+      "url": "https://ukelections.co.uk/seats/parliament/clacton/"
+    },
+    {
+      "pcon24cd": "E14001273",
+      "name": "Harwich and North Essex",
+      "slug": "harwich-and-north-essex",
+      "url": "https://ukelections.co.uk/seats/parliament/harwich-and-north-essex/"
+    }
+  ],
+  "E07000077": [
+    {
+      "pcon24cd": "E14001121",
+      "name": "Braintree",
+      "slug": "braintree",
+      "url": "https://ukelections.co.uk/seats/parliament/braintree/"
+    },
+    {
+      "pcon24cd": "E14001267",
+      "name": "Harlow",
+      "slug": "harlow",
+      "url": "https://ukelections.co.uk/seats/parliament/harlow/"
+    },
+    {
+      "pcon24cd": "E14001402",
+      "name": "North West Essex",
+      "slug": "north-west-essex",
+      "url": "https://ukelections.co.uk/seats/parliament/north-west-essex/"
+    }
+  ],
+  "E07000078": [
+    {
+      "pcon24cd": "E14001161",
+      "name": "Cheltenham",
+      "slug": "cheltenham",
+      "url": "https://ukelections.co.uk/seats/parliament/cheltenham/"
+    },
+    {
+      "pcon24cd": "E14001542",
+      "name": "Tewkesbury",
+      "slug": "tewkesbury",
+      "url": "https://ukelections.co.uk/seats/parliament/tewkesbury/"
+    }
+  ],
+  "E07000079": [
+    {
+      "pcon24cd": "E14001386",
+      "name": "North Cotswolds",
+      "slug": "north-cotswolds",
+      "url": "https://ukelections.co.uk/seats/parliament/north-cotswolds/"
+    },
+    {
+      "pcon24cd": "E14001482",
+      "name": "South Cotswolds",
+      "slug": "south-cotswolds",
+      "url": "https://ukelections.co.uk/seats/parliament/south-cotswolds/"
+    }
+  ],
+  "E07000080": [
+    {
+      "pcon24cd": "E14001240",
+      "name": "Forest of Dean",
+      "slug": "forest-of-dean",
+      "url": "https://ukelections.co.uk/seats/parliament/forest-of-dean/"
+    }
+  ],
+  "E07000081": [
+    {
+      "pcon24cd": "E14001248",
+      "name": "Gloucester",
+      "slug": "gloucester",
+      "url": "https://ukelections.co.uk/seats/parliament/gloucester/"
+    },
+    {
+      "pcon24cd": "E14001542",
+      "name": "Tewkesbury",
+      "slug": "tewkesbury",
+      "url": "https://ukelections.co.uk/seats/parliament/tewkesbury/"
+    }
+  ],
+  "E07000082": [
+    {
+      "pcon24cd": "E14001386",
+      "name": "North Cotswolds",
+      "slug": "north-cotswolds",
+      "url": "https://ukelections.co.uk/seats/parliament/north-cotswolds/"
+    },
+    {
+      "pcon24cd": "E14001482",
+      "name": "South Cotswolds",
+      "slug": "south-cotswolds",
+      "url": "https://ukelections.co.uk/seats/parliament/south-cotswolds/"
+    },
+    {
+      "pcon24cd": "E14001529",
+      "name": "Stroud",
+      "slug": "stroud",
+      "url": "https://ukelections.co.uk/seats/parliament/stroud/"
+    }
+  ],
+  "E07000083": [
+    {
+      "pcon24cd": "E14001240",
+      "name": "Forest of Dean",
+      "slug": "forest-of-dean",
+      "url": "https://ukelections.co.uk/seats/parliament/forest-of-dean/"
+    },
+    {
+      "pcon24cd": "E14001386",
+      "name": "North Cotswolds",
+      "slug": "north-cotswolds",
+      "url": "https://ukelections.co.uk/seats/parliament/north-cotswolds/"
+    },
+    {
+      "pcon24cd": "E14001542",
+      "name": "Tewkesbury",
+      "slug": "tewkesbury",
+      "url": "https://ukelections.co.uk/seats/parliament/tewkesbury/"
+    }
+  ],
+  "E07000084": [
+    {
+      "pcon24cd": "E14001078",
+      "name": "Basingstoke",
+      "slug": "basingstoke",
+      "url": "https://ukelections.co.uk/seats/parliament/basingstoke/"
+    },
+    {
+      "pcon24cd": "E14001214",
+      "name": "East Hampshire",
+      "slug": "east-hampshire",
+      "url": "https://ukelections.co.uk/seats/parliament/east-hampshire/"
+    },
+    {
+      "pcon24cd": "E14001392",
+      "name": "North East Hampshire",
+      "slug": "north-east-hampshire",
+      "url": "https://ukelections.co.uk/seats/parliament/north-east-hampshire/"
+    },
+    {
+      "pcon24cd": "E14001403",
+      "name": "North West Hampshire",
+      "slug": "north-west-hampshire",
+      "url": "https://ukelections.co.uk/seats/parliament/north-west-hampshire/"
+    }
+  ],
+  "E07000085": [
+    {
+      "pcon24cd": "E14001214",
+      "name": "East Hampshire",
+      "slug": "east-hampshire",
+      "url": "https://ukelections.co.uk/seats/parliament/east-hampshire/"
+    },
+    {
+      "pcon24cd": "E14001234",
+      "name": "Farnham and Bordon",
+      "slug": "farnham-and-bordon",
+      "url": "https://ukelections.co.uk/seats/parliament/farnham-and-bordon/"
+    }
+  ],
+  "E07000086": [
+    {
+      "pcon24cd": "E14001220",
+      "name": "Eastleigh",
+      "slug": "eastleigh",
+      "url": "https://ukelections.co.uk/seats/parliament/eastleigh/"
+    },
+    {
+      "pcon24cd": "E14001263",
+      "name": "Hamble Valley",
+      "slug": "hamble-valley",
+      "url": "https://ukelections.co.uk/seats/parliament/hamble-valley/"
+    }
+  ],
+  "E07000087": [
+    {
+      "pcon24cd": "E14001233",
+      "name": "Fareham and Waterlooville",
+      "slug": "fareham-and-waterlooville",
+      "url": "https://ukelections.co.uk/seats/parliament/fareham-and-waterlooville/"
+    },
+    {
+      "pcon24cd": "E14001252",
+      "name": "Gosport",
+      "slug": "gosport",
+      "url": "https://ukelections.co.uk/seats/parliament/gosport/"
+    },
+    {
+      "pcon24cd": "E14001263",
+      "name": "Hamble Valley",
+      "slug": "hamble-valley",
+      "url": "https://ukelections.co.uk/seats/parliament/hamble-valley/"
+    }
+  ],
+  "E07000088": [
+    {
+      "pcon24cd": "E14001252",
+      "name": "Gosport",
+      "slug": "gosport",
+      "url": "https://ukelections.co.uk/seats/parliament/gosport/"
+    }
+  ],
+  "E07000089": [
+    {
+      "pcon24cd": "E14001063",
+      "name": "Aldershot",
+      "slug": "aldershot",
+      "url": "https://ukelections.co.uk/seats/parliament/aldershot/"
+    },
+    {
+      "pcon24cd": "E14001392",
+      "name": "North East Hampshire",
+      "slug": "north-east-hampshire",
+      "url": "https://ukelections.co.uk/seats/parliament/north-east-hampshire/"
+    }
+  ],
+  "E07000090": [
+    {
+      "pcon24cd": "E14001233",
+      "name": "Fareham and Waterlooville",
+      "slug": "fareham-and-waterlooville",
+      "url": "https://ukelections.co.uk/seats/parliament/fareham-and-waterlooville/"
+    },
+    {
+      "pcon24cd": "E14001275",
+      "name": "Havant",
+      "slug": "havant",
+      "url": "https://ukelections.co.uk/seats/parliament/havant/"
+    }
+  ],
+  "E07000091": [
+    {
+      "pcon24cd": "E14001373",
+      "name": "New Forest East",
+      "slug": "new-forest-east",
+      "url": "https://ukelections.co.uk/seats/parliament/new-forest-east/"
+    },
+    {
+      "pcon24cd": "E14001374",
+      "name": "New Forest West",
+      "slug": "new-forest-west",
+      "url": "https://ukelections.co.uk/seats/parliament/new-forest-west/"
+    }
+  ],
+  "E07000092": [
+    {
+      "pcon24cd": "E14001063",
+      "name": "Aldershot",
+      "slug": "aldershot",
+      "url": "https://ukelections.co.uk/seats/parliament/aldershot/"
+    }
+  ],
+  "E07000093": [
+    {
+      "pcon24cd": "E14001220",
+      "name": "Eastleigh",
+      "slug": "eastleigh",
+      "url": "https://ukelections.co.uk/seats/parliament/eastleigh/"
+    },
+    {
+      "pcon24cd": "E14001403",
+      "name": "North West Hampshire",
+      "slug": "north-west-hampshire",
+      "url": "https://ukelections.co.uk/seats/parliament/north-west-hampshire/"
+    },
+    {
+      "pcon24cd": "E14001449",
+      "name": "Romsey and Southampton North",
+      "slug": "romsey-and-southampton-north",
+      "url": "https://ukelections.co.uk/seats/parliament/romsey-and-southampton-north/"
+    }
+  ],
+  "E07000094": [
+    {
+      "pcon24cd": "E14001233",
+      "name": "Fareham and Waterlooville",
+      "slug": "fareham-and-waterlooville",
+      "url": "https://ukelections.co.uk/seats/parliament/fareham-and-waterlooville/"
+    },
+    {
+      "pcon24cd": "E14001263",
+      "name": "Hamble Valley",
+      "slug": "hamble-valley",
+      "url": "https://ukelections.co.uk/seats/parliament/hamble-valley/"
+    },
+    {
+      "pcon24cd": "E14001587",
+      "name": "Winchester",
+      "slug": "winchester",
+      "url": "https://ukelections.co.uk/seats/parliament/winchester/"
+    }
+  ],
+  "E07000095": [
+    {
+      "pcon24cd": "E14001139",
+      "name": "Broxbourne",
+      "slug": "broxbourne",
+      "url": "https://ukelections.co.uk/seats/parliament/broxbourne/"
+    }
+  ],
+  "E07000096": [
+    {
+      "pcon24cd": "E14001268",
+      "name": "Harpenden and Berkhamsted",
+      "slug": "harpenden-and-berkhamsted",
+      "url": "https://ukelections.co.uk/seats/parliament/harpenden-and-berkhamsted/"
+    },
+    {
+      "pcon24cd": "E14001278",
+      "name": "Hemel Hempstead",
+      "slug": "hemel-hempstead",
+      "url": "https://ukelections.co.uk/seats/parliament/hemel-hempstead/"
+    },
+    {
+      "pcon24cd": "E14001496",
+      "name": "South West Hertfordshire",
+      "slug": "south-west-hertfordshire",
+      "url": "https://ukelections.co.uk/seats/parliament/south-west-hertfordshire/"
+    }
+  ],
+  "E07000098": [
+    {
+      "pcon24cd": "E14001284",
+      "name": "Hertsmere",
+      "slug": "hertsmere",
+      "url": "https://ukelections.co.uk/seats/parliament/hertsmere/"
+    },
+    {
+      "pcon24cd": "E14001568",
+      "name": "Watford",
+      "slug": "watford",
+      "url": "https://ukelections.co.uk/seats/parliament/watford/"
+    }
+  ],
+  "E07000099": [
+    {
+      "pcon24cd": "E14001289",
+      "name": "Hitchin",
+      "slug": "hitchin",
+      "url": "https://ukelections.co.uk/seats/parliament/hitchin/"
+    },
+    {
+      "pcon24cd": "E14001393",
+      "name": "North East Hertfordshire",
+      "slug": "north-east-hertfordshire",
+      "url": "https://ukelections.co.uk/seats/parliament/north-east-hertfordshire/"
+    },
+    {
+      "pcon24cd": "E14001516",
+      "name": "Stevenage",
+      "slug": "stevenage",
+      "url": "https://ukelections.co.uk/seats/parliament/stevenage/"
+    }
+  ],
+  "E07000102": [
+    {
+      "pcon24cd": "E14001496",
+      "name": "South West Hertfordshire",
+      "slug": "south-west-hertfordshire",
+      "url": "https://ukelections.co.uk/seats/parliament/south-west-hertfordshire/"
+    }
+  ],
+  "E07000103": [
+    {
+      "pcon24cd": "E14001568",
+      "name": "Watford",
+      "slug": "watford",
+      "url": "https://ukelections.co.uk/seats/parliament/watford/"
+    }
+  ],
+  "E07000105": [
+    {
+      "pcon24cd": "E14001069",
+      "name": "Ashford",
+      "slug": "ashford",
+      "url": "https://ukelections.co.uk/seats/parliament/ashford/"
+    },
+    {
+      "pcon24cd": "E14001570",
+      "name": "Weald of Kent",
+      "slug": "weald-of-kent",
+      "url": "https://ukelections.co.uk/seats/parliament/weald-of-kent/"
+    }
+  ],
+  "E07000106": [
+    {
+      "pcon24cd": "E14001151",
+      "name": "Canterbury",
+      "slug": "canterbury",
+      "url": "https://ukelections.co.uk/seats/parliament/canterbury/"
+    },
+    {
+      "pcon24cd": "E14001282",
+      "name": "Herne Bay and Sandwich",
+      "slug": "herne-bay-and-sandwich",
+      "url": "https://ukelections.co.uk/seats/parliament/herne-bay-and-sandwich/"
+    }
+  ],
+  "E07000107": [
+    {
+      "pcon24cd": "E14001191",
+      "name": "Dartford",
+      "slug": "dartford",
+      "url": "https://ukelections.co.uk/seats/parliament/dartford/"
+    },
+    {
+      "pcon24cd": "E14001465",
+      "name": "Sevenoaks",
+      "slug": "sevenoaks",
+      "url": "https://ukelections.co.uk/seats/parliament/sevenoaks/"
+    }
+  ],
+  "E07000108": [
+    {
+      "pcon24cd": "E14001202",
+      "name": "Dover and Deal",
+      "slug": "dover-and-deal",
+      "url": "https://ukelections.co.uk/seats/parliament/dover-and-deal/"
+    },
+    {
+      "pcon24cd": "E14001282",
+      "name": "Herne Bay and Sandwich",
+      "slug": "herne-bay-and-sandwich",
+      "url": "https://ukelections.co.uk/seats/parliament/herne-bay-and-sandwich/"
+    }
+  ],
+  "E07000109": [
+    {
+      "pcon24cd": "E14001254",
+      "name": "Gravesham",
+      "slug": "gravesham",
+      "url": "https://ukelections.co.uk/seats/parliament/gravesham/"
+    }
+  ],
+  "E07000110": [
+    {
+      "pcon24cd": "E14001235",
+      "name": "Faversham and Mid Kent",
+      "slug": "faversham-and-mid-kent",
+      "url": "https://ukelections.co.uk/seats/parliament/faversham-and-mid-kent/"
+    },
+    {
+      "pcon24cd": "E14001349",
+      "name": "Maidstone and Malling",
+      "slug": "maidstone-and-malling",
+      "url": "https://ukelections.co.uk/seats/parliament/maidstone-and-malling/"
+    },
+    {
+      "pcon24cd": "E14001570",
+      "name": "Weald of Kent",
+      "slug": "weald-of-kent",
+      "url": "https://ukelections.co.uk/seats/parliament/weald-of-kent/"
+    }
+  ],
+  "E07000111": [
+    {
+      "pcon24cd": "E14001465",
+      "name": "Sevenoaks",
+      "slug": "sevenoaks",
+      "url": "https://ukelections.co.uk/seats/parliament/sevenoaks/"
+    },
+    {
+      "pcon24cd": "E14001549",
+      "name": "Tonbridge",
+      "slug": "tonbridge",
+      "url": "https://ukelections.co.uk/seats/parliament/tonbridge/"
+    }
+  ],
+  "E07000112": [
+    {
+      "pcon24cd": "E14001069",
+      "name": "Ashford",
+      "slug": "ashford",
+      "url": "https://ukelections.co.uk/seats/parliament/ashford/"
+    },
+    {
+      "pcon24cd": "E14001239",
+      "name": "Folkestone and Hythe",
+      "slug": "folkestone-and-hythe",
+      "url": "https://ukelections.co.uk/seats/parliament/folkestone-and-hythe/"
+    }
+  ],
+  "E07000113": [
+    {
+      "pcon24cd": "E14001235",
+      "name": "Faversham and Mid Kent",
+      "slug": "faversham-and-mid-kent",
+      "url": "https://ukelections.co.uk/seats/parliament/faversham-and-mid-kent/"
+    },
+    {
+      "pcon24cd": "E14001474",
+      "name": "Sittingbourne and Sheppey",
+      "slug": "sittingbourne-and-sheppey",
+      "url": "https://ukelections.co.uk/seats/parliament/sittingbourne-and-sheppey/"
+    }
+  ],
+  "E07000114": [
+    {
+      "pcon24cd": "E14001216",
+      "name": "East Thanet",
+      "slug": "east-thanet",
+      "url": "https://ukelections.co.uk/seats/parliament/east-thanet/"
+    },
+    {
+      "pcon24cd": "E14001282",
+      "name": "Herne Bay and Sandwich",
+      "slug": "herne-bay-and-sandwich",
+      "url": "https://ukelections.co.uk/seats/parliament/herne-bay-and-sandwich/"
+    }
+  ],
+  "E07000115": [
+    {
+      "pcon24cd": "E14001157",
+      "name": "Chatham and Aylesford",
+      "slug": "chatham-and-aylesford",
+      "url": "https://ukelections.co.uk/seats/parliament/chatham-and-aylesford/"
+    },
+    {
+      "pcon24cd": "E14001349",
+      "name": "Maidstone and Malling",
+      "slug": "maidstone-and-malling",
+      "url": "https://ukelections.co.uk/seats/parliament/maidstone-and-malling/"
+    },
+    {
+      "pcon24cd": "E14001549",
+      "name": "Tonbridge",
+      "slug": "tonbridge",
+      "url": "https://ukelections.co.uk/seats/parliament/tonbridge/"
+    }
+  ],
+  "E07000116": [
+    {
+      "pcon24cd": "E14001555",
+      "name": "Tunbridge Wells",
+      "slug": "tunbridge-wells",
+      "url": "https://ukelections.co.uk/seats/parliament/tunbridge-wells/"
+    },
+    {
+      "pcon24cd": "E14001570",
+      "name": "Weald of Kent",
+      "slug": "weald-of-kent",
+      "url": "https://ukelections.co.uk/seats/parliament/weald-of-kent/"
+    }
+  ],
+  "E07000117": [
+    {
+      "pcon24cd": "E14001142",
+      "name": "Burnley",
+      "slug": "burnley",
+      "url": "https://ukelections.co.uk/seats/parliament/burnley/"
+    }
+  ],
+  "E07000118": [
+    {
+      "pcon24cd": "E14001170",
+      "name": "Chorley",
+      "slug": "chorley",
+      "url": "https://ukelections.co.uk/seats/parliament/chorley/"
+    },
+    {
+      "pcon24cd": "E14001491",
+      "name": "South Ribble",
+      "slug": "south-ribble",
+      "url": "https://ukelections.co.uk/seats/parliament/south-ribble/"
+    }
+  ],
+  "E07000119": [
+    {
+      "pcon24cd": "E14001242",
+      "name": "Fylde",
+      "slug": "fylde",
+      "url": "https://ukelections.co.uk/seats/parliament/fylde/"
+    }
+  ],
+  "E07000120": [
+    {
+      "pcon24cd": "E14001299",
+      "name": "Hyndburn",
+      "slug": "hyndburn",
+      "url": "https://ukelections.co.uk/seats/parliament/hyndburn/"
+    }
+  ],
+  "E07000121": [
+    {
+      "pcon24cd": "E14001318",
+      "name": "Lancaster and Wyre",
+      "slug": "lancaster-and-wyre",
+      "url": "https://ukelections.co.uk/seats/parliament/lancaster-and-wyre/"
+    },
+    {
+      "pcon24cd": "E14001372",
+      "name": "Morecambe and Lunesdale",
+      "slug": "morecambe-and-lunesdale",
+      "url": "https://ukelections.co.uk/seats/parliament/morecambe-and-lunesdale/"
+    }
+  ],
+  "E07000122": [
+    {
+      "pcon24cd": "E14001142",
+      "name": "Burnley",
+      "slug": "burnley",
+      "url": "https://ukelections.co.uk/seats/parliament/burnley/"
+    },
+    {
+      "pcon24cd": "E14001422",
+      "name": "Pendle and Clitheroe",
+      "slug": "pendle-and-clitheroe",
+      "url": "https://ukelections.co.uk/seats/parliament/pendle-and-clitheroe/"
+    }
+  ],
+  "E07000123": [
+    {
+      "pcon24cd": "E14001433",
+      "name": "Preston",
+      "slug": "preston",
+      "url": "https://ukelections.co.uk/seats/parliament/preston/"
+    },
+    {
+      "pcon24cd": "E14001443",
+      "name": "Ribble Valley",
+      "slug": "ribble-valley",
+      "url": "https://ukelections.co.uk/seats/parliament/ribble-valley/"
+    }
+  ],
+  "E07000124": [
+    {
+      "pcon24cd": "E14001422",
+      "name": "Pendle and Clitheroe",
+      "slug": "pendle-and-clitheroe",
+      "url": "https://ukelections.co.uk/seats/parliament/pendle-and-clitheroe/"
+    },
+    {
+      "pcon24cd": "E14001443",
+      "name": "Ribble Valley",
+      "slug": "ribble-valley",
+      "url": "https://ukelections.co.uk/seats/parliament/ribble-valley/"
+    }
+  ],
+  "E07000125": [
+    {
+      "pcon24cd": "E14001299",
+      "name": "Hyndburn",
+      "slug": "hyndburn",
+      "url": "https://ukelections.co.uk/seats/parliament/hyndburn/"
+    },
+    {
+      "pcon24cd": "E14001450",
+      "name": "Rossendale and Darwen",
+      "slug": "rossendale-and-darwen",
+      "url": "https://ukelections.co.uk/seats/parliament/rossendale-and-darwen/"
+    }
+  ],
+  "E07000126": [
+    {
+      "pcon24cd": "E14001443",
+      "name": "Ribble Valley",
+      "slug": "ribble-valley",
+      "url": "https://ukelections.co.uk/seats/parliament/ribble-valley/"
+    },
+    {
+      "pcon24cd": "E14001491",
+      "name": "South Ribble",
+      "slug": "south-ribble",
+      "url": "https://ukelections.co.uk/seats/parliament/south-ribble/"
+    }
+  ],
+  "E07000127": [
+    {
+      "pcon24cd": "E14001504",
+      "name": "Southport",
+      "slug": "southport",
+      "url": "https://ukelections.co.uk/seats/parliament/southport/"
+    },
+    {
+      "pcon24cd": "E14001577",
+      "name": "West Lancashire",
+      "slug": "west-lancashire",
+      "url": "https://ukelections.co.uk/seats/parliament/west-lancashire/"
+    }
+  ],
+  "E07000128": [
+    {
+      "pcon24cd": "E14001104",
+      "name": "Blackpool North and Fleetwood",
+      "slug": "blackpool-north-and-fleetwood",
+      "url": "https://ukelections.co.uk/seats/parliament/blackpool-north-and-fleetwood/"
+    },
+    {
+      "pcon24cd": "E14001242",
+      "name": "Fylde",
+      "slug": "fylde",
+      "url": "https://ukelections.co.uk/seats/parliament/fylde/"
+    },
+    {
+      "pcon24cd": "E14001318",
+      "name": "Lancaster and Wyre",
+      "slug": "lancaster-and-wyre",
+      "url": "https://ukelections.co.uk/seats/parliament/lancaster-and-wyre/"
+    }
+  ],
+  "E07000129": [
+    {
+      "pcon24cd": "E14001364",
+      "name": "Mid Leicestershire",
+      "slug": "mid-leicestershire",
+      "url": "https://ukelections.co.uk/seats/parliament/mid-leicestershire/"
+    },
+    {
+      "pcon24cd": "E14001488",
+      "name": "South Leicestershire",
+      "slug": "south-leicestershire",
+      "url": "https://ukelections.co.uk/seats/parliament/south-leicestershire/"
+    }
+  ],
+  "E07000130": [
+    {
+      "pcon24cd": "E14001342",
+      "name": "Loughborough",
+      "slug": "loughborough",
+      "url": "https://ukelections.co.uk/seats/parliament/loughborough/"
+    },
+    {
+      "pcon24cd": "E14001357",
+      "name": "Melton and Syston",
+      "slug": "melton-and-syston",
+      "url": "https://ukelections.co.uk/seats/parliament/melton-and-syston/"
+    },
+    {
+      "pcon24cd": "E14001364",
+      "name": "Mid Leicestershire",
+      "slug": "mid-leicestershire",
+      "url": "https://ukelections.co.uk/seats/parliament/mid-leicestershire/"
+    }
+  ],
+  "E07000131": [
+    {
+      "pcon24cd": "E14001266",
+      "name": "Harborough, Oadby and Wigston",
+      "slug": "harborough-oadby-and-wigston",
+      "url": "https://ukelections.co.uk/seats/parliament/harborough-oadby-and-wigston/"
+    },
+    {
+      "pcon24cd": "E14001458",
+      "name": "Rutland and Stamford",
+      "slug": "rutland-and-stamford",
+      "url": "https://ukelections.co.uk/seats/parliament/rutland-and-stamford/"
+    },
+    {
+      "pcon24cd": "E14001488",
+      "name": "South Leicestershire",
+      "slug": "south-leicestershire",
+      "url": "https://ukelections.co.uk/seats/parliament/south-leicestershire/"
+    }
+  ],
+  "E07000132": [
+    {
+      "pcon24cd": "E14001288",
+      "name": "Hinckley and Bosworth",
+      "slug": "hinckley-and-bosworth",
+      "url": "https://ukelections.co.uk/seats/parliament/hinckley-and-bosworth/"
+    },
+    {
+      "pcon24cd": "E14001364",
+      "name": "Mid Leicestershire",
+      "slug": "mid-leicestershire",
+      "url": "https://ukelections.co.uk/seats/parliament/mid-leicestershire/"
+    }
+  ],
+  "E07000133": [
+    {
+      "pcon24cd": "E14001357",
+      "name": "Melton and Syston",
+      "slug": "melton-and-syston",
+      "url": "https://ukelections.co.uk/seats/parliament/melton-and-syston/"
+    }
+  ],
+  "E07000134": [
+    {
+      "pcon24cd": "E14001288",
+      "name": "Hinckley and Bosworth",
+      "slug": "hinckley-and-bosworth",
+      "url": "https://ukelections.co.uk/seats/parliament/hinckley-and-bosworth/"
+    },
+    {
+      "pcon24cd": "E14001404",
+      "name": "North West Leicestershire",
+      "slug": "north-west-leicestershire",
+      "url": "https://ukelections.co.uk/seats/parliament/north-west-leicestershire/"
+    }
+  ],
+  "E07000135": [
+    {
+      "pcon24cd": "E14001266",
+      "name": "Harborough, Oadby and Wigston",
+      "slug": "harborough-oadby-and-wigston",
+      "url": "https://ukelections.co.uk/seats/parliament/harborough-oadby-and-wigston/"
+    }
+  ],
+  "E07000136": [
+    {
+      "pcon24cd": "E14001114",
+      "name": "Boston and Skegness",
+      "slug": "boston-and-skegness",
+      "url": "https://ukelections.co.uk/seats/parliament/boston-and-skegness/"
+    }
+  ],
+  "E07000137": [
+    {
+      "pcon24cd": "E14001114",
+      "name": "Boston and Skegness",
+      "slug": "boston-and-skegness",
+      "url": "https://ukelections.co.uk/seats/parliament/boston-and-skegness/"
+    },
+    {
+      "pcon24cd": "E14001343",
+      "name": "Louth and Horncastle",
+      "slug": "louth-and-horncastle",
+      "url": "https://ukelections.co.uk/seats/parliament/louth-and-horncastle/"
+    }
+  ],
+  "E07000138": [
+    {
+      "pcon24cd": "E14001336",
+      "name": "Lincoln",
+      "slug": "lincoln",
+      "url": "https://ukelections.co.uk/seats/parliament/lincoln/"
+    }
+  ],
+  "E07000139": [
+    {
+      "pcon24cd": "E14001253",
+      "name": "Grantham and Bourne",
+      "slug": "grantham-and-bourne",
+      "url": "https://ukelections.co.uk/seats/parliament/grantham-and-bourne/"
+    },
+    {
+      "pcon24cd": "E14001336",
+      "name": "Lincoln",
+      "slug": "lincoln",
+      "url": "https://ukelections.co.uk/seats/parliament/lincoln/"
+    },
+    {
+      "pcon24cd": "E14001476",
+      "name": "Sleaford and North Hykeham",
+      "slug": "sleaford-and-north-hykeham",
+      "url": "https://ukelections.co.uk/seats/parliament/sleaford-and-north-hykeham/"
+    }
+  ],
+  "E07000140": [
+    {
+      "pcon24cd": "E14001487",
+      "name": "South Holland and The Deepings",
+      "slug": "south-holland-and-the-deepings",
+      "url": "https://ukelections.co.uk/seats/parliament/south-holland-and-the-deepings/"
+    }
+  ],
+  "E07000141": [
+    {
+      "pcon24cd": "E14001253",
+      "name": "Grantham and Bourne",
+      "slug": "grantham-and-bourne",
+      "url": "https://ukelections.co.uk/seats/parliament/grantham-and-bourne/"
+    },
+    {
+      "pcon24cd": "E14001458",
+      "name": "Rutland and Stamford",
+      "slug": "rutland-and-stamford",
+      "url": "https://ukelections.co.uk/seats/parliament/rutland-and-stamford/"
+    },
+    {
+      "pcon24cd": "E14001487",
+      "name": "South Holland and The Deepings",
+      "slug": "south-holland-and-the-deepings",
+      "url": "https://ukelections.co.uk/seats/parliament/south-holland-and-the-deepings/"
+    }
+  ],
+  "E07000142": [
+    {
+      "pcon24cd": "E14001243",
+      "name": "Gainsborough",
+      "slug": "gainsborough",
+      "url": "https://ukelections.co.uk/seats/parliament/gainsborough/"
+    }
+  ],
+  "E07000143": [
+    {
+      "pcon24cd": "E14001365",
+      "name": "Mid Norfolk",
+      "slug": "mid-norfolk",
+      "url": "https://ukelections.co.uk/seats/parliament/mid-norfolk/"
+    },
+    {
+      "pcon24cd": "E14001497",
+      "name": "South West Norfolk",
+      "slug": "south-west-norfolk",
+      "url": "https://ukelections.co.uk/seats/parliament/south-west-norfolk/"
+    }
+  ],
+  "E07000144": [
+    {
+      "pcon24cd": "E14001136",
+      "name": "Broadland and Fakenham",
+      "slug": "broadland-and-fakenham",
+      "url": "https://ukelections.co.uk/seats/parliament/broadland-and-fakenham/"
+    },
+    {
+      "pcon24cd": "E14001408",
+      "name": "Norwich North",
+      "slug": "norwich-north",
+      "url": "https://ukelections.co.uk/seats/parliament/norwich-north/"
+    }
+  ],
+  "E07000145": [
+    {
+      "pcon24cd": "E14001256",
+      "name": "Great Yarmouth",
+      "slug": "great-yarmouth",
+      "url": "https://ukelections.co.uk/seats/parliament/great-yarmouth/"
+    }
+  ],
+  "E07000146": [
+    {
+      "pcon24cd": "E14001405",
+      "name": "North West Norfolk",
+      "slug": "north-west-norfolk",
+      "url": "https://ukelections.co.uk/seats/parliament/north-west-norfolk/"
+    },
+    {
+      "pcon24cd": "E14001497",
+      "name": "South West Norfolk",
+      "slug": "south-west-norfolk",
+      "url": "https://ukelections.co.uk/seats/parliament/south-west-norfolk/"
+    }
+  ],
+  "E07000147": [
+    {
+      "pcon24cd": "E14001136",
+      "name": "Broadland and Fakenham",
+      "slug": "broadland-and-fakenham",
+      "url": "https://ukelections.co.uk/seats/parliament/broadland-and-fakenham/"
+    },
+    {
+      "pcon24cd": "E14001396",
+      "name": "North Norfolk",
+      "slug": "north-norfolk",
+      "url": "https://ukelections.co.uk/seats/parliament/north-norfolk/"
+    }
+  ],
+  "E07000148": [
+    {
+      "pcon24cd": "E14001408",
+      "name": "Norwich North",
+      "slug": "norwich-north",
+      "url": "https://ukelections.co.uk/seats/parliament/norwich-north/"
+    },
+    {
+      "pcon24cd": "E14001409",
+      "name": "Norwich South",
+      "slug": "norwich-south",
+      "url": "https://ukelections.co.uk/seats/parliament/norwich-south/"
+    }
+  ],
+  "E07000149": [
+    {
+      "pcon24cd": "E14001365",
+      "name": "Mid Norfolk",
+      "slug": "mid-norfolk",
+      "url": "https://ukelections.co.uk/seats/parliament/mid-norfolk/"
+    },
+    {
+      "pcon24cd": "E14001409",
+      "name": "Norwich South",
+      "slug": "norwich-south",
+      "url": "https://ukelections.co.uk/seats/parliament/norwich-south/"
+    },
+    {
+      "pcon24cd": "E14001489",
+      "name": "South Norfolk",
+      "slug": "south-norfolk",
+      "url": "https://ukelections.co.uk/seats/parliament/south-norfolk/"
+    },
+    {
+      "pcon24cd": "E14001569",
+      "name": "Waveney Valley",
+      "slug": "waveney-valley",
+      "url": "https://ukelections.co.uk/seats/parliament/waveney-valley/"
+    }
+  ],
+  "E07000170": [
+    {
+      "pcon24cd": "E14001068",
+      "name": "Ashfield",
+      "slug": "ashfield",
+      "url": "https://ukelections.co.uk/seats/parliament/ashfield/"
+    },
+    {
+      "pcon24cd": "E14001471",
+      "name": "Sherwood Forest",
+      "slug": "sherwood-forest",
+      "url": "https://ukelections.co.uk/seats/parliament/sherwood-forest/"
+    }
+  ],
+  "E07000171": [
+    {
+      "pcon24cd": "E14001079",
+      "name": "Bassetlaw",
+      "slug": "bassetlaw",
+      "url": "https://ukelections.co.uk/seats/parliament/bassetlaw/"
+    },
+    {
+      "pcon24cd": "E14001375",
+      "name": "Newark",
+      "slug": "newark",
+      "url": "https://ukelections.co.uk/seats/parliament/newark/"
+    }
+  ],
+  "E07000172": [
+    {
+      "pcon24cd": "E14001140",
+      "name": "Broxtowe",
+      "slug": "broxtowe",
+      "url": "https://ukelections.co.uk/seats/parliament/broxtowe/"
+    },
+    {
+      "pcon24cd": "E14001411",
+      "name": "Nottingham North and Kimberley",
+      "slug": "nottingham-north-and-kimberley",
+      "url": "https://ukelections.co.uk/seats/parliament/nottingham-north-and-kimberley/"
+    }
+  ],
+  "E07000173": [
+    {
+      "pcon24cd": "E14001245",
+      "name": "Gedling",
+      "slug": "gedling",
+      "url": "https://ukelections.co.uk/seats/parliament/gedling/"
+    },
+    {
+      "pcon24cd": "E14001471",
+      "name": "Sherwood Forest",
+      "slug": "sherwood-forest",
+      "url": "https://ukelections.co.uk/seats/parliament/sherwood-forest/"
+    }
+  ],
+  "E07000174": [
+    {
+      "pcon24cd": "E14001068",
+      "name": "Ashfield",
+      "slug": "ashfield",
+      "url": "https://ukelections.co.uk/seats/parliament/ashfield/"
+    },
+    {
+      "pcon24cd": "E14001355",
+      "name": "Mansfield",
+      "slug": "mansfield",
+      "url": "https://ukelections.co.uk/seats/parliament/mansfield/"
+    }
+  ],
+  "E07000175": [
+    {
+      "pcon24cd": "E14001375",
+      "name": "Newark",
+      "slug": "newark",
+      "url": "https://ukelections.co.uk/seats/parliament/newark/"
+    },
+    {
+      "pcon24cd": "E14001471",
+      "name": "Sherwood Forest",
+      "slug": "sherwood-forest",
+      "url": "https://ukelections.co.uk/seats/parliament/sherwood-forest/"
+    }
+  ],
+  "E07000176": [
+    {
+      "pcon24cd": "E14001375",
+      "name": "Newark",
+      "slug": "newark",
+      "url": "https://ukelections.co.uk/seats/parliament/newark/"
+    },
+    {
+      "pcon24cd": "E14001457",
+      "name": "Rushcliffe",
+      "slug": "rushcliffe",
+      "url": "https://ukelections.co.uk/seats/parliament/rushcliffe/"
+    }
+  ],
+  "E07000177": [
+    {
+      "pcon24cd": "E14001072",
+      "name": "Banbury",
+      "slug": "banbury",
+      "url": "https://ukelections.co.uk/seats/parliament/banbury/"
+    },
+    {
+      "pcon24cd": "E14001090",
+      "name": "Bicester and Woodstock",
+      "slug": "bicester-and-woodstock",
+      "url": "https://ukelections.co.uk/seats/parliament/bicester-and-woodstock/"
+    }
+  ],
+  "E07000178": [
+    {
+      "pcon24cd": "E14001419",
+      "name": "Oxford East",
+      "slug": "oxford-east",
+      "url": "https://ukelections.co.uk/seats/parliament/oxford-east/"
+    },
+    {
+      "pcon24cd": "E14001420",
+      "name": "Oxford West and Abingdon",
+      "slug": "oxford-west-and-abingdon",
+      "url": "https://ukelections.co.uk/seats/parliament/oxford-west-and-abingdon/"
+    }
+  ],
+  "E07000179": [
+    {
+      "pcon24cd": "E14001197",
+      "name": "Didcot and Wantage",
+      "slug": "didcot-and-wantage",
+      "url": "https://ukelections.co.uk/seats/parliament/didcot-and-wantage/"
+    },
+    {
+      "pcon24cd": "E14001280",
+      "name": "Henley and Thame",
+      "slug": "henley-and-thame",
+      "url": "https://ukelections.co.uk/seats/parliament/henley-and-thame/"
+    }
+  ],
+  "E07000180": [
+    {
+      "pcon24cd": "E14001197",
+      "name": "Didcot and Wantage",
+      "slug": "didcot-and-wantage",
+      "url": "https://ukelections.co.uk/seats/parliament/didcot-and-wantage/"
+    },
+    {
+      "pcon24cd": "E14001420",
+      "name": "Oxford West and Abingdon",
+      "slug": "oxford-west-and-abingdon",
+      "url": "https://ukelections.co.uk/seats/parliament/oxford-west-and-abingdon/"
+    },
+    {
+      "pcon24cd": "E14001591",
+      "name": "Witney",
+      "slug": "witney",
+      "url": "https://ukelections.co.uk/seats/parliament/witney/"
+    }
+  ],
+  "E07000181": [
+    {
+      "pcon24cd": "E14001072",
+      "name": "Banbury",
+      "slug": "banbury",
+      "url": "https://ukelections.co.uk/seats/parliament/banbury/"
+    },
+    {
+      "pcon24cd": "E14001090",
+      "name": "Bicester and Woodstock",
+      "slug": "bicester-and-woodstock",
+      "url": "https://ukelections.co.uk/seats/parliament/bicester-and-woodstock/"
+    },
+    {
+      "pcon24cd": "E14001591",
+      "name": "Witney",
+      "slug": "witney",
+      "url": "https://ukelections.co.uk/seats/parliament/witney/"
+    }
+  ],
+  "E07000192": [
+    {
+      "pcon24cd": "E14001150",
+      "name": "Cannock Chase",
+      "slug": "cannock-chase",
+      "url": "https://ukelections.co.uk/seats/parliament/cannock-chase/"
+    }
+  ],
+  "E07000193": [
+    {
+      "pcon24cd": "E14001143",
+      "name": "Burton and Uttoxeter",
+      "slug": "burton-and-uttoxeter",
+      "url": "https://ukelections.co.uk/seats/parliament/burton-and-uttoxeter/"
+    },
+    {
+      "pcon24cd": "E14001335",
+      "name": "Lichfield",
+      "slug": "lichfield",
+      "url": "https://ukelections.co.uk/seats/parliament/lichfield/"
+    }
+  ],
+  "E07000194": [
+    {
+      "pcon24cd": "E14001335",
+      "name": "Lichfield",
+      "slug": "lichfield",
+      "url": "https://ukelections.co.uk/seats/parliament/lichfield/"
+    },
+    {
+      "pcon24cd": "E14001538",
+      "name": "Tamworth",
+      "slug": "tamworth",
+      "url": "https://ukelections.co.uk/seats/parliament/tamworth/"
+    }
+  ],
+  "E07000195": [
+    {
+      "pcon24cd": "E14001380",
+      "name": "Newcastle-under-Lyme",
+      "slug": "newcastle-under-lyme",
+      "url": "https://ukelections.co.uk/seats/parliament/newcastle-under-lyme/"
+    },
+    {
+      "pcon24cd": "E14001513",
+      "name": "Stafford",
+      "slug": "stafford",
+      "url": "https://ukelections.co.uk/seats/parliament/stafford/"
+    },
+    {
+      "pcon24cd": "E14001521",
+      "name": "Stoke-on-Trent North",
+      "slug": "stoke-on-trent-north",
+      "url": "https://ukelections.co.uk/seats/parliament/stoke-on-trent-north/"
+    }
+  ],
+  "E07000196": [
+    {
+      "pcon24cd": "E14001316",
+      "name": "Kingswinford and South Staffordshire",
+      "slug": "kingswinford-and-south-staffordshire",
+      "url": "https://ukelections.co.uk/seats/parliament/kingswinford-and-south-staffordshire/"
+    },
+    {
+      "pcon24cd": "E14001523",
+      "name": "Stone, Great Wyrley and Penkridge",
+      "slug": "stone-great-wyrley-and-penkridge",
+      "url": "https://ukelections.co.uk/seats/parliament/stone-great-wyrley-and-penkridge/"
+    }
+  ],
+  "E07000197": [
+    {
+      "pcon24cd": "E14001513",
+      "name": "Stafford",
+      "slug": "stafford",
+      "url": "https://ukelections.co.uk/seats/parliament/stafford/"
+    },
+    {
+      "pcon24cd": "E14001522",
+      "name": "Stoke-on-Trent South",
+      "slug": "stoke-on-trent-south",
+      "url": "https://ukelections.co.uk/seats/parliament/stoke-on-trent-south/"
+    },
+    {
+      "pcon24cd": "E14001523",
+      "name": "Stone, Great Wyrley and Penkridge",
+      "slug": "stone-great-wyrley-and-penkridge",
+      "url": "https://ukelections.co.uk/seats/parliament/stone-great-wyrley-and-penkridge/"
+    }
+  ],
+  "E07000198": [
+    {
+      "pcon24cd": "E14001514",
+      "name": "Staffordshire Moorlands",
+      "slug": "staffordshire-moorlands",
+      "url": "https://ukelections.co.uk/seats/parliament/staffordshire-moorlands/"
+    },
+    {
+      "pcon24cd": "E14001522",
+      "name": "Stoke-on-Trent South",
+      "slug": "stoke-on-trent-south",
+      "url": "https://ukelections.co.uk/seats/parliament/stoke-on-trent-south/"
+    }
+  ],
+  "E07000199": [
+    {
+      "pcon24cd": "E14001538",
+      "name": "Tamworth",
+      "slug": "tamworth",
+      "url": "https://ukelections.co.uk/seats/parliament/tamworth/"
+    }
+  ],
+  "E07000200": [
+    {
+      "pcon24cd": "E14001494",
+      "name": "South Suffolk",
+      "slug": "south-suffolk",
+      "url": "https://ukelections.co.uk/seats/parliament/south-suffolk/"
+    }
+  ],
+  "E07000202": [
+    {
+      "pcon24cd": "E14001156",
+      "name": "Central Suffolk and North Ipswich",
+      "slug": "central-suffolk-and-north-ipswich",
+      "url": "https://ukelections.co.uk/seats/parliament/central-suffolk-and-north-ipswich/"
+    },
+    {
+      "pcon24cd": "E14001302",
+      "name": "Ipswich",
+      "slug": "ipswich",
+      "url": "https://ukelections.co.uk/seats/parliament/ipswich/"
+    }
+  ],
+  "E07000203": [
+    {
+      "pcon24cd": "E14001146",
+      "name": "Bury St Edmunds and Stowmarket",
+      "slug": "bury-st-edmunds-and-stowmarket",
+      "url": "https://ukelections.co.uk/seats/parliament/bury-st-edmunds-and-stowmarket/"
+    },
+    {
+      "pcon24cd": "E14001156",
+      "name": "Central Suffolk and North Ipswich",
+      "slug": "central-suffolk-and-north-ipswich",
+      "url": "https://ukelections.co.uk/seats/parliament/central-suffolk-and-north-ipswich/"
+    },
+    {
+      "pcon24cd": "E14001569",
+      "name": "Waveney Valley",
+      "slug": "waveney-valley",
+      "url": "https://ukelections.co.uk/seats/parliament/waveney-valley/"
+    }
+  ],
+  "E07000207": [
+    {
+      "pcon24cd": "E14001230",
+      "name": "Esher and Walton",
+      "slug": "esher-and-walton",
+      "url": "https://ukelections.co.uk/seats/parliament/esher-and-walton/"
+    },
+    {
+      "pcon24cd": "E14001456",
+      "name": "Runnymede and Weybridge",
+      "slug": "runnymede-and-weybridge",
+      "url": "https://ukelections.co.uk/seats/parliament/runnymede-and-weybridge/"
+    }
+  ],
+  "E07000208": [
+    {
+      "pcon24cd": "E14001227",
+      "name": "Epsom and Ewell",
+      "slug": "epsom-and-ewell",
+      "url": "https://ukelections.co.uk/seats/parliament/epsom-and-ewell/"
+    }
+  ],
+  "E07000209": [
+    {
+      "pcon24cd": "E14001249",
+      "name": "Godalming and Ash",
+      "slug": "godalming-and-ash",
+      "url": "https://ukelections.co.uk/seats/parliament/godalming-and-ash/"
+    },
+    {
+      "pcon24cd": "E14001258",
+      "name": "Guildford",
+      "slug": "guildford",
+      "url": "https://ukelections.co.uk/seats/parliament/guildford/"
+    },
+    {
+      "pcon24cd": "E14001532",
+      "name": "Surrey Heath",
+      "slug": "surrey-heath",
+      "url": "https://ukelections.co.uk/seats/parliament/surrey-heath/"
+    }
+  ],
+  "E07000210": [
+    {
+      "pcon24cd": "E14001201",
+      "name": "Dorking and Horley",
+      "slug": "dorking-and-horley",
+      "url": "https://ukelections.co.uk/seats/parliament/dorking-and-horley/"
+    },
+    {
+      "pcon24cd": "E14001227",
+      "name": "Epsom and Ewell",
+      "slug": "epsom-and-ewell",
+      "url": "https://ukelections.co.uk/seats/parliament/epsom-and-ewell/"
+    }
+  ],
+  "E07000211": [
+    {
+      "pcon24cd": "E14001201",
+      "name": "Dorking and Horley",
+      "slug": "dorking-and-horley",
+      "url": "https://ukelections.co.uk/seats/parliament/dorking-and-horley/"
+    },
+    {
+      "pcon24cd": "E14001215",
+      "name": "East Surrey",
+      "slug": "east-surrey",
+      "url": "https://ukelections.co.uk/seats/parliament/east-surrey/"
+    },
+    {
+      "pcon24cd": "E14001442",
+      "name": "Reigate",
+      "slug": "reigate",
+      "url": "https://ukelections.co.uk/seats/parliament/reigate/"
+    }
+  ],
+  "E07000212": [
+    {
+      "pcon24cd": "E14001456",
+      "name": "Runnymede and Weybridge",
+      "slug": "runnymede-and-weybridge",
+      "url": "https://ukelections.co.uk/seats/parliament/runnymede-and-weybridge/"
+    },
+    {
+      "pcon24cd": "E14001588",
+      "name": "Windsor",
+      "slug": "windsor",
+      "url": "https://ukelections.co.uk/seats/parliament/windsor/"
+    }
+  ],
+  "E07000213": [
+    {
+      "pcon24cd": "E14001505",
+      "name": "Spelthorne",
+      "slug": "spelthorne",
+      "url": "https://ukelections.co.uk/seats/parliament/spelthorne/"
+    }
+  ],
+  "E07000214": [
+    {
+      "pcon24cd": "E14001532",
+      "name": "Surrey Heath",
+      "slug": "surrey-heath",
+      "url": "https://ukelections.co.uk/seats/parliament/surrey-heath/"
+    }
+  ],
+  "E07000215": [
+    {
+      "pcon24cd": "E14001215",
+      "name": "East Surrey",
+      "slug": "east-surrey",
+      "url": "https://ukelections.co.uk/seats/parliament/east-surrey/"
+    }
+  ],
+  "E07000216": [
+    {
+      "pcon24cd": "E14001201",
+      "name": "Dorking and Horley",
+      "slug": "dorking-and-horley",
+      "url": "https://ukelections.co.uk/seats/parliament/dorking-and-horley/"
+    },
+    {
+      "pcon24cd": "E14001234",
+      "name": "Farnham and Bordon",
+      "slug": "farnham-and-bordon",
+      "url": "https://ukelections.co.uk/seats/parliament/farnham-and-bordon/"
+    },
+    {
+      "pcon24cd": "E14001249",
+      "name": "Godalming and Ash",
+      "slug": "godalming-and-ash",
+      "url": "https://ukelections.co.uk/seats/parliament/godalming-and-ash/"
+    }
+  ],
+  "E07000217": [
+    {
+      "pcon24cd": "E14001592",
+      "name": "Woking",
+      "slug": "woking",
+      "url": "https://ukelections.co.uk/seats/parliament/woking/"
+    }
+  ],
+  "E07000218": [
+    {
+      "pcon24cd": "E14001400",
+      "name": "North Warwickshire and Bedworth",
+      "slug": "north-warwickshire-and-bedworth",
+      "url": "https://ukelections.co.uk/seats/parliament/north-warwickshire-and-bedworth/"
+    },
+    {
+      "pcon24cd": "E14001413",
+      "name": "Nuneaton",
+      "slug": "nuneaton",
+      "url": "https://ukelections.co.uk/seats/parliament/nuneaton/"
+    }
+  ],
+  "E07000219": [
+    {
+      "pcon24cd": "E14001400",
+      "name": "North Warwickshire and Bedworth",
+      "slug": "north-warwickshire-and-bedworth",
+      "url": "https://ukelections.co.uk/seats/parliament/north-warwickshire-and-bedworth/"
+    },
+    {
+      "pcon24cd": "E14001413",
+      "name": "Nuneaton",
+      "slug": "nuneaton",
+      "url": "https://ukelections.co.uk/seats/parliament/nuneaton/"
+    },
+    {
+      "pcon24cd": "E14001453",
+      "name": "Rugby",
+      "slug": "rugby",
+      "url": "https://ukelections.co.uk/seats/parliament/rugby/"
+    }
+  ],
+  "E07000220": [
+    {
+      "pcon24cd": "E14001309",
+      "name": "Kenilworth and Southam",
+      "slug": "kenilworth-and-southam",
+      "url": "https://ukelections.co.uk/seats/parliament/kenilworth-and-southam/"
+    },
+    {
+      "pcon24cd": "E14001453",
+      "name": "Rugby",
+      "slug": "rugby",
+      "url": "https://ukelections.co.uk/seats/parliament/rugby/"
+    }
+  ],
+  "E07000221": [
+    {
+      "pcon24cd": "E14001309",
+      "name": "Kenilworth and Southam",
+      "slug": "kenilworth-and-southam",
+      "url": "https://ukelections.co.uk/seats/parliament/kenilworth-and-southam/"
+    },
+    {
+      "pcon24cd": "E14001526",
+      "name": "Stratford-on-Avon",
+      "slug": "stratford-on-avon",
+      "url": "https://ukelections.co.uk/seats/parliament/stratford-on-avon/"
+    }
+  ],
+  "E07000222": [
+    {
+      "pcon24cd": "E14001309",
+      "name": "Kenilworth and Southam",
+      "slug": "kenilworth-and-southam",
+      "url": "https://ukelections.co.uk/seats/parliament/kenilworth-and-southam/"
+    },
+    {
+      "pcon24cd": "E14001566",
+      "name": "Warwick and Leamington",
+      "slug": "warwick-and-leamington",
+      "url": "https://ukelections.co.uk/seats/parliament/warwick-and-leamington/"
+    }
+  ],
+  "E07000223": [
+    {
+      "pcon24cd": "E14001218",
+      "name": "East Worthing and Shoreham",
+      "slug": "east-worthing-and-shoreham",
+      "url": "https://ukelections.co.uk/seats/parliament/east-worthing-and-shoreham/"
+    }
+  ],
+  "E07000224": [
+    {
+      "pcon24cd": "E14001067",
+      "name": "Arundel and South Downs",
+      "slug": "arundel-and-south-downs",
+      "url": "https://ukelections.co.uk/seats/parliament/arundel-and-south-downs/"
+    },
+    {
+      "pcon24cd": "E14001108",
+      "name": "Bognor Regis and Littlehampton",
+      "slug": "bognor-regis-and-littlehampton",
+      "url": "https://ukelections.co.uk/seats/parliament/bognor-regis-and-littlehampton/"
+    },
+    {
+      "pcon24cd": "E14001166",
+      "name": "Chichester",
+      "slug": "chichester",
+      "url": "https://ukelections.co.uk/seats/parliament/chichester/"
+    },
+    {
+      "pcon24cd": "E14001599",
+      "name": "Worthing West",
+      "slug": "worthing-west",
+      "url": "https://ukelections.co.uk/seats/parliament/worthing-west/"
+    }
+  ],
+  "E07000225": [
+    {
+      "pcon24cd": "E14001067",
+      "name": "Arundel and South Downs",
+      "slug": "arundel-and-south-downs",
+      "url": "https://ukelections.co.uk/seats/parliament/arundel-and-south-downs/"
+    },
+    {
+      "pcon24cd": "E14001166",
+      "name": "Chichester",
+      "slug": "chichester",
+      "url": "https://ukelections.co.uk/seats/parliament/chichester/"
+    }
+  ],
+  "E07000226": [
+    {
+      "pcon24cd": "E14001184",
+      "name": "Crawley",
+      "slug": "crawley",
+      "url": "https://ukelections.co.uk/seats/parliament/crawley/"
+    }
+  ],
+  "E07000227": [
+    {
+      "pcon24cd": "E14001067",
+      "name": "Arundel and South Downs",
+      "slug": "arundel-and-south-downs",
+      "url": "https://ukelections.co.uk/seats/parliament/arundel-and-south-downs/"
+    },
+    {
+      "pcon24cd": "E14001294",
+      "name": "Horsham",
+      "slug": "horsham",
+      "url": "https://ukelections.co.uk/seats/parliament/horsham/"
+    }
+  ],
+  "E07000228": [
+    {
+      "pcon24cd": "E14001212",
+      "name": "East Grinstead and Uckfield",
+      "slug": "east-grinstead-and-uckfield",
+      "url": "https://ukelections.co.uk/seats/parliament/east-grinstead-and-uckfield/"
+    },
+    {
+      "pcon24cd": "E14001366",
+      "name": "Mid Sussex",
+      "slug": "mid-sussex",
+      "url": "https://ukelections.co.uk/seats/parliament/mid-sussex/"
+    }
+  ],
+  "E07000229": [
+    {
+      "pcon24cd": "E14001218",
+      "name": "East Worthing and Shoreham",
+      "slug": "east-worthing-and-shoreham",
+      "url": "https://ukelections.co.uk/seats/parliament/east-worthing-and-shoreham/"
+    },
+    {
+      "pcon24cd": "E14001599",
+      "name": "Worthing West",
+      "slug": "worthing-west",
+      "url": "https://ukelections.co.uk/seats/parliament/worthing-west/"
+    }
+  ],
+  "E07000234": [
+    {
+      "pcon24cd": "E14001138",
+      "name": "Bromsgrove",
+      "slug": "bromsgrove",
+      "url": "https://ukelections.co.uk/seats/parliament/bromsgrove/"
+    }
+  ],
+  "E07000235": [
+    {
+      "pcon24cd": "E14001579",
+      "name": "West Worcestershire",
+      "slug": "west-worcestershire",
+      "url": "https://ukelections.co.uk/seats/parliament/west-worcestershire/"
+    }
+  ],
+  "E07000236": [
+    {
+      "pcon24cd": "E14001441",
+      "name": "Redditch",
+      "slug": "redditch",
+      "url": "https://ukelections.co.uk/seats/parliament/redditch/"
+    }
+  ],
+  "E07000237": [
+    {
+      "pcon24cd": "E14001597",
+      "name": "Worcester",
+      "slug": "worcester",
+      "url": "https://ukelections.co.uk/seats/parliament/worcester/"
+    }
+  ],
+  "E07000238": [
+    {
+      "pcon24cd": "E14001203",
+      "name": "Droitwich and Evesham",
+      "slug": "droitwich-and-evesham",
+      "url": "https://ukelections.co.uk/seats/parliament/droitwich-and-evesham/"
+    },
+    {
+      "pcon24cd": "E14001441",
+      "name": "Redditch",
+      "slug": "redditch",
+      "url": "https://ukelections.co.uk/seats/parliament/redditch/"
+    },
+    {
+      "pcon24cd": "E14001579",
+      "name": "West Worcestershire",
+      "slug": "west-worcestershire",
+      "url": "https://ukelections.co.uk/seats/parliament/west-worcestershire/"
+    }
+  ],
+  "E07000239": [
+    {
+      "pcon24cd": "E14001601",
+      "name": "Wyre Forest",
+      "slug": "wyre-forest",
+      "url": "https://ukelections.co.uk/seats/parliament/wyre-forest/"
+    }
+  ],
+  "E07000240": [
+    {
+      "pcon24cd": "E14001268",
+      "name": "Harpenden and Berkhamsted",
+      "slug": "harpenden-and-berkhamsted",
+      "url": "https://ukelections.co.uk/seats/parliament/harpenden-and-berkhamsted/"
+    },
+    {
+      "pcon24cd": "E14001507",
+      "name": "St Albans",
+      "slug": "st-albans",
+      "url": "https://ukelections.co.uk/seats/parliament/st-albans/"
+    }
+  ],
+  "E07000241": [
+    {
+      "pcon24cd": "E14001284",
+      "name": "Hertsmere",
+      "slug": "hertsmere",
+      "url": "https://ukelections.co.uk/seats/parliament/hertsmere/"
+    },
+    {
+      "pcon24cd": "E14001573",
+      "name": "Welwyn Hatfield",
+      "slug": "welwyn-hatfield",
+      "url": "https://ukelections.co.uk/seats/parliament/welwyn-hatfield/"
+    }
+  ],
+  "E07000242": [
+    {
+      "pcon24cd": "E14001139",
+      "name": "Broxbourne",
+      "slug": "broxbourne",
+      "url": "https://ukelections.co.uk/seats/parliament/broxbourne/"
+    },
+    {
+      "pcon24cd": "E14001283",
+      "name": "Hertford and Stortford",
+      "slug": "hertford-and-stortford",
+      "url": "https://ukelections.co.uk/seats/parliament/hertford-and-stortford/"
+    },
+    {
+      "pcon24cd": "E14001393",
+      "name": "North East Hertfordshire",
+      "slug": "north-east-hertfordshire",
+      "url": "https://ukelections.co.uk/seats/parliament/north-east-hertfordshire/"
+    },
+    {
+      "pcon24cd": "E14001516",
+      "name": "Stevenage",
+      "slug": "stevenage",
+      "url": "https://ukelections.co.uk/seats/parliament/stevenage/"
+    }
+  ],
+  "E07000243": [
+    {
+      "pcon24cd": "E14001516",
+      "name": "Stevenage",
+      "slug": "stevenage",
+      "url": "https://ukelections.co.uk/seats/parliament/stevenage/"
+    }
+  ],
+  "E07000244": [
+    {
+      "pcon24cd": "E14001156",
+      "name": "Central Suffolk and North Ipswich",
+      "slug": "central-suffolk-and-north-ipswich",
+      "url": "https://ukelections.co.uk/seats/parliament/central-suffolk-and-north-ipswich/"
+    },
+    {
+      "pcon24cd": "E14001344",
+      "name": "Lowestoft",
+      "slug": "lowestoft",
+      "url": "https://ukelections.co.uk/seats/parliament/lowestoft/"
+    },
+    {
+      "pcon24cd": "E14001530",
+      "name": "Suffolk Coastal",
+      "slug": "suffolk-coastal",
+      "url": "https://ukelections.co.uk/seats/parliament/suffolk-coastal/"
+    },
+    {
+      "pcon24cd": "E14001569",
+      "name": "Waveney Valley",
+      "slug": "waveney-valley",
+      "url": "https://ukelections.co.uk/seats/parliament/waveney-valley/"
+    }
+  ],
+  "E07000245": [
+    {
+      "pcon24cd": "E14001146",
+      "name": "Bury St Edmunds and Stowmarket",
+      "slug": "bury-st-edmunds-and-stowmarket",
+      "url": "https://ukelections.co.uk/seats/parliament/bury-st-edmunds-and-stowmarket/"
+    },
+    {
+      "pcon24cd": "E14001578",
+      "name": "West Suffolk",
+      "slug": "west-suffolk",
+      "url": "https://ukelections.co.uk/seats/parliament/west-suffolk/"
+    }
+  ],
+  "E08000001": [
+    {
+      "pcon24cd": "E14001110",
+      "name": "Bolton North East",
+      "slug": "bolton-north-east",
+      "url": "https://ukelections.co.uk/seats/parliament/bolton-north-east/"
+    },
+    {
+      "pcon24cd": "E14001111",
+      "name": "Bolton South and Walkden",
+      "slug": "bolton-south-and-walkden",
+      "url": "https://ukelections.co.uk/seats/parliament/bolton-south-and-walkden/"
+    },
+    {
+      "pcon24cd": "E14001112",
+      "name": "Bolton West",
+      "slug": "bolton-west",
+      "url": "https://ukelections.co.uk/seats/parliament/bolton-west/"
+    }
+  ],
+  "E08000002": [
+    {
+      "pcon24cd": "E14001144",
+      "name": "Bury North",
+      "slug": "bury-north",
+      "url": "https://ukelections.co.uk/seats/parliament/bury-north/"
+    },
+    {
+      "pcon24cd": "E14001145",
+      "name": "Bury South",
+      "slug": "bury-south",
+      "url": "https://ukelections.co.uk/seats/parliament/bury-south/"
+    }
+  ],
+  "E08000003": [
+    {
+      "pcon24cd": "E14001103",
+      "name": "Blackley and Middleton South",
+      "slug": "blackley-and-middleton-south",
+      "url": "https://ukelections.co.uk/seats/parliament/blackley-and-middleton-south/"
+    },
+    {
+      "pcon24cd": "E14001251",
+      "name": "Gorton and Denton",
+      "slug": "gorton-and-denton",
+      "url": "https://ukelections.co.uk/seats/parliament/gorton-and-denton/"
+    },
+    {
+      "pcon24cd": "E14001352",
+      "name": "Manchester Central",
+      "slug": "manchester-central",
+      "url": "https://ukelections.co.uk/seats/parliament/manchester-central/"
+    },
+    {
+      "pcon24cd": "E14001353",
+      "name": "Manchester Rusholme",
+      "slug": "manchester-rusholme",
+      "url": "https://ukelections.co.uk/seats/parliament/manchester-rusholme/"
+    },
+    {
+      "pcon24cd": "E14001354",
+      "name": "Manchester Withington",
+      "slug": "manchester-withington",
+      "url": "https://ukelections.co.uk/seats/parliament/manchester-withington/"
+    },
+    {
+      "pcon24cd": "E14001602",
+      "name": "Wythenshawe and Sale East",
+      "slug": "wythenshawe-and-sale-east",
+      "url": "https://ukelections.co.uk/seats/parliament/wythenshawe-and-sale-east/"
+    }
+  ],
+  "E08000004": [
+    {
+      "pcon24cd": "E14001352",
+      "name": "Manchester Central",
+      "slug": "manchester-central",
+      "url": "https://ukelections.co.uk/seats/parliament/manchester-central/"
+    },
+    {
+      "pcon24cd": "E14001415",
+      "name": "Oldham East and Saddleworth",
+      "slug": "oldham-east-and-saddleworth",
+      "url": "https://ukelections.co.uk/seats/parliament/oldham-east-and-saddleworth/"
+    },
+    {
+      "pcon24cd": "E14001416",
+      "name": "Oldham West, Chadderton and Royton",
+      "slug": "oldham-west-chadderton-and-royton",
+      "url": "https://ukelections.co.uk/seats/parliament/oldham-west-chadderton-and-royton/"
+    }
+  ],
+  "E08000005": [
+    {
+      "pcon24cd": "E14001103",
+      "name": "Blackley and Middleton South",
+      "slug": "blackley-and-middleton-south",
+      "url": "https://ukelections.co.uk/seats/parliament/blackley-and-middleton-south/"
+    },
+    {
+      "pcon24cd": "E14001286",
+      "name": "Heywood and Middleton North",
+      "slug": "heywood-and-middleton-north",
+      "url": "https://ukelections.co.uk/seats/parliament/heywood-and-middleton-north/"
+    },
+    {
+      "pcon24cd": "E14001446",
+      "name": "Rochdale",
+      "slug": "rochdale",
+      "url": "https://ukelections.co.uk/seats/parliament/rochdale/"
+    }
+  ],
+  "E08000006": [
+    {
+      "pcon24cd": "E14001111",
+      "name": "Bolton South and Walkden",
+      "slug": "bolton-south-and-walkden",
+      "url": "https://ukelections.co.uk/seats/parliament/bolton-south-and-walkden/"
+    },
+    {
+      "pcon24cd": "E14001145",
+      "name": "Bury South",
+      "slug": "bury-south",
+      "url": "https://ukelections.co.uk/seats/parliament/bury-south/"
+    },
+    {
+      "pcon24cd": "E14001459",
+      "name": "Salford",
+      "slug": "salford",
+      "url": "https://ukelections.co.uk/seats/parliament/salford/"
+    },
+    {
+      "pcon24cd": "E14001598",
+      "name": "Worsley and Eccles",
+      "slug": "worsley-and-eccles",
+      "url": "https://ukelections.co.uk/seats/parliament/worsley-and-eccles/"
+    }
+  ],
+  "E08000007": [
+    {
+      "pcon24cd": "E14001158",
+      "name": "Cheadle",
+      "slug": "cheadle",
+      "url": "https://ukelections.co.uk/seats/parliament/cheadle/"
+    },
+    {
+      "pcon24cd": "E14001277",
+      "name": "Hazel Grove",
+      "slug": "hazel-grove",
+      "url": "https://ukelections.co.uk/seats/parliament/hazel-grove/"
+    },
+    {
+      "pcon24cd": "E14001517",
+      "name": "Stockport",
+      "slug": "stockport",
+      "url": "https://ukelections.co.uk/seats/parliament/stockport/"
+    }
+  ],
+  "E08000008": [
+    {
+      "pcon24cd": "E14001070",
+      "name": "Ashton-under-Lyne",
+      "slug": "ashton-under-lyne",
+      "url": "https://ukelections.co.uk/seats/parliament/ashton-under-lyne/"
+    },
+    {
+      "pcon24cd": "E14001251",
+      "name": "Gorton and Denton",
+      "slug": "gorton-and-denton",
+      "url": "https://ukelections.co.uk/seats/parliament/gorton-and-denton/"
+    },
+    {
+      "pcon24cd": "E14001515",
+      "name": "Stalybridge and Hyde",
+      "slug": "stalybridge-and-hyde",
+      "url": "https://ukelections.co.uk/seats/parliament/stalybridge-and-hyde/"
+    }
+  ],
+  "E08000009": [
+    {
+      "pcon24cd": "E14001065",
+      "name": "Altrincham and Sale West",
+      "slug": "altrincham-and-sale-west",
+      "url": "https://ukelections.co.uk/seats/parliament/altrincham-and-sale-west/"
+    },
+    {
+      "pcon24cd": "E14001528",
+      "name": "Stretford and Urmston",
+      "slug": "stretford-and-urmston",
+      "url": "https://ukelections.co.uk/seats/parliament/stretford-and-urmston/"
+    },
+    {
+      "pcon24cd": "E14001602",
+      "name": "Wythenshawe and Sale East",
+      "slug": "wythenshawe-and-sale-east",
+      "url": "https://ukelections.co.uk/seats/parliament/wythenshawe-and-sale-east/"
+    }
+  ],
+  "E08000010": [
+    {
+      "pcon24cd": "E14001329",
+      "name": "Leigh and Atherton",
+      "slug": "leigh-and-atherton",
+      "url": "https://ukelections.co.uk/seats/parliament/leigh-and-atherton/"
+    },
+    {
+      "pcon24cd": "E14001350",
+      "name": "Makerfield",
+      "slug": "makerfield",
+      "url": "https://ukelections.co.uk/seats/parliament/makerfield/"
+    },
+    {
+      "pcon24cd": "E14001585",
+      "name": "Wigan",
+      "slug": "wigan",
+      "url": "https://ukelections.co.uk/seats/parliament/wigan/"
+    },
+    {
+      "pcon24cd": "E14001598",
+      "name": "Worsley and Eccles",
+      "slug": "worsley-and-eccles",
+      "url": "https://ukelections.co.uk/seats/parliament/worsley-and-eccles/"
+    }
+  ],
+  "E08000011": [
+    {
+      "pcon24cd": "E14001317",
+      "name": "Knowsley",
+      "slug": "knowsley",
+      "url": "https://ukelections.co.uk/seats/parliament/knowsley/"
+    },
+    {
+      "pcon24cd": "E14001341",
+      "name": "Liverpool West Derby",
+      "slug": "liverpool-west-derby",
+      "url": "https://ukelections.co.uk/seats/parliament/liverpool-west-derby/"
+    },
+    {
+      "pcon24cd": "E14001510",
+      "name": "St Helens South and Whiston",
+      "slug": "st-helens-south-and-whiston",
+      "url": "https://ukelections.co.uk/seats/parliament/st-helens-south-and-whiston/"
+    },
+    {
+      "pcon24cd": "E14001584",
+      "name": "Widnes and Halewood",
+      "slug": "widnes-and-halewood",
+      "url": "https://ukelections.co.uk/seats/parliament/widnes-and-halewood/"
+    }
+  ],
+  "E08000012": [
+    {
+      "pcon24cd": "E14001337",
+      "name": "Liverpool Garston",
+      "slug": "liverpool-garston",
+      "url": "https://ukelections.co.uk/seats/parliament/liverpool-garston/"
+    },
+    {
+      "pcon24cd": "E14001338",
+      "name": "Liverpool Riverside",
+      "slug": "liverpool-riverside",
+      "url": "https://ukelections.co.uk/seats/parliament/liverpool-riverside/"
+    },
+    {
+      "pcon24cd": "E14001339",
+      "name": "Liverpool Walton",
+      "slug": "liverpool-walton",
+      "url": "https://ukelections.co.uk/seats/parliament/liverpool-walton/"
+    },
+    {
+      "pcon24cd": "E14001340",
+      "name": "Liverpool Wavertree",
+      "slug": "liverpool-wavertree",
+      "url": "https://ukelections.co.uk/seats/parliament/liverpool-wavertree/"
+    },
+    {
+      "pcon24cd": "E14001341",
+      "name": "Liverpool West Derby",
+      "slug": "liverpool-west-derby",
+      "url": "https://ukelections.co.uk/seats/parliament/liverpool-west-derby/"
+    }
+  ],
+  "E08000013": [
+    {
+      "pcon24cd": "E14001509",
+      "name": "St Helens North",
+      "slug": "st-helens-north",
+      "url": "https://ukelections.co.uk/seats/parliament/st-helens-north/"
+    },
+    {
+      "pcon24cd": "E14001510",
+      "name": "St Helens South and Whiston",
+      "slug": "st-helens-south-and-whiston",
+      "url": "https://ukelections.co.uk/seats/parliament/st-helens-south-and-whiston/"
+    }
+  ],
+  "E08000014": [
+    {
+      "pcon24cd": "E14001113",
+      "name": "Bootle",
+      "slug": "bootle",
+      "url": "https://ukelections.co.uk/seats/parliament/bootle/"
+    },
+    {
+      "pcon24cd": "E14001339",
+      "name": "Liverpool Walton",
+      "slug": "liverpool-walton",
+      "url": "https://ukelections.co.uk/seats/parliament/liverpool-walton/"
+    },
+    {
+      "pcon24cd": "E14001463",
+      "name": "Sefton Central",
+      "slug": "sefton-central",
+      "url": "https://ukelections.co.uk/seats/parliament/sefton-central/"
+    },
+    {
+      "pcon24cd": "E14001504",
+      "name": "Southport",
+      "slug": "southport",
+      "url": "https://ukelections.co.uk/seats/parliament/southport/"
+    }
+  ],
+  "E08000015": [
+    {
+      "pcon24cd": "E14001091",
+      "name": "Birkenhead",
+      "slug": "birkenhead",
+      "url": "https://ukelections.co.uk/seats/parliament/birkenhead/"
+    },
+    {
+      "pcon24cd": "E14001222",
+      "name": "Ellesmere Port and Bromborough",
+      "slug": "ellesmere-port-and-bromborough",
+      "url": "https://ukelections.co.uk/seats/parliament/ellesmere-port-and-bromborough/"
+    },
+    {
+      "pcon24cd": "E14001561",
+      "name": "Wallasey",
+      "slug": "wallasey",
+      "url": "https://ukelections.co.uk/seats/parliament/wallasey/"
+    },
+    {
+      "pcon24cd": "E14001589",
+      "name": "Wirral West",
+      "slug": "wirral-west",
+      "url": "https://ukelections.co.uk/seats/parliament/wirral-west/"
+    }
+  ],
+  "E08000017": [
+    {
+      "pcon24cd": "E14001198",
+      "name": "Doncaster Central",
+      "slug": "doncaster-central",
+      "url": "https://ukelections.co.uk/seats/parliament/doncaster-central/"
+    },
+    {
+      "pcon24cd": "E14001199",
+      "name": "Doncaster East and the Isle of Axholme",
+      "slug": "doncaster-east-and-the-isle-of-axholme",
+      "url": "https://ukelections.co.uk/seats/parliament/doncaster-east-and-the-isle-of-axholme/"
+    },
+    {
+      "pcon24cd": "E14001200",
+      "name": "Doncaster North",
+      "slug": "doncaster-north",
+      "url": "https://ukelections.co.uk/seats/parliament/doncaster-north/"
+    },
+    {
+      "pcon24cd": "E14001436",
+      "name": "Rawmarsh and Conisbrough",
+      "slug": "rawmarsh-and-conisbrough",
+      "url": "https://ukelections.co.uk/seats/parliament/rawmarsh-and-conisbrough/"
+    }
+  ],
+  "E08000018": [
+    {
+      "pcon24cd": "E14001436",
+      "name": "Rawmarsh and Conisbrough",
+      "slug": "rawmarsh-and-conisbrough",
+      "url": "https://ukelections.co.uk/seats/parliament/rawmarsh-and-conisbrough/"
+    },
+    {
+      "pcon24cd": "E14001451",
+      "name": "Rother Valley",
+      "slug": "rother-valley",
+      "url": "https://ukelections.co.uk/seats/parliament/rother-valley/"
+    },
+    {
+      "pcon24cd": "E14001452",
+      "name": "Rotherham",
+      "slug": "rotherham",
+      "url": "https://ukelections.co.uk/seats/parliament/rotherham/"
+    }
+  ],
+  "E08000021": [
+    {
+      "pcon24cd": "E14001183",
+      "name": "Cramlington and Killingworth",
+      "slug": "cramlington-and-killingworth",
+      "url": "https://ukelections.co.uk/seats/parliament/cramlington-and-killingworth/"
+    },
+    {
+      "pcon24cd": "E14001285",
+      "name": "Hexham",
+      "slug": "hexham",
+      "url": "https://ukelections.co.uk/seats/parliament/hexham/"
+    },
+    {
+      "pcon24cd": "E14001377",
+      "name": "Newcastle upon Tyne Central and West",
+      "slug": "newcastle-upon-tyne-central-and-west",
+      "url": "https://ukelections.co.uk/seats/parliament/newcastle-upon-tyne-central-and-west/"
+    },
+    {
+      "pcon24cd": "E14001378",
+      "name": "Newcastle upon Tyne East and Wallsend",
+      "slug": "newcastle-upon-tyne-east-and-wallsend",
+      "url": "https://ukelections.co.uk/seats/parliament/newcastle-upon-tyne-east-and-wallsend/"
+    },
+    {
+      "pcon24cd": "E14001379",
+      "name": "Newcastle upon Tyne North",
+      "slug": "newcastle-upon-tyne-north",
+      "url": "https://ukelections.co.uk/seats/parliament/newcastle-upon-tyne-north/"
+    }
+  ],
+  "E08000022": [
+    {
+      "pcon24cd": "E14001183",
+      "name": "Cramlington and Killingworth",
+      "slug": "cramlington-and-killingworth",
+      "url": "https://ukelections.co.uk/seats/parliament/cramlington-and-killingworth/"
+    },
+    {
+      "pcon24cd": "E14001378",
+      "name": "Newcastle upon Tyne East and Wallsend",
+      "slug": "newcastle-upon-tyne-east-and-wallsend",
+      "url": "https://ukelections.co.uk/seats/parliament/newcastle-upon-tyne-east-and-wallsend/"
+    },
+    {
+      "pcon24cd": "E14001379",
+      "name": "Newcastle upon Tyne North",
+      "slug": "newcastle-upon-tyne-north",
+      "url": "https://ukelections.co.uk/seats/parliament/newcastle-upon-tyne-north/"
+    },
+    {
+      "pcon24cd": "E14001557",
+      "name": "Tynemouth",
+      "slug": "tynemouth",
+      "url": "https://ukelections.co.uk/seats/parliament/tynemouth/"
+    }
+  ],
+  "E08000023": [
+    {
+      "pcon24cd": "E14001307",
+      "name": "Jarrow and Gateshead East",
+      "slug": "jarrow-and-gateshead-east",
+      "url": "https://ukelections.co.uk/seats/parliament/jarrow-and-gateshead-east/"
+    },
+    {
+      "pcon24cd": "E14001492",
+      "name": "South Shields",
+      "slug": "south-shields",
+      "url": "https://ukelections.co.uk/seats/parliament/south-shields/"
+    }
+  ],
+  "E08000024": [
+    {
+      "pcon24cd": "E14001295",
+      "name": "Houghton and Sunderland South",
+      "slug": "houghton-and-sunderland-south",
+      "url": "https://ukelections.co.uk/seats/parliament/houghton-and-sunderland-south/"
+    },
+    {
+      "pcon24cd": "E14001531",
+      "name": "Sunderland Central",
+      "slug": "sunderland-central",
+      "url": "https://ukelections.co.uk/seats/parliament/sunderland-central/"
+    },
+    {
+      "pcon24cd": "E14001567",
+      "name": "Washington and Gateshead South",
+      "slug": "washington-and-gateshead-south",
+      "url": "https://ukelections.co.uk/seats/parliament/washington-and-gateshead-south/"
+    }
+  ],
+  "E08000025": [
+    {
+      "pcon24cd": "E14001092",
+      "name": "Birmingham Edgbaston",
+      "slug": "birmingham-edgbaston",
+      "url": "https://ukelections.co.uk/seats/parliament/birmingham-edgbaston/"
+    },
+    {
+      "pcon24cd": "E14001093",
+      "name": "Birmingham Erdington",
+      "slug": "birmingham-erdington",
+      "url": "https://ukelections.co.uk/seats/parliament/birmingham-erdington/"
+    },
+    {
+      "pcon24cd": "E14001094",
+      "name": "Birmingham Hall Green and Moseley",
+      "slug": "birmingham-hall-green-and-moseley",
+      "url": "https://ukelections.co.uk/seats/parliament/birmingham-hall-green-and-moseley/"
+    },
+    {
+      "pcon24cd": "E14001095",
+      "name": "Birmingham Hodge Hill and Solihull North",
+      "slug": "birmingham-hodge-hill-and-solihull-north",
+      "url": "https://ukelections.co.uk/seats/parliament/birmingham-hodge-hill-and-solihull-north/"
+    },
+    {
+      "pcon24cd": "E14001096",
+      "name": "Birmingham Ladywood",
+      "slug": "birmingham-ladywood",
+      "url": "https://ukelections.co.uk/seats/parliament/birmingham-ladywood/"
+    },
+    {
+      "pcon24cd": "E14001097",
+      "name": "Birmingham Northfield",
+      "slug": "birmingham-northfield",
+      "url": "https://ukelections.co.uk/seats/parliament/birmingham-northfield/"
+    },
+    {
+      "pcon24cd": "E14001098",
+      "name": "Birmingham Perry Barr",
+      "slug": "birmingham-perry-barr",
+      "url": "https://ukelections.co.uk/seats/parliament/birmingham-perry-barr/"
+    },
+    {
+      "pcon24cd": "E14001099",
+      "name": "Birmingham Selly Oak",
+      "slug": "birmingham-selly-oak",
+      "url": "https://ukelections.co.uk/seats/parliament/birmingham-selly-oak/"
+    },
+    {
+      "pcon24cd": "E14001100",
+      "name": "Birmingham Yardley",
+      "slug": "birmingham-yardley",
+      "url": "https://ukelections.co.uk/seats/parliament/birmingham-yardley/"
+    },
+    {
+      "pcon24cd": "E14001535",
+      "name": "Sutton Coldfield",
+      "slug": "sutton-coldfield",
+      "url": "https://ukelections.co.uk/seats/parliament/sutton-coldfield/"
+    }
+  ],
+  "E08000026": [
+    {
+      "pcon24cd": "E14001180",
+      "name": "Coventry East",
+      "slug": "coventry-east",
+      "url": "https://ukelections.co.uk/seats/parliament/coventry-east/"
+    },
+    {
+      "pcon24cd": "E14001181",
+      "name": "Coventry North West",
+      "slug": "coventry-north-west",
+      "url": "https://ukelections.co.uk/seats/parliament/coventry-north-west/"
+    },
+    {
+      "pcon24cd": "E14001182",
+      "name": "Coventry South",
+      "slug": "coventry-south",
+      "url": "https://ukelections.co.uk/seats/parliament/coventry-south/"
+    }
+  ],
+  "E08000027": [
+    {
+      "pcon24cd": "E14001204",
+      "name": "Dudley",
+      "slug": "dudley",
+      "url": "https://ukelections.co.uk/seats/parliament/dudley/"
+    },
+    {
+      "pcon24cd": "E14001261",
+      "name": "Halesowen",
+      "slug": "halesowen",
+      "url": "https://ukelections.co.uk/seats/parliament/halesowen/"
+    },
+    {
+      "pcon24cd": "E14001316",
+      "name": "Kingswinford and South Staffordshire",
+      "slug": "kingswinford-and-south-staffordshire",
+      "url": "https://ukelections.co.uk/seats/parliament/kingswinford-and-south-staffordshire/"
+    },
+    {
+      "pcon24cd": "E14001524",
+      "name": "Stourbridge",
+      "slug": "stourbridge",
+      "url": "https://ukelections.co.uk/seats/parliament/stourbridge/"
+    },
+    {
+      "pcon24cd": "E14001547",
+      "name": "Tipton and Wednesbury",
+      "slug": "tipton-and-wednesbury",
+      "url": "https://ukelections.co.uk/seats/parliament/tipton-and-wednesbury/"
+    }
+  ],
+  "E08000028": [
+    {
+      "pcon24cd": "E14001261",
+      "name": "Halesowen",
+      "slug": "halesowen",
+      "url": "https://ukelections.co.uk/seats/parliament/halesowen/"
+    },
+    {
+      "pcon24cd": "E14001478",
+      "name": "Smethwick",
+      "slug": "smethwick",
+      "url": "https://ukelections.co.uk/seats/parliament/smethwick/"
+    },
+    {
+      "pcon24cd": "E14001547",
+      "name": "Tipton and Wednesbury",
+      "slug": "tipton-and-wednesbury",
+      "url": "https://ukelections.co.uk/seats/parliament/tipton-and-wednesbury/"
+    },
+    {
+      "pcon24cd": "E14001574",
+      "name": "West Bromwich",
+      "slug": "west-bromwich",
+      "url": "https://ukelections.co.uk/seats/parliament/west-bromwich/"
+    }
+  ],
+  "E08000029": [
+    {
+      "pcon24cd": "E14001095",
+      "name": "Birmingham Hodge Hill and Solihull North",
+      "slug": "birmingham-hodge-hill-and-solihull-north",
+      "url": "https://ukelections.co.uk/seats/parliament/birmingham-hodge-hill-and-solihull-north/"
+    },
+    {
+      "pcon24cd": "E14001358",
+      "name": "Meriden and Solihull East",
+      "slug": "meriden-and-solihull-east",
+      "url": "https://ukelections.co.uk/seats/parliament/meriden-and-solihull-east/"
+    },
+    {
+      "pcon24cd": "E14001479",
+      "name": "Solihull West and Shirley",
+      "slug": "solihull-west-and-shirley",
+      "url": "https://ukelections.co.uk/seats/parliament/solihull-west-and-shirley/"
+    }
+  ],
+  "E08000030": [
+    {
+      "pcon24cd": "E14001064",
+      "name": "Aldridge-Brownhills",
+      "slug": "aldridge-brownhills",
+      "url": "https://ukelections.co.uk/seats/parliament/aldridge-brownhills/"
+    },
+    {
+      "pcon24cd": "E14001562",
+      "name": "Walsall and Bloxwich",
+      "slug": "walsall-and-bloxwich",
+      "url": "https://ukelections.co.uk/seats/parliament/walsall-and-bloxwich/"
+    },
+    {
+      "pcon24cd": "E14001594",
+      "name": "Wolverhampton North East",
+      "slug": "wolverhampton-north-east",
+      "url": "https://ukelections.co.uk/seats/parliament/wolverhampton-north-east/"
+    },
+    {
+      "pcon24cd": "E14001595",
+      "name": "Wolverhampton South East",
+      "slug": "wolverhampton-south-east",
+      "url": "https://ukelections.co.uk/seats/parliament/wolverhampton-south-east/"
+    }
+  ],
+  "E08000031": [
+    {
+      "pcon24cd": "E14001594",
+      "name": "Wolverhampton North East",
+      "slug": "wolverhampton-north-east",
+      "url": "https://ukelections.co.uk/seats/parliament/wolverhampton-north-east/"
+    },
+    {
+      "pcon24cd": "E14001595",
+      "name": "Wolverhampton South East",
+      "slug": "wolverhampton-south-east",
+      "url": "https://ukelections.co.uk/seats/parliament/wolverhampton-south-east/"
+    },
+    {
+      "pcon24cd": "E14001596",
+      "name": "Wolverhampton West",
+      "slug": "wolverhampton-west",
+      "url": "https://ukelections.co.uk/seats/parliament/wolverhampton-west/"
+    }
+  ],
+  "E08000032": [
+    {
+      "pcon24cd": "E14001118",
+      "name": "Bradford East",
+      "slug": "bradford-east",
+      "url": "https://ukelections.co.uk/seats/parliament/bradford-east/"
+    },
+    {
+      "pcon24cd": "E14001119",
+      "name": "Bradford South",
+      "slug": "bradford-south",
+      "url": "https://ukelections.co.uk/seats/parliament/bradford-south/"
+    },
+    {
+      "pcon24cd": "E14001120",
+      "name": "Bradford West",
+      "slug": "bradford-west",
+      "url": "https://ukelections.co.uk/seats/parliament/bradford-west/"
+    },
+    {
+      "pcon24cd": "E14001308",
+      "name": "Keighley and Ilkley",
+      "slug": "keighley-and-ilkley",
+      "url": "https://ukelections.co.uk/seats/parliament/keighley-and-ilkley/"
+    },
+    {
+      "pcon24cd": "E14001472",
+      "name": "Shipley",
+      "slug": "shipley",
+      "url": "https://ukelections.co.uk/seats/parliament/shipley/"
+    }
+  ],
+  "E08000033": [
+    {
+      "pcon24cd": "E14001147",
+      "name": "Calder Valley",
+      "slug": "calder-valley",
+      "url": "https://ukelections.co.uk/seats/parliament/calder-valley/"
+    },
+    {
+      "pcon24cd": "E14001262",
+      "name": "Halifax",
+      "slug": "halifax",
+      "url": "https://ukelections.co.uk/seats/parliament/halifax/"
+    }
+  ],
+  "E08000034": [
+    {
+      "pcon24cd": "E14001177",
+      "name": "Colne Valley",
+      "slug": "colne-valley",
+      "url": "https://ukelections.co.uk/seats/parliament/colne-valley/"
+    },
+    {
+      "pcon24cd": "E14001196",
+      "name": "Dewsbury and Batley",
+      "slug": "dewsbury-and-batley",
+      "url": "https://ukelections.co.uk/seats/parliament/dewsbury-and-batley/"
+    },
+    {
+      "pcon24cd": "E14001297",
+      "name": "Huddersfield",
+      "slug": "huddersfield",
+      "url": "https://ukelections.co.uk/seats/parliament/huddersfield/"
+    },
+    {
+      "pcon24cd": "E14001418",
+      "name": "Ossett and Denby Dale",
+      "slug": "ossett-and-denby-dale",
+      "url": "https://ukelections.co.uk/seats/parliament/ossett-and-denby-dale/"
+    },
+    {
+      "pcon24cd": "E14001506",
+      "name": "Spen Valley",
+      "slug": "spen-valley",
+      "url": "https://ukelections.co.uk/seats/parliament/spen-valley/"
+    }
+  ],
+  "E08000035": [
+    {
+      "pcon24cd": "E14001319",
+      "name": "Leeds Central and Headingley",
+      "slug": "leeds-central-and-headingley",
+      "url": "https://ukelections.co.uk/seats/parliament/leeds-central-and-headingley/"
+    },
+    {
+      "pcon24cd": "E14001320",
+      "name": "Leeds East",
+      "slug": "leeds-east",
+      "url": "https://ukelections.co.uk/seats/parliament/leeds-east/"
+    },
+    {
+      "pcon24cd": "E14001321",
+      "name": "Leeds North East",
+      "slug": "leeds-north-east",
+      "url": "https://ukelections.co.uk/seats/parliament/leeds-north-east/"
+    },
+    {
+      "pcon24cd": "E14001322",
+      "name": "Leeds North West",
+      "slug": "leeds-north-west",
+      "url": "https://ukelections.co.uk/seats/parliament/leeds-north-west/"
+    },
+    {
+      "pcon24cd": "E14001323",
+      "name": "Leeds South",
+      "slug": "leeds-south",
+      "url": "https://ukelections.co.uk/seats/parliament/leeds-south/"
+    },
+    {
+      "pcon24cd": "E14001324",
+      "name": "Leeds South West and Morley",
+      "slug": "leeds-south-west-and-morley",
+      "url": "https://ukelections.co.uk/seats/parliament/leeds-south-west-and-morley/"
+    },
+    {
+      "pcon24cd": "E14001325",
+      "name": "Leeds West and Pudsey",
+      "slug": "leeds-west-and-pudsey",
+      "url": "https://ukelections.co.uk/seats/parliament/leeds-west-and-pudsey/"
+    },
+    {
+      "pcon24cd": "E14001464",
+      "name": "Selby",
+      "slug": "selby",
+      "url": "https://ukelections.co.uk/seats/parliament/selby/"
+    },
+    {
+      "pcon24cd": "E14001560",
+      "name": "Wakefield and Rothwell",
+      "slug": "wakefield-and-rothwell",
+      "url": "https://ukelections.co.uk/seats/parliament/wakefield-and-rothwell/"
+    },
+    {
+      "pcon24cd": "E14001582",
+      "name": "Wetherby and Easingwold",
+      "slug": "wetherby-and-easingwold",
+      "url": "https://ukelections.co.uk/seats/parliament/wetherby-and-easingwold/"
+    }
+  ],
+  "E08000036": [
+    {
+      "pcon24cd": "E14001383",
+      "name": "Normanton and Hemsworth",
+      "slug": "normanton-and-hemsworth",
+      "url": "https://ukelections.co.uk/seats/parliament/normanton-and-hemsworth/"
+    },
+    {
+      "pcon24cd": "E14001418",
+      "name": "Ossett and Denby Dale",
+      "slug": "ossett-and-denby-dale",
+      "url": "https://ukelections.co.uk/seats/parliament/ossett-and-denby-dale/"
+    },
+    {
+      "pcon24cd": "E14001428",
+      "name": "Pontefract, Castleford and Knottingley",
+      "slug": "pontefract-castleford-and-knottingley",
+      "url": "https://ukelections.co.uk/seats/parliament/pontefract-castleford-and-knottingley/"
+    },
+    {
+      "pcon24cd": "E14001560",
+      "name": "Wakefield and Rothwell",
+      "slug": "wakefield-and-rothwell",
+      "url": "https://ukelections.co.uk/seats/parliament/wakefield-and-rothwell/"
+    }
+  ],
+  "E08000037": [
+    {
+      "pcon24cd": "E14001106",
+      "name": "Blaydon and Consett",
+      "slug": "blaydon-and-consett",
+      "url": "https://ukelections.co.uk/seats/parliament/blaydon-and-consett/"
+    },
+    {
+      "pcon24cd": "E14001244",
+      "name": "Gateshead Central and Whickham",
+      "slug": "gateshead-central-and-whickham",
+      "url": "https://ukelections.co.uk/seats/parliament/gateshead-central-and-whickham/"
+    },
+    {
+      "pcon24cd": "E14001307",
+      "name": "Jarrow and Gateshead East",
+      "slug": "jarrow-and-gateshead-east",
+      "url": "https://ukelections.co.uk/seats/parliament/jarrow-and-gateshead-east/"
+    },
+    {
+      "pcon24cd": "E14001567",
+      "name": "Washington and Gateshead South",
+      "slug": "washington-and-gateshead-south",
+      "url": "https://ukelections.co.uk/seats/parliament/washington-and-gateshead-south/"
+    }
+  ],
+  "E08000038": [],
+  "E08000039": [],
+  "E09000001": [
+    {
+      "pcon24cd": "E14001172",
+      "name": "Cities of London and Westminster",
+      "slug": "cities-of-london-and-westminster",
+      "url": "https://ukelections.co.uk/seats/parliament/cities-of-london-and-westminster/"
+    }
+  ],
+  "E09000002": [
+    {
+      "pcon24cd": "E14001073",
+      "name": "Barking",
+      "slug": "barking",
+      "url": "https://ukelections.co.uk/seats/parliament/barking/"
+    },
+    {
+      "pcon24cd": "E14001189",
+      "name": "Dagenham and Rainham",
+      "slug": "dagenham-and-rainham",
+      "url": "https://ukelections.co.uk/seats/parliament/dagenham-and-rainham/"
+    },
+    {
+      "pcon24cd": "E14001301",
+      "name": "Ilford South",
+      "slug": "ilford-south",
+      "url": "https://ukelections.co.uk/seats/parliament/ilford-south/"
+    }
+  ],
+  "E09000003": [
+    {
+      "pcon24cd": "E14001169",
+      "name": "Chipping Barnet",
+      "slug": "chipping-barnet",
+      "url": "https://ukelections.co.uk/seats/parliament/chipping-barnet/"
+    },
+    {
+      "pcon24cd": "E14001238",
+      "name": "Finchley and Golders Green",
+      "slug": "finchley-and-golders-green",
+      "url": "https://ukelections.co.uk/seats/parliament/finchley-and-golders-green/"
+    },
+    {
+      "pcon24cd": "E14001279",
+      "name": "Hendon",
+      "slug": "hendon",
+      "url": "https://ukelections.co.uk/seats/parliament/hendon/"
+    },
+    {
+      "pcon24cd": "E14001293",
+      "name": "Hornsey and Friern Barnet",
+      "slug": "hornsey-and-friern-barnet",
+      "url": "https://ukelections.co.uk/seats/parliament/hornsey-and-friern-barnet/"
+    }
+  ],
+  "E09000004": [
+    {
+      "pcon24cd": "E14001089",
+      "name": "Bexleyheath and Crayford",
+      "slug": "bexleyheath-and-crayford",
+      "url": "https://ukelections.co.uk/seats/parliament/bexleyheath-and-crayford/"
+    },
+    {
+      "pcon24cd": "E14001229",
+      "name": "Erith and Thamesmead",
+      "slug": "erith-and-thamesmead",
+      "url": "https://ukelections.co.uk/seats/parliament/erith-and-thamesmead/"
+    },
+    {
+      "pcon24cd": "E14001414",
+      "name": "Old Bexley and Sidcup",
+      "slug": "old-bexley-and-sidcup",
+      "url": "https://ukelections.co.uk/seats/parliament/old-bexley-and-sidcup/"
+    }
+  ],
+  "E09000005": [
+    {
+      "pcon24cd": "E14001122",
+      "name": "Brent East",
+      "slug": "brent-east",
+      "url": "https://ukelections.co.uk/seats/parliament/brent-east/"
+    },
+    {
+      "pcon24cd": "E14001123",
+      "name": "Brent West",
+      "slug": "brent-west",
+      "url": "https://ukelections.co.uk/seats/parliament/brent-west/"
+    },
+    {
+      "pcon24cd": "E14001270",
+      "name": "Harrow East",
+      "slug": "harrow-east",
+      "url": "https://ukelections.co.uk/seats/parliament/harrow-east/"
+    },
+    {
+      "pcon24cd": "E14001435",
+      "name": "Queen's Park and Maida Vale",
+      "slug": "queens-park-and-maida-vale",
+      "url": "https://ukelections.co.uk/seats/parliament/queens-park-and-maida-vale/"
+    }
+  ],
+  "E09000006": [
+    {
+      "pcon24cd": "E14001083",
+      "name": "Beckenham and Penge",
+      "slug": "beckenham-and-penge",
+      "url": "https://ukelections.co.uk/seats/parliament/beckenham-and-penge/"
+    },
+    {
+      "pcon24cd": "E14001137",
+      "name": "Bromley and Biggin Hill",
+      "slug": "bromley-and-biggin-hill",
+      "url": "https://ukelections.co.uk/seats/parliament/bromley-and-biggin-hill/"
+    },
+    {
+      "pcon24cd": "E14001223",
+      "name": "Eltham and Chislehurst",
+      "slug": "eltham-and-chislehurst",
+      "url": "https://ukelections.co.uk/seats/parliament/eltham-and-chislehurst/"
+    },
+    {
+      "pcon24cd": "E14001417",
+      "name": "Orpington",
+      "slug": "orpington",
+      "url": "https://ukelections.co.uk/seats/parliament/orpington/"
+    }
+  ],
+  "E09000007": [
+    {
+      "pcon24cd": "E14001265",
+      "name": "Hampstead and Highgate",
+      "slug": "hampstead-and-highgate",
+      "url": "https://ukelections.co.uk/seats/parliament/hampstead-and-highgate/"
+    },
+    {
+      "pcon24cd": "E14001290",
+      "name": "Holborn and St Pancras",
+      "slug": "holborn-and-st-pancras",
+      "url": "https://ukelections.co.uk/seats/parliament/holborn-and-st-pancras/"
+    }
+  ],
+  "E09000008": [
+    {
+      "pcon24cd": "E14001186",
+      "name": "Croydon East",
+      "slug": "croydon-east",
+      "url": "https://ukelections.co.uk/seats/parliament/croydon-east/"
+    },
+    {
+      "pcon24cd": "E14001187",
+      "name": "Croydon South",
+      "slug": "croydon-south",
+      "url": "https://ukelections.co.uk/seats/parliament/croydon-south/"
+    },
+    {
+      "pcon24cd": "E14001188",
+      "name": "Croydon West",
+      "slug": "croydon-west",
+      "url": "https://ukelections.co.uk/seats/parliament/croydon-west/"
+    },
+    {
+      "pcon24cd": "E14001527",
+      "name": "Streatham and Croydon North",
+      "slug": "streatham-and-croydon-north",
+      "url": "https://ukelections.co.uk/seats/parliament/streatham-and-croydon-north/"
+    }
+  ],
+  "E09000009": [
+    {
+      "pcon24cd": "E14001207",
+      "name": "Ealing Central and Acton",
+      "slug": "ealing-central-and-acton",
+      "url": "https://ukelections.co.uk/seats/parliament/ealing-central-and-acton/"
+    },
+    {
+      "pcon24cd": "E14001208",
+      "name": "Ealing North",
+      "slug": "ealing-north",
+      "url": "https://ukelections.co.uk/seats/parliament/ealing-north/"
+    },
+    {
+      "pcon24cd": "E14001209",
+      "name": "Ealing Southall",
+      "slug": "ealing-southall",
+      "url": "https://ukelections.co.uk/seats/parliament/ealing-southall/"
+    }
+  ],
+  "E09000010": [
+    {
+      "pcon24cd": "E14001221",
+      "name": "Edmonton and Winchmore Hill",
+      "slug": "edmonton-and-winchmore-hill",
+      "url": "https://ukelections.co.uk/seats/parliament/edmonton-and-winchmore-hill/"
+    },
+    {
+      "pcon24cd": "E14001225",
+      "name": "Enfield North",
+      "slug": "enfield-north",
+      "url": "https://ukelections.co.uk/seats/parliament/enfield-north/"
+    },
+    {
+      "pcon24cd": "E14001503",
+      "name": "Southgate and Wood Green",
+      "slug": "southgate-and-wood-green",
+      "url": "https://ukelections.co.uk/seats/parliament/southgate-and-wood-green/"
+    }
+  ],
+  "E09000011": [
+    {
+      "pcon24cd": "E14001223",
+      "name": "Eltham and Chislehurst",
+      "slug": "eltham-and-chislehurst",
+      "url": "https://ukelections.co.uk/seats/parliament/eltham-and-chislehurst/"
+    },
+    {
+      "pcon24cd": "E14001229",
+      "name": "Erith and Thamesmead",
+      "slug": "erith-and-thamesmead",
+      "url": "https://ukelections.co.uk/seats/parliament/erith-and-thamesmead/"
+    },
+    {
+      "pcon24cd": "E14001257",
+      "name": "Greenwich and Woolwich",
+      "slug": "greenwich-and-woolwich",
+      "url": "https://ukelections.co.uk/seats/parliament/greenwich-and-woolwich/"
+    }
+  ],
+  "E09000012": [
+    {
+      "pcon24cd": "E14001259",
+      "name": "Hackney North and Stoke Newington",
+      "slug": "hackney-north-and-stoke-newington",
+      "url": "https://ukelections.co.uk/seats/parliament/hackney-north-and-stoke-newington/"
+    },
+    {
+      "pcon24cd": "E14001260",
+      "name": "Hackney South and Shoreditch",
+      "slug": "hackney-south-and-shoreditch",
+      "url": "https://ukelections.co.uk/seats/parliament/hackney-south-and-shoreditch/"
+    },
+    {
+      "pcon24cd": "E14001306",
+      "name": "Islington South and Finsbury",
+      "slug": "islington-south-and-finsbury",
+      "url": "https://ukelections.co.uk/seats/parliament/islington-south-and-finsbury/"
+    },
+    {
+      "pcon24cd": "E14001553",
+      "name": "Tottenham",
+      "slug": "tottenham",
+      "url": "https://ukelections.co.uk/seats/parliament/tottenham/"
+    }
+  ],
+  "E09000013": [
+    {
+      "pcon24cd": "E14001160",
+      "name": "Chelsea and Fulham",
+      "slug": "chelsea-and-fulham",
+      "url": "https://ukelections.co.uk/seats/parliament/chelsea-and-fulham/"
+    },
+    {
+      "pcon24cd": "E14001207",
+      "name": "Ealing Central and Acton",
+      "slug": "ealing-central-and-acton",
+      "url": "https://ukelections.co.uk/seats/parliament/ealing-central-and-acton/"
+    },
+    {
+      "pcon24cd": "E14001264",
+      "name": "Hammersmith and Chiswick",
+      "slug": "hammersmith-and-chiswick",
+      "url": "https://ukelections.co.uk/seats/parliament/hammersmith-and-chiswick/"
+    }
+  ],
+  "E09000014": [
+    {
+      "pcon24cd": "E14001265",
+      "name": "Hampstead and Highgate",
+      "slug": "hampstead-and-highgate",
+      "url": "https://ukelections.co.uk/seats/parliament/hampstead-and-highgate/"
+    },
+    {
+      "pcon24cd": "E14001293",
+      "name": "Hornsey and Friern Barnet",
+      "slug": "hornsey-and-friern-barnet",
+      "url": "https://ukelections.co.uk/seats/parliament/hornsey-and-friern-barnet/"
+    },
+    {
+      "pcon24cd": "E14001503",
+      "name": "Southgate and Wood Green",
+      "slug": "southgate-and-wood-green",
+      "url": "https://ukelections.co.uk/seats/parliament/southgate-and-wood-green/"
+    },
+    {
+      "pcon24cd": "E14001553",
+      "name": "Tottenham",
+      "slug": "tottenham",
+      "url": "https://ukelections.co.uk/seats/parliament/tottenham/"
+    }
+  ],
+  "E09000015": [
+    {
+      "pcon24cd": "E14001270",
+      "name": "Harrow East",
+      "slug": "harrow-east",
+      "url": "https://ukelections.co.uk/seats/parliament/harrow-east/"
+    },
+    {
+      "pcon24cd": "E14001271",
+      "name": "Harrow West",
+      "slug": "harrow-west",
+      "url": "https://ukelections.co.uk/seats/parliament/harrow-west/"
+    },
+    {
+      "pcon24cd": "E14001454",
+      "name": "Ruislip, Northwood and Pinner",
+      "slug": "ruislip-northwood-and-pinner",
+      "url": "https://ukelections.co.uk/seats/parliament/ruislip-northwood-and-pinner/"
+    }
+  ],
+  "E09000016": [
+    {
+      "pcon24cd": "E14001189",
+      "name": "Dagenham and Rainham",
+      "slug": "dagenham-and-rainham",
+      "url": "https://ukelections.co.uk/seats/parliament/dagenham-and-rainham/"
+    },
+    {
+      "pcon24cd": "E14001292",
+      "name": "Hornchurch and Upminster",
+      "slug": "hornchurch-and-upminster",
+      "url": "https://ukelections.co.uk/seats/parliament/hornchurch-and-upminster/"
+    },
+    {
+      "pcon24cd": "E14001448",
+      "name": "Romford",
+      "slug": "romford",
+      "url": "https://ukelections.co.uk/seats/parliament/romford/"
+    }
+  ],
+  "E09000017": [
+    {
+      "pcon24cd": "E14001276",
+      "name": "Hayes and Harlington",
+      "slug": "hayes-and-harlington",
+      "url": "https://ukelections.co.uk/seats/parliament/hayes-and-harlington/"
+    },
+    {
+      "pcon24cd": "E14001454",
+      "name": "Ruislip, Northwood and Pinner",
+      "slug": "ruislip-northwood-and-pinner",
+      "url": "https://ukelections.co.uk/seats/parliament/ruislip-northwood-and-pinner/"
+    },
+    {
+      "pcon24cd": "E14001558",
+      "name": "Uxbridge and South Ruislip",
+      "slug": "uxbridge-and-south-ruislip",
+      "url": "https://ukelections.co.uk/seats/parliament/uxbridge-and-south-ruislip/"
+    }
+  ],
+  "E09000018": [
+    {
+      "pcon24cd": "E14001124",
+      "name": "Brentford and Isleworth",
+      "slug": "brentford-and-isleworth",
+      "url": "https://ukelections.co.uk/seats/parliament/brentford-and-isleworth/"
+    },
+    {
+      "pcon24cd": "E14001236",
+      "name": "Feltham and Heston",
+      "slug": "feltham-and-heston",
+      "url": "https://ukelections.co.uk/seats/parliament/feltham-and-heston/"
+    },
+    {
+      "pcon24cd": "E14001264",
+      "name": "Hammersmith and Chiswick",
+      "slug": "hammersmith-and-chiswick",
+      "url": "https://ukelections.co.uk/seats/parliament/hammersmith-and-chiswick/"
+    }
+  ],
+  "E09000019": [
+    {
+      "pcon24cd": "E14001305",
+      "name": "Islington North",
+      "slug": "islington-north",
+      "url": "https://ukelections.co.uk/seats/parliament/islington-north/"
+    },
+    {
+      "pcon24cd": "E14001306",
+      "name": "Islington South and Finsbury",
+      "slug": "islington-south-and-finsbury",
+      "url": "https://ukelections.co.uk/seats/parliament/islington-south-and-finsbury/"
+    }
+  ],
+  "E09000020": [
+    {
+      "pcon24cd": "E14001160",
+      "name": "Chelsea and Fulham",
+      "slug": "chelsea-and-fulham",
+      "url": "https://ukelections.co.uk/seats/parliament/chelsea-and-fulham/"
+    },
+    {
+      "pcon24cd": "E14001310",
+      "name": "Kensington and Bayswater",
+      "slug": "kensington-and-bayswater",
+      "url": "https://ukelections.co.uk/seats/parliament/kensington-and-bayswater/"
+    }
+  ],
+  "E09000021": [
+    {
+      "pcon24cd": "E14001312",
+      "name": "Kingston and Surbiton",
+      "slug": "kingston-and-surbiton",
+      "url": "https://ukelections.co.uk/seats/parliament/kingston-and-surbiton/"
+    },
+    {
+      "pcon24cd": "E14001445",
+      "name": "Richmond Park",
+      "slug": "richmond-park",
+      "url": "https://ukelections.co.uk/seats/parliament/richmond-park/"
+    },
+    {
+      "pcon24cd": "E14001586",
+      "name": "Wimbledon",
+      "slug": "wimbledon",
+      "url": "https://ukelections.co.uk/seats/parliament/wimbledon/"
+    }
+  ],
+  "E09000022": [
+    {
+      "pcon24cd": "E14001175",
+      "name": "Clapham and Brixton Hill",
+      "slug": "clapham-and-brixton-hill",
+      "url": "https://ukelections.co.uk/seats/parliament/clapham-and-brixton-hill/"
+    },
+    {
+      "pcon24cd": "E14001205",
+      "name": "Dulwich and West Norwood",
+      "slug": "dulwich-and-west-norwood",
+      "url": "https://ukelections.co.uk/seats/parliament/dulwich-and-west-norwood/"
+    },
+    {
+      "pcon24cd": "E14001527",
+      "name": "Streatham and Croydon North",
+      "slug": "streatham-and-croydon-north",
+      "url": "https://ukelections.co.uk/seats/parliament/streatham-and-croydon-north/"
+    },
+    {
+      "pcon24cd": "E14001559",
+      "name": "Vauxhall and Camberwell Green",
+      "slug": "vauxhall-and-camberwell-green",
+      "url": "https://ukelections.co.uk/seats/parliament/vauxhall-and-camberwell-green/"
+    }
+  ],
+  "E09000023": [
+    {
+      "pcon24cd": "E14001331",
+      "name": "Lewisham East",
+      "slug": "lewisham-east",
+      "url": "https://ukelections.co.uk/seats/parliament/lewisham-east/"
+    },
+    {
+      "pcon24cd": "E14001332",
+      "name": "Lewisham North",
+      "slug": "lewisham-north",
+      "url": "https://ukelections.co.uk/seats/parliament/lewisham-north/"
+    },
+    {
+      "pcon24cd": "E14001333",
+      "name": "Lewisham West and East Dulwich",
+      "slug": "lewisham-west-and-east-dulwich",
+      "url": "https://ukelections.co.uk/seats/parliament/lewisham-west-and-east-dulwich/"
+    }
+  ],
+  "E09000024": [
+    {
+      "pcon24cd": "E14001371",
+      "name": "Mitcham and Morden",
+      "slug": "mitcham-and-morden",
+      "url": "https://ukelections.co.uk/seats/parliament/mitcham-and-morden/"
+    },
+    {
+      "pcon24cd": "E14001586",
+      "name": "Wimbledon",
+      "slug": "wimbledon",
+      "url": "https://ukelections.co.uk/seats/parliament/wimbledon/"
+    }
+  ],
+  "E09000025": [
+    {
+      "pcon24cd": "E14001213",
+      "name": "East Ham",
+      "slug": "east-ham",
+      "url": "https://ukelections.co.uk/seats/parliament/east-ham/"
+    },
+    {
+      "pcon24cd": "E14001525",
+      "name": "Stratford and Bow",
+      "slug": "stratford-and-bow",
+      "url": "https://ukelections.co.uk/seats/parliament/stratford-and-bow/"
+    },
+    {
+      "pcon24cd": "E14001576",
+      "name": "West Ham and Beckton",
+      "slug": "west-ham-and-beckton",
+      "url": "https://ukelections.co.uk/seats/parliament/west-ham-and-beckton/"
+    }
+  ],
+  "E09000026": [
+    {
+      "pcon24cd": "E14001167",
+      "name": "Chingford and Woodford Green",
+      "slug": "chingford-and-woodford-green",
+      "url": "https://ukelections.co.uk/seats/parliament/chingford-and-woodford-green/"
+    },
+    {
+      "pcon24cd": "E14001300",
+      "name": "Ilford North",
+      "slug": "ilford-north",
+      "url": "https://ukelections.co.uk/seats/parliament/ilford-north/"
+    },
+    {
+      "pcon24cd": "E14001301",
+      "name": "Ilford South",
+      "slug": "ilford-south",
+      "url": "https://ukelections.co.uk/seats/parliament/ilford-south/"
+    },
+    {
+      "pcon24cd": "E14001334",
+      "name": "Leyton and Wanstead",
+      "slug": "leyton-and-wanstead",
+      "url": "https://ukelections.co.uk/seats/parliament/leyton-and-wanstead/"
+    }
+  ],
+  "E09000027": [
+    {
+      "pcon24cd": "E14001124",
+      "name": "Brentford and Isleworth",
+      "slug": "brentford-and-isleworth",
+      "url": "https://ukelections.co.uk/seats/parliament/brentford-and-isleworth/"
+    },
+    {
+      "pcon24cd": "E14001445",
+      "name": "Richmond Park",
+      "slug": "richmond-park",
+      "url": "https://ukelections.co.uk/seats/parliament/richmond-park/"
+    },
+    {
+      "pcon24cd": "E14001556",
+      "name": "Twickenham",
+      "slug": "twickenham",
+      "url": "https://ukelections.co.uk/seats/parliament/twickenham/"
+    }
+  ],
+  "E09000028": [
+    {
+      "pcon24cd": "E14001085",
+      "name": "Bermondsey and Old Southwark",
+      "slug": "bermondsey-and-old-southwark",
+      "url": "https://ukelections.co.uk/seats/parliament/bermondsey-and-old-southwark/"
+    },
+    {
+      "pcon24cd": "E14001205",
+      "name": "Dulwich and West Norwood",
+      "slug": "dulwich-and-west-norwood",
+      "url": "https://ukelections.co.uk/seats/parliament/dulwich-and-west-norwood/"
+    },
+    {
+      "pcon24cd": "E14001333",
+      "name": "Lewisham West and East Dulwich",
+      "slug": "lewisham-west-and-east-dulwich",
+      "url": "https://ukelections.co.uk/seats/parliament/lewisham-west-and-east-dulwich/"
+    },
+    {
+      "pcon24cd": "E14001421",
+      "name": "Peckham",
+      "slug": "peckham",
+      "url": "https://ukelections.co.uk/seats/parliament/peckham/"
+    },
+    {
+      "pcon24cd": "E14001559",
+      "name": "Vauxhall and Camberwell Green",
+      "slug": "vauxhall-and-camberwell-green",
+      "url": "https://ukelections.co.uk/seats/parliament/vauxhall-and-camberwell-green/"
+    }
+  ],
+  "E09000029": [
+    {
+      "pcon24cd": "E14001153",
+      "name": "Carshalton and Wallington",
+      "slug": "carshalton-and-wallington",
+      "url": "https://ukelections.co.uk/seats/parliament/carshalton-and-wallington/"
+    },
+    {
+      "pcon24cd": "E14001534",
+      "name": "Sutton and Cheam",
+      "slug": "sutton-and-cheam",
+      "url": "https://ukelections.co.uk/seats/parliament/sutton-and-cheam/"
+    }
+  ],
+  "E09000030": [
+    {
+      "pcon24cd": "E14001086",
+      "name": "Bethnal Green and Stepney",
+      "slug": "bethnal-green-and-stepney",
+      "url": "https://ukelections.co.uk/seats/parliament/bethnal-green-and-stepney/"
+    },
+    {
+      "pcon24cd": "E14001430",
+      "name": "Poplar and Limehouse",
+      "slug": "poplar-and-limehouse",
+      "url": "https://ukelections.co.uk/seats/parliament/poplar-and-limehouse/"
+    },
+    {
+      "pcon24cd": "E14001525",
+      "name": "Stratford and Bow",
+      "slug": "stratford-and-bow",
+      "url": "https://ukelections.co.uk/seats/parliament/stratford-and-bow/"
+    }
+  ],
+  "E09000031": [
+    {
+      "pcon24cd": "E14001167",
+      "name": "Chingford and Woodford Green",
+      "slug": "chingford-and-woodford-green",
+      "url": "https://ukelections.co.uk/seats/parliament/chingford-and-woodford-green/"
+    },
+    {
+      "pcon24cd": "E14001334",
+      "name": "Leyton and Wanstead",
+      "slug": "leyton-and-wanstead",
+      "url": "https://ukelections.co.uk/seats/parliament/leyton-and-wanstead/"
+    },
+    {
+      "pcon24cd": "E14001563",
+      "name": "Walthamstow",
+      "slug": "walthamstow",
+      "url": "https://ukelections.co.uk/seats/parliament/walthamstow/"
+    }
+  ],
+  "E09000032": [
+    {
+      "pcon24cd": "E14001081",
+      "name": "Battersea",
+      "slug": "battersea",
+      "url": "https://ukelections.co.uk/seats/parliament/battersea/"
+    },
+    {
+      "pcon24cd": "E14001434",
+      "name": "Putney",
+      "slug": "putney",
+      "url": "https://ukelections.co.uk/seats/parliament/putney/"
+    },
+    {
+      "pcon24cd": "E14001550",
+      "name": "Tooting",
+      "slug": "tooting",
+      "url": "https://ukelections.co.uk/seats/parliament/tooting/"
+    }
+  ],
+  "E09000033": [
+    {
+      "pcon24cd": "E14001172",
+      "name": "Cities of London and Westminster",
+      "slug": "cities-of-london-and-westminster",
+      "url": "https://ukelections.co.uk/seats/parliament/cities-of-london-and-westminster/"
+    },
+    {
+      "pcon24cd": "E14001310",
+      "name": "Kensington and Bayswater",
+      "slug": "kensington-and-bayswater",
+      "url": "https://ukelections.co.uk/seats/parliament/kensington-and-bayswater/"
+    },
+    {
+      "pcon24cd": "E14001435",
+      "name": "Queen's Park and Maida Vale",
+      "slug": "queens-park-and-maida-vale",
+      "url": "https://ukelections.co.uk/seats/parliament/queens-park-and-maida-vale/"
+    }
+  ],
+  "N09000001": [],
+  "N09000002": [],
+  "N09000003": [],
+  "N09000004": [],
+  "N09000005": [],
+  "N09000006": [],
+  "N09000007": [],
+  "N09000008": [],
+  "N09000009": [],
+  "N09000010": [],
+  "N09000011": [],
+  "S12000005": [],
+  "S12000006": [],
+  "S12000008": [],
+  "S12000010": [],
+  "S12000011": [],
+  "S12000013": [],
+  "S12000014": [],
+  "S12000017": [],
+  "S12000018": [],
+  "S12000019": [],
+  "S12000020": [],
+  "S12000021": [],
+  "S12000023": [],
+  "S12000026": [],
+  "S12000027": [],
+  "S12000028": [],
+  "S12000029": [],
+  "S12000030": [],
+  "S12000033": [],
+  "S12000034": [],
+  "S12000035": [],
+  "S12000036": [],
+  "S12000038": [],
+  "S12000039": [],
+  "S12000040": [],
+  "S12000041": [],
+  "S12000042": [],
+  "S12000045": [],
+  "S12000047": [],
+  "S12000048": [],
+  "S12000049": [],
+  "S12000050": [],
+  "W06000001": [],
+  "W06000002": [
+    {
+      "pcon24cd": "W07000083",
+      "name": "Bangor Aberconwy",
+      "slug": "bangor-aberconwy",
+      "url": "https://ukelections.co.uk/seats/parliament/bangor-aberconwy/"
+    },
+    {
+      "pcon24cd": "W07000096",
+      "name": "Dwyfor Meirionnydd",
+      "slug": "dwyfor-meirionnydd",
+      "url": "https://ukelections.co.uk/seats/parliament/dwyfor-meirionnydd/"
+    }
+  ],
+  "W06000003": [
+    {
+      "pcon24cd": "W07000083",
+      "name": "Bangor Aberconwy",
+      "slug": "bangor-aberconwy",
+      "url": "https://ukelections.co.uk/seats/parliament/bangor-aberconwy/"
+    },
+    {
+      "pcon24cd": "W07000095",
+      "name": "Clwyd North",
+      "slug": "clwyd-north",
+      "url": "https://ukelections.co.uk/seats/parliament/clwyd-north/"
+    }
+  ],
+  "W06000004": [
+    {
+      "pcon24cd": "W07000083",
+      "name": "Bangor Aberconwy",
+      "slug": "bangor-aberconwy",
+      "url": "https://ukelections.co.uk/seats/parliament/bangor-aberconwy/"
+    },
+    {
+      "pcon24cd": "W07000094",
+      "name": "Clwyd East",
+      "slug": "clwyd-east",
+      "url": "https://ukelections.co.uk/seats/parliament/clwyd-east/"
+    },
+    {
+      "pcon24cd": "W07000095",
+      "name": "Clwyd North",
+      "slug": "clwyd-north",
+      "url": "https://ukelections.co.uk/seats/parliament/clwyd-north/"
+    },
+    {
+      "pcon24cd": "W07000096",
+      "name": "Dwyfor Meirionnydd",
+      "slug": "dwyfor-meirionnydd",
+      "url": "https://ukelections.co.uk/seats/parliament/dwyfor-meirionnydd/"
+    }
+  ],
+  "W06000005": [
+    {
+      "pcon24cd": "W07000082",
+      "name": "Alyn and Deeside",
+      "slug": "alyn-and-deeside",
+      "url": "https://ukelections.co.uk/seats/parliament/alyn-and-deeside/"
+    },
+    {
+      "pcon24cd": "W07000094",
+      "name": "Clwyd East",
+      "slug": "clwyd-east",
+      "url": "https://ukelections.co.uk/seats/parliament/clwyd-east/"
+    }
+  ],
+  "W06000006": [
+    {
+      "pcon24cd": "W07000094",
+      "name": "Clwyd East",
+      "slug": "clwyd-east",
+      "url": "https://ukelections.co.uk/seats/parliament/clwyd-east/"
+    },
+    {
+      "pcon24cd": "W07000111",
+      "name": "Wrexham",
+      "slug": "wrexham",
+      "url": "https://ukelections.co.uk/seats/parliament/wrexham/"
+    }
+  ],
+  "W06000008": [
+    {
+      "pcon24cd": "W07000093",
+      "name": "Ceredigion Preseli",
+      "slug": "ceredigion-preseli",
+      "url": "https://ukelections.co.uk/seats/parliament/ceredigion-preseli/"
+    }
+  ],
+  "W06000009": [
+    {
+      "pcon24cd": "W07000093",
+      "name": "Ceredigion Preseli",
+      "slug": "ceredigion-preseli",
+      "url": "https://ukelections.co.uk/seats/parliament/ceredigion-preseli/"
+    },
+    {
+      "pcon24cd": "W07000100",
+      "name": "Mid and South Pembrokeshire",
+      "slug": "mid-and-south-pembrokeshire",
+      "url": "https://ukelections.co.uk/seats/parliament/mid-and-south-pembrokeshire/"
+    }
+  ],
+  "W06000010": [
+    {
+      "pcon24cd": "W07000087",
+      "name": "Caerfyrddin",
+      "slug": "caerfyrddin",
+      "url": "https://ukelections.co.uk/seats/parliament/caerfyrddin/"
+    },
+    {
+      "pcon24cd": "W07000098",
+      "name": "Llanelli",
+      "slug": "llanelli",
+      "url": "https://ukelections.co.uk/seats/parliament/llanelli/"
+    }
+  ],
+  "W06000011": [
+    {
+      "pcon24cd": "W07000097",
+      "name": "Gower",
+      "slug": "gower",
+      "url": "https://ukelections.co.uk/seats/parliament/gower/"
+    },
+    {
+      "pcon24cd": "W07000103",
+      "name": "Neath and Swansea East",
+      "slug": "neath-and-swansea-east",
+      "url": "https://ukelections.co.uk/seats/parliament/neath-and-swansea-east/"
+    },
+    {
+      "pcon24cd": "W07000108",
+      "name": "Swansea West",
+      "slug": "swansea-west",
+      "url": "https://ukelections.co.uk/seats/parliament/swansea-west/"
+    }
+  ],
+  "W06000012": [
+    {
+      "pcon24cd": "W07000081",
+      "name": "Aberafan Maesteg",
+      "slug": "aberafan-maesteg",
+      "url": "https://ukelections.co.uk/seats/parliament/aberafan-maesteg/"
+    },
+    {
+      "pcon24cd": "W07000085",
+      "name": "Brecon, Radnor and Cwm Tawe",
+      "slug": "brecon-radnor-and-cwm-tawe",
+      "url": "https://ukelections.co.uk/seats/parliament/brecon-radnor-and-cwm-tawe/"
+    },
+    {
+      "pcon24cd": "W07000103",
+      "name": "Neath and Swansea East",
+      "slug": "neath-and-swansea-east",
+      "url": "https://ukelections.co.uk/seats/parliament/neath-and-swansea-east/"
+    }
+  ],
+  "W06000013": [
+    {
+      "pcon24cd": "W07000081",
+      "name": "Aberafan Maesteg",
+      "slug": "aberafan-maesteg",
+      "url": "https://ukelections.co.uk/seats/parliament/aberafan-maesteg/"
+    },
+    {
+      "pcon24cd": "W07000086",
+      "name": "Bridgend",
+      "slug": "bridgend",
+      "url": "https://ukelections.co.uk/seats/parliament/bridgend/"
+    },
+    {
+      "pcon24cd": "W07000107",
+      "name": "Rhondda and Ogmore",
+      "slug": "rhondda-and-ogmore",
+      "url": "https://ukelections.co.uk/seats/parliament/rhondda-and-ogmore/"
+    }
+  ],
+  "W06000014": [
+    {
+      "pcon24cd": "W07000091",
+      "name": "Cardiff South and Penarth",
+      "slug": "cardiff-south-and-penarth",
+      "url": "https://ukelections.co.uk/seats/parliament/cardiff-south-and-penarth/"
+    },
+    {
+      "pcon24cd": "W07000110",
+      "name": "Vale of Glamorgan",
+      "slug": "vale-of-glamorgan",
+      "url": "https://ukelections.co.uk/seats/parliament/vale-of-glamorgan/"
+    }
+  ],
+  "W06000015": [
+    {
+      "pcon24cd": "W07000089",
+      "name": "Cardiff East",
+      "slug": "cardiff-east",
+      "url": "https://ukelections.co.uk/seats/parliament/cardiff-east/"
+    },
+    {
+      "pcon24cd": "W07000090",
+      "name": "Cardiff North",
+      "slug": "cardiff-north",
+      "url": "https://ukelections.co.uk/seats/parliament/cardiff-north/"
+    },
+    {
+      "pcon24cd": "W07000091",
+      "name": "Cardiff South and Penarth",
+      "slug": "cardiff-south-and-penarth",
+      "url": "https://ukelections.co.uk/seats/parliament/cardiff-south-and-penarth/"
+    },
+    {
+      "pcon24cd": "W07000092",
+      "name": "Cardiff West",
+      "slug": "cardiff-west",
+      "url": "https://ukelections.co.uk/seats/parliament/cardiff-west/"
+    }
+  ],
+  "W06000016": [
+    {
+      "pcon24cd": "W07000090",
+      "name": "Cardiff North",
+      "slug": "cardiff-north",
+      "url": "https://ukelections.co.uk/seats/parliament/cardiff-north/"
+    },
+    {
+      "pcon24cd": "W07000092",
+      "name": "Cardiff West",
+      "slug": "cardiff-west",
+      "url": "https://ukelections.co.uk/seats/parliament/cardiff-west/"
+    },
+    {
+      "pcon24cd": "W07000099",
+      "name": "Merthyr Tydfil and Aberdare",
+      "slug": "merthyr-tydfil-and-aberdare",
+      "url": "https://ukelections.co.uk/seats/parliament/merthyr-tydfil-and-aberdare/"
+    },
+    {
+      "pcon24cd": "W07000106",
+      "name": "Pontypridd",
+      "slug": "pontypridd",
+      "url": "https://ukelections.co.uk/seats/parliament/pontypridd/"
+    },
+    {
+      "pcon24cd": "W07000107",
+      "name": "Rhondda and Ogmore",
+      "slug": "rhondda-and-ogmore",
+      "url": "https://ukelections.co.uk/seats/parliament/rhondda-and-ogmore/"
+    }
+  ],
+  "W06000018": [
+    {
+      "pcon24cd": "W07000084",
+      "name": "Blaenau Gwent and Rhymney",
+      "slug": "blaenau-gwent-and-rhymney",
+      "url": "https://ukelections.co.uk/seats/parliament/blaenau-gwent-and-rhymney/"
+    },
+    {
+      "pcon24cd": "W07000088",
+      "name": "Caerphilly",
+      "slug": "caerphilly",
+      "url": "https://ukelections.co.uk/seats/parliament/caerphilly/"
+    },
+    {
+      "pcon24cd": "W07000105",
+      "name": "Newport West and Islwyn",
+      "slug": "newport-west-and-islwyn",
+      "url": "https://ukelections.co.uk/seats/parliament/newport-west-and-islwyn/"
+    }
+  ],
+  "W06000019": [
+    {
+      "pcon24cd": "W07000084",
+      "name": "Blaenau Gwent and Rhymney",
+      "slug": "blaenau-gwent-and-rhymney",
+      "url": "https://ukelections.co.uk/seats/parliament/blaenau-gwent-and-rhymney/"
+    }
+  ],
+  "W06000020": [
+    {
+      "pcon24cd": "W07000109",
+      "name": "Torfaen",
+      "slug": "torfaen",
+      "url": "https://ukelections.co.uk/seats/parliament/torfaen/"
+    }
+  ],
+  "W06000021": [
+    {
+      "pcon24cd": "W07000101",
+      "name": "Monmouthshire",
+      "slug": "monmouthshire",
+      "url": "https://ukelections.co.uk/seats/parliament/monmouthshire/"
+    }
+  ],
+  "W06000022": [
+    {
+      "pcon24cd": "W07000104",
+      "name": "Newport East",
+      "slug": "newport-east",
+      "url": "https://ukelections.co.uk/seats/parliament/newport-east/"
+    },
+    {
+      "pcon24cd": "W07000105",
+      "name": "Newport West and Islwyn",
+      "slug": "newport-west-and-islwyn",
+      "url": "https://ukelections.co.uk/seats/parliament/newport-west-and-islwyn/"
+    }
+  ],
+  "W06000023": [
+    {
+      "pcon24cd": "W07000085",
+      "name": "Brecon, Radnor and Cwm Tawe",
+      "slug": "brecon-radnor-and-cwm-tawe",
+      "url": "https://ukelections.co.uk/seats/parliament/brecon-radnor-and-cwm-tawe/"
+    }
+  ],
+  "W06000024": [
+    {
+      "pcon24cd": "W07000099",
+      "name": "Merthyr Tydfil and Aberdare",
+      "slug": "merthyr-tydfil-and-aberdare",
+      "url": "https://ukelections.co.uk/seats/parliament/merthyr-tydfil-and-aberdare/"
+    }
+  ]
+}

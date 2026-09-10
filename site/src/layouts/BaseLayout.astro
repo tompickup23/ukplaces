@@ -13,6 +13,7 @@ interface Props {
   description?: string;
   image?: string;
   noIndex?: boolean;
+  structuredData?: Record<string, unknown>[];
 }
 
 const {
@@ -20,6 +21,7 @@ const {
   description = DEFAULT_DESCRIPTION,
   image = DEFAULT_SOCIAL_IMAGE_PATH,
   noIndex = false,
+  structuredData = [],
 } = Astro.props;
 const pathname = Astro.url.pathname || "/";
 const pageTitle = normalisePageTitle(title);
@@ -53,6 +55,9 @@ const socialImageUrl = /^https?:\/\//.test(image)
     <meta name="twitter:image" content={socialImageUrl} />
     <title>{pageTitle}</title>
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    {structuredData.map((item) => (
+      <script type="application/ld+json" is:inline set:html={JSON.stringify(item)} />
+    ))}
   </head>
   <body>
     <slot />

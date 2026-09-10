@@ -10,7 +10,10 @@
     "build:registry": "node scripts/build-registry.mjs",
     "test:registry": "node scripts/test-registry.mjs",
     "build:signals": "node scripts/build-signals.mjs",
-    "test:signals": "node scripts/test-signals.mjs"
+    "test:signals": "node scripts/test-signals.mjs",
+    "build:place-constituencies": "node scripts/build-place-constituencies.mjs",
+    "check:text-size": "node scripts/check-text-size.mjs",
+    "check:contrast": "node scripts/check-contrast.mjs"
   },
   "dependencies": {
     "astro": "^6.3.6"

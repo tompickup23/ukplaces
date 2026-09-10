@@ -110,7 +110,11 @@ for (const [gss, place] of Object.entries(registry)) {
   }
 
   aidogeFeed[gss] = {
-    value: Math.round(summary.headline.total_spend_net),
+    value: new Intl.NumberFormat("en-GB", {
+      style: "currency",
+      currency: "GBP",
+      maximumFractionDigits: 0,
+    }).format(summary.headline.total_spend_net),
     unit: "GBP",
     label: "Published payments",
     period: summary.headline.latest_fy,
