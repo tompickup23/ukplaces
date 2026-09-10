@@ -1,0 +1,20 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import sources from "../data/sources.json";
+
+const logos = {
+  ukelections: "/brands/ukelections.svg",
+  ukdemographics: "/brands/ukdemographics.svg",
+  aidoge: "/brands/aidoge.svg",
+  asylumstats: "/brands/asylumstats.svg",
+};
+---
+
+<BaseLayout title="Sources" description="The specialist UK data projects linked by UK Places and the subjects each one covers.">
+  <main class="shell static-page">
+    <section class="static-hero"><p class="eyebrow">Sources</p><h1>The projects behind the record.</h1><p>UK Places is an index and explainer. The source projects below hold the detailed records, data provenance and specialist methodology.</p></section>
+    <div class="sources-list">
+      {sources.map((source) => <a class="source-card" style={`--source-accent: ${source.accent}`} href={source.siteUrl}><img src={logos[source.id]} alt="" /><h2>{source.name}</h2><p>{source.topic}</p><span>Open source</span></a>)}
+    </div>
+  </main>
+</BaseLayout>

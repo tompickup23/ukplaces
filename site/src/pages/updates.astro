@@ -1,0 +1,15 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import changelog from "../data/changelog.json";
+
+const formatDate = (date) => new Intl.DateTimeFormat("en-GB", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" }).format(new Date(`${date}T00:00:00Z`));
+---
+
+<BaseLayout title="Updates" description="A concise record of material UK Places profile updates and source-review dates.">
+  <main class="shell static-page">
+    <section class="static-hero"><p class="eyebrow">Updates</p><h1>Profile update record.</h1><p>Source dates sit beside the figures on each profile. This page records material changes to UK Places itself.</p></section>
+    <div class="updates-list">
+      {changelog.map((entry) => <article><time datetime={entry.date}>{formatDate(entry.date)}</time><h2>{entry.title}</h2><p>{entry.summary}</p></article>)}
+    </div>
+  </main>
+</BaseLayout>
