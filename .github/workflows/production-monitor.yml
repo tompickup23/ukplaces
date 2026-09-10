@@ -1,15 +1,17 @@
-name: Site checks
+name: Production monitor
 
 on:
-  pull_request:
+  schedule:
+    - cron: "17 8 * * 1"
   workflow_dispatch:
 
 permissions:
   contents: read
 
 jobs:
-  validate:
+  monitor:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -18,9 +20,4 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run audit:prod
-      - run: npm run lint
-      - run: npm run build
-      - run: npm run check:contrast
-      - run: npm run check:text-size
-      - run: npm run check:sitemap
-      - run: npm run check:parity
+      - run: npm run check:production

@@ -19,13 +19,15 @@
     "check:text-size": "node scripts/check-text-size.mjs",
     "check:contrast": "node scripts/check-contrast.mjs",
     "check:sitemap": "node scripts/check-sitemap.mjs",
-    "check:parity": "node scripts/check-parity.mjs"
+    "check:parity": "node scripts/check-parity.mjs",
+    "check:production": "node scripts/check-production.mjs",
+    "audit:prod": "npm audit --omit=dev --audit-level=high"
   },
   "dependencies": {
-    "astro": "^6.3.6"
+    "astro": "7.3.2"
   },
   "devDependencies": {
-    "@astrojs/check": "^0.9.4",
+    "@astrojs/check": "0.9.10",
     "@types/node": "^25.3.2",
     "typescript": "^5.9.3"
   }

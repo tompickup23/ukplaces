@@ -11,7 +11,12 @@ const displayName = (value: string) => value.replace(/_/g, " ").replace(/\b\w/g,
     <section class="directory-hero">
       <p class="eyebrow">Constituency directory</p>
       <h1>Browse parliamentary constituency records</h1>
-      <p>All {records.length} records remain visible without JavaScript.</p>
+      <p>All {records.length} records remain visible without JavaScript. Use the filter to narrow them by constituency name or country.</p>
+      <div class="directory-filter">
+        <label for="constituency-filter">Find a constituency</label>
+        <input id="constituency-filter" type="search" autocomplete="off" placeholder="Start typing a constituency or country" aria-describedby="constituency-filter-status" />
+        <p class="directory-filter__status" id="constituency-filter-status" role="status">Showing all {records.length} constituencies.</p>
+      </div>
     </section>
 
     <div class="directory-groups">
@@ -19,10 +24,32 @@ const displayName = (value: string) => value.replace(/_/g, " ").replace(/\b\w/g,
         <h2>Constituencies</h2>
         <ul class="directory-list">
           {records.map((constituency) => (
-            <li><a href={`/constituencies/${constituency.slug}/`}>{constituency.name}<span>{constituency.country ? displayName(constituency.country) : "Country not present in source"}</span></a></li>
+            <li data-constituency={`${constituency.name} ${constituency.country ?? ""}`.toLowerCase()}><a href={`/constituencies/${constituency.slug}/`}>{constituency.name}<span>{constituency.country ? displayName(constituency.country) : "Country not present in source"}</span></a></li>
           ))}
         </ul>
       </section>
     </div>
   </main>
+
+  <script is:inline>
+    const input = document.querySelector("#constituency-filter");
+    const status = document.querySelector("#constituency-filter-status");
+    const items = [...document.querySelectorAll("[data-constituency]")];
+    const total = items.length;
+
+    input?.addEventListener("input", () => {
+      const query = input.value.trim().toLowerCase();
+      let matches = 0;
+      for (const item of items) {
+        const visible = !query || item.dataset.constituency.includes(query);
+        item.hidden = !visible;
+        if (visible) matches += 1;
+      }
+
+      if (!status) return;
+      if (!query) status.textContent = `Showing all ${total} constituencies.`;
+      else if (!matches) status.textContent = `No constituencies match “${input.value.trim()}”.`;
+      else status.textContent = `Showing ${matches} of ${total} constituencies.`;
+    });
+  </script>
 </BaseLayout>
