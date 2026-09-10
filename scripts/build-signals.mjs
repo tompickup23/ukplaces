@@ -51,7 +51,6 @@ const partyNames = {
 const electionData = readJson(sourcePaths.ukelections);
 const electionBySlug = new Map(electionData.councils.map((council) => [council.council_slug, council]));
 const electionGenerated = electionData.snapshot.generated_at.slice(0, 10);
-const electionPeriod = `After the ${formatDate(electionData.snapshot.election_date)} election; source dataset generated ${formatDate(electionGenerated)}.`;
 const electionFeed = {};
 
 for (const [gss, place] of Object.entries(registry)) {
@@ -65,12 +64,13 @@ for (const [gss, place] of Object.entries(registry)) {
   const partyCode = council.control.plurality_party ?? council.control.controlling_party;
   const seats = council.control.plurality_seats ?? council.post_may7.by_party[partyCode];
   const party = partyNames[partyCode] ?? partyCode;
+  const snapshotDate = council.snapshotDate ?? electionGenerated;
   electionFeed[gss] = {
     value: `${party} ${seats} of ${council.cycle.total_seats}`,
     unit: "seats",
     label: council.control.status === "no_overall_control" ? "No overall control" : "Council control",
-    period: electionPeriod,
-    snapshotDate: electionGenerated,
+    period: `After the ${formatDate(electionData.snapshot.election_date)} election; source dataset generated ${formatDate(snapshotDate)}.`,
+    snapshotDate,
     url: place.coverage.ukelections.url,
   };
 }
@@ -84,12 +84,13 @@ for (const [gss, place] of Object.entries(registry)) {
     continue;
   }
 
+  const snapshotDate = crime.snapshotDate ?? crimeData.lastUpdated;
   crimeFeed[gss] = {
     value: Number(crime.totalCrimeRate.toFixed(1)),
     unit: "per 1,000 residents",
     label: "Total recorded crime",
-    period: `latest held by source: ${crime.period}; dataset updated ${formatDate(crimeData.lastUpdated)}.`,
-    snapshotDate: crimeData.lastUpdated,
+    period: `latest held by source: ${crime.period}; dataset updated ${formatDate(snapshotDate)}.`,
+    snapshotDate,
     url: place.coverage.ukdemographics.url,
   };
 }
