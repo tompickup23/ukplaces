@@ -84,6 +84,28 @@ const countyCouncilGssByName = new Map(
     .map((row) => [normaliseCountyName(row.name), row.ons_code]),
 );
 
+/**
+ * UK Demographics areas indexed by published-name slug, for GSS codes that have changed.
+ *
+ * Coverage was resolved on the current GSS code alone, and two authorities have been
+ * recoded since UK Demographics keyed its data: Sheffield is E08000019 there and
+ * E08000039 in the asylum source, Barnsley E08000016 against E08000038. Both publish a
+ * live page, both came back hasPage:false, and the consuming sites dropped a working
+ * cross-link because of it. Falling back to the slug fixes any future recode too, not
+ * just these two.
+ *
+ * Only unique slugs are indexed. A slug shared by two areas cannot identify either, and
+ * guessing there would turn a missing link into a wrong one, which is worse.
+ */
+const ukdemographicsBySlug = new Map();
+const ukdemographicsSlugClashes = new Set();
+for (const area of Object.values(ukdemographics.areas)) {
+  const slug = slugifyPublishedName(area.areaName);
+  if (ukdemographicsBySlug.has(slug)) ukdemographicsSlugClashes.add(slug);
+  ukdemographicsBySlug.set(slug, area);
+}
+for (const slug of ukdemographicsSlugClashes) ukdemographicsBySlug.delete(slug);
+
 const ukelectionsByGss = new Map();
 for (const [slug, match] of Object.entries(ukelections.map)) {
   if (!match.lad24cd || match.match_type === "fuzzy" || slug === "surrey") continue;
@@ -140,7 +162,7 @@ for (const area of [...asylumAreas].sort((left, right) => left.areaCode.localeCo
   if (gss.startsWith("E07") && county && !parentGss) unresolvedParents.push(`${gss} (${county})`);
 
   const ukeSlug = ukelectionsByGss.get(gss) ?? null;
-  const ukdArea = ukdemographics.areas[gss] ?? null;
+  const ukdArea = ukdemographics.areas[gss] ?? ukdemographicsBySlug.get(defaultSlug) ?? null;
   const ukdSlug = ukdArea ? slugifyPublishedName(ukdArea.areaName) : null;
   const asylumSlug = slugifyPublishedName(area.areaName);
 
