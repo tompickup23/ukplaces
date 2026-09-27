@@ -54,3 +54,27 @@ Baseline `git rev-parse HEAD`: `2685f4f19c42c2d0d4be14fff4c3d40763408ee4`
 - 2026-09-10 — Post-plan hardening: upgraded Astro and its checker, added a production dependency audit to CI, constrained pull-request permissions, added dependency update configuration, and added a scheduled production monitor. Added an accessible constituency filter that preserves the full no-JavaScript directory, plus a weekly source-refresh automation that only accepts confirmed source-derived changes. Verified the full data, build, accessibility, sitemap, parity, production-monitor and browser checks.
 - 2026-09-10 — Release hardening: created and protected the public GitHub repository, merged the reviewed release, enabled Pages, enabled GitHub security controls, and reran the Pages workflow after the DNS cutover. Replaced the apex DNS records with the four official GitHub Pages A records and added the four official AAAA records; public resolvers return all eight records. Removed the former host's custom-domain binding and restricted its site access to the owner. HTTPS certificate issuance and Search Console property access remain recorded under Blocked.
 - 2026-09-10 — Release completion: restarted GitHub Pages custom-domain validation after DNS propagation, enabled HTTPS when its certificate became available, and passed the HTTPS-only production check for the home page, Burnley place page, Burnley constituency page, sitemap and robots file. Search Console accepted the submitted sitemap successfully and reports 1,029 discovered pages. All release checklist items are now complete.
+
+## Round 2
+
+Plan: `docs/OPUS-PLAN-2026-09-27.md`. Baseline `git rev-parse HEAD`: `21cd9876d51844edcf3dca1814a945449d040a0f` (the head of open PR #14, `fix/registry-gss-recode`, which sits one commit on top of `main` at `982a327`; Round 2 stacks on it because the plan's coverage facts assume its 318 UK Demographics pages).
+
+### Steps
+
+- [x] 0. Open Round 2, record the D6 reversal, add the dash test and fix `og:image:alt`.
+- [ ] 1. Titles and descriptions from the signals, plus `scripts/check-metadata.mjs`.
+- [ ] 2. Dates and structured data: sitemap `lastmod`, JSON-LD `dateModified`, `containedInPlace`, Wikidata `sameAs`.
+- [ ] 3. UK Food Hygiene as the fifth source.
+- [ ] 4. Reverse link and dead-link fix in the food hygiene repo.
+- [ ] 5. Internal linking and codes.
+- [ ] 6. Home and static copy, font preloads.
+- [ ] 7. Per-place OG cards.
+- [ ] 8. Analytics (needs Tom's Cloudflare Web Analytics token).
+- [ ] 9. Close: playbook, operations notes, final log line with open PRs.
+
+### Blocked
+
+- None.
+
+### Log
+- 2026-09-27, Step 0: opened Round 2 on branch `opus/r2-metadata`, recorded the D6 reversal in `docs/CODEX-PLAN.md` (original line kept, dated note beneath it and on the matching rule), added `scripts/test-house-style.mjs` (`npm run test:house-style`, wired into `site-checks.yml` and `deploy.yml`) and changed `og:image:alt` to "UK Places: local data, clearly sourced." Verified the new test failed on `src/layouts/BaseLayout.astro:53` before the fix and passes after over 43 files; `npm run lint` 0 errors; `npm run build` 1,030 pages in 2.2s wall (baseline for step 7). Next: step 1.

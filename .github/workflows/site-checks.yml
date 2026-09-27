@@ -25,6 +25,7 @@ jobs:
       - run: npm run test:signals
       - run: npm run test:constituencies
       - run: npm run test:source-onboarding
+      - run: npm run test:house-style
       - run: npm run lint
       - run: npm run build
       - run: npm run check:contrast
