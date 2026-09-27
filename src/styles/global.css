@@ -866,3 +866,35 @@ a {
   font-size: 1.35rem;
   margin-top: 0.5rem;
 }
+
+.eyebrow a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.eyebrow a:hover {
+  color: var(--accent);
+}
+
+.eyebrow a:focus-visible,
+.place-siblings__more a:focus-visible {
+  outline: 3px solid var(--focus-ring, var(--accent));
+  outline-offset: 3px;
+}
+
+.place-geo__code {
+  color: var(--text-muted);
+  font-size: 0.875rem;
+  white-space: nowrap;
+}
+
+.place-siblings {
+  margin-top: 1.25rem;
+}
+
+.place-siblings__more {
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin: 1rem 0 0;
+}
