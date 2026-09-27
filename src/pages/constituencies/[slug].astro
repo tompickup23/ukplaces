@@ -2,6 +2,7 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { SITE_URL, normalisePageTitle } from "../../lib/site";
 import { resolveConstituencyRegion } from "../../lib/regions";
+import { buildOg, constituencyOgPath } from "../../lib/og-flag";
 import registry from "../../data/registry/places.json";
 import constituencies from "../../data/registry/constituencies.json";
 
@@ -84,7 +85,13 @@ const formatDate = (date: string) => new Intl.DateTimeFormat("en-GB", {
 }).format(new Date(`${date}T00:00:00Z`));
 ---
 
-<BaseLayout title={`${constituency.name} constituency`} description={description} structuredData={structuredData}>
+<BaseLayout
+  title={`${constituency.name} constituency`}
+  description={description}
+  structuredData={structuredData}
+  image={buildOg ? constituencyOgPath(constituency.slug) : undefined}
+  imageAlt={buildOg ? `${constituency.name} parliamentary constituency: its local authorities and 2024 winning party on UK Places.` : undefined}
+>
   <main class="shell place-page" id="main-content">
     <nav class="breadcrumbs" aria-label="Breadcrumb">
       <a href="/">UK Places</a>

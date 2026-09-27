@@ -26,6 +26,7 @@ function* htmlFiles(directory) {
 }
 
 const pages = [];
+let cardCount = 0;
 for (const filePath of htmlFiles(distRoot)) {
   const html = fs.readFileSync(filePath, "utf8");
   const page = path.relative(distRoot, filePath);
@@ -36,6 +37,14 @@ for (const filePath of htmlFiles(distRoot)) {
   const description = html.match(/<meta name="description" content="([^"]*)"/)?.[1];
   assert.ok(description !== undefined, `${page} has a meta description`);
   pages.push({ page, title: decode(titles[0][1]), description: decode(description) });
+  // An advertised share image must exist in the build (per-place cards exist only when BUILD_OG=1).
+  const image = html.match(/<meta property="og:image" content="([^"]*)"/)?.[1];
+  assert.ok(image, `${page} has an og:image`);
+  const imageUrl = new URL(decode(image));
+  if (imageUrl.hostname === "ukplaces.co.uk") {
+    assert.ok(fs.existsSync(path.join(distRoot, decodeURIComponent(imageUrl.pathname))), `${page} og:image ${imageUrl.pathname} exists in dist`);
+    if (imageUrl.pathname.startsWith("/og/")) cardCount += 1;
+  }
 }
 
 const failures = [];
@@ -54,4 +63,4 @@ for (const { page, title, description } of pages) {
 
 assert.equal(failures.length, 0, `metadata failures:\n${failures.slice(0, 40).join("\n")}${failures.length > 40 ? `\n...and ${failures.length - 40} more` : ""}`);
 const lengths = pages.map(({ description }) => description.length).sort((a, b) => a - b);
-console.log(`Metadata check passed for ${pages.length} indexable pages: titles and descriptions unique, descriptions ${lengths[0]} to ${lengths.at(-1)} characters.`);
+console.log(`Metadata check passed for ${pages.length} indexable pages: titles and descriptions unique, descriptions ${lengths[0]} to ${lengths.at(-1)} characters, every og:image present (${cardCount} per-record cards).`);
