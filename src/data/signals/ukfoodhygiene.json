@@ -1,0 +1,2890 @@
+{
+  "E06000001": {
+    "value": "90.2%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 743 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/hartlepool/"
+  },
+  "E06000002": {
+    "value": "84.7%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,025 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/middlesbrough/"
+  },
+  "E06000003": {
+    "value": "93.8%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,148 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/redcar-and-cleveland/"
+  },
+  "E06000004": {
+    "value": "95.7%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,448 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/stockton-on-tees/"
+  },
+  "E06000005": {
+    "value": "90.3%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 832 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/darlington/"
+  },
+  "E06000006": {
+    "value": "75.2%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 825 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/halton/"
+  },
+  "E06000007": {
+    "value": "76.3%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,556 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/warrington/"
+  },
+  "E06000008": {
+    "value": "68.6%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,129 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/blackburn/"
+  },
+  "E06000009": {
+    "value": "78.9%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,695 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/blackpool/"
+  },
+  "E06000010": {
+    "value": "78.7%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,926 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/hull-city/"
+  },
+  "E06000011": {
+    "value": "84.6%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 2,995 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/east-riding-of-yorkshire/"
+  },
+  "E06000012": {
+    "value": "84.0%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,278 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/north-east-lincolnshire/"
+  },
+  "E06000013": {
+    "value": "80.1%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,350 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/north-lincolnshire/"
+  },
+  "E06000014": {
+    "value": "73.4%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,873 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/york/"
+  },
+  "E06000015": {
+    "value": "72.5%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,954 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/derby-city/"
+  },
+  "E06000016": {
+    "value": "73.7%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 3,103 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/leicester-city/"
+  },
+  "E06000017": {
+    "value": "85.6%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 411 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/rutland/"
+  },
+  "E06000018": {
+    "value": "89.5%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 2,671 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/nottingham-city/"
+  },
+  "E06000019": {
+    "value": "77.7%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,572 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/herefordshire/"
+  },
+  "E06000020": {
+    "value": "85.2%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,366 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/telford-and-wrekin-council/"
+  },
+  "E06000021": {
+    "value": "78.8%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,900 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/stoke-on-trent/"
+  },
+  "E06000022": {
+    "value": "73.0%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,735 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/bath-and-north-east-somerset/"
+  },
+  "E06000023": {
+    "value": "76.4%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 3,742 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/bristol/"
+  },
+  "E06000024": {
+    "value": "75.7%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,552 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/north-somerset/"
+  },
+  "E06000025": {
+    "value": "82.9%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,740 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/south-gloucestershire/"
+  },
+  "E06000026": {
+    "value": "77.0%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,621 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/plymouth-city/"
+  },
+  "E06000027": {
+    "value": "80.7%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,192 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/torbay/"
+  },
+  "E06000030": {
+    "value": "83.3%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,432 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/swindon/"
+  },
+  "E06000031": {
+    "value": "88.8%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,777 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/peterborough-city/"
+  },
+  "E06000032": {
+    "value": "66.8%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,304 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/luton/"
+  },
+  "E06000033": {
+    "value": "70.8%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,383 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/southend-on-sea/"
+  },
+  "E06000034": {
+    "value": "71.7%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,175 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/thurrock/"
+  },
+  "E06000035": {
+    "value": "79.7%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,944 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/medway/"
+  },
+  "E06000036": {
+    "value": "83.3%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 700 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/bracknell-forest/"
+  },
+  "E06000037": {
+    "value": "85.2%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,099 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/west-berkshire/"
+  },
+  "E06000038": {
+    "value": "64.4%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,288 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/reading/"
+  },
+  "E06000039": {
+    "value": "60.6%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 887 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/slough/"
+  },
+  "E06000040": {
+    "value": "81.8%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,326 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/windsor-and-maidenhead/"
+  },
+  "E06000041": {
+    "value": "80.7%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,052 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/wokingham/"
+  },
+  "E06000042": {
+    "value": "77.8%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 2,308 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/milton-keynes/"
+  },
+  "E06000043": {
+    "value": "82.9%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 2,789 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/brighton-and-hove/"
+  },
+  "E06000044": {
+    "value": "62.5%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,566 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/portsmouth/"
+  },
+  "E06000045": {
+    "value": "69.8%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,489 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/southampton/"
+  },
+  "E06000046": {
+    "value": "69.7%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,486 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/isle-of-wight/"
+  },
+  "E06000047": {
+    "value": "74.7%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 4,108 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/durham/"
+  },
+  "E06000049": {
+    "value": "89.3%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 2,812 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/cheshire-east/"
+  },
+  "E06000050": {
+    "value": "80.6%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 2,696 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/cheshire-west-and-chester/"
+  },
+  "E06000051": {
+    "value": "87.9%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 2,885 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/shropshire/"
+  },
+  "E06000052": {
+    "value": "84.5%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 5,331 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/cornwall/"
+  },
+  "E06000053": {
+    "value": "92.0%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 100 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/isles-of-scilly/"
+  },
+  "E06000054": {
+    "value": "81.2%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 2,996 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/wiltshire/"
+  },
+  "E06000055": {
+    "value": "83.3%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,475 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/bedford/"
+  },
+  "E06000056": {
+    "value": "75.7%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,520 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/central-bedfordshire/"
+  },
+  "E06000057": {
+    "value": "91.0%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 3,127 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/northumberland/"
+  },
+  "E06000058": {
+    "value": "87.7%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 2,957 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/bournemouth-christchurch-and-poole/"
+  },
+  "E06000059": {
+    "value": "95.3%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 4,048 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/dorset/"
+  },
+  "E06000060": {
+    "value": "81.0%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 4,043 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/buckinghamshire/"
+  },
+  "E06000061": {
+    "value": "85.3%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 2,835 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/north-northamptonshire/"
+  },
+  "E06000062": {
+    "value": "78.2%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 3,289 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/west-northamptonshire/"
+  },
+  "E06000063": {
+    "value": "84.0%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 2,493 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/cumberland/"
+  },
+  "E06000064": {
+    "value": "87.0%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 2,791 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/westmorland-and-furness/"
+  },
+  "E06000065": {
+    "value": "85.9%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 6,266 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/north-yorkshire/"
+  },
+  "E06000066": {
+    "value": "87.3%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 5,501 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/somerset/"
+  },
+  "E07000008": {
+    "value": "77.6%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,279 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/cambridge-city/"
+  },
+  "E07000009": {
+    "value": "83.1%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 697 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/east-cambridgeshire/"
+  },
+  "E07000010": {
+    "value": "92.6%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 674 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/fenland/"
+  },
+  "E07000011": {
+    "value": "72.0%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,401 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/huntingdonshire/"
+  },
+  "E07000012": {
+    "value": "86.5%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,233 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/south-cambridgeshire/"
+  },
+  "E07000032": {
+    "value": "79.3%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 962 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/amber-valley/"
+  },
+  "E07000033": {
+    "value": "85.2%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 684 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/bolsover/"
+  },
+  "E07000034": {
+    "value": "86.5%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 870 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/chesterfield/"
+  },
+  "E07000035": {
+    "value": "64.5%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 830 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/derbyshire-dales/"
+  },
+  "E07000036": {
+    "value": "88.8%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 856 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/erewash/"
+  },
+  "E07000037": {
+    "value": "88.5%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 836 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/high-peak/"
+  },
+  "E07000038": {
+    "value": "87.8%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 761 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/north-east-derbyshire/"
+  },
+  "E07000039": {
+    "value": "85.5%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 754 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/south-derbyshire/"
+  },
+  "E07000040": {
+    "value": "84.6%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,311 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/east-devon/"
+  },
+  "E07000041": {
+    "value": "87.5%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,008 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/exeter-city/"
+  },
+  "E07000042": {
+    "value": "85.6%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 680 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/mid-devon/"
+  },
+  "E07000043": {
+    "value": "83.7%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,320 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/north-devon/"
+  },
+  "E07000044": {
+    "value": "90.9%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 864 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/south-hams/"
+  },
+  "E07000045": {
+    "value": "89.9%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,169 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/teignbridge/"
+  },
+  "E07000046": {
+    "value": "85.4%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 683 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/torridge/"
+  },
+  "E07000047": {
+    "value": "86.0%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 552 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/west-devon/"
+  },
+  "E07000061": {
+    "value": "85.3%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 943 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/eastbourne/"
+  },
+  "E07000062": {
+    "value": "91.1%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 856 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/hastings/"
+  },
+  "E07000063": {
+    "value": "86.1%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 855 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/lewes/"
+  },
+  "E07000064": {
+    "value": "87.8%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,018 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/rother/"
+  },
+  "E07000065": {
+    "value": "78.7%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,343 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/wealden/"
+  },
+  "E07000066": {
+    "value": "80.6%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,183 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/basildon/"
+  },
+  "E07000067": {
+    "value": "84.8%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,172 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/braintree/"
+  },
+  "E07000068": {
+    "value": "82.8%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 685 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/brentwood/"
+  },
+  "E07000069": {
+    "value": "92.0%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 477 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/castle-point/"
+  },
+  "E07000070": {
+    "value": "91.6%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,461 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/chelmsford/"
+  },
+  "E07000071": {
+    "value": "90.4%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,370 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/colchester/"
+  },
+  "E07000072": {
+    "value": "84.4%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 910 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/epping-forest/"
+  },
+  "E07000073": {
+    "value": "82.9%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 620 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/harlow/"
+  },
+  "E07000074": {
+    "value": "89.0%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 590 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/maldon/"
+  },
+  "E07000075": {
+    "value": "83.5%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 580 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/rochford/"
+  },
+  "E07000076": {
+    "value": "67.1%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,182 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/tendring/"
+  },
+  "E07000077": {
+    "value": "89.3%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 654 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/uttlesford/"
+  },
+  "E07000078": {
+    "value": "89.4%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,018 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/cheltenham/"
+  },
+  "E07000079": {
+    "value": "93.6%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,022 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/cotswold/"
+  },
+  "E07000080": {
+    "value": "94.0%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 689 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/forest-of-dean/"
+  },
+  "E07000081": {
+    "value": "82.4%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,023 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/gloucester-city/"
+  },
+  "E07000082": {
+    "value": "81.6%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 987 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/stroud/"
+  },
+  "E07000083": {
+    "value": "86.3%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 772 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/tewkesbury/"
+  },
+  "E07000084": {
+    "value": "74.3%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,046 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/basingstoke-and-deane/"
+  },
+  "E07000085": {
+    "value": "84.9%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 992 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/east-hampshire/"
+  },
+  "E07000086": {
+    "value": "84.3%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 860 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/eastleigh/"
+  },
+  "E07000087": {
+    "value": "85.9%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 725 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/fareham/"
+  },
+  "E07000088": {
+    "value": "86.0%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 571 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/gosport/"
+  },
+  "E07000089": {
+    "value": "84.1%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 566 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/hart/"
+  },
+  "E07000090": {
+    "value": "90.4%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 865 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/havant/"
+  },
+  "E07000091": {
+    "value": "81.1%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,444 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/new-forest/"
+  },
+  "E07000092": {
+    "value": "73.2%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 635 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/rushmoor/"
+  },
+  "E07000093": {
+    "value": "88.0%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 983 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/test-valley/"
+  },
+  "E07000094": {
+    "value": "89.1%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,077 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/winchester-city/"
+  },
+  "E07000095": {
+    "value": "91.5%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 680 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/broxbourne/"
+  },
+  "E07000096": {
+    "value": "78.4%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,139 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/dacorum/"
+  },
+  "E07000098": {
+    "value": "80.3%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 747 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/hertsmere/"
+  },
+  "E07000099": {
+    "value": "79.2%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,011 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/north-hertfordshire/"
+  },
+  "E07000102": {
+    "value": "83.0%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 572 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/three-rivers/"
+  },
+  "E07000103": {
+    "value": "81.3%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 865 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/watford/"
+  },
+  "E07000105": {
+    "value": "89.4%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,159 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/ashford/"
+  },
+  "E07000106": {
+    "value": "77.5%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,485 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/canterbury-city/"
+  },
+  "E07000107": {
+    "value": "77.9%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 936 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/dartford/"
+  },
+  "E07000108": {
+    "value": "82.0%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,101 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/dover/"
+  },
+  "E07000109": {
+    "value": "88.4%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 770 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/gravesham/"
+  },
+  "E07000110": {
+    "value": "83.2%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,393 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/maidstone/"
+  },
+  "E07000111": {
+    "value": "79.2%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 866 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/sevenoaks/"
+  },
+  "E07000112": {
+    "value": "85.2%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,163 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/folkestone-and-hythe/"
+  },
+  "E07000113": {
+    "value": "84.2%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,205 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/swale/"
+  },
+  "E07000114": {
+    "value": "95.8%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,509 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/thanet/"
+  },
+  "E07000115": {
+    "value": "80.3%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 973 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/tonbridge-and-malling/"
+  },
+  "E07000116": {
+    "value": "83.0%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,042 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/tunbridge-wells/"
+  },
+  "E07000117": {
+    "value": "70.3%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 809 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/burnley/"
+  },
+  "E07000118": {
+    "value": "87.1%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 874 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/chorley/"
+  },
+  "E07000119": {
+    "value": "84.9%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 763 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/fylde/"
+  },
+  "E07000120": {
+    "value": "60.9%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 722 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/hyndburn/"
+  },
+  "E07000121": {
+    "value": "78.2%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,093 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/lancaster-city/"
+  },
+  "E07000122": {
+    "value": "72.9%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 753 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/pendle/"
+  },
+  "E07000123": {
+    "value": "78.8%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,489 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/preston/"
+  },
+  "E07000124": {
+    "value": "88.2%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 577 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/ribble-valley/"
+  },
+  "E07000125": {
+    "value": "79.7%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 620 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/rossendale/"
+  },
+  "E07000126": {
+    "value": "94.6%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 722 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/south-ribble/"
+  },
+  "E07000127": {
+    "value": "79.8%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 832 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/west-lancashire/"
+  },
+  "E07000128": {
+    "value": "62.6%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 911 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/wyre/"
+  },
+  "E07000129": {
+    "value": "82.9%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 592 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/blaby/"
+  },
+  "E07000130": {
+    "value": "80.2%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,337 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/charnwood/"
+  },
+  "E07000131": {
+    "value": "91.0%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 719 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/harborough/"
+  },
+  "E07000132": {
+    "value": "84.4%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 812 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/hinckley-and-bosworth/"
+  },
+  "E07000133": {
+    "value": "85.4%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 466 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/melton/"
+  },
+  "E07000134": {
+    "value": "82.2%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 808 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/north-west-leicestershire/"
+  },
+  "E07000135": {
+    "value": "82.9%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 321 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/oadby-and-wigston/"
+  },
+  "E07000136": {
+    "value": "91.2%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 601 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/boston/"
+  },
+  "E07000137": {
+    "value": "89.1%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 2,251 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/east-lindsey/"
+  },
+  "E07000138": {
+    "value": "93.5%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,022 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/lincoln-city/"
+  },
+  "E07000139": {
+    "value": "93.2%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 916 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/north-kesteven/"
+  },
+  "E07000140": {
+    "value": "87.2%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 718 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/south-holland/"
+  },
+  "E07000141": {
+    "value": "83.6%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,118 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/south-kesteven/"
+  },
+  "E07000142": {
+    "value": "83.7%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 713 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/west-lindsey/"
+  },
+  "E07000143": {
+    "value": "87.3%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,184 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/breckland/"
+  },
+  "E07000144": {
+    "value": "88.3%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 912 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/broadland/"
+  },
+  "E07000145": {
+    "value": "71.5%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,030 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/great-yarmouth/"
+  },
+  "E07000146": {
+    "value": "89.3%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,353 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/king-s-lynn-and-west-norfolk/"
+  },
+  "E07000147": {
+    "value": "86.8%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,450 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/north-norfolk/"
+  },
+  "E07000148": {
+    "value": "66.2%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,361 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/norwich-city/"
+  },
+  "E07000149": {
+    "value": "84.3%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,003 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/south-norfolk/"
+  },
+  "E07000170": {
+    "value": "78.8%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 864 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/ashfield/"
+  },
+  "E07000171": {
+    "value": "97.7%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 999 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/bassetlaw/"
+  },
+  "E07000172": {
+    "value": "75.6%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 722 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/broxtowe/"
+  },
+  "E07000173": {
+    "value": "92.2%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 714 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/gedling/"
+  },
+  "E07000174": {
+    "value": "87.8%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 828 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/mansfield/"
+  },
+  "E07000175": {
+    "value": "86.4%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,064 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/newark-and-sherwood/"
+  },
+  "E07000176": {
+    "value": "83.2%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 802 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/rushcliffe/"
+  },
+  "E07000177": {
+    "value": "80.7%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,228 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/cherwell/"
+  },
+  "E07000178": {
+    "value": "86.9%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,371 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/oxford-city/"
+  },
+  "E07000179": {
+    "value": "71.6%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,139 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/south-oxfordshire/"
+  },
+  "E07000180": {
+    "value": "81.2%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 961 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/vale-of-white-horse/"
+  },
+  "E07000181": {
+    "value": "94.5%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,021 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/west-oxfordshire/"
+  },
+  "E07000192": {
+    "value": "86.7%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 719 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/cannock-chase/"
+  },
+  "E07000193": {
+    "value": "73.2%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,003 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/east-staffordshire/"
+  },
+  "E07000194": {
+    "value": "73.2%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 782 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/lichfield/"
+  },
+  "E07000195": {
+    "value": "85.9%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 906 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/newcastle-under-lyme/"
+  },
+  "E07000196": {
+    "value": "86.7%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 685 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/south-staffordshire/"
+  },
+  "E07000197": {
+    "value": "78.3%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 973 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/stafford/"
+  },
+  "E07000198": {
+    "value": "85.0%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 808 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/staffordshire-moorlands/"
+  },
+  "E07000199": {
+    "value": "85.9%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 495 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/tamworth/"
+  },
+  "E07000200": {
+    "value": "87.1%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 804 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/babergh/"
+  },
+  "E07000202": {
+    "value": "94.6%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,042 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/ipswich/"
+  },
+  "E07000203": {
+    "value": "86.0%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 736 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/mid-suffolk/"
+  },
+  "E07000207": {
+    "value": "75.5%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 978 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/elmbridge/"
+  },
+  "E07000208": {
+    "value": "77.4%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 443 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/epsom-and-ewell/"
+  },
+  "E07000209": {
+    "value": "80.7%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,006 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/guildford/"
+  },
+  "E07000210": {
+    "value": "92.9%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 715 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/mole-valley/"
+  },
+  "E07000211": {
+    "value": "73.0%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 870 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/reigate-and-banstead/"
+  },
+  "E07000212": {
+    "value": "83.0%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 611 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/runnymede/"
+  },
+  "E07000213": {
+    "value": "78.5%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 685 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/spelthorne/"
+  },
+  "E07000214": {
+    "value": "77.4%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 576 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/surrey-heath/"
+  },
+  "E07000215": {
+    "value": "93.9%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 606 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/tandridge/"
+  },
+  "E07000216": {
+    "value": "79.2%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 951 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/waverley/"
+  },
+  "E07000217": {
+    "value": "68.0%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 724 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/woking/"
+  },
+  "E07000218": {
+    "value": "79.7%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 625 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/north-warwickshire/"
+  },
+  "E07000219": {
+    "value": "86.0%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 847 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/nuneaton-and-bedworth/"
+  },
+  "E07000220": {
+    "value": "72.3%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 829 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/rugby/"
+  },
+  "E07000221": {
+    "value": "86.1%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,272 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/stratford-on-avon/"
+  },
+  "E07000222": {
+    "value": "89.5%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,244 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/warwick/"
+  },
+  "E07000223": {
+    "value": "90.8%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 423 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/adur/"
+  },
+  "E07000224": {
+    "value": "84.0%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,186 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/arun/"
+  },
+  "E07000225": {
+    "value": "94.6%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,317 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/chichester/"
+  },
+  "E07000226": {
+    "value": "90.5%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 831 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/crawley/"
+  },
+  "E07000227": {
+    "value": "90.5%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,171 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/horsham/"
+  },
+  "E07000228": {
+    "value": "81.9%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,238 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/mid-sussex/"
+  },
+  "E07000229": {
+    "value": "81.3%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 933 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/worthing/"
+  },
+  "E07000234": {
+    "value": "80.5%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 581 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/bromsgrove/"
+  },
+  "E07000235": {
+    "value": "79.8%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 500 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/malvern-hills/"
+  },
+  "E07000236": {
+    "value": "75.3%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 361 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/redditch/"
+  },
+  "E07000237": {
+    "value": "78.6%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 598 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/worcester-city/"
+  },
+  "E07000238": {
+    "value": "81.6%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 779 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/wychavon/"
+  },
+  "E07000239": {
+    "value": "73.1%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 524 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/wyre-forest/"
+  },
+  "E07000240": {
+    "value": "77.3%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,065 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/st-albans-city/"
+  },
+  "E07000241": {
+    "value": "78.1%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 662 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/welwyn-hatfield/"
+  },
+  "E07000242": {
+    "value": "83.6%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,163 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/east-hertfordshire/"
+  },
+  "E07000243": {
+    "value": "88.8%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 510 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/stevenage/"
+  },
+  "E07000244": {
+    "value": "85.6%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 2,280 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/east-suffolk/"
+  },
+  "E07000245": {
+    "value": "90.5%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,415 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/west-suffolk/"
+  },
+  "E08000001": {
+    "value": "57.0%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 2,204 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/bolton/"
+  },
+  "E08000002": {
+    "value": "73.2%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,093 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/bury/"
+  },
+  "E08000003": {
+    "value": "71.4%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 5,177 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/manchester/"
+  },
+  "E08000004": {
+    "value": "76.5%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,702 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/oldham/"
+  },
+  "E08000005": {
+    "value": "73.7%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,513 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/rochdale/"
+  },
+  "E08000006": {
+    "value": "65.7%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,890 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/salford/"
+  },
+  "E08000007": {
+    "value": "81.6%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 2,094 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/stockport/"
+  },
+  "E08000008": {
+    "value": "73.8%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,642 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/tameside/"
+  },
+  "E08000009": {
+    "value": "80.9%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,988 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/trafford/"
+  },
+  "E08000010": {
+    "value": "54.3%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 2,354 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/wigan/"
+  },
+  "E08000011": {
+    "value": "65.4%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 700 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/knowsley/"
+  },
+  "E08000012": {
+    "value": "65.8%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 3,437 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/liverpool/"
+  },
+  "E08000013": {
+    "value": "72.0%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,288 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/st-helens/"
+  },
+  "E08000014": {
+    "value": "84.1%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 2,145 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/sefton/"
+  },
+  "E08000015": {
+    "value": "72.9%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 2,236 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/wirral/"
+  },
+  "E08000017": {
+    "value": "72.8%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 2,563 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/doncaster/"
+  },
+  "E08000018": {
+    "value": "88.4%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 2,025 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/rotherham/"
+  },
+  "E08000021": {
+    "value": "75.4%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 2,532 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/newcastle-upon-tyne/"
+  },
+  "E08000022": {
+    "value": "87.0%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,425 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/north-tyneside/"
+  },
+  "E08000023": {
+    "value": "73.2%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 990 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/south-tyneside/"
+  },
+  "E08000024": {
+    "value": "83.9%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,960 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/sunderland/"
+  },
+  "E08000025": {
+    "value": "65.6%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 7,931 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/birmingham/"
+  },
+  "E08000026": {
+    "value": "77.8%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 2,362 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/coventry/"
+  },
+  "E08000027": {
+    "value": "61.9%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 2,160 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/dudley/"
+  },
+  "E08000028": {
+    "value": "67.3%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 2,324 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/sandwell/"
+  },
+  "E08000029": {
+    "value": "79.1%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,260 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/solihull/"
+  },
+  "E08000030": {
+    "value": "60.6%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,820 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/walsall/"
+  },
+  "E08000031": {
+    "value": "75.0%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 2,038 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/wolverhampton/"
+  },
+  "E08000032": {
+    "value": "72.1%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 4,112 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/bradford/"
+  },
+  "E08000033": {
+    "value": "74.9%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,727 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/calderdale/"
+  },
+  "E08000034": {
+    "value": "73.5%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 3,684 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/kirklees/"
+  },
+  "E08000035": {
+    "value": "75.1%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 5,638 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/leeds/"
+  },
+  "E08000036": {
+    "value": "78.3%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 2,659 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/wakefield/"
+  },
+  "E08000037": {
+    "value": "81.4%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,435 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/gateshead/"
+  },
+  "E08000038": {
+    "value": "82.4%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,637 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/barnsley/"
+  },
+  "E08000039": {
+    "value": "74.8%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 4,415 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/sheffield/"
+  },
+  "E09000001": {
+    "value": "87.4%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,725 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/city-of-london-corporation/"
+  },
+  "E09000002": {
+    "value": "56.0%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,229 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/barking-and-dagenham/"
+  },
+  "E09000003": {
+    "value": "61.3%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 2,382 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/barnet/"
+  },
+  "E09000004": {
+    "value": "71.0%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,617 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/bexley/"
+  },
+  "E09000005": {
+    "value": "73.6%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 2,216 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/brent/"
+  },
+  "E09000006": {
+    "value": "76.9%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 2,178 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/bromley/"
+  },
+  "E09000007": {
+    "value": "58.7%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 3,351 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/camden/"
+  },
+  "E09000008": {
+    "value": "64.6%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 2,841 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/croydon/"
+  },
+  "E09000009": {
+    "value": "57.5%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 3,152 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/ealing/"
+  },
+  "E09000010": {
+    "value": "59.5%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 2,142 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/enfield/"
+  },
+  "E09000011": {
+    "value": "79.3%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 2,136 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/greenwich/"
+  },
+  "E09000012": {
+    "value": "69.1%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 2,106 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/hackney/"
+  },
+  "E09000013": {
+    "value": "77.7%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,822 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/hammersmith-and-fulham/"
+  },
+  "E09000014": {
+    "value": "77.9%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,842 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/haringey/"
+  },
+  "E09000015": {
+    "value": "61.9%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,575 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/harrow/"
+  },
+  "E09000016": {
+    "value": "71.7%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,725 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/havering/"
+  },
+  "E09000017": {
+    "value": "63.3%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 2,011 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/hillingdon/"
+  },
+  "E09000018": {
+    "value": "72.4%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,854 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/hounslow/"
+  },
+  "E09000019": {
+    "value": "64.6%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 2,406 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/islington/"
+  },
+  "E09000020": {
+    "value": "88.0%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,827 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/kensington-and-chelsea/"
+  },
+  "E09000021": {
+    "value": "72.7%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,274 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/kingston-upon-thames/"
+  },
+  "E09000022": {
+    "value": "61.7%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 2,439 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/lambeth/"
+  },
+  "E09000023": {
+    "value": "62.6%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 2,035 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/lewisham/"
+  },
+  "E09000024": {
+    "value": "81.9%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,279 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/merton/"
+  },
+  "E09000025": {
+    "value": "48.8%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 2,436 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/newham/"
+  },
+  "E09000026": {
+    "value": "66.2%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,819 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/redbridge/"
+  },
+  "E09000027": {
+    "value": "74.6%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,399 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/richmond-upon-thames/"
+  },
+  "E09000028": {
+    "value": "71.6%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 2,985 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/southwark/"
+  },
+  "E09000029": {
+    "value": "75.0%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,174 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/sutton/"
+  },
+  "E09000030": {
+    "value": "72.1%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 2,890 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/tower-hamlets/"
+  },
+  "E09000031": {
+    "value": "50.4%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,860 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/waltham-forest/"
+  },
+  "E09000032": {
+    "value": "78.5%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 2,427 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/wandsworth/"
+  },
+  "E09000033": {
+    "value": "70.2%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 5,304 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/westminster/"
+  },
+  "N09000001": {
+    "value": "86.5%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 987 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/antrim-and-newtownabbey/"
+  },
+  "N09000002": {
+    "value": "83.8%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,757 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/armagh-city-banbridge-and-craigavon/"
+  },
+  "N09000003": {
+    "value": "72.5%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 2,907 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/belfast-city/"
+  },
+  "N09000004": {
+    "value": "87.5%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,337 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/causeway-coast-and-glens/"
+  },
+  "N09000005": {
+    "value": "72.3%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 627 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/derry-city-and-strabane/"
+  },
+  "N09000006": {
+    "value": "85.5%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,328 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/fermanagh-and-omagh/"
+  },
+  "N09000007": {
+    "value": "91.9%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 863 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/lisburn-and-castlereagh-city/"
+  },
+  "N09000008": {
+    "value": "93.2%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,014 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/mid-and-east-antrim/"
+  },
+  "N09000009": {
+    "value": "89.1%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,281 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/mid-ulster/"
+  },
+  "N09000010": {
+    "value": "88.8%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,590 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/newry-mourne-and-down/"
+  },
+  "N09000011": {
+    "value": "82.3%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,162 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/ards-and-north-down/"
+  },
+  "S12000005": {
+    "value": null,
+    "unit": null,
+    "label": null,
+    "period": null,
+    "snapshotDate": null,
+    "url": null
+  },
+  "S12000006": {
+    "value": null,
+    "unit": null,
+    "label": null,
+    "period": null,
+    "snapshotDate": null,
+    "url": null
+  },
+  "S12000008": {
+    "value": null,
+    "unit": null,
+    "label": null,
+    "period": null,
+    "snapshotDate": null,
+    "url": null
+  },
+  "S12000010": {
+    "value": null,
+    "unit": null,
+    "label": null,
+    "period": null,
+    "snapshotDate": null,
+    "url": null
+  },
+  "S12000011": {
+    "value": null,
+    "unit": null,
+    "label": null,
+    "period": null,
+    "snapshotDate": null,
+    "url": null
+  },
+  "S12000013": {
+    "value": null,
+    "unit": null,
+    "label": null,
+    "period": null,
+    "snapshotDate": null,
+    "url": null
+  },
+  "S12000014": {
+    "value": null,
+    "unit": null,
+    "label": null,
+    "period": null,
+    "snapshotDate": null,
+    "url": null
+  },
+  "S12000017": {
+    "value": null,
+    "unit": null,
+    "label": null,
+    "period": null,
+    "snapshotDate": null,
+    "url": null
+  },
+  "S12000018": {
+    "value": null,
+    "unit": null,
+    "label": null,
+    "period": null,
+    "snapshotDate": null,
+    "url": null
+  },
+  "S12000019": {
+    "value": null,
+    "unit": null,
+    "label": null,
+    "period": null,
+    "snapshotDate": null,
+    "url": null
+  },
+  "S12000020": {
+    "value": null,
+    "unit": null,
+    "label": null,
+    "period": null,
+    "snapshotDate": null,
+    "url": null
+  },
+  "S12000021": {
+    "value": null,
+    "unit": null,
+    "label": null,
+    "period": null,
+    "snapshotDate": null,
+    "url": null
+  },
+  "S12000023": {
+    "value": null,
+    "unit": null,
+    "label": null,
+    "period": null,
+    "snapshotDate": null,
+    "url": null
+  },
+  "S12000026": {
+    "value": null,
+    "unit": null,
+    "label": null,
+    "period": null,
+    "snapshotDate": null,
+    "url": null
+  },
+  "S12000027": {
+    "value": null,
+    "unit": null,
+    "label": null,
+    "period": null,
+    "snapshotDate": null,
+    "url": null
+  },
+  "S12000028": {
+    "value": null,
+    "unit": null,
+    "label": null,
+    "period": null,
+    "snapshotDate": null,
+    "url": null
+  },
+  "S12000029": {
+    "value": null,
+    "unit": null,
+    "label": null,
+    "period": null,
+    "snapshotDate": null,
+    "url": null
+  },
+  "S12000030": {
+    "value": null,
+    "unit": null,
+    "label": null,
+    "period": null,
+    "snapshotDate": null,
+    "url": null
+  },
+  "S12000033": {
+    "value": null,
+    "unit": null,
+    "label": null,
+    "period": null,
+    "snapshotDate": null,
+    "url": null
+  },
+  "S12000034": {
+    "value": null,
+    "unit": null,
+    "label": null,
+    "period": null,
+    "snapshotDate": null,
+    "url": null
+  },
+  "S12000035": {
+    "value": null,
+    "unit": null,
+    "label": null,
+    "period": null,
+    "snapshotDate": null,
+    "url": null
+  },
+  "S12000036": {
+    "value": null,
+    "unit": null,
+    "label": null,
+    "period": null,
+    "snapshotDate": null,
+    "url": null
+  },
+  "S12000038": {
+    "value": null,
+    "unit": null,
+    "label": null,
+    "period": null,
+    "snapshotDate": null,
+    "url": null
+  },
+  "S12000039": {
+    "value": null,
+    "unit": null,
+    "label": null,
+    "period": null,
+    "snapshotDate": null,
+    "url": null
+  },
+  "S12000040": {
+    "value": null,
+    "unit": null,
+    "label": null,
+    "period": null,
+    "snapshotDate": null,
+    "url": null
+  },
+  "S12000041": {
+    "value": null,
+    "unit": null,
+    "label": null,
+    "period": null,
+    "snapshotDate": null,
+    "url": null
+  },
+  "S12000042": {
+    "value": null,
+    "unit": null,
+    "label": null,
+    "period": null,
+    "snapshotDate": null,
+    "url": null
+  },
+  "S12000045": {
+    "value": null,
+    "unit": null,
+    "label": null,
+    "period": null,
+    "snapshotDate": null,
+    "url": null
+  },
+  "S12000047": {
+    "value": null,
+    "unit": null,
+    "label": null,
+    "period": null,
+    "snapshotDate": null,
+    "url": null
+  },
+  "S12000048": {
+    "value": null,
+    "unit": null,
+    "label": null,
+    "period": null,
+    "snapshotDate": null,
+    "url": null
+  },
+  "S12000049": {
+    "value": null,
+    "unit": null,
+    "label": null,
+    "period": null,
+    "snapshotDate": null,
+    "url": null
+  },
+  "S12000050": {
+    "value": null,
+    "unit": null,
+    "label": null,
+    "period": null,
+    "snapshotDate": null,
+    "url": null
+  },
+  "W06000001": {
+    "value": "90.3%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 769 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/anglesey/"
+  },
+  "W06000002": {
+    "value": "89.8%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,957 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/gwynedd/"
+  },
+  "W06000003": {
+    "value": "81.8%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,451 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/conwy/"
+  },
+  "W06000004": {
+    "value": "81.6%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,005 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/denbighshire/"
+  },
+  "W06000005": {
+    "value": "87.8%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,219 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/flintshire/"
+  },
+  "W06000006": {
+    "value": "95.5%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,175 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/wrexham/"
+  },
+  "W06000008": {
+    "value": "74.0%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 959 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/ceredigion/"
+  },
+  "W06000009": {
+    "value": "79.1%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,864 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/pembrokeshire/"
+  },
+  "W06000010": {
+    "value": "83.6%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,893 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/carmarthenshire/"
+  },
+  "W06000011": {
+    "value": "69.3%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 2,117 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/swansea/"
+  },
+  "W06000012": {
+    "value": "67.8%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,136 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/neath-port-talbot/"
+  },
+  "W06000013": {
+    "value": "72.8%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,227 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/bridgend/"
+  },
+  "W06000014": {
+    "value": "72.3%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,157 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/vale-of-glamorgan/"
+  },
+  "W06000015": {
+    "value": "70.0%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 3,035 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/cardiff/"
+  },
+  "W06000016": {
+    "value": "66.5%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,868 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/rhondda-cynon-taf/"
+  },
+  "W06000018": {
+    "value": "62.6%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,403 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/caerphilly/"
+  },
+  "W06000019": {
+    "value": "50.7%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 592 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/blaenau-gwent/"
+  },
+  "W06000020": {
+    "value": "72.4%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 720 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/torfaen/"
+  },
+  "W06000021": {
+    "value": "79.0%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 992 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/monmouthshire/"
+  },
+  "W06000022": {
+    "value": "78.3%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 1,143 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/newport/"
+  },
+  "W06000023": {
+    "value": "74.6%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 2,290 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/powys/"
+  },
+  "W06000024": {
+    "value": "59.0%",
+    "unit": "%",
+    "label": "Businesses rated 5 out of 531 rated",
+    "period": "Official register as at 27 September 2026.",
+    "snapshotDate": "2026-09-27",
+    "url": "https://ukfoodhygiene.co.uk/councils/merthyr-tydfil/"
+  }
+}

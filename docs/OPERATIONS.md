@@ -14,6 +14,12 @@ UKPLACES_MONITOR_URL=http://127.0.0.1:4321 npm run check:production
 
 The weekly refresh automation works from the sibling source repositories named in the build scripts. It only regenerates the local registry, signals, and constituency data from those source files; it must leave unconfirmed fields as `null` and never infer a value, date, URL, or coverage record.
 
+UK Food Hygiene is the one source whose signal input is not committed anywhere: `councils.json` and `meta.json` are gitignored ETL output. Before a refresh, copy both from `vps-main:/root/ukfoodhygiene-release/site/src/data/` (the checkout the live site is built from each night; `/root/ukfoodhygiene` is not refreshed) into `/Users/tompickup/ukfoodhygiene/site/src/data/`. `npm run build:signals` stops with an error when `data_date` is more than seven days old rather than publish a stale figure.
+
+```sh
+scp vps-main:/root/ukfoodhygiene-release/site/src/data/councils.json vps-main:/root/ukfoodhygiene-release/site/src/data/meta.json /Users/tompickup/ukfoodhygiene/site/src/data/
+```
+
 When a source snapshot changes, run these commands in order:
 
 ```sh

@@ -5,7 +5,7 @@ import { fileURLToPath } from "node:url";
 
 const siteRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const signalsDirectory = path.join(siteRoot, "src", "data", "signals");
-const sourceIds = ["ukelections", "ukdemographics", "aidoge", "asylumstats"];
+const sourceIds = ["ukelections", "ukdemographics", "aidoge", "asylumstats", "ukfoodhygiene"];
 const expectedFields = ["label", "period", "snapshotDate", "unit", "url", "value"];
 
 const feeds = Object.fromEntries(
@@ -60,4 +60,14 @@ assert.deepEqual(feeds.asylumstats.E07000117, {
   url: "https://asylumstats.co.uk/places/burnley/",
 });
 
-console.log("Signal checks passed for four source feeds and the exact Burnley signals.");
+const foodBurnley = feeds.ukfoodhygiene.E07000117;
+assert.match(foodBurnley.value, /^\d{1,3}\.\d%$/, "UK Food Hygiene value is a one-decimal percentage");
+assert.equal(foodBurnley.unit, "%");
+assert.match(foodBurnley.label, /^Businesses rated 5 out of [\d,]+ rated$/);
+assert.match(foodBurnley.period, /^Official register as at \d{1,2} [A-Z][a-z]+ \d{4}\.$/);
+assert.equal(foodBurnley.url, "https://ukfoodhygiene.co.uk/councils/burnley/");
+for (const [gss, signal] of Object.entries(feeds.ukfoodhygiene)) {
+  if (gss.startsWith("S")) assert.equal(signal.value, null, `${gss} Scottish pass/improvement scheme has no 0 to 5 share`);
+}
+
+console.log(`Signal checks passed for ${sourceIds.length} source feeds and the exact Burnley signals (UK Food Hygiene ${foodBurnley.value} of ${foodBurnley.label.match(/out of ([\d,]+)/)[1]} rated, ${foodBurnley.snapshotDate}).`);

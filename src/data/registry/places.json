@@ -31,6 +31,11 @@
         "hasPage": true,
         "slug": "hartlepool",
         "url": "https://asylumstats.co.uk/places/hartlepool/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "hartlepool",
+        "url": "https://ukfoodhygiene.co.uk/councils/hartlepool/"
       }
     }
   },
@@ -66,6 +71,11 @@
         "hasPage": true,
         "slug": "middlesbrough",
         "url": "https://asylumstats.co.uk/places/middlesbrough/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "middlesbrough",
+        "url": "https://ukfoodhygiene.co.uk/councils/middlesbrough/"
       }
     }
   },
@@ -101,6 +111,11 @@
         "hasPage": true,
         "slug": "redcar-and-cleveland",
         "url": "https://asylumstats.co.uk/places/redcar-and-cleveland/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "redcar-and-cleveland",
+        "url": "https://ukfoodhygiene.co.uk/councils/redcar-and-cleveland/"
       }
     }
   },
@@ -136,6 +151,11 @@
         "hasPage": true,
         "slug": "stockton-on-tees",
         "url": "https://asylumstats.co.uk/places/stockton-on-tees/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "stockton-on-tees",
+        "url": "https://ukfoodhygiene.co.uk/councils/stockton-on-tees/"
       }
     }
   },
@@ -171,6 +191,11 @@
         "hasPage": true,
         "slug": "darlington",
         "url": "https://asylumstats.co.uk/places/darlington/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "darlington",
+        "url": "https://ukfoodhygiene.co.uk/councils/darlington/"
       }
     }
   },
@@ -206,6 +231,11 @@
         "hasPage": true,
         "slug": "halton",
         "url": "https://asylumstats.co.uk/places/halton/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "halton",
+        "url": "https://ukfoodhygiene.co.uk/councils/halton/"
       }
     }
   },
@@ -241,6 +271,11 @@
         "hasPage": true,
         "slug": "warrington",
         "url": "https://asylumstats.co.uk/places/warrington/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "warrington",
+        "url": "https://ukfoodhygiene.co.uk/councils/warrington/"
       }
     }
   },
@@ -281,6 +316,11 @@
         "hasPage": true,
         "slug": "blackburn-with-darwen",
         "url": "https://asylumstats.co.uk/places/blackburn-with-darwen/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "blackburn",
+        "url": "https://ukfoodhygiene.co.uk/councils/blackburn/"
       }
     }
   },
@@ -321,6 +361,11 @@
         "hasPage": true,
         "slug": "blackpool",
         "url": "https://asylumstats.co.uk/places/blackpool/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "blackpool",
+        "url": "https://ukfoodhygiene.co.uk/councils/blackpool/"
       }
     }
   },
@@ -356,6 +401,11 @@
         "hasPage": true,
         "slug": "kingston-upon-hull-city-of",
         "url": "https://asylumstats.co.uk/places/kingston-upon-hull-city-of/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "hull-city",
+        "url": "https://ukfoodhygiene.co.uk/councils/hull-city/"
       }
     }
   },
@@ -391,6 +441,11 @@
         "hasPage": true,
         "slug": "east-riding-of-yorkshire",
         "url": "https://asylumstats.co.uk/places/east-riding-of-yorkshire/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "east-riding-of-yorkshire",
+        "url": "https://ukfoodhygiene.co.uk/councils/east-riding-of-yorkshire/"
       }
     }
   },
@@ -426,6 +481,11 @@
         "hasPage": true,
         "slug": "north-east-lincolnshire",
         "url": "https://asylumstats.co.uk/places/north-east-lincolnshire/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "north-east-lincolnshire",
+        "url": "https://ukfoodhygiene.co.uk/councils/north-east-lincolnshire/"
       }
     }
   },
@@ -461,6 +521,11 @@
         "hasPage": true,
         "slug": "north-lincolnshire",
         "url": "https://asylumstats.co.uk/places/north-lincolnshire/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "north-lincolnshire",
+        "url": "https://ukfoodhygiene.co.uk/councils/north-lincolnshire/"
       }
     }
   },
@@ -496,6 +561,11 @@
         "hasPage": true,
         "slug": "york",
         "url": "https://asylumstats.co.uk/places/york/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "york",
+        "url": "https://ukfoodhygiene.co.uk/councils/york/"
       }
     }
   },
@@ -531,6 +601,11 @@
         "hasPage": true,
         "slug": "derby",
         "url": "https://asylumstats.co.uk/places/derby/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "derby-city",
+        "url": "https://ukfoodhygiene.co.uk/councils/derby-city/"
       }
     }
   },
@@ -566,6 +641,11 @@
         "hasPage": true,
         "slug": "leicester",
         "url": "https://asylumstats.co.uk/places/leicester/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "leicester-city",
+        "url": "https://ukfoodhygiene.co.uk/councils/leicester-city/"
       }
     }
   },
@@ -601,6 +681,11 @@
         "hasPage": true,
         "slug": "rutland",
         "url": "https://asylumstats.co.uk/places/rutland/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "rutland",
+        "url": "https://ukfoodhygiene.co.uk/councils/rutland/"
       }
     }
   },
@@ -636,6 +721,11 @@
         "hasPage": true,
         "slug": "nottingham",
         "url": "https://asylumstats.co.uk/places/nottingham/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "nottingham-city",
+        "url": "https://ukfoodhygiene.co.uk/councils/nottingham-city/"
       }
     }
   },
@@ -671,6 +761,11 @@
         "hasPage": true,
         "slug": "herefordshire-county-of",
         "url": "https://asylumstats.co.uk/places/herefordshire-county-of/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "herefordshire",
+        "url": "https://ukfoodhygiene.co.uk/councils/herefordshire/"
       }
     }
   },
@@ -706,6 +801,11 @@
         "hasPage": true,
         "slug": "telford-and-wrekin",
         "url": "https://asylumstats.co.uk/places/telford-and-wrekin/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "telford-and-wrekin-council",
+        "url": "https://ukfoodhygiene.co.uk/councils/telford-and-wrekin-council/"
       }
     }
   },
@@ -741,6 +841,11 @@
         "hasPage": true,
         "slug": "stoke-on-trent",
         "url": "https://asylumstats.co.uk/places/stoke-on-trent/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "stoke-on-trent",
+        "url": "https://ukfoodhygiene.co.uk/councils/stoke-on-trent/"
       }
     }
   },
@@ -776,6 +881,11 @@
         "hasPage": true,
         "slug": "bath-and-north-east-somerset",
         "url": "https://asylumstats.co.uk/places/bath-and-north-east-somerset/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "bath-and-north-east-somerset",
+        "url": "https://ukfoodhygiene.co.uk/councils/bath-and-north-east-somerset/"
       }
     }
   },
@@ -811,6 +921,11 @@
         "hasPage": true,
         "slug": "bristol-city-of",
         "url": "https://asylumstats.co.uk/places/bristol-city-of/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "bristol",
+        "url": "https://ukfoodhygiene.co.uk/councils/bristol/"
       }
     }
   },
@@ -846,6 +961,11 @@
         "hasPage": true,
         "slug": "north-somerset",
         "url": "https://asylumstats.co.uk/places/north-somerset/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "north-somerset",
+        "url": "https://ukfoodhygiene.co.uk/councils/north-somerset/"
       }
     }
   },
@@ -881,6 +1001,11 @@
         "hasPage": true,
         "slug": "south-gloucestershire",
         "url": "https://asylumstats.co.uk/places/south-gloucestershire/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "south-gloucestershire",
+        "url": "https://ukfoodhygiene.co.uk/councils/south-gloucestershire/"
       }
     }
   },
@@ -916,6 +1041,11 @@
         "hasPage": true,
         "slug": "plymouth",
         "url": "https://asylumstats.co.uk/places/plymouth/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "plymouth-city",
+        "url": "https://ukfoodhygiene.co.uk/councils/plymouth-city/"
       }
     }
   },
@@ -951,6 +1081,11 @@
         "hasPage": true,
         "slug": "torbay",
         "url": "https://asylumstats.co.uk/places/torbay/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "torbay",
+        "url": "https://ukfoodhygiene.co.uk/councils/torbay/"
       }
     }
   },
@@ -986,6 +1121,11 @@
         "hasPage": true,
         "slug": "swindon",
         "url": "https://asylumstats.co.uk/places/swindon/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "swindon",
+        "url": "https://ukfoodhygiene.co.uk/councils/swindon/"
       }
     }
   },
@@ -1021,6 +1161,11 @@
         "hasPage": true,
         "slug": "peterborough",
         "url": "https://asylumstats.co.uk/places/peterborough/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "peterborough-city",
+        "url": "https://ukfoodhygiene.co.uk/councils/peterborough-city/"
       }
     }
   },
@@ -1056,6 +1201,11 @@
         "hasPage": true,
         "slug": "luton",
         "url": "https://asylumstats.co.uk/places/luton/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "luton",
+        "url": "https://ukfoodhygiene.co.uk/councils/luton/"
       }
     }
   },
@@ -1091,6 +1241,11 @@
         "hasPage": true,
         "slug": "southend-on-sea",
         "url": "https://asylumstats.co.uk/places/southend-on-sea/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "southend-on-sea",
+        "url": "https://ukfoodhygiene.co.uk/councils/southend-on-sea/"
       }
     }
   },
@@ -1126,6 +1281,11 @@
         "hasPage": true,
         "slug": "thurrock",
         "url": "https://asylumstats.co.uk/places/thurrock/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "thurrock",
+        "url": "https://ukfoodhygiene.co.uk/councils/thurrock/"
       }
     }
   },
@@ -1161,6 +1321,11 @@
         "hasPage": true,
         "slug": "medway",
         "url": "https://asylumstats.co.uk/places/medway/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "medway",
+        "url": "https://ukfoodhygiene.co.uk/councils/medway/"
       }
     }
   },
@@ -1196,6 +1361,11 @@
         "hasPage": true,
         "slug": "bracknell-forest",
         "url": "https://asylumstats.co.uk/places/bracknell-forest/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "bracknell-forest",
+        "url": "https://ukfoodhygiene.co.uk/councils/bracknell-forest/"
       }
     }
   },
@@ -1231,6 +1401,11 @@
         "hasPage": true,
         "slug": "west-berkshire",
         "url": "https://asylumstats.co.uk/places/west-berkshire/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "west-berkshire",
+        "url": "https://ukfoodhygiene.co.uk/councils/west-berkshire/"
       }
     }
   },
@@ -1266,6 +1441,11 @@
         "hasPage": true,
         "slug": "reading",
         "url": "https://asylumstats.co.uk/places/reading/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "reading",
+        "url": "https://ukfoodhygiene.co.uk/councils/reading/"
       }
     }
   },
@@ -1301,6 +1481,11 @@
         "hasPage": true,
         "slug": "slough",
         "url": "https://asylumstats.co.uk/places/slough/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "slough",
+        "url": "https://ukfoodhygiene.co.uk/councils/slough/"
       }
     }
   },
@@ -1336,6 +1521,11 @@
         "hasPage": true,
         "slug": "windsor-and-maidenhead",
         "url": "https://asylumstats.co.uk/places/windsor-and-maidenhead/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "windsor-and-maidenhead",
+        "url": "https://ukfoodhygiene.co.uk/councils/windsor-and-maidenhead/"
       }
     }
   },
@@ -1371,6 +1561,11 @@
         "hasPage": true,
         "slug": "wokingham",
         "url": "https://asylumstats.co.uk/places/wokingham/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "wokingham",
+        "url": "https://ukfoodhygiene.co.uk/councils/wokingham/"
       }
     }
   },
@@ -1406,6 +1601,11 @@
         "hasPage": true,
         "slug": "milton-keynes",
         "url": "https://asylumstats.co.uk/places/milton-keynes/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "milton-keynes",
+        "url": "https://ukfoodhygiene.co.uk/councils/milton-keynes/"
       }
     }
   },
@@ -1441,6 +1641,11 @@
         "hasPage": true,
         "slug": "brighton-and-hove",
         "url": "https://asylumstats.co.uk/places/brighton-and-hove/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "brighton-and-hove",
+        "url": "https://ukfoodhygiene.co.uk/councils/brighton-and-hove/"
       }
     }
   },
@@ -1476,6 +1681,11 @@
         "hasPage": true,
         "slug": "portsmouth",
         "url": "https://asylumstats.co.uk/places/portsmouth/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "portsmouth",
+        "url": "https://ukfoodhygiene.co.uk/councils/portsmouth/"
       }
     }
   },
@@ -1511,6 +1721,11 @@
         "hasPage": true,
         "slug": "southampton",
         "url": "https://asylumstats.co.uk/places/southampton/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "southampton",
+        "url": "https://ukfoodhygiene.co.uk/councils/southampton/"
       }
     }
   },
@@ -1546,6 +1761,11 @@
         "hasPage": true,
         "slug": "isle-of-wight",
         "url": "https://asylumstats.co.uk/places/isle-of-wight/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "isle-of-wight",
+        "url": "https://ukfoodhygiene.co.uk/councils/isle-of-wight/"
       }
     }
   },
@@ -1581,6 +1801,11 @@
         "hasPage": true,
         "slug": "county-durham",
         "url": "https://asylumstats.co.uk/places/county-durham/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "durham",
+        "url": "https://ukfoodhygiene.co.uk/councils/durham/"
       }
     }
   },
@@ -1616,6 +1841,11 @@
         "hasPage": true,
         "slug": "cheshire-east",
         "url": "https://asylumstats.co.uk/places/cheshire-east/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "cheshire-east",
+        "url": "https://ukfoodhygiene.co.uk/councils/cheshire-east/"
       }
     }
   },
@@ -1651,6 +1881,11 @@
         "hasPage": true,
         "slug": "cheshire-west-and-chester",
         "url": "https://asylumstats.co.uk/places/cheshire-west-and-chester/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "cheshire-west-and-chester",
+        "url": "https://ukfoodhygiene.co.uk/councils/cheshire-west-and-chester/"
       }
     }
   },
@@ -1686,6 +1921,11 @@
         "hasPage": true,
         "slug": "shropshire",
         "url": "https://asylumstats.co.uk/places/shropshire/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "shropshire",
+        "url": "https://ukfoodhygiene.co.uk/councils/shropshire/"
       }
     }
   },
@@ -1721,6 +1961,11 @@
         "hasPage": true,
         "slug": "cornwall",
         "url": "https://asylumstats.co.uk/places/cornwall/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "cornwall",
+        "url": "https://ukfoodhygiene.co.uk/councils/cornwall/"
       }
     }
   },
@@ -1756,6 +2001,11 @@
         "hasPage": true,
         "slug": "isles-of-scilly",
         "url": "https://asylumstats.co.uk/places/isles-of-scilly/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "isles-of-scilly",
+        "url": "https://ukfoodhygiene.co.uk/councils/isles-of-scilly/"
       }
     }
   },
@@ -1791,6 +2041,11 @@
         "hasPage": true,
         "slug": "wiltshire",
         "url": "https://asylumstats.co.uk/places/wiltshire/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "wiltshire",
+        "url": "https://ukfoodhygiene.co.uk/councils/wiltshire/"
       }
     }
   },
@@ -1826,6 +2081,11 @@
         "hasPage": true,
         "slug": "bedford",
         "url": "https://asylumstats.co.uk/places/bedford/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "bedford",
+        "url": "https://ukfoodhygiene.co.uk/councils/bedford/"
       }
     }
   },
@@ -1861,6 +2121,11 @@
         "hasPage": true,
         "slug": "central-bedfordshire",
         "url": "https://asylumstats.co.uk/places/central-bedfordshire/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "central-bedfordshire",
+        "url": "https://ukfoodhygiene.co.uk/councils/central-bedfordshire/"
       }
     }
   },
@@ -1896,6 +2161,11 @@
         "hasPage": true,
         "slug": "northumberland",
         "url": "https://asylumstats.co.uk/places/northumberland/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "northumberland",
+        "url": "https://ukfoodhygiene.co.uk/councils/northumberland/"
       }
     }
   },
@@ -1931,6 +2201,11 @@
         "hasPage": true,
         "slug": "bournemouth-christchurch-and-poole",
         "url": "https://asylumstats.co.uk/places/bournemouth-christchurch-and-poole/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "bournemouth-christchurch-and-poole",
+        "url": "https://ukfoodhygiene.co.uk/councils/bournemouth-christchurch-and-poole/"
       }
     }
   },
@@ -1966,6 +2241,11 @@
         "hasPage": true,
         "slug": "dorset",
         "url": "https://asylumstats.co.uk/places/dorset/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "dorset",
+        "url": "https://ukfoodhygiene.co.uk/councils/dorset/"
       }
     }
   },
@@ -2001,6 +2281,11 @@
         "hasPage": true,
         "slug": "buckinghamshire",
         "url": "https://asylumstats.co.uk/places/buckinghamshire/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "buckinghamshire",
+        "url": "https://ukfoodhygiene.co.uk/councils/buckinghamshire/"
       }
     }
   },
@@ -2036,6 +2321,11 @@
         "hasPage": true,
         "slug": "north-northamptonshire",
         "url": "https://asylumstats.co.uk/places/north-northamptonshire/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "north-northamptonshire",
+        "url": "https://ukfoodhygiene.co.uk/councils/north-northamptonshire/"
       }
     }
   },
@@ -2071,6 +2361,11 @@
         "hasPage": true,
         "slug": "west-northamptonshire",
         "url": "https://asylumstats.co.uk/places/west-northamptonshire/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "west-northamptonshire",
+        "url": "https://ukfoodhygiene.co.uk/councils/west-northamptonshire/"
       }
     }
   },
@@ -2106,6 +2401,11 @@
         "hasPage": true,
         "slug": "cumberland",
         "url": "https://asylumstats.co.uk/places/cumberland/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "cumberland",
+        "url": "https://ukfoodhygiene.co.uk/councils/cumberland/"
       }
     }
   },
@@ -2141,6 +2441,11 @@
         "hasPage": true,
         "slug": "westmorland-and-furness",
         "url": "https://asylumstats.co.uk/places/westmorland-and-furness/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "westmorland-and-furness",
+        "url": "https://ukfoodhygiene.co.uk/councils/westmorland-and-furness/"
       }
     }
   },
@@ -2176,6 +2481,11 @@
         "hasPage": true,
         "slug": "north-yorkshire",
         "url": "https://asylumstats.co.uk/places/north-yorkshire/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "north-yorkshire",
+        "url": "https://ukfoodhygiene.co.uk/councils/north-yorkshire/"
       }
     }
   },
@@ -2211,6 +2521,11 @@
         "hasPage": true,
         "slug": "somerset",
         "url": "https://asylumstats.co.uk/places/somerset/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "somerset",
+        "url": "https://ukfoodhygiene.co.uk/councils/somerset/"
       }
     }
   },
@@ -2246,6 +2561,11 @@
         "hasPage": true,
         "slug": "cambridge",
         "url": "https://asylumstats.co.uk/places/cambridge/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "cambridge-city",
+        "url": "https://ukfoodhygiene.co.uk/councils/cambridge-city/"
       }
     }
   },
@@ -2281,6 +2601,11 @@
         "hasPage": true,
         "slug": "east-cambridgeshire",
         "url": "https://asylumstats.co.uk/places/east-cambridgeshire/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "east-cambridgeshire",
+        "url": "https://ukfoodhygiene.co.uk/councils/east-cambridgeshire/"
       }
     }
   },
@@ -2316,6 +2641,11 @@
         "hasPage": true,
         "slug": "fenland",
         "url": "https://asylumstats.co.uk/places/fenland/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "fenland",
+        "url": "https://ukfoodhygiene.co.uk/councils/fenland/"
       }
     }
   },
@@ -2351,6 +2681,11 @@
         "hasPage": true,
         "slug": "huntingdonshire",
         "url": "https://asylumstats.co.uk/places/huntingdonshire/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "huntingdonshire",
+        "url": "https://ukfoodhygiene.co.uk/councils/huntingdonshire/"
       }
     }
   },
@@ -2386,6 +2721,11 @@
         "hasPage": true,
         "slug": "south-cambridgeshire",
         "url": "https://asylumstats.co.uk/places/south-cambridgeshire/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "south-cambridgeshire",
+        "url": "https://ukfoodhygiene.co.uk/councils/south-cambridgeshire/"
       }
     }
   },
@@ -2421,6 +2761,11 @@
         "hasPage": true,
         "slug": "amber-valley",
         "url": "https://asylumstats.co.uk/places/amber-valley/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "amber-valley",
+        "url": "https://ukfoodhygiene.co.uk/councils/amber-valley/"
       }
     }
   },
@@ -2456,6 +2801,11 @@
         "hasPage": true,
         "slug": "bolsover",
         "url": "https://asylumstats.co.uk/places/bolsover/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "bolsover",
+        "url": "https://ukfoodhygiene.co.uk/councils/bolsover/"
       }
     }
   },
@@ -2491,6 +2841,11 @@
         "hasPage": true,
         "slug": "chesterfield",
         "url": "https://asylumstats.co.uk/places/chesterfield/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "chesterfield",
+        "url": "https://ukfoodhygiene.co.uk/councils/chesterfield/"
       }
     }
   },
@@ -2526,6 +2881,11 @@
         "hasPage": true,
         "slug": "derbyshire-dales",
         "url": "https://asylumstats.co.uk/places/derbyshire-dales/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "derbyshire-dales",
+        "url": "https://ukfoodhygiene.co.uk/councils/derbyshire-dales/"
       }
     }
   },
@@ -2561,6 +2921,11 @@
         "hasPage": true,
         "slug": "erewash",
         "url": "https://asylumstats.co.uk/places/erewash/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "erewash",
+        "url": "https://ukfoodhygiene.co.uk/councils/erewash/"
       }
     }
   },
@@ -2596,6 +2961,11 @@
         "hasPage": true,
         "slug": "high-peak",
         "url": "https://asylumstats.co.uk/places/high-peak/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "high-peak",
+        "url": "https://ukfoodhygiene.co.uk/councils/high-peak/"
       }
     }
   },
@@ -2631,6 +3001,11 @@
         "hasPage": true,
         "slug": "north-east-derbyshire",
         "url": "https://asylumstats.co.uk/places/north-east-derbyshire/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "north-east-derbyshire",
+        "url": "https://ukfoodhygiene.co.uk/councils/north-east-derbyshire/"
       }
     }
   },
@@ -2666,6 +3041,11 @@
         "hasPage": true,
         "slug": "south-derbyshire",
         "url": "https://asylumstats.co.uk/places/south-derbyshire/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "south-derbyshire",
+        "url": "https://ukfoodhygiene.co.uk/councils/south-derbyshire/"
       }
     }
   },
@@ -2701,6 +3081,11 @@
         "hasPage": true,
         "slug": "east-devon",
         "url": "https://asylumstats.co.uk/places/east-devon/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "east-devon",
+        "url": "https://ukfoodhygiene.co.uk/councils/east-devon/"
       }
     }
   },
@@ -2736,6 +3121,11 @@
         "hasPage": true,
         "slug": "exeter",
         "url": "https://asylumstats.co.uk/places/exeter/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "exeter-city",
+        "url": "https://ukfoodhygiene.co.uk/councils/exeter-city/"
       }
     }
   },
@@ -2771,6 +3161,11 @@
         "hasPage": true,
         "slug": "mid-devon",
         "url": "https://asylumstats.co.uk/places/mid-devon/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "mid-devon",
+        "url": "https://ukfoodhygiene.co.uk/councils/mid-devon/"
       }
     }
   },
@@ -2806,6 +3201,11 @@
         "hasPage": true,
         "slug": "north-devon",
         "url": "https://asylumstats.co.uk/places/north-devon/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "north-devon",
+        "url": "https://ukfoodhygiene.co.uk/councils/north-devon/"
       }
     }
   },
@@ -2841,6 +3241,11 @@
         "hasPage": true,
         "slug": "south-hams",
         "url": "https://asylumstats.co.uk/places/south-hams/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "south-hams",
+        "url": "https://ukfoodhygiene.co.uk/councils/south-hams/"
       }
     }
   },
@@ -2876,6 +3281,11 @@
         "hasPage": true,
         "slug": "teignbridge",
         "url": "https://asylumstats.co.uk/places/teignbridge/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "teignbridge",
+        "url": "https://ukfoodhygiene.co.uk/councils/teignbridge/"
       }
     }
   },
@@ -2911,6 +3321,11 @@
         "hasPage": true,
         "slug": "torridge",
         "url": "https://asylumstats.co.uk/places/torridge/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "torridge",
+        "url": "https://ukfoodhygiene.co.uk/councils/torridge/"
       }
     }
   },
@@ -2946,6 +3361,11 @@
         "hasPage": true,
         "slug": "west-devon",
         "url": "https://asylumstats.co.uk/places/west-devon/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "west-devon",
+        "url": "https://ukfoodhygiene.co.uk/councils/west-devon/"
       }
     }
   },
@@ -2981,6 +3401,11 @@
         "hasPage": true,
         "slug": "eastbourne",
         "url": "https://asylumstats.co.uk/places/eastbourne/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "eastbourne",
+        "url": "https://ukfoodhygiene.co.uk/councils/eastbourne/"
       }
     }
   },
@@ -3016,6 +3441,11 @@
         "hasPage": true,
         "slug": "hastings",
         "url": "https://asylumstats.co.uk/places/hastings/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "hastings",
+        "url": "https://ukfoodhygiene.co.uk/councils/hastings/"
       }
     }
   },
@@ -3051,6 +3481,11 @@
         "hasPage": true,
         "slug": "lewes",
         "url": "https://asylumstats.co.uk/places/lewes/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "lewes",
+        "url": "https://ukfoodhygiene.co.uk/councils/lewes/"
       }
     }
   },
@@ -3086,6 +3521,11 @@
         "hasPage": true,
         "slug": "rother",
         "url": "https://asylumstats.co.uk/places/rother/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "rother",
+        "url": "https://ukfoodhygiene.co.uk/councils/rother/"
       }
     }
   },
@@ -3121,6 +3561,11 @@
         "hasPage": true,
         "slug": "wealden",
         "url": "https://asylumstats.co.uk/places/wealden/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "wealden",
+        "url": "https://ukfoodhygiene.co.uk/councils/wealden/"
       }
     }
   },
@@ -3156,6 +3601,11 @@
         "hasPage": true,
         "slug": "basildon",
         "url": "https://asylumstats.co.uk/places/basildon/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "basildon",
+        "url": "https://ukfoodhygiene.co.uk/councils/basildon/"
       }
     }
   },
@@ -3191,6 +3641,11 @@
         "hasPage": true,
         "slug": "braintree",
         "url": "https://asylumstats.co.uk/places/braintree/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "braintree",
+        "url": "https://ukfoodhygiene.co.uk/councils/braintree/"
       }
     }
   },
@@ -3226,6 +3681,11 @@
         "hasPage": true,
         "slug": "brentwood",
         "url": "https://asylumstats.co.uk/places/brentwood/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "brentwood",
+        "url": "https://ukfoodhygiene.co.uk/councils/brentwood/"
       }
     }
   },
@@ -3261,6 +3721,11 @@
         "hasPage": true,
         "slug": "castle-point",
         "url": "https://asylumstats.co.uk/places/castle-point/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "castle-point",
+        "url": "https://ukfoodhygiene.co.uk/councils/castle-point/"
       }
     }
   },
@@ -3296,6 +3761,11 @@
         "hasPage": true,
         "slug": "chelmsford",
         "url": "https://asylumstats.co.uk/places/chelmsford/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "chelmsford",
+        "url": "https://ukfoodhygiene.co.uk/councils/chelmsford/"
       }
     }
   },
@@ -3331,6 +3801,11 @@
         "hasPage": true,
         "slug": "colchester",
         "url": "https://asylumstats.co.uk/places/colchester/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "colchester",
+        "url": "https://ukfoodhygiene.co.uk/councils/colchester/"
       }
     }
   },
@@ -3366,6 +3841,11 @@
         "hasPage": true,
         "slug": "epping-forest",
         "url": "https://asylumstats.co.uk/places/epping-forest/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "epping-forest",
+        "url": "https://ukfoodhygiene.co.uk/councils/epping-forest/"
       }
     }
   },
@@ -3401,6 +3881,11 @@
         "hasPage": true,
         "slug": "harlow",
         "url": "https://asylumstats.co.uk/places/harlow/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "harlow",
+        "url": "https://ukfoodhygiene.co.uk/councils/harlow/"
       }
     }
   },
@@ -3436,6 +3921,11 @@
         "hasPage": true,
         "slug": "maldon",
         "url": "https://asylumstats.co.uk/places/maldon/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "maldon",
+        "url": "https://ukfoodhygiene.co.uk/councils/maldon/"
       }
     }
   },
@@ -3471,6 +3961,11 @@
         "hasPage": true,
         "slug": "rochford",
         "url": "https://asylumstats.co.uk/places/rochford/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "rochford",
+        "url": "https://ukfoodhygiene.co.uk/councils/rochford/"
       }
     }
   },
@@ -3506,6 +4001,11 @@
         "hasPage": true,
         "slug": "tendring",
         "url": "https://asylumstats.co.uk/places/tendring/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "tendring",
+        "url": "https://ukfoodhygiene.co.uk/councils/tendring/"
       }
     }
   },
@@ -3541,6 +4041,11 @@
         "hasPage": true,
         "slug": "uttlesford",
         "url": "https://asylumstats.co.uk/places/uttlesford/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "uttlesford",
+        "url": "https://ukfoodhygiene.co.uk/councils/uttlesford/"
       }
     }
   },
@@ -3576,6 +4081,11 @@
         "hasPage": true,
         "slug": "cheltenham",
         "url": "https://asylumstats.co.uk/places/cheltenham/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "cheltenham",
+        "url": "https://ukfoodhygiene.co.uk/councils/cheltenham/"
       }
     }
   },
@@ -3611,6 +4121,11 @@
         "hasPage": true,
         "slug": "cotswold",
         "url": "https://asylumstats.co.uk/places/cotswold/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "cotswold",
+        "url": "https://ukfoodhygiene.co.uk/councils/cotswold/"
       }
     }
   },
@@ -3646,6 +4161,11 @@
         "hasPage": true,
         "slug": "forest-of-dean",
         "url": "https://asylumstats.co.uk/places/forest-of-dean/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "forest-of-dean",
+        "url": "https://ukfoodhygiene.co.uk/councils/forest-of-dean/"
       }
     }
   },
@@ -3681,6 +4201,11 @@
         "hasPage": true,
         "slug": "gloucester",
         "url": "https://asylumstats.co.uk/places/gloucester/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "gloucester-city",
+        "url": "https://ukfoodhygiene.co.uk/councils/gloucester-city/"
       }
     }
   },
@@ -3716,6 +4241,11 @@
         "hasPage": true,
         "slug": "stroud",
         "url": "https://asylumstats.co.uk/places/stroud/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "stroud",
+        "url": "https://ukfoodhygiene.co.uk/councils/stroud/"
       }
     }
   },
@@ -3751,6 +4281,11 @@
         "hasPage": true,
         "slug": "tewkesbury",
         "url": "https://asylumstats.co.uk/places/tewkesbury/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "tewkesbury",
+        "url": "https://ukfoodhygiene.co.uk/councils/tewkesbury/"
       }
     }
   },
@@ -3786,6 +4321,11 @@
         "hasPage": true,
         "slug": "basingstoke-and-deane",
         "url": "https://asylumstats.co.uk/places/basingstoke-and-deane/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "basingstoke-and-deane",
+        "url": "https://ukfoodhygiene.co.uk/councils/basingstoke-and-deane/"
       }
     }
   },
@@ -3821,6 +4361,11 @@
         "hasPage": true,
         "slug": "east-hampshire",
         "url": "https://asylumstats.co.uk/places/east-hampshire/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "east-hampshire",
+        "url": "https://ukfoodhygiene.co.uk/councils/east-hampshire/"
       }
     }
   },
@@ -3856,6 +4401,11 @@
         "hasPage": true,
         "slug": "eastleigh",
         "url": "https://asylumstats.co.uk/places/eastleigh/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "eastleigh",
+        "url": "https://ukfoodhygiene.co.uk/councils/eastleigh/"
       }
     }
   },
@@ -3891,6 +4441,11 @@
         "hasPage": true,
         "slug": "fareham",
         "url": "https://asylumstats.co.uk/places/fareham/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "fareham",
+        "url": "https://ukfoodhygiene.co.uk/councils/fareham/"
       }
     }
   },
@@ -3926,6 +4481,11 @@
         "hasPage": true,
         "slug": "gosport",
         "url": "https://asylumstats.co.uk/places/gosport/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "gosport",
+        "url": "https://ukfoodhygiene.co.uk/councils/gosport/"
       }
     }
   },
@@ -3961,6 +4521,11 @@
         "hasPage": true,
         "slug": "hart",
         "url": "https://asylumstats.co.uk/places/hart/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "hart",
+        "url": "https://ukfoodhygiene.co.uk/councils/hart/"
       }
     }
   },
@@ -3996,6 +4561,11 @@
         "hasPage": true,
         "slug": "havant",
         "url": "https://asylumstats.co.uk/places/havant/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "havant",
+        "url": "https://ukfoodhygiene.co.uk/councils/havant/"
       }
     }
   },
@@ -4031,6 +4601,11 @@
         "hasPage": true,
         "slug": "new-forest",
         "url": "https://asylumstats.co.uk/places/new-forest/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "new-forest",
+        "url": "https://ukfoodhygiene.co.uk/councils/new-forest/"
       }
     }
   },
@@ -4066,6 +4641,11 @@
         "hasPage": true,
         "slug": "rushmoor",
         "url": "https://asylumstats.co.uk/places/rushmoor/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "rushmoor",
+        "url": "https://ukfoodhygiene.co.uk/councils/rushmoor/"
       }
     }
   },
@@ -4101,6 +4681,11 @@
         "hasPage": true,
         "slug": "test-valley",
         "url": "https://asylumstats.co.uk/places/test-valley/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "test-valley",
+        "url": "https://ukfoodhygiene.co.uk/councils/test-valley/"
       }
     }
   },
@@ -4136,6 +4721,11 @@
         "hasPage": true,
         "slug": "winchester",
         "url": "https://asylumstats.co.uk/places/winchester/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "winchester-city",
+        "url": "https://ukfoodhygiene.co.uk/councils/winchester-city/"
       }
     }
   },
@@ -4171,6 +4761,11 @@
         "hasPage": true,
         "slug": "broxbourne",
         "url": "https://asylumstats.co.uk/places/broxbourne/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "broxbourne",
+        "url": "https://ukfoodhygiene.co.uk/councils/broxbourne/"
       }
     }
   },
@@ -4206,6 +4801,11 @@
         "hasPage": true,
         "slug": "dacorum",
         "url": "https://asylumstats.co.uk/places/dacorum/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "dacorum",
+        "url": "https://ukfoodhygiene.co.uk/councils/dacorum/"
       }
     }
   },
@@ -4241,6 +4841,11 @@
         "hasPage": true,
         "slug": "hertsmere",
         "url": "https://asylumstats.co.uk/places/hertsmere/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "hertsmere",
+        "url": "https://ukfoodhygiene.co.uk/councils/hertsmere/"
       }
     }
   },
@@ -4276,6 +4881,11 @@
         "hasPage": true,
         "slug": "north-hertfordshire",
         "url": "https://asylumstats.co.uk/places/north-hertfordshire/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "north-hertfordshire",
+        "url": "https://ukfoodhygiene.co.uk/councils/north-hertfordshire/"
       }
     }
   },
@@ -4311,6 +4921,11 @@
         "hasPage": true,
         "slug": "three-rivers",
         "url": "https://asylumstats.co.uk/places/three-rivers/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "three-rivers",
+        "url": "https://ukfoodhygiene.co.uk/councils/three-rivers/"
       }
     }
   },
@@ -4346,6 +4961,11 @@
         "hasPage": true,
         "slug": "watford",
         "url": "https://asylumstats.co.uk/places/watford/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "watford",
+        "url": "https://ukfoodhygiene.co.uk/councils/watford/"
       }
     }
   },
@@ -4381,6 +5001,11 @@
         "hasPage": true,
         "slug": "ashford",
         "url": "https://asylumstats.co.uk/places/ashford/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "ashford",
+        "url": "https://ukfoodhygiene.co.uk/councils/ashford/"
       }
     }
   },
@@ -4416,6 +5041,11 @@
         "hasPage": true,
         "slug": "canterbury",
         "url": "https://asylumstats.co.uk/places/canterbury/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "canterbury-city",
+        "url": "https://ukfoodhygiene.co.uk/councils/canterbury-city/"
       }
     }
   },
@@ -4451,6 +5081,11 @@
         "hasPage": true,
         "slug": "dartford",
         "url": "https://asylumstats.co.uk/places/dartford/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "dartford",
+        "url": "https://ukfoodhygiene.co.uk/councils/dartford/"
       }
     }
   },
@@ -4486,6 +5121,11 @@
         "hasPage": true,
         "slug": "dover",
         "url": "https://asylumstats.co.uk/places/dover/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "dover",
+        "url": "https://ukfoodhygiene.co.uk/councils/dover/"
       }
     }
   },
@@ -4521,6 +5161,11 @@
         "hasPage": true,
         "slug": "gravesham",
         "url": "https://asylumstats.co.uk/places/gravesham/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "gravesham",
+        "url": "https://ukfoodhygiene.co.uk/councils/gravesham/"
       }
     }
   },
@@ -4556,6 +5201,11 @@
         "hasPage": true,
         "slug": "maidstone",
         "url": "https://asylumstats.co.uk/places/maidstone/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "maidstone",
+        "url": "https://ukfoodhygiene.co.uk/councils/maidstone/"
       }
     }
   },
@@ -4591,6 +5241,11 @@
         "hasPage": true,
         "slug": "sevenoaks",
         "url": "https://asylumstats.co.uk/places/sevenoaks/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "sevenoaks",
+        "url": "https://ukfoodhygiene.co.uk/councils/sevenoaks/"
       }
     }
   },
@@ -4626,6 +5281,11 @@
         "hasPage": true,
         "slug": "shepway",
         "url": "https://asylumstats.co.uk/places/shepway/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "folkestone-and-hythe",
+        "url": "https://ukfoodhygiene.co.uk/councils/folkestone-and-hythe/"
       }
     }
   },
@@ -4661,6 +5321,11 @@
         "hasPage": true,
         "slug": "swale",
         "url": "https://asylumstats.co.uk/places/swale/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "swale",
+        "url": "https://ukfoodhygiene.co.uk/councils/swale/"
       }
     }
   },
@@ -4696,6 +5361,11 @@
         "hasPage": true,
         "slug": "thanet",
         "url": "https://asylumstats.co.uk/places/thanet/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "thanet",
+        "url": "https://ukfoodhygiene.co.uk/councils/thanet/"
       }
     }
   },
@@ -4731,6 +5401,11 @@
         "hasPage": true,
         "slug": "tonbridge-and-malling",
         "url": "https://asylumstats.co.uk/places/tonbridge-and-malling/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "tonbridge-and-malling",
+        "url": "https://ukfoodhygiene.co.uk/councils/tonbridge-and-malling/"
       }
     }
   },
@@ -4766,6 +5441,11 @@
         "hasPage": true,
         "slug": "tunbridge-wells",
         "url": "https://asylumstats.co.uk/places/tunbridge-wells/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "tunbridge-wells",
+        "url": "https://ukfoodhygiene.co.uk/councils/tunbridge-wells/"
       }
     }
   },
@@ -4806,6 +5486,11 @@
         "hasPage": true,
         "slug": "burnley",
         "url": "https://asylumstats.co.uk/places/burnley/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "burnley",
+        "url": "https://ukfoodhygiene.co.uk/councils/burnley/"
       }
     }
   },
@@ -4846,6 +5531,11 @@
         "hasPage": true,
         "slug": "chorley",
         "url": "https://asylumstats.co.uk/places/chorley/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "chorley",
+        "url": "https://ukfoodhygiene.co.uk/councils/chorley/"
       }
     }
   },
@@ -4886,6 +5576,11 @@
         "hasPage": true,
         "slug": "fylde",
         "url": "https://asylumstats.co.uk/places/fylde/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "fylde",
+        "url": "https://ukfoodhygiene.co.uk/councils/fylde/"
       }
     }
   },
@@ -4926,6 +5621,11 @@
         "hasPage": true,
         "slug": "hyndburn",
         "url": "https://asylumstats.co.uk/places/hyndburn/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "hyndburn",
+        "url": "https://ukfoodhygiene.co.uk/councils/hyndburn/"
       }
     }
   },
@@ -4966,6 +5666,11 @@
         "hasPage": true,
         "slug": "lancaster",
         "url": "https://asylumstats.co.uk/places/lancaster/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "lancaster-city",
+        "url": "https://ukfoodhygiene.co.uk/councils/lancaster-city/"
       }
     }
   },
@@ -5006,6 +5711,11 @@
         "hasPage": true,
         "slug": "pendle",
         "url": "https://asylumstats.co.uk/places/pendle/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "pendle",
+        "url": "https://ukfoodhygiene.co.uk/councils/pendle/"
       }
     }
   },
@@ -5046,6 +5756,11 @@
         "hasPage": true,
         "slug": "preston",
         "url": "https://asylumstats.co.uk/places/preston/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "preston",
+        "url": "https://ukfoodhygiene.co.uk/councils/preston/"
       }
     }
   },
@@ -5086,6 +5801,11 @@
         "hasPage": true,
         "slug": "ribble-valley",
         "url": "https://asylumstats.co.uk/places/ribble-valley/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "ribble-valley",
+        "url": "https://ukfoodhygiene.co.uk/councils/ribble-valley/"
       }
     }
   },
@@ -5126,6 +5846,11 @@
         "hasPage": true,
         "slug": "rossendale",
         "url": "https://asylumstats.co.uk/places/rossendale/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "rossendale",
+        "url": "https://ukfoodhygiene.co.uk/councils/rossendale/"
       }
     }
   },
@@ -5166,6 +5891,11 @@
         "hasPage": true,
         "slug": "south-ribble",
         "url": "https://asylumstats.co.uk/places/south-ribble/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "south-ribble",
+        "url": "https://ukfoodhygiene.co.uk/councils/south-ribble/"
       }
     }
   },
@@ -5206,6 +5936,11 @@
         "hasPage": true,
         "slug": "west-lancashire",
         "url": "https://asylumstats.co.uk/places/west-lancashire/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "west-lancashire",
+        "url": "https://ukfoodhygiene.co.uk/councils/west-lancashire/"
       }
     }
   },
@@ -5246,6 +5981,11 @@
         "hasPage": true,
         "slug": "wyre",
         "url": "https://asylumstats.co.uk/places/wyre/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "wyre",
+        "url": "https://ukfoodhygiene.co.uk/councils/wyre/"
       }
     }
   },
@@ -5281,6 +6021,11 @@
         "hasPage": true,
         "slug": "blaby",
         "url": "https://asylumstats.co.uk/places/blaby/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "blaby",
+        "url": "https://ukfoodhygiene.co.uk/councils/blaby/"
       }
     }
   },
@@ -5316,6 +6061,11 @@
         "hasPage": true,
         "slug": "charnwood",
         "url": "https://asylumstats.co.uk/places/charnwood/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "charnwood",
+        "url": "https://ukfoodhygiene.co.uk/councils/charnwood/"
       }
     }
   },
@@ -5351,6 +6101,11 @@
         "hasPage": true,
         "slug": "harborough",
         "url": "https://asylumstats.co.uk/places/harborough/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "harborough",
+        "url": "https://ukfoodhygiene.co.uk/councils/harborough/"
       }
     }
   },
@@ -5386,6 +6141,11 @@
         "hasPage": true,
         "slug": "hinckley-and-bosworth",
         "url": "https://asylumstats.co.uk/places/hinckley-and-bosworth/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "hinckley-and-bosworth",
+        "url": "https://ukfoodhygiene.co.uk/councils/hinckley-and-bosworth/"
       }
     }
   },
@@ -5421,6 +6181,11 @@
         "hasPage": true,
         "slug": "melton",
         "url": "https://asylumstats.co.uk/places/melton/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "melton",
+        "url": "https://ukfoodhygiene.co.uk/councils/melton/"
       }
     }
   },
@@ -5456,6 +6221,11 @@
         "hasPage": true,
         "slug": "north-west-leicestershire",
         "url": "https://asylumstats.co.uk/places/north-west-leicestershire/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "north-west-leicestershire",
+        "url": "https://ukfoodhygiene.co.uk/councils/north-west-leicestershire/"
       }
     }
   },
@@ -5491,6 +6261,11 @@
         "hasPage": true,
         "slug": "oadby-and-wigston",
         "url": "https://asylumstats.co.uk/places/oadby-and-wigston/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "oadby-and-wigston",
+        "url": "https://ukfoodhygiene.co.uk/councils/oadby-and-wigston/"
       }
     }
   },
@@ -5526,6 +6301,11 @@
         "hasPage": true,
         "slug": "boston",
         "url": "https://asylumstats.co.uk/places/boston/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "boston",
+        "url": "https://ukfoodhygiene.co.uk/councils/boston/"
       }
     }
   },
@@ -5561,6 +6341,11 @@
         "hasPage": true,
         "slug": "east-lindsey",
         "url": "https://asylumstats.co.uk/places/east-lindsey/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "east-lindsey",
+        "url": "https://ukfoodhygiene.co.uk/councils/east-lindsey/"
       }
     }
   },
@@ -5596,6 +6381,11 @@
         "hasPage": true,
         "slug": "lincoln",
         "url": "https://asylumstats.co.uk/places/lincoln/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "lincoln-city",
+        "url": "https://ukfoodhygiene.co.uk/councils/lincoln-city/"
       }
     }
   },
@@ -5631,6 +6421,11 @@
         "hasPage": true,
         "slug": "north-kesteven",
         "url": "https://asylumstats.co.uk/places/north-kesteven/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "north-kesteven",
+        "url": "https://ukfoodhygiene.co.uk/councils/north-kesteven/"
       }
     }
   },
@@ -5666,6 +6461,11 @@
         "hasPage": true,
         "slug": "south-holland",
         "url": "https://asylumstats.co.uk/places/south-holland/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "south-holland",
+        "url": "https://ukfoodhygiene.co.uk/councils/south-holland/"
       }
     }
   },
@@ -5701,6 +6501,11 @@
         "hasPage": true,
         "slug": "south-kesteven",
         "url": "https://asylumstats.co.uk/places/south-kesteven/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "south-kesteven",
+        "url": "https://ukfoodhygiene.co.uk/councils/south-kesteven/"
       }
     }
   },
@@ -5736,6 +6541,11 @@
         "hasPage": true,
         "slug": "west-lindsey",
         "url": "https://asylumstats.co.uk/places/west-lindsey/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "west-lindsey",
+        "url": "https://ukfoodhygiene.co.uk/councils/west-lindsey/"
       }
     }
   },
@@ -5771,6 +6581,11 @@
         "hasPage": true,
         "slug": "breckland",
         "url": "https://asylumstats.co.uk/places/breckland/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "breckland",
+        "url": "https://ukfoodhygiene.co.uk/councils/breckland/"
       }
     }
   },
@@ -5806,6 +6621,11 @@
         "hasPage": true,
         "slug": "broadland",
         "url": "https://asylumstats.co.uk/places/broadland/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "broadland",
+        "url": "https://ukfoodhygiene.co.uk/councils/broadland/"
       }
     }
   },
@@ -5841,6 +6661,11 @@
         "hasPage": true,
         "slug": "great-yarmouth",
         "url": "https://asylumstats.co.uk/places/great-yarmouth/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "great-yarmouth",
+        "url": "https://ukfoodhygiene.co.uk/councils/great-yarmouth/"
       }
     }
   },
@@ -5876,6 +6701,11 @@
         "hasPage": true,
         "slug": "king-s-lynn-and-west-norfolk",
         "url": "https://asylumstats.co.uk/places/king-s-lynn-and-west-norfolk/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "king-s-lynn-and-west-norfolk",
+        "url": "https://ukfoodhygiene.co.uk/councils/king-s-lynn-and-west-norfolk/"
       }
     }
   },
@@ -5911,6 +6741,11 @@
         "hasPage": true,
         "slug": "north-norfolk",
         "url": "https://asylumstats.co.uk/places/north-norfolk/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "north-norfolk",
+        "url": "https://ukfoodhygiene.co.uk/councils/north-norfolk/"
       }
     }
   },
@@ -5946,6 +6781,11 @@
         "hasPage": true,
         "slug": "norwich",
         "url": "https://asylumstats.co.uk/places/norwich/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "norwich-city",
+        "url": "https://ukfoodhygiene.co.uk/councils/norwich-city/"
       }
     }
   },
@@ -5981,6 +6821,11 @@
         "hasPage": true,
         "slug": "south-norfolk",
         "url": "https://asylumstats.co.uk/places/south-norfolk/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "south-norfolk",
+        "url": "https://ukfoodhygiene.co.uk/councils/south-norfolk/"
       }
     }
   },
@@ -6016,6 +6861,11 @@
         "hasPage": true,
         "slug": "ashfield",
         "url": "https://asylumstats.co.uk/places/ashfield/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "ashfield",
+        "url": "https://ukfoodhygiene.co.uk/councils/ashfield/"
       }
     }
   },
@@ -6051,6 +6901,11 @@
         "hasPage": true,
         "slug": "bassetlaw",
         "url": "https://asylumstats.co.uk/places/bassetlaw/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "bassetlaw",
+        "url": "https://ukfoodhygiene.co.uk/councils/bassetlaw/"
       }
     }
   },
@@ -6086,6 +6941,11 @@
         "hasPage": true,
         "slug": "broxtowe",
         "url": "https://asylumstats.co.uk/places/broxtowe/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "broxtowe",
+        "url": "https://ukfoodhygiene.co.uk/councils/broxtowe/"
       }
     }
   },
@@ -6121,6 +6981,11 @@
         "hasPage": true,
         "slug": "gedling",
         "url": "https://asylumstats.co.uk/places/gedling/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "gedling",
+        "url": "https://ukfoodhygiene.co.uk/councils/gedling/"
       }
     }
   },
@@ -6156,6 +7021,11 @@
         "hasPage": true,
         "slug": "mansfield",
         "url": "https://asylumstats.co.uk/places/mansfield/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "mansfield",
+        "url": "https://ukfoodhygiene.co.uk/councils/mansfield/"
       }
     }
   },
@@ -6191,6 +7061,11 @@
         "hasPage": true,
         "slug": "newark-and-sherwood",
         "url": "https://asylumstats.co.uk/places/newark-and-sherwood/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "newark-and-sherwood",
+        "url": "https://ukfoodhygiene.co.uk/councils/newark-and-sherwood/"
       }
     }
   },
@@ -6226,6 +7101,11 @@
         "hasPage": true,
         "slug": "rushcliffe",
         "url": "https://asylumstats.co.uk/places/rushcliffe/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "rushcliffe",
+        "url": "https://ukfoodhygiene.co.uk/councils/rushcliffe/"
       }
     }
   },
@@ -6261,6 +7141,11 @@
         "hasPage": true,
         "slug": "cherwell",
         "url": "https://asylumstats.co.uk/places/cherwell/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "cherwell",
+        "url": "https://ukfoodhygiene.co.uk/councils/cherwell/"
       }
     }
   },
@@ -6296,6 +7181,11 @@
         "hasPage": true,
         "slug": "oxford",
         "url": "https://asylumstats.co.uk/places/oxford/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "oxford-city",
+        "url": "https://ukfoodhygiene.co.uk/councils/oxford-city/"
       }
     }
   },
@@ -6331,6 +7221,11 @@
         "hasPage": true,
         "slug": "south-oxfordshire",
         "url": "https://asylumstats.co.uk/places/south-oxfordshire/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "south-oxfordshire",
+        "url": "https://ukfoodhygiene.co.uk/councils/south-oxfordshire/"
       }
     }
   },
@@ -6366,6 +7261,11 @@
         "hasPage": true,
         "slug": "vale-of-white-horse",
         "url": "https://asylumstats.co.uk/places/vale-of-white-horse/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "vale-of-white-horse",
+        "url": "https://ukfoodhygiene.co.uk/councils/vale-of-white-horse/"
       }
     }
   },
@@ -6401,6 +7301,11 @@
         "hasPage": true,
         "slug": "west-oxfordshire",
         "url": "https://asylumstats.co.uk/places/west-oxfordshire/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "west-oxfordshire",
+        "url": "https://ukfoodhygiene.co.uk/councils/west-oxfordshire/"
       }
     }
   },
@@ -6436,6 +7341,11 @@
         "hasPage": true,
         "slug": "cannock-chase",
         "url": "https://asylumstats.co.uk/places/cannock-chase/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "cannock-chase",
+        "url": "https://ukfoodhygiene.co.uk/councils/cannock-chase/"
       }
     }
   },
@@ -6471,6 +7381,11 @@
         "hasPage": true,
         "slug": "east-staffordshire",
         "url": "https://asylumstats.co.uk/places/east-staffordshire/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "east-staffordshire",
+        "url": "https://ukfoodhygiene.co.uk/councils/east-staffordshire/"
       }
     }
   },
@@ -6506,6 +7421,11 @@
         "hasPage": true,
         "slug": "lichfield",
         "url": "https://asylumstats.co.uk/places/lichfield/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "lichfield",
+        "url": "https://ukfoodhygiene.co.uk/councils/lichfield/"
       }
     }
   },
@@ -6541,6 +7461,11 @@
         "hasPage": true,
         "slug": "newcastle-under-lyme",
         "url": "https://asylumstats.co.uk/places/newcastle-under-lyme/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "newcastle-under-lyme",
+        "url": "https://ukfoodhygiene.co.uk/councils/newcastle-under-lyme/"
       }
     }
   },
@@ -6576,6 +7501,11 @@
         "hasPage": true,
         "slug": "south-staffordshire",
         "url": "https://asylumstats.co.uk/places/south-staffordshire/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "south-staffordshire",
+        "url": "https://ukfoodhygiene.co.uk/councils/south-staffordshire/"
       }
     }
   },
@@ -6611,6 +7541,11 @@
         "hasPage": true,
         "slug": "stafford",
         "url": "https://asylumstats.co.uk/places/stafford/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "stafford",
+        "url": "https://ukfoodhygiene.co.uk/councils/stafford/"
       }
     }
   },
@@ -6646,6 +7581,11 @@
         "hasPage": true,
         "slug": "staffordshire-moorlands",
         "url": "https://asylumstats.co.uk/places/staffordshire-moorlands/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "staffordshire-moorlands",
+        "url": "https://ukfoodhygiene.co.uk/councils/staffordshire-moorlands/"
       }
     }
   },
@@ -6681,6 +7621,11 @@
         "hasPage": true,
         "slug": "tamworth",
         "url": "https://asylumstats.co.uk/places/tamworth/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "tamworth",
+        "url": "https://ukfoodhygiene.co.uk/councils/tamworth/"
       }
     }
   },
@@ -6716,6 +7661,11 @@
         "hasPage": true,
         "slug": "babergh",
         "url": "https://asylumstats.co.uk/places/babergh/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "babergh",
+        "url": "https://ukfoodhygiene.co.uk/councils/babergh/"
       }
     }
   },
@@ -6751,6 +7701,11 @@
         "hasPage": true,
         "slug": "ipswich",
         "url": "https://asylumstats.co.uk/places/ipswich/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "ipswich",
+        "url": "https://ukfoodhygiene.co.uk/councils/ipswich/"
       }
     }
   },
@@ -6786,6 +7741,11 @@
         "hasPage": true,
         "slug": "mid-suffolk",
         "url": "https://asylumstats.co.uk/places/mid-suffolk/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "mid-suffolk",
+        "url": "https://ukfoodhygiene.co.uk/councils/mid-suffolk/"
       }
     }
   },
@@ -6821,6 +7781,11 @@
         "hasPage": true,
         "slug": "elmbridge",
         "url": "https://asylumstats.co.uk/places/elmbridge/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "elmbridge",
+        "url": "https://ukfoodhygiene.co.uk/councils/elmbridge/"
       }
     }
   },
@@ -6856,6 +7821,11 @@
         "hasPage": true,
         "slug": "epsom-and-ewell",
         "url": "https://asylumstats.co.uk/places/epsom-and-ewell/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "epsom-and-ewell",
+        "url": "https://ukfoodhygiene.co.uk/councils/epsom-and-ewell/"
       }
     }
   },
@@ -6891,6 +7861,11 @@
         "hasPage": true,
         "slug": "guildford",
         "url": "https://asylumstats.co.uk/places/guildford/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "guildford",
+        "url": "https://ukfoodhygiene.co.uk/councils/guildford/"
       }
     }
   },
@@ -6926,6 +7901,11 @@
         "hasPage": true,
         "slug": "mole-valley",
         "url": "https://asylumstats.co.uk/places/mole-valley/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "mole-valley",
+        "url": "https://ukfoodhygiene.co.uk/councils/mole-valley/"
       }
     }
   },
@@ -6961,6 +7941,11 @@
         "hasPage": true,
         "slug": "reigate-and-banstead",
         "url": "https://asylumstats.co.uk/places/reigate-and-banstead/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "reigate-and-banstead",
+        "url": "https://ukfoodhygiene.co.uk/councils/reigate-and-banstead/"
       }
     }
   },
@@ -6996,6 +7981,11 @@
         "hasPage": true,
         "slug": "runnymede",
         "url": "https://asylumstats.co.uk/places/runnymede/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "runnymede",
+        "url": "https://ukfoodhygiene.co.uk/councils/runnymede/"
       }
     }
   },
@@ -7031,6 +8021,11 @@
         "hasPage": true,
         "slug": "spelthorne",
         "url": "https://asylumstats.co.uk/places/spelthorne/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "spelthorne",
+        "url": "https://ukfoodhygiene.co.uk/councils/spelthorne/"
       }
     }
   },
@@ -7066,6 +8061,11 @@
         "hasPage": true,
         "slug": "surrey-heath",
         "url": "https://asylumstats.co.uk/places/surrey-heath/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "surrey-heath",
+        "url": "https://ukfoodhygiene.co.uk/councils/surrey-heath/"
       }
     }
   },
@@ -7101,6 +8101,11 @@
         "hasPage": true,
         "slug": "tandridge",
         "url": "https://asylumstats.co.uk/places/tandridge/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "tandridge",
+        "url": "https://ukfoodhygiene.co.uk/councils/tandridge/"
       }
     }
   },
@@ -7136,6 +8141,11 @@
         "hasPage": true,
         "slug": "waverley",
         "url": "https://asylumstats.co.uk/places/waverley/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "waverley",
+        "url": "https://ukfoodhygiene.co.uk/councils/waverley/"
       }
     }
   },
@@ -7171,6 +8181,11 @@
         "hasPage": true,
         "slug": "woking",
         "url": "https://asylumstats.co.uk/places/woking/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "woking",
+        "url": "https://ukfoodhygiene.co.uk/councils/woking/"
       }
     }
   },
@@ -7206,6 +8221,11 @@
         "hasPage": true,
         "slug": "north-warwickshire",
         "url": "https://asylumstats.co.uk/places/north-warwickshire/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "north-warwickshire",
+        "url": "https://ukfoodhygiene.co.uk/councils/north-warwickshire/"
       }
     }
   },
@@ -7241,6 +8261,11 @@
         "hasPage": true,
         "slug": "nuneaton-and-bedworth",
         "url": "https://asylumstats.co.uk/places/nuneaton-and-bedworth/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "nuneaton-and-bedworth",
+        "url": "https://ukfoodhygiene.co.uk/councils/nuneaton-and-bedworth/"
       }
     }
   },
@@ -7276,6 +8301,11 @@
         "hasPage": true,
         "slug": "rugby",
         "url": "https://asylumstats.co.uk/places/rugby/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "rugby",
+        "url": "https://ukfoodhygiene.co.uk/councils/rugby/"
       }
     }
   },
@@ -7311,6 +8341,11 @@
         "hasPage": true,
         "slug": "stratford-on-avon",
         "url": "https://asylumstats.co.uk/places/stratford-on-avon/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "stratford-on-avon",
+        "url": "https://ukfoodhygiene.co.uk/councils/stratford-on-avon/"
       }
     }
   },
@@ -7346,6 +8381,11 @@
         "hasPage": true,
         "slug": "warwick",
         "url": "https://asylumstats.co.uk/places/warwick/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "warwick",
+        "url": "https://ukfoodhygiene.co.uk/councils/warwick/"
       }
     }
   },
@@ -7381,6 +8421,11 @@
         "hasPage": true,
         "slug": "adur",
         "url": "https://asylumstats.co.uk/places/adur/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "adur",
+        "url": "https://ukfoodhygiene.co.uk/councils/adur/"
       }
     }
   },
@@ -7416,6 +8461,11 @@
         "hasPage": true,
         "slug": "arun",
         "url": "https://asylumstats.co.uk/places/arun/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "arun",
+        "url": "https://ukfoodhygiene.co.uk/councils/arun/"
       }
     }
   },
@@ -7451,6 +8501,11 @@
         "hasPage": true,
         "slug": "chichester",
         "url": "https://asylumstats.co.uk/places/chichester/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "chichester",
+        "url": "https://ukfoodhygiene.co.uk/councils/chichester/"
       }
     }
   },
@@ -7486,6 +8541,11 @@
         "hasPage": true,
         "slug": "crawley",
         "url": "https://asylumstats.co.uk/places/crawley/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "crawley",
+        "url": "https://ukfoodhygiene.co.uk/councils/crawley/"
       }
     }
   },
@@ -7521,6 +8581,11 @@
         "hasPage": true,
         "slug": "horsham",
         "url": "https://asylumstats.co.uk/places/horsham/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "horsham",
+        "url": "https://ukfoodhygiene.co.uk/councils/horsham/"
       }
     }
   },
@@ -7556,6 +8621,11 @@
         "hasPage": true,
         "slug": "mid-sussex",
         "url": "https://asylumstats.co.uk/places/mid-sussex/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "mid-sussex",
+        "url": "https://ukfoodhygiene.co.uk/councils/mid-sussex/"
       }
     }
   },
@@ -7591,6 +8661,11 @@
         "hasPage": true,
         "slug": "worthing",
         "url": "https://asylumstats.co.uk/places/worthing/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "worthing",
+        "url": "https://ukfoodhygiene.co.uk/councils/worthing/"
       }
     }
   },
@@ -7626,6 +8701,11 @@
         "hasPage": true,
         "slug": "bromsgrove",
         "url": "https://asylumstats.co.uk/places/bromsgrove/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "bromsgrove",
+        "url": "https://ukfoodhygiene.co.uk/councils/bromsgrove/"
       }
     }
   },
@@ -7661,6 +8741,11 @@
         "hasPage": true,
         "slug": "malvern-hills",
         "url": "https://asylumstats.co.uk/places/malvern-hills/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "malvern-hills",
+        "url": "https://ukfoodhygiene.co.uk/councils/malvern-hills/"
       }
     }
   },
@@ -7696,6 +8781,11 @@
         "hasPage": true,
         "slug": "redditch",
         "url": "https://asylumstats.co.uk/places/redditch/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "redditch",
+        "url": "https://ukfoodhygiene.co.uk/councils/redditch/"
       }
     }
   },
@@ -7731,6 +8821,11 @@
         "hasPage": true,
         "slug": "worcester",
         "url": "https://asylumstats.co.uk/places/worcester/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "worcester-city",
+        "url": "https://ukfoodhygiene.co.uk/councils/worcester-city/"
       }
     }
   },
@@ -7766,6 +8861,11 @@
         "hasPage": true,
         "slug": "wychavon",
         "url": "https://asylumstats.co.uk/places/wychavon/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "wychavon",
+        "url": "https://ukfoodhygiene.co.uk/councils/wychavon/"
       }
     }
   },
@@ -7801,6 +8901,11 @@
         "hasPage": true,
         "slug": "wyre-forest",
         "url": "https://asylumstats.co.uk/places/wyre-forest/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "wyre-forest",
+        "url": "https://ukfoodhygiene.co.uk/councils/wyre-forest/"
       }
     }
   },
@@ -7836,6 +8941,11 @@
         "hasPage": true,
         "slug": "st-albans",
         "url": "https://asylumstats.co.uk/places/st-albans/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "st-albans-city",
+        "url": "https://ukfoodhygiene.co.uk/councils/st-albans-city/"
       }
     }
   },
@@ -7871,6 +8981,11 @@
         "hasPage": true,
         "slug": "welwyn-hatfield",
         "url": "https://asylumstats.co.uk/places/welwyn-hatfield/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "welwyn-hatfield",
+        "url": "https://ukfoodhygiene.co.uk/councils/welwyn-hatfield/"
       }
     }
   },
@@ -7906,6 +9021,11 @@
         "hasPage": true,
         "slug": "east-hertfordshire",
         "url": "https://asylumstats.co.uk/places/east-hertfordshire/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "east-hertfordshire",
+        "url": "https://ukfoodhygiene.co.uk/councils/east-hertfordshire/"
       }
     }
   },
@@ -7941,6 +9061,11 @@
         "hasPage": true,
         "slug": "stevenage",
         "url": "https://asylumstats.co.uk/places/stevenage/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "stevenage",
+        "url": "https://ukfoodhygiene.co.uk/councils/stevenage/"
       }
     }
   },
@@ -7976,6 +9101,11 @@
         "hasPage": true,
         "slug": "east-suffolk",
         "url": "https://asylumstats.co.uk/places/east-suffolk/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "east-suffolk",
+        "url": "https://ukfoodhygiene.co.uk/councils/east-suffolk/"
       }
     }
   },
@@ -8011,6 +9141,11 @@
         "hasPage": true,
         "slug": "west-suffolk",
         "url": "https://asylumstats.co.uk/places/west-suffolk/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "west-suffolk",
+        "url": "https://ukfoodhygiene.co.uk/councils/west-suffolk/"
       }
     }
   },
@@ -8046,6 +9181,11 @@
         "hasPage": true,
         "slug": "bolton",
         "url": "https://asylumstats.co.uk/places/bolton/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "bolton",
+        "url": "https://ukfoodhygiene.co.uk/councils/bolton/"
       }
     }
   },
@@ -8081,6 +9221,11 @@
         "hasPage": true,
         "slug": "bury",
         "url": "https://asylumstats.co.uk/places/bury/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "bury",
+        "url": "https://ukfoodhygiene.co.uk/councils/bury/"
       }
     }
   },
@@ -8116,6 +9261,11 @@
         "hasPage": true,
         "slug": "manchester",
         "url": "https://asylumstats.co.uk/places/manchester/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "manchester",
+        "url": "https://ukfoodhygiene.co.uk/councils/manchester/"
       }
     }
   },
@@ -8151,6 +9301,11 @@
         "hasPage": true,
         "slug": "oldham",
         "url": "https://asylumstats.co.uk/places/oldham/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "oldham",
+        "url": "https://ukfoodhygiene.co.uk/councils/oldham/"
       }
     }
   },
@@ -8186,6 +9341,11 @@
         "hasPage": true,
         "slug": "rochdale",
         "url": "https://asylumstats.co.uk/places/rochdale/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "rochdale",
+        "url": "https://ukfoodhygiene.co.uk/councils/rochdale/"
       }
     }
   },
@@ -8221,6 +9381,11 @@
         "hasPage": true,
         "slug": "salford",
         "url": "https://asylumstats.co.uk/places/salford/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "salford",
+        "url": "https://ukfoodhygiene.co.uk/councils/salford/"
       }
     }
   },
@@ -8256,6 +9421,11 @@
         "hasPage": true,
         "slug": "stockport",
         "url": "https://asylumstats.co.uk/places/stockport/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "stockport",
+        "url": "https://ukfoodhygiene.co.uk/councils/stockport/"
       }
     }
   },
@@ -8291,6 +9461,11 @@
         "hasPage": true,
         "slug": "tameside",
         "url": "https://asylumstats.co.uk/places/tameside/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "tameside",
+        "url": "https://ukfoodhygiene.co.uk/councils/tameside/"
       }
     }
   },
@@ -8326,6 +9501,11 @@
         "hasPage": true,
         "slug": "trafford",
         "url": "https://asylumstats.co.uk/places/trafford/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "trafford",
+        "url": "https://ukfoodhygiene.co.uk/councils/trafford/"
       }
     }
   },
@@ -8361,6 +9541,11 @@
         "hasPage": true,
         "slug": "wigan",
         "url": "https://asylumstats.co.uk/places/wigan/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "wigan",
+        "url": "https://ukfoodhygiene.co.uk/councils/wigan/"
       }
     }
   },
@@ -8396,6 +9581,11 @@
         "hasPage": true,
         "slug": "knowsley",
         "url": "https://asylumstats.co.uk/places/knowsley/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "knowsley",
+        "url": "https://ukfoodhygiene.co.uk/councils/knowsley/"
       }
     }
   },
@@ -8431,6 +9621,11 @@
         "hasPage": true,
         "slug": "liverpool",
         "url": "https://asylumstats.co.uk/places/liverpool/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "liverpool",
+        "url": "https://ukfoodhygiene.co.uk/councils/liverpool/"
       }
     }
   },
@@ -8466,6 +9661,11 @@
         "hasPage": true,
         "slug": "st-helens",
         "url": "https://asylumstats.co.uk/places/st-helens/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "st-helens",
+        "url": "https://ukfoodhygiene.co.uk/councils/st-helens/"
       }
     }
   },
@@ -8501,6 +9701,11 @@
         "hasPage": true,
         "slug": "sefton",
         "url": "https://asylumstats.co.uk/places/sefton/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "sefton",
+        "url": "https://ukfoodhygiene.co.uk/councils/sefton/"
       }
     }
   },
@@ -8536,6 +9741,11 @@
         "hasPage": true,
         "slug": "wirral",
         "url": "https://asylumstats.co.uk/places/wirral/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "wirral",
+        "url": "https://ukfoodhygiene.co.uk/councils/wirral/"
       }
     }
   },
@@ -8571,6 +9781,11 @@
         "hasPage": true,
         "slug": "doncaster",
         "url": "https://asylumstats.co.uk/places/doncaster/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "doncaster",
+        "url": "https://ukfoodhygiene.co.uk/councils/doncaster/"
       }
     }
   },
@@ -8606,6 +9821,11 @@
         "hasPage": true,
         "slug": "rotherham",
         "url": "https://asylumstats.co.uk/places/rotherham/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "rotherham",
+        "url": "https://ukfoodhygiene.co.uk/councils/rotherham/"
       }
     }
   },
@@ -8641,6 +9861,11 @@
         "hasPage": true,
         "slug": "newcastle-upon-tyne",
         "url": "https://asylumstats.co.uk/places/newcastle-upon-tyne/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "newcastle-upon-tyne",
+        "url": "https://ukfoodhygiene.co.uk/councils/newcastle-upon-tyne/"
       }
     }
   },
@@ -8676,6 +9901,11 @@
         "hasPage": true,
         "slug": "north-tyneside",
         "url": "https://asylumstats.co.uk/places/north-tyneside/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "north-tyneside",
+        "url": "https://ukfoodhygiene.co.uk/councils/north-tyneside/"
       }
     }
   },
@@ -8711,6 +9941,11 @@
         "hasPage": true,
         "slug": "south-tyneside",
         "url": "https://asylumstats.co.uk/places/south-tyneside/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "south-tyneside",
+        "url": "https://ukfoodhygiene.co.uk/councils/south-tyneside/"
       }
     }
   },
@@ -8746,6 +9981,11 @@
         "hasPage": true,
         "slug": "sunderland",
         "url": "https://asylumstats.co.uk/places/sunderland/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "sunderland",
+        "url": "https://ukfoodhygiene.co.uk/councils/sunderland/"
       }
     }
   },
@@ -8781,6 +10021,11 @@
         "hasPage": true,
         "slug": "birmingham",
         "url": "https://asylumstats.co.uk/places/birmingham/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "birmingham",
+        "url": "https://ukfoodhygiene.co.uk/councils/birmingham/"
       }
     }
   },
@@ -8816,6 +10061,11 @@
         "hasPage": true,
         "slug": "coventry",
         "url": "https://asylumstats.co.uk/places/coventry/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "coventry",
+        "url": "https://ukfoodhygiene.co.uk/councils/coventry/"
       }
     }
   },
@@ -8851,6 +10101,11 @@
         "hasPage": true,
         "slug": "dudley",
         "url": "https://asylumstats.co.uk/places/dudley/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "dudley",
+        "url": "https://ukfoodhygiene.co.uk/councils/dudley/"
       }
     }
   },
@@ -8886,6 +10141,11 @@
         "hasPage": true,
         "slug": "sandwell",
         "url": "https://asylumstats.co.uk/places/sandwell/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "sandwell",
+        "url": "https://ukfoodhygiene.co.uk/councils/sandwell/"
       }
     }
   },
@@ -8921,6 +10181,11 @@
         "hasPage": true,
         "slug": "solihull",
         "url": "https://asylumstats.co.uk/places/solihull/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "solihull",
+        "url": "https://ukfoodhygiene.co.uk/councils/solihull/"
       }
     }
   },
@@ -8956,6 +10221,11 @@
         "hasPage": true,
         "slug": "walsall",
         "url": "https://asylumstats.co.uk/places/walsall/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "walsall",
+        "url": "https://ukfoodhygiene.co.uk/councils/walsall/"
       }
     }
   },
@@ -8991,6 +10261,11 @@
         "hasPage": true,
         "slug": "wolverhampton",
         "url": "https://asylumstats.co.uk/places/wolverhampton/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "wolverhampton",
+        "url": "https://ukfoodhygiene.co.uk/councils/wolverhampton/"
       }
     }
   },
@@ -9026,6 +10301,11 @@
         "hasPage": true,
         "slug": "bradford",
         "url": "https://asylumstats.co.uk/places/bradford/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "bradford",
+        "url": "https://ukfoodhygiene.co.uk/councils/bradford/"
       }
     }
   },
@@ -9061,6 +10341,11 @@
         "hasPage": true,
         "slug": "calderdale",
         "url": "https://asylumstats.co.uk/places/calderdale/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "calderdale",
+        "url": "https://ukfoodhygiene.co.uk/councils/calderdale/"
       }
     }
   },
@@ -9096,6 +10381,11 @@
         "hasPage": true,
         "slug": "kirklees",
         "url": "https://asylumstats.co.uk/places/kirklees/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "kirklees",
+        "url": "https://ukfoodhygiene.co.uk/councils/kirklees/"
       }
     }
   },
@@ -9131,6 +10421,11 @@
         "hasPage": true,
         "slug": "leeds",
         "url": "https://asylumstats.co.uk/places/leeds/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "leeds",
+        "url": "https://ukfoodhygiene.co.uk/councils/leeds/"
       }
     }
   },
@@ -9166,6 +10461,11 @@
         "hasPage": true,
         "slug": "wakefield",
         "url": "https://asylumstats.co.uk/places/wakefield/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "wakefield",
+        "url": "https://ukfoodhygiene.co.uk/councils/wakefield/"
       }
     }
   },
@@ -9201,6 +10501,11 @@
         "hasPage": true,
         "slug": "gateshead",
         "url": "https://asylumstats.co.uk/places/gateshead/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "gateshead",
+        "url": "https://ukfoodhygiene.co.uk/councils/gateshead/"
       }
     }
   },
@@ -9236,6 +10541,11 @@
         "hasPage": true,
         "slug": "barnsley",
         "url": "https://asylumstats.co.uk/places/barnsley/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "barnsley",
+        "url": "https://ukfoodhygiene.co.uk/councils/barnsley/"
       }
     }
   },
@@ -9271,6 +10581,11 @@
         "hasPage": true,
         "slug": "sheffield",
         "url": "https://asylumstats.co.uk/places/sheffield/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "sheffield",
+        "url": "https://ukfoodhygiene.co.uk/councils/sheffield/"
       }
     }
   },
@@ -9306,6 +10621,11 @@
         "hasPage": true,
         "slug": "city-of-london",
         "url": "https://asylumstats.co.uk/places/city-of-london/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "city-of-london-corporation",
+        "url": "https://ukfoodhygiene.co.uk/councils/city-of-london-corporation/"
       }
     }
   },
@@ -9341,6 +10661,11 @@
         "hasPage": true,
         "slug": "barking-and-dagenham",
         "url": "https://asylumstats.co.uk/places/barking-and-dagenham/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "barking-and-dagenham",
+        "url": "https://ukfoodhygiene.co.uk/councils/barking-and-dagenham/"
       }
     }
   },
@@ -9376,6 +10701,11 @@
         "hasPage": true,
         "slug": "barnet",
         "url": "https://asylumstats.co.uk/places/barnet/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "barnet",
+        "url": "https://ukfoodhygiene.co.uk/councils/barnet/"
       }
     }
   },
@@ -9411,6 +10741,11 @@
         "hasPage": true,
         "slug": "bexley",
         "url": "https://asylumstats.co.uk/places/bexley/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "bexley",
+        "url": "https://ukfoodhygiene.co.uk/councils/bexley/"
       }
     }
   },
@@ -9446,6 +10781,11 @@
         "hasPage": true,
         "slug": "brent",
         "url": "https://asylumstats.co.uk/places/brent/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "brent",
+        "url": "https://ukfoodhygiene.co.uk/councils/brent/"
       }
     }
   },
@@ -9481,6 +10821,11 @@
         "hasPage": true,
         "slug": "bromley",
         "url": "https://asylumstats.co.uk/places/bromley/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "bromley",
+        "url": "https://ukfoodhygiene.co.uk/councils/bromley/"
       }
     }
   },
@@ -9516,6 +10861,11 @@
         "hasPage": true,
         "slug": "camden",
         "url": "https://asylumstats.co.uk/places/camden/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "camden",
+        "url": "https://ukfoodhygiene.co.uk/councils/camden/"
       }
     }
   },
@@ -9551,6 +10901,11 @@
         "hasPage": true,
         "slug": "croydon",
         "url": "https://asylumstats.co.uk/places/croydon/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "croydon",
+        "url": "https://ukfoodhygiene.co.uk/councils/croydon/"
       }
     }
   },
@@ -9586,6 +10941,11 @@
         "hasPage": true,
         "slug": "ealing",
         "url": "https://asylumstats.co.uk/places/ealing/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "ealing",
+        "url": "https://ukfoodhygiene.co.uk/councils/ealing/"
       }
     }
   },
@@ -9621,6 +10981,11 @@
         "hasPage": true,
         "slug": "enfield",
         "url": "https://asylumstats.co.uk/places/enfield/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "enfield",
+        "url": "https://ukfoodhygiene.co.uk/councils/enfield/"
       }
     }
   },
@@ -9656,6 +11021,11 @@
         "hasPage": true,
         "slug": "greenwich",
         "url": "https://asylumstats.co.uk/places/greenwich/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "greenwich",
+        "url": "https://ukfoodhygiene.co.uk/councils/greenwich/"
       }
     }
   },
@@ -9691,6 +11061,11 @@
         "hasPage": true,
         "slug": "hackney",
         "url": "https://asylumstats.co.uk/places/hackney/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "hackney",
+        "url": "https://ukfoodhygiene.co.uk/councils/hackney/"
       }
     }
   },
@@ -9726,6 +11101,11 @@
         "hasPage": true,
         "slug": "hammersmith-and-fulham",
         "url": "https://asylumstats.co.uk/places/hammersmith-and-fulham/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "hammersmith-and-fulham",
+        "url": "https://ukfoodhygiene.co.uk/councils/hammersmith-and-fulham/"
       }
     }
   },
@@ -9761,6 +11141,11 @@
         "hasPage": true,
         "slug": "haringey",
         "url": "https://asylumstats.co.uk/places/haringey/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "haringey",
+        "url": "https://ukfoodhygiene.co.uk/councils/haringey/"
       }
     }
   },
@@ -9796,6 +11181,11 @@
         "hasPage": true,
         "slug": "harrow",
         "url": "https://asylumstats.co.uk/places/harrow/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "harrow",
+        "url": "https://ukfoodhygiene.co.uk/councils/harrow/"
       }
     }
   },
@@ -9831,6 +11221,11 @@
         "hasPage": true,
         "slug": "havering",
         "url": "https://asylumstats.co.uk/places/havering/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "havering",
+        "url": "https://ukfoodhygiene.co.uk/councils/havering/"
       }
     }
   },
@@ -9866,6 +11261,11 @@
         "hasPage": true,
         "slug": "hillingdon",
         "url": "https://asylumstats.co.uk/places/hillingdon/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "hillingdon",
+        "url": "https://ukfoodhygiene.co.uk/councils/hillingdon/"
       }
     }
   },
@@ -9901,6 +11301,11 @@
         "hasPage": true,
         "slug": "hounslow",
         "url": "https://asylumstats.co.uk/places/hounslow/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "hounslow",
+        "url": "https://ukfoodhygiene.co.uk/councils/hounslow/"
       }
     }
   },
@@ -9936,6 +11341,11 @@
         "hasPage": true,
         "slug": "islington",
         "url": "https://asylumstats.co.uk/places/islington/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "islington",
+        "url": "https://ukfoodhygiene.co.uk/councils/islington/"
       }
     }
   },
@@ -9971,6 +11381,11 @@
         "hasPage": true,
         "slug": "kensington-and-chelsea",
         "url": "https://asylumstats.co.uk/places/kensington-and-chelsea/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "kensington-and-chelsea",
+        "url": "https://ukfoodhygiene.co.uk/councils/kensington-and-chelsea/"
       }
     }
   },
@@ -10006,6 +11421,11 @@
         "hasPage": true,
         "slug": "kingston-upon-thames",
         "url": "https://asylumstats.co.uk/places/kingston-upon-thames/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "kingston-upon-thames",
+        "url": "https://ukfoodhygiene.co.uk/councils/kingston-upon-thames/"
       }
     }
   },
@@ -10041,6 +11461,11 @@
         "hasPage": true,
         "slug": "lambeth",
         "url": "https://asylumstats.co.uk/places/lambeth/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "lambeth",
+        "url": "https://ukfoodhygiene.co.uk/councils/lambeth/"
       }
     }
   },
@@ -10076,6 +11501,11 @@
         "hasPage": true,
         "slug": "lewisham",
         "url": "https://asylumstats.co.uk/places/lewisham/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "lewisham",
+        "url": "https://ukfoodhygiene.co.uk/councils/lewisham/"
       }
     }
   },
@@ -10111,6 +11541,11 @@
         "hasPage": true,
         "slug": "merton",
         "url": "https://asylumstats.co.uk/places/merton/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "merton",
+        "url": "https://ukfoodhygiene.co.uk/councils/merton/"
       }
     }
   },
@@ -10146,6 +11581,11 @@
         "hasPage": true,
         "slug": "newham",
         "url": "https://asylumstats.co.uk/places/newham/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "newham",
+        "url": "https://ukfoodhygiene.co.uk/councils/newham/"
       }
     }
   },
@@ -10181,6 +11621,11 @@
         "hasPage": true,
         "slug": "redbridge",
         "url": "https://asylumstats.co.uk/places/redbridge/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "redbridge",
+        "url": "https://ukfoodhygiene.co.uk/councils/redbridge/"
       }
     }
   },
@@ -10216,6 +11661,11 @@
         "hasPage": true,
         "slug": "richmond-upon-thames",
         "url": "https://asylumstats.co.uk/places/richmond-upon-thames/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "richmond-upon-thames",
+        "url": "https://ukfoodhygiene.co.uk/councils/richmond-upon-thames/"
       }
     }
   },
@@ -10251,6 +11701,11 @@
         "hasPage": true,
         "slug": "southwark",
         "url": "https://asylumstats.co.uk/places/southwark/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "southwark",
+        "url": "https://ukfoodhygiene.co.uk/councils/southwark/"
       }
     }
   },
@@ -10286,6 +11741,11 @@
         "hasPage": true,
         "slug": "sutton",
         "url": "https://asylumstats.co.uk/places/sutton/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "sutton",
+        "url": "https://ukfoodhygiene.co.uk/councils/sutton/"
       }
     }
   },
@@ -10321,6 +11781,11 @@
         "hasPage": true,
         "slug": "tower-hamlets",
         "url": "https://asylumstats.co.uk/places/tower-hamlets/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "tower-hamlets",
+        "url": "https://ukfoodhygiene.co.uk/councils/tower-hamlets/"
       }
     }
   },
@@ -10356,6 +11821,11 @@
         "hasPage": true,
         "slug": "waltham-forest",
         "url": "https://asylumstats.co.uk/places/waltham-forest/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "waltham-forest",
+        "url": "https://ukfoodhygiene.co.uk/councils/waltham-forest/"
       }
     }
   },
@@ -10391,6 +11861,11 @@
         "hasPage": true,
         "slug": "wandsworth",
         "url": "https://asylumstats.co.uk/places/wandsworth/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "wandsworth",
+        "url": "https://ukfoodhygiene.co.uk/councils/wandsworth/"
       }
     }
   },
@@ -10426,6 +11901,11 @@
         "hasPage": true,
         "slug": "westminster",
         "url": "https://asylumstats.co.uk/places/westminster/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "westminster",
+        "url": "https://ukfoodhygiene.co.uk/councils/westminster/"
       }
     }
   },
@@ -10461,6 +11941,11 @@
         "hasPage": true,
         "slug": "antrim-and-newtownabbey",
         "url": "https://asylumstats.co.uk/places/antrim-and-newtownabbey/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "antrim-and-newtownabbey",
+        "url": "https://ukfoodhygiene.co.uk/councils/antrim-and-newtownabbey/"
       }
     }
   },
@@ -10496,6 +11981,11 @@
         "hasPage": true,
         "slug": "armagh-city-banbridge-and-craigavon",
         "url": "https://asylumstats.co.uk/places/armagh-city-banbridge-and-craigavon/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "armagh-city-banbridge-and-craigavon",
+        "url": "https://ukfoodhygiene.co.uk/councils/armagh-city-banbridge-and-craigavon/"
       }
     }
   },
@@ -10531,6 +12021,11 @@
         "hasPage": true,
         "slug": "belfast",
         "url": "https://asylumstats.co.uk/places/belfast/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "belfast-city",
+        "url": "https://ukfoodhygiene.co.uk/councils/belfast-city/"
       }
     }
   },
@@ -10566,6 +12061,11 @@
         "hasPage": true,
         "slug": "causeway-coast-and-glens",
         "url": "https://asylumstats.co.uk/places/causeway-coast-and-glens/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "causeway-coast-and-glens",
+        "url": "https://ukfoodhygiene.co.uk/councils/causeway-coast-and-glens/"
       }
     }
   },
@@ -10601,6 +12101,11 @@
         "hasPage": true,
         "slug": "derry-city-and-strabane",
         "url": "https://asylumstats.co.uk/places/derry-city-and-strabane/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "derry-city-and-strabane",
+        "url": "https://ukfoodhygiene.co.uk/councils/derry-city-and-strabane/"
       }
     }
   },
@@ -10636,6 +12141,11 @@
         "hasPage": true,
         "slug": "fermanagh-and-omagh",
         "url": "https://asylumstats.co.uk/places/fermanagh-and-omagh/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "fermanagh-and-omagh",
+        "url": "https://ukfoodhygiene.co.uk/councils/fermanagh-and-omagh/"
       }
     }
   },
@@ -10671,6 +12181,11 @@
         "hasPage": true,
         "slug": "lisburn-and-castlereagh",
         "url": "https://asylumstats.co.uk/places/lisburn-and-castlereagh/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "lisburn-and-castlereagh-city",
+        "url": "https://ukfoodhygiene.co.uk/councils/lisburn-and-castlereagh-city/"
       }
     }
   },
@@ -10706,6 +12221,11 @@
         "hasPage": true,
         "slug": "mid-and-east-antrim",
         "url": "https://asylumstats.co.uk/places/mid-and-east-antrim/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "mid-and-east-antrim",
+        "url": "https://ukfoodhygiene.co.uk/councils/mid-and-east-antrim/"
       }
     }
   },
@@ -10741,6 +12261,11 @@
         "hasPage": true,
         "slug": "mid-ulster",
         "url": "https://asylumstats.co.uk/places/mid-ulster/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "mid-ulster",
+        "url": "https://ukfoodhygiene.co.uk/councils/mid-ulster/"
       }
     }
   },
@@ -10776,6 +12301,11 @@
         "hasPage": true,
         "slug": "newry-mourne-and-down",
         "url": "https://asylumstats.co.uk/places/newry-mourne-and-down/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "newry-mourne-and-down",
+        "url": "https://ukfoodhygiene.co.uk/councils/newry-mourne-and-down/"
       }
     }
   },
@@ -10811,6 +12341,11 @@
         "hasPage": true,
         "slug": "ards-and-north-down",
         "url": "https://asylumstats.co.uk/places/ards-and-north-down/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "ards-and-north-down",
+        "url": "https://ukfoodhygiene.co.uk/councils/ards-and-north-down/"
       }
     }
   },
@@ -10846,6 +12381,11 @@
         "hasPage": true,
         "slug": "clackmannanshire",
         "url": "https://asylumstats.co.uk/places/clackmannanshire/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "clackmannanshire",
+        "url": "https://ukfoodhygiene.co.uk/councils/clackmannanshire/"
       }
     }
   },
@@ -10881,6 +12421,11 @@
         "hasPage": true,
         "slug": "dumfries-and-galloway",
         "url": "https://asylumstats.co.uk/places/dumfries-and-galloway/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "dumfries-and-galloway",
+        "url": "https://ukfoodhygiene.co.uk/councils/dumfries-and-galloway/"
       }
     }
   },
@@ -10916,6 +12461,11 @@
         "hasPage": true,
         "slug": "east-ayrshire",
         "url": "https://asylumstats.co.uk/places/east-ayrshire/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "east-ayrshire",
+        "url": "https://ukfoodhygiene.co.uk/councils/east-ayrshire/"
       }
     }
   },
@@ -10951,6 +12501,11 @@
         "hasPage": true,
         "slug": "east-lothian",
         "url": "https://asylumstats.co.uk/places/east-lothian/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "east-lothian",
+        "url": "https://ukfoodhygiene.co.uk/councils/east-lothian/"
       }
     }
   },
@@ -10986,6 +12541,11 @@
         "hasPage": true,
         "slug": "east-renfrewshire",
         "url": "https://asylumstats.co.uk/places/east-renfrewshire/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "east-renfrewshire",
+        "url": "https://ukfoodhygiene.co.uk/councils/east-renfrewshire/"
       }
     }
   },
@@ -11021,6 +12581,11 @@
         "hasPage": true,
         "slug": "na-h-eileanan-siar",
         "url": "https://asylumstats.co.uk/places/na-h-eileanan-siar/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "comhairle-nan-eilean-siar-western-isles",
+        "url": "https://ukfoodhygiene.co.uk/councils/comhairle-nan-eilean-siar-western-isles/"
       }
     }
   },
@@ -11056,6 +12621,11 @@
         "hasPage": true,
         "slug": "falkirk",
         "url": "https://asylumstats.co.uk/places/falkirk/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "falkirk",
+        "url": "https://ukfoodhygiene.co.uk/councils/falkirk/"
       }
     }
   },
@@ -11091,6 +12661,11 @@
         "hasPage": true,
         "slug": "highland",
         "url": "https://asylumstats.co.uk/places/highland/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "highland",
+        "url": "https://ukfoodhygiene.co.uk/councils/highland/"
       }
     }
   },
@@ -11126,6 +12701,11 @@
         "hasPage": true,
         "slug": "inverclyde",
         "url": "https://asylumstats.co.uk/places/inverclyde/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "inverclyde",
+        "url": "https://ukfoodhygiene.co.uk/councils/inverclyde/"
       }
     }
   },
@@ -11161,6 +12741,11 @@
         "hasPage": true,
         "slug": "midlothian",
         "url": "https://asylumstats.co.uk/places/midlothian/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "midlothian",
+        "url": "https://ukfoodhygiene.co.uk/councils/midlothian/"
       }
     }
   },
@@ -11196,6 +12781,11 @@
         "hasPage": true,
         "slug": "moray",
         "url": "https://asylumstats.co.uk/places/moray/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "moray",
+        "url": "https://ukfoodhygiene.co.uk/councils/moray/"
       }
     }
   },
@@ -11231,6 +12821,11 @@
         "hasPage": true,
         "slug": "north-ayrshire",
         "url": "https://asylumstats.co.uk/places/north-ayrshire/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "north-ayrshire",
+        "url": "https://ukfoodhygiene.co.uk/councils/north-ayrshire/"
       }
     }
   },
@@ -11266,6 +12861,11 @@
         "hasPage": true,
         "slug": "orkney-islands",
         "url": "https://asylumstats.co.uk/places/orkney-islands/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "orkney-islands",
+        "url": "https://ukfoodhygiene.co.uk/councils/orkney-islands/"
       }
     }
   },
@@ -11301,6 +12901,11 @@
         "hasPage": true,
         "slug": "scottish-borders",
         "url": "https://asylumstats.co.uk/places/scottish-borders/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "scottish-borders",
+        "url": "https://ukfoodhygiene.co.uk/councils/scottish-borders/"
       }
     }
   },
@@ -11336,6 +12941,11 @@
         "hasPage": true,
         "slug": "shetland-islands",
         "url": "https://asylumstats.co.uk/places/shetland-islands/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "shetland-islands",
+        "url": "https://ukfoodhygiene.co.uk/councils/shetland-islands/"
       }
     }
   },
@@ -11371,6 +12981,11 @@
         "hasPage": true,
         "slug": "south-ayrshire",
         "url": "https://asylumstats.co.uk/places/south-ayrshire/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "south-ayrshire",
+        "url": "https://ukfoodhygiene.co.uk/councils/south-ayrshire/"
       }
     }
   },
@@ -11406,6 +13021,11 @@
         "hasPage": true,
         "slug": "south-lanarkshire",
         "url": "https://asylumstats.co.uk/places/south-lanarkshire/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "south-lanarkshire",
+        "url": "https://ukfoodhygiene.co.uk/councils/south-lanarkshire/"
       }
     }
   },
@@ -11441,6 +13061,11 @@
         "hasPage": true,
         "slug": "stirling",
         "url": "https://asylumstats.co.uk/places/stirling/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "stirling",
+        "url": "https://ukfoodhygiene.co.uk/councils/stirling/"
       }
     }
   },
@@ -11476,6 +13101,11 @@
         "hasPage": true,
         "slug": "aberdeen-city",
         "url": "https://asylumstats.co.uk/places/aberdeen-city/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "aberdeen-city",
+        "url": "https://ukfoodhygiene.co.uk/councils/aberdeen-city/"
       }
     }
   },
@@ -11511,6 +13141,11 @@
         "hasPage": true,
         "slug": "aberdeenshire",
         "url": "https://asylumstats.co.uk/places/aberdeenshire/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "aberdeenshire",
+        "url": "https://ukfoodhygiene.co.uk/councils/aberdeenshire/"
       }
     }
   },
@@ -11546,6 +13181,11 @@
         "hasPage": true,
         "slug": "argyll-and-bute",
         "url": "https://asylumstats.co.uk/places/argyll-and-bute/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "argyll-and-bute",
+        "url": "https://ukfoodhygiene.co.uk/councils/argyll-and-bute/"
       }
     }
   },
@@ -11581,6 +13221,11 @@
         "hasPage": true,
         "slug": "city-of-edinburgh",
         "url": "https://asylumstats.co.uk/places/city-of-edinburgh/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "edinburgh-city-of",
+        "url": "https://ukfoodhygiene.co.uk/councils/edinburgh-city-of/"
       }
     }
   },
@@ -11616,6 +13261,11 @@
         "hasPage": true,
         "slug": "renfrewshire",
         "url": "https://asylumstats.co.uk/places/renfrewshire/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "renfrewshire",
+        "url": "https://ukfoodhygiene.co.uk/councils/renfrewshire/"
       }
     }
   },
@@ -11651,6 +13301,11 @@
         "hasPage": true,
         "slug": "west-dunbartonshire",
         "url": "https://asylumstats.co.uk/places/west-dunbartonshire/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "west-dunbartonshire",
+        "url": "https://ukfoodhygiene.co.uk/councils/west-dunbartonshire/"
       }
     }
   },
@@ -11686,6 +13341,11 @@
         "hasPage": true,
         "slug": "west-lothian",
         "url": "https://asylumstats.co.uk/places/west-lothian/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "west-lothian",
+        "url": "https://ukfoodhygiene.co.uk/councils/west-lothian/"
       }
     }
   },
@@ -11721,6 +13381,11 @@
         "hasPage": true,
         "slug": "angus",
         "url": "https://asylumstats.co.uk/places/angus/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "angus",
+        "url": "https://ukfoodhygiene.co.uk/councils/angus/"
       }
     }
   },
@@ -11756,6 +13421,11 @@
         "hasPage": true,
         "slug": "dundee-city",
         "url": "https://asylumstats.co.uk/places/dundee-city/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "dundee-city",
+        "url": "https://ukfoodhygiene.co.uk/councils/dundee-city/"
       }
     }
   },
@@ -11791,6 +13461,11 @@
         "hasPage": true,
         "slug": "east-dunbartonshire",
         "url": "https://asylumstats.co.uk/places/east-dunbartonshire/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "east-dunbartonshire",
+        "url": "https://ukfoodhygiene.co.uk/councils/east-dunbartonshire/"
       }
     }
   },
@@ -11826,6 +13501,11 @@
         "hasPage": true,
         "slug": "fife",
         "url": "https://asylumstats.co.uk/places/fife/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "fife",
+        "url": "https://ukfoodhygiene.co.uk/councils/fife/"
       }
     }
   },
@@ -11861,6 +13541,11 @@
         "hasPage": true,
         "slug": "perth-and-kinross",
         "url": "https://asylumstats.co.uk/places/perth-and-kinross/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "perth-and-kinross",
+        "url": "https://ukfoodhygiene.co.uk/councils/perth-and-kinross/"
       }
     }
   },
@@ -11896,6 +13581,11 @@
         "hasPage": true,
         "slug": "glasgow-city",
         "url": "https://asylumstats.co.uk/places/glasgow-city/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "glasgow-city",
+        "url": "https://ukfoodhygiene.co.uk/councils/glasgow-city/"
       }
     }
   },
@@ -11931,6 +13621,11 @@
         "hasPage": true,
         "slug": "north-lanarkshire",
         "url": "https://asylumstats.co.uk/places/north-lanarkshire/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "north-lanarkshire",
+        "url": "https://ukfoodhygiene.co.uk/councils/north-lanarkshire/"
       }
     }
   },
@@ -11966,6 +13661,11 @@
         "hasPage": true,
         "slug": "isle-of-anglesey",
         "url": "https://asylumstats.co.uk/places/isle-of-anglesey/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "anglesey",
+        "url": "https://ukfoodhygiene.co.uk/councils/anglesey/"
       }
     }
   },
@@ -12001,6 +13701,11 @@
         "hasPage": true,
         "slug": "gwynedd",
         "url": "https://asylumstats.co.uk/places/gwynedd/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "gwynedd",
+        "url": "https://ukfoodhygiene.co.uk/councils/gwynedd/"
       }
     }
   },
@@ -12036,6 +13741,11 @@
         "hasPage": true,
         "slug": "conwy",
         "url": "https://asylumstats.co.uk/places/conwy/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "conwy",
+        "url": "https://ukfoodhygiene.co.uk/councils/conwy/"
       }
     }
   },
@@ -12071,6 +13781,11 @@
         "hasPage": true,
         "slug": "denbighshire",
         "url": "https://asylumstats.co.uk/places/denbighshire/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "denbighshire",
+        "url": "https://ukfoodhygiene.co.uk/councils/denbighshire/"
       }
     }
   },
@@ -12106,6 +13821,11 @@
         "hasPage": true,
         "slug": "flintshire",
         "url": "https://asylumstats.co.uk/places/flintshire/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "flintshire",
+        "url": "https://ukfoodhygiene.co.uk/councils/flintshire/"
       }
     }
   },
@@ -12141,6 +13861,11 @@
         "hasPage": true,
         "slug": "wrexham",
         "url": "https://asylumstats.co.uk/places/wrexham/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "wrexham",
+        "url": "https://ukfoodhygiene.co.uk/councils/wrexham/"
       }
     }
   },
@@ -12176,6 +13901,11 @@
         "hasPage": true,
         "slug": "ceredigion",
         "url": "https://asylumstats.co.uk/places/ceredigion/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "ceredigion",
+        "url": "https://ukfoodhygiene.co.uk/councils/ceredigion/"
       }
     }
   },
@@ -12211,6 +13941,11 @@
         "hasPage": true,
         "slug": "pembrokeshire",
         "url": "https://asylumstats.co.uk/places/pembrokeshire/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "pembrokeshire",
+        "url": "https://ukfoodhygiene.co.uk/councils/pembrokeshire/"
       }
     }
   },
@@ -12246,6 +13981,11 @@
         "hasPage": true,
         "slug": "carmarthenshire",
         "url": "https://asylumstats.co.uk/places/carmarthenshire/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "carmarthenshire",
+        "url": "https://ukfoodhygiene.co.uk/councils/carmarthenshire/"
       }
     }
   },
@@ -12281,6 +14021,11 @@
         "hasPage": true,
         "slug": "swansea",
         "url": "https://asylumstats.co.uk/places/swansea/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "swansea",
+        "url": "https://ukfoodhygiene.co.uk/councils/swansea/"
       }
     }
   },
@@ -12316,6 +14061,11 @@
         "hasPage": true,
         "slug": "neath-port-talbot",
         "url": "https://asylumstats.co.uk/places/neath-port-talbot/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "neath-port-talbot",
+        "url": "https://ukfoodhygiene.co.uk/councils/neath-port-talbot/"
       }
     }
   },
@@ -12351,6 +14101,11 @@
         "hasPage": true,
         "slug": "bridgend",
         "url": "https://asylumstats.co.uk/places/bridgend/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "bridgend",
+        "url": "https://ukfoodhygiene.co.uk/councils/bridgend/"
       }
     }
   },
@@ -12386,6 +14141,11 @@
         "hasPage": true,
         "slug": "vale-of-glamorgan",
         "url": "https://asylumstats.co.uk/places/vale-of-glamorgan/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "vale-of-glamorgan",
+        "url": "https://ukfoodhygiene.co.uk/councils/vale-of-glamorgan/"
       }
     }
   },
@@ -12421,6 +14181,11 @@
         "hasPage": true,
         "slug": "cardiff",
         "url": "https://asylumstats.co.uk/places/cardiff/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "cardiff",
+        "url": "https://ukfoodhygiene.co.uk/councils/cardiff/"
       }
     }
   },
@@ -12456,6 +14221,11 @@
         "hasPage": true,
         "slug": "rhondda-cynon-taf",
         "url": "https://asylumstats.co.uk/places/rhondda-cynon-taf/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "rhondda-cynon-taf",
+        "url": "https://ukfoodhygiene.co.uk/councils/rhondda-cynon-taf/"
       }
     }
   },
@@ -12491,6 +14261,11 @@
         "hasPage": true,
         "slug": "caerphilly",
         "url": "https://asylumstats.co.uk/places/caerphilly/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "caerphilly",
+        "url": "https://ukfoodhygiene.co.uk/councils/caerphilly/"
       }
     }
   },
@@ -12526,6 +14301,11 @@
         "hasPage": true,
         "slug": "blaenau-gwent",
         "url": "https://asylumstats.co.uk/places/blaenau-gwent/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "blaenau-gwent",
+        "url": "https://ukfoodhygiene.co.uk/councils/blaenau-gwent/"
       }
     }
   },
@@ -12561,6 +14341,11 @@
         "hasPage": true,
         "slug": "torfaen",
         "url": "https://asylumstats.co.uk/places/torfaen/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "torfaen",
+        "url": "https://ukfoodhygiene.co.uk/councils/torfaen/"
       }
     }
   },
@@ -12596,6 +14381,11 @@
         "hasPage": true,
         "slug": "monmouthshire",
         "url": "https://asylumstats.co.uk/places/monmouthshire/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "monmouthshire",
+        "url": "https://ukfoodhygiene.co.uk/councils/monmouthshire/"
       }
     }
   },
@@ -12631,6 +14421,11 @@
         "hasPage": true,
         "slug": "newport",
         "url": "https://asylumstats.co.uk/places/newport/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "newport",
+        "url": "https://ukfoodhygiene.co.uk/councils/newport/"
       }
     }
   },
@@ -12666,6 +14461,11 @@
         "hasPage": true,
         "slug": "powys",
         "url": "https://asylumstats.co.uk/places/powys/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "powys",
+        "url": "https://ukfoodhygiene.co.uk/councils/powys/"
       }
     }
   },
@@ -12701,6 +14501,11 @@
         "hasPage": true,
         "slug": "merthyr-tydfil",
         "url": "https://asylumstats.co.uk/places/merthyr-tydfil/"
+      },
+      "ukfoodhygiene": {
+        "hasPage": true,
+        "slug": "merthyr-tydfil",
+        "url": "https://ukfoodhygiene.co.uk/councils/merthyr-tydfil/"
       }
     }
   }

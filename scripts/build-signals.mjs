@@ -12,6 +12,10 @@ const sourcePaths = {
   ukdemographics: "/Users/tompickup/ukdemographics/src/data/live/crime-dashboard.json",
   aidogeSummaries: "/Users/tompickup/aidoge-site/data/summaries",
   asylumstats: "/Users/tompickup/asylumstats/data/marts/uk_routes/local-route-latest.json",
+  // Gitignored ETL output; vps-main:/root/ukfoodhygiene-release/site/src/data/ holds the
+  // copy the live site is built from. Refuse a stale local copy rather than publish it.
+  ukfoodhygieneCouncils: "/Users/tompickup/ukfoodhygiene/site/src/data/councils.json",
+  ukfoodhygieneMeta: "/Users/tompickup/ukfoodhygiene/site/src/data/meta.json",
 };
 
 const readJson = (filePath) => JSON.parse(fs.readFileSync(filePath, "utf8"));
@@ -149,10 +153,37 @@ for (const [gss, place] of Object.entries(registry)) {
   };
 }
 
+const foodMeta = readJson(sourcePaths.ukfoodhygieneMeta);
+const foodAgeDays = (Date.now() - Date.parse(`${foodMeta.data_date}T00:00:00Z`)) / 86_400_000;
+if (!/^\d{4}-\d{2}-\d{2}$/.test(foodMeta.data_date) || foodAgeDays > 7) {
+  throw new Error(`UK Food Hygiene data_date ${foodMeta.data_date} is missing or older than seven days; copy councils.json and meta.json from vps-main first.`);
+}
+const foodBySlug = new Map(readJson(sourcePaths.ukfoodhygieneCouncils).map((council) => [council.council_slug, council]));
+const foodFeed = {};
+for (const [gss, place] of Object.entries(registry)) {
+  const council = place.coverage.ukfoodhygiene.slug ? foodBySlug.get(place.coverage.ukfoodhygiene.slug) : null;
+  // pct_five only. Scottish councils run the pass/improvement scheme and carry
+  // rated_count 0 with pct_five 0.0, which is no rating rather than a zero share.
+  if (!council || typeof council.pct_five !== "number" || !(council.rated_count > 0)) {
+    foodFeed[gss] = blankSignal();
+    continue;
+  }
+
+  foodFeed[gss] = {
+    value: `${council.pct_five.toFixed(1)}%`,
+    unit: "%",
+    label: `Businesses rated 5 out of ${council.rated_count.toLocaleString("en-GB")} rated`,
+    period: `Official register as at ${formatDate(foodMeta.data_date)}.`,
+    snapshotDate: foodMeta.data_date,
+    url: place.coverage.ukfoodhygiene.url,
+  };
+}
+
 writeFeed("ukelections", electionFeed);
 writeFeed("ukdemographics", crimeFeed);
 writeFeed("aidoge", aidogeFeed);
 writeFeed("asylumstats", asylumFeed);
+writeFeed("ukfoodhygiene", foodFeed);
 
 console.table(
   Object.entries({
@@ -160,6 +191,7 @@ console.table(
     ukdemographics: crimeFeed,
     aidoge: aidogeFeed,
     asylumstats: asylumFeed,
+    ukfoodhygiene: foodFeed,
   }).map(([source, feed]) => ({
     source,
     signals: Object.values(feed).filter((signal) => signal.value !== null).length,

@@ -17,12 +17,13 @@ for (const [gss, qid] of Object.entries(wikidataLookup)) {
 }
 const resolvedWikidata = Object.values(wikidataLookup).filter(Boolean).length;
 assert.equal(resolvedWikidata, 328, "the committed Wikidata lookup resolves 328 codes to a single item");
-const sourceIds = ["ukelections", "ukdemographics", "aidoge", "asylumstats"];
+const sourceIds = ["ukelections", "ukdemographics", "aidoge", "asylumstats", "ukfoodhygiene"];
 const expectedBurnleyUrls = {
   ukelections: "https://ukelections.co.uk/seats/burnley/",
   ukdemographics: "https://ukdemographics.co.uk/places/burnley/",
   aidoge: "https://aidoge.co.uk/councils/burnley/",
   asylumstats: "https://asylumstats.co.uk/places/burnley/",
+  ukfoodhygiene: "https://ukfoodhygiene.co.uk/councils/burnley/",
 };
 
 assert.equal(records.length, 361, "registry must contain every local authority");
@@ -54,6 +55,9 @@ for (const [gss, place] of records) {
 }
 
 assert.equal(new Set(urls).size, urls.length, "every confirmed coverage URL must be unique");
+assert.equal(records.filter(([, place]) => place.coverage.ukfoodhygiene.hasPage).length, 361, "UK Food Hygiene covers every place");
+// D10: with Asylum Stats and UK Food Hygiene on every record, no place has a single source.
+assert.ok(records.every(([, place]) => sourceIds.filter((source) => place.coverage[source].hasPage).length >= 2), "every place has at least two sources");
 
 const burnley = registry.E07000117;
 assert.ok(burnley, "Burnley must be present");

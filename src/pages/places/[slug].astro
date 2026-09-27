@@ -66,7 +66,8 @@ const structuredData = [
     ...(place.wikidata ? { sameAs: `https://www.wikidata.org/wiki/${place.wikidata}` } : {}),
   },
 ];
-const formatSignal = (signal: Signal) => signal.unit === "GBP" ? signal.value : `${signal.value} ${signal.unit}`;
+// Money and percentage values already carry their unit.
+const formatSignal = (signal: Signal) => signal.unit === "GBP" || signal.unit === "%" ? signal.value : `${signal.value} ${signal.unit}`;
 
 const formatDate = (date: string) => new Intl.DateTimeFormat("en-GB", {
   day: "numeric",
