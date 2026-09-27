@@ -645,8 +645,11 @@ a {
   width: fit-content;
 }
 
+/* Source accents are too dark to read as text on the dark ground; they stay on
+   the borders as wayfinding and the text takes the ink colour. */
 @media (prefers-color-scheme: dark) {
-  .place-source__name {
+  .place-source__name,
+  .home-source-card h3 {
     color: var(--text);
   }
 }
@@ -897,4 +900,15 @@ a {
   font-size: 0.875rem;
   font-weight: 600;
   margin: 1rem 0 0;
+}
+
+.home-source-card .home-source-card__open {
+  font-size: 1rem;
+}
+
+.home-source-card .home-source-card__about {
+  color: var(--text-muted);
+  display: block;
+  font-weight: 400;
+  margin-top: 0.5rem;
 }
