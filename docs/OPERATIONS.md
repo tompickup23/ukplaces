@@ -69,3 +69,7 @@ All four run in `site-checks.yml` and `deploy.yml`.
 
 `npm run build:constituencies` fills the PCON code UK Elections leaves null (77 seats in Scotland and Northern Ireland) by an exact, unique match on the official ONS name in `ukelections/data/geography/pcon24-simplified.geojson`; it stops if that match disagrees with any code UK Elections does carry. Each seat's current local authorities (`ladCodes`) come from `ukelections/data/ons-pcon24-lad25-postcode-crosswalk.json` (ONS Postcode Directory), counting a pair only where at least 10 live postcodes fall in both. `lad24cds` keeps the UK Elections list unchanged. Run `build:place-constituencies` after it, because place membership is built from the constituency registry.
 
+## Analytics
+
+The Cloudflare Web Analytics beacon is built in but off until a token exists. To switch it on, create a Web Analytics site for `ukplaces.co.uk` in the Cloudflare dashboard (manual install, not automatic), copy its token from the JavaScript snippet, and set it as the repository variable `CF_BEACON_TOKEN` (Settings, Secrets and variables, Actions, Variables). Both workflows pass it to the build as `PUBLIC_CF_BEACON_TOKEN`. `npm run check:analytics` then requires exactly one beacon with that token on every page and the Cloudflare sentence on `/privacy/`; with no variable it requires no beacon anywhere. The token is public, so a variable rather than a secret. The Cloudflare API token on vps-main can list Web Analytics sites but not create them.
+

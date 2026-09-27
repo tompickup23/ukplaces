@@ -9,6 +9,7 @@ import {
   SITE_URL,
   normalisePageTitle,
 } from "../lib/site";
+import { beaconToken } from "../lib/analytics";
 
 interface Props {
   title: string;
@@ -62,6 +63,9 @@ const socialImageUrl = /^https?:\/\//.test(image)
     <link rel="preload" href="/fonts/source-serif-4-latin-600.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="preload" href="/fonts/source-sans-3-latin-400.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="preload" href="/fonts/source-sans-3-latin-600.woff2" as="font" type="font/woff2" crossorigin />
+    {beaconToken && (
+      <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon={JSON.stringify({ token: beaconToken })}></script>
+    )}
     {structuredData.map((item) => (
       <script type="application/ld+json" is:inline set:html={JSON.stringify(item)} />
     ))}

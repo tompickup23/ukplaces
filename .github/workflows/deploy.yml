@@ -18,6 +18,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    # The Cloudflare Web Analytics beacon token is public (it ships in every page).
+    # It comes from the CF_BEACON_TOKEN repository variable, set by the repo owner;
+    # when unset the site builds with no beacon and check:analytics asserts that.
+    env:
+      PUBLIC_CF_BEACON_TOKEN: ${{ vars.CF_BEACON_TOKEN }}
     steps:
       - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09
         with:
@@ -44,6 +49,7 @@ jobs:
       - run: npm run check:text-size
       - run: npm run check:sitemap
       - run: npm run check:metadata
+      - run: npm run check:analytics
       - run: npm run check:parity
       - uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b
         with:
