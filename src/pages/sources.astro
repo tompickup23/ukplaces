@@ -1,6 +1,14 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import sources from "../data/sources.json";
+import { getCoverageRows, placesByGss } from "../lib/place-records";
+
+// Counted from the registry and the signal feeds, never typed.
+const places = Object.values(placesByGss);
+const coverage = Object.fromEntries(sources.map((source) => {
+  const rows = places.flatMap((place) => getCoverageRows(place.gss).filter((row) => row.source.id === source.id));
+  return [source.id, { pages: rows.length, signals: rows.filter((row) => row.signal.value !== null).length }];
+}));
 
 const logos: Record<string, string> = {
   ukelections: "/brands/ukelections.svg",
@@ -15,7 +23,7 @@ const logos: Record<string, string> = {
   <main class="shell static-page" id="main-content">
     <section class="static-hero"><p class="eyebrow">Sources</p><h1>The projects behind the record.</h1><p>UK Places is an index and explainer. The source projects below hold the detailed records, data provenance and specialist methodology.</p></section>
     <div class="sources-list">
-      {sources.map((source) => <a class="source-card" style={`--source-accent: ${source.accent}`} href={source.siteUrl}>{logos[source.id] && <img src={logos[source.id]} alt="" />}<h2>{source.name}</h2><p>{source.topic}</p><span>Open source</span></a>)}
+      {sources.map((source) => <a class="source-card" style={`--source-accent: ${source.accent}`} href={source.siteUrl}>{logos[source.id] && <img src={logos[source.id]} alt="" />}<h2>{source.name}</h2><p>{source.topic}</p><p>Linked from {coverage[source.id].pages} of {places.length} local authority records, with a current figure on {coverage[source.id].signals}.</p><span>Open source</span></a>)}
     </div>
   </main>
 </BaseLayout>
