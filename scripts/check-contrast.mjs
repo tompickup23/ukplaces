@@ -34,5 +34,16 @@ const pairs = (tokens) => [
 
 const checks = [...pairs(light), ...pairs(dark), ...sources.map((source) => [source.accent, light["--bg-card"]])];
 const failures = checks.filter(([foreground, background]) => ratio(foreground, background) < 4.5);
+
+// Accents are only checked on the light card. On the dark ground every selector
+// that sets text in a source accent must be overridden to the ink colour.
+const darkBlocks = [...css.matchAll(/@media \(prefers-color-scheme: dark\)\s*\{([\s\S]*?)\n\}/g)].map((match) => match[1]);
+const accentTextSelectors = [...css.matchAll(/([^{}]+)\{[^{}]*?(?<![-\w])color:\s*var\(--source-accent\)/g)]
+  .flatMap(([, selectors]) => selectors.split(",").map((selector) => selector.trim()));
+for (const selector of accentTextSelectors) {
+  const overridden = darkBlocks.some((block) => [...block.matchAll(/([^{}]+)\{([^{}]*)\}/g)]
+    .some(([, selectors, body]) => selectors.split(",").map((item) => item.trim()).includes(selector) && /(?<![-\w])color:\s*var\(--text\)/.test(body)));
+  if (!overridden) failures.push([`source accent text ${selector}`, "dark ground (no ink override)"]);
+}
 if (failures.length) throw new Error(`Contrast below 4.5:1: ${failures.map(([foreground, background]) => `${foreground} on ${background}`).join(", ")}`);
-console.log(`Contrast check passed for ${checks.length} declared text/background pairs.`);
+console.log(`Contrast check passed for ${checks.length} declared text/background pairs and ${accentTextSelectors.length} accent text selectors overridden on dark.`);

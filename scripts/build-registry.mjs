@@ -218,6 +218,23 @@ for (const area of [...asylumAreas].sort((left, right) => left.areaCode.localeCo
   };
 }
 
+// County councils named by the parent GSS codes above, from the AI DOGE crosswalk
+// only: the name AI DOGE publishes where it confirms a page, the crosswalk name
+// otherwise, and no record at all where the crosswalk holds no single row.
+const countyCouncils = {};
+for (const parentGss of [...new Set(Object.values(registry).map((place) => place.parentGss).filter(Boolean))].sort()) {
+  const crosswalkMatches = crosswalkByGss.get(parentGss) ?? [];
+  if (crosswalkMatches.length !== 1) continue;
+  const aidogeMatches = aidogeByGss.get(parentGss) ?? [];
+  const aidogeMatch = aidogeMatches.length === 1 ? aidogeMatches[0] : null;
+  countyCouncils[parentGss] = {
+    gss: parentGss,
+    name: aidogeMatch?.summary.name ?? crosswalkMatches[0].name,
+    aidoge: coverage(Boolean(aidogeMatch), aidogeMatch?.id ?? null, sourceUrls.aidoge),
+  };
+}
+fs.writeFileSync(path.join(registryDir, "county-councils.json"), `${JSON.stringify(countyCouncils, null, 2)}\n`);
+
 if (unresolvedParents.length) {
   console.warn(`Parent GSS unavailable: ${unresolvedParents.join(", ")}`);
 }
@@ -236,4 +253,5 @@ const coverageCounts = Object.fromEntries(
 console.table(
   Object.entries(coverageCounts).map(([source, covered]) => ({ source, covered, total: Object.keys(registry).length })),
 );
+console.log(`County councils named: ${Object.keys(countyCouncils).length}`);
 console.log("Burnley coverage:", registry.E07000117.coverage);

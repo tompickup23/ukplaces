@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { SITE_URL, normalisePageTitle } from "../../lib/site";
+import { resolveConstituencyRegion } from "../../lib/regions";
 import registry from "../../data/registry/places.json";
 import constituencies from "../../data/registry/constituencies.json";
 
@@ -28,7 +29,7 @@ const { slug } = Astro.props;
 const constituency = (constituencies as Record<string, Constituency>)[slug];
 const placesByGss = registry as Record<string, Place>;
 const localAuthorities = constituency.lad24cds.map((gss) => ({ gss, place: placesByGss[gss] ?? null }));
-const regionName = constituency.region?.replace(/_/g, " ").replace(/\b\w/g, (letter) => letter.toUpperCase()) ?? null;
+const region = resolveConstituencyRegion(constituency.region, constituency.lad24cds);
 const canonicalUrl = `${SITE_URL}/constituencies/${constituency.slug}/`;
 const authorityNames = localAuthorities.map(({ gss, place }) => place?.name ?? `GSS code ${gss}`);
 const authorityList = authorityNames.length > 1
@@ -94,7 +95,7 @@ const formatDate = (date: string) => new Intl.DateTimeFormat("en-GB", {
     </nav>
 
     <header class="place-hero">
-      <p class="eyebrow">Parliamentary constituency{regionName && ` · ${regionName}`}</p>
+      <p class="eyebrow">Parliamentary constituency{region && <> · {region.slug ? <a href={`/places/regions/${region.slug}/`}>{region.name}</a> : region.name}</>}</p>
       <h1>{constituency.name}</h1>
       {constituency.pcon24cd ? <p class="place-hero__meta">PCON code {constituency.pcon24cd}</p> : <p class="place-hero__summary">PCON code is not present in the source file for this record.</p>}
     </header>

@@ -3,12 +3,17 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import { SITE_URL, normalisePageTitle } from "../../lib/site";
 import { describePlace, placeTitle, type Signal } from "../../lib/place-meta";
 import constituenciesByPlace from "../../data/registry/place-constituencies.json";
+import countyCouncilData from "../../data/registry/county-councils.json";
 import { getCoverageRows, getLastModified, placesByGss } from "../../lib/place-records";
 import { regionSlug } from "../../lib/regions";
 
 type Constituency = { pcon24cd: string; name: string; slug: string; url: string };
 
+type CountyCouncil = { gss: string; name: string; aidoge: { hasPage: boolean; url: string | null } };
+
 const constituenciesByGss = constituenciesByPlace as Record<string, Constituency[]>;
+const countyCouncils = countyCouncilData as Record<string, CountyCouncil>;
+const SIBLING_CAP = 20;
 
 export function getStaticPaths() {
   return Object.values(placesByGss).map((place) => ({
@@ -23,6 +28,17 @@ const constituencies = constituenciesByGss[gss] ?? [];
 const coverageRows = getCoverageRows(gss);
 const lastReviewed = getLastModified(gss);
 const canonicalUrl = `${SITE_URL}/places/${place.slug}/`;
+const regionPath = `/places/regions/${regionSlug(place.region)}/`;
+// Scotland, Wales and Northern Ireland have region equal to country: name it once.
+const regionIsCountry = place.region === place.country;
+const countyCouncil = place.parentGss ? countyCouncils[place.parentGss] ?? null : null;
+// Other places in the same ceremonial county, or the same region where the
+// registry has no county, alphabetically.
+const siblingGroup = place.county ?? place.region;
+const siblings = Object.values(placesByGss)
+  .filter((other) => other.gss !== place.gss && (place.county ? other.county === place.county : other.region === place.region))
+  .sort((left, right) => left.name.localeCompare(right.name));
+const regionCount = Object.values(placesByGss).filter((other) => other.region === place.region).length;
 const description = describePlace(place, coverageRows.map(({ signal }) => signal));
 const title = placeTitle(place.name, coverageRows.map(({ source }) => source.id));
 const structuredData = [
@@ -88,7 +104,7 @@ const formatDate = (date: string) => new Intl.DateTimeFormat("en-GB", {
     </nav>
 
     <header class="place-hero">
-      <p class="eyebrow">{place.type} · {place.region}</p>
+      <p class="eyebrow">{place.type} · <a href={regionPath}>{place.region}</a></p>
       <h1>{place.name}</h1>
       <p class="place-hero__meta">GSS code {place.gss}</p>
       {lastReviewed && <p class="place-hero__summary">Last reviewed {formatDate(lastReviewed)} from the latest source snapshot on this record.</p>}
@@ -100,9 +116,13 @@ const formatDate = (date: string) => new Intl.DateTimeFormat("en-GB", {
       <dl class="place-geo">
         <div class="place-geo__item"><dt class="place-geo__label">Council</dt><dd class="place-geo__value">{place.officialName}</dd></div>
         <div class="place-geo__item"><dt class="place-geo__label">Authority type</dt><dd class="place-geo__value">{place.type}</dd></div>
-        <div class="place-geo__item"><dt class="place-geo__label">Country and region</dt><dd class="place-geo__value">{place.country} · {place.region}</dd></div>
+        {regionIsCountry
+          ? <div class="place-geo__item"><dt class="place-geo__label">Country</dt><dd class="place-geo__value"><a href={regionPath}>{place.country}</a></dd></div>
+          : <div class="place-geo__item"><dt class="place-geo__label">Country and region</dt><dd class="place-geo__value">{place.country} · <a href={regionPath}>{place.region}</a></dd></div>}
         {place.county && <div class="place-geo__item"><dt class="place-geo__label">Ceremonial county</dt><dd class="place-geo__value">{place.county}</dd></div>}
-        {place.parentGss && <div class="place-geo__item"><dt class="place-geo__label">Parent county GSS code</dt><dd class="place-geo__value">{place.parentGss}</dd></div>}
+        {place.parentGss && <div class="place-geo__item"><dt class="place-geo__label">County council</dt><dd class="place-geo__value">{countyCouncil
+          ? <>{countyCouncil.aidoge.hasPage && countyCouncil.aidoge.url ? <a href={countyCouncil.aidoge.url}>{countyCouncil.name}</a> : countyCouncil.name} <span class="place-geo__code">GSS code {place.parentGss}</span></>
+          : <>GSS code {place.parentGss}</>}</dd></div>}
         {constituencies.length > 0 && <div class="place-geo__item"><dt class="place-geo__label">Westminster constituency</dt><dd class="place-geo__value">{constituencies.map((constituency, index) => <Fragment>{index > 0 && ", "}<a href={constituency.url}>{constituency.name}</a></Fragment>)}</dd></div>}
         {place.reorganisation && <div class="place-geo__item"><dt class="place-geo__label">Reorganisation</dt><dd class="place-geo__value">{place.reorganisation.note} <a href={place.reorganisation.sourceUrl}>Source</a></dd></div>}
       </dl>
@@ -139,5 +159,18 @@ const formatDate = (date: string) => new Intl.DateTimeFormat("en-GB", {
         {coverageRows.map(({ source, signal }) => signal.snapshotDate && <div><dt>{source.name}</dt><dd>{formatDate(signal.snapshotDate)}</dd></div>)}
       </dl>
     </section>
+
+    {siblings.length > 0 && (
+      <section class="place-section" aria-labelledby="siblings-heading">
+        <p class="eyebrow">Nearby records</p>
+        <h2 id="siblings-heading">Also in {siblingGroup}</h2>
+        <ul class="directory-list place-siblings">
+          {siblings.slice(0, SIBLING_CAP).map((other) => (
+            <li><a href={`/places/${other.slug}/`}>{other.name}<span>{other.type}</span></a></li>
+          ))}
+        </ul>
+        {siblings.length > SIBLING_CAP && <p class="place-siblings__more"><a href={regionPath}>All {regionCount} records in {place.region}</a></p>}
+      </section>
+    )}
   </main>
 </BaseLayout>
