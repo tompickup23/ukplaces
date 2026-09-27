@@ -13,7 +13,7 @@ type Constituency = {
   pcon24cd: string | null;
   country: string | null;
   region: string | null;
-  lad24cds: string[];
+  ladCodes: string[];
   mp: { name: string; party: string; electedDate: string | null; snapshotDate: string | null } | null;
   result: { winnerName: string | null; winnerParty: string | null; sourceUrl: string | null; url: string };
   ukdemographics: { hasPage: boolean; slug: string | null; url: string | null };
@@ -29,8 +29,8 @@ export function getStaticPaths() {
 const { slug } = Astro.props;
 const constituency = (constituencies as Record<string, Constituency>)[slug];
 const placesByGss = registry as Record<string, Place>;
-const localAuthorities = constituency.lad24cds.map((gss) => ({ gss, place: placesByGss[gss] ?? null }));
-const region = resolveConstituencyRegion(constituency.region, constituency.lad24cds);
+const localAuthorities = constituency.ladCodes.map((gss) => ({ gss, place: placesByGss[gss] ?? null }));
+const region = resolveConstituencyRegion(constituency.region, constituency.ladCodes);
 const canonicalUrl = `${SITE_URL}/constituencies/${constituency.slug}/`;
 const authorityNames = localAuthorities.map(({ gss, place }) => place?.name ?? `GSS code ${gss}`);
 const authorityList = authorityNames.length > 1
@@ -38,7 +38,7 @@ const authorityList = authorityNames.length > 1
   : authorityNames[0] ?? null;
 const description = [
   `${constituency.name} parliamentary constituency.`,
-  authorityList ? `Local authorities: ${authorityList}.` : "Constituent local authorities are not listed in the source file.",
+  authorityList ? `${authorityNames.length > 1 ? "Local authorities" : "Local authority"}: ${authorityList}.` : "Constituent local authorities are not listed in the source file.",
   constituency.result.winnerParty ? `2024 winner: ${constituency.result.winnerParty}.` : null,
   "Codes and source links on the record.",
 ].filter(Boolean).join(" ");

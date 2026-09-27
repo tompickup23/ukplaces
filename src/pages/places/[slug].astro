@@ -130,7 +130,7 @@ const formatDate = (date: string) => new Intl.DateTimeFormat("en-GB", {
         {place.parentGss && <div class="place-geo__item"><dt class="place-geo__label">County council</dt><dd class="place-geo__value">{countyCouncil
           ? <>{countyCouncil.aidoge.hasPage && countyCouncil.aidoge.url ? <a href={countyCouncil.aidoge.url}>{countyCouncil.name}</a> : countyCouncil.name} <span class="place-geo__code">GSS code {place.parentGss}</span></>
           : <>GSS code {place.parentGss}</>}</dd></div>}
-        {constituencies.length > 0 && <div class="place-geo__item"><dt class="place-geo__label">Westminster constituency</dt><dd class="place-geo__value">{constituencies.map((constituency, index) => <Fragment>{index > 0 && ", "}<a href={constituency.url}>{constituency.name}</a></Fragment>)}</dd></div>}
+        {constituencies.length > 0 && <div class="place-geo__item"><dt class="place-geo__label">{constituencies.length > 1 ? "Westminster constituencies" : "Westminster constituency"}</dt><dd class="place-geo__value">{constituencies.map((constituency, index) => <Fragment>{index > 0 && ", "}<a href={constituency.url}>{constituency.name}</a></Fragment>)}</dd></div>}
         {place.reorganisation && <div class="place-geo__item"><dt class="place-geo__label">Reorganisation</dt><dd class="place-geo__value">{place.reorganisation.note} <a href={place.reorganisation.sourceUrl}>Source</a></dd></div>}
       </dl>
       <p class="place-boundary-note"><strong>What this record is:</strong> this is the {place.type.toLowerCase()} named {place.name}; it is a geography record rather than a record for a settlement with the same name.</p>

@@ -61,10 +61,10 @@ export function titleCaseRegion(key: string): string {
 // registry region exactly. Anything else is shown as text with no link.
 export function resolveConstituencyRegion(
   regionKey: string | null,
-  lad24cds: string[],
+  ladCodes: string[],
 ): { name: string; slug: string | null } | null {
   const places = registry as Record<string, Place>;
-  const authorityRegions = new Set(lad24cds.filter((gss) => places[gss]).map((gss) => places[gss].region));
+  const authorityRegions = new Set(ladCodes.filter((gss) => places[gss]).map((gss) => places[gss].region));
   const name = authorityRegions.size === 1
     ? [...authorityRegions][0]
     : regionKey ? registryRegionNames.get(normaliseRegionKey(regionKey)) ?? null : null;

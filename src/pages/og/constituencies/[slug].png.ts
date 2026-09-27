@@ -11,7 +11,7 @@ type Constituency = {
   slug: string;
   name: string;
   region: string | null;
-  lad24cds: string[];
+  ladCodes: string[];
   result: { winnerParty: string | null };
 };
 
@@ -24,8 +24,8 @@ export function getStaticPaths() {
 
 export const GET: APIRoute = async ({ props }) => {
   const constituency = (constituencies as Record<string, Constituency>)[props.slug as string];
-  const region = resolveConstituencyRegion(constituency.region, constituency.lad24cds);
-  const authorities = constituency.lad24cds.map((gss) => placesByGss[gss]?.name ?? gss);
+  const region = resolveConstituencyRegion(constituency.region, constituency.ladCodes);
+  const authorities = constituency.ladCodes.map((gss) => placesByGss[gss]?.name ?? gss);
   const authorityText = authorities.length > 3
     ? `${authorities.slice(0, 3).join(", ")} and ${authorities.length - 3} more`
     : authorities.length > 1 ? `${authorities.slice(0, -1).join(", ")} and ${authorities.at(-1)}` : authorities[0];
