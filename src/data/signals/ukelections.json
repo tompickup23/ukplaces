@@ -1984,12 +1984,12 @@
     "url": "https://ukelections.co.uk/seats/sunderland/"
   },
   "E08000025": {
-    "value": "null undefined of 101",
-    "unit": "seats",
-    "label": "Council control",
-    "period": "After the 7 May 2026 election; source dataset generated 30 August 2026.",
-    "snapshotDate": "2026-08-30",
-    "url": "https://ukelections.co.uk/seats/birmingham/"
+    "value": null,
+    "unit": null,
+    "label": null,
+    "period": null,
+    "snapshotDate": null,
+    "url": null
   },
   "E08000026": {
     "value": "Labour 24 of 54",
@@ -2136,12 +2136,12 @@
     "url": "https://ukelections.co.uk/seats/bexley/"
   },
   "E09000005": {
-    "value": "null undefined of 57",
-    "unit": "seats",
-    "label": "Council control",
-    "period": "After the 7 May 2026 election; source dataset generated 30 August 2026.",
-    "snapshotDate": "2026-08-30",
-    "url": "https://ukelections.co.uk/seats/brent/"
+    "value": null,
+    "unit": null,
+    "label": null,
+    "period": null,
+    "snapshotDate": null,
+    "url": null
   },
   "E09000006": {
     "value": "Conservative 35 of 58",
@@ -2296,12 +2296,12 @@
     "url": "https://ukelections.co.uk/seats/merton/"
   },
   "E09000025": {
-    "value": "null undefined of 66",
-    "unit": "seats",
-    "label": "Council control",
-    "period": "After the 7 May 2026 election; source dataset generated 30 August 2026.",
-    "snapshotDate": "2026-08-30",
-    "url": "https://ukelections.co.uk/seats/newham/"
+    "value": null,
+    "unit": null,
+    "label": null,
+    "period": null,
+    "snapshotDate": null,
+    "url": null
   },
   "E09000026": {
     "value": "Independent/Other 23 of 63",
@@ -2336,12 +2336,12 @@
     "url": "https://ukelections.co.uk/seats/sutton/"
   },
   "E09000030": {
-    "value": "null undefined of 45",
-    "unit": "seats",
-    "label": "Council control",
-    "period": "After the 7 May 2026 election; source dataset generated 30 August 2026.",
-    "snapshotDate": "2026-08-30",
-    "url": "https://ukelections.co.uk/seats/tower-hamlets/"
+    "value": null,
+    "unit": null,
+    "label": null,
+    "period": null,
+    "snapshotDate": null,
+    "url": null
   },
   "E09000031": {
     "value": "Green 31 of 60",

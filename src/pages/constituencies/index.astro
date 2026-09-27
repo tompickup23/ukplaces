@@ -6,7 +6,7 @@ const records = Object.values(constituencies).sort((left, right) => left.name.lo
 const displayName = (value: string) => value.replace(/_/g, " ").replace(/\b\w/g, (letter) => letter.toUpperCase());
 ---
 
-<BaseLayout title="Constituencies" description="Browse all UK Places parliamentary constituency geography records.">
+<BaseLayout title="Constituencies" description={`Browse all ${records.length} UK parliamentary constituency records on UK Places, with codes, local authorities and links to each detailed source.`}>
   <main class="shell directory-page" id="main-content">
     <section class="directory-hero">
       <p class="eyebrow">Constituency directory</p>

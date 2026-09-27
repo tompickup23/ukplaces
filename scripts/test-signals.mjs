@@ -20,6 +20,7 @@ for (const [source, feed] of Object.entries(feeds)) {
   for (const [gss, signal] of Object.entries(feed)) {
     assert.deepEqual(Object.keys(signal).sort(), expectedFields, `${source} ${gss} has exactly six signal fields`);
     if (signal.value !== null) {
+      assert.doesNotMatch(String(signal.value), /\b(?:null|undefined|NaN)\b/, `${source} ${gss} value is built from present source fields`);
       assert.ok(signal.unit && signal.label && signal.period && signal.snapshotDate && signal.url, `${source} ${gss} complete signal`);
       assert.ok(signal.url.endsWith("/"), `${source} ${gss} URL has a trailing slash`);
     }

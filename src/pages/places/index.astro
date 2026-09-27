@@ -13,7 +13,7 @@ const grouped = countries.map((country) => ({
 }));
 ---
 
-<BaseLayout title="Places" description="Browse all UK Places local-authority geography records.">
+<BaseLayout title="Places" description={`Browse all ${places.length} UK local authority records on UK Places by country and region, with codes and links to each detailed source.`}>
   <main class="shell directory-page" id="main-content">
     <section class="directory-hero">
       <p class="eyebrow">Place directory</p>

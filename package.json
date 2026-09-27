@@ -20,6 +20,7 @@
     "check:text-size": "node scripts/check-text-size.mjs",
     "check:contrast": "node scripts/check-contrast.mjs",
     "check:sitemap": "node scripts/check-sitemap.mjs",
+    "check:metadata": "node scripts/check-metadata.mjs",
     "check:parity": "node scripts/check-parity.mjs",
     "check:production": "node scripts/check-production.mjs",
     "audit:prod": "npm audit --omit=dev --audit-level=high"

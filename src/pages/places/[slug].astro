@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { SITE_URL } from "../../lib/site";
+import { describePlace, placeTitle, type Signal } from "../../lib/place-meta";
 import registry from "../../data/registry/places.json";
 import constituenciesByPlace from "../../data/registry/place-constituencies.json";
 import sources from "../../data/sources.json";
@@ -21,7 +22,6 @@ type Place = {
   coverage: Record<string, Coverage>;
 };
 type Constituency = { pcon24cd: string; name: string; slug: string; url: string };
-type Signal = { value: string | number | null; unit: string | null; label: string | null; period: string | null; snapshotDate: string | null; url: string | null };
 
 const placesByGss = registry as Record<string, Place>;
 const constituenciesByGss = constituenciesByPlace as Record<string, Constituency[]>;
@@ -53,7 +53,8 @@ const reviewDates = coverageRows
   .sort();
 const lastReviewed = reviewDates.at(-1) ?? null;
 const canonicalUrl = `${SITE_URL}/places/${place.slug}/`;
-const description = `${place.name} geography record: local authority code, geography and source coverage.`;
+const description = describePlace(place, coverageRows.map(({ signal }) => signal));
+const title = placeTitle(place.name, coverageRows.map(({ source }) => source.id));
 const structuredData = [
   {
     "@context": "https://schema.org",
@@ -88,7 +89,7 @@ const formatDate = (date: string) => new Intl.DateTimeFormat("en-GB", {
 }).format(new Date(`${date}T00:00:00Z`));
 ---
 
-<BaseLayout title={place.name} description={description} structuredData={structuredData}>
+<BaseLayout title={title} description={description} structuredData={structuredData}>
   <main class="shell place-page" id="main-content">
     <nav class="breadcrumbs" aria-label="Breadcrumb">
       <a href="/">UK Places</a>

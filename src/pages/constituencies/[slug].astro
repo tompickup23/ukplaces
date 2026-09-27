@@ -30,7 +30,16 @@ const placesByGss = registry as Record<string, Place>;
 const localAuthorities = constituency.lad24cds.map((gss) => ({ gss, place: placesByGss[gss] ?? null }));
 const regionName = constituency.region?.replace(/_/g, " ").replace(/\b\w/g, (letter) => letter.toUpperCase()) ?? null;
 const canonicalUrl = `${SITE_URL}/constituencies/${constituency.slug}/`;
-const description = `${constituency.name} parliamentary constituency geography record: PCON code, constituent local authorities and source links.`;
+const authorityNames = localAuthorities.map(({ gss, place }) => place?.name ?? `GSS code ${gss}`);
+const authorityList = authorityNames.length > 1
+  ? `${authorityNames.slice(0, -1).join(", ")} and ${authorityNames.at(-1)}`
+  : authorityNames[0] ?? null;
+const description = [
+  `${constituency.name} parliamentary constituency.`,
+  authorityList ? `Local authorities: ${authorityList}.` : "Constituent local authorities are not listed in the source file.",
+  constituency.result.winnerParty ? `2024 winner: ${constituency.result.winnerParty}.` : null,
+  "Codes and source links on the record.",
+].filter(Boolean).join(" ");
 const structuredData = [
   {
     "@context": "https://schema.org",

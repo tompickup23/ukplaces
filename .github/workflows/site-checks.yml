@@ -31,4 +31,5 @@ jobs:
       - run: npm run check:contrast
       - run: npm run check:text-size
       - run: npm run check:sitemap
+      - run: npm run check:metadata
       - run: npm run check:parity
