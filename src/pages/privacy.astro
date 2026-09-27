@@ -1,0 +1,17 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { beaconToken } from "../lib/analytics";
+---
+
+<BaseLayout title="Privacy" description="What UK Places does with your data: no accounts, no cookies, postcode lookups sent to postcodes.io and not stored, and how visits are counted.">
+  <main class="shell static-page" id="main-content">
+    <section class="static-hero"><p class="eyebrow">Privacy</p><h1>What this site does with your data.</h1><p>UK Places has no user accounts and sets no cookies.</p></section>
+    <div class="static-content">
+      <section><h2>Postcode search</h2><p>When you search by postcode on the home page, your browser sends the postcode to <a href="https://postcodes.io/">postcodes.io</a> to find its local authority. UK Places does not receive or store the postcode. A search by place name stays in your browser.</p></section>
+      <section><h2>Counting visits</h2>{beaconToken
+        ? <p>Visitor numbers are measured with Cloudflare Web Analytics, which does not use cookies or track individuals across sites.</p>
+        : <p>UK Places does not currently run any analytics.</p>}</section>
+      <section><h2>Links to other sites</h2><p>Each place record links to the specialist sites that hold its detailed data. Those sites have their own privacy policies.</p></section>
+    </div>
+  </main>
+</BaseLayout>

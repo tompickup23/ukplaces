@@ -5,7 +5,7 @@ import { getRegionGroups } from "../lib/regions";
 export const prerender = true;
 
 const siteUrl = "https://ukplaces.co.uk";
-const staticPaths = ["/", "/places/", "/constituencies/", "/methodology/", "/sources/", "/updates/"];
+const staticPaths = ["/", "/places/", "/constituencies/", "/methodology/", "/sources/", "/updates/", "/privacy/"];
 
 type Entry = { pathname: string; lastmod: string | null };
 
