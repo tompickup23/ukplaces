@@ -38,5 +38,15 @@
     "feedPath": "/data/signals/asylumstats.json",
     "schemaVersion": "signals-v1",
     "siteUrl": "https://asylumstats.co.uk"
+  },
+  {
+    "id": "ukfoodhygiene",
+    "name": "UK Food Hygiene",
+    "accent": "#1f5c4a",
+    "topic": "Food hygiene ratings from the official register",
+    "levels": ["local-authority"],
+    "feedPath": "/data/signals/ukfoodhygiene.json",
+    "schemaVersion": "signals-v1",
+    "siteUrl": "https://ukfoodhygiene.co.uk"
   }
 ]

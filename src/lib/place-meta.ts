@@ -21,7 +21,7 @@ const firstClause = (text: string) => text.split(";")[0].trim().replace(/\.$/, "
 export function formatSignalValue(signal: Signal): string {
   if (signal.value === null) return "";
   const value = Number.isInteger(signal.value) ? (signal.value as number).toLocaleString("en-GB") : String(signal.value);
-  return signal.unit === "GBP" || !signal.unit ? value : `${value} ${firstClause(signal.unit)}`;
+  return signal.unit === "GBP" || signal.unit === "%" || !signal.unit ? value : `${value} ${firstClause(signal.unit)}`;
 }
 
 export function describeSignal(signal: Signal): string {
