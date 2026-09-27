@@ -55,7 +55,7 @@ All four run in `site-checks.yml` and `deploy.yml`.
 
 ## Share cards
 
-`BUILD_OG=1 npm run build` renders 361 place and 650 constituency cards under `dist/og/`; both workflows set it in an `env:` block, which is why their timeout is 30 minutes. A build without it renders no cards and every page falls back to `/og.png`, so iteration builds stay fast. After editing `src/lib/og.ts` or an endpoint under `src/pages/og/`, delete `.astro/` and `node_modules/.vite/` before rebuilding, or Astro serves the cached endpoint.
+`BUILD_OG=1 npm run build` renders 361 place and 650 constituency cards under `dist/og/`; both workflows set it in an `env:` block. The cards took 38 seconds on a GitHub runner (about 4 minutes on the Mac), so the job timeout is 15 minutes. A build without it renders no cards and every page falls back to `/og.png`, so iteration builds stay fast. After editing `src/lib/og.ts` or an endpoint under `src/pages/og/`, delete `.astro/` and `node_modules/.vite/` before rebuilding, or Astro serves the cached endpoint.
 
 ## Wikidata identifiers
 

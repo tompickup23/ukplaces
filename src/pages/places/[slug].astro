@@ -7,6 +7,7 @@ import countyCouncilData from "../../data/registry/county-councils.json";
 import { getCoverageRows, getLastModified, placesByGss } from "../../lib/place-records";
 import { regionSlug } from "../../lib/regions";
 import { buildOg, placeOgPath } from "../../lib/og-flag";
+import sources from "../../data/sources.json";
 
 type Constituency = { pcon24cd: string; name: string; slug: string; url: string };
 
@@ -40,6 +41,22 @@ const siblings = Object.values(placesByGss)
   .filter((other) => other.gss !== place.gss && (place.county ? other.county === place.county : other.region === place.region))
   .sort((left, right) => left.name.localeCompare(right.name));
 const regionCount = Object.values(placesByGss).filter((other) => other.region === place.region).length;
+const countyDistrictCount = place.parentGss ? Object.values(placesByGss).filter((other) => other.parentGss === place.parentGss).length : 0;
+const whereText = regionIsCountry
+  ? `in ${place.country}`
+  : `in ${place.county ? `the ceremonial county of ${place.county}, ` : ""}in the ${place.region} region of ${place.country}`;
+const NUMBER_WORDS = ["no", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"];
+const numberWord = (count: number) => NUMBER_WORDS[count] ?? String(count);
+const capitalise = (text: string) => text.charAt(0).toUpperCase() + text.slice(1);
+// A factual introduction built only from the registry, so every record reads differently.
+const introduction = [
+  `${place.name} is a ${place.type.toLowerCase()} ${whereText}.`,
+  countyDistrictCount > 0 && countyCouncil ? `${countyCouncil.name} is the county council for its area and ${numberWord(countyDistrictCount - 1)} other ${countyDistrictCount - 1 === 1 ? "district" : "districts"} on UK Places.` : null,
+  constituencies.length > 0 ? `Its area overlaps ${constituencies.length === 1 ? "one Westminster constituency" : `${numberWord(constituencies.length)} Westminster constituencies`}.` : null,
+  coverageRows.length === sources.length
+    ? `All ${numberWord(sources.length)} sources on UK Places cover it.`
+    : `${capitalise(numberWord(coverageRows.length))} of the ${numberWord(sources.length)} sources on UK Places ${coverageRows.length === 1 ? "covers" : "cover"} it.`,
+].filter(Boolean).join(" ");
 const description = describePlace(place, coverageRows.map(({ signal }) => signal));
 const title = placeTitle(place.name, coverageRows.map(({ source }) => source.id));
 const structuredData = [
@@ -58,7 +75,8 @@ const structuredData = [
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "UK Places", item: `${SITE_URL}/` },
       { "@type": "ListItem", position: 2, name: "Places", item: `${SITE_URL}/places/` },
-      { "@type": "ListItem", position: 3, name: place.name, item: canonicalUrl },
+      { "@type": "ListItem", position: 3, name: place.region, item: `${SITE_URL}${regionPath}` },
+      { "@type": "ListItem", position: 4, name: place.name, item: canonicalUrl },
     ],
   },
   {
@@ -107,6 +125,8 @@ const formatDate = (date: string) => new Intl.DateTimeFormat("en-GB", {
       <span aria-hidden="true">/</span>
       <a href="/places/">Places</a>
       <span aria-hidden="true">/</span>
+      <a href={regionPath}>{place.region}</a>
+      <span aria-hidden="true">/</span>
       <span aria-current="page">{place.name}</span>
     </nav>
 
@@ -114,6 +134,7 @@ const formatDate = (date: string) => new Intl.DateTimeFormat("en-GB", {
       <p class="eyebrow">{place.type} · <a href={regionPath}>{place.region}</a></p>
       <h1>{place.name}</h1>
       <p class="place-hero__meta">GSS code {place.gss}</p>
+      <p class="place-hero__intro">{introduction}</p>
       {lastReviewed && <p class="place-hero__summary">Last reviewed {formatDate(lastReviewed)} from the latest source snapshot on this record.</p>}
     </header>
 
@@ -130,7 +151,7 @@ const formatDate = (date: string) => new Intl.DateTimeFormat("en-GB", {
         {place.parentGss && <div class="place-geo__item"><dt class="place-geo__label">County council</dt><dd class="place-geo__value">{countyCouncil
           ? <>{countyCouncil.aidoge.hasPage && countyCouncil.aidoge.url ? <a href={countyCouncil.aidoge.url}>{countyCouncil.name}</a> : countyCouncil.name} <span class="place-geo__code">GSS code {place.parentGss}</span></>
           : <>GSS code {place.parentGss}</>}</dd></div>}
-        {constituencies.length > 0 && <div class="place-geo__item"><dt class="place-geo__label">{constituencies.length > 1 ? "Westminster constituencies" : "Westminster constituency"}</dt><dd class="place-geo__value">{constituencies.map((constituency, index) => <Fragment>{index > 0 && ", "}<a href={constituency.url}>{constituency.name}</a></Fragment>)}</dd></div>}
+        {constituencies.length > 0 && <div class="place-geo__item"><dt class="place-geo__label">{constituencies.length > 1 ? "Westminster constituencies" : "Westminster constituency"}</dt><dd class="place-geo__value">{constituencies.map((constituency, index) => <Fragment>{index > 0 && ", "}<a href={`/constituencies/${constituency.slug}/`}>{constituency.name}</a></Fragment>)}</dd></div>}
         {place.reorganisation && <div class="place-geo__item"><dt class="place-geo__label">Reorganisation</dt><dd class="place-geo__value">{place.reorganisation.note} <a href={place.reorganisation.sourceUrl}>Source</a></dd></div>}
       </dl>
       <p class="place-boundary-note"><strong>What this record is:</strong> this is the {place.type.toLowerCase()} named {place.name}; it is a geography record rather than a record for a settlement with the same name.</p>
@@ -144,7 +165,7 @@ const formatDate = (date: string) => new Intl.DateTimeFormat("en-GB", {
           <article class="place-source" style={`--source-accent: ${source.accent}`}>
             <span class="place-source__name">{source.name}</span>
             {signal.value === null ? (
-              <p class="place-source__empty">This source has a place page, but no current signal is available in the source data read for this build.</p>
+              <p class="place-source__empty">No single figure from this source is shown for this place. The linked record holds the detail.</p>
             ) : (
               <>
                 <strong class="place-source__signal">{formatSignal(signal)}</strong>

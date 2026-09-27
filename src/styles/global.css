@@ -431,7 +431,7 @@ a {
 
 .place-geo__value {
   display: block;
-  margin-top: 0.35rem;
+  margin: 0.35rem 0 0;
 }
 
 .place-geo__value a:focus-visible,
@@ -911,4 +911,11 @@ a {
   display: block;
   font-weight: 400;
   margin-top: 0.5rem;
+}
+
+.place-hero__intro {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  margin: 1rem 0 0;
+  max-width: 62ch;
 }
