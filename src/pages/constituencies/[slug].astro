@@ -1,6 +1,6 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { SITE_URL } from "../../lib/site";
+import { SITE_URL, normalisePageTitle } from "../../lib/site";
 import registry from "../../data/registry/places.json";
 import constituencies from "../../data/registry/constituencies.json";
 
@@ -30,8 +30,26 @@ const placesByGss = registry as Record<string, Place>;
 const localAuthorities = constituency.lad24cds.map((gss) => ({ gss, place: placesByGss[gss] ?? null }));
 const regionName = constituency.region?.replace(/_/g, " ").replace(/\b\w/g, (letter) => letter.toUpperCase()) ?? null;
 const canonicalUrl = `${SITE_URL}/constituencies/${constituency.slug}/`;
-const description = `${constituency.name} parliamentary constituency geography record: PCON code, constituent local authorities and source links.`;
+const authorityNames = localAuthorities.map(({ gss, place }) => place?.name ?? `GSS code ${gss}`);
+const authorityList = authorityNames.length > 1
+  ? `${authorityNames.slice(0, -1).join(", ")} and ${authorityNames.at(-1)}`
+  : authorityNames[0] ?? null;
+const description = [
+  `${constituency.name} parliamentary constituency.`,
+  authorityList ? `Local authorities: ${authorityList}.` : "Constituent local authorities are not listed in the source file.",
+  constituency.result.winnerParty ? `2024 winner: ${constituency.result.winnerParty}.` : null,
+  "Codes and source links on the record.",
+].filter(Boolean).join(" ");
 const structuredData = [
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": `${canonicalUrl}#webpage`,
+    url: canonicalUrl,
+    name: normalisePageTitle(`${constituency.name} constituency`),
+    ...(constituency.mp?.snapshotDate ? { dateModified: constituency.mp.snapshotDate } : {}),
+    about: { "@id": `${canonicalUrl}#constituency` },
+  },
   {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",

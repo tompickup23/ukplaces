@@ -9,7 +9,7 @@
     "region": "North East",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q2594690",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -44,7 +44,7 @@
     "region": "North East",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q2673020",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -79,7 +79,7 @@
     "region": "North East",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q1434448",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -114,7 +114,7 @@
     "region": "North East",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q894094",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -149,7 +149,7 @@
     "region": "North East",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q1171024",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -184,7 +184,7 @@
     "region": "North West",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q376141",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -219,7 +219,7 @@
     "region": "North West",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q894095",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -254,7 +254,7 @@
     "region": "North West",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q880782",
     "reorganisation": {
       "status": "government-decided",
       "note": "East Lancashire is a working geographic label in the government-decided four-unitary model; the source records that the arrangement remains subject to a Structural Change Order.",
@@ -294,7 +294,7 @@
     "region": "North West",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q20989106",
     "reorganisation": {
       "status": "government-decided",
       "note": "West Lancashire (Fylde Coast) is a working geographic label in the government-decided four-unitary model; the source records that the arrangement remains subject to a Structural Change Order.",
@@ -334,7 +334,7 @@
     "region": "Yorkshire and The Humber",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q21885987",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -369,7 +369,7 @@
     "region": "Yorkshire and The Humber",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q21695028",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -404,7 +404,7 @@
     "region": "Yorkshire and The Humber",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q1342914",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -439,7 +439,7 @@
     "region": "Yorkshire and The Humber",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q175945",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -474,7 +474,7 @@
     "region": "Yorkshire and The Humber",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q20986421",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -509,7 +509,7 @@
     "region": "East Midlands",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q21885980",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -544,7 +544,7 @@
     "region": "East Midlands",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q21683242",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -579,7 +579,7 @@
     "region": "East Midlands",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q23107",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -614,7 +614,7 @@
     "region": "East Midlands",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q21885994",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -649,7 +649,7 @@
     "region": "West Midlands",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q23129",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -684,7 +684,7 @@
     "region": "West Midlands",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q1425298",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -719,7 +719,7 @@
     "region": "West Midlands",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q21891722",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -754,7 +754,7 @@
     "region": "South West",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q810793",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -789,7 +789,7 @@
     "region": "South West",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q21693433",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -824,7 +824,7 @@
     "region": "South West",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q178196",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -859,7 +859,7 @@
     "region": "South West",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q1369280",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -894,7 +894,7 @@
     "region": "South West",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q21674890",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -929,7 +929,7 @@
     "region": "South West",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q1136118",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -964,7 +964,7 @@
     "region": "South West",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q894093",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -999,7 +999,7 @@
     "region": "East of England",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q12956645",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -1034,7 +1034,7 @@
     "region": "East of England",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q21683239",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -1069,7 +1069,7 @@
     "region": "East of England",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q21487155",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -1104,7 +1104,7 @@
     "region": "East of England",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q1549155",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -1139,7 +1139,7 @@
     "region": "South East",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q797782",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -1174,7 +1174,7 @@
     "region": "South East",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q896725",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -1209,7 +1209,7 @@
     "region": "South East",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q1473780",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -1244,7 +1244,7 @@
     "region": "South East",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q21496716",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -1279,7 +1279,7 @@
     "region": "South East",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q21163036",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -1314,7 +1314,7 @@
     "region": "South East",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q1368496",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -1349,7 +1349,7 @@
     "region": "South East",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q1758432",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -1384,7 +1384,7 @@
     "region": "South East",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q894090",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -1419,7 +1419,7 @@
     "region": "South East",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q1022488",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -1454,7 +1454,7 @@
     "region": "South East",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q21683233",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -1489,7 +1489,7 @@
     "region": "South East",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q21683230",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -1524,7 +1524,7 @@
     "region": "South East",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q9679",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -1559,7 +1559,7 @@
     "region": "North East",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q1137286",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -1594,7 +1594,7 @@
     "region": "North West",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q1070590",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -1629,7 +1629,7 @@
     "region": "North West",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q1070591",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -1664,7 +1664,7 @@
     "region": "West Midlands",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q21694759",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -1699,7 +1699,7 @@
     "region": "South West",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q22338583",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -1734,7 +1734,7 @@
     "region": "South West",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q180209",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -1769,7 +1769,7 @@
     "region": "South West",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q21694746",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -1804,7 +1804,7 @@
     "region": "East of England",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q894077",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -1839,7 +1839,7 @@
     "region": "East of England",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q1053723",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -1874,7 +1874,7 @@
     "region": "North East",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q23079",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -1909,7 +1909,7 @@
     "region": "South West",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q54366459",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -1944,7 +1944,7 @@
     "region": "South West",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q55231693",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -1979,7 +1979,7 @@
     "region": "South East",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q21694636",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -2014,7 +2014,7 @@
     "region": "East Midlands",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q60790121",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -2049,7 +2049,7 @@
     "region": "East Midlands",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q60790129",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -2084,7 +2084,7 @@
     "region": "North West",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q110536343",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -2119,7 +2119,7 @@
     "region": "North West",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q110536353",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -2154,7 +2154,7 @@
     "region": "Yorkshire and The Humber",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q21241814",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -2189,7 +2189,7 @@
     "region": "South West",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q21694741",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -2224,7 +2224,7 @@
     "region": "East of England",
     "county": "Cambridgeshire",
     "parentGss": "E10000003",
-    "wikidata": null,
+    "wikidata": "Q21713103",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -2259,7 +2259,7 @@
     "region": "East of England",
     "county": "Cambridgeshire",
     "parentGss": "E10000003",
-    "wikidata": null,
+    "wikidata": "Q1277768",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -2294,7 +2294,7 @@
     "region": "East of England",
     "county": "Cambridgeshire",
     "parentGss": "E10000003",
-    "wikidata": null,
+    "wikidata": "Q176029",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -2329,7 +2329,7 @@
     "region": "East of England",
     "county": "Cambridgeshire",
     "parentGss": "E10000003",
-    "wikidata": null,
+    "wikidata": "Q23330",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -2364,7 +2364,7 @@
     "region": "East of England",
     "county": "Cambridgeshire",
     "parentGss": "E10000003",
-    "wikidata": null,
+    "wikidata": "Q969203",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -2399,7 +2399,7 @@
     "region": "East Midlands",
     "county": "Derbyshire",
     "parentGss": "E10000007",
-    "wikidata": null,
+    "wikidata": "Q457014",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -2434,7 +2434,7 @@
     "region": "East Midlands",
     "county": "Derbyshire",
     "parentGss": "E10000007",
-    "wikidata": null,
+    "wikidata": "Q891608",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -2469,7 +2469,7 @@
     "region": "East Midlands",
     "county": "Derbyshire",
     "parentGss": "E10000007",
-    "wikidata": null,
+    "wikidata": "Q20989091",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -2504,7 +2504,7 @@
     "region": "East Midlands",
     "county": "Derbyshire",
     "parentGss": "E10000007",
-    "wikidata": null,
+    "wikidata": "Q1199980",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -2539,7 +2539,7 @@
     "region": "East Midlands",
     "county": "Derbyshire",
     "parentGss": "E10000007",
-    "wikidata": null,
+    "wikidata": "Q1350065",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -2574,7 +2574,7 @@
     "region": "East Midlands",
     "county": "Derbyshire",
     "parentGss": "E10000007",
-    "wikidata": null,
+    "wikidata": "Q1458060",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -2609,7 +2609,7 @@
     "region": "East Midlands",
     "county": "Derbyshire",
     "parentGss": "E10000007",
-    "wikidata": null,
+    "wikidata": "Q1384012",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -2644,7 +2644,7 @@
     "region": "East Midlands",
     "county": "Derbyshire",
     "parentGss": "E10000007",
-    "wikidata": null,
+    "wikidata": "Q745385",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -2679,7 +2679,7 @@
     "region": "South West",
     "county": "Devon",
     "parentGss": "E10000008",
-    "wikidata": null,
+    "wikidata": "Q1277825",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -2714,7 +2714,7 @@
     "region": "South West",
     "county": "Devon",
     "parentGss": "E10000008",
-    "wikidata": null,
+    "wikidata": "Q21886091",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -2749,7 +2749,7 @@
     "region": "South West",
     "county": "Devon",
     "parentGss": "E10000008",
-    "wikidata": null,
+    "wikidata": "Q662238",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -2784,7 +2784,7 @@
     "region": "South West",
     "county": "Devon",
     "parentGss": "E10000008",
-    "wikidata": null,
+    "wikidata": "Q674940",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -2819,7 +2819,7 @@
     "region": "South West",
     "county": "Devon",
     "parentGss": "E10000008",
-    "wikidata": null,
+    "wikidata": "Q649699",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -2854,7 +2854,7 @@
     "region": "South West",
     "county": "Devon",
     "parentGss": "E10000008",
-    "wikidata": null,
+    "wikidata": "Q739432",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -2889,7 +2889,7 @@
     "region": "South West",
     "county": "Devon",
     "parentGss": "E10000008",
-    "wikidata": null,
+    "wikidata": "Q1752488",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -2924,7 +2924,7 @@
     "region": "South West",
     "county": "Devon",
     "parentGss": "E10000008",
-    "wikidata": null,
+    "wikidata": "Q370814",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -2959,7 +2959,7 @@
     "region": "South East",
     "county": "East Sussex",
     "parentGss": "E10000011",
-    "wikidata": null,
+    "wikidata": "Q21886079",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -2994,7 +2994,7 @@
     "region": "South East",
     "county": "East Sussex",
     "parentGss": "E10000011",
-    "wikidata": null,
+    "wikidata": "Q21886138",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -3029,7 +3029,7 @@
     "region": "South East",
     "county": "East Sussex",
     "parentGss": "E10000011",
-    "wikidata": null,
+    "wikidata": "Q1254688",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -3064,7 +3064,7 @@
     "region": "South East",
     "county": "East Sussex",
     "parentGss": "E10000011",
-    "wikidata": null,
+    "wikidata": "Q1811605",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -3099,7 +3099,7 @@
     "region": "South East",
     "county": "East Sussex",
     "parentGss": "E10000011",
-    "wikidata": null,
+    "wikidata": "Q1575946",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -3134,7 +3134,7 @@
     "region": "East of England",
     "county": "Essex",
     "parentGss": "E10000012",
-    "wikidata": null,
+    "wikidata": "Q810056",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -3169,7 +3169,7 @@
     "region": "East of England",
     "county": "Essex",
     "parentGss": "E10000012",
-    "wikidata": null,
+    "wikidata": "Q897454",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -3204,7 +3204,7 @@
     "region": "East of England",
     "county": "Essex",
     "parentGss": "E10000012",
-    "wikidata": null,
+    "wikidata": "Q427849",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -3239,7 +3239,7 @@
     "region": "East of England",
     "county": "Essex",
     "parentGss": "E10000012",
-    "wikidata": null,
+    "wikidata": "Q1049506",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -3274,7 +3274,7 @@
     "region": "East of England",
     "county": "Essex",
     "parentGss": "E10000012",
-    "wikidata": null,
+    "wikidata": "Q894080",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -3309,7 +3309,7 @@
     "region": "East of England",
     "county": "Essex",
     "parentGss": "E10000012",
-    "wikidata": null,
+    "wikidata": "Q589620",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -3344,7 +3344,7 @@
     "region": "East of England",
     "county": "Essex",
     "parentGss": "E10000012",
-    "wikidata": null,
+    "wikidata": "Q1347659",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -3379,7 +3379,7 @@
     "region": "East of England",
     "county": "Essex",
     "parentGss": "E10000012",
-    "wikidata": null,
+    "wikidata": "Q21713095",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -3414,7 +3414,7 @@
     "region": "East of England",
     "county": "Essex",
     "parentGss": "E10000012",
-    "wikidata": null,
+    "wikidata": "Q613878",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -3449,7 +3449,7 @@
     "region": "East of England",
     "county": "Essex",
     "parentGss": "E10000012",
-    "wikidata": null,
+    "wikidata": "Q2160315",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -3484,7 +3484,7 @@
     "region": "East of England",
     "county": "Essex",
     "parentGss": "E10000012",
-    "wikidata": null,
+    "wikidata": "Q1752638",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -3519,7 +3519,7 @@
     "region": "East of England",
     "county": "Essex",
     "parentGss": "E10000012",
-    "wikidata": null,
+    "wikidata": "Q1496198",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -3554,7 +3554,7 @@
     "region": "South West",
     "county": "Gloucestershire",
     "parentGss": "E10000013",
-    "wikidata": null,
+    "wikidata": "Q20989092",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -3589,7 +3589,7 @@
     "region": "South West",
     "county": "Gloucestershire",
     "parentGss": "E10000013",
-    "wikidata": null,
+    "wikidata": "Q581022",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -3624,7 +3624,7 @@
     "region": "South West",
     "county": "Gloucestershire",
     "parentGss": "E10000013",
-    "wikidata": null,
+    "wikidata": "Q902998",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -3659,7 +3659,7 @@
     "region": "South West",
     "county": "Gloucestershire",
     "parentGss": "E10000013",
-    "wikidata": null,
+    "wikidata": "Q20986485",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -3694,7 +3694,7 @@
     "region": "South West",
     "county": "Gloucestershire",
     "parentGss": "E10000013",
-    "wikidata": null,
+    "wikidata": "Q966144",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -3729,7 +3729,7 @@
     "region": "South West",
     "county": "Gloucestershire",
     "parentGss": "E10000013",
-    "wikidata": null,
+    "wikidata": "Q894096",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -3764,7 +3764,7 @@
     "region": "South East",
     "county": "Hampshire",
     "parentGss": "E10000014",
-    "wikidata": null,
+    "wikidata": "Q810185",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -3799,7 +3799,7 @@
     "region": "South East",
     "county": "Hampshire",
     "parentGss": "E10000014",
-    "wikidata": null,
+    "wikidata": "Q1277894",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -3834,7 +3834,7 @@
     "region": "South East",
     "county": "Hampshire",
     "parentGss": "E10000014",
-    "wikidata": null,
+    "wikidata": "Q894083",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -3869,7 +3869,7 @@
     "region": "South East",
     "county": "Hampshire",
     "parentGss": "E10000014",
-    "wikidata": null,
+    "wikidata": "Q894084",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -3904,7 +3904,7 @@
     "region": "South East",
     "county": "Hampshire",
     "parentGss": "E10000014",
-    "wikidata": null,
+    "wikidata": "Q21886128",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -3939,7 +3939,7 @@
     "region": "South East",
     "county": "Hampshire",
     "parentGss": "E10000014",
-    "wikidata": null,
+    "wikidata": "Q1587050",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -3974,7 +3974,7 @@
     "region": "South East",
     "county": "Hampshire",
     "parentGss": "E10000014",
-    "wikidata": null,
+    "wikidata": "Q4946344",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -4009,7 +4009,7 @@
     "region": "South East",
     "county": "Hampshire",
     "parentGss": "E10000014",
-    "wikidata": null,
+    "wikidata": "Q1972541",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -4044,7 +4044,7 @@
     "region": "South East",
     "county": "Hampshire",
     "parentGss": "E10000014",
-    "wikidata": null,
+    "wikidata": "Q635274",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -4079,7 +4079,7 @@
     "region": "South East",
     "county": "Hampshire",
     "parentGss": "E10000014",
-    "wikidata": null,
+    "wikidata": "Q2116338",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -4114,7 +4114,7 @@
     "region": "South East",
     "county": "Hampshire",
     "parentGss": "E10000014",
-    "wikidata": null,
+    "wikidata": "Q1094226",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -4149,7 +4149,7 @@
     "region": "East of England",
     "county": "Hertfordshire",
     "parentGss": "E10000015",
-    "wikidata": null,
+    "wikidata": "Q894078",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -4184,7 +4184,7 @@
     "region": "East of England",
     "county": "Hertfordshire",
     "parentGss": "E10000015",
-    "wikidata": null,
+    "wikidata": "Q931180",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -4219,7 +4219,7 @@
     "region": "East of England",
     "county": "Hertfordshire",
     "parentGss": "E10000015",
-    "wikidata": null,
+    "wikidata": "Q1614775",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -4254,7 +4254,7 @@
     "region": "East of England",
     "county": "Hertfordshire",
     "parentGss": "E10000015",
-    "wikidata": null,
+    "wikidata": "Q1685976",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -4289,7 +4289,7 @@
     "region": "East of England",
     "county": "Hertfordshire",
     "parentGss": "E10000015",
-    "wikidata": null,
+    "wikidata": "Q1386468",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -4324,7 +4324,7 @@
     "region": "East of England",
     "county": "Hertfordshire",
     "parentGss": "E10000015",
-    "wikidata": null,
+    "wikidata": "Q21886164",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -4359,7 +4359,7 @@
     "region": "South East",
     "county": "Kent",
     "parentGss": "E10000016",
-    "wikidata": null,
+    "wikidata": "Q894074",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -4394,7 +4394,7 @@
     "region": "South East",
     "county": "Kent",
     "parentGss": "E10000016",
-    "wikidata": null,
+    "wikidata": "Q1094104",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -4429,7 +4429,7 @@
     "region": "South East",
     "county": "Kent",
     "parentGss": "E10000016",
-    "wikidata": null,
+    "wikidata": "Q894082",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -4464,7 +4464,7 @@
     "region": "South East",
     "county": "Kent",
     "parentGss": "E10000016",
-    "wikidata": null,
+    "wikidata": "Q1971967",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -4499,7 +4499,7 @@
     "region": "South East",
     "county": "Kent",
     "parentGss": "E10000016",
-    "wikidata": null,
+    "wikidata": "Q1459781",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -4534,7 +4534,7 @@
     "region": "South East",
     "county": "Kent",
     "parentGss": "E10000016",
-    "wikidata": null,
+    "wikidata": "Q737114",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -4569,7 +4569,7 @@
     "region": "South East",
     "county": "Kent",
     "parentGss": "E10000016",
-    "wikidata": null,
+    "wikidata": "Q1499339",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -4604,7 +4604,7 @@
     "region": "South East",
     "county": "Kent",
     "parentGss": "E10000016",
-    "wikidata": null,
+    "wikidata": "Q635416",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -4639,7 +4639,7 @@
     "region": "South East",
     "county": "Kent",
     "parentGss": "E10000016",
-    "wikidata": null,
+    "wikidata": "Q652559",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -4674,7 +4674,7 @@
     "region": "South East",
     "county": "Kent",
     "parentGss": "E10000016",
-    "wikidata": null,
+    "wikidata": "Q1752642",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -4709,7 +4709,7 @@
     "region": "South East",
     "county": "Kent",
     "parentGss": "E10000016",
-    "wikidata": null,
+    "wikidata": "Q596743",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -4744,7 +4744,7 @@
     "region": "South East",
     "county": "Kent",
     "parentGss": "E10000016",
-    "wikidata": null,
+    "wikidata": "Q894097",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -4779,7 +4779,7 @@
     "region": "North West",
     "county": "Lancashire",
     "parentGss": "E10000017",
-    "wikidata": null,
+    "wikidata": "Q894079",
     "reorganisation": {
       "status": "government-decided",
       "note": "East Lancashire is a working geographic label in the government-decided four-unitary model; the source records that the arrangement remains subject to a Structural Change Order.",
@@ -4819,7 +4819,7 @@
     "region": "North West",
     "county": "Lancashire",
     "parentGss": "E10000017",
-    "wikidata": null,
+    "wikidata": "Q894081",
     "reorganisation": {
       "status": "government-decided",
       "note": "South Lancashire is a working geographic label in the government-decided four-unitary model; the source records that the arrangement remains subject to a Structural Change Order.",
@@ -4859,7 +4859,7 @@
     "region": "North West",
     "county": "Lancashire",
     "parentGss": "E10000017",
-    "wikidata": null,
+    "wikidata": "Q1478592",
     "reorganisation": {
       "status": "government-decided",
       "note": "West Lancashire (Fylde Coast) is a working geographic label in the government-decided four-unitary model; the source records that the arrangement remains subject to a Structural Change Order.",
@@ -4899,7 +4899,7 @@
     "region": "North West",
     "county": "Lancashire",
     "parentGss": "E10000017",
-    "wikidata": null,
+    "wikidata": "Q1640713",
     "reorganisation": {
       "status": "government-decided",
       "note": "East Lancashire is a working geographic label in the government-decided four-unitary model; the source records that the arrangement remains subject to a Structural Change Order.",
@@ -4939,7 +4939,7 @@
     "region": "North West",
     "county": "Lancashire",
     "parentGss": "E10000017",
-    "wikidata": null,
+    "wikidata": "Q168052",
     "reorganisation": {
       "status": "government-decided",
       "note": "North Lancashire is a working geographic label in the government-decided four-unitary model; the source records that the arrangement remains subject to a Structural Change Order.",
@@ -4979,7 +4979,7 @@
     "region": "North West",
     "county": "Lancashire",
     "parentGss": "E10000017",
-    "wikidata": null,
+    "wikidata": "Q1693090",
     "reorganisation": {
       "status": "government-decided",
       "note": "East Lancashire is a working geographic label in the government-decided four-unitary model; the source records that the arrangement remains subject to a Structural Change Order.",
@@ -5019,7 +5019,7 @@
     "region": "North West",
     "county": "Lancashire",
     "parentGss": "E10000017",
-    "wikidata": null,
+    "wikidata": "Q385669",
     "reorganisation": {
       "status": "government-decided",
       "note": "North Lancashire is a working geographic label in the government-decided four-unitary model; the source records that the arrangement remains subject to a Structural Change Order.",
@@ -5059,7 +5059,7 @@
     "region": "North West",
     "county": "Lancashire",
     "parentGss": "E10000017",
-    "wikidata": null,
+    "wikidata": "Q2116317",
     "reorganisation": {
       "status": "government-decided",
       "note": "North Lancashire is a working geographic label in the government-decided four-unitary model; the source records that the arrangement remains subject to a Structural Change Order.",
@@ -5099,7 +5099,7 @@
     "region": "North West",
     "county": "Lancashire",
     "parentGss": "E10000017",
-    "wikidata": null,
+    "wikidata": "Q527423",
     "reorganisation": {
       "status": "government-decided",
       "note": "East Lancashire is a working geographic label in the government-decided four-unitary model; the source records that the arrangement remains subject to a Structural Change Order.",
@@ -5139,7 +5139,7 @@
     "region": "North West",
     "county": "Lancashire",
     "parentGss": "E10000017",
-    "wikidata": null,
+    "wikidata": "Q290838",
     "reorganisation": {
       "status": "government-decided",
       "note": "South Lancashire is a working geographic label in the government-decided four-unitary model; the source records that the arrangement remains subject to a Structural Change Order.",
@@ -5179,7 +5179,7 @@
     "region": "North West",
     "county": "Lancashire",
     "parentGss": "E10000017",
-    "wikidata": null,
+    "wikidata": "Q1290796",
     "reorganisation": {
       "status": "government-decided",
       "note": "South Lancashire is a working geographic label in the government-decided four-unitary model; the source records that the arrangement remains subject to a Structural Change Order.",
@@ -5219,7 +5219,7 @@
     "region": "North West",
     "county": "Lancashire",
     "parentGss": "E10000017",
-    "wikidata": null,
+    "wikidata": "Q894100",
     "reorganisation": {
       "status": "government-decided",
       "note": "West Lancashire (Fylde Coast) is a working geographic label in the government-decided four-unitary model; the source records that the arrangement remains subject to a Structural Change Order.",
@@ -5259,7 +5259,7 @@
     "region": "East Midlands",
     "county": "Leicestershire",
     "parentGss": "E10000018",
-    "wikidata": null,
+    "wikidata": "Q596076",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -5294,7 +5294,7 @@
     "region": "East Midlands",
     "county": "Leicestershire",
     "parentGss": "E10000018",
-    "wikidata": null,
+    "wikidata": "Q1067639",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -5329,7 +5329,7 @@
     "region": "East Midlands",
     "county": "Leicestershire",
     "parentGss": "E10000018",
-    "wikidata": null,
+    "wikidata": "Q1556307",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -5364,7 +5364,7 @@
     "region": "East Midlands",
     "county": "Leicestershire",
     "parentGss": "E10000018",
-    "wikidata": null,
+    "wikidata": "Q946825",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -5399,7 +5399,7 @@
     "region": "East Midlands",
     "county": "Leicestershire",
     "parentGss": "E10000018",
-    "wikidata": null,
+    "wikidata": "Q1853349",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -5434,7 +5434,7 @@
     "region": "East Midlands",
     "county": "Leicestershire",
     "parentGss": "E10000018",
-    "wikidata": null,
+    "wikidata": "Q1853930",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -5469,7 +5469,7 @@
     "region": "East Midlands",
     "county": "Leicestershire",
     "parentGss": "E10000018",
-    "wikidata": null,
+    "wikidata": "Q764425",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -5504,7 +5504,7 @@
     "region": "East Midlands",
     "county": "Lincolnshire",
     "parentGss": "E10000019",
-    "wikidata": null,
+    "wikidata": "Q894076",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -5539,7 +5539,7 @@
     "region": "East Midlands",
     "county": "Lincolnshire",
     "parentGss": "E10000019",
-    "wikidata": null,
+    "wikidata": "Q82181",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -5574,7 +5574,7 @@
     "region": "East Midlands",
     "county": "Lincolnshire",
     "parentGss": "E10000019",
-    "wikidata": null,
+    "wikidata": "Q20989075",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -5609,7 +5609,7 @@
     "region": "East Midlands",
     "county": "Lincolnshire",
     "parentGss": "E10000019",
-    "wikidata": null,
+    "wikidata": "Q607082",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -5644,7 +5644,7 @@
     "region": "East Midlands",
     "county": "Lincolnshire",
     "parentGss": "E10000019",
-    "wikidata": null,
+    "wikidata": "Q303269",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -5679,7 +5679,7 @@
     "region": "East Midlands",
     "county": "Lincolnshire",
     "parentGss": "E10000019",
-    "wikidata": null,
+    "wikidata": "Q1942426",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -5714,7 +5714,7 @@
     "region": "East Midlands",
     "county": "Lincolnshire",
     "parentGss": "E10000019",
-    "wikidata": null,
+    "wikidata": "Q253501",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -5749,7 +5749,7 @@
     "region": "East of England",
     "county": "Norfolk",
     "parentGss": "E10000020",
-    "wikidata": null,
+    "wikidata": "Q488142",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -5784,7 +5784,7 @@
     "region": "East of England",
     "county": "Norfolk",
     "parentGss": "E10000020",
-    "wikidata": null,
+    "wikidata": "Q2116353",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -5819,7 +5819,7 @@
     "region": "East of England",
     "county": "Norfolk",
     "parentGss": "E10000020",
-    "wikidata": null,
+    "wikidata": "Q894085",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -5854,7 +5854,7 @@
     "region": "East of England",
     "county": "Norfolk",
     "parentGss": "E10000020",
-    "wikidata": null,
+    "wikidata": "Q1742192",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -5889,7 +5889,7 @@
     "region": "East of England",
     "county": "Norfolk",
     "parentGss": "E10000020",
-    "wikidata": null,
+    "wikidata": "Q1545713",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -5924,7 +5924,7 @@
     "region": "East of England",
     "county": "Norfolk",
     "parentGss": "E10000020",
-    "wikidata": null,
+    "wikidata": "Q21886147",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -5959,7 +5959,7 @@
     "region": "East of England",
     "county": "Norfolk",
     "parentGss": "E10000020",
-    "wikidata": null,
+    "wikidata": "Q1854245",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -5994,7 +5994,7 @@
     "region": "East Midlands",
     "county": "Nottinghamshire",
     "parentGss": "E10000024",
-    "wikidata": null,
+    "wikidata": "Q600996",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -6029,7 +6029,7 @@
     "region": "East Midlands",
     "county": "Nottinghamshire",
     "parentGss": "E10000024",
-    "wikidata": null,
+    "wikidata": "Q810508",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -6064,7 +6064,7 @@
     "region": "East Midlands",
     "county": "Nottinghamshire",
     "parentGss": "E10000024",
-    "wikidata": null,
+    "wikidata": "Q605605",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -6099,7 +6099,7 @@
     "region": "East Midlands",
     "county": "Nottinghamshire",
     "parentGss": "E10000024",
-    "wikidata": null,
+    "wikidata": "Q1497633",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -6134,7 +6134,7 @@
     "region": "East Midlands",
     "county": "Nottinghamshire",
     "parentGss": "E10000024",
-    "wikidata": null,
+    "wikidata": "Q1891143",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -6169,7 +6169,7 @@
     "region": "East Midlands",
     "county": "Nottinghamshire",
     "parentGss": "E10000024",
-    "wikidata": null,
+    "wikidata": "Q637772",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -6204,7 +6204,7 @@
     "region": "East Midlands",
     "county": "Nottinghamshire",
     "parentGss": "E10000024",
-    "wikidata": null,
+    "wikidata": "Q1854225",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -6239,7 +6239,7 @@
     "region": "South East",
     "county": "Oxfordshire",
     "parentGss": "E10000025",
-    "wikidata": null,
+    "wikidata": "Q1070481",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -6274,7 +6274,7 @@
     "region": "South East",
     "county": "Oxfordshire",
     "parentGss": "E10000025",
-    "wikidata": null,
+    "wikidata": "Q20986484",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -6309,7 +6309,7 @@
     "region": "South East",
     "county": "Oxfordshire",
     "parentGss": "E10000025",
-    "wikidata": null,
+    "wikidata": "Q1776967",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -6344,7 +6344,7 @@
     "region": "South East",
     "county": "Oxfordshire",
     "parentGss": "E10000025",
-    "wikidata": null,
+    "wikidata": "Q1540110",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -6379,7 +6379,7 @@
     "region": "South East",
     "county": "Oxfordshire",
     "parentGss": "E10000025",
-    "wikidata": null,
+    "wikidata": "Q1776955",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -6414,7 +6414,7 @@
     "region": "West Midlands",
     "county": "Staffordshire",
     "parentGss": "E10000028",
-    "wikidata": null,
+    "wikidata": "Q1033439",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -6449,7 +6449,7 @@
     "region": "West Midlands",
     "county": "Staffordshire",
     "parentGss": "E10000028",
-    "wikidata": null,
+    "wikidata": "Q1278032",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -6484,7 +6484,7 @@
     "region": "West Midlands",
     "county": "Staffordshire",
     "parentGss": "E10000028",
-    "wikidata": null,
+    "wikidata": "Q1823259",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -6519,7 +6519,7 @@
     "region": "West Midlands",
     "county": "Staffordshire",
     "parentGss": "E10000028",
-    "wikidata": null,
+    "wikidata": "Q894089",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -6554,7 +6554,7 @@
     "region": "West Midlands",
     "county": "Staffordshire",
     "parentGss": "E10000028",
-    "wikidata": null,
+    "wikidata": "Q2116379",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -6589,7 +6589,7 @@
     "region": "West Midlands",
     "county": "Staffordshire",
     "parentGss": "E10000028",
-    "wikidata": null,
+    "wikidata": "Q678347",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -6624,7 +6624,7 @@
     "region": "West Midlands",
     "county": "Staffordshire",
     "parentGss": "E10000028",
-    "wikidata": null,
+    "wikidata": "Q2116362",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -6659,7 +6659,7 @@
     "region": "West Midlands",
     "county": "Staffordshire",
     "parentGss": "E10000028",
-    "wikidata": null,
+    "wikidata": "Q7170938",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -6694,7 +6694,7 @@
     "region": "East of England",
     "county": "Suffolk",
     "parentGss": "E10000029",
-    "wikidata": null,
+    "wikidata": "Q797643",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -6729,7 +6729,7 @@
     "region": "East of England",
     "county": "Suffolk",
     "parentGss": "E10000029",
-    "wikidata": null,
+    "wikidata": "Q3801785",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -6764,7 +6764,7 @@
     "region": "East of England",
     "county": "Suffolk",
     "parentGss": "E10000029",
-    "wikidata": null,
+    "wikidata": "Q1931811",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -6799,7 +6799,7 @@
     "region": "South East",
     "county": "Surrey",
     "parentGss": "E10000030",
-    "wikidata": null,
+    "wikidata": "Q1292592",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -6834,7 +6834,7 @@
     "region": "South East",
     "county": "Surrey",
     "parentGss": "E10000030",
-    "wikidata": null,
+    "wikidata": "Q257577",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -6869,7 +6869,7 @@
     "region": "South East",
     "county": "Surrey",
     "parentGss": "E10000030",
-    "wikidata": null,
+    "wikidata": "Q894086",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -6904,7 +6904,7 @@
     "region": "South East",
     "county": "Surrey",
     "parentGss": "E10000030",
-    "wikidata": null,
+    "wikidata": "Q961824",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -6939,7 +6939,7 @@
     "region": "South East",
     "county": "Surrey",
     "parentGss": "E10000030",
-    "wikidata": null,
+    "wikidata": "Q2066396",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -6974,7 +6974,7 @@
     "region": "South East",
     "county": "Surrey",
     "parentGss": "E10000030",
-    "wikidata": null,
+    "wikidata": "Q9324032",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -7009,7 +7009,7 @@
     "region": "South East",
     "county": "Surrey",
     "parentGss": "E10000030",
-    "wikidata": null,
+    "wikidata": "Q1234166",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -7044,7 +7044,7 @@
     "region": "South East",
     "county": "Surrey",
     "parentGss": "E10000030",
-    "wikidata": null,
+    "wikidata": "Q2116333",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -7079,7 +7079,7 @@
     "region": "South East",
     "county": "Surrey",
     "parentGss": "E10000030",
-    "wikidata": null,
+    "wikidata": "Q2301760",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -7114,7 +7114,7 @@
     "region": "South East",
     "county": "Surrey",
     "parentGss": "E10000030",
-    "wikidata": null,
+    "wikidata": "Q2116521",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -7149,7 +7149,7 @@
     "region": "South East",
     "county": "Surrey",
     "parentGss": "E10000030",
-    "wikidata": null,
+    "wikidata": "Q2277849",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -7184,7 +7184,7 @@
     "region": "West Midlands",
     "county": "Warwickshire",
     "parentGss": "E10000031",
-    "wikidata": null,
+    "wikidata": "Q2000897",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -7219,7 +7219,7 @@
     "region": "West Midlands",
     "county": "Warwickshire",
     "parentGss": "E10000031",
-    "wikidata": null,
+    "wikidata": "Q920466",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -7254,7 +7254,7 @@
     "region": "West Midlands",
     "county": "Warwickshire",
     "parentGss": "E10000031",
-    "wikidata": null,
+    "wikidata": "Q894091",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -7289,7 +7289,7 @@
     "region": "West Midlands",
     "county": "Warwickshire",
     "parentGss": "E10000031",
-    "wikidata": null,
+    "wikidata": "Q1693076",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -7324,7 +7324,7 @@
     "region": "West Midlands",
     "county": "Warwickshire",
     "parentGss": "E10000031",
-    "wikidata": null,
+    "wikidata": "Q611294",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -7359,7 +7359,7 @@
     "region": "South East",
     "county": "West Sussex",
     "parentGss": "E10000032",
-    "wikidata": null,
+    "wikidata": "Q379103",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -7394,7 +7394,7 @@
     "region": "South East",
     "county": "West Sussex",
     "parentGss": "E10000032",
-    "wikidata": null,
+    "wikidata": "Q1725997",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -7429,7 +7429,7 @@
     "region": "South East",
     "county": "West Sussex",
     "parentGss": "E10000032",
-    "wikidata": null,
+    "wikidata": "Q1072104",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -7464,7 +7464,7 @@
     "region": "South East",
     "county": "West Sussex",
     "parentGss": "E10000032",
-    "wikidata": null,
+    "wikidata": "Q21886073",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -7499,7 +7499,7 @@
     "region": "South East",
     "county": "West Sussex",
     "parentGss": "E10000032",
-    "wikidata": null,
+    "wikidata": "Q1629013",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -7534,7 +7534,7 @@
     "region": "South East",
     "county": "West Sussex",
     "parentGss": "E10000032",
-    "wikidata": null,
+    "wikidata": "Q1344342",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -7569,7 +7569,7 @@
     "region": "South East",
     "county": "West Sussex",
     "parentGss": "E10000032",
-    "wikidata": null,
+    "wikidata": "Q21886170",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -7604,7 +7604,7 @@
     "region": "West Midlands",
     "county": "Worcestershire",
     "parentGss": "E10000034",
-    "wikidata": null,
+    "wikidata": "Q1744694",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -7639,7 +7639,7 @@
     "region": "West Midlands",
     "county": "Worcestershire",
     "parentGss": "E10000034",
-    "wikidata": null,
+    "wikidata": "Q1427973",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -7674,7 +7674,7 @@
     "region": "West Midlands",
     "county": "Worcestershire",
     "parentGss": "E10000034",
-    "wikidata": null,
+    "wikidata": "Q21496675",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -7709,7 +7709,7 @@
     "region": "West Midlands",
     "county": "Worcestershire",
     "parentGss": "E10000034",
-    "wikidata": null,
+    "wikidata": "Q20986481",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -7744,7 +7744,7 @@
     "region": "West Midlands",
     "county": "Worcestershire",
     "parentGss": "E10000034",
-    "wikidata": null,
+    "wikidata": "Q2116344",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -7779,7 +7779,7 @@
     "region": "West Midlands",
     "county": "Worcestershire",
     "parentGss": "E10000034",
-    "wikidata": null,
+    "wikidata": "Q548224",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -7814,7 +7814,7 @@
     "region": "East of England",
     "county": "Hertfordshire",
     "parentGss": "E10000015",
-    "wikidata": null,
+    "wikidata": "Q1094060",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -7849,7 +7849,7 @@
     "region": "East of England",
     "county": "Hertfordshire",
     "parentGss": "E10000015",
-    "wikidata": null,
+    "wikidata": "Q2166127",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -7884,7 +7884,7 @@
     "region": "East of England",
     "county": "Hertfordshire",
     "parentGss": "E10000015",
-    "wikidata": null,
+    "wikidata": "Q582288",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -7919,7 +7919,7 @@
     "region": "East of England",
     "county": "Hertfordshire",
     "parentGss": "E10000015",
-    "wikidata": null,
+    "wikidata": "Q21886152",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -7954,7 +7954,7 @@
     "region": "East of England",
     "county": "Suffolk",
     "parentGss": "E10000029",
-    "wikidata": null,
+    "wikidata": "Q54554266",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -7989,7 +7989,7 @@
     "region": "East of England",
     "county": "Suffolk",
     "parentGss": "E10000029",
-    "wikidata": null,
+    "wikidata": "Q54554272",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -8024,7 +8024,7 @@
     "region": "North West",
     "county": "Greater Manchester",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q1364541",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -8059,7 +8059,7 @@
     "region": "North West",
     "county": "Greater Manchester",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q512036",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -8094,7 +8094,7 @@
     "region": "North West",
     "county": "Greater Manchester",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q21525592",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -8129,7 +8129,7 @@
     "region": "North West",
     "county": "Greater Manchester",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q1278608",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -8164,7 +8164,7 @@
     "region": "North West",
     "county": "Greater Manchester",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q1892596",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -8199,7 +8199,7 @@
     "region": "North West",
     "county": "Greater Manchester",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q1142118",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -8234,7 +8234,7 @@
     "region": "North West",
     "county": "Greater Manchester",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q1752424",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -8269,7 +8269,7 @@
     "region": "North West",
     "county": "Greater Manchester",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q1423078",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -8304,7 +8304,7 @@
     "region": "North West",
     "county": "Greater Manchester",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q915954",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -8339,7 +8339,7 @@
     "region": "North West",
     "county": "Greater Manchester",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q684307",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -8374,7 +8374,7 @@
     "region": "North West",
     "county": "Merseyside",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q1228523",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -8409,7 +8409,7 @@
     "region": "North West",
     "county": "Merseyside",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q21665571",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -8444,7 +8444,7 @@
     "region": "North West",
     "county": "Merseyside",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q179206",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -8479,7 +8479,7 @@
     "region": "North West",
     "county": "Merseyside",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q1546645",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -8514,7 +8514,7 @@
     "region": "North West",
     "county": "Merseyside",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q11365639",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -8549,7 +8549,7 @@
     "region": "Yorkshire and The Humber",
     "county": "South Yorkshire",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q1925846",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -8584,7 +8584,7 @@
     "region": "Yorkshire and The Humber",
     "county": "South Yorkshire",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q1878732",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -8619,7 +8619,7 @@
     "region": "North East",
     "county": "Tyne and Wear",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q21012735",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -8654,7 +8654,7 @@
     "region": "North East",
     "county": "Tyne and Wear",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q1120443",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -8689,7 +8689,7 @@
     "region": "North East",
     "county": "Tyne and Wear",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q1541228",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -8724,7 +8724,7 @@
     "region": "North East",
     "county": "Tyne and Wear",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q1280897",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -8759,7 +8759,7 @@
     "region": "West Midlands",
     "county": "West Midlands",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q20986424",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -8794,7 +8794,7 @@
     "region": "West Midlands",
     "county": "West Midlands",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q20986417",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -8829,7 +8829,7 @@
     "region": "West Midlands",
     "county": "West Midlands",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q1617704",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -8864,7 +8864,7 @@
     "region": "West Midlands",
     "county": "West Midlands",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q285964",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -8899,7 +8899,7 @@
     "region": "West Midlands",
     "county": "West Midlands",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q1925858",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -8934,7 +8934,7 @@
     "region": "West Midlands",
     "county": "West Midlands",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q178356",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -8969,7 +8969,7 @@
     "region": "West Midlands",
     "county": "West Midlands",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q21885975",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -9004,7 +9004,7 @@
     "region": "Yorkshire and The Humber",
     "county": "West Yorkshire",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q2834810",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -9039,7 +9039,7 @@
     "region": "Yorkshire and The Humber",
     "county": "West Yorkshire",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q1026448",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -9074,7 +9074,7 @@
     "region": "Yorkshire and The Humber",
     "county": "West Yorkshire",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q918975",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -9109,7 +9109,7 @@
     "region": "Yorkshire and The Humber",
     "county": "West Yorkshire",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q774015",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -9144,7 +9144,7 @@
     "region": "Yorkshire and The Humber",
     "county": "West Yorkshire",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q763171",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -9179,7 +9179,7 @@
     "region": "North East",
     "county": "Tyne and Wear",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q929034",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -9223,9 +9223,9 @@
         "url": "https://ukelections.co.uk/seats/barnsley/"
       },
       "ukdemographics": {
-        "hasPage": false,
-        "slug": null,
-        "url": null
+        "hasPage": true,
+        "slug": "barnsley",
+        "url": "https://ukdemographics.co.uk/places/barnsley/"
       },
       "aidoge": {
         "hasPage": false,
@@ -9258,9 +9258,9 @@
         "url": "https://ukelections.co.uk/seats/sheffield/"
       },
       "ukdemographics": {
-        "hasPage": false,
-        "slug": null,
-        "url": null
+        "hasPage": true,
+        "slug": "sheffield",
+        "url": "https://ukdemographics.co.uk/places/sheffield/"
       },
       "aidoge": {
         "hasPage": false,
@@ -9284,7 +9284,7 @@
     "region": "London",
     "county": "Inner London",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q23311",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -9319,7 +9319,7 @@
     "region": "London",
     "county": "Outer London",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q205358",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -9354,7 +9354,7 @@
     "region": "London",
     "county": "Outer London",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q151048",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -9389,7 +9389,7 @@
     "region": "London",
     "county": "Outer London",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q207208",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -9424,7 +9424,7 @@
     "region": "London",
     "county": "Outer London",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q207201",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -9459,7 +9459,7 @@
     "region": "London",
     "county": "Outer London",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q208201",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -9494,7 +9494,7 @@
     "region": "London",
     "county": "Inner London",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q202088",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -9529,7 +9529,7 @@
     "region": "London",
     "county": "Outer London",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q26888",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -9564,7 +9564,7 @@
     "region": "London",
     "county": "Outer London",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q207218",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -9599,7 +9599,7 @@
     "region": "London",
     "county": "Outer London",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q210531",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -9634,7 +9634,7 @@
     "region": "London",
     "county": "Outer London",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q693450",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -9669,7 +9669,7 @@
     "region": "London",
     "county": "Inner London",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q205679",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -9704,7 +9704,7 @@
     "region": "London",
     "county": "Inner London",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q40478",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -9739,7 +9739,7 @@
     "region": "London",
     "county": "Inner London",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q213560",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -9774,7 +9774,7 @@
     "region": "London",
     "county": "Outer London",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q210476",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -9809,7 +9809,7 @@
     "region": "London",
     "county": "Outer London",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q215038",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -9844,7 +9844,7 @@
     "region": "London",
     "county": "Outer London",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q205690",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -9879,7 +9879,7 @@
     "region": "London",
     "county": "Outer London",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q214162",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -9914,7 +9914,7 @@
     "region": "London",
     "county": "Inner London",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q205817",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -9949,7 +9949,7 @@
     "region": "London",
     "county": "Inner London",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q188801",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -9984,7 +9984,7 @@
     "region": "London",
     "county": "Outer London",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q32508",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -10019,7 +10019,7 @@
     "region": "London",
     "county": "Inner London",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q202059",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -10054,7 +10054,7 @@
     "region": "London",
     "county": "Inner London",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q215030",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -10089,7 +10089,7 @@
     "region": "London",
     "county": "Outer London",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q32504",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -10124,7 +10124,7 @@
     "region": "London",
     "county": "Inner London",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q208139",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -10159,7 +10159,7 @@
     "region": "London",
     "county": "Outer London",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q208955",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -10194,7 +10194,7 @@
     "region": "London",
     "county": "Outer London",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q32515",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -10229,7 +10229,7 @@
     "region": "London",
     "county": "Inner London",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q730706",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -10264,7 +10264,7 @@
     "region": "London",
     "county": "Outer London",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q320378",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -10299,7 +10299,7 @@
     "region": "London",
     "county": "Inner London",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q208152",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -10334,7 +10334,7 @@
     "region": "London",
     "county": "Outer London",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q40608",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -10369,7 +10369,7 @@
     "region": "London",
     "county": "Inner London",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q210563",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -10404,7 +10404,7 @@
     "region": "London",
     "county": "Inner London",
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q179351",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -10439,7 +10439,7 @@
     "region": "Northern Ireland",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q4777347",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -10474,7 +10474,7 @@
     "region": "Northern Ireland",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q4792580",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -10509,7 +10509,7 @@
     "region": "Northern Ireland",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q1140130",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -10544,7 +10544,7 @@
     "region": "Northern Ireland",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q5054638",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -10579,7 +10579,7 @@
     "region": "Northern Ireland",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q15213714",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -10614,7 +10614,7 @@
     "region": "Northern Ireland",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q5444365",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -10649,7 +10649,7 @@
     "region": "Northern Ireland",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q6558667",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -10684,7 +10684,7 @@
     "region": "Northern Ireland",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q6841059",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -10719,7 +10719,7 @@
     "region": "Northern Ireland",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q6840825",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -10754,7 +10754,7 @@
     "region": "Northern Ireland",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q15262186",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -10789,7 +10789,7 @@
     "region": "Northern Ireland",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q7055155",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -11559,7 +11559,7 @@
     "region": "Scotland",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q2379199",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -11734,7 +11734,7 @@
     "region": "Scotland",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q2357511",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -11979,7 +11979,7 @@
     "region": "Wales",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q109128",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -12014,7 +12014,7 @@
     "region": "Wales",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q817971",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -12049,7 +12049,7 @@
     "region": "Wales",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q650682",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -12084,7 +12084,7 @@
     "region": "Wales",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q505610",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -12119,7 +12119,7 @@
     "region": "Wales",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q843868",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -12154,7 +12154,7 @@
     "region": "Wales",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q217829",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -12189,7 +12189,7 @@
     "region": "Wales",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q213361",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -12224,7 +12224,7 @@
     "region": "Wales",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q217840",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -12259,7 +12259,7 @@
     "region": "Wales",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q10996863",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -12294,7 +12294,7 @@
     "region": "Wales",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q748078",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -12329,7 +12329,7 @@
     "region": "Wales",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q697126",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -12364,7 +12364,7 @@
     "region": "Wales",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q844784",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -12399,7 +12399,7 @@
     "region": "Wales",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q24342199",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -12434,7 +12434,7 @@
     "region": "Wales",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q817960",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -12469,7 +12469,7 @@
     "region": "Wales",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q748065",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -12504,7 +12504,7 @@
     "region": "Wales",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q596885",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -12539,7 +12539,7 @@
     "region": "Wales",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q643919",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -12574,7 +12574,7 @@
     "region": "Wales",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q207176",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -12609,7 +12609,7 @@
     "region": "Wales",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q5283458",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -12644,7 +12644,7 @@
     "region": "Wales",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q156150",
     "reorganisation": null,
     "coverage": {
       "ukelections": {
@@ -12679,7 +12679,7 @@
     "region": "Wales",
     "county": null,
     "parentGss": null,
-    "wikidata": null,
+    "wikidata": "Q3306663",
     "reorganisation": null,
     "coverage": {
       "ukelections": {

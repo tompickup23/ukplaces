@@ -1,5 +1,5 @@
-import registry from "../data/registry/places.json";
 import constituencies from "../data/registry/constituencies.json";
+import { getLastModified, getLatestChangelogDate, placesByGss } from "../lib/place-records";
 import { getRegionGroups } from "../lib/regions";
 
 export const prerender = true;
@@ -7,14 +7,26 @@ export const prerender = true;
 const siteUrl = "https://ukplaces.co.uk";
 const staticPaths = ["/", "/places/", "/constituencies/", "/methodology/", "/sources/", "/updates/"];
 
+type Entry = { pathname: string; lastmod: string | null };
+
 export function GET() {
-  const paths = [
-    ...staticPaths,
-    ...Object.values(registry).map((place) => `/places/${place.slug}/`),
-    ...Object.values(constituencies).map((constituency) => `/constituencies/${constituency.slug}/`),
-    ...getRegionGroups().map((region) => `/places/regions/${region.slug}/`),
+  const staticDate = getLatestChangelogDate();
+  const entries: Entry[] = [
+    ...staticPaths.map((pathname) => ({ pathname, lastmod: staticDate })),
+    ...Object.values(placesByGss).map((place) => ({ pathname: `/places/${place.slug}/`, lastmod: getLastModified(place.gss) })),
+    ...Object.values(constituencies).map((constituency) => ({
+      pathname: `/constituencies/${constituency.slug}/`,
+      lastmod: constituency.mp?.snapshotDate ?? null,
+    })),
+    // A region page changes when one of its places does.
+    ...getRegionGroups().map((region) => ({
+      pathname: `/places/regions/${region.slug}/`,
+      lastmod: region.places.map((place) => getLastModified(place.gss)).filter((date): date is string => date !== null).sort().at(-1) ?? null,
+    })),
   ];
-  const urls = paths.map((pathname) => `<url><loc>${siteUrl}${pathname}</loc></url>`).join("");
+  const urls = entries
+    .map(({ pathname, lastmod }) => `<url><loc>${siteUrl}${pathname}</loc>${lastmod ? `<lastmod>${lastmod}</lastmod>` : ""}</url>`)
+    .join("");
   return new Response(`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${urls}</urlset>`, {
     headers: { "Content-Type": "application/xml" },
   });

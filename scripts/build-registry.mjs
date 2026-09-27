@@ -6,6 +6,8 @@ const siteRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), ".."
 const registryDir = path.join(siteRoot, "src", "data", "registry");
 const outputPath = path.join(registryDir, "places.json");
 const overridesPath = path.join(registryDir, "slug-overrides.json");
+// Committed output of scripts/build-wikidata-lookup.mjs, so a clean checkout builds offline.
+const wikidataPath = path.join(registryDir, "wikidata-by-gss.json");
 
 const sourcePaths = {
   crosswalk: "/Users/tompickup/aidoge-site/data/shared/council_crosswalk.json",
@@ -63,6 +65,7 @@ const asylumstats = readJson(sourcePaths.asylumstats);
 const counties = readJson(sourcePaths.counties);
 const reorganisation = readJson(sourcePaths.reorganisation);
 const slugOverrides = readJson(overridesPath);
+const wikidataByGss = readJson(wikidataPath);
 
 const asylumAreas = asylumstats.areas;
 if (!Array.isArray(asylumAreas) || asylumAreas.length !== 361) {
@@ -176,7 +179,7 @@ for (const area of [...asylumAreas].sort((left, right) => left.areaCode.localeCo
     region: area.regionName,
     county,
     parentGss,
-    wikidata: null,
+    wikidata: wikidataByGss[gss] ?? null,
     reorganisation: reorganisationBySlug.get(slug) ?? null,
     coverage: {
       ukelections: coverage(Boolean(ukeSlug), ukeSlug, sourceUrls.ukelections),
@@ -192,6 +195,8 @@ if (unresolvedParents.length) {
 }
 
 fs.writeFileSync(outputPath, `${JSON.stringify(registry, null, 2)}\n`);
+// The published copy that sister sites read at /data/registry/places.json.
+fs.writeFileSync(path.join(siteRoot, "public", "data", "registry", "places.json"), `${JSON.stringify(registry, null, 2)}\n`);
 
 const coverageCounts = Object.fromEntries(
   ["ukelections", "ukdemographics", "aidoge", "asylumstats"].map((source) => [

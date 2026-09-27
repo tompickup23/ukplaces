@@ -10,7 +10,10 @@ export function getStaticPaths() {
 }
 
 const { region } = Astro.props as { region: RegionGroup };
-const description = `${region.name} local-authority geography records on UK Places.`;
+const firstNames = region.places.slice(0, 5).map((place) => place.name);
+const description = region.places.length > 5
+  ? `${region.name}: ${region.places.length} local authority records on UK Places, including ${firstNames.join(", ")}. Each record links to its detailed sources.`
+  : `${region.name}: ${region.places.length} local authority records on UK Places: ${firstNames.join(", ")}. Each record links to its detailed sources.`;
 ---
 
 <BaseLayout title={region.name} description={description}>

@@ -63,6 +63,11 @@ for (const [gss, place] of Object.entries(registry)) {
 
   const partyCode = council.control.plurality_party ?? council.control.controlling_party;
   const seats = council.control.plurality_seats ?? council.post_may7.by_party[partyCode];
+  // Control not yet determined by the source (seats still to declare): no signal.
+  if (!partyCode || typeof seats !== "number") {
+    electionFeed[gss] = blankSignal();
+    continue;
+  }
   const party = partyNames[partyCode] ?? partyCode;
   const snapshotDate = council.snapshotDate ?? electionGenerated;
   electionFeed[gss] = {
