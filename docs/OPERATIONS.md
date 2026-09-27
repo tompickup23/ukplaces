@@ -25,8 +25,8 @@ When a source snapshot changes, run these commands in order:
 ```sh
 npm run build:registry
 npm run build:signals
-npm run build:place-constituencies
 npm run build:constituencies
+npm run build:place-constituencies
 npm run test:registry
 npm run test:signals
 npm run test:constituencies
@@ -64,4 +64,8 @@ All four run in `site-checks.yml` and `deploy.yml`.
 ## Published registry
 
 `npm run build:registry` writes `src/data/registry/places.json` and the copy sister sites read at `public/data/registry/places.json`; `npm run test:registry` fails if the two differ. It also writes `src/data/registry/county-councils.json` from the AI DOGE crosswalk.
+
+## Constituency geography
+
+`npm run build:constituencies` fills the PCON code UK Elections leaves null (77 seats in Scotland and Northern Ireland) by an exact, unique match on the official ONS name in `ukelections/data/geography/pcon24-simplified.geojson`; it stops if that match disagrees with any code UK Elections does carry. Each seat's current local authorities (`ladCodes`) come from `ukelections/data/ons-pcon24-lad25-postcode-crosswalk.json` (ONS Postcode Directory), counting a pair only where at least 10 live postcodes fall in both. `lad24cds` keeps the UK Elections list unchanged. Run `build:place-constituencies` after it, because place membership is built from the constituency registry.
 

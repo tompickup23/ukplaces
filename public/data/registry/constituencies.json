@@ -9,6 +9,10 @@
       "W06000012",
       "W06000013"
     ],
+    "ladCodes": [
+      "W06000012",
+      "W06000013"
+    ],
     "mp": {
       "name": "Stephen Kinnock",
       "party": "Labour",
@@ -30,10 +34,13 @@
   "aberdeen-north": {
     "slug": "aberdeen-north",
     "name": "Aberdeen North",
-    "pcon24cd": null,
+    "pcon24cd": "S14000060",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000033"
+    ],
     "mp": {
       "name": "Kirsty Blackman",
       "party": "SNP",
@@ -47,18 +54,21 @@
       "url": "https://ukelections.co.uk/seats/parliament/aberdeen-north/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "aberdeen-north",
+      "url": "https://ukdemographics.co.uk/constituencies/aberdeen-north/"
     }
   },
   "aberdeen-south": {
     "slug": "aberdeen-south",
     "name": "Aberdeen South",
-    "pcon24cd": null,
+    "pcon24cd": "S14000061",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000033"
+    ],
     "mp": {
       "name": "Stephen Flynn",
       "party": "SNP",
@@ -72,18 +82,22 @@
       "url": "https://ukelections.co.uk/seats/parliament/aberdeen-south/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "aberdeen-south",
+      "url": "https://ukdemographics.co.uk/constituencies/aberdeen-south/"
     }
   },
   "aberdeenshire-north-and-moray-east": {
     "slug": "aberdeenshire-north-and-moray-east",
     "name": "Aberdeenshire North and Moray East",
-    "pcon24cd": null,
+    "pcon24cd": "S14000062",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000034",
+      "S12000020"
+    ],
     "mp": {
       "name": "Seamus Logan",
       "party": "SNP",
@@ -97,18 +111,21 @@
       "url": "https://ukelections.co.uk/seats/parliament/aberdeenshire-north-and-moray-east/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "aberdeenshire-north-and-moray-east",
+      "url": "https://ukdemographics.co.uk/constituencies/aberdeenshire-north-and-moray-east/"
     }
   },
   "airdrie-and-shotts": {
     "slug": "airdrie-and-shotts",
     "name": "Airdrie and Shotts",
-    "pcon24cd": null,
+    "pcon24cd": "S14000063",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000050"
+    ],
     "mp": {
       "name": "Kenneth Stevenson",
       "party": "Labour",
@@ -122,9 +139,9 @@
       "url": "https://ukelections.co.uk/seats/parliament/airdrie-and-shotts/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "airdrie-and-shotts",
+      "url": "https://ukdemographics.co.uk/constituencies/airdrie-and-shotts/"
     }
   },
   "aldershot": {
@@ -136,6 +153,10 @@
     "lad24cds": [
       "E07000089",
       "E07000092"
+    ],
+    "ladCodes": [
+      "E07000092",
+      "E07000089"
     ],
     "mp": {
       "name": "Alex Baker",
@@ -164,6 +185,9 @@
     "lad24cds": [
       "E08000030"
     ],
+    "ladCodes": [
+      "E08000030"
+    ],
     "mp": {
       "name": "Wendy Morton",
       "party": "Conservative",
@@ -185,10 +209,14 @@
   "alloa-and-grangemouth": {
     "slug": "alloa-and-grangemouth",
     "name": "Alloa and Grangemouth",
-    "pcon24cd": null,
+    "pcon24cd": "S14000064",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000005",
+      "S12000014"
+    ],
     "mp": {
       "name": "Brian Leishman",
       "party": "Labour",
@@ -202,9 +230,9 @@
       "url": "https://ukelections.co.uk/seats/parliament/alloa-and-grangemouth/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "alloa-and-grangemouth",
+      "url": "https://ukdemographics.co.uk/constituencies/alloa-and-grangemouth/"
     }
   },
   "altrincham-and-sale-west": {
@@ -214,6 +242,9 @@
     "country": "england",
     "region": "north_west",
     "lad24cds": [
+      "E08000009"
+    ],
+    "ladCodes": [
       "E08000009"
     ],
     "mp": {
@@ -243,6 +274,9 @@
     "lad24cds": [
       "W06000005"
     ],
+    "ladCodes": [
+      "W06000005"
+    ],
     "mp": {
       "name": "Sir Mark Tami",
       "party": "Labour",
@@ -270,6 +304,9 @@
     "lad24cds": [
       "E07000032"
     ],
+    "ladCodes": [
+      "E07000032"
+    ],
     "mp": {
       "name": "Linsey Farnsworth",
       "party": "Labour",
@@ -291,10 +328,14 @@
   "angus-and-perthshire-glens": {
     "slug": "angus-and-perthshire-glens",
     "name": "Angus and Perthshire Glens",
-    "pcon24cd": null,
+    "pcon24cd": "S14000065",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000041",
+      "S12000048"
+    ],
     "mp": {
       "name": "Dave Doogan",
       "party": "SNP",
@@ -308,18 +349,22 @@
       "url": "https://ukelections.co.uk/seats/parliament/angus-and-perthshire-glens/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "angus-and-perthshire-glens",
+      "url": "https://ukdemographics.co.uk/constituencies/angus-and-perthshire-glens/"
     }
   },
   "arbroath-and-broughty-ferry": {
     "slug": "arbroath-and-broughty-ferry",
     "name": "Arbroath and Broughty Ferry",
-    "pcon24cd": null,
+    "pcon24cd": "S14000066",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000041",
+      "S12000042"
+    ],
     "mp": {
       "name": "Stephen Gethins",
       "party": "SNP",
@@ -333,18 +378,22 @@
       "url": "https://ukelections.co.uk/seats/parliament/arbroath-and-broughty-ferry/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "arbroath-and-broughty-ferry",
+      "url": "https://ukdemographics.co.uk/constituencies/arbroath-and-broughty-ferry/"
     }
   },
   "argyll-bute-and-south-lochaber": {
     "slug": "argyll-bute-and-south-lochaber",
     "name": "Argyll Bute and South Lochaber",
-    "pcon24cd": null,
+    "pcon24cd": "S14000067",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000035",
+      "S12000017"
+    ],
     "mp": null,
     "result": {
       "winnerName": "Brendan O'Hara",
@@ -353,9 +402,9 @@
       "url": "https://ukelections.co.uk/seats/parliament/argyll-bute-and-south-lochaber/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "argyll-bute-and-south-lochaber",
+      "url": "https://ukdemographics.co.uk/constituencies/argyll-bute-and-south-lochaber/"
     }
   },
   "arundel-and-south-downs": {
@@ -368,6 +417,11 @@
       "E07000224",
       "E07000225",
       "E07000227"
+    ],
+    "ladCodes": [
+      "E07000225",
+      "E07000227",
+      "E07000224"
     ],
     "mp": {
       "name": "Andrew Griffith",
@@ -394,6 +448,10 @@
     "country": "england",
     "region": "east_midlands",
     "lad24cds": [
+      "E07000170",
+      "E07000174"
+    ],
+    "ladCodes": [
       "E07000170",
       "E07000174"
     ],
@@ -425,6 +483,10 @@
       "E07000105",
       "E07000112"
     ],
+    "ladCodes": [
+      "E07000105",
+      "E07000112"
+    ],
     "mp": {
       "name": "Sojan Joseph",
       "party": "Labour",
@@ -450,6 +512,9 @@
     "country": "england",
     "region": "north_west",
     "lad24cds": [
+      "E08000008"
+    ],
+    "ladCodes": [
       "E08000008"
     ],
     "mp": {
@@ -479,6 +544,9 @@
     "lad24cds": [
       "E06000060"
     ],
+    "ladCodes": [
+      "E06000060"
+    ],
     "mp": {
       "name": "Laura Kyrke-Smith",
       "party": "Labour",
@@ -500,10 +568,14 @@
   "ayr-carrick-and-cumnock": {
     "slug": "ayr-carrick-and-cumnock",
     "name": "Ayr Carrick and Cumnock",
-    "pcon24cd": null,
+    "pcon24cd": "S14000107",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000028",
+      "S12000008"
+    ],
     "mp": null,
     "result": {
       "winnerName": "Elaine Stewart",
@@ -512,9 +584,9 @@
       "url": "https://ukelections.co.uk/seats/parliament/ayr-carrick-and-cumnock/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "ayr-carrick-and-cumnock",
+      "url": "https://ukdemographics.co.uk/constituencies/ayr-carrick-and-cumnock/"
     }
   },
   "banbury": {
@@ -524,6 +596,10 @@
     "country": "england",
     "region": "south_east",
     "lad24cds": [
+      "E07000177",
+      "E07000181"
+    ],
+    "ladCodes": [
       "E07000177",
       "E07000181"
     ],
@@ -556,6 +632,11 @@
       "W06000003",
       "W06000004"
     ],
+    "ladCodes": [
+      "W06000003",
+      "W06000002",
+      "W06000004"
+    ],
     "mp": {
       "name": "Claire Hughes",
       "party": "Labour",
@@ -581,6 +662,9 @@
     "country": "england",
     "region": "london",
     "lad24cds": [
+      "E09000002"
+    ],
+    "ladCodes": [
       "E09000002"
     ],
     "mp": {
@@ -610,6 +694,9 @@
     "lad24cds": [
       "E08000016"
     ],
+    "ladCodes": [
+      "E08000038"
+    ],
     "mp": {
       "name": "Dan Jarvis",
       "party": "Labour",
@@ -636,6 +723,9 @@
     "region": "yorkshire",
     "lad24cds": [
       "E08000016"
+    ],
+    "ladCodes": [
+      "E08000038"
     ],
     "mp": {
       "name": "Stephanie Peacock",
@@ -666,6 +756,10 @@
       "E07000029",
       "E07000031"
     ],
+    "ladCodes": [
+      "E06000064",
+      "E06000063"
+    ],
     "mp": {
       "name": "Michelle Scrogham",
       "party": "Labour",
@@ -691,6 +785,9 @@
     "country": "england",
     "region": "east_of_england",
     "lad24cds": [
+      "E07000066"
+    ],
+    "ladCodes": [
       "E07000066"
     ],
     "mp": {
@@ -720,6 +817,9 @@
     "lad24cds": [
       "E07000084"
     ],
+    "ladCodes": [
+      "E07000084"
+    ],
     "mp": {
       "name": "Luke Murphy",
       "party": "Labour",
@@ -745,6 +845,9 @@
     "country": "england",
     "region": "east_midlands",
     "lad24cds": [
+      "E07000171"
+    ],
+    "ladCodes": [
       "E07000171"
     ],
     "mp": {
@@ -774,6 +877,9 @@
     "lad24cds": [
       "E06000022"
     ],
+    "ladCodes": [
+      "E06000022"
+    ],
     "mp": {
       "name": "Wera Hobhouse",
       "party": "Liberal Democrats",
@@ -795,10 +901,14 @@
   "bathgate-and-linlithgow": {
     "slug": "bathgate-and-linlithgow",
     "name": "Bathgate and Linlithgow",
-    "pcon24cd": null,
+    "pcon24cd": "S14000068",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000040",
+      "S12000014"
+    ],
     "mp": {
       "name": "Kirsteen Sullivan",
       "party": "Labour (Co-op)",
@@ -812,9 +922,9 @@
       "url": "https://ukelections.co.uk/seats/parliament/bathgate-and-linlithgow/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "bathgate-and-linlithgow",
+      "url": "https://ukdemographics.co.uk/constituencies/bathgate-and-linlithgow/"
     }
   },
   "battersea": {
@@ -824,6 +934,9 @@
     "country": "england",
     "region": "london",
     "lad24cds": [
+      "E09000032"
+    ],
+    "ladCodes": [
       "E09000032"
     ],
     "mp": {
@@ -853,6 +966,9 @@
     "lad24cds": [
       "E06000060"
     ],
+    "ladCodes": [
+      "E06000060"
+    ],
     "mp": {
       "name": "Joy Morrissey",
       "party": "Conservative",
@@ -878,6 +994,9 @@
     "country": "england",
     "region": "london",
     "lad24cds": [
+      "E09000006"
+    ],
+    "ladCodes": [
       "E09000006"
     ],
     "mp": {
@@ -907,6 +1026,9 @@
     "lad24cds": [
       "E06000055"
     ],
+    "ladCodes": [
+      "E06000055"
+    ],
     "mp": {
       "name": "Mohammad Yasin",
       "party": "Labour",
@@ -928,10 +1050,14 @@
   "belfast-east": {
     "slug": "belfast-east",
     "name": "Belfast East",
-    "pcon24cd": null,
+    "pcon24cd": "N05000001",
     "country": "northern_ireland",
     "region": "northern_ireland",
     "lad24cds": [],
+    "ladCodes": [
+      "N09000003",
+      "N09000007"
+    ],
     "mp": {
       "name": "Gavin Robinson",
       "party": "DUP",
@@ -953,10 +1079,14 @@
   "belfast-north": {
     "slug": "belfast-north",
     "name": "Belfast North",
-    "pcon24cd": null,
+    "pcon24cd": "N05000002",
     "country": "northern_ireland",
     "region": "northern_ireland",
     "lad24cds": [],
+    "ladCodes": [
+      "N09000003",
+      "N09000001"
+    ],
     "mp": {
       "name": "John Finucane",
       "party": "Sinn Fein",
@@ -978,10 +1108,15 @@
   "belfast-south-and-mid-down": {
     "slug": "belfast-south-and-mid-down",
     "name": "Belfast South and Mid Down",
-    "pcon24cd": null,
+    "pcon24cd": "N05000003",
     "country": "northern_ireland",
     "region": "northern_ireland",
     "lad24cds": [],
+    "ladCodes": [
+      "N09000003",
+      "N09000007",
+      "N09000010"
+    ],
     "mp": {
       "name": "Claire Hanna",
       "party": "SDLP",
@@ -1003,10 +1138,14 @@
   "belfast-west": {
     "slug": "belfast-west",
     "name": "Belfast West",
-    "pcon24cd": null,
+    "pcon24cd": "N05000004",
     "country": "northern_ireland",
     "region": "northern_ireland",
     "lad24cds": [],
+    "ladCodes": [
+      "N09000003",
+      "N09000007"
+    ],
     "mp": {
       "name": "Paul Maskey",
       "party": "Sinn Fein",
@@ -1034,6 +1173,9 @@
     "lad24cds": [
       "E09000028"
     ],
+    "ladCodes": [
+      "E09000028"
+    ],
     "mp": {
       "name": "Neil Coyle",
       "party": "Labour",
@@ -1055,10 +1197,13 @@
   "berwickshire-roxburgh-and-selkirk": {
     "slug": "berwickshire-roxburgh-and-selkirk",
     "name": "Berwickshire Roxburgh and Selkirk",
-    "pcon24cd": null,
+    "pcon24cd": "S14000108",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000026"
+    ],
     "mp": null,
     "result": {
       "winnerName": "John Lamont",
@@ -1067,9 +1212,9 @@
       "url": "https://ukelections.co.uk/seats/parliament/berwickshire-roxburgh-and-selkirk/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "berwickshire-roxburgh-and-selkirk",
+      "url": "https://ukdemographics.co.uk/constituencies/berwickshire-roxburgh-and-selkirk/"
     }
   },
   "bethnal-green-and-stepney": {
@@ -1079,6 +1224,9 @@
     "country": "england",
     "region": "london",
     "lad24cds": [
+      "E09000030"
+    ],
+    "ladCodes": [
       "E09000030"
     ],
     "mp": {
@@ -1106,6 +1254,9 @@
     "country": "england",
     "region": "yorkshire",
     "lad24cds": [
+      "E06000011"
+    ],
+    "ladCodes": [
       "E06000011"
     ],
     "mp": {
@@ -1136,6 +1287,10 @@
       "E07000064",
       "E07000065"
     ],
+    "ladCodes": [
+      "E07000064",
+      "E07000065"
+    ],
     "mp": {
       "name": "Dr Kieran Mullan",
       "party": "Conservative",
@@ -1161,6 +1316,9 @@
     "country": "england",
     "region": "london",
     "lad24cds": [
+      "E09000004"
+    ],
+    "ladCodes": [
       "E09000004"
     ],
     "mp": {
@@ -1191,6 +1349,10 @@
       "E07000177",
       "E07000181"
     ],
+    "ladCodes": [
+      "E07000177",
+      "E07000181"
+    ],
     "mp": {
       "name": "Calum Miller",
       "party": "Liberal Democrats",
@@ -1216,6 +1378,9 @@
     "country": "england",
     "region": "north_west",
     "lad24cds": [
+      "E08000015"
+    ],
+    "ladCodes": [
       "E08000015"
     ],
     "mp": {
@@ -1245,6 +1410,9 @@
     "lad24cds": [
       "E08000025"
     ],
+    "ladCodes": [
+      "E08000025"
+    ],
     "mp": {
       "name": "Preet Kaur Gill",
       "party": "Labour (Co-op)",
@@ -1272,6 +1440,9 @@
     "lad24cds": [
       "E08000025"
     ],
+    "ladCodes": [
+      "E08000025"
+    ],
     "mp": {
       "name": "Paulette Hamilton",
       "party": "Labour",
@@ -1297,6 +1468,9 @@
     "country": "england",
     "region": "west_midlands",
     "lad24cds": [
+      "E08000025"
+    ],
+    "ladCodes": [
       "E08000025"
     ],
     "mp": {
@@ -1327,6 +1501,10 @@
       "E08000025",
       "E08000029"
     ],
+    "ladCodes": [
+      "E08000025",
+      "E08000029"
+    ],
     "mp": {
       "name": "Liam Byrne",
       "party": "Labour",
@@ -1352,6 +1530,9 @@
     "country": "england",
     "region": "west_midlands",
     "lad24cds": [
+      "E08000025"
+    ],
+    "ladCodes": [
       "E08000025"
     ],
     "mp": {
@@ -1381,6 +1562,9 @@
     "lad24cds": [
       "E08000025"
     ],
+    "ladCodes": [
+      "E08000025"
+    ],
     "mp": {
       "name": "Laurence Turner",
       "party": "Labour",
@@ -1406,6 +1590,9 @@
     "country": "england",
     "region": "west_midlands",
     "lad24cds": [
+      "E08000025"
+    ],
+    "ladCodes": [
       "E08000025"
     ],
     "mp": {
@@ -1435,6 +1622,9 @@
     "lad24cds": [
       "E08000025"
     ],
+    "ladCodes": [
+      "E08000025"
+    ],
     "mp": {
       "name": "Al Carns",
       "party": "Labour",
@@ -1460,6 +1650,9 @@
     "country": "england",
     "region": "west_midlands",
     "lad24cds": [
+      "E08000025"
+    ],
+    "ladCodes": [
       "E08000025"
     ],
     "mp": {
@@ -1489,6 +1682,9 @@
     "lad24cds": [
       "E06000047"
     ],
+    "ladCodes": [
+      "E06000047"
+    ],
     "mp": {
       "name": "Sam Rushworth",
       "party": "Labour",
@@ -1516,6 +1712,9 @@
     "lad24cds": [
       "E06000008"
     ],
+    "ladCodes": [
+      "E06000008"
+    ],
     "mp": {
       "name": "Mr Adnan Hussain",
       "party": "Independent",
@@ -1541,6 +1740,10 @@
     "country": "england",
     "region": "north_west",
     "lad24cds": [
+      "E08000003",
+      "E08000005"
+    ],
+    "ladCodes": [
       "E08000003",
       "E08000005"
     ],
@@ -1572,6 +1775,10 @@
       "E06000009",
       "E07000128"
     ],
+    "ladCodes": [
+      "E07000128",
+      "E06000009"
+    ],
     "mp": {
       "name": "Lorraine Beavers",
       "party": "Labour",
@@ -1597,6 +1804,9 @@
     "country": "england",
     "region": "north_west",
     "lad24cds": [
+      "E06000009"
+    ],
+    "ladCodes": [
       "E06000009"
     ],
     "mp": {
@@ -1627,6 +1837,10 @@
       "W06000018",
       "W06000019"
     ],
+    "ladCodes": [
+      "W06000019",
+      "W06000018"
+    ],
     "mp": {
       "name": "Nick Smith",
       "party": "Labour",
@@ -1655,6 +1869,10 @@
       "E06000047",
       "E08000037"
     ],
+    "ladCodes": [
+      "E08000037",
+      "E06000047"
+    ],
     "mp": {
       "name": "Liz Twist",
       "party": "Labour",
@@ -1682,6 +1900,9 @@
     "lad24cds": [
       "E06000057"
     ],
+    "ladCodes": [
+      "E06000057"
+    ],
     "mp": {
       "name": "Ian Lavery",
       "party": "Labour",
@@ -1707,6 +1928,9 @@
     "country": "england",
     "region": "south_east",
     "lad24cds": [
+      "E07000224"
+    ],
+    "ladCodes": [
       "E07000224"
     ],
     "mp": {
@@ -1737,6 +1961,10 @@
       "E07000033",
       "E07000038"
     ],
+    "ladCodes": [
+      "E07000033",
+      "E07000038"
+    ],
     "mp": {
       "name": "Natalie Fleet",
       "party": "Labour",
@@ -1762,6 +1990,9 @@
     "country": "england",
     "region": "north_west",
     "lad24cds": [
+      "E08000001"
+    ],
+    "ladCodes": [
       "E08000001"
     ],
     "mp": {
@@ -1792,6 +2023,10 @@
       "E08000001",
       "E08000006"
     ],
+    "ladCodes": [
+      "E08000001",
+      "E08000006"
+    ],
     "mp": {
       "name": "Yasmin Qureshi",
       "party": "Labour",
@@ -1819,6 +2054,9 @@
     "lad24cds": [
       "E08000001"
     ],
+    "ladCodes": [
+      "E08000001"
+    ],
     "mp": {
       "name": "Phil Brickell",
       "party": "Labour",
@@ -1844,6 +2082,9 @@
     "country": "england",
     "region": "north_west",
     "lad24cds": [
+      "E08000014"
+    ],
+    "ladCodes": [
       "E08000014"
     ],
     "mp": {
@@ -1874,6 +2115,10 @@
       "E07000136",
       "E07000137"
     ],
+    "ladCodes": [
+      "E07000136",
+      "E07000137"
+    ],
     "mp": {
       "name": "Richard Tice",
       "party": "Reform UK",
@@ -1899,6 +2144,9 @@
     "country": "england",
     "region": "south_west",
     "lad24cds": [
+      "E06000058"
+    ],
+    "ladCodes": [
       "E06000058"
     ],
     "mp": {
@@ -1928,6 +2176,9 @@
     "lad24cds": [
       "E06000058"
     ],
+    "ladCodes": [
+      "E06000058"
+    ],
     "mp": {
       "name": "Jessica Toale",
       "party": "Labour",
@@ -1953,6 +2204,9 @@
     "country": "england",
     "region": "south_east",
     "lad24cds": [
+      "E06000036"
+    ],
+    "ladCodes": [
       "E06000036"
     ],
     "mp": {
@@ -1982,6 +2236,9 @@
     "lad24cds": [
       "E08000032"
     ],
+    "ladCodes": [
+      "E08000032"
+    ],
     "mp": {
       "name": "Imran Hussain",
       "party": "Labour",
@@ -2007,6 +2264,9 @@
     "country": "england",
     "region": "yorkshire",
     "lad24cds": [
+      "E08000032"
+    ],
+    "ladCodes": [
       "E08000032"
     ],
     "mp": {
@@ -2036,6 +2296,9 @@
     "lad24cds": [
       "E08000032"
     ],
+    "ladCodes": [
+      "E08000032"
+    ],
     "mp": {
       "name": "Naz Shah",
       "party": "Labour",
@@ -2061,6 +2324,10 @@
     "country": "england",
     "region": "east_of_england",
     "lad24cds": [
+      "E07000067",
+      "E07000077"
+    ],
+    "ladCodes": [
       "E07000067",
       "E07000077"
     ],
@@ -2092,6 +2359,10 @@
       "W06000012",
       "W06000023"
     ],
+    "ladCodes": [
+      "W06000023",
+      "W06000012"
+    ],
     "mp": {
       "name": "David Chadwick",
       "party": "Liberal Democrats",
@@ -2117,6 +2388,9 @@
     "country": "england",
     "region": "london",
     "lad24cds": [
+      "E09000005"
+    ],
+    "ladCodes": [
       "E09000005"
     ],
     "mp": {
@@ -2146,6 +2420,9 @@
     "lad24cds": [
       "E09000005"
     ],
+    "ladCodes": [
+      "E09000005"
+    ],
     "mp": {
       "name": "Barry Gardiner",
       "party": "Labour",
@@ -2171,6 +2448,10 @@
     "country": "england",
     "region": "london",
     "lad24cds": [
+      "E09000018",
+      "E09000027"
+    ],
+    "ladCodes": [
       "E09000018",
       "E09000027"
     ],
@@ -2202,6 +2483,10 @@
       "E07000068",
       "E07000072"
     ],
+    "ladCodes": [
+      "E07000068",
+      "E07000072"
+    ],
     "mp": {
       "name": "Alex Burghart",
       "party": "Conservative",
@@ -2227,6 +2512,9 @@
     "country": "wales",
     "region": "wales",
     "lad24cds": [
+      "W06000013"
+    ],
+    "ladCodes": [
       "W06000013"
     ],
     "mp": {
@@ -2256,6 +2544,9 @@
     "lad24cds": [
       "E07000188"
     ],
+    "ladCodes": [
+      "E06000066"
+    ],
     "mp": {
       "name": "Sir Ashley Fox",
       "party": "Conservative",
@@ -2283,6 +2574,9 @@
     "lad24cds": [
       "E06000011"
     ],
+    "ladCodes": [
+      "E06000011"
+    ],
     "mp": {
       "name": "Charlie Dewhirst",
       "party": "Conservative",
@@ -2308,6 +2602,10 @@
     "country": "england",
     "region": "yorkshire",
     "lad24cds": [
+      "E06000012",
+      "E06000013"
+    ],
+    "ladCodes": [
       "E06000012",
       "E06000013"
     ],
@@ -2339,6 +2637,10 @@
       "E06000043",
       "E07000063"
     ],
+    "ladCodes": [
+      "E06000043",
+      "E07000063"
+    ],
     "mp": {
       "name": "Chris Ward",
       "party": "Labour",
@@ -2364,6 +2666,9 @@
     "country": "england",
     "region": "south_east",
     "lad24cds": [
+      "E06000043"
+    ],
+    "ladCodes": [
       "E06000043"
     ],
     "mp": {
@@ -2393,6 +2698,9 @@
     "lad24cds": [
       "E06000023"
     ],
+    "ladCodes": [
+      "E06000023"
+    ],
     "mp": {
       "name": "Carla Denyer",
       "party": "Green",
@@ -2418,6 +2726,9 @@
     "country": "england",
     "region": "south_west",
     "lad24cds": [
+      "E06000023"
+    ],
+    "ladCodes": [
       "E06000023"
     ],
     "mp": {
@@ -2448,6 +2759,10 @@
       "E06000023",
       "E06000025"
     ],
+    "ladCodes": [
+      "E06000023",
+      "E06000025"
+    ],
     "mp": {
       "name": "Damien Egan",
       "party": "Labour",
@@ -2475,6 +2790,9 @@
     "lad24cds": [
       "E06000023"
     ],
+    "ladCodes": [
+      "E06000023"
+    ],
     "mp": {
       "name": "Darren Jones",
       "party": "Labour",
@@ -2500,6 +2818,9 @@
     "country": "england",
     "region": "south_west",
     "lad24cds": [
+      "E06000023"
+    ],
+    "ladCodes": [
       "E06000023"
     ],
     "mp": {
@@ -2530,6 +2851,10 @@
       "E07000144",
       "E07000147"
     ],
+    "ladCodes": [
+      "E07000144",
+      "E07000147"
+    ],
     "mp": {
       "name": "Jerome Mayhew",
       "party": "Conservative",
@@ -2557,6 +2882,9 @@
     "lad24cds": [
       "E09000006"
     ],
+    "ladCodes": [
+      "E09000006"
+    ],
     "mp": {
       "name": "Peter Fortune",
       "party": "Conservative",
@@ -2582,6 +2910,9 @@
     "country": "england",
     "region": "west_midlands",
     "lad24cds": [
+      "E07000234"
+    ],
+    "ladCodes": [
       "E07000234"
     ],
     "mp": {
@@ -2612,6 +2943,10 @@
       "E07000095",
       "E07000242"
     ],
+    "ladCodes": [
+      "E07000095",
+      "E07000242"
+    ],
     "mp": {
       "name": "Lewis Cocking",
       "party": "Conservative",
@@ -2639,6 +2974,9 @@
     "lad24cds": [
       "E07000172"
     ],
+    "ladCodes": [
+      "E07000172"
+    ],
     "mp": {
       "name": "Juliet Campbell",
       "party": "Labour",
@@ -2664,6 +3002,10 @@
     "country": "england",
     "region": "south_east",
     "lad24cds": [
+      "E06000042",
+      "E06000060"
+    ],
+    "ladCodes": [
       "E06000042",
       "E06000060"
     ],
@@ -2695,6 +3037,10 @@
       "E07000117",
       "E07000122"
     ],
+    "ladCodes": [
+      "E07000117",
+      "E07000122"
+    ],
     "mp": {
       "name": "Oliver Ryan",
       "party": "Labour (Co-op)",
@@ -2720,6 +3066,9 @@
     "country": "england",
     "region": "west_midlands",
     "lad24cds": [
+      "E07000193"
+    ],
+    "ladCodes": [
       "E07000193"
     ],
     "mp": {
@@ -2749,6 +3098,9 @@
     "lad24cds": [
       "E08000002"
     ],
+    "ladCodes": [
+      "E08000002"
+    ],
     "mp": {
       "name": "Mr James Frith",
       "party": "Labour",
@@ -2774,6 +3126,10 @@
     "country": "england",
     "region": "north_west",
     "lad24cds": [
+      "E08000002",
+      "E08000006"
+    ],
+    "ladCodes": [
       "E08000002",
       "E08000006"
     ],
@@ -2805,6 +3161,10 @@
       "E07000203",
       "E07000245"
     ],
+    "ladCodes": [
+      "E07000245",
+      "E07000203"
+    ],
     "mp": {
       "name": "Peter Prinsley",
       "party": "Labour",
@@ -2830,6 +3190,9 @@
     "country": "wales",
     "region": "wales",
     "lad24cds": [
+      "W06000010"
+    ],
+    "ladCodes": [
       "W06000010"
     ],
     "mp": {
@@ -2859,6 +3222,9 @@
     "lad24cds": [
       "W06000018"
     ],
+    "ladCodes": [
+      "W06000018"
+    ],
     "mp": {
       "name": "Chris Evans",
       "party": "Labour (Co-op)",
@@ -2880,10 +3246,13 @@
   "caithness-sutherland-and-easter-ross": {
     "slug": "caithness-sutherland-and-easter-ross",
     "name": "Caithness Sutherland and Easter Ross",
-    "pcon24cd": null,
+    "pcon24cd": "S14000069",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000017"
+    ],
     "mp": null,
     "result": {
       "winnerName": "Jamie Stone",
@@ -2892,9 +3261,9 @@
       "url": "https://ukelections.co.uk/seats/parliament/caithness-sutherland-and-easter-ross/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "caithness-sutherland-and-easter-ross",
+      "url": "https://ukdemographics.co.uk/constituencies/caithness-sutherland-and-easter-ross/"
     }
   },
   "calder-valley": {
@@ -2904,6 +3273,9 @@
     "country": "england",
     "region": "yorkshire",
     "lad24cds": [
+      "E08000033"
+    ],
+    "ladCodes": [
       "E08000033"
     ],
     "mp": {
@@ -2933,6 +3305,9 @@
     "lad24cds": [
       "E06000052"
     ],
+    "ladCodes": [
+      "E06000052"
+    ],
     "mp": {
       "name": "Perran Moon",
       "party": "Labour",
@@ -2958,6 +3333,9 @@
     "country": "england",
     "region": "east_of_england",
     "lad24cds": [
+      "E07000008"
+    ],
+    "ladCodes": [
       "E07000008"
     ],
     "mp": {
@@ -2987,6 +3365,9 @@
     "lad24cds": [
       "E07000192"
     ],
+    "ladCodes": [
+      "E07000192"
+    ],
     "mp": {
       "name": "Josh Newbury",
       "party": "Labour",
@@ -3012,6 +3393,9 @@
     "country": "england",
     "region": "south_east",
     "lad24cds": [
+      "E07000106"
+    ],
+    "ladCodes": [
       "E07000106"
     ],
     "mp": {
@@ -3041,6 +3425,9 @@
     "lad24cds": [
       "W06000015"
     ],
+    "ladCodes": [
+      "W06000015"
+    ],
     "mp": {
       "name": "Jo Stevens",
       "party": "Labour",
@@ -3066,6 +3453,10 @@
     "country": "wales",
     "region": "wales",
     "lad24cds": [
+      "W06000015",
+      "W06000016"
+    ],
+    "ladCodes": [
       "W06000015",
       "W06000016"
     ],
@@ -3097,6 +3488,10 @@
       "W06000014",
       "W06000015"
     ],
+    "ladCodes": [
+      "W06000015",
+      "W06000014"
+    ],
     "mp": {
       "name": "Stephen Doughty",
       "party": "Labour (Co-op)",
@@ -3122,6 +3517,10 @@
     "country": "wales",
     "region": "wales",
     "lad24cds": [
+      "W06000015",
+      "W06000016"
+    ],
+    "ladCodes": [
       "W06000015",
       "W06000016"
     ],
@@ -3152,6 +3551,9 @@
     "lad24cds": [
       "E07000028"
     ],
+    "ladCodes": [
+      "E06000063"
+    ],
     "mp": {
       "name": "Ms Julie Minns",
       "party": "Labour",
@@ -3177,6 +3579,9 @@
     "country": "england",
     "region": "london",
     "lad24cds": [
+      "E09000029"
+    ],
+    "ladCodes": [
       "E09000029"
     ],
     "mp": {
@@ -3207,6 +3612,10 @@
       "E07000066",
       "E07000069"
     ],
+    "ladCodes": [
+      "E07000069",
+      "E07000066"
+    ],
     "mp": {
       "name": "Rebecca Harris",
       "party": "Conservative",
@@ -3228,10 +3637,14 @@
   "central-ayrshire": {
     "slug": "central-ayrshire",
     "name": "Central Ayrshire",
-    "pcon24cd": null,
+    "pcon24cd": "S14000109",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000028",
+      "S12000021"
+    ],
     "mp": {
       "name": "Alan Gemmell",
       "party": "Labour",
@@ -3245,9 +3658,9 @@
       "url": "https://ukelections.co.uk/seats/parliament/central-ayrshire/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "central-ayrshire",
+      "url": "https://ukdemographics.co.uk/constituencies/central-ayrshire/"
     }
   },
   "central-devon": {
@@ -3259,6 +3672,11 @@
     "lad24cds": [
       "E07000042",
       "E07000045",
+      "E07000047"
+    ],
+    "ladCodes": [
+      "E07000045",
+      "E07000042",
       "E07000047"
     ],
     "mp": {
@@ -3290,6 +3708,11 @@
       "E07000203",
       "E07000244"
     ],
+    "ladCodes": [
+      "E07000244",
+      "E07000203",
+      "E07000202"
+    ],
     "mp": {
       "name": "Patrick Spencer",
       "party": "Independent",
@@ -3315,6 +3738,10 @@
     "country": "wales",
     "region": "wales",
     "lad24cds": [
+      "W06000008",
+      "W06000009"
+    ],
+    "ladCodes": [
       "W06000008",
       "W06000009"
     ],
@@ -3346,6 +3773,10 @@
       "E06000035",
       "E07000115"
     ],
+    "ladCodes": [
+      "E06000035",
+      "E07000115"
+    ],
     "mp": {
       "name": "Tristan Osborne",
       "party": "Labour",
@@ -3373,6 +3804,9 @@
     "lad24cds": [
       "E08000007"
     ],
+    "ladCodes": [
+      "E08000007"
+    ],
     "mp": {
       "name": "Tom Morrison",
       "party": "Liberal Democrats",
@@ -3398,6 +3832,9 @@
     "country": "england",
     "region": "east_of_england",
     "lad24cds": [
+      "E07000070"
+    ],
+    "ladCodes": [
       "E07000070"
     ],
     "mp": {
@@ -3428,6 +3865,10 @@
       "E09000013",
       "E09000020"
     ],
+    "ladCodes": [
+      "E09000013",
+      "E09000020"
+    ],
     "mp": {
       "name": "Ben Coleman",
       "party": "Labour",
@@ -3453,6 +3894,9 @@
     "country": "england",
     "region": "south_west",
     "lad24cds": [
+      "E07000078"
+    ],
+    "ladCodes": [
       "E07000078"
     ],
     "mp": {
@@ -3482,6 +3926,9 @@
     "lad24cds": [
       "E06000060"
     ],
+    "ladCodes": [
+      "E06000060"
+    ],
     "mp": {
       "name": "Sarah Green",
       "party": "Liberal Democrats",
@@ -3507,6 +3954,9 @@
     "country": "england",
     "region": "north_west",
     "lad24cds": [
+      "E06000050"
+    ],
+    "ladCodes": [
       "E06000050"
     ],
     "mp": {
@@ -3537,6 +3987,10 @@
       "E06000049",
       "E06000050"
     ],
+    "ladCodes": [
+      "E06000050",
+      "E06000049"
+    ],
     "mp": {
       "name": "Aphra Brandreth",
       "party": "Conservative",
@@ -3562,6 +4016,9 @@
     "country": "england",
     "region": "east_midlands",
     "lad24cds": [
+      "E07000034"
+    ],
+    "ladCodes": [
       "E07000034"
     ],
     "mp": {
@@ -3592,6 +4049,10 @@
       "E07000224",
       "E07000225"
     ],
+    "ladCodes": [
+      "E07000225",
+      "E07000224"
+    ],
     "mp": {
       "name": "Jess Brown-Fuller",
       "party": "Liberal Democrats",
@@ -3620,6 +4081,10 @@
       "E09000026",
       "E09000031"
     ],
+    "ladCodes": [
+      "E09000031",
+      "E09000026"
+    ],
     "mp": {
       "name": "Sir Iain Duncan Smith",
       "party": "Conservative",
@@ -3645,6 +4110,9 @@
     "country": "england",
     "region": "south_west",
     "lad24cds": [
+      "E06000054"
+    ],
+    "ladCodes": [
       "E06000054"
     ],
     "mp": {
@@ -3674,6 +4142,9 @@
     "lad24cds": [
       "E09000003"
     ],
+    "ladCodes": [
+      "E09000003"
+    ],
     "mp": {
       "name": "Dan Tomlinson",
       "party": "Labour",
@@ -3701,6 +4172,9 @@
     "lad24cds": [
       "E07000118"
     ],
+    "ladCodes": [
+      "E07000118"
+    ],
     "mp": {
       "name": "Sir Lindsay Hoyle",
       "party": "Speaker",
@@ -3726,6 +4200,10 @@
     "country": "england",
     "region": "south_west",
     "lad24cds": [
+      "E06000058",
+      "E06000059"
+    ],
+    "ladCodes": [
       "E06000058",
       "E06000059"
     ],
@@ -3757,6 +4235,10 @@
       "E09000001",
       "E09000033"
     ],
+    "ladCodes": [
+      "E09000033",
+      "E09000001"
+    ],
     "mp": {
       "name": "Rachel Blake",
       "party": "Labour (Co-op)",
@@ -3782,6 +4264,9 @@
     "country": "england",
     "region": "north_east",
     "lad24cds": [
+      "E06000047"
+    ],
+    "ladCodes": [
       "E06000047"
     ],
     "mp": {
@@ -3811,6 +4296,9 @@
     "lad24cds": [
       "E07000076"
     ],
+    "ladCodes": [
+      "E07000076"
+    ],
     "mp": {
       "name": "Nigel Farage",
       "party": "Reform UK",
@@ -3836,6 +4324,9 @@
     "country": "england",
     "region": "london",
     "lad24cds": [
+      "E09000022"
+    ],
+    "ladCodes": [
       "E09000022"
     ],
     "mp": {
@@ -3867,6 +4358,11 @@
       "W06000005",
       "W06000006"
     ],
+    "ladCodes": [
+      "W06000005",
+      "W06000004",
+      "W06000006"
+    ],
     "mp": {
       "name": "Becky Gittins",
       "party": "Labour",
@@ -3895,6 +4391,10 @@
       "W06000003",
       "W06000004"
     ],
+    "ladCodes": [
+      "W06000004",
+      "W06000003"
+    ],
     "mp": {
       "name": "Gill German",
       "party": "Labour",
@@ -3916,10 +4416,13 @@
   "coatbridge-and-bellshill": {
     "slug": "coatbridge-and-bellshill",
     "name": "Coatbridge and Bellshill",
-    "pcon24cd": null,
+    "pcon24cd": "S14000070",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000050"
+    ],
     "mp": {
       "name": "Frank McNally",
       "party": "Labour",
@@ -3933,9 +4436,9 @@
       "url": "https://ukelections.co.uk/seats/parliament/coatbridge-and-bellshill/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "coatbridge-and-bellshill",
+      "url": "https://ukdemographics.co.uk/constituencies/coatbridge-and-bellshill/"
     }
   },
   "colchester": {
@@ -3945,6 +4448,9 @@
     "country": "england",
     "region": "east_of_england",
     "lad24cds": [
+      "E07000071"
+    ],
+    "ladCodes": [
       "E07000071"
     ],
     "mp": {
@@ -3974,6 +4480,9 @@
     "lad24cds": [
       "E08000034"
     ],
+    "ladCodes": [
+      "E08000034"
+    ],
     "mp": {
       "name": "Paul Davies",
       "party": "Labour",
@@ -3999,6 +4508,9 @@
     "country": "england",
     "region": "north_west",
     "lad24cds": [
+      "E06000049"
+    ],
+    "ladCodes": [
       "E06000049"
     ],
     "mp": {
@@ -4028,6 +4540,9 @@
     "lad24cds": [
       "E06000061"
     ],
+    "ladCodes": [
+      "E06000061"
+    ],
     "mp": {
       "name": "Lee Barron",
       "party": "Labour",
@@ -4053,6 +4568,9 @@
     "country": "england",
     "region": "west_midlands",
     "lad24cds": [
+      "E08000026"
+    ],
+    "ladCodes": [
       "E08000026"
     ],
     "mp": {
@@ -4082,6 +4600,9 @@
     "lad24cds": [
       "E08000026"
     ],
+    "ladCodes": [
+      "E08000026"
+    ],
     "mp": {
       "name": "Taiwo Owatemi",
       "party": "Labour",
@@ -4109,6 +4630,9 @@
     "lad24cds": [
       "E08000026"
     ],
+    "ladCodes": [
+      "E08000026"
+    ],
     "mp": {
       "name": "Zarah Sultana",
       "party": "Your Party",
@@ -4130,10 +4654,13 @@
   "cowdenbeath-and-kirkcaldy": {
     "slug": "cowdenbeath-and-kirkcaldy",
     "name": "Cowdenbeath and Kirkcaldy",
-    "pcon24cd": null,
+    "pcon24cd": "S14000071",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000047"
+    ],
     "mp": {
       "name": "Melanie Ward",
       "party": "Labour",
@@ -4147,9 +4674,9 @@
       "url": "https://ukelections.co.uk/seats/parliament/cowdenbeath-and-kirkcaldy/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "cowdenbeath-and-kirkcaldy",
+      "url": "https://ukdemographics.co.uk/constituencies/cowdenbeath-and-kirkcaldy/"
     }
   },
   "cramlington-and-killingworth": {
@@ -4162,6 +4689,11 @@
       "E06000057",
       "E08000021",
       "E08000022"
+    ],
+    "ladCodes": [
+      "E06000057",
+      "E08000022",
+      "E08000021"
     ],
     "mp": {
       "name": "Emma Foody",
@@ -4188,6 +4720,9 @@
     "country": "england",
     "region": "south_east",
     "lad24cds": [
+      "E07000226"
+    ],
+    "ladCodes": [
       "E07000226"
     ],
     "mp": {
@@ -4217,6 +4752,9 @@
     "lad24cds": [
       "E06000049"
     ],
+    "ladCodes": [
+      "E06000049"
+    ],
     "mp": {
       "name": "Connor Naismith",
       "party": "Labour",
@@ -4242,6 +4780,9 @@
     "country": "england",
     "region": "london",
     "lad24cds": [
+      "E09000008"
+    ],
+    "ladCodes": [
       "E09000008"
     ],
     "mp": {
@@ -4271,6 +4812,9 @@
     "lad24cds": [
       "E09000008"
     ],
+    "ladCodes": [
+      "E09000008"
+    ],
     "mp": {
       "name": "Chris Philp",
       "party": "Conservative",
@@ -4298,6 +4842,9 @@
     "lad24cds": [
       "E09000008"
     ],
+    "ladCodes": [
+      "E09000008"
+    ],
     "mp": {
       "name": "Sarah Jones",
       "party": "Labour",
@@ -4319,10 +4866,14 @@
   "cumbernauld-and-kirkintilloch": {
     "slug": "cumbernauld-and-kirkintilloch",
     "name": "Cumbernauld and Kirkintilloch",
-    "pcon24cd": null,
+    "pcon24cd": "S14000072",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000050",
+      "S12000045"
+    ],
     "mp": {
       "name": "Katrina Murray",
       "party": "Labour",
@@ -4336,9 +4887,9 @@
       "url": "https://ukelections.co.uk/seats/parliament/cumbernauld-and-kirkintilloch/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "cumbernauld-and-kirkintilloch",
+      "url": "https://ukdemographics.co.uk/constituencies/cumbernauld-and-kirkintilloch/"
     }
   },
   "dagenham-and-rainham": {
@@ -4348,6 +4899,10 @@
     "country": "england",
     "region": "london",
     "lad24cds": [
+      "E09000002",
+      "E09000016"
+    ],
+    "ladCodes": [
       "E09000002",
       "E09000016"
     ],
@@ -4378,6 +4933,9 @@
     "lad24cds": [
       "E06000005"
     ],
+    "ladCodes": [
+      "E06000005"
+    ],
     "mp": {
       "name": "Lola McEvoy",
       "party": "Labour",
@@ -4403,6 +4961,9 @@
     "country": "england",
     "region": "south_east",
     "lad24cds": [
+      "E07000107"
+    ],
+    "ladCodes": [
       "E07000107"
     ],
     "mp": {
@@ -4433,6 +4994,10 @@
       "E06000061",
       "E06000062"
     ],
+    "ladCodes": [
+      "E06000062",
+      "E06000061"
+    ],
     "mp": {
       "name": "Stuart Andrew",
       "party": "Conservative",
@@ -4460,6 +5025,9 @@
     "lad24cds": [
       "E06000015"
     ],
+    "ladCodes": [
+      "E06000015"
+    ],
     "mp": {
       "name": "Catherine Atkinson",
       "party": "Labour",
@@ -4485,6 +5053,9 @@
     "country": "england",
     "region": "east_midlands",
     "lad24cds": [
+      "E06000015"
+    ],
+    "ladCodes": [
       "E06000015"
     ],
     "mp": {
@@ -4516,6 +5087,11 @@
       "E07000035",
       "E07000039"
     ],
+    "ladCodes": [
+      "E07000035",
+      "E07000039",
+      "E07000032"
+    ],
     "mp": {
       "name": "John Whitby",
       "party": "Labour",
@@ -4541,6 +5117,9 @@
     "country": "england",
     "region": "yorkshire",
     "lad24cds": [
+      "E08000034"
+    ],
+    "ladCodes": [
       "E08000034"
     ],
     "mp": {
@@ -4571,6 +5150,10 @@
       "E07000179",
       "E07000180"
     ],
+    "ladCodes": [
+      "E07000180",
+      "E07000179"
+    ],
     "mp": {
       "name": "Olly Glover",
       "party": "Liberal Democrats",
@@ -4596,6 +5179,9 @@
     "country": "england",
     "region": "yorkshire",
     "lad24cds": [
+      "E08000017"
+    ],
+    "ladCodes": [
       "E08000017"
     ],
     "mp": {
@@ -4626,6 +5212,10 @@
       "E06000013",
       "E08000017"
     ],
+    "ladCodes": [
+      "E08000017",
+      "E06000013"
+    ],
     "mp": {
       "name": "Lee Pitcher",
       "party": "Labour",
@@ -4651,6 +5241,9 @@
     "country": "england",
     "region": "yorkshire",
     "lad24cds": [
+      "E08000017"
+    ],
+    "ladCodes": [
       "E08000017"
     ],
     "mp": {
@@ -4682,6 +5275,11 @@
       "E07000211",
       "E07000216"
     ],
+    "ladCodes": [
+      "E07000210",
+      "E07000211",
+      "E07000216"
+    ],
     "mp": {
       "name": "Chris Coghlan",
       "party": "Liberal Democrats",
@@ -4707,6 +5305,9 @@
     "country": "england",
     "region": "south_east",
     "lad24cds": [
+      "E07000108"
+    ],
+    "ladCodes": [
       "E07000108"
     ],
     "mp": {
@@ -4736,6 +5337,9 @@
     "lad24cds": [
       "E07000238"
     ],
+    "ladCodes": [
+      "E07000238"
+    ],
     "mp": {
       "name": "Nigel Huddleston",
       "party": "Conservative",
@@ -4761,6 +5365,9 @@
     "country": "england",
     "region": "west_midlands",
     "lad24cds": [
+      "E08000027"
+    ],
+    "ladCodes": [
       "E08000027"
     ],
     "mp": {
@@ -4791,6 +5398,10 @@
       "E09000022",
       "E09000028"
     ],
+    "ladCodes": [
+      "E09000022",
+      "E09000028"
+    ],
     "mp": {
       "name": "Helen Hayes",
       "party": "Labour",
@@ -4812,10 +5423,13 @@
   "dumfries-and-galloway": {
     "slug": "dumfries-and-galloway",
     "name": "Dumfries and Galloway",
-    "pcon24cd": null,
+    "pcon24cd": "S14000073",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000006"
+    ],
     "mp": {
       "name": "John Cooper",
       "party": "Conservative",
@@ -4829,18 +5443,23 @@
       "url": "https://ukelections.co.uk/seats/parliament/dumfries-and-galloway/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "dumfries-and-galloway",
+      "url": "https://ukdemographics.co.uk/constituencies/dumfries-and-galloway/"
     }
   },
   "dumfriesshire-clydesdale-and-tweeddale": {
     "slug": "dumfriesshire-clydesdale-and-tweeddale",
     "name": "Dumfriesshire Clydesdale and Tweeddale",
-    "pcon24cd": null,
+    "pcon24cd": "S14000074",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000006",
+      "S12000029",
+      "S12000026"
+    ],
     "mp": null,
     "result": {
       "winnerName": "David Mundell",
@@ -4849,18 +5468,21 @@
       "url": "https://ukelections.co.uk/seats/parliament/dumfriesshire-clydesdale-and-tweeddale/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "dumfriesshire-clydesdale-and-tweeddale",
+      "url": "https://ukdemographics.co.uk/constituencies/dumfriesshire-clydesdale-and-tweeddale/"
     }
   },
   "dundee-central": {
     "slug": "dundee-central",
     "name": "Dundee Central",
-    "pcon24cd": null,
+    "pcon24cd": "S14000075",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000042"
+    ],
     "mp": {
       "name": "Chris Law",
       "party": "SNP",
@@ -4874,18 +5496,22 @@
       "url": "https://ukelections.co.uk/seats/parliament/dundee-central/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "dundee-central",
+      "url": "https://ukdemographics.co.uk/constituencies/dundee-central/"
     }
   },
   "dunfermline-and-dollar": {
     "slug": "dunfermline-and-dollar",
     "name": "Dunfermline and Dollar",
-    "pcon24cd": null,
+    "pcon24cd": "S14000076",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000047",
+      "S12000005"
+    ],
     "mp": {
       "name": "Graeme Downie",
       "party": "Labour",
@@ -4899,9 +5525,9 @@
       "url": "https://ukelections.co.uk/seats/parliament/dunfermline-and-dollar/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "dunfermline-and-dollar",
+      "url": "https://ukdemographics.co.uk/constituencies/dunfermline-and-dollar/"
     }
   },
   "dunstable-and-leighton-buzzard": {
@@ -4911,6 +5537,9 @@
     "country": "england",
     "region": "east_of_england",
     "lad24cds": [
+      "E06000056"
+    ],
+    "ladCodes": [
       "E06000056"
     ],
     "mp": {
@@ -4938,6 +5567,10 @@
     "country": "wales",
     "region": "wales",
     "lad24cds": [
+      "W06000002",
+      "W06000004"
+    ],
+    "ladCodes": [
       "W06000002",
       "W06000004"
     ],
@@ -4969,6 +5602,10 @@
       "E09000009",
       "E09000013"
     ],
+    "ladCodes": [
+      "E09000009",
+      "E09000013"
+    ],
     "mp": {
       "name": "Dr Rupa Huq",
       "party": "Labour",
@@ -4996,6 +5633,9 @@
     "lad24cds": [
       "E09000009"
     ],
+    "ladCodes": [
+      "E09000009"
+    ],
     "mp": {
       "name": "James Murray",
       "party": "Labour (Co-op)",
@@ -5021,6 +5661,9 @@
     "country": "england",
     "region": "london",
     "lad24cds": [
+      "E09000009"
+    ],
+    "ladCodes": [
       "E09000009"
     ],
     "mp": {
@@ -5051,6 +5694,10 @@
       "E06000038",
       "E06000041"
     ],
+    "ladCodes": [
+      "E06000041",
+      "E06000038"
+    ],
     "mp": {
       "name": "Yuan Yang",
       "party": "Labour",
@@ -5078,6 +5725,9 @@
     "lad24cds": [
       "E06000047"
     ],
+    "ladCodes": [
+      "E06000047"
+    ],
     "mp": {
       "name": "Grahame Morris",
       "party": "Labour",
@@ -5099,10 +5749,15 @@
   "east-antrim": {
     "slug": "east-antrim",
     "name": "East Antrim",
-    "pcon24cd": null,
+    "pcon24cd": "N05000005",
     "country": "northern_ireland",
     "region": "northern_ireland",
     "lad24cds": [],
+    "ladCodes": [
+      "N09000008",
+      "N09000001",
+      "N09000004"
+    ],
     "mp": {
       "name": "Sammy Wilson",
       "party": "DUP",
@@ -5132,6 +5787,11 @@
       "E07000065",
       "E07000228"
     ],
+    "ladCodes": [
+      "E07000228",
+      "E07000065",
+      "E07000063"
+    ],
     "mp": {
       "name": "Mims Davies",
       "party": "Conservative",
@@ -5157,6 +5817,9 @@
     "country": "england",
     "region": "london",
     "lad24cds": [
+      "E09000025"
+    ],
+    "ladCodes": [
       "E09000025"
     ],
     "mp": {
@@ -5187,6 +5850,10 @@
       "E07000084",
       "E07000085"
     ],
+    "ladCodes": [
+      "E07000085",
+      "E07000084"
+    ],
     "mp": {
       "name": "Damian Hinds",
       "party": "Conservative",
@@ -5208,10 +5875,13 @@
   "east-kilbride-and-strathaven": {
     "slug": "east-kilbride-and-strathaven",
     "name": "East Kilbride and Strathaven",
-    "pcon24cd": null,
+    "pcon24cd": "S14000077",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000029"
+    ],
     "mp": {
       "name": "Joani Reid",
       "party": "Independent",
@@ -5225,18 +5895,22 @@
       "url": "https://ukelections.co.uk/seats/parliament/east-kilbride-and-strathaven/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "east-kilbride-and-strathaven",
+      "url": "https://ukdemographics.co.uk/constituencies/east-kilbride-and-strathaven/"
     }
   },
   "east-londonderry": {
     "slug": "east-londonderry",
     "name": "East Londonderry",
-    "pcon24cd": null,
+    "pcon24cd": "N05000006",
     "country": "northern_ireland",
     "region": "northern_ireland",
     "lad24cds": [],
+    "ladCodes": [
+      "N09000004",
+      "N09000005"
+    ],
     "mp": {
       "name": "Mr Gregory Campbell",
       "party": "DUP",
@@ -5258,10 +5932,13 @@
   "east-renfrewshire": {
     "slug": "east-renfrewshire",
     "name": "East Renfrewshire",
-    "pcon24cd": null,
+    "pcon24cd": "S14000021",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000011"
+    ],
     "mp": {
       "name": "Blair McDougall",
       "party": "Labour",
@@ -5275,9 +5952,9 @@
       "url": "https://ukelections.co.uk/seats/parliament/east-renfrewshire/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "east-renfrewshire",
+      "url": "https://ukdemographics.co.uk/constituencies/east-renfrewshire/"
     }
   },
   "east-surrey": {
@@ -5289,6 +5966,10 @@
     "lad24cds": [
       "E07000211",
       "E07000215"
+    ],
+    "ladCodes": [
+      "E07000215",
+      "E07000211"
     ],
     "mp": {
       "name": "Claire Coutinho",
@@ -5315,6 +5996,9 @@
     "country": "england",
     "region": "south_east",
     "lad24cds": [
+      "E07000114"
+    ],
+    "ladCodes": [
       "E07000114"
     ],
     "mp": {
@@ -5345,6 +6029,10 @@
       "E06000030",
       "E06000054"
     ],
+    "ladCodes": [
+      "E06000054",
+      "E06000030"
+    ],
     "mp": {
       "name": "Danny Kruger",
       "party": "Reform UK",
@@ -5370,6 +6058,10 @@
     "country": "england",
     "region": "south_east",
     "lad24cds": [
+      "E07000223",
+      "E07000229"
+    ],
+    "ladCodes": [
       "E07000223",
       "E07000229"
     ],
@@ -5400,6 +6092,9 @@
     "lad24cds": [
       "E07000061"
     ],
+    "ladCodes": [
+      "E07000061"
+    ],
     "mp": {
       "name": "Josh Babarinde",
       "party": "Liberal Democrats",
@@ -5428,6 +6123,10 @@
       "E07000086",
       "E07000093"
     ],
+    "ladCodes": [
+      "E07000086",
+      "E07000093"
+    ],
     "mp": {
       "name": "Liz Jarvis",
       "party": "Liberal Democrats",
@@ -5449,10 +6148,14 @@
   "edinburgh-east-and-musselburgh": {
     "slug": "edinburgh-east-and-musselburgh",
     "name": "Edinburgh East and Musselburgh",
-    "pcon24cd": null,
+    "pcon24cd": "S14000078",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000036",
+      "S12000010"
+    ],
     "mp": {
       "name": "Chris Murray",
       "party": "Labour",
@@ -5466,18 +6169,21 @@
       "url": "https://ukelections.co.uk/seats/parliament/edinburgh-east-and-musselburgh/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "edinburgh-east-and-musselburgh",
+      "url": "https://ukdemographics.co.uk/constituencies/edinburgh-east-and-musselburgh/"
     }
   },
   "edinburgh-north-and-leith": {
     "slug": "edinburgh-north-and-leith",
     "name": "Edinburgh North and Leith",
-    "pcon24cd": null,
+    "pcon24cd": "S14000079",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000036"
+    ],
     "mp": {
       "name": "Tracy Gilbert",
       "party": "Labour",
@@ -5491,18 +6197,21 @@
       "url": "https://ukelections.co.uk/seats/parliament/edinburgh-north-and-leith/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "edinburgh-north-and-leith",
+      "url": "https://ukdemographics.co.uk/constituencies/edinburgh-north-and-leith/"
     }
   },
   "edinburgh-south": {
     "slug": "edinburgh-south",
     "name": "Edinburgh South",
-    "pcon24cd": null,
+    "pcon24cd": "S14000080",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000036"
+    ],
     "mp": {
       "name": "Ian Murray",
       "party": "Labour",
@@ -5516,18 +6225,21 @@
       "url": "https://ukelections.co.uk/seats/parliament/edinburgh-south/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "edinburgh-south",
+      "url": "https://ukdemographics.co.uk/constituencies/edinburgh-south/"
     }
   },
   "edinburgh-south-west": {
     "slug": "edinburgh-south-west",
     "name": "Edinburgh South West",
-    "pcon24cd": null,
+    "pcon24cd": "S14000081",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000036"
+    ],
     "mp": {
       "name": "Dr Scott Arthur",
       "party": "Labour",
@@ -5541,18 +6253,21 @@
       "url": "https://ukelections.co.uk/seats/parliament/edinburgh-south-west/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "edinburgh-south-west",
+      "url": "https://ukdemographics.co.uk/constituencies/edinburgh-south-west/"
     }
   },
   "edinburgh-west": {
     "slug": "edinburgh-west",
     "name": "Edinburgh West",
-    "pcon24cd": null,
+    "pcon24cd": "S14000082",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000036"
+    ],
     "mp": {
       "name": "Christine Jardine",
       "party": "Liberal Democrats",
@@ -5566,9 +6281,9 @@
       "url": "https://ukelections.co.uk/seats/parliament/edinburgh-west/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "edinburgh-west",
+      "url": "https://ukdemographics.co.uk/constituencies/edinburgh-west/"
     }
   },
   "edmonton-and-winchmore-hill": {
@@ -5578,6 +6293,9 @@
     "country": "england",
     "region": "london",
     "lad24cds": [
+      "E09000010"
+    ],
+    "ladCodes": [
       "E09000010"
     ],
     "mp": {
@@ -5605,6 +6323,10 @@
     "country": "england",
     "region": "north_west",
     "lad24cds": [
+      "E06000050",
+      "E08000015"
+    ],
+    "ladCodes": [
       "E06000050",
       "E08000015"
     ],
@@ -5636,6 +6358,10 @@
       "E09000006",
       "E09000011"
     ],
+    "ladCodes": [
+      "E09000011",
+      "E09000006"
+    ],
     "mp": {
       "name": "Clive Efford",
       "party": "Labour",
@@ -5661,6 +6387,10 @@
     "country": "england",
     "region": "east_of_england",
     "lad24cds": [
+      "E07000009",
+      "E07000012"
+    ],
+    "ladCodes": [
       "E07000009",
       "E07000012"
     ],
@@ -5691,6 +6421,9 @@
     "lad24cds": [
       "E09000010"
     ],
+    "ladCodes": [
+      "E09000010"
+    ],
     "mp": {
       "name": "Feryal Clark",
       "party": "Labour",
@@ -5716,6 +6449,9 @@
     "country": "england",
     "region": "east_of_england",
     "lad24cds": [
+      "E07000072"
+    ],
+    "ladCodes": [
       "E07000072"
     ],
     "mp": {
@@ -5746,6 +6482,10 @@
       "E07000208",
       "E07000210"
     ],
+    "ladCodes": [
+      "E07000208",
+      "E07000210"
+    ],
     "mp": {
       "name": "Helen Maguire",
       "party": "Liberal Democrats",
@@ -5771,6 +6511,9 @@
     "country": "england",
     "region": "east_midlands",
     "lad24cds": [
+      "E07000036"
+    ],
+    "ladCodes": [
       "E07000036"
     ],
     "mp": {
@@ -5801,6 +6544,10 @@
       "E09000004",
       "E09000011"
     ],
+    "ladCodes": [
+      "E09000011",
+      "E09000004"
+    ],
     "mp": {
       "name": "Ms Abena Oppong-Asare",
       "party": "Labour",
@@ -5828,6 +6575,9 @@
     "lad24cds": [
       "E07000207"
     ],
+    "ladCodes": [
+      "E07000207"
+    ],
     "mp": {
       "name": "Monica Harding",
       "party": "Liberal Democrats",
@@ -5853,6 +6603,9 @@
     "country": "england",
     "region": "south_west",
     "lad24cds": [
+      "E07000041"
+    ],
+    "ladCodes": [
       "E07000041"
     ],
     "mp": {
@@ -5883,6 +6636,10 @@
       "E07000040",
       "E07000041"
     ],
+    "ladCodes": [
+      "E07000040",
+      "E07000041"
+    ],
     "mp": {
       "name": "David Reed",
       "party": "Conservative",
@@ -5904,10 +6661,13 @@
   "falkirk": {
     "slug": "falkirk",
     "name": "Falkirk",
-    "pcon24cd": null,
+    "pcon24cd": "S14000083",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000014"
+    ],
     "mp": {
       "name": "Euan Stainbank",
       "party": "Labour",
@@ -5921,9 +6681,9 @@
       "url": "https://ukelections.co.uk/seats/parliament/falkirk/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "falkirk",
+      "url": "https://ukdemographics.co.uk/constituencies/falkirk/"
     }
   },
   "fareham-and-waterlooville": {
@@ -5933,6 +6693,11 @@
     "country": "england",
     "region": "south_east",
     "lad24cds": [
+      "E07000087",
+      "E07000090",
+      "E07000094"
+    ],
+    "ladCodes": [
       "E07000087",
       "E07000090",
       "E07000094"
@@ -5965,6 +6730,10 @@
       "E07000085",
       "E07000216"
     ],
+    "ladCodes": [
+      "E07000216",
+      "E07000085"
+    ],
     "mp": {
       "name": "Gregory Stafford",
       "party": "Conservative",
@@ -5990,6 +6759,10 @@
     "country": "england",
     "region": "south_east",
     "lad24cds": [
+      "E07000110",
+      "E07000113"
+    ],
+    "ladCodes": [
       "E07000110",
       "E07000113"
     ],
@@ -6020,6 +6793,9 @@
     "lad24cds": [
       "E09000018"
     ],
+    "ladCodes": [
+      "E09000018"
+    ],
     "mp": {
       "name": "Seema Malhotra",
       "party": "Labour (Co-op)",
@@ -6041,10 +6817,15 @@
   "fermanagh-and-south-tyrone": {
     "slug": "fermanagh-and-south-tyrone",
     "name": "Fermanagh and South Tyrone",
-    "pcon24cd": null,
+    "pcon24cd": "N05000007",
     "country": "northern_ireland",
     "region": "northern_ireland",
     "lad24cds": [],
+    "ladCodes": [
+      "N09000006",
+      "N09000009",
+      "N09000002"
+    ],
     "mp": {
       "name": "Pat Cullen",
       "party": "Sinn Fein",
@@ -6070,6 +6851,9 @@
     "country": "england",
     "region": "south_west",
     "lad24cds": [
+      "E06000025"
+    ],
+    "ladCodes": [
       "E06000025"
     ],
     "mp": {
@@ -6099,6 +6883,9 @@
     "lad24cds": [
       "E09000003"
     ],
+    "ladCodes": [
+      "E09000003"
+    ],
     "mp": {
       "name": "Sarah Sackman",
       "party": "Labour",
@@ -6124,6 +6911,9 @@
     "country": "england",
     "region": "south_east",
     "lad24cds": [
+      "E07000112"
+    ],
+    "ladCodes": [
       "E07000112"
     ],
     "mp": {
@@ -6154,6 +6944,10 @@
       "E07000080",
       "E07000083"
     ],
+    "ladCodes": [
+      "E07000080",
+      "E07000083"
+    ],
     "mp": {
       "name": "Matt Bishop",
       "party": "Labour",
@@ -6175,10 +6969,13 @@
   "foyle": {
     "slug": "foyle",
     "name": "Foyle",
-    "pcon24cd": null,
+    "pcon24cd": "N05000008",
     "country": "northern_ireland",
     "region": "northern_ireland",
     "lad24cds": [],
+    "ladCodes": [
+      "N09000005"
+    ],
     "mp": {
       "name": "Colum Eastwood",
       "party": "SDLP",
@@ -6207,6 +7004,10 @@
       "E06000022",
       "E07000187"
     ],
+    "ladCodes": [
+      "E06000066",
+      "E06000022"
+    ],
     "mp": {
       "name": "Anna Sabine",
       "party": "Liberal Democrats",
@@ -6232,6 +7033,10 @@
     "country": "england",
     "region": "north_west",
     "lad24cds": [
+      "E07000119",
+      "E07000128"
+    ],
+    "ladCodes": [
       "E07000119",
       "E07000128"
     ],
@@ -6262,6 +7067,9 @@
     "lad24cds": [
       "E07000142"
     ],
+    "ladCodes": [
+      "E07000142"
+    ],
     "mp": {
       "name": "Sir Edward Leigh",
       "party": "Conservative",
@@ -6287,6 +7095,9 @@
     "country": "england",
     "region": "north_east",
     "lad24cds": [
+      "E08000037"
+    ],
+    "ladCodes": [
       "E08000037"
     ],
     "mp": {
@@ -6316,6 +7127,9 @@
     "lad24cds": [
       "E07000173"
     ],
+    "ladCodes": [
+      "E07000173"
+    ],
     "mp": {
       "name": "Michael Payne",
       "party": "Labour",
@@ -6343,6 +7157,9 @@
     "lad24cds": [
       "E06000035"
     ],
+    "ladCodes": [
+      "E06000035"
+    ],
     "mp": {
       "name": "Naushabah Khan",
       "party": "Labour",
@@ -6364,10 +7181,13 @@
   "glasgow-east": {
     "slug": "glasgow-east",
     "name": "Glasgow East",
-    "pcon24cd": null,
+    "pcon24cd": "S14000084",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000049"
+    ],
     "mp": {
       "name": "John Grady",
       "party": "Labour",
@@ -6381,18 +7201,21 @@
       "url": "https://ukelections.co.uk/seats/parliament/glasgow-east/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "glasgow-east",
+      "url": "https://ukdemographics.co.uk/constituencies/glasgow-east/"
     }
   },
   "glasgow-north": {
     "slug": "glasgow-north",
     "name": "Glasgow North",
-    "pcon24cd": null,
+    "pcon24cd": "S14000085",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000049"
+    ],
     "mp": {
       "name": "Martin Rhodes",
       "party": "Labour",
@@ -6406,18 +7229,21 @@
       "url": "https://ukelections.co.uk/seats/parliament/glasgow-north/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "glasgow-north",
+      "url": "https://ukdemographics.co.uk/constituencies/glasgow-north/"
     }
   },
   "glasgow-north-east": {
     "slug": "glasgow-north-east",
     "name": "Glasgow North East",
-    "pcon24cd": null,
+    "pcon24cd": "S14000086",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000049"
+    ],
     "mp": {
       "name": "Maureen Burke",
       "party": "Labour",
@@ -6431,18 +7257,21 @@
       "url": "https://ukelections.co.uk/seats/parliament/glasgow-north-east/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "glasgow-north-east",
+      "url": "https://ukdemographics.co.uk/constituencies/glasgow-north-east/"
     }
   },
   "glasgow-south": {
     "slug": "glasgow-south",
     "name": "Glasgow South",
-    "pcon24cd": null,
+    "pcon24cd": "S14000087",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000049"
+    ],
     "mp": {
       "name": "Gordon McKee",
       "party": "Labour",
@@ -6456,18 +7285,21 @@
       "url": "https://ukelections.co.uk/seats/parliament/glasgow-south/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "glasgow-south",
+      "url": "https://ukdemographics.co.uk/constituencies/glasgow-south/"
     }
   },
   "glasgow-south-west": {
     "slug": "glasgow-south-west",
     "name": "Glasgow South West",
-    "pcon24cd": null,
+    "pcon24cd": "S14000088",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000049"
+    ],
     "mp": {
       "name": "Dr Zubir Ahmed",
       "party": "Labour",
@@ -6481,18 +7313,21 @@
       "url": "https://ukelections.co.uk/seats/parliament/glasgow-south-west/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "glasgow-south-west",
+      "url": "https://ukdemographics.co.uk/constituencies/glasgow-south-west/"
     }
   },
   "glasgow-west": {
     "slug": "glasgow-west",
     "name": "Glasgow West",
-    "pcon24cd": null,
+    "pcon24cd": "S14000089",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000049"
+    ],
     "mp": {
       "name": "Patricia Ferguson",
       "party": "Labour",
@@ -6506,9 +7341,9 @@
       "url": "https://ukelections.co.uk/seats/parliament/glasgow-west/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "glasgow-west",
+      "url": "https://ukdemographics.co.uk/constituencies/glasgow-west/"
     }
   },
   "glastonbury-and-somerton": {
@@ -6520,6 +7355,9 @@
     "lad24cds": [
       "E07000187",
       "E07000189"
+    ],
+    "ladCodes": [
+      "E06000066"
     ],
     "mp": {
       "name": "Sarah Dyke",
@@ -6542,10 +7380,13 @@
   "glenrothes-and-mid-fife": {
     "slug": "glenrothes-and-mid-fife",
     "name": "Glenrothes and Mid Fife",
-    "pcon24cd": null,
+    "pcon24cd": "S14000090",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000047"
+    ],
     "mp": {
       "name": "Richard Baker",
       "party": "Labour",
@@ -6559,9 +7400,9 @@
       "url": "https://ukelections.co.uk/seats/parliament/glenrothes-and-mid-fife/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "glenrothes-and-mid-fife",
+      "url": "https://ukdemographics.co.uk/constituencies/glenrothes-and-mid-fife/"
     }
   },
   "gloucester": {
@@ -6571,6 +7412,9 @@
     "country": "england",
     "region": "south_west",
     "lad24cds": [
+      "E07000081"
+    ],
+    "ladCodes": [
       "E07000081"
     ],
     "mp": {
@@ -6601,6 +7445,10 @@
       "E07000209",
       "E07000216"
     ],
+    "ladCodes": [
+      "E07000216",
+      "E07000209"
+    ],
     "mp": {
       "name": "Sir Jeremy Hunt",
       "party": "Conservative",
@@ -6628,6 +7476,9 @@
     "lad24cds": [
       "E06000011"
     ],
+    "ladCodes": [
+      "E06000011"
+    ],
     "mp": {
       "name": "David Davis",
       "party": "Conservative",
@@ -6649,10 +7500,13 @@
   "gordon-and-buchan": {
     "slug": "gordon-and-buchan",
     "name": "Gordon and Buchan",
-    "pcon24cd": null,
+    "pcon24cd": "S14000091",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000034"
+    ],
     "mp": {
       "name": "Harriet Cross",
       "party": "Conservative",
@@ -6666,9 +7520,9 @@
       "url": "https://ukelections.co.uk/seats/parliament/gordon-and-buchan/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "gordon-and-buchan",
+      "url": "https://ukdemographics.co.uk/constituencies/gordon-and-buchan/"
     }
   },
   "gorton-and-denton": {
@@ -6678,6 +7532,10 @@
     "country": "england",
     "region": "north_west",
     "lad24cds": [
+      "E08000003",
+      "E08000008"
+    ],
+    "ladCodes": [
       "E08000003",
       "E08000008"
     ],
@@ -6709,6 +7567,10 @@
       "E07000087",
       "E07000088"
     ],
+    "ladCodes": [
+      "E07000088",
+      "E07000087"
+    ],
     "mp": {
       "name": "Dame Caroline Dinenage",
       "party": "Conservative",
@@ -6734,6 +7596,9 @@
     "country": "wales",
     "region": "wales",
     "lad24cds": [
+      "W06000011"
+    ],
+    "ladCodes": [
       "W06000011"
     ],
     "mp": {
@@ -6764,6 +7629,10 @@
       "E07000139",
       "E07000141"
     ],
+    "ladCodes": [
+      "E07000141",
+      "E07000139"
+    ],
     "mp": {
       "name": "Gareth Davies",
       "party": "Conservative",
@@ -6789,6 +7658,9 @@
     "country": "england",
     "region": "south_east",
     "lad24cds": [
+      "E07000109"
+    ],
+    "ladCodes": [
       "E07000109"
     ],
     "mp": {
@@ -6818,6 +7690,9 @@
     "lad24cds": [
       "E06000012"
     ],
+    "ladCodes": [
+      "E06000012"
+    ],
     "mp": {
       "name": "Melanie Onn",
       "party": "Labour",
@@ -6843,6 +7718,9 @@
     "country": "england",
     "region": "east_of_england",
     "lad24cds": [
+      "E07000145"
+    ],
+    "ladCodes": [
       "E07000145"
     ],
     "mp": {
@@ -6872,6 +7750,9 @@
     "lad24cds": [
       "E09000011"
     ],
+    "ladCodes": [
+      "E09000011"
+    ],
     "mp": {
       "name": "Matthew Pennycook",
       "party": "Labour",
@@ -6897,6 +7778,9 @@
     "country": "england",
     "region": "south_east",
     "lad24cds": [
+      "E07000209"
+    ],
+    "ladCodes": [
       "E07000209"
     ],
     "mp": {
@@ -6926,6 +7810,9 @@
     "lad24cds": [
       "E09000012"
     ],
+    "ladCodes": [
+      "E09000012"
+    ],
     "mp": {
       "name": "Ms Diane Abbott",
       "party": "Independent",
@@ -6951,6 +7838,9 @@
     "country": "england",
     "region": "london",
     "lad24cds": [
+      "E09000012"
+    ],
+    "ladCodes": [
       "E09000012"
     ],
     "mp": {
@@ -6981,6 +7871,10 @@
       "E08000027",
       "E08000028"
     ],
+    "ladCodes": [
+      "E08000027",
+      "E08000028"
+    ],
     "mp": {
       "name": "Alex Ballinger",
       "party": "Labour",
@@ -7006,6 +7900,9 @@
     "country": "england",
     "region": "yorkshire",
     "lad24cds": [
+      "E08000033"
+    ],
+    "ladCodes": [
       "E08000033"
     ],
     "mp": {
@@ -7037,6 +7934,11 @@
       "E07000087",
       "E07000094"
     ],
+    "ladCodes": [
+      "E07000087",
+      "E07000086",
+      "E07000094"
+    ],
     "mp": {
       "name": "Paul Holmes",
       "party": "Conservative",
@@ -7058,10 +7960,13 @@
   "hamilton-and-clyde-valley": {
     "slug": "hamilton-and-clyde-valley",
     "name": "Hamilton and Clyde Valley",
-    "pcon24cd": null,
+    "pcon24cd": "S14000092",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000029"
+    ],
     "mp": {
       "name": "Imogen Walker",
       "party": "Labour",
@@ -7075,9 +7980,9 @@
       "url": "https://ukelections.co.uk/seats/parliament/hamilton-and-clyde-valley/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "hamilton-and-clyde-valley",
+      "url": "https://ukdemographics.co.uk/constituencies/hamilton-and-clyde-valley/"
     }
   },
   "hammersmith-and-chiswick": {
@@ -7087,6 +7992,10 @@
     "country": "england",
     "region": "london",
     "lad24cds": [
+      "E09000013",
+      "E09000018"
+    ],
+    "ladCodes": [
       "E09000013",
       "E09000018"
     ],
@@ -7118,6 +8027,10 @@
       "E09000007",
       "E09000014"
     ],
+    "ladCodes": [
+      "E09000007",
+      "E09000014"
+    ],
     "mp": {
       "name": "Tulip Siddiq",
       "party": "Labour",
@@ -7145,6 +8058,10 @@
     "lad24cds": [
       "E07000131",
       "E07000135"
+    ],
+    "ladCodes": [
+      "E07000135",
+      "E07000131"
     ],
     "mp": {
       "name": "Neil O'Brien",
@@ -7175,6 +8092,11 @@
       "E07000073",
       "E07000077"
     ],
+    "ladCodes": [
+      "E07000073",
+      "E07000072",
+      "E07000077"
+    ],
     "mp": {
       "name": "Chris Vince",
       "party": "Labour (Co-op)",
@@ -7203,6 +8125,10 @@
       "E07000096",
       "E07000240"
     ],
+    "ladCodes": [
+      "E07000240",
+      "E07000096"
+    ],
     "mp": {
       "name": "Victoria Collins",
       "party": "Liberal Democrats",
@@ -7229,6 +8155,9 @@
     "region": null,
     "lad24cds": [
       "E07000165"
+    ],
+    "ladCodes": [
+      "E06000065"
     ],
     "mp": {
       "name": "Tom Gordon",
@@ -7258,6 +8187,10 @@
       "E09000005",
       "E09000015"
     ],
+    "ladCodes": [
+      "E09000015",
+      "E09000005"
+    ],
     "mp": {
       "name": "Bob Blackman",
       "party": "Conservative",
@@ -7285,6 +8218,9 @@
     "lad24cds": [
       "E09000015"
     ],
+    "ladCodes": [
+      "E09000015"
+    ],
     "mp": {
       "name": "Gareth Thomas",
       "party": "Labour (Co-op)",
@@ -7310,6 +8246,9 @@
     "country": "england",
     "region": "north_east",
     "lad24cds": [
+      "E06000001"
+    ],
+    "ladCodes": [
       "E06000001"
     ],
     "mp": {
@@ -7340,6 +8279,10 @@
       "E07000071",
       "E07000076"
     ],
+    "ladCodes": [
+      "E07000076",
+      "E07000071"
+    ],
     "mp": {
       "name": "Sir Bernard Jenkin",
       "party": "Conservative",
@@ -7365,6 +8308,10 @@
     "country": "england",
     "region": "south_east",
     "lad24cds": [
+      "E07000062",
+      "E07000064"
+    ],
+    "ladCodes": [
       "E07000062",
       "E07000064"
     ],
@@ -7395,6 +8342,9 @@
     "lad24cds": [
       "E07000090"
     ],
+    "ladCodes": [
+      "E07000090"
+    ],
     "mp": {
       "name": "Alan Mak",
       "party": "Conservative",
@@ -7420,6 +8370,9 @@
     "country": "england",
     "region": "london",
     "lad24cds": [
+      "E09000017"
+    ],
+    "ladCodes": [
       "E09000017"
     ],
     "mp": {
@@ -7449,6 +8402,9 @@
     "lad24cds": [
       "E08000007"
     ],
+    "ladCodes": [
+      "E08000007"
+    ],
     "mp": {
       "name": "Lisa Smart",
       "party": "Liberal Democrats",
@@ -7474,6 +8430,9 @@
     "country": "england",
     "region": "east_of_england",
     "lad24cds": [
+      "E07000096"
+    ],
+    "ladCodes": [
       "E07000096"
     ],
     "mp": {
@@ -7503,6 +8462,9 @@
     "lad24cds": [
       "E09000003"
     ],
+    "ladCodes": [
+      "E09000003"
+    ],
     "mp": {
       "name": "David Pinto-Duschinsky",
       "party": "Labour",
@@ -7530,6 +8492,9 @@
     "lad24cds": [
       "E07000179"
     ],
+    "ladCodes": [
+      "E07000179"
+    ],
     "mp": {
       "name": "Freddie van Mierlo",
       "party": "Liberal Democrats",
@@ -7555,6 +8520,9 @@
     "country": "england",
     "region": "west_midlands",
     "lad24cds": [
+      "E06000019"
+    ],
+    "ladCodes": [
       "E06000019"
     ],
     "mp": {
@@ -7586,6 +8554,11 @@
       "E07000108",
       "E07000114"
     ],
+    "ladCodes": [
+      "E07000106",
+      "E07000114",
+      "E07000108"
+    ],
     "mp": {
       "name": "Sir Roger Gale",
       "party": "Conservative",
@@ -7613,6 +8586,9 @@
     "lad24cds": [
       "E07000242"
     ],
+    "ladCodes": [
+      "E07000242"
+    ],
     "mp": {
       "name": "Josh Dean",
       "party": "Labour",
@@ -7638,6 +8614,10 @@
     "country": "england",
     "region": "east_of_england",
     "lad24cds": [
+      "E07000098",
+      "E07000241"
+    ],
+    "ladCodes": [
       "E07000098",
       "E07000241"
     ],
@@ -7669,6 +8649,10 @@
       "E06000057",
       "E08000021"
     ],
+    "ladCodes": [
+      "E06000057",
+      "E08000021"
+    ],
     "mp": {
       "name": "Joe Morris",
       "party": "Labour",
@@ -7694,6 +8678,9 @@
     "country": "england",
     "region": "north_west",
     "lad24cds": [
+      "E08000005"
+    ],
+    "ladCodes": [
       "E08000005"
     ],
     "mp": {
@@ -7723,6 +8710,9 @@
     "lad24cds": [
       "E07000037"
     ],
+    "ladCodes": [
+      "E07000037"
+    ],
     "mp": {
       "name": "Jon Pearce",
       "party": "Labour",
@@ -7748,6 +8738,10 @@
     "country": "england",
     "region": "east_midlands",
     "lad24cds": [
+      "E07000132",
+      "E07000134"
+    ],
+    "ladCodes": [
       "E07000132",
       "E07000134"
     ],
@@ -7779,6 +8773,10 @@
       "E06000056",
       "E07000099"
     ],
+    "ladCodes": [
+      "E07000099",
+      "E06000056"
+    ],
     "mp": {
       "name": "Alistair Strathern",
       "party": "Labour",
@@ -7804,6 +8802,9 @@
     "country": "england",
     "region": "london",
     "lad24cds": [
+      "E09000007"
+    ],
+    "ladCodes": [
       "E09000007"
     ],
     "mp": {
@@ -7834,6 +8835,10 @@
       "E07000040",
       "E07000042"
     ],
+    "ladCodes": [
+      "E07000040",
+      "E07000042"
+    ],
     "mp": {
       "name": "Richard Foord",
       "party": "Liberal Democrats",
@@ -7859,6 +8864,9 @@
     "country": "england",
     "region": "london",
     "lad24cds": [
+      "E09000016"
+    ],
+    "ladCodes": [
       "E09000016"
     ],
     "mp": {
@@ -7889,6 +8897,10 @@
       "E09000003",
       "E09000014"
     ],
+    "ladCodes": [
+      "E09000014",
+      "E09000003"
+    ],
     "mp": {
       "name": "Catherine West",
       "party": "Labour",
@@ -7914,6 +8926,9 @@
     "country": "england",
     "region": "south_east",
     "lad24cds": [
+      "E07000227"
+    ],
+    "ladCodes": [
       "E07000227"
     ],
     "mp": {
@@ -7943,6 +8958,9 @@
     "lad24cds": [
       "E08000024"
     ],
+    "ladCodes": [
+      "E08000024"
+    ],
     "mp": {
       "name": "Bridget Phillipson",
       "party": "Labour",
@@ -7968,6 +8986,9 @@
     "country": "england",
     "region": "south_east",
     "lad24cds": [
+      "E06000043"
+    ],
+    "ladCodes": [
       "E06000043"
     ],
     "mp": {
@@ -7997,6 +9018,9 @@
     "lad24cds": [
       "E08000034"
     ],
+    "ladCodes": [
+      "E08000034"
+    ],
     "mp": {
       "name": "Harpreet Uppal",
       "party": "Labour",
@@ -8022,6 +9046,9 @@
     "country": "england",
     "region": "east_of_england",
     "lad24cds": [
+      "E07000011"
+    ],
+    "ladCodes": [
       "E07000011"
     ],
     "mp": {
@@ -8052,6 +9079,10 @@
       "E07000120",
       "E07000125"
     ],
+    "ladCodes": [
+      "E07000120",
+      "E07000125"
+    ],
     "mp": {
       "name": "Sarah Smith",
       "party": "Labour",
@@ -8077,6 +9108,9 @@
     "country": "england",
     "region": "london",
     "lad24cds": [
+      "E09000026"
+    ],
+    "ladCodes": [
       "E09000026"
     ],
     "mp": {
@@ -8107,6 +9141,10 @@
       "E09000002",
       "E09000026"
     ],
+    "ladCodes": [
+      "E09000026",
+      "E09000002"
+    ],
     "mp": {
       "name": "Jas Athwal",
       "party": "Labour",
@@ -8128,10 +9166,14 @@
   "inverclyde-and-renfrewshire-west": {
     "slug": "inverclyde-and-renfrewshire-west",
     "name": "Inverclyde and Renfrewshire West",
-    "pcon24cd": null,
+    "pcon24cd": "S14000093",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000018",
+      "S12000038"
+    ],
     "mp": {
       "name": "Martin McCluskey",
       "party": "Labour",
@@ -8145,18 +9187,21 @@
       "url": "https://ukelections.co.uk/seats/parliament/inverclyde-and-renfrewshire-west/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "inverclyde-and-renfrewshire-west",
+      "url": "https://ukdemographics.co.uk/constituencies/inverclyde-and-renfrewshire-west/"
     }
   },
   "inverness-skye-and-west-ross-shire": {
     "slug": "inverness-skye-and-west-ross-shire",
     "name": "Inverness Skye and West Ross Shire",
-    "pcon24cd": null,
+    "pcon24cd": "S14000094",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000017"
+    ],
     "mp": null,
     "result": {
       "winnerName": "Angus MacDonald",
@@ -8165,9 +9210,9 @@
       "url": "https://ukelections.co.uk/seats/parliament/inverness-skye-and-west-ross-shire/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "inverness-skye-and-west-ross-shire",
+      "url": "https://ukdemographics.co.uk/constituencies/inverness-skye-and-west-ross-shire/"
     }
   },
   "ipswich": {
@@ -8177,6 +9222,9 @@
     "country": "england",
     "region": "east_of_england",
     "lad24cds": [
+      "E07000202"
+    ],
+    "ladCodes": [
       "E07000202"
     ],
     "mp": {
@@ -8206,6 +9254,9 @@
     "lad24cds": [
       "E06000046"
     ],
+    "ladCodes": [
+      "E06000046"
+    ],
     "mp": {
       "name": "Joe Robertson",
       "party": "Conservative",
@@ -8233,6 +9284,9 @@
     "lad24cds": [
       "E06000046"
     ],
+    "ladCodes": [
+      "E06000046"
+    ],
     "mp": {
       "name": "Richard Quigley",
       "party": "Labour",
@@ -8258,6 +9312,9 @@
     "country": "england",
     "region": "london",
     "lad24cds": [
+      "E09000019"
+    ],
+    "ladCodes": [
       "E09000019"
     ],
     "mp": {
@@ -8288,6 +9345,10 @@
       "E09000012",
       "E09000019"
     ],
+    "ladCodes": [
+      "E09000019",
+      "E09000012"
+    ],
     "mp": {
       "name": "Emily Thornberry",
       "party": "Labour",
@@ -8316,6 +9377,10 @@
       "E08000023",
       "E08000037"
     ],
+    "ladCodes": [
+      "E08000023",
+      "E08000037"
+    ],
     "mp": {
       "name": "Kate Osborne",
       "party": "Labour",
@@ -8341,6 +9406,9 @@
     "country": "england",
     "region": "yorkshire",
     "lad24cds": [
+      "E08000032"
+    ],
+    "ladCodes": [
       "E08000032"
     ],
     "mp": {
@@ -8372,6 +9440,11 @@
       "E07000221",
       "E07000222"
     ],
+    "ladCodes": [
+      "E07000221",
+      "E07000222",
+      "E07000220"
+    ],
     "mp": {
       "name": "Sir Jeremy Wright",
       "party": "Conservative",
@@ -8397,6 +9470,10 @@
     "country": "england",
     "region": "london",
     "lad24cds": [
+      "E09000020",
+      "E09000033"
+    ],
+    "ladCodes": [
       "E09000020",
       "E09000033"
     ],
@@ -8427,6 +9504,9 @@
     "lad24cds": [
       "E06000061"
     ],
+    "ladCodes": [
+      "E06000061"
+    ],
     "mp": {
       "name": "Rosie Wrighting",
       "party": "Labour",
@@ -8448,10 +9528,13 @@
   "kilmarnock-and-loudoun": {
     "slug": "kilmarnock-and-loudoun",
     "name": "Kilmarnock and Loudoun",
-    "pcon24cd": null,
+    "pcon24cd": "S14000110",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000008"
+    ],
     "mp": {
       "name": "Lillian Jones",
       "party": "Labour",
@@ -8465,9 +9548,9 @@
       "url": "https://ukelections.co.uk/seats/parliament/kilmarnock-and-loudoun/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "kilmarnock-and-loudoun",
+      "url": "https://ukdemographics.co.uk/constituencies/kilmarnock-and-loudoun/"
     }
   },
   "kingston-and-surbiton": {
@@ -8477,6 +9560,9 @@
     "country": "england",
     "region": "london",
     "lad24cds": [
+      "E09000021"
+    ],
+    "ladCodes": [
       "E09000021"
     ],
     "mp": {
@@ -8506,6 +9592,9 @@
     "lad24cds": [
       "E06000010"
     ],
+    "ladCodes": [
+      "E06000010"
+    ],
     "mp": {
       "name": "Karl Turner",
       "party": "Independent",
@@ -8531,6 +9620,10 @@
     "country": "england",
     "region": "yorkshire",
     "lad24cds": [
+      "E06000010",
+      "E06000011"
+    ],
+    "ladCodes": [
       "E06000010",
       "E06000011"
     ],
@@ -8562,6 +9655,10 @@
       "E06000010",
       "E06000011"
     ],
+    "ladCodes": [
+      "E06000010",
+      "E06000011"
+    ],
     "mp": {
       "name": "Emma Hardy",
       "party": "Labour",
@@ -8587,6 +9684,10 @@
     "country": "england",
     "region": "west_midlands",
     "lad24cds": [
+      "E07000196",
+      "E08000027"
+    ],
+    "ladCodes": [
       "E07000196",
       "E08000027"
     ],
@@ -8617,6 +9718,9 @@
     "lad24cds": [
       "E08000011"
     ],
+    "ladCodes": [
+      "E08000011"
+    ],
     "mp": {
       "name": "Anneliese Midgley",
       "party": "Labour",
@@ -8638,10 +9742,14 @@
   "lagan-valley": {
     "slug": "lagan-valley",
     "name": "Lagan Valley",
-    "pcon24cd": null,
+    "pcon24cd": "N05000009",
     "country": "northern_ireland",
     "region": "northern_ireland",
     "lad24cds": [],
+    "ladCodes": [
+      "N09000007",
+      "N09000002"
+    ],
     "mp": {
       "name": "Sorcha Eastwood",
       "party": "Alliance",
@@ -8667,6 +9775,10 @@
     "country": "england",
     "region": "north_west",
     "lad24cds": [
+      "E07000121",
+      "E07000128"
+    ],
+    "ladCodes": [
       "E07000121",
       "E07000128"
     ],
@@ -8697,6 +9809,9 @@
     "lad24cds": [
       "E08000035"
     ],
+    "ladCodes": [
+      "E08000035"
+    ],
     "mp": {
       "name": "Alex Sobel",
       "party": "Labour (Co-op)",
@@ -8722,6 +9837,9 @@
     "country": "england",
     "region": "yorkshire",
     "lad24cds": [
+      "E08000035"
+    ],
+    "ladCodes": [
       "E08000035"
     ],
     "mp": {
@@ -8751,6 +9869,9 @@
     "lad24cds": [
       "E08000035"
     ],
+    "ladCodes": [
+      "E08000035"
+    ],
     "mp": {
       "name": "Fabian Hamilton",
       "party": "Labour",
@@ -8776,6 +9897,9 @@
     "country": "england",
     "region": "yorkshire",
     "lad24cds": [
+      "E08000035"
+    ],
+    "ladCodes": [
       "E08000035"
     ],
     "mp": {
@@ -8805,6 +9929,9 @@
     "lad24cds": [
       "E08000035"
     ],
+    "ladCodes": [
+      "E08000035"
+    ],
     "mp": {
       "name": "Hilary Benn",
       "party": "Labour",
@@ -8830,6 +9957,9 @@
     "country": "england",
     "region": "yorkshire",
     "lad24cds": [
+      "E08000035"
+    ],
+    "ladCodes": [
       "E08000035"
     ],
     "mp": {
@@ -8859,6 +9989,9 @@
     "lad24cds": [
       "E08000035"
     ],
+    "ladCodes": [
+      "E08000035"
+    ],
     "mp": {
       "name": "Rachel Reeves",
       "party": "Labour",
@@ -8884,6 +10017,9 @@
     "country": "england",
     "region": "east_midlands",
     "lad24cds": [
+      "E06000016"
+    ],
+    "ladCodes": [
       "E06000016"
     ],
     "mp": {
@@ -8913,6 +10049,9 @@
     "lad24cds": [
       "E06000016"
     ],
+    "ladCodes": [
+      "E06000016"
+    ],
     "mp": {
       "name": "Shockat Adam",
       "party": "Independent",
@@ -8940,6 +10079,9 @@
     "lad24cds": [
       "E06000016"
     ],
+    "ladCodes": [
+      "E06000016"
+    ],
     "mp": {
       "name": "Liz Kendall",
       "party": "Labour",
@@ -8965,6 +10107,9 @@
     "country": "england",
     "region": "north_west",
     "lad24cds": [
+      "E08000010"
+    ],
+    "ladCodes": [
       "E08000010"
     ],
     "mp": {
@@ -8995,6 +10140,10 @@
       "E07000063",
       "E07000065"
     ],
+    "ladCodes": [
+      "E07000063",
+      "E07000065"
+    ],
     "mp": {
       "name": "James MacCleary",
       "party": "Liberal Democrats",
@@ -9020,6 +10169,9 @@
     "country": "england",
     "region": "london",
     "lad24cds": [
+      "E09000023"
+    ],
+    "ladCodes": [
       "E09000023"
     ],
     "mp": {
@@ -9049,6 +10201,9 @@
     "lad24cds": [
       "E09000023"
     ],
+    "ladCodes": [
+      "E09000023"
+    ],
     "mp": {
       "name": "Vicky Foxcroft",
       "party": "Labour",
@@ -9074,6 +10229,10 @@
     "country": "england",
     "region": "london",
     "lad24cds": [
+      "E09000023",
+      "E09000028"
+    ],
+    "ladCodes": [
       "E09000023",
       "E09000028"
     ],
@@ -9105,6 +10264,10 @@
       "E09000026",
       "E09000031"
     ],
+    "ladCodes": [
+      "E09000031",
+      "E09000026"
+    ],
     "mp": {
       "name": "Mr Calvin Bailey",
       "party": "Labour",
@@ -9133,6 +10296,10 @@
       "E07000193",
       "E07000194"
     ],
+    "ladCodes": [
+      "E07000194",
+      "E07000193"
+    ],
     "mp": {
       "name": "Dave Robertson",
       "party": "Labour",
@@ -9158,6 +10325,10 @@
     "country": "england",
     "region": "east_midlands",
     "lad24cds": [
+      "E07000138",
+      "E07000139"
+    ],
+    "ladCodes": [
       "E07000138",
       "E07000139"
     ],
@@ -9188,6 +10359,9 @@
     "lad24cds": [
       "E08000012"
     ],
+    "ladCodes": [
+      "E08000012"
+    ],
     "mp": {
       "name": "Maria Eagle",
       "party": "Labour",
@@ -9213,6 +10387,9 @@
     "country": "england",
     "region": "north_west",
     "lad24cds": [
+      "E08000012"
+    ],
+    "ladCodes": [
       "E08000012"
     ],
     "mp": {
@@ -9243,6 +10420,10 @@
       "E08000012",
       "E08000014"
     ],
+    "ladCodes": [
+      "E08000012",
+      "E08000014"
+    ],
     "mp": {
       "name": "Dan Carden",
       "party": "Labour",
@@ -9268,6 +10449,9 @@
     "country": "england",
     "region": "north_west",
     "lad24cds": [
+      "E08000012"
+    ],
+    "ladCodes": [
       "E08000012"
     ],
     "mp": {
@@ -9298,6 +10482,10 @@
       "E08000011",
       "E08000012"
     ],
+    "ladCodes": [
+      "E08000012",
+      "E08000011"
+    ],
     "mp": {
       "name": "Ian Byrne",
       "party": "Labour",
@@ -9319,10 +10507,13 @@
   "livingston": {
     "slug": "livingston",
     "name": "Livingston",
-    "pcon24cd": null,
+    "pcon24cd": "S14000095",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000040"
+    ],
     "mp": {
       "name": "Gregor Poynton",
       "party": "Labour",
@@ -9336,9 +10527,9 @@
       "url": "https://ukelections.co.uk/seats/parliament/livingston/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "livingston",
+      "url": "https://ukdemographics.co.uk/constituencies/livingston/"
     }
   },
   "llanelli": {
@@ -9348,6 +10539,9 @@
     "country": "wales",
     "region": "wales",
     "lad24cds": [
+      "W06000010"
+    ],
+    "ladCodes": [
       "W06000010"
     ],
     "mp": {
@@ -9371,10 +10565,13 @@
   "lothian-east": {
     "slug": "lothian-east",
     "name": "Lothian East",
-    "pcon24cd": null,
+    "pcon24cd": "S14000096",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000010"
+    ],
     "mp": {
       "name": "Mr Douglas Alexander",
       "party": "Labour (Co-op)",
@@ -9388,9 +10585,9 @@
       "url": "https://ukelections.co.uk/seats/parliament/lothian-east/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "lothian-east",
+      "url": "https://ukdemographics.co.uk/constituencies/lothian-east/"
     }
   },
   "loughborough": {
@@ -9400,6 +10597,9 @@
     "country": "england",
     "region": "east_midlands",
     "lad24cds": [
+      "E07000130"
+    ],
+    "ladCodes": [
       "E07000130"
     ],
     "mp": {
@@ -9429,6 +10629,9 @@
     "lad24cds": [
       "E07000137"
     ],
+    "ladCodes": [
+      "E07000137"
+    ],
     "mp": {
       "name": "Victoria Atkins",
       "party": "Conservative",
@@ -9456,6 +10659,9 @@
     "lad24cds": [
       "E07000244"
     ],
+    "ladCodes": [
+      "E07000244"
+    ],
     "mp": {
       "name": "Jess Asato",
       "party": "Labour",
@@ -9481,6 +10687,9 @@
     "country": "england",
     "region": "east_of_england",
     "lad24cds": [
+      "E06000032"
+    ],
+    "ladCodes": [
       "E06000032"
     ],
     "mp": {
@@ -9511,6 +10720,10 @@
       "E06000032",
       "E06000056"
     ],
+    "ladCodes": [
+      "E06000032",
+      "E06000056"
+    ],
     "mp": {
       "name": "Rachel Hopkins",
       "party": "Labour",
@@ -9536,6 +10749,9 @@
     "country": "england",
     "region": "north_west",
     "lad24cds": [
+      "E06000049"
+    ],
+    "ladCodes": [
       "E06000049"
     ],
     "mp": {
@@ -9566,6 +10782,10 @@
       "E06000036",
       "E06000040"
     ],
+    "ladCodes": [
+      "E06000040",
+      "E06000036"
+    ],
     "mp": {
       "name": "Mr Joshua Reynolds",
       "party": "Liberal Democrats",
@@ -9591,6 +10811,10 @@
     "country": "england",
     "region": "south_east",
     "lad24cds": [
+      "E07000110",
+      "E07000115"
+    ],
+    "ladCodes": [
       "E07000110",
       "E07000115"
     ],
@@ -9621,6 +10845,9 @@
     "lad24cds": [
       "E08000010"
     ],
+    "ladCodes": [
+      "E08000010"
+    ],
     "mp": {
       "name": "Josh Simons",
       "party": "Labour",
@@ -9649,6 +10876,10 @@
       "E07000070",
       "E07000074"
     ],
+    "ladCodes": [
+      "E07000074",
+      "E07000070"
+    ],
     "mp": {
       "name": "Sir John Whittingdale",
       "party": "Conservative",
@@ -9674,6 +10905,10 @@
     "country": "england",
     "region": "north_west",
     "lad24cds": [
+      "E08000003",
+      "E08000004"
+    ],
+    "ladCodes": [
       "E08000003",
       "E08000004"
     ],
@@ -9704,6 +10939,9 @@
     "lad24cds": [
       "E08000003"
     ],
+    "ladCodes": [
+      "E08000003"
+    ],
     "mp": {
       "name": "Afzal Khan",
       "party": "Labour",
@@ -9729,6 +10967,9 @@
     "country": "england",
     "region": "north_west",
     "lad24cds": [
+      "E08000003"
+    ],
+    "ladCodes": [
       "E08000003"
     ],
     "mp": {
@@ -9758,6 +10999,9 @@
     "lad24cds": [
       "E07000174"
     ],
+    "ladCodes": [
+      "E07000174"
+    ],
     "mp": {
       "name": "Steve Yemm",
       "party": "Labour",
@@ -9783,6 +11027,9 @@
     "country": "england",
     "region": "south_west",
     "lad24cds": [
+      "E06000054"
+    ],
+    "ladCodes": [
       "E06000054"
     ],
     "mp": {
@@ -9813,6 +11060,10 @@
       "E07000130",
       "E07000133"
     ],
+    "ladCodes": [
+      "E07000133",
+      "E07000130"
+    ],
     "mp": {
       "name": "Edward Argar",
       "party": "Conservative",
@@ -9838,6 +11089,9 @@
     "country": "england",
     "region": "west_midlands",
     "lad24cds": [
+      "E08000029"
+    ],
+    "ladCodes": [
       "E08000029"
     ],
     "mp": {
@@ -9868,6 +11122,10 @@
       "W06000016",
       "W06000024"
     ],
+    "ladCodes": [
+      "W06000024",
+      "W06000016"
+    ],
     "mp": {
       "name": "Gerald Jones",
       "party": "Labour",
@@ -9893,6 +11151,9 @@
     "country": "wales",
     "region": "wales",
     "lad24cds": [
+      "W06000009"
+    ],
+    "ladCodes": [
       "W06000009"
     ],
     "mp": {
@@ -9923,6 +11184,10 @@
       "E06000055",
       "E06000056"
     ],
+    "ladCodes": [
+      "E06000056",
+      "E06000055"
+    ],
     "mp": {
       "name": "Blake Stephenson",
       "party": "Conservative",
@@ -9948,6 +11213,9 @@
     "country": "england",
     "region": "south_east",
     "lad24cds": [
+      "E06000060"
+    ],
+    "ladCodes": [
       "E06000060"
     ],
     "mp": {
@@ -9978,6 +11246,10 @@
       "E06000049",
       "E06000050"
     ],
+    "ladCodes": [
+      "E06000050",
+      "E06000049"
+    ],
     "mp": {
       "name": "Andrew Cooper",
       "party": "Labour",
@@ -10003,6 +11275,11 @@
     "country": "england",
     "region": "east_midlands",
     "lad24cds": [
+      "E06000015",
+      "E07000032",
+      "E07000036"
+    ],
+    "ladCodes": [
       "E06000015",
       "E07000032",
       "E07000036"
@@ -10035,6 +11312,10 @@
       "E06000058",
       "E06000059"
     ],
+    "ladCodes": [
+      "E06000059",
+      "E06000058"
+    ],
     "mp": {
       "name": "Vikki Slade",
       "party": "Liberal Democrats",
@@ -10056,10 +11337,13 @@
   "mid-dunbartonshire": {
     "slug": "mid-dunbartonshire",
     "name": "Mid Dunbartonshire",
-    "pcon24cd": null,
+    "pcon24cd": "S14000097",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000045"
+    ],
     "mp": {
       "name": "Susan Murray",
       "party": "Liberal Democrats",
@@ -10073,9 +11357,9 @@
       "url": "https://ukelections.co.uk/seats/parliament/mid-dunbartonshire/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "mid-dunbartonshire",
+      "url": "https://ukdemographics.co.uk/constituencies/mid-dunbartonshire/"
     }
   },
   "mid-leicestershire": {
@@ -10085,6 +11369,11 @@
     "country": "england",
     "region": "east_midlands",
     "lad24cds": [
+      "E07000129",
+      "E07000130",
+      "E07000132"
+    ],
+    "ladCodes": [
       "E07000129",
       "E07000130",
       "E07000132"
@@ -10117,6 +11406,10 @@
       "E07000143",
       "E07000149"
     ],
+    "ladCodes": [
+      "E07000143",
+      "E07000149"
+    ],
     "mp": {
       "name": "George Freeman",
       "party": "Conservative",
@@ -10144,6 +11437,9 @@
     "lad24cds": [
       "E07000228"
     ],
+    "ladCodes": [
+      "E07000228"
+    ],
     "mp": {
       "name": "Alison Bennett",
       "party": "Liberal Democrats",
@@ -10165,10 +11461,14 @@
   "mid-ulster": {
     "slug": "mid-ulster",
     "name": "Mid Ulster",
-    "pcon24cd": null,
+    "pcon24cd": "N05000010",
     "country": "northern_ireland",
     "region": "northern_ireland",
     "lad24cds": [],
+    "ladCodes": [
+      "N09000009",
+      "N09000002"
+    ],
     "mp": {
       "name": "Mr Cathal Mallaghan",
       "party": "Sinn Fein",
@@ -10194,6 +11494,10 @@
     "country": "england",
     "region": "north_east",
     "lad24cds": [
+      "E06000002",
+      "E06000004"
+    ],
+    "ladCodes": [
       "E06000002",
       "E06000004"
     ],
@@ -10225,6 +11529,10 @@
       "E06000002",
       "E06000003"
     ],
+    "ladCodes": [
+      "E06000003",
+      "E06000002"
+    ],
     "mp": {
       "name": "Luke Myer",
       "party": "Labour",
@@ -10246,10 +11554,13 @@
   "midlothian": {
     "slug": "midlothian",
     "name": "Midlothian",
-    "pcon24cd": null,
+    "pcon24cd": "S14000045",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000019"
+    ],
     "mp": {
       "name": "Kirsty McNeill",
       "party": "Labour (Co-op)",
@@ -10263,9 +11574,9 @@
       "url": "https://ukelections.co.uk/seats/parliament/midlothian/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "midlothian",
+      "url": "https://ukdemographics.co.uk/constituencies/midlothian/"
     }
   },
   "milton-keynes-central": {
@@ -10275,6 +11586,9 @@
     "country": "england",
     "region": "south_east",
     "lad24cds": [
+      "E06000042"
+    ],
+    "ladCodes": [
       "E06000042"
     ],
     "mp": {
@@ -10304,6 +11618,9 @@
     "lad24cds": [
       "E06000042"
     ],
+    "ladCodes": [
+      "E06000042"
+    ],
     "mp": {
       "name": "Chris Curtis",
       "party": "Labour",
@@ -10329,6 +11646,9 @@
     "country": "england",
     "region": "london",
     "lad24cds": [
+      "E09000024"
+    ],
+    "ladCodes": [
       "E09000024"
     ],
     "mp": {
@@ -10358,6 +11678,9 @@
     "lad24cds": [
       "W06000021"
     ],
+    "ladCodes": [
+      "W06000021"
+    ],
     "mp": {
       "name": "Catherine Fookes",
       "party": "Labour",
@@ -10379,10 +11702,14 @@
   "montgomeryshire-and-glyndwr": {
     "slug": "montgomeryshire-and-glyndwr",
     "name": "Montgomeryshire and Glyndwr",
-    "pcon24cd": null,
+    "pcon24cd": "W07000102",
     "country": "wales",
     "region": "wales",
     "lad24cds": [],
+    "ladCodes": [
+      "W06000023",
+      "W06000006"
+    ],
     "mp": null,
     "result": {
       "winnerName": "Steve Witherden",
@@ -10391,18 +11718,22 @@
       "url": "https://ukelections.co.uk/seats/parliament/montgomeryshire-and-glyndwr/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "montgomeryshire-and-glyndwr",
+      "url": "https://ukdemographics.co.uk/constituencies/montgomeryshire-and-glyndwr/"
     }
   },
   "moray-west-nairn-and-strathspey": {
     "slug": "moray-west-nairn-and-strathspey",
     "name": "Moray West Nairn and Strathspey",
-    "pcon24cd": null,
+    "pcon24cd": "S14000098",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000020",
+      "S12000017"
+    ],
     "mp": null,
     "result": {
       "winnerName": "Graham Leadbitter",
@@ -10411,9 +11742,9 @@
       "url": "https://ukelections.co.uk/seats/parliament/moray-west-nairn-and-strathspey/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "moray-west-nairn-and-strathspey",
+      "url": "https://ukdemographics.co.uk/constituencies/moray-west-nairn-and-strathspey/"
     }
   },
   "morecambe-and-lunesdale": {
@@ -10425,6 +11756,10 @@
     "lad24cds": [
       "E07000031",
       "E07000121"
+    ],
+    "ladCodes": [
+      "E07000121",
+      "E06000064"
     ],
     "mp": {
       "name": "Lizzi Collinge",
@@ -10447,10 +11782,14 @@
   "motherwell-wishaw-and-carluke": {
     "slug": "motherwell-wishaw-and-carluke",
     "name": "Motherwell Wishaw and Carluke",
-    "pcon24cd": null,
+    "pcon24cd": "S14000099",
     "country": "england",
     "region": null,
     "lad24cds": [],
+    "ladCodes": [
+      "S12000050",
+      "S12000029"
+    ],
     "mp": null,
     "result": {
       "winnerName": "Pamela Nash",
@@ -10459,18 +11798,21 @@
       "url": "https://ukelections.co.uk/seats/parliament/motherwell-wishaw-and-carluke/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "motherwell-wishaw-and-carluke",
+      "url": "https://ukdemographics.co.uk/constituencies/motherwell-wishaw-and-carluke/"
     }
   },
   "na-h-eileanan-an-iar": {
     "slug": "na-h-eileanan-an-iar",
     "name": "Na H Eileanan An Iar",
-    "pcon24cd": null,
+    "pcon24cd": "S14000027",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000013"
+    ],
     "mp": null,
     "result": {
       "winnerName": "Torcuil Crichton",
@@ -10479,9 +11821,9 @@
       "url": "https://ukelections.co.uk/seats/parliament/na-h-eileanan-an-iar/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "na-h-eileanan-an-iar",
+      "url": "https://ukdemographics.co.uk/constituencies/na-h-eileanan-an-iar/"
     }
   },
   "neath-and-swansea-east": {
@@ -10493,6 +11835,10 @@
     "lad24cds": [
       "W06000011",
       "W06000012"
+    ],
+    "ladCodes": [
+      "W06000012",
+      "W06000011"
     ],
     "mp": {
       "name": "Carolyn Harris",
@@ -10521,6 +11867,9 @@
     "lad24cds": [
       "E07000091"
     ],
+    "ladCodes": [
+      "E07000091"
+    ],
     "mp": {
       "name": "Sir Julian Lewis",
       "party": "Conservative",
@@ -10546,6 +11895,9 @@
     "country": "england",
     "region": "south_east",
     "lad24cds": [
+      "E07000091"
+    ],
+    "ladCodes": [
       "E07000091"
     ],
     "mp": {
@@ -10577,6 +11929,11 @@
       "E07000175",
       "E07000176"
     ],
+    "ladCodes": [
+      "E07000175",
+      "E07000171",
+      "E07000176"
+    ],
     "mp": {
       "name": "Robert Jenrick",
       "party": "Reform UK",
@@ -10602,6 +11959,9 @@
     "country": "england",
     "region": "south_east",
     "lad24cds": [
+      "E06000037"
+    ],
+    "ladCodes": [
       "E06000037"
     ],
     "mp": {
@@ -10631,6 +11991,9 @@
     "lad24cds": [
       "E07000195"
     ],
+    "ladCodes": [
+      "E07000195"
+    ],
     "mp": {
       "name": "Adam Jogee",
       "party": "Labour",
@@ -10658,6 +12021,9 @@
     "lad24cds": [
       "E08000021"
     ],
+    "ladCodes": [
+      "E08000021"
+    ],
     "mp": {
       "name": "Dame Chi Onwurah",
       "party": "Labour",
@@ -10683,6 +12049,10 @@
     "country": "england",
     "region": "north_east",
     "lad24cds": [
+      "E08000021",
+      "E08000022"
+    ],
+    "ladCodes": [
       "E08000021",
       "E08000022"
     ],
@@ -10714,6 +12084,10 @@
       "E08000021",
       "E08000022"
     ],
+    "ladCodes": [
+      "E08000021",
+      "E08000022"
+    ],
     "mp": {
       "name": "Catherine McKinnell",
       "party": "Labour",
@@ -10739,6 +12113,9 @@
     "country": "wales",
     "region": "wales",
     "lad24cds": [
+      "W06000022"
+    ],
+    "ladCodes": [
       "W06000022"
     ],
     "mp": {
@@ -10769,6 +12146,10 @@
       "W06000018",
       "W06000022"
     ],
+    "ladCodes": [
+      "W06000018",
+      "W06000022"
+    ],
     "mp": {
       "name": "Ruth Jones",
       "party": "Labour",
@@ -10790,10 +12171,14 @@
   "newry-and-armagh": {
     "slug": "newry-and-armagh",
     "name": "Newry and Armagh",
-    "pcon24cd": null,
+    "pcon24cd": "N05000011",
     "country": "northern_ireland",
     "region": "northern_ireland",
     "lad24cds": [],
+    "ladCodes": [
+      "N09000010",
+      "N09000002"
+    ],
     "mp": {
       "name": "Dáire Hughes",
       "party": "Sinn Fein",
@@ -10819,6 +12204,9 @@
     "country": "england",
     "region": "south_west",
     "lad24cds": [
+      "E07000045"
+    ],
+    "ladCodes": [
       "E07000045"
     ],
     "mp": {
@@ -10848,6 +12236,9 @@
     "lad24cds": [
       "E06000047"
     ],
+    "ladCodes": [
+      "E06000047"
+    ],
     "mp": {
       "name": "Alan Strickland",
       "party": "Labour",
@@ -10875,6 +12266,9 @@
     "lad24cds": [
       "E08000036"
     ],
+    "ladCodes": [
+      "E08000036"
+    ],
     "mp": {
       "name": "Jon Trickett",
       "party": "Labour",
@@ -10896,10 +12290,14 @@
   "north-antrim": {
     "slug": "north-antrim",
     "name": "North Antrim",
-    "pcon24cd": null,
+    "pcon24cd": "N05000012",
     "country": "northern_ireland",
     "region": "northern_ireland",
     "lad24cds": [],
+    "ladCodes": [
+      "N09000004",
+      "N09000008"
+    ],
     "mp": {
       "name": "Jim Allister",
       "party": "Traditional Unionist Voice",
@@ -10921,10 +12319,13 @@
   "north-ayrshire-and-arran": {
     "slug": "north-ayrshire-and-arran",
     "name": "North Ayrshire and Arran",
-    "pcon24cd": null,
+    "pcon24cd": "S14000048",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000021"
+    ],
     "mp": {
       "name": "Irene Campbell",
       "party": "Labour",
@@ -10938,9 +12339,9 @@
       "url": "https://ukelections.co.uk/seats/parliament/north-ayrshire-and-arran/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "north-ayrshire-and-arran",
+      "url": "https://ukdemographics.co.uk/constituencies/north-ayrshire-and-arran/"
     }
   },
   "north-bedfordshire": {
@@ -10950,6 +12351,10 @@
     "country": "england",
     "region": "east_of_england",
     "lad24cds": [
+      "E06000055",
+      "E06000056"
+    ],
+    "ladCodes": [
       "E06000055",
       "E06000056"
     ],
@@ -10978,6 +12383,9 @@
     "country": "england",
     "region": "south_west",
     "lad24cds": [
+      "E06000052"
+    ],
+    "ladCodes": [
       "E06000052"
     ],
     "mp": {
@@ -11009,6 +12417,11 @@
       "E07000082",
       "E07000083"
     ],
+    "ladCodes": [
+      "E07000079",
+      "E07000083",
+      "E07000082"
+    ],
     "mp": {
       "name": "Sir Geoffrey Clifton-Brown",
       "party": "Conservative",
@@ -11034,6 +12447,9 @@
     "country": "england",
     "region": "south_west",
     "lad24cds": [
+      "E07000043"
+    ],
+    "ladCodes": [
       "E07000043"
     ],
     "mp": {
@@ -11063,6 +12479,9 @@
     "lad24cds": [
       "E06000059"
     ],
+    "ladCodes": [
+      "E06000059"
+    ],
     "mp": {
       "name": "Simon Hoare",
       "party": "Conservative",
@@ -11084,10 +12503,14 @@
   "north-down": {
     "slug": "north-down",
     "name": "North Down",
-    "pcon24cd": null,
+    "pcon24cd": "N05000013",
     "country": "northern_ireland",
     "region": "northern_ireland",
     "lad24cds": [],
+    "ladCodes": [
+      "N09000011",
+      "N09000003"
+    ],
     "mp": {
       "name": "Alex Easton",
       "party": "Independent",
@@ -11115,6 +12538,9 @@
     "lad24cds": [
       "E06000047"
     ],
+    "ladCodes": [
+      "E06000047"
+    ],
     "mp": {
       "name": "Luke Akehurst",
       "party": "Labour",
@@ -11140,6 +12566,9 @@
     "country": "england",
     "region": "east_of_england",
     "lad24cds": [
+      "E07000010"
+    ],
+    "ladCodes": [
       "E07000010"
     ],
     "mp": {
@@ -11170,6 +12599,10 @@
       "E07000034",
       "E07000038"
     ],
+    "ladCodes": [
+      "E07000038",
+      "E07000034"
+    ],
     "mp": {
       "name": "Louise Sandher-Jones",
       "party": "Labour",
@@ -11191,10 +12624,13 @@
   "north-east-fife": {
     "slug": "north-east-fife",
     "name": "North East Fife",
-    "pcon24cd": null,
+    "pcon24cd": "S14000100",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000047"
+    ],
     "mp": {
       "name": "Wendy Chamberlain",
       "party": "Liberal Democrats",
@@ -11208,9 +12644,9 @@
       "url": "https://ukelections.co.uk/seats/parliament/north-east-fife/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "north-east-fife",
+      "url": "https://ukdemographics.co.uk/constituencies/north-east-fife/"
     }
   },
   "north-east-hampshire": {
@@ -11222,6 +12658,10 @@
     "lad24cds": [
       "E07000084",
       "E07000089"
+    ],
+    "ladCodes": [
+      "E07000089",
+      "E07000084"
     ],
     "mp": {
       "name": "Alex Brewer",
@@ -11248,6 +12688,10 @@
     "country": "england",
     "region": "east_of_england",
     "lad24cds": [
+      "E07000099",
+      "E07000242"
+    ],
+    "ladCodes": [
       "E07000099",
       "E07000242"
     ],
@@ -11279,6 +12723,10 @@
       "E06000022",
       "E06000025"
     ],
+    "ladCodes": [
+      "E06000022",
+      "E06000025"
+    ],
     "mp": {
       "name": "Dan Norris",
       "party": "Independent",
@@ -11304,6 +12752,9 @@
     "country": "england",
     "region": "west_midlands",
     "lad24cds": [
+      "E06000019"
+    ],
+    "ladCodes": [
       "E06000019"
     ],
     "mp": {
@@ -11333,6 +12784,9 @@
     "lad24cds": [
       "E07000147"
     ],
+    "ladCodes": [
+      "E07000147"
+    ],
     "mp": {
       "name": "Steff Aquarone",
       "party": "Liberal Democrats",
@@ -11358,6 +12812,9 @@
     "country": "england",
     "region": "north_east",
     "lad24cds": [
+      "E06000057"
+    ],
+    "ladCodes": [
       "E06000057"
     ],
     "mp": {
@@ -11387,6 +12844,9 @@
     "lad24cds": [
       "E06000051"
     ],
+    "ladCodes": [
+      "E06000051"
+    ],
     "mp": {
       "name": "Helen Morgan",
       "party": "Liberal Democrats",
@@ -11414,6 +12874,9 @@
     "lad24cds": [
       "E06000024"
     ],
+    "ladCodes": [
+      "E06000024"
+    ],
     "mp": {
       "name": "Sadik Al-Hassan",
       "party": "Labour",
@@ -11439,6 +12902,10 @@
     "country": "england",
     "region": "west_midlands",
     "lad24cds": [
+      "E07000218",
+      "E07000219"
+    ],
+    "ladCodes": [
       "E07000218",
       "E07000219"
     ],
@@ -11470,6 +12937,10 @@
       "E06000031",
       "E07000011"
     ],
+    "ladCodes": [
+      "E06000031",
+      "E07000011"
+    ],
     "mp": {
       "name": "Sam Carling",
       "party": "Labour",
@@ -11498,6 +12969,10 @@
       "E07000070",
       "E07000077"
     ],
+    "ladCodes": [
+      "E07000077",
+      "E07000070"
+    ],
     "mp": {
       "name": "Mrs Kemi Badenoch",
       "party": "Conservative",
@@ -11523,6 +12998,10 @@
     "country": "england",
     "region": "south_east",
     "lad24cds": [
+      "E07000084",
+      "E07000093"
+    ],
+    "ladCodes": [
       "E07000084",
       "E07000093"
     ],
@@ -11553,6 +13032,9 @@
     "lad24cds": [
       "E07000134"
     ],
+    "ladCodes": [
+      "E07000134"
+    ],
     "mp": {
       "name": "Amanda Hack",
       "party": "Labour",
@@ -11578,6 +13060,9 @@
     "country": "england",
     "region": "east_of_england",
     "lad24cds": [
+      "E07000146"
+    ],
+    "ladCodes": [
       "E07000146"
     ],
     "mp": {
@@ -11607,6 +13092,9 @@
     "lad24cds": [
       "E06000062"
     ],
+    "ladCodes": [
+      "E06000062"
+    ],
     "mp": {
       "name": "Lucy Rigby",
       "party": "Labour",
@@ -11634,6 +13122,9 @@
     "lad24cds": [
       "E06000062"
     ],
+    "ladCodes": [
+      "E06000062"
+    ],
     "mp": {
       "name": "Mike Reader",
       "party": "Labour",
@@ -11659,6 +13150,10 @@
     "country": "england",
     "region": "east_of_england",
     "lad24cds": [
+      "E07000144",
+      "E07000148"
+    ],
+    "ladCodes": [
       "E07000144",
       "E07000148"
     ],
@@ -11690,6 +13185,10 @@
       "E07000148",
       "E07000149"
     ],
+    "ladCodes": [
+      "E07000148",
+      "E07000149"
+    ],
     "mp": {
       "name": "Clive Lewis",
       "party": "Labour",
@@ -11715,6 +13214,9 @@
     "country": "england",
     "region": "east_midlands",
     "lad24cds": [
+      "E06000018"
+    ],
+    "ladCodes": [
       "E06000018"
     ],
     "mp": {
@@ -11745,6 +13247,10 @@
       "E06000018",
       "E07000172"
     ],
+    "ladCodes": [
+      "E06000018",
+      "E07000172"
+    ],
     "mp": {
       "name": "Alex Norris",
       "party": "Labour (Co-op)",
@@ -11770,6 +13276,9 @@
     "country": "england",
     "region": "east_midlands",
     "lad24cds": [
+      "E06000018"
+    ],
+    "ladCodes": [
       "E06000018"
     ],
     "mp": {
@@ -11800,6 +13309,10 @@
       "E07000218",
       "E07000219"
     ],
+    "ladCodes": [
+      "E07000219",
+      "E07000218"
+    ],
     "mp": {
       "name": "Jodie Gosling",
       "party": "Labour",
@@ -11825,6 +13338,9 @@
     "country": "england",
     "region": "london",
     "lad24cds": [
+      "E09000004"
+    ],
+    "ladCodes": [
       "E09000004"
     ],
     "mp": {
@@ -11854,6 +13370,9 @@
     "lad24cds": [
       "E08000004"
     ],
+    "ladCodes": [
+      "E08000004"
+    ],
     "mp": {
       "name": "Debbie Abrahams",
       "party": "Labour",
@@ -11881,6 +13400,9 @@
     "lad24cds": [
       "E08000004"
     ],
+    "ladCodes": [
+      "E08000004"
+    ],
     "mp": {
       "name": "Jim McMahon",
       "party": "Labour (Co-op)",
@@ -11902,10 +13424,14 @@
   "orkney-and-shetland": {
     "slug": "orkney-and-shetland",
     "name": "Orkney and Shetland",
-    "pcon24cd": null,
+    "pcon24cd": "S14000051",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000023",
+      "S12000027"
+    ],
     "mp": {
       "name": "Mr Alistair Carmichael",
       "party": "Liberal Democrats",
@@ -11919,9 +13445,9 @@
       "url": "https://ukelections.co.uk/seats/parliament/orkney-and-shetland/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "orkney-and-shetland",
+      "url": "https://ukdemographics.co.uk/constituencies/orkney-and-shetland/"
     }
   },
   "orpington": {
@@ -11931,6 +13457,9 @@
     "country": "england",
     "region": "london",
     "lad24cds": [
+      "E09000006"
+    ],
+    "ladCodes": [
       "E09000006"
     ],
     "mp": {
@@ -11961,6 +13490,10 @@
       "E08000034",
       "E08000036"
     ],
+    "ladCodes": [
+      "E08000036",
+      "E08000034"
+    ],
     "mp": {
       "name": "Jade Botterill",
       "party": "Labour",
@@ -11986,6 +13519,9 @@
     "country": "england",
     "region": "south_east",
     "lad24cds": [
+      "E07000178"
+    ],
+    "ladCodes": [
       "E07000178"
     ],
     "mp": {
@@ -12016,6 +13552,10 @@
       "E07000178",
       "E07000180"
     ],
+    "ladCodes": [
+      "E07000180",
+      "E07000178"
+    ],
     "mp": {
       "name": "Layla Moran",
       "party": "Liberal Democrats",
@@ -12037,10 +13577,14 @@
   "paisley-and-renfrewshire-north": {
     "slug": "paisley-and-renfrewshire-north",
     "name": "Paisley and Renfrewshire North",
-    "pcon24cd": null,
+    "pcon24cd": "S14000101",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000038",
+      "S12000049"
+    ],
     "mp": {
       "name": "Alison Taylor",
       "party": "Labour",
@@ -12054,18 +13598,21 @@
       "url": "https://ukelections.co.uk/seats/parliament/paisley-and-renfrewshire-north/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "paisley-and-renfrewshire-north",
+      "url": "https://ukdemographics.co.uk/constituencies/paisley-and-renfrewshire-north/"
     }
   },
   "paisley-and-renfrewshire-south": {
     "slug": "paisley-and-renfrewshire-south",
     "name": "Paisley and Renfrewshire South",
-    "pcon24cd": null,
+    "pcon24cd": "S14000102",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000038"
+    ],
     "mp": {
       "name": "Johanna Baxter",
       "party": "Labour",
@@ -12079,9 +13626,9 @@
       "url": "https://ukelections.co.uk/seats/parliament/paisley-and-renfrewshire-south/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "paisley-and-renfrewshire-south",
+      "url": "https://ukdemographics.co.uk/constituencies/paisley-and-renfrewshire-south/"
     }
   },
   "peckham": {
@@ -12091,6 +13638,9 @@
     "country": "england",
     "region": "london",
     "lad24cds": [
+      "E09000028"
+    ],
+    "ladCodes": [
       "E09000028"
     ],
     "mp": {
@@ -12118,6 +13668,10 @@
     "country": "england",
     "region": "north_west",
     "lad24cds": [
+      "E07000122",
+      "E07000124"
+    ],
+    "ladCodes": [
       "E07000122",
       "E07000124"
     ],
@@ -12149,6 +13703,10 @@
       "E08000016",
       "E08000019"
     ],
+    "ladCodes": [
+      "E08000039",
+      "E08000038"
+    ],
     "mp": {
       "name": "Dr Marie Tidball",
       "party": "Labour",
@@ -12178,6 +13736,10 @@
       "E07000028",
       "E07000030"
     ],
+    "ladCodes": [
+      "E06000063",
+      "E06000064"
+    ],
     "mp": {
       "name": "Markus Campbell-Savours",
       "party": "Labour",
@@ -12199,10 +13761,13 @@
   "perth-and-kinross-shire": {
     "slug": "perth-and-kinross-shire",
     "name": "Perth and Kinross Shire",
-    "pcon24cd": null,
+    "pcon24cd": "S14000103",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000048"
+    ],
     "mp": null,
     "result": {
       "winnerName": "Pete Wishart",
@@ -12211,9 +13776,9 @@
       "url": "https://ukelections.co.uk/seats/parliament/perth-and-kinross-shire/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "perth-and-kinross-shire",
+      "url": "https://ukdemographics.co.uk/constituencies/perth-and-kinross-shire/"
     }
   },
   "peterborough": {
@@ -12223,6 +13788,9 @@
     "country": "england",
     "region": "east_of_england",
     "lad24cds": [
+      "E06000031"
+    ],
+    "ladCodes": [
       "E06000031"
     ],
     "mp": {
@@ -12252,6 +13820,9 @@
     "lad24cds": [
       "E06000026"
     ],
+    "ladCodes": [
+      "E06000026"
+    ],
     "mp": {
       "name": "Fred Thomas",
       "party": "Labour",
@@ -12277,6 +13848,9 @@
     "country": "england",
     "region": "south_west",
     "lad24cds": [
+      "E06000026"
+    ],
+    "ladCodes": [
       "E06000026"
     ],
     "mp": {
@@ -12306,6 +13880,9 @@
     "lad24cds": [
       "E08000036"
     ],
+    "ladCodes": [
+      "E08000036"
+    ],
     "mp": {
       "name": "Yvette Cooper",
       "party": "Labour",
@@ -12331,6 +13908,9 @@
     "country": "wales",
     "region": "wales",
     "lad24cds": [
+      "W06000016"
+    ],
+    "ladCodes": [
       "W06000016"
     ],
     "mp": {
@@ -12360,6 +13940,9 @@
     "lad24cds": [
       "E06000058"
     ],
+    "ladCodes": [
+      "E06000058"
+    ],
     "mp": {
       "name": "Neil Duncan-Jordan",
       "party": "Labour",
@@ -12385,6 +13968,9 @@
     "country": "england",
     "region": "london",
     "lad24cds": [
+      "E09000030"
+    ],
+    "ladCodes": [
       "E09000030"
     ],
     "mp": {
@@ -12414,6 +14000,9 @@
     "lad24cds": [
       "E06000044"
     ],
+    "ladCodes": [
+      "E06000044"
+    ],
     "mp": {
       "name": "Amanda Martin",
       "party": "Labour",
@@ -12439,6 +14028,9 @@
     "country": "england",
     "region": "south_east",
     "lad24cds": [
+      "E06000044"
+    ],
+    "ladCodes": [
       "E06000044"
     ],
     "mp": {
@@ -12468,6 +14060,9 @@
     "lad24cds": [
       "E07000123"
     ],
+    "ladCodes": [
+      "E07000123"
+    ],
     "mp": {
       "name": "Sir Mark Hendrick",
       "party": "Labour (Co-op)",
@@ -12493,6 +14088,9 @@
     "country": "england",
     "region": "london",
     "lad24cds": [
+      "E09000032"
+    ],
+    "ladCodes": [
       "E09000032"
     ],
     "mp": {
@@ -12523,6 +14121,10 @@
       "E09000005",
       "E09000033"
     ],
+    "ladCodes": [
+      "E09000033",
+      "E09000005"
+    ],
     "mp": {
       "name": "Georgia Gould",
       "party": "Labour",
@@ -12550,6 +14152,10 @@
     "lad24cds": [
       "E08000017",
       "E08000018"
+    ],
+    "ladCodes": [
+      "E08000018",
+      "E08000017"
     ],
     "mp": {
       "name": "John Healey",
@@ -12579,6 +14185,10 @@
       "E07000066",
       "E07000075"
     ],
+    "ladCodes": [
+      "E07000075",
+      "E07000066"
+    ],
     "mp": {
       "name": "Mr Mark Francois",
       "party": "Conservative",
@@ -12604,6 +14214,9 @@
     "country": "england",
     "region": "south_east",
     "lad24cds": [
+      "E06000038"
+    ],
+    "ladCodes": [
       "E06000038"
     ],
     "mp": {
@@ -12634,6 +14247,10 @@
       "E06000037",
       "E06000038"
     ],
+    "ladCodes": [
+      "E06000037",
+      "E06000038"
+    ],
     "mp": {
       "name": "Olivia Bailey",
       "party": "Labour",
@@ -12659,6 +14276,9 @@
     "country": "england",
     "region": "north_east",
     "lad24cds": [
+      "E06000003"
+    ],
+    "ladCodes": [
       "E06000003"
     ],
     "mp": {
@@ -12689,6 +14309,10 @@
       "E07000236",
       "E07000238"
     ],
+    "ladCodes": [
+      "E07000236",
+      "E07000238"
+    ],
     "mp": {
       "name": "Chris Bloore",
       "party": "Labour",
@@ -12714,6 +14338,9 @@
     "country": "england",
     "region": "south_east",
     "lad24cds": [
+      "E07000211"
+    ],
+    "ladCodes": [
       "E07000211"
     ],
     "mp": {
@@ -12744,6 +14371,10 @@
       "W06000013",
       "W06000016"
     ],
+    "ladCodes": [
+      "W06000016",
+      "W06000013"
+    ],
     "mp": {
       "name": "Chris Bryant",
       "party": "Labour",
@@ -12771,6 +14402,11 @@
     "lad24cds": [
       "E07000123",
       "E07000124",
+      "E07000126"
+    ],
+    "ladCodes": [
+      "E07000124",
+      "E07000123",
       "E07000126"
     ],
     "mp": {
@@ -12801,6 +14437,9 @@
       "E07000164",
       "E07000166"
     ],
+    "ladCodes": [
+      "E06000065"
+    ],
     "mp": {
       "name": "Rishi Sunak",
       "party": "Conservative",
@@ -12829,6 +14468,10 @@
       "E09000021",
       "E09000027"
     ],
+    "ladCodes": [
+      "E09000027",
+      "E09000021"
+    ],
     "mp": {
       "name": "Sarah Olney",
       "party": "Liberal Democrats",
@@ -12854,6 +14497,9 @@
     "country": "england",
     "region": "north_west",
     "lad24cds": [
+      "E08000005"
+    ],
+    "ladCodes": [
       "E08000005"
     ],
     "mp": {
@@ -12883,6 +14529,9 @@
     "lad24cds": [
       "E06000035"
     ],
+    "ladCodes": [
+      "E06000035"
+    ],
     "mp": {
       "name": "Lauren Edwards",
       "party": "Labour",
@@ -12908,6 +14557,9 @@
     "country": "england",
     "region": "london",
     "lad24cds": [
+      "E09000016"
+    ],
+    "ladCodes": [
       "E09000016"
     ],
     "mp": {
@@ -12938,6 +14590,10 @@
       "E06000045",
       "E07000093"
     ],
+    "ladCodes": [
+      "E07000093",
+      "E06000045"
+    ],
     "mp": {
       "name": "Caroline Nokes",
       "party": "Conservative",
@@ -12966,6 +14622,10 @@
       "E06000008",
       "E07000125"
     ],
+    "ladCodes": [
+      "E07000125",
+      "E06000008"
+    ],
     "mp": {
       "name": "Andy MacNae",
       "party": "Labour",
@@ -12993,6 +14653,9 @@
     "lad24cds": [
       "E08000018"
     ],
+    "ladCodes": [
+      "E08000018"
+    ],
     "mp": {
       "name": "Jake Richards",
       "party": "Labour",
@@ -13018,6 +14681,9 @@
     "country": "england",
     "region": "yorkshire",
     "lad24cds": [
+      "E08000018"
+    ],
+    "ladCodes": [
       "E08000018"
     ],
     "mp": {
@@ -13048,6 +14714,10 @@
       "E07000219",
       "E07000220"
     ],
+    "ladCodes": [
+      "E07000220",
+      "E07000219"
+    ],
     "mp": {
       "name": "John Slinger",
       "party": "Labour",
@@ -13076,6 +14746,10 @@
       "E09000015",
       "E09000017"
     ],
+    "ladCodes": [
+      "E09000017",
+      "E09000015"
+    ],
     "mp": {
       "name": "David Simmonds",
       "party": "Conservative",
@@ -13101,6 +14775,10 @@
     "country": "england",
     "region": "north_west",
     "lad24cds": [
+      "E06000006",
+      "E06000050"
+    ],
+    "ladCodes": [
       "E06000006",
       "E06000050"
     ],
@@ -13132,6 +14810,10 @@
       "E07000207",
       "E07000212"
     ],
+    "ladCodes": [
+      "E07000212",
+      "E07000207"
+    ],
     "mp": {
       "name": "Dr Ben Spencer",
       "party": "Conservative",
@@ -13159,6 +14841,9 @@
     "lad24cds": [
       "E07000176"
     ],
+    "ladCodes": [
+      "E07000176"
+    ],
     "mp": {
       "name": "James Naish",
       "party": "Labour",
@@ -13180,10 +14865,13 @@
   "rutherglen": {
     "slug": "rutherglen",
     "name": "Rutherglen",
-    "pcon24cd": null,
+    "pcon24cd": "S14000104",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000029"
+    ],
     "mp": {
       "name": "Michael Shanks",
       "party": "Labour",
@@ -13197,9 +14885,9 @@
       "url": "https://ukelections.co.uk/seats/parliament/rutherglen/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "rutherglen",
+      "url": "https://ukdemographics.co.uk/constituencies/rutherglen/"
     }
   },
   "rutland-and-stamford": {
@@ -13212,6 +14900,11 @@
       "E06000017",
       "E07000131",
       "E07000141"
+    ],
+    "ladCodes": [
+      "E06000017",
+      "E07000141",
+      "E07000131"
     ],
     "mp": {
       "name": "Alicia Kearns",
@@ -13238,6 +14931,9 @@
     "country": "england",
     "region": "north_west",
     "lad24cds": [
+      "E08000006"
+    ],
+    "ladCodes": [
       "E08000006"
     ],
     "mp": {
@@ -13267,6 +14963,9 @@
     "lad24cds": [
       "E06000054"
     ],
+    "ladCodes": [
+      "E06000054"
+    ],
     "mp": {
       "name": "John Glen",
       "party": "Conservative",
@@ -13293,6 +14992,9 @@
     "region": null,
     "lad24cds": [
       "E07000168"
+    ],
+    "ladCodes": [
+      "E06000065"
     ],
     "mp": {
       "name": "Alison Hume",
@@ -13321,6 +15023,9 @@
     "lad24cds": [
       "E06000013"
     ],
+    "ladCodes": [
+      "E06000013"
+    ],
     "mp": {
       "name": "Sir Nicholas Dakin",
       "party": "Labour",
@@ -13346,6 +15051,9 @@
     "country": "england",
     "region": "north_west",
     "lad24cds": [
+      "E08000014"
+    ],
+    "ladCodes": [
       "E08000014"
     ],
     "mp": {
@@ -13376,6 +15084,10 @@
       "E07000169",
       "E08000035"
     ],
+    "ladCodes": [
+      "E06000065",
+      "E08000035"
+    ],
     "mp": {
       "name": "Keir Mather",
       "party": "Labour",
@@ -13404,6 +15116,10 @@
       "E07000107",
       "E07000111"
     ],
+    "ladCodes": [
+      "E07000111",
+      "E07000107"
+    ],
     "mp": {
       "name": "Laura Trott",
       "party": "Conservative",
@@ -13430,6 +15146,9 @@
     "region": "yorkshire",
     "lad24cds": [
       "E08000019"
+    ],
+    "ladCodes": [
+      "E08000039"
     ],
     "mp": {
       "name": "Gill Furniss",
@@ -13458,6 +15177,9 @@
     "lad24cds": [
       "E08000019"
     ],
+    "ladCodes": [
+      "E08000039"
+    ],
     "mp": {
       "name": "Abtisam Mohamed",
       "party": "Labour",
@@ -13484,6 +15206,9 @@
     "region": "yorkshire",
     "lad24cds": [
       "E08000019"
+    ],
+    "ladCodes": [
+      "E08000039"
     ],
     "mp": {
       "name": "Olivia Blake",
@@ -13512,6 +15237,9 @@
     "lad24cds": [
       "E08000019"
     ],
+    "ladCodes": [
+      "E08000039"
+    ],
     "mp": {
       "name": "Louise Haigh",
       "party": "Labour",
@@ -13538,6 +15266,9 @@
     "region": "yorkshire",
     "lad24cds": [
       "E08000019"
+    ],
+    "ladCodes": [
+      "E08000039"
     ],
     "mp": {
       "name": "Mr Clive Betts",
@@ -13568,6 +15299,11 @@
       "E07000173",
       "E07000175"
     ],
+    "ladCodes": [
+      "E07000175",
+      "E07000170",
+      "E07000173"
+    ],
     "mp": {
       "name": "Michelle Welsh",
       "party": "Labour",
@@ -13593,6 +15329,9 @@
     "country": "england",
     "region": "yorkshire",
     "lad24cds": [
+      "E08000032"
+    ],
+    "ladCodes": [
       "E08000032"
     ],
     "mp": {
@@ -13622,6 +15361,9 @@
     "lad24cds": [
       "E06000051"
     ],
+    "ladCodes": [
+      "E06000051"
+    ],
     "mp": {
       "name": "Julia Buckley",
       "party": "Labour",
@@ -13647,6 +15389,9 @@
     "country": "england",
     "region": "south_east",
     "lad24cds": [
+      "E07000113"
+    ],
+    "ladCodes": [
       "E07000113"
     ],
     "mp": {
@@ -13677,6 +15422,9 @@
       "E07000163",
       "E07000165"
     ],
+    "ladCodes": [
+      "E06000065"
+    ],
     "mp": {
       "name": "Sir Julian Smith",
       "party": "Conservative",
@@ -13702,6 +15450,9 @@
     "country": "england",
     "region": "east_midlands",
     "lad24cds": [
+      "E07000139"
+    ],
+    "ladCodes": [
       "E07000139"
     ],
     "mp": {
@@ -13731,6 +15482,9 @@
     "lad24cds": [
       "E06000039"
     ],
+    "ladCodes": [
+      "E06000039"
+    ],
     "mp": {
       "name": "Mr Tanmanjeet Singh Dhesi",
       "party": "Labour",
@@ -13756,6 +15510,9 @@
     "country": "england",
     "region": "west_midlands",
     "lad24cds": [
+      "E08000028"
+    ],
+    "ladCodes": [
       "E08000028"
     ],
     "mp": {
@@ -13785,6 +15542,9 @@
     "lad24cds": [
       "E08000029"
     ],
+    "ladCodes": [
+      "E08000029"
+    ],
     "mp": {
       "name": "Dr Neil Shastri-Hurst",
       "party": "Conservative",
@@ -13806,10 +15566,14 @@
   "south-antrim": {
     "slug": "south-antrim",
     "name": "South Antrim",
-    "pcon24cd": null,
+    "pcon24cd": "N05000014",
     "country": "northern_ireland",
     "region": "northern_ireland",
     "lad24cds": [],
+    "ladCodes": [
+      "N09000001",
+      "N09000007"
+    ],
     "mp": {
       "name": "Robin Swann",
       "party": "UUP",
@@ -13835,6 +15599,10 @@
     "country": "england",
     "region": "east_of_england",
     "lad24cds": [
+      "E06000034",
+      "E07000066"
+    ],
+    "ladCodes": [
       "E06000034",
       "E07000066"
     ],
@@ -13866,6 +15634,10 @@
       "E07000008",
       "E07000012"
     ],
+    "ladCodes": [
+      "E07000012",
+      "E07000008"
+    ],
     "mp": {
       "name": "Pippa Heylings",
       "party": "Liberal Democrats",
@@ -13895,6 +15667,11 @@
       "E07000079",
       "E07000082"
     ],
+    "ladCodes": [
+      "E07000079",
+      "E06000054",
+      "E07000082"
+    ],
     "mp": {
       "name": "Dr Roz Savage",
       "party": "Liberal Democrats",
@@ -13920,6 +15697,9 @@
     "country": "england",
     "region": "east_midlands",
     "lad24cds": [
+      "E07000039"
+    ],
+    "ladCodes": [
       "E07000039"
     ],
     "mp": {
@@ -13950,6 +15730,10 @@
       "E06000027",
       "E07000044"
     ],
+    "ladCodes": [
+      "E07000044",
+      "E06000027"
+    ],
     "mp": {
       "name": "Caroline Voaden",
       "party": "Liberal Democrats",
@@ -13977,6 +15761,9 @@
     "lad24cds": [
       "E06000059"
     ],
+    "ladCodes": [
+      "E06000059"
+    ],
     "mp": {
       "name": "Lloyd Hatton",
       "party": "Labour",
@@ -13998,10 +15785,14 @@
   "south-down": {
     "slug": "south-down",
     "name": "South Down",
-    "pcon24cd": null,
+    "pcon24cd": "N05000015",
     "country": "northern_ireland",
     "region": "northern_ireland",
     "lad24cds": [],
+    "ladCodes": [
+      "N09000010",
+      "N09000002"
+    ],
     "mp": {
       "name": "Chris Hazzard",
       "party": "Sinn Fein",
@@ -14029,6 +15820,9 @@
     "lad24cds": [
       "E06000052"
     ],
+    "ladCodes": [
+      "E06000052"
+    ],
     "mp": {
       "name": "Anna Gelderd",
       "party": "Labour",
@@ -14054,6 +15848,10 @@
     "country": "england",
     "region": "east_midlands",
     "lad24cds": [
+      "E07000140",
+      "E07000141"
+    ],
+    "ladCodes": [
       "E07000140",
       "E07000141"
     ],
@@ -14085,6 +15883,10 @@
       "E07000129",
       "E07000131"
     ],
+    "ladCodes": [
+      "E07000129",
+      "E07000131"
+    ],
     "mp": {
       "name": "Alberto Costa",
       "party": "Conservative",
@@ -14110,6 +15912,9 @@
     "country": "england",
     "region": "east_of_england",
     "lad24cds": [
+      "E07000149"
+    ],
+    "ladCodes": [
       "E07000149"
     ],
     "mp": {
@@ -14140,6 +15945,10 @@
       "E06000061",
       "E06000062"
     ],
+    "ladCodes": [
+      "E06000062",
+      "E06000061"
+    ],
     "mp": {
       "name": "Sarah Bool",
       "party": "Conservative",
@@ -14168,6 +15977,10 @@
       "E07000118",
       "E07000126"
     ],
+    "ladCodes": [
+      "E07000126",
+      "E07000118"
+    ],
     "mp": {
       "name": "Mr Paul Foster",
       "party": "Labour",
@@ -14193,6 +16006,9 @@
     "country": "england",
     "region": "north_east",
     "lad24cds": [
+      "E08000023"
+    ],
+    "ladCodes": [
       "E08000023"
     ],
     "mp": {
@@ -14222,6 +16038,9 @@
     "lad24cds": [
       "E06000051"
     ],
+    "ladCodes": [
+      "E06000051"
+    ],
     "mp": {
       "name": "Stuart Anderson",
       "party": "Conservative",
@@ -14249,6 +16068,9 @@
     "lad24cds": [
       "E07000200"
     ],
+    "ladCodes": [
+      "E07000200"
+    ],
     "mp": {
       "name": "James Cartlidge",
       "party": "Conservative",
@@ -14274,6 +16096,11 @@
     "country": "england",
     "region": "south_west",
     "lad24cds": [
+      "E06000026",
+      "E07000044",
+      "E07000047"
+    ],
+    "ladCodes": [
       "E06000026",
       "E07000044",
       "E07000047"
@@ -14306,6 +16133,10 @@
       "E07000096",
       "E07000102"
     ],
+    "ladCodes": [
+      "E07000102",
+      "E07000096"
+    ],
     "mp": {
       "name": "Mr Gagan Mohindra",
       "party": "Conservative",
@@ -14334,6 +16165,10 @@
       "E07000143",
       "E07000146"
     ],
+    "ladCodes": [
+      "E07000146",
+      "E07000143"
+    ],
     "mp": {
       "name": "Terry Jermy",
       "party": "Labour",
@@ -14359,6 +16194,9 @@
     "country": "england",
     "region": "south_west",
     "lad24cds": [
+      "E06000054"
+    ],
+    "ladCodes": [
       "E06000054"
     ],
     "mp": {
@@ -14388,6 +16226,9 @@
     "lad24cds": [
       "E06000045"
     ],
+    "ladCodes": [
+      "E06000045"
+    ],
     "mp": {
       "name": "Darren Paffey",
       "party": "Labour",
@@ -14413,6 +16254,9 @@
     "country": "england",
     "region": "south_east",
     "lad24cds": [
+      "E06000045"
+    ],
+    "ladCodes": [
       "E06000045"
     ],
     "mp": {
@@ -14443,6 +16287,10 @@
       "E06000033",
       "E07000075"
     ],
+    "ladCodes": [
+      "E06000033",
+      "E07000075"
+    ],
     "mp": {
       "name": "Mr Bayo Alaba",
       "party": "Labour",
@@ -14470,6 +16318,9 @@
     "lad24cds": [
       "E06000033"
     ],
+    "ladCodes": [
+      "E06000033"
+    ],
     "mp": {
       "name": "David Burton-Sampson",
       "party": "Labour",
@@ -14495,6 +16346,10 @@
     "country": "england",
     "region": "london",
     "lad24cds": [
+      "E09000010",
+      "E09000014"
+    ],
+    "ladCodes": [
       "E09000010",
       "E09000014"
     ],
@@ -14526,6 +16381,10 @@
       "E07000127",
       "E08000014"
     ],
+    "ladCodes": [
+      "E08000014",
+      "E07000127"
+    ],
     "mp": {
       "name": "Patrick Hurley",
       "party": "Labour",
@@ -14551,6 +16410,9 @@
     "country": "england",
     "region": "south_east",
     "lad24cds": [
+      "E07000213"
+    ],
+    "ladCodes": [
       "E07000213"
     ],
     "mp": {
@@ -14580,6 +16442,9 @@
     "lad24cds": [
       "E08000034"
     ],
+    "ladCodes": [
+      "E08000034"
+    ],
     "mp": {
       "name": "Kim Leadbeater",
       "party": "Labour",
@@ -14605,6 +16470,9 @@
     "country": "england",
     "region": "east_of_england",
     "lad24cds": [
+      "E07000240"
+    ],
+    "ladCodes": [
       "E07000240"
     ],
     "mp": {
@@ -14634,6 +16502,9 @@
     "lad24cds": [
       "E06000052"
     ],
+    "ladCodes": [
+      "E06000052"
+    ],
     "mp": {
       "name": "Noah Law",
       "party": "Labour",
@@ -14659,6 +16530,9 @@
     "country": "england",
     "region": "north_west",
     "lad24cds": [
+      "E08000013"
+    ],
+    "ladCodes": [
       "E08000013"
     ],
     "mp": {
@@ -14689,6 +16563,10 @@
       "E08000011",
       "E08000013"
     ],
+    "ladCodes": [
+      "E08000013",
+      "E08000011"
+    ],
     "mp": {
       "name": "Ms Marie Rimmer",
       "party": "Labour",
@@ -14714,6 +16592,10 @@
     "country": "england",
     "region": "south_west",
     "lad24cds": [
+      "E06000052",
+      "E06000053"
+    ],
+    "ladCodes": [
       "E06000052",
       "E06000053"
     ],
@@ -14745,6 +16627,10 @@
       "E07000011",
       "E07000012"
     ],
+    "ladCodes": [
+      "E07000012",
+      "E07000011"
+    ],
     "mp": {
       "name": "Ian Sollom",
       "party": "Liberal Democrats",
@@ -14773,6 +16659,10 @@
       "E07000195",
       "E07000197"
     ],
+    "ladCodes": [
+      "E07000197",
+      "E07000195"
+    ],
     "mp": {
       "name": "Leigh Ingham",
       "party": "Labour",
@@ -14800,6 +16690,9 @@
     "lad24cds": [
       "E07000198"
     ],
+    "ladCodes": [
+      "E07000198"
+    ],
     "mp": {
       "name": "Dame Karen Bradley",
       "party": "Conservative",
@@ -14825,6 +16718,9 @@
     "country": "england",
     "region": "north_west",
     "lad24cds": [
+      "E08000008"
+    ],
+    "ladCodes": [
       "E08000008"
     ],
     "mp": {
@@ -14856,6 +16752,11 @@
       "E07000242",
       "E07000243"
     ],
+    "ladCodes": [
+      "E07000243",
+      "E07000099",
+      "E07000242"
+    ],
     "mp": {
       "name": "Kevin Bonavia",
       "party": "Labour",
@@ -14877,10 +16778,14 @@
   "stirling-and-strathallan": {
     "slug": "stirling-and-strathallan",
     "name": "Stirling and Strathallan",
-    "pcon24cd": null,
+    "pcon24cd": "S14000105",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000030",
+      "S12000048"
+    ],
     "mp": {
       "name": "Chris Kane",
       "party": "Labour",
@@ -14894,9 +16799,9 @@
       "url": "https://ukelections.co.uk/seats/parliament/stirling-and-strathallan/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "stirling-and-strathallan",
+      "url": "https://ukdemographics.co.uk/constituencies/stirling-and-strathallan/"
     }
   },
   "stockport": {
@@ -14906,6 +16811,9 @@
     "country": "england",
     "region": "north_west",
     "lad24cds": [
+      "E08000007"
+    ],
+    "ladCodes": [
       "E08000007"
     ],
     "mp": {
@@ -14933,6 +16841,9 @@
     "country": "england",
     "region": "north_east",
     "lad24cds": [
+      "E06000004"
+    ],
+    "ladCodes": [
       "E06000004"
     ],
     "mp": {
@@ -14963,6 +16874,10 @@
       "E06000004",
       "E06000005"
     ],
+    "ladCodes": [
+      "E06000004",
+      "E06000005"
+    ],
     "mp": {
       "name": "Matt Vickers",
       "party": "Conservative",
@@ -14990,6 +16905,9 @@
     "lad24cds": [
       "E06000021"
     ],
+    "ladCodes": [
+      "E06000021"
+    ],
     "mp": {
       "name": "Gareth Snell",
       "party": "Labour (Co-op)",
@@ -15015,6 +16933,10 @@
     "country": "england",
     "region": "west_midlands",
     "lad24cds": [
+      "E06000021",
+      "E07000195"
+    ],
+    "ladCodes": [
       "E06000021",
       "E07000195"
     ],
@@ -15047,6 +16969,11 @@
       "E07000197",
       "E07000198"
     ],
+    "ladCodes": [
+      "E06000021",
+      "E07000197",
+      "E07000198"
+    ],
     "mp": {
       "name": "Dr Allison Gardner",
       "party": "Labour",
@@ -15072,6 +16999,10 @@
     "country": "england",
     "region": "west_midlands",
     "lad24cds": [
+      "E07000196",
+      "E07000197"
+    ],
+    "ladCodes": [
       "E07000196",
       "E07000197"
     ],
@@ -15102,6 +17033,9 @@
     "lad24cds": [
       "E08000027"
     ],
+    "ladCodes": [
+      "E08000027"
+    ],
     "mp": {
       "name": "Cat Eccles",
       "party": "Labour",
@@ -15123,10 +17057,14 @@
   "strangford": {
     "slug": "strangford",
     "name": "Strangford",
-    "pcon24cd": null,
+    "pcon24cd": "N05000016",
     "country": "northern_ireland",
     "region": "northern_ireland",
     "lad24cds": [],
+    "ladCodes": [
+      "N09000011",
+      "N09000010"
+    ],
     "mp": {
       "name": "Jim Shannon",
       "party": "DUP",
@@ -15152,6 +17090,10 @@
     "country": "england",
     "region": "london",
     "lad24cds": [
+      "E09000025",
+      "E09000030"
+    ],
+    "ladCodes": [
       "E09000025",
       "E09000030"
     ],
@@ -15182,6 +17124,9 @@
     "lad24cds": [
       "E07000221"
     ],
+    "ladCodes": [
+      "E07000221"
+    ],
     "mp": {
       "name": "Manuela Perteghella",
       "party": "Liberal Democrats",
@@ -15207,6 +17152,10 @@
     "country": "england",
     "region": "london",
     "lad24cds": [
+      "E09000008",
+      "E09000022"
+    ],
+    "ladCodes": [
       "E09000008",
       "E09000022"
     ],
@@ -15237,6 +17186,9 @@
     "lad24cds": [
       "E08000009"
     ],
+    "ladCodes": [
+      "E08000009"
+    ],
     "mp": {
       "name": "Andrew Western",
       "party": "Labour",
@@ -15262,6 +17214,9 @@
     "country": "england",
     "region": "south_west",
     "lad24cds": [
+      "E07000082"
+    ],
+    "ladCodes": [
       "E07000082"
     ],
     "mp": {
@@ -15291,6 +17246,9 @@
     "lad24cds": [
       "E07000244"
     ],
+    "ladCodes": [
+      "E07000244"
+    ],
     "mp": {
       "name": "Jenny Riddell-Carpenter",
       "party": "Labour",
@@ -15316,6 +17274,9 @@
     "country": "england",
     "region": "north_east",
     "lad24cds": [
+      "E08000024"
+    ],
+    "ladCodes": [
       "E08000024"
     ],
     "mp": {
@@ -15346,6 +17307,10 @@
       "E07000209",
       "E07000214"
     ],
+    "ladCodes": [
+      "E07000214",
+      "E07000209"
+    ],
     "mp": {
       "name": "Dr Al Pinkerton",
       "party": "Liberal Democrats",
@@ -15371,6 +17336,9 @@
     "country": "england",
     "region": "south_east",
     "lad24cds": [
+      "E07000065"
+    ],
+    "ladCodes": [
       "E07000065"
     ],
     "mp": {
@@ -15400,6 +17368,9 @@
     "lad24cds": [
       "E09000029"
     ],
+    "ladCodes": [
+      "E09000029"
+    ],
     "mp": {
       "name": "Luke Taylor",
       "party": "Liberal Democrats",
@@ -15425,6 +17396,9 @@
     "country": "england",
     "region": "west_midlands",
     "lad24cds": [
+      "E08000025"
+    ],
+    "ladCodes": [
       "E08000025"
     ],
     "mp": {
@@ -15454,6 +17428,9 @@
     "lad24cds": [
       "W06000011"
     ],
+    "ladCodes": [
+      "W06000011"
+    ],
     "mp": {
       "name": "Torsten Bell",
       "party": "Labour",
@@ -15481,6 +17458,9 @@
     "lad24cds": [
       "E06000030"
     ],
+    "ladCodes": [
+      "E06000030"
+    ],
     "mp": {
       "name": "Will Stone",
       "party": "Labour",
@@ -15506,6 +17486,9 @@
     "country": "england",
     "region": "south_west",
     "lad24cds": [
+      "E06000030"
+    ],
+    "ladCodes": [
       "E06000030"
     ],
     "mp": {
@@ -15536,6 +17519,10 @@
       "E07000194",
       "E07000199"
     ],
+    "ladCodes": [
+      "E07000199",
+      "E07000194"
+    ],
     "mp": {
       "name": "Sarah Edwards",
       "party": "Labour",
@@ -15565,6 +17552,11 @@
       "E06000049",
       "E06000050"
     ],
+    "ladCodes": [
+      "E06000049",
+      "E06000050",
+      "E06000007"
+    ],
     "mp": {
       "name": "Esther McVey",
       "party": "Conservative",
@@ -15592,6 +17584,9 @@
     "lad24cds": [
       "E07000246"
     ],
+    "ladCodes": [
+      "E06000066"
+    ],
     "mp": {
       "name": "Gideon Amos",
       "party": "Liberal Democrats",
@@ -15617,6 +17612,9 @@
     "country": "england",
     "region": "west_midlands",
     "lad24cds": [
+      "E06000020"
+    ],
+    "ladCodes": [
       "E06000020"
     ],
     "mp": {
@@ -15648,6 +17646,11 @@
       "E07000081",
       "E07000083"
     ],
+    "ladCodes": [
+      "E07000083",
+      "E07000078",
+      "E07000081"
+    ],
     "mp": {
       "name": "Cameron Thomas",
       "party": "Liberal Democrats",
@@ -15673,6 +17676,10 @@
     "country": "england",
     "region": "west_midlands",
     "lad24cds": [
+      "E06000020",
+      "E06000051"
+    ],
+    "ladCodes": [
       "E06000020",
       "E06000051"
     ],
@@ -15705,6 +17712,9 @@
       "E07000167",
       "E07000168"
     ],
+    "ladCodes": [
+      "E06000065"
+    ],
     "mp": {
       "name": "Kevin Hollinrake",
       "party": "Conservative",
@@ -15732,6 +17742,9 @@
     "lad24cds": [
       "E06000025"
     ],
+    "ladCodes": [
+      "E06000025"
+    ],
     "mp": {
       "name": "Claire Young",
       "party": "Liberal Democrats",
@@ -15757,6 +17770,9 @@
     "country": "england",
     "region": "east_of_england",
     "lad24cds": [
+      "E06000034"
+    ],
+    "ladCodes": [
       "E06000034"
     ],
     "mp": {
@@ -15787,6 +17803,10 @@
       "E08000027",
       "E08000028"
     ],
+    "ladCodes": [
+      "E08000028",
+      "E08000027"
+    ],
     "mp": {
       "name": "Antonia Bance",
       "party": "Labour",
@@ -15814,6 +17834,10 @@
     "lad24cds": [
       "E07000042",
       "E07000246"
+    ],
+    "ladCodes": [
+      "E06000066",
+      "E07000042"
     ],
     "mp": {
       "name": "Rachel Gilmour",
@@ -15843,6 +17867,10 @@
       "E07000111",
       "E07000115"
     ],
+    "ladCodes": [
+      "E07000115",
+      "E07000111"
+    ],
     "mp": {
       "name": "Tom Tugendhat",
       "party": "Conservative",
@@ -15868,6 +17896,9 @@
     "country": "england",
     "region": "london",
     "lad24cds": [
+      "E09000032"
+    ],
+    "ladCodes": [
       "E09000032"
     ],
     "mp": {
@@ -15897,6 +17928,9 @@
     "lad24cds": [
       "E06000027"
     ],
+    "ladCodes": [
+      "E06000027"
+    ],
     "mp": {
       "name": "Steve Darling",
       "party": "Liberal Democrats",
@@ -15924,6 +17958,9 @@
     "lad24cds": [
       "W06000020"
     ],
+    "ladCodes": [
+      "W06000020"
+    ],
     "mp": {
       "name": "Nick Thomas-Symonds",
       "party": "Labour",
@@ -15949,6 +17986,10 @@
     "country": "england",
     "region": "south_west",
     "lad24cds": [
+      "E07000046",
+      "E07000047"
+    ],
+    "ladCodes": [
       "E07000046",
       "E07000047"
     ],
@@ -15980,6 +18021,10 @@
       "E09000012",
       "E09000014"
     ],
+    "ladCodes": [
+      "E09000014",
+      "E09000012"
+    ],
     "mp": {
       "name": "Mr David Lammy",
       "party": "Labour",
@@ -16005,6 +18050,9 @@
     "country": "england",
     "region": "south_west",
     "lad24cds": [
+      "E06000052"
+    ],
+    "ladCodes": [
       "E06000052"
     ],
     "mp": {
@@ -16034,6 +18082,9 @@
     "lad24cds": [
       "E07000116"
     ],
+    "ladCodes": [
+      "E07000116"
+    ],
     "mp": {
       "name": "Mike Martin",
       "party": "Liberal Democrats",
@@ -16059,6 +18110,9 @@
     "country": "england",
     "region": "london",
     "lad24cds": [
+      "E09000027"
+    ],
+    "ladCodes": [
       "E09000027"
     ],
     "mp": {
@@ -16088,6 +18142,9 @@
     "lad24cds": [
       "E08000022"
     ],
+    "ladCodes": [
+      "E08000022"
+    ],
     "mp": {
       "name": "Sir Alan Campbell",
       "party": "Labour",
@@ -16109,10 +18166,13 @@
   "upper-bann": {
     "slug": "upper-bann",
     "name": "Upper Bann",
-    "pcon24cd": null,
+    "pcon24cd": "N05000017",
     "country": "northern_ireland",
     "region": "northern_ireland",
     "lad24cds": [],
+    "ladCodes": [
+      "N09000002"
+    ],
     "mp": {
       "name": "Carla Lockhart",
       "party": "DUP",
@@ -16138,6 +18198,9 @@
     "country": "england",
     "region": "london",
     "lad24cds": [
+      "E09000017"
+    ],
+    "ladCodes": [
       "E09000017"
     ],
     "mp": {
@@ -16167,6 +18230,9 @@
     "lad24cds": [
       "W06000014"
     ],
+    "ladCodes": [
+      "W06000014"
+    ],
     "mp": {
       "name": "Kanishka Narayan",
       "party": "Labour",
@@ -16192,6 +18258,10 @@
     "country": "england",
     "region": "london",
     "lad24cds": [
+      "E09000022",
+      "E09000028"
+    ],
+    "ladCodes": [
       "E09000022",
       "E09000028"
     ],
@@ -16223,6 +18293,10 @@
       "E08000035",
       "E08000036"
     ],
+    "ladCodes": [
+      "E08000036",
+      "E08000035"
+    ],
     "mp": {
       "name": "Simon Lightwood",
       "party": "Labour (Co-op)",
@@ -16248,6 +18322,9 @@
     "country": "england",
     "region": "north_west",
     "lad24cds": [
+      "E08000015"
+    ],
+    "ladCodes": [
       "E08000015"
     ],
     "mp": {
@@ -16277,6 +18354,9 @@
     "lad24cds": [
       "E08000030"
     ],
+    "ladCodes": [
+      "E08000030"
+    ],
     "mp": {
       "name": "Valerie Vaz",
       "party": "Labour",
@@ -16302,6 +18382,9 @@
     "country": "england",
     "region": "london",
     "lad24cds": [
+      "E09000031"
+    ],
+    "ladCodes": [
       "E09000031"
     ],
     "mp": {
@@ -16331,6 +18414,9 @@
     "lad24cds": [
       "E06000007"
     ],
+    "ladCodes": [
+      "E06000007"
+    ],
     "mp": {
       "name": "Charlotte Nichols",
       "party": "Labour",
@@ -16356,6 +18442,9 @@
     "country": "england",
     "region": "north_west",
     "lad24cds": [
+      "E06000007"
+    ],
+    "ladCodes": [
       "E06000007"
     ],
     "mp": {
@@ -16385,6 +18474,9 @@
     "lad24cds": [
       "E07000222"
     ],
+    "ladCodes": [
+      "E07000222"
+    ],
     "mp": {
       "name": "Matt Western",
       "party": "Labour",
@@ -16410,6 +18502,10 @@
     "country": "england",
     "region": "north_east",
     "lad24cds": [
+      "E08000024",
+      "E08000037"
+    ],
+    "ladCodes": [
       "E08000024",
       "E08000037"
     ],
@@ -16441,6 +18537,10 @@
       "E07000098",
       "E07000103"
     ],
+    "ladCodes": [
+      "E07000103",
+      "E07000098"
+    ],
     "mp": {
       "name": "Matt Turmaine",
       "party": "Labour",
@@ -16468,6 +18568,11 @@
     "lad24cds": [
       "E07000149",
       "E07000203",
+      "E07000244"
+    ],
+    "ladCodes": [
+      "E07000203",
+      "E07000149",
       "E07000244"
     ],
     "mp": {
@@ -16499,6 +18604,11 @@
       "E07000110",
       "E07000116"
     ],
+    "ladCodes": [
+      "E07000105",
+      "E07000110",
+      "E07000116"
+    ],
     "mp": {
       "name": "Katie Lam",
       "party": "Conservative",
@@ -16524,6 +18634,9 @@
     "country": "england",
     "region": "east_midlands",
     "lad24cds": [
+      "E06000061"
+    ],
+    "ladCodes": [
       "E06000061"
     ],
     "mp": {
@@ -16555,6 +18668,10 @@
       "E07000187",
       "E07000188"
     ],
+    "ladCodes": [
+      "E06000066",
+      "E06000024"
+    ],
     "mp": {
       "name": "Tessa Munt",
       "party": "Liberal Democrats",
@@ -16582,6 +18699,9 @@
     "lad24cds": [
       "E07000241"
     ],
+    "ladCodes": [
+      "E07000241"
+    ],
     "mp": {
       "name": "Andrew Lewin",
       "party": "Labour",
@@ -16603,10 +18723,13 @@
   "west-aberdeenshire-and-kincardine": {
     "slug": "west-aberdeenshire-and-kincardine",
     "name": "West Aberdeenshire and Kincardine",
-    "pcon24cd": null,
+    "pcon24cd": "S14000111",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000034"
+    ],
     "mp": {
       "name": "Andrew Bowie",
       "party": "Conservative",
@@ -16620,9 +18743,9 @@
       "url": "https://ukelections.co.uk/seats/parliament/west-aberdeenshire-and-kincardine/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "west-aberdeenshire-and-kincardine",
+      "url": "https://ukdemographics.co.uk/constituencies/west-aberdeenshire-and-kincardine/"
     }
   },
   "west-bromwich": {
@@ -16632,6 +18755,9 @@
     "country": "england",
     "region": "west_midlands",
     "lad24cds": [
+      "E08000028"
+    ],
+    "ladCodes": [
       "E08000028"
     ],
     "mp": {
@@ -16661,6 +18787,9 @@
     "lad24cds": [
       "E06000059"
     ],
+    "ladCodes": [
+      "E06000059"
+    ],
     "mp": {
       "name": "Edward Morello",
       "party": "Liberal Democrats",
@@ -16682,10 +18811,14 @@
   "west-dunbartonshire": {
     "slug": "west-dunbartonshire",
     "name": "West Dunbartonshire",
-    "pcon24cd": null,
+    "pcon24cd": "S14000106",
     "country": "scotland",
     "region": "scotland",
     "lad24cds": [],
+    "ladCodes": [
+      "S12000039",
+      "S12000049"
+    ],
     "mp": {
       "name": "Douglas McAllister",
       "party": "Labour",
@@ -16699,9 +18832,9 @@
       "url": "https://ukelections.co.uk/seats/parliament/west-dunbartonshire/"
     },
     "ukdemographics": {
-      "hasPage": false,
-      "slug": null,
-      "url": null
+      "hasPage": true,
+      "slug": "west-dunbartonshire",
+      "url": "https://ukdemographics.co.uk/constituencies/west-dunbartonshire/"
     }
   },
   "west-ham-and-beckton": {
@@ -16711,6 +18844,9 @@
     "country": "england",
     "region": "london",
     "lad24cds": [
+      "E09000025"
+    ],
+    "ladCodes": [
       "E09000025"
     ],
     "mp": {
@@ -16740,6 +18876,9 @@
     "lad24cds": [
       "E07000127"
     ],
+    "ladCodes": [
+      "E07000127"
+    ],
     "mp": {
       "name": "Ashley Dalton",
       "party": "Labour",
@@ -16767,6 +18906,9 @@
     "lad24cds": [
       "E07000245"
     ],
+    "ladCodes": [
+      "E07000245"
+    ],
     "mp": {
       "name": "Nick Timothy",
       "party": "Conservative",
@@ -16788,10 +18930,15 @@
   "west-tyrone": {
     "slug": "west-tyrone",
     "name": "West Tyrone",
-    "pcon24cd": null,
+    "pcon24cd": "N05000018",
     "country": "northern_ireland",
     "region": "northern_ireland",
     "lad24cds": [],
+    "ladCodes": [
+      "N09000006",
+      "N09000005",
+      "N09000009"
+    ],
     "mp": {
       "name": "Órfhlaith Begley",
       "party": "Sinn Fein",
@@ -16817,6 +18964,10 @@
     "country": "england",
     "region": "west_midlands",
     "lad24cds": [
+      "E07000235",
+      "E07000238"
+    ],
+    "ladCodes": [
       "E07000235",
       "E07000238"
     ],
@@ -16848,6 +18999,9 @@
       "E07000030",
       "E07000031"
     ],
+    "ladCodes": [
+      "E06000064"
+    ],
     "mp": {
       "name": "Tim Farron",
       "party": "Liberal Democrats",
@@ -16873,6 +19027,9 @@
     "country": "england",
     "region": "south_west",
     "lad24cds": [
+      "E06000024"
+    ],
+    "ladCodes": [
       "E06000024"
     ],
     "mp": {
@@ -16905,6 +19062,10 @@
       "E07000169",
       "E08000035"
     ],
+    "ladCodes": [
+      "E06000065",
+      "E08000035"
+    ],
     "mp": {
       "name": "Sir Alec Shelbrooke",
       "party": "Conservative",
@@ -16933,6 +19094,9 @@
       "E07000026",
       "E07000029"
     ],
+    "ladCodes": [
+      "E06000063"
+    ],
     "mp": {
       "name": "Josh MacAlister",
       "party": "Labour",
@@ -16958,6 +19122,10 @@
     "country": "england",
     "region": "north_west",
     "lad24cds": [
+      "E06000006",
+      "E08000011"
+    ],
+    "ladCodes": [
       "E06000006",
       "E08000011"
     ],
@@ -16988,6 +19156,9 @@
     "lad24cds": [
       "E08000010"
     ],
+    "ladCodes": [
+      "E08000010"
+    ],
     "mp": {
       "name": "Lisa Nandy",
       "party": "Labour",
@@ -17016,6 +19187,10 @@
       "E09000021",
       "E09000024"
     ],
+    "ladCodes": [
+      "E09000024",
+      "E09000021"
+    ],
     "mp": {
       "name": "Mr Paul Kohler",
       "party": "Liberal Democrats",
@@ -17041,6 +19216,9 @@
     "country": "england",
     "region": "south_east",
     "lad24cds": [
+      "E07000094"
+    ],
+    "ladCodes": [
       "E07000094"
     ],
     "mp": {
@@ -17072,6 +19250,11 @@
       "E06000040",
       "E07000212"
     ],
+    "ladCodes": [
+      "E06000040",
+      "E07000212",
+      "E06000039"
+    ],
     "mp": {
       "name": "Jack Rankin",
       "party": "Conservative",
@@ -17099,6 +19282,9 @@
     "lad24cds": [
       "E08000015"
     ],
+    "ladCodes": [
+      "E08000015"
+    ],
     "mp": {
       "name": "Matthew Patrick",
       "party": "Labour",
@@ -17124,6 +19310,11 @@
     "country": "england",
     "region": "east_of_england",
     "lad24cds": [
+      "E07000067",
+      "E07000071",
+      "E07000074"
+    ],
+    "ladCodes": [
       "E07000067",
       "E07000071",
       "E07000074"
@@ -17156,6 +19347,10 @@
       "E07000180",
       "E07000181"
     ],
+    "ladCodes": [
+      "E07000181",
+      "E07000180"
+    ],
     "mp": {
       "name": "Charlie Maynard",
       "party": "Liberal Democrats",
@@ -17183,6 +19378,9 @@
     "lad24cds": [
       "E07000217"
     ],
+    "ladCodes": [
+      "E07000217"
+    ],
     "mp": {
       "name": "Mr Will Forster",
       "party": "Liberal Democrats",
@@ -17208,6 +19406,9 @@
     "country": "england",
     "region": "south_east",
     "lad24cds": [
+      "E06000041"
+    ],
+    "ladCodes": [
       "E06000041"
     ],
     "mp": {
@@ -17238,6 +19439,10 @@
       "E08000030",
       "E08000031"
     ],
+    "ladCodes": [
+      "E08000031",
+      "E08000030"
+    ],
     "mp": {
       "name": "Sureena Brackenridge",
       "party": "Labour",
@@ -17266,6 +19471,10 @@
       "E08000030",
       "E08000031"
     ],
+    "ladCodes": [
+      "E08000031",
+      "E08000030"
+    ],
     "mp": {
       "name": "Pat McFadden",
       "party": "Labour",
@@ -17291,6 +19500,9 @@
     "country": "england",
     "region": "west_midlands",
     "lad24cds": [
+      "E08000031"
+    ],
+    "ladCodes": [
       "E08000031"
     ],
     "mp": {
@@ -17320,6 +19532,9 @@
     "lad24cds": [
       "E07000237"
     ],
+    "ladCodes": [
+      "E07000237"
+    ],
     "mp": {
       "name": "Tom Collins",
       "party": "Labour",
@@ -17345,6 +19560,10 @@
     "country": "england",
     "region": "north_west",
     "lad24cds": [
+      "E08000006",
+      "E08000010"
+    ],
+    "ladCodes": [
       "E08000006",
       "E08000010"
     ],
@@ -17376,6 +19595,10 @@
       "E07000224",
       "E07000229"
     ],
+    "ladCodes": [
+      "E07000229",
+      "E07000224"
+    ],
     "mp": {
       "name": "Dr Beccy Cooper",
       "party": "Labour",
@@ -17401,6 +19624,9 @@
     "country": "wales",
     "region": "wales",
     "lad24cds": [
+      "W06000006"
+    ],
+    "ladCodes": [
       "W06000006"
     ],
     "mp": {
@@ -17430,6 +19656,9 @@
     "lad24cds": [
       "E06000060"
     ],
+    "ladCodes": [
+      "E06000060"
+    ],
     "mp": {
       "name": "Emma Reynolds",
       "party": "Labour",
@@ -17455,6 +19684,9 @@
     "country": "england",
     "region": "west_midlands",
     "lad24cds": [
+      "E07000239"
+    ],
+    "ladCodes": [
       "E07000239"
     ],
     "mp": {
@@ -17485,6 +19717,10 @@
       "E08000003",
       "E08000009"
     ],
+    "ladCodes": [
+      "E08000003",
+      "E08000009"
+    ],
     "mp": {
       "name": "Mike Kane",
       "party": "Labour",
@@ -17512,6 +19748,9 @@
     "lad24cds": [
       "E07000189"
     ],
+    "ladCodes": [
+      "E06000066"
+    ],
     "mp": {
       "name": "Adam Dance",
       "party": "Liberal Democrats",
@@ -17533,10 +19772,13 @@
   "ynys-mon": {
     "slug": "ynys-mon",
     "name": "Ynys Mon",
-    "pcon24cd": null,
+    "pcon24cd": "W07000112",
     "country": "wales",
     "region": "wales",
     "lad24cds": [],
+    "ladCodes": [
+      "W06000001"
+    ],
     "mp": null,
     "result": {
       "winnerName": "Llinos Medi",
@@ -17557,6 +19799,9 @@
     "country": "england",
     "region": "yorkshire",
     "lad24cds": [
+      "E06000014"
+    ],
+    "ladCodes": [
       "E06000014"
     ],
     "mp": {
@@ -17584,6 +19829,9 @@
     "country": "england",
     "region": "yorkshire",
     "lad24cds": [
+      "E06000014"
+    ],
+    "ladCodes": [
       "E06000014"
     ],
     "mp": {

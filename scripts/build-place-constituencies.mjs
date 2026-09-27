@@ -5,13 +5,14 @@ import { fileURLToPath } from "node:url";
 const siteRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const registryPath = path.join(siteRoot, "src", "data", "registry", "places.json");
 const outputPath = path.join(siteRoot, "src", "data", "registry", "place-constituencies.json");
-const sourcePath = "/Users/tompickup/ukelections/data/identity/pcons-ge-next.json";
+// Built from the constituency registry, so a place lists every seat that shares
+// its ground under the ONS postcode crosswalk (see build-constituencies.mjs).
+const constituencies = Object.values(JSON.parse(fs.readFileSync(path.join(siteRoot, "src", "data", "registry", "constituencies.json"), "utf8")));
 const registry = JSON.parse(fs.readFileSync(registryPath, "utf8"));
-const constituencies = JSON.parse(fs.readFileSync(sourcePath, "utf8")).pcons;
 
 const byPlace = Object.fromEntries(Object.keys(registry).map((gss) => [gss, []]));
 for (const constituency of constituencies) {
-  for (const gss of constituency.lad24cds) {
+  for (const gss of constituency.ladCodes) {
     if (!byPlace[gss]) continue;
     byPlace[gss].push({
       pcon24cd: constituency.pcon24cd,
