@@ -7,6 +7,16 @@ const siteRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), ".."
 const registryPath = path.join(siteRoot, "src", "data", "registry", "places.json");
 const registry = JSON.parse(fs.readFileSync(registryPath, "utf8"));
 const records = Object.entries(registry);
+const wikidataLookup = JSON.parse(fs.readFileSync(path.join(siteRoot, "src", "data", "registry", "wikidata-by-gss.json"), "utf8"));
+const publishedRegistry = fs.readFileSync(path.join(siteRoot, "public", "data", "registry", "places.json"), "utf8");
+
+assert.equal(publishedRegistry, fs.readFileSync(registryPath, "utf8"), "the published registry is byte-identical to the source registry");
+assert.deepEqual(Object.keys(wikidataLookup).sort(), Object.keys(registry).sort(), "the Wikidata lookup has one entry for every registry GSS code");
+for (const [gss, qid] of Object.entries(wikidataLookup)) {
+  if (qid !== null) assert.match(qid, /^Q\d+$/, `${gss} lookup value is a QID`);
+}
+const resolvedWikidata = Object.values(wikidataLookup).filter(Boolean).length;
+assert.equal(resolvedWikidata, 328, "the committed Wikidata lookup resolves 328 codes to a single item");
 const sourceIds = ["ukelections", "ukdemographics", "aidoge", "asylumstats"];
 const expectedBurnleyUrls = {
   ukelections: "https://ukelections.co.uk/seats/burnley/",
@@ -25,7 +35,8 @@ for (const [gss, place] of records) {
   assert.match(place.gss, /^[ESWN][0-9]{8}$/);
   assert.match(place.slug, /^[a-z0-9]+(?:-[a-z0-9]+)*$/);
   assert.ok(place.name && place.officialName && place.type && place.country && place.region, `${gss} has required geography`);
-  assert.equal(place.wikidata, null, `${gss} has no unverified Wikidata identifier`);
+  assert.equal(place.wikidata, wikidataLookup[gss] ?? null, `${gss} Wikidata identifier comes from the committed lookup`);
+  if (place.wikidata !== null) assert.match(place.wikidata, /^Q\d+$/, `${gss} Wikidata identifier is a QID`);
 
   for (const source of sourceIds) {
     const coverage = place.coverage[source];
@@ -51,4 +62,4 @@ for (const source of sourceIds) {
   assert.equal(burnley.coverage[source].url, expectedBurnleyUrls[source], `Burnley ${source} URL is exact`);
 }
 
-console.log(`Registry checks passed for ${records.length} places and ${urls.length} confirmed coverage URLs.`);
+console.log(`Registry checks passed for ${records.length} places, ${urls.length} confirmed coverage URLs and ${resolvedWikidata} Wikidata identifiers.`);

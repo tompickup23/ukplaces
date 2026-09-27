@@ -1,6 +1,6 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { SITE_URL } from "../../lib/site";
+import { SITE_URL, normalisePageTitle } from "../../lib/site";
 import registry from "../../data/registry/places.json";
 import constituencies from "../../data/registry/constituencies.json";
 
@@ -41,6 +41,15 @@ const description = [
   "Codes and source links on the record.",
 ].filter(Boolean).join(" ");
 const structuredData = [
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": `${canonicalUrl}#webpage`,
+    url: canonicalUrl,
+    name: normalisePageTitle(`${constituency.name} constituency`),
+    ...(constituency.mp?.snapshotDate ? { dateModified: constituency.mp.snapshotDate } : {}),
+    about: { "@id": `${canonicalUrl}#constituency` },
+  },
   {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",

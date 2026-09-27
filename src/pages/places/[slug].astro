@@ -1,41 +1,17 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { SITE_URL } from "../../lib/site";
+import { SITE_URL, normalisePageTitle } from "../../lib/site";
 import { describePlace, placeTitle, type Signal } from "../../lib/place-meta";
-import registry from "../../data/registry/places.json";
 import constituenciesByPlace from "../../data/registry/place-constituencies.json";
-import sources from "../../data/sources.json";
+import { getCoverageRows, getLastModified, placesByGss } from "../../lib/place-records";
+import { regionSlug } from "../../lib/regions";
 
-type Coverage = { hasPage: boolean; slug: string | null; url: string | null };
-type Place = {
-  gss: string;
-  slug: string;
-  name: string;
-  officialName: string;
-  type: string;
-  country: string;
-  region: string;
-  county: string | null;
-  parentGss: string | null;
-  wikidata: string | null;
-  reorganisation: { note: string; sourceUrl: string } | null;
-  coverage: Record<string, Coverage>;
-};
 type Constituency = { pcon24cd: string; name: string; slug: string; url: string };
 
-const placesByGss = registry as Record<string, Place>;
 const constituenciesByGss = constituenciesByPlace as Record<string, Constituency[]>;
-const signalModules = import.meta.glob("../../data/signals/*.json", { eager: true });
-const feedsBySource = Object.fromEntries(
-  Object.entries(signalModules).map(([filePath, module]) => [
-    filePath.split("/").at(-1)?.replace(/\.json$/, ""),
-    (module as { default: Record<string, Signal> }).default,
-  ]),
-) as Record<string, Record<string, Signal>>;
-const blankSignal: Signal = { value: null, unit: null, label: null, period: null, snapshotDate: null, url: null };
 
 export function getStaticPaths() {
-  return Object.values(registry).map((place) => ({
+  return Object.values(placesByGss).map((place) => ({
     params: { slug: place.slug },
     props: { gss: place.gss },
   }));
@@ -44,18 +20,21 @@ export function getStaticPaths() {
 const { gss } = Astro.props;
 const place = placesByGss[gss];
 const constituencies = constituenciesByGss[gss] ?? [];
-const coverageRows = sources
-  .filter((source) => place.coverage[source.id]?.hasPage)
-  .map((source) => ({ source, signal: feedsBySource[source.id]?.[gss] ?? blankSignal }));
-const reviewDates = coverageRows
-  .map(({ signal }) => signal.snapshotDate)
-  .filter((date): date is string => typeof date === "string")
-  .sort();
-const lastReviewed = reviewDates.at(-1) ?? null;
+const coverageRows = getCoverageRows(gss);
+const lastReviewed = getLastModified(gss);
 const canonicalUrl = `${SITE_URL}/places/${place.slug}/`;
 const description = describePlace(place, coverageRows.map(({ signal }) => signal));
 const title = placeTitle(place.name, coverageRows.map(({ source }) => source.id));
 const structuredData = [
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": `${canonicalUrl}#webpage`,
+    url: canonicalUrl,
+    name: normalisePageTitle(title),
+    ...(lastReviewed ? { dateModified: lastReviewed } : {}),
+    about: { "@id": `${canonicalUrl}#place` },
+  },
   {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -76,7 +55,15 @@ const structuredData = [
       propertyID: "GSS code",
       value: place.gss,
     },
-    ...(place.wikidata ? { sameAs: place.wikidata } : {}),
+    containedInPlace: place.region === place.country
+      ? { "@type": "Country", name: place.country }
+      : {
+        "@type": "AdministrativeArea",
+        name: place.region,
+        url: `${SITE_URL}/places/regions/${regionSlug(place.region)}/`,
+        containedInPlace: { "@type": "Country", name: place.country },
+      },
+    ...(place.wikidata ? { sameAs: `https://www.wikidata.org/wiki/${place.wikidata}` } : {}),
   },
 ];
 const formatSignal = (signal: Signal) => signal.unit === "GBP" ? signal.value : `${signal.value} ${signal.unit}`;
