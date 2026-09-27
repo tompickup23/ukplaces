@@ -6,6 +6,7 @@ import constituenciesByPlace from "../../data/registry/place-constituencies.json
 import countyCouncilData from "../../data/registry/county-councils.json";
 import { getCoverageRows, getLastModified, placesByGss } from "../../lib/place-records";
 import { regionSlug } from "../../lib/regions";
+import { buildOg, placeOgPath } from "../../lib/og-flag";
 
 type Constituency = { pcon24cd: string; name: string; slug: string; url: string };
 
@@ -93,7 +94,13 @@ const formatDate = (date: string) => new Intl.DateTimeFormat("en-GB", {
 }).format(new Date(`${date}T00:00:00Z`));
 ---
 
-<BaseLayout title={title} description={description} structuredData={structuredData}>
+<BaseLayout
+  title={title}
+  description={description}
+  structuredData={structuredData}
+  image={buildOg ? placeOgPath(place.slug) : undefined}
+  imageAlt={buildOg ? `${place.name}: ${place.type.toLowerCase()}, with one dated figure from each source on the UK Places record.` : undefined}
+>
   <main class="shell place-page" id="main-content">
     <nav class="breadcrumbs" aria-label="Breadcrumb">
       <a href="/">UK Places</a>
