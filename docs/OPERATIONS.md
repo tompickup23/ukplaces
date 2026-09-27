@@ -31,13 +31,37 @@ npm run test:registry
 npm run test:signals
 npm run test:constituencies
 npm run test:source-onboarding
+npm run test:house-style
 npm run lint
-npm run build
+BUILD_OG=1 npm run build
 npm run check:text-size
 npm run check:contrast
 npm run check:sitemap
+npm run check:metadata
 npm run check:parity
 npm run audit:prod
 ```
 
 Review the generated JSON diff before committing. The refresh routine must not push, deploy, alter DNS, or modify a source repository.
+
+## Build checks added in Round 2 (27 September 2026)
+
+- `npm run test:house-style` fails on any em or en dash, literal or entity, under `src/` and `scripts/`.
+- `npm run check:metadata` reads every indexable page in `dist/` and fails on a repeated title or description, a description outside 70 to 300 characters, a dash character in either, or an `og:image` that is not in `dist/`. Run it after the build.
+- `npm run check:sitemap` also asserts every `lastmod` against its source date.
+- `npm run check:contrast` also fails when text set in a source accent has no dark-mode ink override.
+
+All four run in `site-checks.yml` and `deploy.yml`.
+
+## Share cards
+
+`BUILD_OG=1 npm run build` renders 361 place and 650 constituency cards under `dist/og/`; both workflows set it in an `env:` block, which is why their timeout is 30 minutes. A build without it renders no cards and every page falls back to `/og.png`, so iteration builds stay fast. After editing `src/lib/og.ts` or an endpoint under `src/pages/og/`, delete `.astro/` and `node_modules/.vite/` before rebuilding, or Astro serves the cached endpoint.
+
+## Wikidata identifiers
+
+`src/data/registry/wikidata-by-gss.json` is committed output of `node scripts/build-wikidata-lookup.mjs`, which queries Wikidata SPARQL on P836 (GSS code) and keeps only codes carried by exactly one item. Rerun it by hand after a GSS recode, review the diff, update the pinned count in `scripts/test-registry.mjs`, then run `npm run build:registry`. The registry build never calls Wikidata itself.
+
+## Published registry
+
+`npm run build:registry` writes `src/data/registry/places.json` and the copy sister sites read at `public/data/registry/places.json`; `npm run test:registry` fails if the two differ. It also writes `src/data/registry/county-councils.json` from the AI DOGE crosswalk.
+
