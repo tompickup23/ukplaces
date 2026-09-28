@@ -26,9 +26,13 @@ export function readFeed(directory) {
  const bytes=fs.readFileSync(path.join(directory,manifest.file));
  return {manifest,bytes,feed:validateFeed(manifest,bytes)};
 }
-export function selectCalendar(feed, place) {
+export function selectCalendar(feed, place, predecessors = {}) {
  // A district uses its explicit education parent, never a name or proximity join.
- const row=feed.authorities[place.parentGss || place.gss];
+ const code=place.parentGss || place.gss;
+ // Where the feed has no row under the current code, a row under the authority's ONS
+ // same-name predecessor code (src/data/registry/gss-predecessors.json) is the same
+ // authority: Barnsley E08000016 is now E08000038.
+ const row=[code,...(predecessors[code]??[]).map((entry)=>entry.gss)].map((candidate)=>feed.authorities[candidate]).find(Boolean);
  if(!row || row.scope !== 'authority') return null;
  const year=row.years[feed.currentYear];
  if(!year) return null;
@@ -65,8 +69,8 @@ export function readCardDates(directory, feed) {
  return dates;
 }
 // The card for a place and the date its content last changed, or null.
-export function calendarCardFor(feed, dates, place) {
- const selection = selectCalendar(feed, place);
+export function calendarCardFor(feed, dates, place, predecessors = {}) {
+ const selection = selectCalendar(feed, place, predecessors);
  if (!selection) return null;
  return { content: cardContent(selection), contentDate: dates[selection.authority.gss].since };
 }

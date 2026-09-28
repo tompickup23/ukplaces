@@ -35,6 +35,7 @@ const calendarDirectory = path.join(siteRoot, "data", "school-holidays");
 const { feed: calendarFeed } = readFeed(calendarDirectory);
 const calendarDates = readCardDates(calendarDirectory, calendarFeed);
 const localLinks = readData("local-links.json");
+const { predecessors } = readData("registry", "gss-predecessors.json");
 const feeds = Object.fromEntries(sources.map((source) => [source.id, readData("signals", `${source.id}.json`)]));
 const latest = (dates) => dates.filter(Boolean).sort().at(-1) ?? null;
 const signalsDate = (place) => latest(sources.filter((source) => place.coverage[source.id]?.hasPage).map((source) => feeds[source.id][place.gss]?.snapshotDate));
@@ -44,7 +45,7 @@ const expectedLastmod = new Map([
     .map((pathname) => [pathname, latest(readData("changelog.json").map((entry) => entry.date))]),
   ...places.map((place) => [
     `/places/${place.slug}/`,
-    latest([signalsDate(place), calendarCardFor(calendarFeed, calendarDates, place)?.contentDate, localLinks.places[place.gss]?.since]),
+    latest([signalsDate(place), calendarCardFor(calendarFeed, calendarDates, place, predecessors)?.contentDate, localLinks.places[place.gss]?.since]),
   ]),
   ...constituencies.map((constituency) => [`/constituencies/${constituency.slug}/`, constituency.mp?.snapshotDate ?? null]),
   // A region page shows no school holiday card, so only its places' signal dates count.

@@ -46,12 +46,21 @@ assert.equal(describeNoBreak('2026/27'),'No further break is listed here for 202
 assert.equal(londonToday(new Date('2026-06-30T23:30:00Z')),'2026-07-01','today is the UK date in summer time');
 assert.equal(londonToday(new Date('2026-12-31T23:30:00Z')),'2026-12-31','and in winter');
 
-// Every calendar the snapshot can show reaches a place, except the two the publisher
-// still keys under pre-2024 codes (Barnsley E08000016, Sheffield E08000019; UK Places
-// uses E08000038 and E08000039). Fix those in the export, then empty this list.
+// Every calendar the snapshot can show reaches a place. The publisher still keys
+// Barnsley and Sheffield under their pre-2025 codes (E08000016, E08000019); the ONS
+// same-name predecessor table joins them to E08000038 and E08000039, and nothing else.
 const registry=Object.values(JSON.parse(fs.readFileSync('src/data/registry/places.json','utf8')));
-const reached=new Set(registry.map((place)=>selectCalendar(feed,place)?.authority.gss).filter(Boolean));
-assert.deepEqual(selectableAuthorities(feed).map((selection)=>selection.authority.gss).filter((gss)=>!reached.has(gss)).sort(),['E08000016','E08000019'],'no other calendar misses its place');
+const {predecessors}=JSON.parse(fs.readFileSync('src/data/registry/gss-predecessors.json','utf8'));
+const reached=new Set(registry.map((place)=>selectCalendar(feed,place,predecessors)?.authority.gss).filter(Boolean));
+assert.deepEqual(selectableAuthorities(feed).map((selection)=>selection.authority.gss).filter((gss)=>!reached.has(gss)),[],'every calendar reaches its place');
+assert.equal(selectCalendar(feed,{gss:'E08000038',parentGss:null},predecessors).authority.name,'Barnsley','Barnsley reads its calendar through the ONS predecessor code');
+assert.equal(selectCalendar(feed,{gss:'E08000038',parentGss:null}),null,'and only through it');
+assert.equal(selectCalendar(feed,{gss:'E07000117',parentGss:'E10000017'},predecessors).authority.gss,'E10000017','a current code is used first');
+
+// Nothing refreshes the snapshot on a schedule, so a calendar for a finished academic
+// year fails the build rather than stay on the place pages. 2026/27 ends on 31 August 2027.
+const yearEnd=`${Number(feed.currentYear.slice(0,4))+1}-08-31`;
+assert.ok(londonToday()<=yearEnd,`the ${feed.currentYear} calendar ended on ${yearEnd}; import the next UK School Holiday Dates snapshot`);
 
 // The importer never moves a card date backwards.
 const temp=fs.mkdtempSync(path.join(os.tmpdir(),'ukplaces-calendar-'));

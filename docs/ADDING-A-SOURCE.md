@@ -40,12 +40,12 @@ Use `null` for every field where the source data does not confirm a current sign
 
 ## Not a source: the school holiday card (UK School Holiday Dates)
 
-The school holiday card on place pages is a reference module, not a sixth source, and it stays out of `src/data/sources.json`. That manifest drives the footer's sister-site list, the home source cards, the sources page, the "all five sources" count in each introduction, the title rule, the description and the share card, and each of those assumes one six-field figure per GSS code from a sister site. The calendar is different in kind: a set of dated breaks, the education authority's published calendar that UK School Holiday Dates records, joined to a district through its county council (`parentGss`), and present on 337 of 361 places.
+The school holiday card on place pages is a reference module, not a sixth source, and it stays out of `src/data/sources.json`. That manifest drives the footer's sister-site list, the home source cards, the sources page, the "all five sources" count in each introduction, the title rule, the description and the share card, and each of those assumes one six-field figure per GSS code from a sister site. The calendar is different in kind: a set of dated breaks, the education authority's published calendar that UK School Holiday Dates records, joined to a district through its county council (`parentGss`), and present on 339 of 361 places.
 
 Its contract lives beside the data instead:
 
 - `data/school-holidays/manifest.json` names one snapshot, `calendar-<sha256>.json`, with its byte count; `scripts/calendar-contract.mjs` refuses a snapshot whose hash, size, schema, destination origin, evidence hashes, break dates or publication holds do not check out.
-- A place shows a card only where its own GSS code, or its county council's, has a calendar for the snapshot's current academic year. Nothing is joined by name or proximity. Northern Ireland, held calendars and authorities with no single calendar show none.
+- A place shows a card only where its own GSS code, or its county council's, has a calendar for the snapshot's current academic year. Where the feed still uses an authority's old code, its ONS same-name predecessor (`src/data/registry/gss-predecessors.json`) joins it, as for Barnsley and Sheffield. Nothing is joined by name or proximity. Northern Ireland, held calendars and authorities with no single calendar show none.
 - `scripts/calendar-display.mjs` defines what the card shows (`cardContent`). `data/school-holidays/card-dates.json` records, per education authority, a hash of that content and the date it last changed; the sitemap `lastmod` and the page's "Last reviewed" date use that date, never the snapshot date. The build fails if the file does not match the snapshot.
 - The next break is picked in the reader's browser, so the built page does not go stale between deploys.
 
