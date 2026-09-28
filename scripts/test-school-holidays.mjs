@@ -1,6 +1,10 @@
 import assert from 'node:assert/strict';
-import {readFeed,selectCalendar,validateFeed,sha256,buildCardDates,readCardDates,calendarCardFor} from './calendar-contract.mjs';
-import {formatBreakRange,formatLongDate,nextBreak,describeBreak} from './calendar-display.mjs';
+import {readFeed,selectCalendar,validateFeed,sha256,buildCardDates,readCardDates,calendarCardFor,selectableAuthorities} from './calendar-contract.mjs';
+import {formatBreakRange,formatLongDate,nextBreak,describeBreak,describeNoBreak,londonToday} from './calendar-display.mjs';
+import {execFileSync} from 'node:child_process';
+import fs from 'node:fs';
+import os from 'node:os';
+import path from 'node:path';
 const {feed,manifest,bytes}=readFeed('data/school-holidays');
 const burnley=selectCalendar(feed,{gss:'E07000117',parentGss:'E10000017'});
 assert.equal(burnley.authority.gss,'E10000017');
@@ -38,4 +42,27 @@ assert.equal(describeBreak(nextBreak(breaks,'2026-09-28'),'2026-09-28'),'Next re
 assert.equal(describeBreak(nextBreak(breaks,'2026-10-30'),'2026-10-30'),'Current break: October half term, 26 to 30 October 2026.');
 assert.equal(nextBreak(breaks,'2026-10-31').label,'Christmas holidays');
 assert.equal(nextBreak(breaks,'2027-06-05'),null);
-console.log('Card date, date format and next-break tests passed');
+assert.equal(describeNoBreak('2026/27'),'No further break is listed here for 2026/27. The full calendar below has the latest published dates.');
+assert.equal(londonToday(new Date('2026-06-30T23:30:00Z')),'2026-07-01','today is the UK date in summer time');
+assert.equal(londonToday(new Date('2026-12-31T23:30:00Z')),'2026-12-31','and in winter');
+
+// Every calendar the snapshot can show reaches a place, except the two the publisher
+// still keys under pre-2024 codes (Barnsley E08000016, Sheffield E08000019; UK Places
+// uses E08000038 and E08000039). Fix those in the export, then empty this list.
+const registry=Object.values(JSON.parse(fs.readFileSync('src/data/registry/places.json','utf8')));
+const reached=new Set(registry.map((place)=>selectCalendar(feed,place)?.authority.gss).filter(Boolean));
+assert.deepEqual(selectableAuthorities(feed).map((selection)=>selection.authority.gss).filter((gss)=>!reached.has(gss)).sort(),['E08000016','E08000019'],'no other calendar misses its place');
+
+// The importer never moves a card date backwards.
+const temp=fs.mkdtempSync(path.join(os.tmpdir(),'ukplaces-calendar-'));
+fs.mkdirSync(path.join(temp,'data/school-holidays'),{recursive:true});
+const stale=structuredClone(dates);stale.E10000017={...stale.E10000017,sha256:'0'.repeat(64),since:'2099-01-01'};
+fs.writeFileSync(path.join(temp,'data/school-holidays/card-dates.json'),JSON.stringify(stale));
+const importer=path.resolve('scripts/import-school-holidays.mjs'),exportDir=path.resolve('data/school-holidays');
+assert.throws(()=>execFileSync('node',[importer,exportDir],{cwd:temp,stdio:'pipe'}),'a snapshot dated before the latest card date is refused');
+execFileSync('node',[importer,exportDir,'--date','2099-02-01'],{cwd:temp,stdio:'pipe'});
+const imported=JSON.parse(fs.readFileSync(path.join(temp,'data/school-holidays/card-dates.json'),'utf8'));
+assert.equal(imported.E10000017.since,'2099-02-01','a changed card takes the --date');
+assert.equal(imported.E06000001.since,dates.E06000001.since,'an unchanged card keeps its date');
+fs.rmSync(temp,{recursive:true,force:true});
+console.log('Card date, date format, next-break, coverage and importer tests passed');

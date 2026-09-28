@@ -18,11 +18,11 @@ const card = calendarFor(place)?.content;
 )}
 
 <script>
-  import { describeBreak, londonToday, nextBreak } from "../../scripts/calendar-display.mjs";
+  import { describeBreak, describeNoBreak, londonToday, nextBreak } from "../../scripts/calendar-display.mjs";
   const today = londonToday();
   for (const element of document.querySelectorAll<HTMLElement>("[data-school-breaks]")) {
     const item = nextBreak(JSON.parse(element.dataset.schoolBreaks ?? "[]"), today);
-    element.textContent = item ? describeBreak(item, today) : `No further break is recorded in the ${element.dataset.academicYear} calendar.`;
+    element.textContent = item ? describeBreak(item, today) : describeNoBreak(element.dataset.academicYear ?? "");
     element.hidden = false;
   }
 </script>

@@ -16,8 +16,11 @@ export function cardContent(selection) {
 }
 
 // Today's date in the UK as YYYY-MM-DD, read in the browser, never at build time.
+// Built from the parts rather than a locale pattern, which browsers have changed.
 export function londonToday(now = new Date()) {
-  return new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/London", year: "numeric", month: "2-digit", day: "2-digit" }).format(now);
+  const parts = Object.fromEntries(new Intl.DateTimeFormat("en-GB", { timeZone: "Europe/London", year: "numeric", month: "2-digit", day: "2-digit" })
+    .formatToParts(now).map(({ type, value }) => [type, value]));
+  return `${parts.year}-${parts.month}-${parts.day}`;
 }
 
 // The break under way today, else the next one to start, else null.
@@ -45,4 +48,10 @@ export function formatBreakRange({ start, end }) {
 export function describeBreak(item, today) {
   const lead = item.start <= today ? "Current break" : "Next recorded break";
   return `${lead}: ${item.label}, ${formatBreakRange(item)}.`;
+}
+
+// Most calendars stop before the summer holidays, so after the last recorded break
+// the card points to the full calendar rather than implying there is no holiday.
+export function describeNoBreak(academicYear) {
+  return `No further break is listed here for ${academicYear}. The full calendar below has the latest published dates.`;
 }

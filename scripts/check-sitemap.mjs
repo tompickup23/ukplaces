@@ -36,14 +36,21 @@ const { feed: calendarFeed } = readFeed(calendarDirectory);
 const calendarDates = readCardDates(calendarDirectory, calendarFeed);
 const feeds = Object.fromEntries(sources.map((source) => [source.id, readData("signals", `${source.id}.json`)]));
 const latest = (dates) => dates.filter(Boolean).sort().at(-1) ?? null;
+const signalsDate = (place) => latest(sources.filter((source) => place.coverage[source.id]?.hasPage).map((source) => feeds[source.id][place.gss]?.snapshotDate));
+const regionSlug = (region) => region.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
 const expectedLastmod = new Map([
   ...["/", "/places/", "/constituencies/", "/methodology/", "/sources/", "/updates/", "/privacy/"]
     .map((pathname) => [pathname, latest(readData("changelog.json").map((entry) => entry.date))]),
   ...places.map((place) => [
     `/places/${place.slug}/`,
-    latest([...sources.filter((source) => place.coverage[source.id]?.hasPage).map((source) => feeds[source.id][place.gss]?.snapshotDate), calendarCardFor(calendarFeed, calendarDates, place)?.contentDate]),
+    latest([signalsDate(place), calendarCardFor(calendarFeed, calendarDates, place)?.contentDate]),
   ]),
   ...constituencies.map((constituency) => [`/constituencies/${constituency.slug}/`, constituency.mp?.snapshotDate ?? null]),
+  // A region page shows no school holiday card, so only its places' signal dates count.
+  ...[...new Set(places.map((place) => place.region))].map((region) => [
+    `/places/regions/${regionSlug(region)}/`,
+    latest(places.filter((place) => place.region === region).map(signalsDate)),
+  ]),
 ]);
 const today = new Date().toISOString().slice(0, 10);
 let datedCount = 0;
@@ -55,7 +62,7 @@ for (const { url, lastmod } of entries) {
     assert.ok(lastmod <= today, `${pathname} lastmod is not in the future`);
   }
   if (expectedLastmod.has(pathname)) assert.equal(lastmod, expectedLastmod.get(pathname), `${pathname} lastmod matches its source date`);
-  else assert.ok(pathname.startsWith("/places/regions/") && lastmod !== null, `${pathname} region lastmod is present`);
+  else assert.fail(`${pathname} has no expected lastmod`);
 }
 assert.ok(places.every((place) => expectedLastmod.get(`/places/${place.slug}/`) !== null), "every place has a lastmod");
 
