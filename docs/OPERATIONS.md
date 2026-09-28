@@ -85,7 +85,17 @@ The importer refuses a snapshot that fails its integrity checks, copies it into 
 
 The Cloudflare Web Analytics beacon is built in but off until a token exists. To switch it on, create a Web Analytics site for `ukplaces.co.uk` in the Cloudflare dashboard (manual install, not automatic), copy its token from the JavaScript snippet, and set it as the repository variable `CF_BEACON_TOKEN` (Settings, Secrets and variables, Actions, Variables). Both workflows pass it to the build as `PUBLIC_CF_BEACON_TOKEN`. `npm run check:analytics` then requires exactly one beacon with that token on every page and the Cloudflare sentence on `/privacy/`; with no variable it requires no beacon anywhere. The token is public, so a variable rather than a secret. The Cloudflare API token on vps-main can list Web Analytics sites but not create them.
 
-
 ## IndexNow
 
 Every deploy tells IndexNow search engines (Bing and the others that share submissions through `https://api.indexnow.org/indexnow`) which pages changed, and only those. In the build job, before the deploy, `node scripts/indexnow.mjs plan` compares `dist/sitemap.xml` with the live sitemap: a URL is submitted when it is new, when its `lastmod` differs, or when it has gone. Undated URLs already live are left out. After the deploy the `indexnow` job checks that the key file is live, then posts the list. If the live sitemap cannot be read, nothing is submitted and the build shows a warning; it never falls back to submitting everything. The key is public by design: the one `public/<32 hex>.txt` file (now `public/86b4d2de7b2c388aee6abf1824309a17.txt`), which contains its own name. To rotate it, replace that file; `npm run test:indexnow` checks there is exactly one. Google does not take part in IndexNow; the sitemap `lastmod` serves it.
+
+## Council service links
+
+The "Council services" section on a place page links the council's own pages for paying council tax and finding the rubbish collection day, from GOV.UK Local Links Manager's daily export (Open Government Licence v3.0; LGSL 57 and 524, interaction 8, the codes GOV.UK's own pages use). Rebuild it by hand and review the diff before committing:
+
+```sh
+npm run build:local-links
+npm run test:local-links
+```
+
+The build downloads the export, joins it on GSS code (falling back to an authority's ONS same-name predecessor code, from `src/data/registry/gss-predecessors.json`, where the export still uses the old one), then requests every link itself and publishes only those that return HTTP 200 without landing on a home page; a failure is retried once. Each place records why a link is missing. A place's date moves only when its links change. Northern Ireland has domestic rates, so it gets no council tax link. North Yorkshire and Somerset have no links in the export and no same-name predecessor, so they show none. A few council sites answer intermittently, so the published count varies by one to three links between runs. `gss-predecessors.json` comes from `node scripts/build-gss-predecessors.mjs <Changes.csv> "<edition>"` with the unzipped ONS Code History Database; rerun it after a GSS recode.

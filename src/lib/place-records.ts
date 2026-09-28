@@ -2,6 +2,7 @@ import { calendarFor } from "./school-holidays";
 import registry from "../data/registry/places.json";
 import sources from "../data/sources.json";
 import changelog from "../data/changelog.json";
+import localLinks from "../data/local-links.json";
 import type { Signal } from "./place-meta";
 
 type Coverage = { hasPage: boolean; slug: string | null; url: string | null };
@@ -52,9 +53,11 @@ export function getSignalsLastModified(gss: string): string | null {
   return latestDate(getCoverageRows(gss).map(({ signal }) => signal.snapshotDate));
 }
 
-// The place page also shows its school holiday card, so it moves when the card does.
+// The place page also shows its school holiday card and council service links, so it
+// moves when either does.
 export function getLastModified(gss: string): string | null {
-  return latestDate([getSignalsLastModified(gss), calendarFor(placesByGss[gss])?.contentDate]);
+  const links = (localLinks.places as Record<string, { since: string | null }>)[gss];
+  return latestDate([getSignalsLastModified(gss), calendarFor(placesByGss[gss])?.contentDate, links?.since]);
 }
 
 export function getLatestChangelogDate(): string | null {

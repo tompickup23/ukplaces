@@ -1,0 +1,22 @@
+---
+import localLinks from "../data/local-links.json";
+import { formatLongDate } from "../../scripts/calendar-display.mjs";
+
+type Record = { links: { [service: string]: string }; since: string | null };
+const { place } = Astro.props;
+const record = (localLinks.places as { [gss: string]: Record })[place.gss];
+// GOV.UK's own titles for each service, in its order, only where a checked link exists.
+const links = localLinks.services
+  .filter((service) => record?.links[service.id])
+  .map((service) => ({ title: service.title, url: record.links[service.id], host: new URL(record.links[service.id]).hostname.replace(/^www\./, "") }));
+---
+{links.length > 0 && (
+  <section class="place-section" aria-labelledby="council-services-heading">
+    <p class="eyebrow">Council services</p>
+    <h2 id="council-services-heading">Council services for {place.displayName}</h2>
+    <ul class="directory-list place-siblings">
+      {links.map((link) => <li><a href={link.url}>{link.title}<span>{link.host}</span></a></li>)}
+    </ul>
+    <p class="place-sources__intro">Links from GOV.UK Local Links Manager (export of {formatLongDate(localLinks.source.exportDate)}), each checked by UK Places on {formatLongDate(localLinks.checkedOn)}. Contains public sector information licensed under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence v3.0</a>.</p>
+  </section>
+)}

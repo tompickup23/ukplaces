@@ -1,4 +1,5 @@
 ---
+import CouncilServices from "../../components/CouncilServices.astro";
 import SchoolHolidays from "../../components/SchoolHolidays.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { SITE_URL, normalisePageTitle } from "../../lib/site";
@@ -182,6 +183,7 @@ const formatDate = (date: string) => new Intl.DateTimeFormat("en-GB", {
     </section>
 
     <SchoolHolidays place={place} />
+    <CouncilServices place={place} />
     <section class="place-section place-sources" aria-labelledby="sources-heading">
       <p class="eyebrow">Sources and dates</p>
       <h2 id="sources-heading">Each source keeps its own update cycle</h2>

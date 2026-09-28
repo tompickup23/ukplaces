@@ -51,6 +51,8 @@ Its contract lives beside the data instead:
 
 To refresh it, see `docs/OPERATIONS.md`. A future reference module should follow the same pattern: its own verified snapshot and content-date file, no entry in the source manifest.
 
+The council service links (GOV.UK Local Links Manager) are a second reference module on the same pattern: `src/data/local-links.json`, dated per place when its links change, outside the source manifest and the footer.
+
 ## 4. Verify the integration
 
 Run the registry and signal checks, the source-onboarding regression test, and a production build:
