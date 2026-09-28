@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { displayNameFor, searchNamesFor } from "./place-names.mjs";
 
 const siteRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const registryDir = path.join(siteRoot, "src", "data", "registry");
@@ -200,6 +201,8 @@ for (const area of [...asylumAreas].sort((left, right) => left.areaCode.localeCo
     gss,
     slug,
     name: area.areaName,
+    displayName: displayNameFor(area.areaName),
+    searchNames: searchNamesFor(area.areaName),
     officialName: aidogeMatch?.summary.name ?? exactCrosswalk?.name ?? area.areaName,
     type,
     country: area.countryName,

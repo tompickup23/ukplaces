@@ -4,6 +4,7 @@ type Place = {
   gss: string;
   slug: string;
   name: string;
+  displayName: string;
   type: string;
   country: string;
   region: string;

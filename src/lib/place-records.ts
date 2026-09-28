@@ -1,3 +1,4 @@
+import { calendarFor } from "./school-holidays";
 import registry from "../data/registry/places.json";
 import sources from "../data/sources.json";
 import changelog from "../data/changelog.json";
@@ -9,6 +10,8 @@ export type Place = {
   gss: string;
   slug: string;
   name: string;
+  displayName: string;
+  searchNames: string[];
   officialName: string;
   type: string;
   country: string;
@@ -39,13 +42,19 @@ export function getCoverageRows(gss: string): { source: Source; signal: Signal }
     .map((source) => ({ source, signal: feedsBySource[source.id]?.[gss] ?? blankSignal }));
 }
 
+const latestDate = (dates: (string | null | undefined)[]) => dates
+  .filter((date): date is string => typeof date === "string")
+  .sort()
+  .at(-1) ?? null;
+
 // The latest snapshot date across a place's signals, or null when none carries one.
+export function getSignalsLastModified(gss: string): string | null {
+  return latestDate(getCoverageRows(gss).map(({ signal }) => signal.snapshotDate));
+}
+
+// The place page also shows its school holiday card, so it moves when the card does.
 export function getLastModified(gss: string): string | null {
-  return getCoverageRows(gss)
-    .map(({ signal }) => signal.snapshotDate)
-    .filter((date): date is string => typeof date === "string")
-    .sort()
-    .at(-1) ?? null;
+  return latestDate([getSignalsLastModified(gss), calendarFor(placesByGss[gss])?.contentDate]);
 }
 
 export function getLatestChangelogDate(): string | null {

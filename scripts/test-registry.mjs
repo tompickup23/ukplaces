@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { displayNameFor, matchesQuery, normaliseSearchText, searchKey, searchNamesFor } from "./place-names.mjs";
 
 const siteRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const registryPath = path.join(siteRoot, "src", "data", "registry", "places.json");
@@ -64,6 +65,33 @@ assert.ok(burnley, "Burnley must be present");
 for (const source of sourceIds) {
   assert.equal(burnley.coverage[source].hasPage, true, `Burnley has ${source} coverage`);
   assert.equal(burnley.coverage[source].url, expectedBurnleyUrls[source], `Burnley ${source} URL is exact`);
+}
+
+
+// Display and search names come only from the ONS name; GSS keys and slugs do not move.
+const inverted = {
+  E06000010: ["City of Kingston upon Hull", "kingston-upon-hull-city-of"],
+  E06000019: ["County of Herefordshire", "herefordshire-county-of"],
+  E06000023: ["City of Bristol", "bristol-city-of"],
+};
+for (const [gss, place] of records) {
+  assert.equal(place.displayName, displayNameFor(place.name), `${gss} display name follows the ONS rule`);
+  assert.deepEqual(place.searchNames, searchNamesFor(place.name), `${gss} search names follow the ONS rule`);
+  if (!inverted[gss]) assert.equal(place.displayName, place.name, `${gss} display name is the ONS name`);
+}
+for (const [gss, [displayName, slug]] of Object.entries(inverted)) {
+  assert.equal(registry[gss].displayName, displayName, `${gss} display name`);
+  assert.equal(registry[gss].slug, slug, `${gss} slug is unchanged`);
+}
+assert.equal(records.filter(([, place]) => place.displayName !== place.name).length, 3, "only the three inverted ONS names change");
+const findPlaces = (query) => records.filter(([, place]) => matchesQuery(searchKey(place.searchNames), query)).map(([gss]) => gss);
+assert.deepEqual(findPlaces("Hull"), ["E06000010"], "Hull finds Kingston upon Hull and not Solihull");
+assert.ok(findPlaces("Solihull").includes("E08000029"), "Solihull still finds Solihull");
+assert.deepEqual(findPlaces("Bristol"), ["E06000023"], "Bristol finds the City of Bristol");
+assert.deepEqual(findPlaces("kings lynn"), ["E07000146"], "an apostrophe is optional");
+assert.deepEqual(findPlaces("stockton-on-tees"), findPlaces("stockton on tees"), "hyphens match spaces");
+for (const page of ["src/pages/index.astro", "src/pages/places/index.astro"]) {
+  assert.ok(fs.readFileSync(path.join(siteRoot, page), "utf8").includes(`const normaliseSearchText = ${normaliseSearchText.toString()};`), `${page} carries an exact copy of normaliseSearchText`);
 }
 
 console.log(`Registry checks passed for ${records.length} places, ${urls.length} confirmed coverage URLs and ${resolvedWikidata} Wikidata identifiers.`);
