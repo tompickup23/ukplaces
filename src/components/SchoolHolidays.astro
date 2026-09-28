@@ -1,0 +1,28 @@
+---
+import { calendarFor } from "../lib/school-holidays";
+import { formatLongDate } from "../../scripts/calendar-display.mjs";
+const { place } = Astro.props;
+const card = calendarFor(place)?.content;
+// The page is built only on a push to main, so the next break is picked in the
+// browser from the recorded breaks; the built HTML does not depend on the build date.
+---
+{card && (
+  <section class="place-section" id="school-holidays" aria-labelledby="school-holidays-heading">
+    <p class="eyebrow">School holidays</p>
+    <h2 id="school-holidays-heading">School holidays in {place.name}</h2>
+    <p class="place-source__signal" data-school-breaks={JSON.stringify(card.breaks)} data-academic-year={card.academicYear} hidden></p>
+    <p class="place-sources__intro">Dates come from the {card.academicYear} education-authority calendar for {card.authorityName}. Individual schools, local clusters and INSET days can differ, so confirm with the school before booking.</p>
+    <p class="place-sources__intro">Source: <a href={card.sourceUrl}>{card.authorityName}'s official calendar</a>{card.retrievedAt && `, captured ${formatLongDate(card.retrievedAt)}`}.</p>
+    <p><a class="place-source__link" href={card.authorityUrl}>Full {card.academicYear} calendar, source notes and downloads on UK School Holiday Dates</a></p>
+  </section>
+)}
+
+<script>
+  import { describeBreak, londonToday, nextBreak } from "../../scripts/calendar-display.mjs";
+  const today = londonToday();
+  for (const element of document.querySelectorAll<HTMLElement>("[data-school-breaks]")) {
+    const item = nextBreak(JSON.parse(element.dataset.schoolBreaks ?? "[]"), today);
+    element.textContent = item ? describeBreak(item, today) : `No further break is recorded in the ${element.dataset.academicYear} calendar.`;
+    element.hidden = false;
+  }
+</script>

@@ -1,3 +1,4 @@
+import { calendarFor } from "./school-holidays";
 import registry from "../data/registry/places.json";
 import sources from "../data/sources.json";
 import changelog from "../data/changelog.json";
@@ -39,10 +40,10 @@ export function getCoverageRows(gss: string): { source: Source; signal: Signal }
     .map((source) => ({ source, signal: feedsBySource[source.id]?.[gss] ?? blankSignal }));
 }
 
-// The latest snapshot date across a place's signals, or null when none carries one.
+// The latest date across a place's signal snapshots and the date its school holiday
+// card last changed, or null when none carries one.
 export function getLastModified(gss: string): string | null {
-  return getCoverageRows(gss)
-    .map(({ signal }) => signal.snapshotDate)
+  return [...getCoverageRows(gss).map(({ signal }) => signal.snapshotDate), calendarFor(placesByGss[gss])?.contentDate]
     .filter((date): date is string => typeof date === "string")
     .sort()
     .at(-1) ?? null;

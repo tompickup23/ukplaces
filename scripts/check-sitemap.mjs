@@ -1,3 +1,4 @@
+import { calendarCardFor, readCardDates, readFeed } from "./calendar-contract.mjs";
 import assert from "node:assert/strict";
 import fs from "node:fs";
 import path from "node:path";
@@ -25,10 +26,14 @@ for (const url of urls) {
   assert.ok(fs.existsSync(filePath), `${pathname} is present in dist`);
 }
 
-// lastmod: places from the latest signal snapshotDate on the record, constituencies
+// lastmod: places from the latest signal snapshotDate on the record and the date
+// their school holiday card last changed (never the calendar snapshot date), constituencies
 // from the MP record snapshot, static pages from the latest changelog date.
 const readData = (...parts) => JSON.parse(fs.readFileSync(path.join(siteRoot, "src", "data", ...parts), "utf8"));
 const sources = readData("sources.json");
+const calendarDirectory = path.join(siteRoot, "data", "school-holidays");
+const { feed: calendarFeed } = readFeed(calendarDirectory);
+const calendarDates = readCardDates(calendarDirectory, calendarFeed);
 const feeds = Object.fromEntries(sources.map((source) => [source.id, readData("signals", `${source.id}.json`)]));
 const latest = (dates) => dates.filter(Boolean).sort().at(-1) ?? null;
 const expectedLastmod = new Map([
@@ -36,7 +41,7 @@ const expectedLastmod = new Map([
     .map((pathname) => [pathname, latest(readData("changelog.json").map((entry) => entry.date))]),
   ...places.map((place) => [
     `/places/${place.slug}/`,
-    latest(sources.filter((source) => place.coverage[source.id]?.hasPage).map((source) => feeds[source.id][place.gss]?.snapshotDate)),
+    latest([...sources.filter((source) => place.coverage[source.id]?.hasPage).map((source) => feeds[source.id][place.gss]?.snapshotDate), calendarCardFor(calendarFeed, calendarDates, place)?.contentDate]),
   ]),
   ...constituencies.map((constituency) => [`/constituencies/${constituency.slug}/`, constituency.mp?.snapshotDate ?? null]),
 ]);

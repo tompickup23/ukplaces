@@ -32,6 +32,7 @@ npm run test:signals
 npm run test:constituencies
 npm run test:source-onboarding
 npm run test:house-style
+npm run test:school-holidays
 npm run lint
 BUILD_OG=1 npm run build
 npm run check:text-size
@@ -68,6 +69,17 @@ All four run in `site-checks.yml` and `deploy.yml`.
 ## Constituency geography
 
 `npm run build:constituencies` fills the PCON code UK Elections leaves null (77 seats in Scotland and Northern Ireland) by an exact, unique match on the official ONS name in `ukelections/data/geography/pcon24-simplified.geojson`; it stops if that match disagrees with any code UK Elections does carry. Each seat's current local authorities (`ladCodes`) come from `ukelections/data/ons-pcon24-lad25-postcode-crosswalk.json` (ONS Postcode Directory), counting a pair only where at least 10 live postcodes fall in both. `lad24cds` keeps the UK Elections list unchanged. Run `build:place-constituencies` after it, because place membership is built from the constituency registry.
+
+## School holiday calendar
+
+The school holiday card reads a verified snapshot exported by UK School Holiday Dates. To refresh it, point the importer at the directory holding the exported `manifest.json` and `calendar-<sha256>.json`:
+
+```sh
+node scripts/import-school-holidays.mjs <export directory>
+npm run test:school-holidays
+```
+
+The importer refuses a snapshot that fails its integrity checks, copies it into `data/school-holidays/`, and updates `card-dates.json`: an education authority's date moves to the new snapshot date only where its card would read differently, so an unchanged calendar leaves every sitemap `lastmod` where it was. It prints how many dates moved. It does not delete the superseded `calendar-<sha256>.json`; remove that by hand in the same commit. The card chooses the next break in the reader's browser, so no rebuild is needed when a holiday passes.
 
 ## Analytics
 

@@ -1,0 +1,15 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {readFeed,buildCardDates,CARD_DATES_FILE} from './calendar-contract.mjs';
+const source=process.argv[2];
+if(!source)throw Error('Pass the directory containing the verified manifest and snapshot');
+const {manifest,bytes,feed}=readFeed(source);
+const dest=path.join(process.cwd(),'data/school-holidays');fs.mkdirSync(dest,{recursive:true});
+const datesPath=path.join(dest,CARD_DATES_FILE);
+const previous=fs.existsSync(datesPath)?JSON.parse(fs.readFileSync(datesPath,'utf8')):{};
+const dates=buildCardDates(feed,previous,manifest.snapshotDate);
+fs.writeFileSync(path.join(dest,manifest.file),bytes);
+fs.writeFileSync(path.join(dest,'manifest.json'),JSON.stringify(manifest,null,2)+'\n');
+fs.writeFileSync(datesPath,JSON.stringify(dates,null,2)+'\n');
+const moved=Object.entries(dates).filter(([gss,entry])=>previous[gss]?.since!==entry.since).length;
+console.log(`Imported verified calendar snapshot ${manifest.sha256}; ${moved} of ${Object.keys(dates).length} card dates moved to ${manifest.snapshotDate}`);
