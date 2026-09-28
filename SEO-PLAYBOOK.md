@@ -71,6 +71,8 @@ check that enforces it.
   carries the GSS code (328 of 361).
 - **Sitemap dates.** Every place URL carries `lastmod` from its own latest source
   date; `npm run check:sitemap` asserts each one.
+  Each deploy submits to IndexNow only the URLs whose `lastmod` changed
+  (`scripts/indexnow.mjs`).
 - **A per-record social image.** A 1200x630 share card per place and
   constituency, rendered at deploy with `BUILD_OG=1`.
 

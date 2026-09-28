@@ -32,6 +32,7 @@ jobs:
       - run: npm run test:source-onboarding
       - run: npm run test:house-style
       - run: npm run test:school-holidays
+      - run: npm run test:indexnow
       - run: npm run lint
       # BUILD_OG=1 renders the 1,011 per-record share cards. Set in an env block:
       # pure shell, no GitHub event interpolation, no injection risk.

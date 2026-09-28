@@ -15,6 +15,7 @@
     "test:source-onboarding": "node scripts/test-source-onboarding.mjs",
     "test:house-style": "node scripts/test-house-style.mjs",
     "test:school-holidays": "node scripts/test-school-holidays.mjs",
+    "test:indexnow": "node scripts/test-indexnow.mjs",
     "build:place-constituencies": "node scripts/build-place-constituencies.mjs",
     "build:constituencies": "node scripts/build-constituencies.mjs",
     "test:constituencies": "node scripts/test-constituencies.mjs",

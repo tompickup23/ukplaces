@@ -18,6 +18,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    outputs:
+      indexnow-urls: ${{ steps.indexnow.outputs.urls }}
     # The Cloudflare Web Analytics beacon token is public (it ships in every page).
     # It comes from the CF_BEACON_TOKEN repository variable, set by the repo owner;
     # when unset the site builds with no beacon and check:analytics asserts that.
@@ -39,6 +41,7 @@ jobs:
       - run: npm run test:source-onboarding
       - run: npm run test:house-style
       - run: npm run test:school-holidays
+      - run: npm run test:indexnow
       - run: npm run lint
       # BUILD_OG=1 renders the 1,011 per-record share cards. Set in an env block:
       # pure shell, no GitHub event interpolation, no injection risk.
@@ -52,6 +55,10 @@ jobs:
       - run: npm run check:metadata
       - run: npm run check:analytics
       - run: npm run check:parity
+      # Before the deploy, while the live sitemap is still the old one: the URLs
+      # whose lastmod changed, for the indexnow job below.
+      - id: indexnow
+        run: node scripts/indexnow.mjs plan
       - uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b
         with:
           path: dist
@@ -65,3 +72,22 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e
+
+  # Tell IndexNow search engines about the changed URLs only. Runs after the deploy so
+  # the pages and the key file are live when the engines fetch them.
+  indexnow:
+    needs: [build, deploy]
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+    env:
+      INDEXNOW_URLS: ${{ needs.build.outputs.indexnow-urls }}
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444
+        with:
+          node-version: 22.12.0
+      - run: node scripts/indexnow.mjs submit
