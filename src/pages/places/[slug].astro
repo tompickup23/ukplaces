@@ -51,7 +51,7 @@ const numberWord = (count: number) => NUMBER_WORDS[count] ?? String(count);
 const capitalise = (text: string) => text.charAt(0).toUpperCase() + text.slice(1);
 // A factual introduction built only from the registry, so every record reads differently.
 const introduction = [
-  `${place.name} is a ${place.type.toLowerCase()} ${whereText}.`,
+  `${place.displayName} is a ${place.type.toLowerCase()} ${whereText}.`,
   countyDistrictCount > 0 && countyCouncil ? `${countyCouncil.name} is the county council for its area and ${numberWord(countyDistrictCount - 1)} other ${countyDistrictCount - 1 === 1 ? "district" : "districts"} on UK Places.` : null,
   constituencies.length > 0 ? `Its area overlaps ${constituencies.length === 1 ? "one Westminster constituency" : `${numberWord(constituencies.length)} Westminster constituencies`}.` : null,
   coverageRows.length === sources.length
@@ -59,7 +59,7 @@ const introduction = [
     : `${capitalise(numberWord(coverageRows.length))} of the ${numberWord(sources.length)} sources on UK Places ${coverageRows.length === 1 ? "covers" : "cover"} it.`,
 ].filter(Boolean).join(" ");
 const description = describePlace(place, coverageRows.map(({ signal }) => signal));
-const title = placeTitle(place.name, coverageRows.map(({ source }) => source.id));
+const title = placeTitle(place.displayName, coverageRows.map(({ source }) => source.id));
 const structuredData = [
   {
     "@context": "https://schema.org",
@@ -77,14 +77,15 @@ const structuredData = [
       { "@type": "ListItem", position: 1, name: "UK Places", item: `${SITE_URL}/` },
       { "@type": "ListItem", position: 2, name: "Places", item: `${SITE_URL}/places/` },
       { "@type": "ListItem", position: 3, name: place.region, item: `${SITE_URL}${regionPath}` },
-      { "@type": "ListItem", position: 4, name: place.name, item: canonicalUrl },
+      { "@type": "ListItem", position: 4, name: place.displayName, item: canonicalUrl },
     ],
   },
   {
     "@context": "https://schema.org",
     "@type": "AdministrativeArea",
     "@id": `${canonicalUrl}#place`,
-    name: place.name,
+    name: place.displayName,
+    ...(place.displayName !== place.name ? { alternateName: place.name } : {}),
     url: canonicalUrl,
     identifier: {
       "@type": "PropertyValue",
@@ -118,7 +119,7 @@ const formatDate = (date: string) => new Intl.DateTimeFormat("en-GB", {
   description={description}
   structuredData={structuredData}
   image={buildOg ? placeOgPath(place.slug) : undefined}
-  imageAlt={buildOg ? `${place.name}: ${place.type.toLowerCase()}, with one dated figure from each source on the UK Places record.` : undefined}
+  imageAlt={buildOg ? `${place.displayName}: ${place.type.toLowerCase()}, with one dated figure from each source on the UK Places record.` : undefined}
 >
   <main class="shell place-page" id="main-content">
     <nav class="breadcrumbs" aria-label="Breadcrumb">
@@ -128,12 +129,12 @@ const formatDate = (date: string) => new Intl.DateTimeFormat("en-GB", {
       <span aria-hidden="true">/</span>
       <a href={regionPath}>{place.region}</a>
       <span aria-hidden="true">/</span>
-      <span aria-current="page">{place.name}</span>
+      <span aria-current="page">{place.displayName}</span>
     </nav>
 
     <header class="place-hero">
       <p class="eyebrow">{place.type} · <a href={regionPath}>{place.region}</a></p>
-      <h1>{place.name}</h1>
+      <h1>{place.displayName}</h1>
       <p class="place-hero__meta">GSS code {place.gss}</p>
       <p class="place-hero__intro">{introduction}</p>
       {lastReviewed && <p class="place-hero__summary">Last reviewed {formatDate(lastReviewed)} from the latest source snapshot on this record.</p>}
@@ -155,7 +156,7 @@ const formatDate = (date: string) => new Intl.DateTimeFormat("en-GB", {
         {constituencies.length > 0 && <div class="place-geo__item"><dt class="place-geo__label">{constituencies.length > 1 ? "Westminster constituencies" : "Westminster constituency"}</dt><dd class="place-geo__value">{constituencies.map((constituency, index) => <Fragment>{index > 0 && ", "}<a href={`/constituencies/${constituency.slug}/`}>{constituency.name}</a></Fragment>)}</dd></div>}
         {place.reorganisation && <div class="place-geo__item"><dt class="place-geo__label">Reorganisation</dt><dd class="place-geo__value">{place.reorganisation.note} <a href={place.reorganisation.sourceUrl}>Source</a></dd></div>}
       </dl>
-      <p class="place-boundary-note"><strong>What this record is:</strong> this is the {place.type.toLowerCase()} named {place.name}; it is a geography record rather than a record for a settlement with the same name.</p>
+      <p class="place-boundary-note"><strong>What this record is:</strong> this is the {place.type.toLowerCase()} named {place.displayName}; it is a geography record rather than a record for a settlement with the same name.</p>
     </section>
 
     <section class="place-section" aria-labelledby="coverage-heading">
@@ -196,7 +197,7 @@ const formatDate = (date: string) => new Intl.DateTimeFormat("en-GB", {
         <h2 id="siblings-heading">Also in {siblingGroup}</h2>
         <ul class="directory-list place-siblings">
           {siblings.slice(0, SIBLING_CAP).map((other) => (
-            <li><a href={`/places/${other.slug}/`}>{other.name}<span>{other.type}</span></a></li>
+            <li><a href={`/places/${other.slug}/`}>{other.displayName}<span>{other.type}</span></a></li>
           ))}
         </ul>
         {siblings.length > SIBLING_CAP && <p class="place-siblings__more"><a href={regionPath}>All {regionCount} records in {place.region}</a></p>}

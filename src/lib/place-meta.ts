@@ -33,22 +33,22 @@ export function describeSignal(signal: Signal): string {
 // semicolons. Rows are added in order while the description stays within the
 // maximum; the full list is always on the page.
 export function describePlace(
-  place: { name: string; type: string; region: string; country: string; gss: string },
+  place: { displayName: string; type: string; region: string; country: string; gss: string },
   signals: Signal[],
 ): string {
   const parts: string[] = [];
   for (const signal of signals.filter((item) => item.value !== null)) {
-    const candidate = `${place.name}: ${[...parts, describeSignal(signal)].join("; ")}. ${DESCRIPTION_END}`;
+    const candidate = `${place.displayName}: ${[...parts, describeSignal(signal)].join("; ")}. ${DESCRIPTION_END}`;
     if (candidate.length > DESCRIPTION_MAX) break;
     parts.push(describeSignal(signal));
   }
   const area = place.region === place.country ? place.country : `${place.region}, ${place.country}`;
   if (parts.length === 0) {
-    return `${place.name}: ${place.type.toLowerCase()} in ${area}, GSS code ${place.gss}. ${DESCRIPTION_END}`;
+    return `${place.displayName}: ${place.type.toLowerCase()} in ${area}, GSS code ${place.gss}. ${DESCRIPTION_END}`;
   }
-  const description = `${place.name}: ${parts.join("; ")}. ${DESCRIPTION_END}`;
+  const description = `${place.displayName}: ${parts.join("; ")}. ${DESCRIPTION_END}`;
   if (description.length >= DESCRIPTION_MIN) return description;
-  return `${place.name}, ${place.type.toLowerCase()} in ${area}: ${parts.join("; ")}. ${DESCRIPTION_END}`;
+  return `${place.displayName}, ${place.type.toLowerCase()} in ${area}: ${parts.join("; ")}. ${DESCRIPTION_END}`;
 }
 
 // The long pattern claims public money and representation, so it is used only

@@ -9,7 +9,7 @@ const card = calendarFor(place)?.content;
 {card && (
   <section class="place-section" id="school-holidays" aria-labelledby="school-holidays-heading">
     <p class="eyebrow">School holidays</p>
-    <h2 id="school-holidays-heading">School holidays in {place.name}</h2>
+    <h2 id="school-holidays-heading">School holidays in {place.displayName}</h2>
     <p class="place-source__signal" data-school-breaks={JSON.stringify(card.breaks)} data-academic-year={card.academicYear} hidden></p>
     <p class="place-sources__intro">Dates come from the {card.academicYear} education-authority calendar for {card.authorityName}. Individual schools, local clusters and INSET days can differ, so confirm with the school before booking.</p>
     <p class="place-sources__intro">Source: <a href={card.sourceUrl}>{card.authorityName}'s official calendar</a>{card.retrievedAt && `, captured ${formatLongDate(card.retrievedAt)}`}.</p>

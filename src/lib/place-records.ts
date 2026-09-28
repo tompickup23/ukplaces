@@ -10,6 +10,8 @@ export type Place = {
   gss: string;
   slug: string;
   name: string;
+  displayName: string;
+  searchNames: string[];
   officialName: string;
   type: string;
   country: string;

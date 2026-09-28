@@ -18,7 +18,7 @@ const { region } = Astro.props as { region: RegionGroup };
 const constituencies = Object.values(constituencyData as Record<string, Constituency>)
   .filter((constituency) => resolveConstituencyRegion(constituency.region, constituency.ladCodes)?.slug === region.slug)
   .sort((left, right) => left.name.localeCompare(right.name));
-const firstNames = region.places.slice(0, 5).map((place) => place.name);
+const firstNames = region.places.slice(0, 5).map((place) => place.displayName);
 const description = region.places.length > 5
   ? `${region.name}: ${region.places.length} local authority records on UK Places, including ${firstNames.join(", ")}. Each record links to its detailed sources.`
   : `${region.name}: ${region.places.length} local authority records on UK Places: ${firstNames.join(", ")}. Each record links to its detailed sources.`;
@@ -57,7 +57,7 @@ const structuredData = [
         <h2>{region.name} local authorities</h2>
         <ul class="directory-list">
           {region.places.map((place) => (
-            <li><a href={`/places/${place.slug}/`}>{place.name}<span>{place.type}</span></a></li>
+            <li><a href={`/places/${place.slug}/`}>{place.displayName}<span>{place.type}</span></a></li>
           ))}
         </ul>
       </section>

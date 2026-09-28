@@ -6,7 +6,7 @@ import { buildOg, constituencyOgPath } from "../../lib/og-flag";
 import registry from "../../data/registry/places.json";
 import constituencies from "../../data/registry/constituencies.json";
 
-type Place = { gss: string; slug: string; name: string; type: string };
+type Place = { gss: string; slug: string; name: string; displayName: string; type: string };
 type Constituency = {
   slug: string;
   name: string;
@@ -32,7 +32,7 @@ const placesByGss = registry as Record<string, Place>;
 const localAuthorities = constituency.ladCodes.map((gss) => ({ gss, place: placesByGss[gss] ?? null }));
 const region = resolveConstituencyRegion(constituency.region, constituency.ladCodes);
 const canonicalUrl = `${SITE_URL}/constituencies/${constituency.slug}/`;
-const authorityNames = localAuthorities.map(({ gss, place }) => place?.name ?? `GSS code ${gss}`);
+const authorityNames = localAuthorities.map(({ gss, place }) => place?.displayName ?? `GSS code ${gss}`);
 const authorityList = authorityNames.length > 1
   ? `${authorityNames.slice(0, -1).join(", ")} and ${authorityNames.at(-1)}`
   : authorityNames[0] ?? null;
@@ -115,7 +115,7 @@ const formatDate = (date: string) => new Intl.DateTimeFormat("en-GB", {
           {localAuthorities.map(({ gss, place }) => (
             <div class="place-geo__item">
               <dt class="place-geo__label">Local authority</dt>
-              <dd class="place-geo__value">{place ? <a href={`/places/${place.slug}/`}>{place.name}</a> : `GSS code ${gss}`}</dd>
+              <dd class="place-geo__value">{place ? <a href={`/places/${place.slug}/`}>{place.displayName}</a> : `GSS code ${gss}`}</dd>
             </div>
           ))}
         </dl>

@@ -4,10 +4,12 @@ import sources from "../data/sources.json";
 import registry from "../data/registry/places.json";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { DEFAULT_DESCRIPTION, SITE_NAME } from "../lib/site";
+import { searchKey } from "../../scripts/place-names.mjs";
 
+// Sorted on the ONS name, whose inverted form files "Bristol, City of" under B.
 const places = Object.values(registry)
-  .map(({ gss, name, slug, type }) => ({ gss, name, slug, type }))
-  .sort((left, right) => left.name.localeCompare(right.name));
+  .sort((left, right) => left.name.localeCompare(right.name))
+  .map(({ gss, displayName, searchNames, slug, type }) => ({ gss, displayName, key: searchKey(searchNames), slug, type }));
 
 const sourceAnswers: Record<string, string> = {
   ukelections: "Who holds local seats and what changed at the last election.",
@@ -81,11 +83,21 @@ const sourceAnswers: Record<string, string> = {
     const places = JSON.parse(document.querySelector("#place-index")?.textContent || "[]");
     const postcodePattern = /^[A-Z]{1,2}\d[A-Z\d]?\s*\d[A-Z]{2}$/i;
 
-    const normalise = (value) => value.trim().toLocaleLowerCase("en-GB");
+    // An exact copy of normaliseSearchText in scripts/place-names.mjs; test:registry checks it.
+    const normaliseSearchText = (text) => text.toLocaleLowerCase("en-GB").replace(/['’]/g, "").replace(/[^a-z0-9]+/g, " ").trim();
+    const namesOf = (place) => place.key.split("|").map((name) => name.trim());
     const setStatus = (message) => {
       status.textContent = message;
     };
-    const matchingPlaces = (query) => places.filter((place) => normalise(place.name).includes(normalise(query)));
+    // A query matches at the start of a word in any of a place's names, so "Hull"
+    // finds Kingston upon Hull and not Solihull. Names that start with it come first.
+    const matchingPlaces = (query) => {
+      const normalised = normaliseSearchText(query);
+      if (!normalised) return [];
+      const matches = places.filter((place) => place.key.includes(` ${normalised}`));
+      const leads = (place) => namesOf(place).some((name) => name.startsWith(normalised));
+      return [...matches.filter(leads), ...matches.filter((place) => !leads(place))];
+    };
 
     const renderMatches = (query) => {
       const matches = query ? matchingPlaces(query).slice(0, 8) : [];
@@ -95,7 +107,7 @@ const sourceAnswers: Record<string, string> = {
         const link = document.createElement("a");
         const detail = document.createElement("span");
         link.href = `/places/${place.slug}/`;
-        link.textContent = place.name;
+        link.textContent = place.displayName;
         detail.textContent = place.type;
         link.append(document.createElement("br"), detail);
         item.append(link);
@@ -128,7 +140,7 @@ const sourceAnswers: Record<string, string> = {
 
       if (!postcodePattern.test(query)) {
         const matches = matchingPlaces(query);
-        const exactMatch = matches.find((place) => normalise(place.name) === normalise(query));
+        const exactMatch = matches.find((place) => namesOf(place).includes(normaliseSearchText(query)));
         if (exactMatch) {
           window.location.assign(`/places/${exactMatch.slug}/`);
           return;

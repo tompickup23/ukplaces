@@ -3,6 +3,10 @@
     "gss": "E06000001",
     "slug": "hartlepool",
     "name": "Hartlepool",
+    "displayName": "Hartlepool",
+    "searchNames": [
+      "Hartlepool"
+    ],
     "officialName": "Hartlepool Borough Council",
     "type": "Unitary authority",
     "country": "England",
@@ -43,6 +47,10 @@
     "gss": "E06000002",
     "slug": "middlesbrough",
     "name": "Middlesbrough",
+    "displayName": "Middlesbrough",
+    "searchNames": [
+      "Middlesbrough"
+    ],
     "officialName": "Middlesbrough Council",
     "type": "Unitary authority",
     "country": "England",
@@ -83,6 +91,10 @@
     "gss": "E06000003",
     "slug": "redcar-and-cleveland",
     "name": "Redcar and Cleveland",
+    "displayName": "Redcar and Cleveland",
+    "searchNames": [
+      "Redcar and Cleveland"
+    ],
     "officialName": "Redcar & Cleveland Council",
     "type": "Unitary authority",
     "country": "England",
@@ -123,6 +135,10 @@
     "gss": "E06000004",
     "slug": "stockton-on-tees",
     "name": "Stockton-on-Tees",
+    "displayName": "Stockton-on-Tees",
+    "searchNames": [
+      "Stockton-on-Tees"
+    ],
     "officialName": "Stockton-on-Tees Council",
     "type": "Unitary authority",
     "country": "England",
@@ -163,6 +179,10 @@
     "gss": "E06000005",
     "slug": "darlington",
     "name": "Darlington",
+    "displayName": "Darlington",
+    "searchNames": [
+      "Darlington"
+    ],
     "officialName": "Darlington Council",
     "type": "Unitary authority",
     "country": "England",
@@ -203,6 +223,10 @@
     "gss": "E06000006",
     "slug": "halton",
     "name": "Halton",
+    "displayName": "Halton",
+    "searchNames": [
+      "Halton"
+    ],
     "officialName": "Halton Borough Council",
     "type": "Unitary authority",
     "country": "England",
@@ -243,6 +267,10 @@
     "gss": "E06000007",
     "slug": "warrington",
     "name": "Warrington",
+    "displayName": "Warrington",
+    "searchNames": [
+      "Warrington"
+    ],
     "officialName": "Warrington Council",
     "type": "Unitary authority",
     "country": "England",
@@ -283,6 +311,10 @@
     "gss": "E06000008",
     "slug": "blackburn-with-darwen",
     "name": "Blackburn with Darwen",
+    "displayName": "Blackburn with Darwen",
+    "searchNames": [
+      "Blackburn with Darwen"
+    ],
     "officialName": "Blackburn with Darwen Borough Council",
     "type": "Unitary authority",
     "country": "England",
@@ -328,6 +360,10 @@
     "gss": "E06000009",
     "slug": "blackpool",
     "name": "Blackpool",
+    "displayName": "Blackpool",
+    "searchNames": [
+      "Blackpool"
+    ],
     "officialName": "Blackpool Council",
     "type": "Unitary authority",
     "country": "England",
@@ -373,6 +409,12 @@
     "gss": "E06000010",
     "slug": "kingston-upon-hull-city-of",
     "name": "Kingston upon Hull, City of",
+    "displayName": "City of Kingston upon Hull",
+    "searchNames": [
+      "City of Kingston upon Hull",
+      "Kingston upon Hull",
+      "Kingston upon Hull, City of"
+    ],
     "officialName": "Kingston-upon-Hull Council",
     "type": "Unitary authority",
     "country": "England",
@@ -413,6 +455,10 @@
     "gss": "E06000011",
     "slug": "east-riding-of-yorkshire",
     "name": "East Riding of Yorkshire",
+    "displayName": "East Riding of Yorkshire",
+    "searchNames": [
+      "East Riding of Yorkshire"
+    ],
     "officialName": "East Riding of Yorkshire Council",
     "type": "Unitary authority",
     "country": "England",
@@ -453,6 +499,10 @@
     "gss": "E06000012",
     "slug": "north-east-lincolnshire",
     "name": "North East Lincolnshire",
+    "displayName": "North East Lincolnshire",
+    "searchNames": [
+      "North East Lincolnshire"
+    ],
     "officialName": "North East Lincolnshire Council",
     "type": "Unitary authority",
     "country": "England",
@@ -493,6 +543,10 @@
     "gss": "E06000013",
     "slug": "north-lincolnshire",
     "name": "North Lincolnshire",
+    "displayName": "North Lincolnshire",
+    "searchNames": [
+      "North Lincolnshire"
+    ],
     "officialName": "North Lincolnshire Council",
     "type": "Unitary authority",
     "country": "England",
@@ -533,6 +587,10 @@
     "gss": "E06000014",
     "slug": "york",
     "name": "York",
+    "displayName": "York",
+    "searchNames": [
+      "York"
+    ],
     "officialName": "York Council",
     "type": "Unitary authority",
     "country": "England",
@@ -573,6 +631,10 @@
     "gss": "E06000015",
     "slug": "derby",
     "name": "Derby",
+    "displayName": "Derby",
+    "searchNames": [
+      "Derby"
+    ],
     "officialName": "Derby City Council",
     "type": "Unitary authority",
     "country": "England",
@@ -613,6 +675,10 @@
     "gss": "E06000016",
     "slug": "leicester",
     "name": "Leicester",
+    "displayName": "Leicester",
+    "searchNames": [
+      "Leicester"
+    ],
     "officialName": "Leicester City Council",
     "type": "Unitary authority",
     "country": "England",
@@ -653,6 +719,10 @@
     "gss": "E06000017",
     "slug": "rutland",
     "name": "Rutland",
+    "displayName": "Rutland",
+    "searchNames": [
+      "Rutland"
+    ],
     "officialName": "Rutland Council",
     "type": "Unitary authority",
     "country": "England",
@@ -693,6 +763,10 @@
     "gss": "E06000018",
     "slug": "nottingham",
     "name": "Nottingham",
+    "displayName": "Nottingham",
+    "searchNames": [
+      "Nottingham"
+    ],
     "officialName": "Nottingham City Council",
     "type": "Unitary authority",
     "country": "England",
@@ -733,6 +807,12 @@
     "gss": "E06000019",
     "slug": "herefordshire-county-of",
     "name": "Herefordshire, County of",
+    "displayName": "County of Herefordshire",
+    "searchNames": [
+      "County of Herefordshire",
+      "Herefordshire",
+      "Herefordshire, County of"
+    ],
     "officialName": "Herefordshire Council",
     "type": "Unitary authority",
     "country": "England",
@@ -773,6 +853,10 @@
     "gss": "E06000020",
     "slug": "telford-and-wrekin",
     "name": "Telford and Wrekin",
+    "displayName": "Telford and Wrekin",
+    "searchNames": [
+      "Telford and Wrekin"
+    ],
     "officialName": "Telford & the Wrekin Council",
     "type": "Unitary authority",
     "country": "England",
@@ -813,6 +897,10 @@
     "gss": "E06000021",
     "slug": "stoke-on-trent",
     "name": "Stoke-on-Trent",
+    "displayName": "Stoke-on-Trent",
+    "searchNames": [
+      "Stoke-on-Trent"
+    ],
     "officialName": "Stoke-on-Trent Council",
     "type": "Unitary authority",
     "country": "England",
@@ -853,6 +941,10 @@
     "gss": "E06000022",
     "slug": "bath-and-north-east-somerset",
     "name": "Bath and North East Somerset",
+    "displayName": "Bath and North East Somerset",
+    "searchNames": [
+      "Bath and North East Somerset"
+    ],
     "officialName": "Bath & North East Somerset Council",
     "type": "Unitary authority",
     "country": "England",
@@ -893,6 +985,12 @@
     "gss": "E06000023",
     "slug": "bristol-city-of",
     "name": "Bristol, City of",
+    "displayName": "City of Bristol",
+    "searchNames": [
+      "City of Bristol",
+      "Bristol",
+      "Bristol, City of"
+    ],
     "officialName": "Bristol Council",
     "type": "Unitary authority",
     "country": "England",
@@ -933,6 +1031,10 @@
     "gss": "E06000024",
     "slug": "north-somerset",
     "name": "North Somerset",
+    "displayName": "North Somerset",
+    "searchNames": [
+      "North Somerset"
+    ],
     "officialName": "North Somerset Council",
     "type": "Unitary authority",
     "country": "England",
@@ -973,6 +1075,10 @@
     "gss": "E06000025",
     "slug": "south-gloucestershire",
     "name": "South Gloucestershire",
+    "displayName": "South Gloucestershire",
+    "searchNames": [
+      "South Gloucestershire"
+    ],
     "officialName": "South Gloucestershire Council",
     "type": "Unitary authority",
     "country": "England",
@@ -1013,6 +1119,10 @@
     "gss": "E06000026",
     "slug": "plymouth",
     "name": "Plymouth",
+    "displayName": "Plymouth",
+    "searchNames": [
+      "Plymouth"
+    ],
     "officialName": "Plymouth City Council",
     "type": "Unitary authority",
     "country": "England",
@@ -1053,6 +1163,10 @@
     "gss": "E06000027",
     "slug": "torbay",
     "name": "Torbay",
+    "displayName": "Torbay",
+    "searchNames": [
+      "Torbay"
+    ],
     "officialName": "Torbay Council",
     "type": "Unitary authority",
     "country": "England",
@@ -1093,6 +1207,10 @@
     "gss": "E06000030",
     "slug": "swindon",
     "name": "Swindon",
+    "displayName": "Swindon",
+    "searchNames": [
+      "Swindon"
+    ],
     "officialName": "Swindon Council",
     "type": "Unitary authority",
     "country": "England",
@@ -1133,6 +1251,10 @@
     "gss": "E06000031",
     "slug": "peterborough",
     "name": "Peterborough",
+    "displayName": "Peterborough",
+    "searchNames": [
+      "Peterborough"
+    ],
     "officialName": "Peterborough Council",
     "type": "Unitary authority",
     "country": "England",
@@ -1173,6 +1295,10 @@
     "gss": "E06000032",
     "slug": "luton",
     "name": "Luton",
+    "displayName": "Luton",
+    "searchNames": [
+      "Luton"
+    ],
     "officialName": "Luton Council",
     "type": "Unitary authority",
     "country": "England",
@@ -1213,6 +1339,10 @@
     "gss": "E06000033",
     "slug": "southend-on-sea",
     "name": "Southend-on-Sea",
+    "displayName": "Southend-on-Sea",
+    "searchNames": [
+      "Southend-on-Sea"
+    ],
     "officialName": "Southend-on-Sea Council",
     "type": "Unitary authority",
     "country": "England",
@@ -1253,6 +1383,10 @@
     "gss": "E06000034",
     "slug": "thurrock",
     "name": "Thurrock",
+    "displayName": "Thurrock",
+    "searchNames": [
+      "Thurrock"
+    ],
     "officialName": "Thurrock Council",
     "type": "Unitary authority",
     "country": "England",
@@ -1293,6 +1427,10 @@
     "gss": "E06000035",
     "slug": "medway",
     "name": "Medway",
+    "displayName": "Medway",
+    "searchNames": [
+      "Medway"
+    ],
     "officialName": "Medway Towns Council",
     "type": "Unitary authority",
     "country": "England",
@@ -1333,6 +1471,10 @@
     "gss": "E06000036",
     "slug": "bracknell-forest",
     "name": "Bracknell Forest",
+    "displayName": "Bracknell Forest",
+    "searchNames": [
+      "Bracknell Forest"
+    ],
     "officialName": "Bracknell Forest Council",
     "type": "Unitary authority",
     "country": "England",
@@ -1373,6 +1515,10 @@
     "gss": "E06000037",
     "slug": "west-berkshire",
     "name": "West Berkshire",
+    "displayName": "West Berkshire",
+    "searchNames": [
+      "West Berkshire"
+    ],
     "officialName": "West Berkshire Council",
     "type": "Unitary authority",
     "country": "England",
@@ -1413,6 +1559,10 @@
     "gss": "E06000038",
     "slug": "reading",
     "name": "Reading",
+    "displayName": "Reading",
+    "searchNames": [
+      "Reading"
+    ],
     "officialName": "Reading Council",
     "type": "Unitary authority",
     "country": "England",
@@ -1453,6 +1603,10 @@
     "gss": "E06000039",
     "slug": "slough",
     "name": "Slough",
+    "displayName": "Slough",
+    "searchNames": [
+      "Slough"
+    ],
     "officialName": "Slough Council",
     "type": "Unitary authority",
     "country": "England",
@@ -1493,6 +1647,10 @@
     "gss": "E06000040",
     "slug": "windsor-and-maidenhead",
     "name": "Windsor and Maidenhead",
+    "displayName": "Windsor and Maidenhead",
+    "searchNames": [
+      "Windsor and Maidenhead"
+    ],
     "officialName": "Windsor & Maidenhead Council",
     "type": "Unitary authority",
     "country": "England",
@@ -1533,6 +1691,10 @@
     "gss": "E06000041",
     "slug": "wokingham",
     "name": "Wokingham",
+    "displayName": "Wokingham",
+    "searchNames": [
+      "Wokingham"
+    ],
     "officialName": "Wokingham Council",
     "type": "Unitary authority",
     "country": "England",
@@ -1573,6 +1735,10 @@
     "gss": "E06000042",
     "slug": "milton-keynes",
     "name": "Milton Keynes",
+    "displayName": "Milton Keynes",
+    "searchNames": [
+      "Milton Keynes"
+    ],
     "officialName": "Milton Keynes Council",
     "type": "Unitary authority",
     "country": "England",
@@ -1613,6 +1779,10 @@
     "gss": "E06000043",
     "slug": "brighton-and-hove",
     "name": "Brighton and Hove",
+    "displayName": "Brighton and Hove",
+    "searchNames": [
+      "Brighton and Hove"
+    ],
     "officialName": "Brighton & Hove Council",
     "type": "Unitary authority",
     "country": "England",
@@ -1653,6 +1823,10 @@
     "gss": "E06000044",
     "slug": "portsmouth",
     "name": "Portsmouth",
+    "displayName": "Portsmouth",
+    "searchNames": [
+      "Portsmouth"
+    ],
     "officialName": "Portsmouth Council",
     "type": "Unitary authority",
     "country": "England",
@@ -1693,6 +1867,10 @@
     "gss": "E06000045",
     "slug": "southampton",
     "name": "Southampton",
+    "displayName": "Southampton",
+    "searchNames": [
+      "Southampton"
+    ],
     "officialName": "Southampton Council",
     "type": "Unitary authority",
     "country": "England",
@@ -1733,6 +1911,10 @@
     "gss": "E06000046",
     "slug": "isle-of-wight",
     "name": "Isle of Wight",
+    "displayName": "Isle of Wight",
+    "searchNames": [
+      "Isle of Wight"
+    ],
     "officialName": "Isle of Wight Council",
     "type": "Unitary authority",
     "country": "England",
@@ -1773,6 +1955,10 @@
     "gss": "E06000047",
     "slug": "county-durham",
     "name": "County Durham",
+    "displayName": "County Durham",
+    "searchNames": [
+      "County Durham"
+    ],
     "officialName": "Durham County Council",
     "type": "Unitary authority",
     "country": "England",
@@ -1813,6 +1999,10 @@
     "gss": "E06000049",
     "slug": "cheshire-east",
     "name": "Cheshire East",
+    "displayName": "Cheshire East",
+    "searchNames": [
+      "Cheshire East"
+    ],
     "officialName": "Cheshire East Council",
     "type": "Unitary authority",
     "country": "England",
@@ -1853,6 +2043,10 @@
     "gss": "E06000050",
     "slug": "cheshire-west-and-chester",
     "name": "Cheshire West and Chester",
+    "displayName": "Cheshire West and Chester",
+    "searchNames": [
+      "Cheshire West and Chester"
+    ],
     "officialName": "Cheshire West and Chester Council",
     "type": "Unitary authority",
     "country": "England",
@@ -1893,6 +2087,10 @@
     "gss": "E06000051",
     "slug": "shropshire",
     "name": "Shropshire",
+    "displayName": "Shropshire",
+    "searchNames": [
+      "Shropshire"
+    ],
     "officialName": "Shropshire Council",
     "type": "Unitary authority",
     "country": "England",
@@ -1933,6 +2131,10 @@
     "gss": "E06000052",
     "slug": "cornwall",
     "name": "Cornwall",
+    "displayName": "Cornwall",
+    "searchNames": [
+      "Cornwall"
+    ],
     "officialName": "Cornwall Council",
     "type": "Unitary authority",
     "country": "England",
@@ -1973,6 +2175,10 @@
     "gss": "E06000053",
     "slug": "isles-of-scilly",
     "name": "Isles of Scilly",
+    "displayName": "Isles of Scilly",
+    "searchNames": [
+      "Isles of Scilly"
+    ],
     "officialName": "Isles of Scilly Council",
     "type": "Unitary authority",
     "country": "England",
@@ -2013,6 +2219,10 @@
     "gss": "E06000054",
     "slug": "wiltshire",
     "name": "Wiltshire",
+    "displayName": "Wiltshire",
+    "searchNames": [
+      "Wiltshire"
+    ],
     "officialName": "Wiltshire Council",
     "type": "Unitary authority",
     "country": "England",
@@ -2053,6 +2263,10 @@
     "gss": "E06000055",
     "slug": "bedford",
     "name": "Bedford",
+    "displayName": "Bedford",
+    "searchNames": [
+      "Bedford"
+    ],
     "officialName": "Bedford Council",
     "type": "Unitary authority",
     "country": "England",
@@ -2093,6 +2307,10 @@
     "gss": "E06000056",
     "slug": "central-bedfordshire",
     "name": "Central Bedfordshire",
+    "displayName": "Central Bedfordshire",
+    "searchNames": [
+      "Central Bedfordshire"
+    ],
     "officialName": "Central Bedfordshire Council",
     "type": "Unitary authority",
     "country": "England",
@@ -2133,6 +2351,10 @@
     "gss": "E06000057",
     "slug": "northumberland",
     "name": "Northumberland",
+    "displayName": "Northumberland",
+    "searchNames": [
+      "Northumberland"
+    ],
     "officialName": "Northumberland Council",
     "type": "Unitary authority",
     "country": "England",
@@ -2173,6 +2395,10 @@
     "gss": "E06000058",
     "slug": "bournemouth-christchurch-and-poole",
     "name": "Bournemouth, Christchurch and Poole",
+    "displayName": "Bournemouth, Christchurch and Poole",
+    "searchNames": [
+      "Bournemouth, Christchurch and Poole"
+    ],
     "officialName": "Bournemouth, Christchurch and Poole Council",
     "type": "Unitary authority",
     "country": "England",
@@ -2213,6 +2439,10 @@
     "gss": "E06000059",
     "slug": "dorset",
     "name": "Dorset",
+    "displayName": "Dorset",
+    "searchNames": [
+      "Dorset"
+    ],
     "officialName": "Dorset Council",
     "type": "Unitary authority",
     "country": "England",
@@ -2253,6 +2483,10 @@
     "gss": "E06000060",
     "slug": "buckinghamshire",
     "name": "Buckinghamshire",
+    "displayName": "Buckinghamshire",
+    "searchNames": [
+      "Buckinghamshire"
+    ],
     "officialName": "Buckinghamshire Council",
     "type": "Unitary authority",
     "country": "England",
@@ -2293,6 +2527,10 @@
     "gss": "E06000061",
     "slug": "north-northamptonshire",
     "name": "North Northamptonshire",
+    "displayName": "North Northamptonshire",
+    "searchNames": [
+      "North Northamptonshire"
+    ],
     "officialName": "North Northamptonshire Council",
     "type": "Unitary authority",
     "country": "England",
@@ -2333,6 +2571,10 @@
     "gss": "E06000062",
     "slug": "west-northamptonshire",
     "name": "West Northamptonshire",
+    "displayName": "West Northamptonshire",
+    "searchNames": [
+      "West Northamptonshire"
+    ],
     "officialName": "West Northamptonshire Council",
     "type": "Unitary authority",
     "country": "England",
@@ -2373,6 +2615,10 @@
     "gss": "E06000063",
     "slug": "cumberland",
     "name": "Cumberland",
+    "displayName": "Cumberland",
+    "searchNames": [
+      "Cumberland"
+    ],
     "officialName": "Cumberland Council",
     "type": "Unitary authority",
     "country": "England",
@@ -2413,6 +2659,10 @@
     "gss": "E06000064",
     "slug": "westmorland-and-furness",
     "name": "Westmorland and Furness",
+    "displayName": "Westmorland and Furness",
+    "searchNames": [
+      "Westmorland and Furness"
+    ],
     "officialName": "Westmorland and Furness Council",
     "type": "Unitary authority",
     "country": "England",
@@ -2453,6 +2703,10 @@
     "gss": "E06000065",
     "slug": "north-yorkshire",
     "name": "North Yorkshire",
+    "displayName": "North Yorkshire",
+    "searchNames": [
+      "North Yorkshire"
+    ],
     "officialName": "North Yorkshire Council",
     "type": "Unitary authority",
     "country": "England",
@@ -2493,6 +2747,10 @@
     "gss": "E06000066",
     "slug": "somerset",
     "name": "Somerset",
+    "displayName": "Somerset",
+    "searchNames": [
+      "Somerset"
+    ],
     "officialName": "Somerset Council",
     "type": "Unitary authority",
     "country": "England",
@@ -2533,6 +2791,10 @@
     "gss": "E07000008",
     "slug": "cambridge",
     "name": "Cambridge",
+    "displayName": "Cambridge",
+    "searchNames": [
+      "Cambridge"
+    ],
     "officialName": "Cambridge Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -2573,6 +2835,10 @@
     "gss": "E07000009",
     "slug": "east-cambridgeshire",
     "name": "East Cambridgeshire",
+    "displayName": "East Cambridgeshire",
+    "searchNames": [
+      "East Cambridgeshire"
+    ],
     "officialName": "East Cambridgeshire Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -2613,6 +2879,10 @@
     "gss": "E07000010",
     "slug": "fenland",
     "name": "Fenland",
+    "displayName": "Fenland",
+    "searchNames": [
+      "Fenland"
+    ],
     "officialName": "Fenland Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -2653,6 +2923,10 @@
     "gss": "E07000011",
     "slug": "huntingdonshire",
     "name": "Huntingdonshire",
+    "displayName": "Huntingdonshire",
+    "searchNames": [
+      "Huntingdonshire"
+    ],
     "officialName": "Huntingdonshire Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -2693,6 +2967,10 @@
     "gss": "E07000012",
     "slug": "south-cambridgeshire",
     "name": "South Cambridgeshire",
+    "displayName": "South Cambridgeshire",
+    "searchNames": [
+      "South Cambridgeshire"
+    ],
     "officialName": "South Cambridgeshire Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -2733,6 +3011,10 @@
     "gss": "E07000032",
     "slug": "amber-valley",
     "name": "Amber Valley",
+    "displayName": "Amber Valley",
+    "searchNames": [
+      "Amber Valley"
+    ],
     "officialName": "Amber Valley Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -2773,6 +3055,10 @@
     "gss": "E07000033",
     "slug": "bolsover",
     "name": "Bolsover",
+    "displayName": "Bolsover",
+    "searchNames": [
+      "Bolsover"
+    ],
     "officialName": "Bolsover Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -2813,6 +3099,10 @@
     "gss": "E07000034",
     "slug": "chesterfield",
     "name": "Chesterfield",
+    "displayName": "Chesterfield",
+    "searchNames": [
+      "Chesterfield"
+    ],
     "officialName": "Chesterfield Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -2853,6 +3143,10 @@
     "gss": "E07000035",
     "slug": "derbyshire-dales",
     "name": "Derbyshire Dales",
+    "displayName": "Derbyshire Dales",
+    "searchNames": [
+      "Derbyshire Dales"
+    ],
     "officialName": "Derbyshire Dales Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -2893,6 +3187,10 @@
     "gss": "E07000036",
     "slug": "erewash",
     "name": "Erewash",
+    "displayName": "Erewash",
+    "searchNames": [
+      "Erewash"
+    ],
     "officialName": "Erewash Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -2933,6 +3231,10 @@
     "gss": "E07000037",
     "slug": "high-peak",
     "name": "High Peak",
+    "displayName": "High Peak",
+    "searchNames": [
+      "High Peak"
+    ],
     "officialName": "High Peak Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -2973,6 +3275,10 @@
     "gss": "E07000038",
     "slug": "north-east-derbyshire",
     "name": "North East Derbyshire",
+    "displayName": "North East Derbyshire",
+    "searchNames": [
+      "North East Derbyshire"
+    ],
     "officialName": "North East Derbyshire Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -3013,6 +3319,10 @@
     "gss": "E07000039",
     "slug": "south-derbyshire",
     "name": "South Derbyshire",
+    "displayName": "South Derbyshire",
+    "searchNames": [
+      "South Derbyshire"
+    ],
     "officialName": "South Derbyshire Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -3053,6 +3363,10 @@
     "gss": "E07000040",
     "slug": "east-devon",
     "name": "East Devon",
+    "displayName": "East Devon",
+    "searchNames": [
+      "East Devon"
+    ],
     "officialName": "East Devon Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -3093,6 +3407,10 @@
     "gss": "E07000041",
     "slug": "exeter",
     "name": "Exeter",
+    "displayName": "Exeter",
+    "searchNames": [
+      "Exeter"
+    ],
     "officialName": "Exeter Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -3133,6 +3451,10 @@
     "gss": "E07000042",
     "slug": "mid-devon",
     "name": "Mid Devon",
+    "displayName": "Mid Devon",
+    "searchNames": [
+      "Mid Devon"
+    ],
     "officialName": "Mid Devon Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -3173,6 +3495,10 @@
     "gss": "E07000043",
     "slug": "north-devon",
     "name": "North Devon",
+    "displayName": "North Devon",
+    "searchNames": [
+      "North Devon"
+    ],
     "officialName": "North Devon Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -3213,6 +3539,10 @@
     "gss": "E07000044",
     "slug": "south-hams",
     "name": "South Hams",
+    "displayName": "South Hams",
+    "searchNames": [
+      "South Hams"
+    ],
     "officialName": "South Hams Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -3253,6 +3583,10 @@
     "gss": "E07000045",
     "slug": "teignbridge",
     "name": "Teignbridge",
+    "displayName": "Teignbridge",
+    "searchNames": [
+      "Teignbridge"
+    ],
     "officialName": "Teignbridge Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -3293,6 +3627,10 @@
     "gss": "E07000046",
     "slug": "torridge",
     "name": "Torridge",
+    "displayName": "Torridge",
+    "searchNames": [
+      "Torridge"
+    ],
     "officialName": "Torridge Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -3333,6 +3671,10 @@
     "gss": "E07000047",
     "slug": "west-devon",
     "name": "West Devon",
+    "displayName": "West Devon",
+    "searchNames": [
+      "West Devon"
+    ],
     "officialName": "West Devon Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -3373,6 +3715,10 @@
     "gss": "E07000061",
     "slug": "eastbourne",
     "name": "Eastbourne",
+    "displayName": "Eastbourne",
+    "searchNames": [
+      "Eastbourne"
+    ],
     "officialName": "Eastbourne Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -3413,6 +3759,10 @@
     "gss": "E07000062",
     "slug": "hastings",
     "name": "Hastings",
+    "displayName": "Hastings",
+    "searchNames": [
+      "Hastings"
+    ],
     "officialName": "Hastings Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -3453,6 +3803,10 @@
     "gss": "E07000063",
     "slug": "lewes",
     "name": "Lewes",
+    "displayName": "Lewes",
+    "searchNames": [
+      "Lewes"
+    ],
     "officialName": "Lewes Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -3493,6 +3847,10 @@
     "gss": "E07000064",
     "slug": "rother",
     "name": "Rother",
+    "displayName": "Rother",
+    "searchNames": [
+      "Rother"
+    ],
     "officialName": "Rother Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -3533,6 +3891,10 @@
     "gss": "E07000065",
     "slug": "wealden",
     "name": "Wealden",
+    "displayName": "Wealden",
+    "searchNames": [
+      "Wealden"
+    ],
     "officialName": "Wealden Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -3573,6 +3935,10 @@
     "gss": "E07000066",
     "slug": "basildon",
     "name": "Basildon",
+    "displayName": "Basildon",
+    "searchNames": [
+      "Basildon"
+    ],
     "officialName": "Basildon Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -3613,6 +3979,10 @@
     "gss": "E07000067",
     "slug": "braintree",
     "name": "Braintree",
+    "displayName": "Braintree",
+    "searchNames": [
+      "Braintree"
+    ],
     "officialName": "Braintree Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -3653,6 +4023,10 @@
     "gss": "E07000068",
     "slug": "brentwood",
     "name": "Brentwood",
+    "displayName": "Brentwood",
+    "searchNames": [
+      "Brentwood"
+    ],
     "officialName": "Brentwood Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -3693,6 +4067,10 @@
     "gss": "E07000069",
     "slug": "castle-point",
     "name": "Castle Point",
+    "displayName": "Castle Point",
+    "searchNames": [
+      "Castle Point"
+    ],
     "officialName": "Castle Point Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -3733,6 +4111,10 @@
     "gss": "E07000070",
     "slug": "chelmsford",
     "name": "Chelmsford",
+    "displayName": "Chelmsford",
+    "searchNames": [
+      "Chelmsford"
+    ],
     "officialName": "Chelmsford Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -3773,6 +4155,10 @@
     "gss": "E07000071",
     "slug": "colchester",
     "name": "Colchester",
+    "displayName": "Colchester",
+    "searchNames": [
+      "Colchester"
+    ],
     "officialName": "Colchester Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -3813,6 +4199,10 @@
     "gss": "E07000072",
     "slug": "epping-forest",
     "name": "Epping Forest",
+    "displayName": "Epping Forest",
+    "searchNames": [
+      "Epping Forest"
+    ],
     "officialName": "Epping Forest Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -3853,6 +4243,10 @@
     "gss": "E07000073",
     "slug": "harlow",
     "name": "Harlow",
+    "displayName": "Harlow",
+    "searchNames": [
+      "Harlow"
+    ],
     "officialName": "Harlow Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -3893,6 +4287,10 @@
     "gss": "E07000074",
     "slug": "maldon",
     "name": "Maldon",
+    "displayName": "Maldon",
+    "searchNames": [
+      "Maldon"
+    ],
     "officialName": "Maldon Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -3933,6 +4331,10 @@
     "gss": "E07000075",
     "slug": "rochford",
     "name": "Rochford",
+    "displayName": "Rochford",
+    "searchNames": [
+      "Rochford"
+    ],
     "officialName": "Rochford District Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -3973,6 +4375,10 @@
     "gss": "E07000076",
     "slug": "tendring",
     "name": "Tendring",
+    "displayName": "Tendring",
+    "searchNames": [
+      "Tendring"
+    ],
     "officialName": "Tendring Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -4013,6 +4419,10 @@
     "gss": "E07000077",
     "slug": "uttlesford",
     "name": "Uttlesford",
+    "displayName": "Uttlesford",
+    "searchNames": [
+      "Uttlesford"
+    ],
     "officialName": "Uttlesford Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -4053,6 +4463,10 @@
     "gss": "E07000078",
     "slug": "cheltenham",
     "name": "Cheltenham",
+    "displayName": "Cheltenham",
+    "searchNames": [
+      "Cheltenham"
+    ],
     "officialName": "Cheltenham Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -4093,6 +4507,10 @@
     "gss": "E07000079",
     "slug": "cotswold",
     "name": "Cotswold",
+    "displayName": "Cotswold",
+    "searchNames": [
+      "Cotswold"
+    ],
     "officialName": "Cotswold Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -4133,6 +4551,10 @@
     "gss": "E07000080",
     "slug": "forest-of-dean",
     "name": "Forest of Dean",
+    "displayName": "Forest of Dean",
+    "searchNames": [
+      "Forest of Dean"
+    ],
     "officialName": "Forest of Dean Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -4173,6 +4595,10 @@
     "gss": "E07000081",
     "slug": "gloucester",
     "name": "Gloucester",
+    "displayName": "Gloucester",
+    "searchNames": [
+      "Gloucester"
+    ],
     "officialName": "Gloucester Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -4213,6 +4639,10 @@
     "gss": "E07000082",
     "slug": "stroud",
     "name": "Stroud",
+    "displayName": "Stroud",
+    "searchNames": [
+      "Stroud"
+    ],
     "officialName": "Stroud Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -4253,6 +4683,10 @@
     "gss": "E07000083",
     "slug": "tewkesbury",
     "name": "Tewkesbury",
+    "displayName": "Tewkesbury",
+    "searchNames": [
+      "Tewkesbury"
+    ],
     "officialName": "Tewkesbury Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -4293,6 +4727,10 @@
     "gss": "E07000084",
     "slug": "basingstoke-and-deane",
     "name": "Basingstoke and Deane",
+    "displayName": "Basingstoke and Deane",
+    "searchNames": [
+      "Basingstoke and Deane"
+    ],
     "officialName": "Basingstoke & Deane Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -4333,6 +4771,10 @@
     "gss": "E07000085",
     "slug": "east-hampshire",
     "name": "East Hampshire",
+    "displayName": "East Hampshire",
+    "searchNames": [
+      "East Hampshire"
+    ],
     "officialName": "East Hampshire Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -4373,6 +4815,10 @@
     "gss": "E07000086",
     "slug": "eastleigh",
     "name": "Eastleigh",
+    "displayName": "Eastleigh",
+    "searchNames": [
+      "Eastleigh"
+    ],
     "officialName": "Eastleigh Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -4413,6 +4859,10 @@
     "gss": "E07000087",
     "slug": "fareham",
     "name": "Fareham",
+    "displayName": "Fareham",
+    "searchNames": [
+      "Fareham"
+    ],
     "officialName": "Fareham Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -4453,6 +4903,10 @@
     "gss": "E07000088",
     "slug": "gosport",
     "name": "Gosport",
+    "displayName": "Gosport",
+    "searchNames": [
+      "Gosport"
+    ],
     "officialName": "Gosport Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -4493,6 +4947,10 @@
     "gss": "E07000089",
     "slug": "hart",
     "name": "Hart",
+    "displayName": "Hart",
+    "searchNames": [
+      "Hart"
+    ],
     "officialName": "Hart Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -4533,6 +4991,10 @@
     "gss": "E07000090",
     "slug": "havant",
     "name": "Havant",
+    "displayName": "Havant",
+    "searchNames": [
+      "Havant"
+    ],
     "officialName": "Havant Borough Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -4573,6 +5035,10 @@
     "gss": "E07000091",
     "slug": "new-forest",
     "name": "New Forest",
+    "displayName": "New Forest",
+    "searchNames": [
+      "New Forest"
+    ],
     "officialName": "New Forest Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -4613,6 +5079,10 @@
     "gss": "E07000092",
     "slug": "rushmoor",
     "name": "Rushmoor",
+    "displayName": "Rushmoor",
+    "searchNames": [
+      "Rushmoor"
+    ],
     "officialName": "Rushmoor Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -4653,6 +5123,10 @@
     "gss": "E07000093",
     "slug": "test-valley",
     "name": "Test Valley",
+    "displayName": "Test Valley",
+    "searchNames": [
+      "Test Valley"
+    ],
     "officialName": "Test Valley Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -4693,6 +5167,10 @@
     "gss": "E07000094",
     "slug": "winchester",
     "name": "Winchester",
+    "displayName": "Winchester",
+    "searchNames": [
+      "Winchester"
+    ],
     "officialName": "Winchester Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -4733,6 +5211,10 @@
     "gss": "E07000095",
     "slug": "broxbourne",
     "name": "Broxbourne",
+    "displayName": "Broxbourne",
+    "searchNames": [
+      "Broxbourne"
+    ],
     "officialName": "Broxbourne Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -4773,6 +5255,10 @@
     "gss": "E07000096",
     "slug": "dacorum",
     "name": "Dacorum",
+    "displayName": "Dacorum",
+    "searchNames": [
+      "Dacorum"
+    ],
     "officialName": "Dacorum Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -4813,6 +5299,10 @@
     "gss": "E07000098",
     "slug": "hertsmere",
     "name": "Hertsmere",
+    "displayName": "Hertsmere",
+    "searchNames": [
+      "Hertsmere"
+    ],
     "officialName": "Hertsmere Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -4853,6 +5343,10 @@
     "gss": "E07000099",
     "slug": "north-hertfordshire",
     "name": "North Hertfordshire",
+    "displayName": "North Hertfordshire",
+    "searchNames": [
+      "North Hertfordshire"
+    ],
     "officialName": "North Hertfordshire Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -4893,6 +5387,10 @@
     "gss": "E07000102",
     "slug": "three-rivers",
     "name": "Three Rivers",
+    "displayName": "Three Rivers",
+    "searchNames": [
+      "Three Rivers"
+    ],
     "officialName": "Three Rivers Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -4933,6 +5431,10 @@
     "gss": "E07000103",
     "slug": "watford",
     "name": "Watford",
+    "displayName": "Watford",
+    "searchNames": [
+      "Watford"
+    ],
     "officialName": "Watford Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -4973,6 +5475,10 @@
     "gss": "E07000105",
     "slug": "ashford",
     "name": "Ashford",
+    "displayName": "Ashford",
+    "searchNames": [
+      "Ashford"
+    ],
     "officialName": "Ashford Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -5013,6 +5519,10 @@
     "gss": "E07000106",
     "slug": "canterbury",
     "name": "Canterbury",
+    "displayName": "Canterbury",
+    "searchNames": [
+      "Canterbury"
+    ],
     "officialName": "Canterbury Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -5053,6 +5563,10 @@
     "gss": "E07000107",
     "slug": "dartford",
     "name": "Dartford",
+    "displayName": "Dartford",
+    "searchNames": [
+      "Dartford"
+    ],
     "officialName": "Dartford Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -5093,6 +5607,10 @@
     "gss": "E07000108",
     "slug": "dover",
     "name": "Dover",
+    "displayName": "Dover",
+    "searchNames": [
+      "Dover"
+    ],
     "officialName": "Dover Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -5133,6 +5651,10 @@
     "gss": "E07000109",
     "slug": "gravesham",
     "name": "Gravesham",
+    "displayName": "Gravesham",
+    "searchNames": [
+      "Gravesham"
+    ],
     "officialName": "Gravesham Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -5173,6 +5695,10 @@
     "gss": "E07000110",
     "slug": "maidstone",
     "name": "Maidstone",
+    "displayName": "Maidstone",
+    "searchNames": [
+      "Maidstone"
+    ],
     "officialName": "Maidstone Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -5213,6 +5739,10 @@
     "gss": "E07000111",
     "slug": "sevenoaks",
     "name": "Sevenoaks",
+    "displayName": "Sevenoaks",
+    "searchNames": [
+      "Sevenoaks"
+    ],
     "officialName": "Sevenoaks Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -5253,6 +5783,10 @@
     "gss": "E07000112",
     "slug": "shepway",
     "name": "Shepway",
+    "displayName": "Shepway",
+    "searchNames": [
+      "Shepway"
+    ],
     "officialName": "Folkestone & Hythe Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -5293,6 +5827,10 @@
     "gss": "E07000113",
     "slug": "swale",
     "name": "Swale",
+    "displayName": "Swale",
+    "searchNames": [
+      "Swale"
+    ],
     "officialName": "Swale Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -5333,6 +5871,10 @@
     "gss": "E07000114",
     "slug": "thanet",
     "name": "Thanet",
+    "displayName": "Thanet",
+    "searchNames": [
+      "Thanet"
+    ],
     "officialName": "Thanet Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -5373,6 +5915,10 @@
     "gss": "E07000115",
     "slug": "tonbridge-and-malling",
     "name": "Tonbridge and Malling",
+    "displayName": "Tonbridge and Malling",
+    "searchNames": [
+      "Tonbridge and Malling"
+    ],
     "officialName": "Tonbridge & Malling Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -5413,6 +5959,10 @@
     "gss": "E07000116",
     "slug": "tunbridge-wells",
     "name": "Tunbridge Wells",
+    "displayName": "Tunbridge Wells",
+    "searchNames": [
+      "Tunbridge Wells"
+    ],
     "officialName": "Tunbridge Wells Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -5453,6 +6003,10 @@
     "gss": "E07000117",
     "slug": "burnley",
     "name": "Burnley",
+    "displayName": "Burnley",
+    "searchNames": [
+      "Burnley"
+    ],
     "officialName": "Burnley Borough Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -5498,6 +6052,10 @@
     "gss": "E07000118",
     "slug": "chorley",
     "name": "Chorley",
+    "displayName": "Chorley",
+    "searchNames": [
+      "Chorley"
+    ],
     "officialName": "Chorley Borough Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -5543,6 +6101,10 @@
     "gss": "E07000119",
     "slug": "fylde",
     "name": "Fylde",
+    "displayName": "Fylde",
+    "searchNames": [
+      "Fylde"
+    ],
     "officialName": "Fylde Borough Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -5588,6 +6150,10 @@
     "gss": "E07000120",
     "slug": "hyndburn",
     "name": "Hyndburn",
+    "displayName": "Hyndburn",
+    "searchNames": [
+      "Hyndburn"
+    ],
     "officialName": "Hyndburn Borough Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -5633,6 +6199,10 @@
     "gss": "E07000121",
     "slug": "lancaster",
     "name": "Lancaster",
+    "displayName": "Lancaster",
+    "searchNames": [
+      "Lancaster"
+    ],
     "officialName": "Lancaster City Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -5678,6 +6248,10 @@
     "gss": "E07000122",
     "slug": "pendle",
     "name": "Pendle",
+    "displayName": "Pendle",
+    "searchNames": [
+      "Pendle"
+    ],
     "officialName": "Pendle Borough Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -5723,6 +6297,10 @@
     "gss": "E07000123",
     "slug": "preston",
     "name": "Preston",
+    "displayName": "Preston",
+    "searchNames": [
+      "Preston"
+    ],
     "officialName": "Preston City Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -5768,6 +6346,10 @@
     "gss": "E07000124",
     "slug": "ribble-valley",
     "name": "Ribble Valley",
+    "displayName": "Ribble Valley",
+    "searchNames": [
+      "Ribble Valley"
+    ],
     "officialName": "Ribble Valley Borough Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -5813,6 +6395,10 @@
     "gss": "E07000125",
     "slug": "rossendale",
     "name": "Rossendale",
+    "displayName": "Rossendale",
+    "searchNames": [
+      "Rossendale"
+    ],
     "officialName": "Rossendale Borough Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -5858,6 +6444,10 @@
     "gss": "E07000126",
     "slug": "south-ribble",
     "name": "South Ribble",
+    "displayName": "South Ribble",
+    "searchNames": [
+      "South Ribble"
+    ],
     "officialName": "South Ribble Borough Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -5903,6 +6493,10 @@
     "gss": "E07000127",
     "slug": "west-lancashire",
     "name": "West Lancashire",
+    "displayName": "West Lancashire",
+    "searchNames": [
+      "West Lancashire"
+    ],
     "officialName": "West Lancashire Borough Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -5948,6 +6542,10 @@
     "gss": "E07000128",
     "slug": "wyre",
     "name": "Wyre",
+    "displayName": "Wyre",
+    "searchNames": [
+      "Wyre"
+    ],
     "officialName": "Wyre Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -5993,6 +6591,10 @@
     "gss": "E07000129",
     "slug": "blaby",
     "name": "Blaby",
+    "displayName": "Blaby",
+    "searchNames": [
+      "Blaby"
+    ],
     "officialName": "Blaby Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -6033,6 +6635,10 @@
     "gss": "E07000130",
     "slug": "charnwood",
     "name": "Charnwood",
+    "displayName": "Charnwood",
+    "searchNames": [
+      "Charnwood"
+    ],
     "officialName": "Charnwood Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -6073,6 +6679,10 @@
     "gss": "E07000131",
     "slug": "harborough",
     "name": "Harborough",
+    "displayName": "Harborough",
+    "searchNames": [
+      "Harborough"
+    ],
     "officialName": "Harborough Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -6113,6 +6723,10 @@
     "gss": "E07000132",
     "slug": "hinckley-and-bosworth",
     "name": "Hinckley and Bosworth",
+    "displayName": "Hinckley and Bosworth",
+    "searchNames": [
+      "Hinckley and Bosworth"
+    ],
     "officialName": "Hinckley & Bosworth Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -6153,6 +6767,10 @@
     "gss": "E07000133",
     "slug": "melton",
     "name": "Melton",
+    "displayName": "Melton",
+    "searchNames": [
+      "Melton"
+    ],
     "officialName": "Melton Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -6193,6 +6811,10 @@
     "gss": "E07000134",
     "slug": "north-west-leicestershire",
     "name": "North West Leicestershire",
+    "displayName": "North West Leicestershire",
+    "searchNames": [
+      "North West Leicestershire"
+    ],
     "officialName": "North West Leicestershire Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -6233,6 +6855,10 @@
     "gss": "E07000135",
     "slug": "oadby-and-wigston",
     "name": "Oadby and Wigston",
+    "displayName": "Oadby and Wigston",
+    "searchNames": [
+      "Oadby and Wigston"
+    ],
     "officialName": "Oadby & Wigston Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -6273,6 +6899,10 @@
     "gss": "E07000136",
     "slug": "boston",
     "name": "Boston",
+    "displayName": "Boston",
+    "searchNames": [
+      "Boston"
+    ],
     "officialName": "Boston Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -6313,6 +6943,10 @@
     "gss": "E07000137",
     "slug": "east-lindsey",
     "name": "East Lindsey",
+    "displayName": "East Lindsey",
+    "searchNames": [
+      "East Lindsey"
+    ],
     "officialName": "East Lindsey Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -6353,6 +6987,10 @@
     "gss": "E07000138",
     "slug": "lincoln",
     "name": "Lincoln",
+    "displayName": "Lincoln",
+    "searchNames": [
+      "Lincoln"
+    ],
     "officialName": "Lincoln Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -6393,6 +7031,10 @@
     "gss": "E07000139",
     "slug": "north-kesteven",
     "name": "North Kesteven",
+    "displayName": "North Kesteven",
+    "searchNames": [
+      "North Kesteven"
+    ],
     "officialName": "North Kesteven Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -6433,6 +7075,10 @@
     "gss": "E07000140",
     "slug": "south-holland",
     "name": "South Holland",
+    "displayName": "South Holland",
+    "searchNames": [
+      "South Holland"
+    ],
     "officialName": "South Holland Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -6473,6 +7119,10 @@
     "gss": "E07000141",
     "slug": "south-kesteven",
     "name": "South Kesteven",
+    "displayName": "South Kesteven",
+    "searchNames": [
+      "South Kesteven"
+    ],
     "officialName": "South Kesteven Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -6513,6 +7163,10 @@
     "gss": "E07000142",
     "slug": "west-lindsey",
     "name": "West Lindsey",
+    "displayName": "West Lindsey",
+    "searchNames": [
+      "West Lindsey"
+    ],
     "officialName": "West Lindsey Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -6553,6 +7207,10 @@
     "gss": "E07000143",
     "slug": "breckland",
     "name": "Breckland",
+    "displayName": "Breckland",
+    "searchNames": [
+      "Breckland"
+    ],
     "officialName": "Breckland Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -6593,6 +7251,10 @@
     "gss": "E07000144",
     "slug": "broadland",
     "name": "Broadland",
+    "displayName": "Broadland",
+    "searchNames": [
+      "Broadland"
+    ],
     "officialName": "Broadland Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -6633,6 +7295,10 @@
     "gss": "E07000145",
     "slug": "great-yarmouth",
     "name": "Great Yarmouth",
+    "displayName": "Great Yarmouth",
+    "searchNames": [
+      "Great Yarmouth"
+    ],
     "officialName": "Great Yarmouth Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -6673,6 +7339,10 @@
     "gss": "E07000146",
     "slug": "king-s-lynn-and-west-norfolk",
     "name": "King's Lynn and West Norfolk",
+    "displayName": "King's Lynn and West Norfolk",
+    "searchNames": [
+      "King's Lynn and West Norfolk"
+    ],
     "officialName": "King's Lynn & West Norfolk Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -6713,6 +7383,10 @@
     "gss": "E07000147",
     "slug": "north-norfolk",
     "name": "North Norfolk",
+    "displayName": "North Norfolk",
+    "searchNames": [
+      "North Norfolk"
+    ],
     "officialName": "North Norfolk Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -6753,6 +7427,10 @@
     "gss": "E07000148",
     "slug": "norwich",
     "name": "Norwich",
+    "displayName": "Norwich",
+    "searchNames": [
+      "Norwich"
+    ],
     "officialName": "Norwich Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -6793,6 +7471,10 @@
     "gss": "E07000149",
     "slug": "south-norfolk",
     "name": "South Norfolk",
+    "displayName": "South Norfolk",
+    "searchNames": [
+      "South Norfolk"
+    ],
     "officialName": "South Norfolk Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -6833,6 +7515,10 @@
     "gss": "E07000170",
     "slug": "ashfield",
     "name": "Ashfield",
+    "displayName": "Ashfield",
+    "searchNames": [
+      "Ashfield"
+    ],
     "officialName": "Ashfield Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -6873,6 +7559,10 @@
     "gss": "E07000171",
     "slug": "bassetlaw",
     "name": "Bassetlaw",
+    "displayName": "Bassetlaw",
+    "searchNames": [
+      "Bassetlaw"
+    ],
     "officialName": "Bassetlaw Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -6913,6 +7603,10 @@
     "gss": "E07000172",
     "slug": "broxtowe",
     "name": "Broxtowe",
+    "displayName": "Broxtowe",
+    "searchNames": [
+      "Broxtowe"
+    ],
     "officialName": "Broxtowe Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -6953,6 +7647,10 @@
     "gss": "E07000173",
     "slug": "gedling",
     "name": "Gedling",
+    "displayName": "Gedling",
+    "searchNames": [
+      "Gedling"
+    ],
     "officialName": "Gedling Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -6993,6 +7691,10 @@
     "gss": "E07000174",
     "slug": "mansfield",
     "name": "Mansfield",
+    "displayName": "Mansfield",
+    "searchNames": [
+      "Mansfield"
+    ],
     "officialName": "Mansfield Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -7033,6 +7735,10 @@
     "gss": "E07000175",
     "slug": "newark-and-sherwood",
     "name": "Newark and Sherwood",
+    "displayName": "Newark and Sherwood",
+    "searchNames": [
+      "Newark and Sherwood"
+    ],
     "officialName": "Newark & Sherwood Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -7073,6 +7779,10 @@
     "gss": "E07000176",
     "slug": "rushcliffe",
     "name": "Rushcliffe",
+    "displayName": "Rushcliffe",
+    "searchNames": [
+      "Rushcliffe"
+    ],
     "officialName": "Rushcliffe Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -7113,6 +7823,10 @@
     "gss": "E07000177",
     "slug": "cherwell",
     "name": "Cherwell",
+    "displayName": "Cherwell",
+    "searchNames": [
+      "Cherwell"
+    ],
     "officialName": "Cherwell Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -7153,6 +7867,10 @@
     "gss": "E07000178",
     "slug": "oxford",
     "name": "Oxford",
+    "displayName": "Oxford",
+    "searchNames": [
+      "Oxford"
+    ],
     "officialName": "Oxford Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -7193,6 +7911,10 @@
     "gss": "E07000179",
     "slug": "south-oxfordshire",
     "name": "South Oxfordshire",
+    "displayName": "South Oxfordshire",
+    "searchNames": [
+      "South Oxfordshire"
+    ],
     "officialName": "South Oxfordshire Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -7233,6 +7955,10 @@
     "gss": "E07000180",
     "slug": "vale-of-white-horse",
     "name": "Vale of White Horse",
+    "displayName": "Vale of White Horse",
+    "searchNames": [
+      "Vale of White Horse"
+    ],
     "officialName": "Vale of White Horse Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -7273,6 +7999,10 @@
     "gss": "E07000181",
     "slug": "west-oxfordshire",
     "name": "West Oxfordshire",
+    "displayName": "West Oxfordshire",
+    "searchNames": [
+      "West Oxfordshire"
+    ],
     "officialName": "West Oxfordshire Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -7313,6 +8043,10 @@
     "gss": "E07000192",
     "slug": "cannock-chase",
     "name": "Cannock Chase",
+    "displayName": "Cannock Chase",
+    "searchNames": [
+      "Cannock Chase"
+    ],
     "officialName": "Cannock Chase District Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -7353,6 +8087,10 @@
     "gss": "E07000193",
     "slug": "east-staffordshire",
     "name": "East Staffordshire",
+    "displayName": "East Staffordshire",
+    "searchNames": [
+      "East Staffordshire"
+    ],
     "officialName": "East Staffordshire Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -7393,6 +8131,10 @@
     "gss": "E07000194",
     "slug": "lichfield",
     "name": "Lichfield",
+    "displayName": "Lichfield",
+    "searchNames": [
+      "Lichfield"
+    ],
     "officialName": "Lichfield Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -7433,6 +8175,10 @@
     "gss": "E07000195",
     "slug": "newcastle-under-lyme",
     "name": "Newcastle-under-Lyme",
+    "displayName": "Newcastle-under-Lyme",
+    "searchNames": [
+      "Newcastle-under-Lyme"
+    ],
     "officialName": "Newcastle-under-Lyme Borough Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -7473,6 +8219,10 @@
     "gss": "E07000196",
     "slug": "south-staffordshire",
     "name": "South Staffordshire",
+    "displayName": "South Staffordshire",
+    "searchNames": [
+      "South Staffordshire"
+    ],
     "officialName": "South Staffordshire Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -7513,6 +8263,10 @@
     "gss": "E07000197",
     "slug": "stafford",
     "name": "Stafford",
+    "displayName": "Stafford",
+    "searchNames": [
+      "Stafford"
+    ],
     "officialName": "Stafford Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -7553,6 +8307,10 @@
     "gss": "E07000198",
     "slug": "staffordshire-moorlands",
     "name": "Staffordshire Moorlands",
+    "displayName": "Staffordshire Moorlands",
+    "searchNames": [
+      "Staffordshire Moorlands"
+    ],
     "officialName": "Staffordshire Moorlands Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -7593,6 +8351,10 @@
     "gss": "E07000199",
     "slug": "tamworth",
     "name": "Tamworth",
+    "displayName": "Tamworth",
+    "searchNames": [
+      "Tamworth"
+    ],
     "officialName": "Tamworth Borough Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -7633,6 +8395,10 @@
     "gss": "E07000200",
     "slug": "babergh",
     "name": "Babergh",
+    "displayName": "Babergh",
+    "searchNames": [
+      "Babergh"
+    ],
     "officialName": "Babergh Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -7673,6 +8439,10 @@
     "gss": "E07000202",
     "slug": "ipswich",
     "name": "Ipswich",
+    "displayName": "Ipswich",
+    "searchNames": [
+      "Ipswich"
+    ],
     "officialName": "Ipswich Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -7713,6 +8483,10 @@
     "gss": "E07000203",
     "slug": "mid-suffolk",
     "name": "Mid Suffolk",
+    "displayName": "Mid Suffolk",
+    "searchNames": [
+      "Mid Suffolk"
+    ],
     "officialName": "Mid Suffolk Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -7753,6 +8527,10 @@
     "gss": "E07000207",
     "slug": "elmbridge",
     "name": "Elmbridge",
+    "displayName": "Elmbridge",
+    "searchNames": [
+      "Elmbridge"
+    ],
     "officialName": "Elmbridge Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -7793,6 +8571,10 @@
     "gss": "E07000208",
     "slug": "epsom-and-ewell",
     "name": "Epsom and Ewell",
+    "displayName": "Epsom and Ewell",
+    "searchNames": [
+      "Epsom and Ewell"
+    ],
     "officialName": "Epsom & Ewell Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -7833,6 +8615,10 @@
     "gss": "E07000209",
     "slug": "guildford",
     "name": "Guildford",
+    "displayName": "Guildford",
+    "searchNames": [
+      "Guildford"
+    ],
     "officialName": "Guildford Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -7873,6 +8659,10 @@
     "gss": "E07000210",
     "slug": "mole-valley",
     "name": "Mole Valley",
+    "displayName": "Mole Valley",
+    "searchNames": [
+      "Mole Valley"
+    ],
     "officialName": "Mole Valley Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -7913,6 +8703,10 @@
     "gss": "E07000211",
     "slug": "reigate-and-banstead",
     "name": "Reigate and Banstead",
+    "displayName": "Reigate and Banstead",
+    "searchNames": [
+      "Reigate and Banstead"
+    ],
     "officialName": "Reigate and Banstead Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -7953,6 +8747,10 @@
     "gss": "E07000212",
     "slug": "runnymede",
     "name": "Runnymede",
+    "displayName": "Runnymede",
+    "searchNames": [
+      "Runnymede"
+    ],
     "officialName": "Runnymede Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -7993,6 +8791,10 @@
     "gss": "E07000213",
     "slug": "spelthorne",
     "name": "Spelthorne",
+    "displayName": "Spelthorne",
+    "searchNames": [
+      "Spelthorne"
+    ],
     "officialName": "Spelthorne Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -8033,6 +8835,10 @@
     "gss": "E07000214",
     "slug": "surrey-heath",
     "name": "Surrey Heath",
+    "displayName": "Surrey Heath",
+    "searchNames": [
+      "Surrey Heath"
+    ],
     "officialName": "Surrey Heath Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -8073,6 +8879,10 @@
     "gss": "E07000215",
     "slug": "tandridge",
     "name": "Tandridge",
+    "displayName": "Tandridge",
+    "searchNames": [
+      "Tandridge"
+    ],
     "officialName": "Tandridge Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -8113,6 +8923,10 @@
     "gss": "E07000216",
     "slug": "waverley",
     "name": "Waverley",
+    "displayName": "Waverley",
+    "searchNames": [
+      "Waverley"
+    ],
     "officialName": "Waverley Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -8153,6 +8967,10 @@
     "gss": "E07000217",
     "slug": "woking",
     "name": "Woking",
+    "displayName": "Woking",
+    "searchNames": [
+      "Woking"
+    ],
     "officialName": "Woking Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -8193,6 +9011,10 @@
     "gss": "E07000218",
     "slug": "north-warwickshire",
     "name": "North Warwickshire",
+    "displayName": "North Warwickshire",
+    "searchNames": [
+      "North Warwickshire"
+    ],
     "officialName": "North Warwickshire Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -8233,6 +9055,10 @@
     "gss": "E07000219",
     "slug": "nuneaton-and-bedworth",
     "name": "Nuneaton and Bedworth",
+    "displayName": "Nuneaton and Bedworth",
+    "searchNames": [
+      "Nuneaton and Bedworth"
+    ],
     "officialName": "Nuneaton and Bedworth Borough Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -8273,6 +9099,10 @@
     "gss": "E07000220",
     "slug": "rugby",
     "name": "Rugby",
+    "displayName": "Rugby",
+    "searchNames": [
+      "Rugby"
+    ],
     "officialName": "Rugby Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -8313,6 +9143,10 @@
     "gss": "E07000221",
     "slug": "stratford-on-avon",
     "name": "Stratford-on-Avon",
+    "displayName": "Stratford-on-Avon",
+    "searchNames": [
+      "Stratford-on-Avon"
+    ],
     "officialName": "Stratford-on-Avon Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -8353,6 +9187,10 @@
     "gss": "E07000222",
     "slug": "warwick",
     "name": "Warwick",
+    "displayName": "Warwick",
+    "searchNames": [
+      "Warwick"
+    ],
     "officialName": "Warwick Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -8393,6 +9231,10 @@
     "gss": "E07000223",
     "slug": "adur",
     "name": "Adur",
+    "displayName": "Adur",
+    "searchNames": [
+      "Adur"
+    ],
     "officialName": "Adur Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -8433,6 +9275,10 @@
     "gss": "E07000224",
     "slug": "arun",
     "name": "Arun",
+    "displayName": "Arun",
+    "searchNames": [
+      "Arun"
+    ],
     "officialName": "Arun Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -8473,6 +9319,10 @@
     "gss": "E07000225",
     "slug": "chichester",
     "name": "Chichester",
+    "displayName": "Chichester",
+    "searchNames": [
+      "Chichester"
+    ],
     "officialName": "Chichester Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -8513,6 +9363,10 @@
     "gss": "E07000226",
     "slug": "crawley",
     "name": "Crawley",
+    "displayName": "Crawley",
+    "searchNames": [
+      "Crawley"
+    ],
     "officialName": "Crawley Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -8553,6 +9407,10 @@
     "gss": "E07000227",
     "slug": "horsham",
     "name": "Horsham",
+    "displayName": "Horsham",
+    "searchNames": [
+      "Horsham"
+    ],
     "officialName": "Horsham Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -8593,6 +9451,10 @@
     "gss": "E07000228",
     "slug": "mid-sussex",
     "name": "Mid Sussex",
+    "displayName": "Mid Sussex",
+    "searchNames": [
+      "Mid Sussex"
+    ],
     "officialName": "Mid Sussex Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -8633,6 +9495,10 @@
     "gss": "E07000229",
     "slug": "worthing",
     "name": "Worthing",
+    "displayName": "Worthing",
+    "searchNames": [
+      "Worthing"
+    ],
     "officialName": "Worthing Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -8673,6 +9539,10 @@
     "gss": "E07000234",
     "slug": "bromsgrove",
     "name": "Bromsgrove",
+    "displayName": "Bromsgrove",
+    "searchNames": [
+      "Bromsgrove"
+    ],
     "officialName": "Bromsgrove Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -8713,6 +9583,10 @@
     "gss": "E07000235",
     "slug": "malvern-hills",
     "name": "Malvern Hills",
+    "displayName": "Malvern Hills",
+    "searchNames": [
+      "Malvern Hills"
+    ],
     "officialName": "Malvern Hills Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -8753,6 +9627,10 @@
     "gss": "E07000236",
     "slug": "redditch",
     "name": "Redditch",
+    "displayName": "Redditch",
+    "searchNames": [
+      "Redditch"
+    ],
     "officialName": "Redditch Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -8793,6 +9671,10 @@
     "gss": "E07000237",
     "slug": "worcester",
     "name": "Worcester",
+    "displayName": "Worcester",
+    "searchNames": [
+      "Worcester"
+    ],
     "officialName": "Worcester Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -8833,6 +9715,10 @@
     "gss": "E07000238",
     "slug": "wychavon",
     "name": "Wychavon",
+    "displayName": "Wychavon",
+    "searchNames": [
+      "Wychavon"
+    ],
     "officialName": "Wychavon Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -8873,6 +9759,10 @@
     "gss": "E07000239",
     "slug": "wyre-forest",
     "name": "Wyre Forest",
+    "displayName": "Wyre Forest",
+    "searchNames": [
+      "Wyre Forest"
+    ],
     "officialName": "Wyre Forest Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -8913,6 +9803,10 @@
     "gss": "E07000240",
     "slug": "st-albans",
     "name": "St Albans",
+    "displayName": "St Albans",
+    "searchNames": [
+      "St Albans"
+    ],
     "officialName": "St Albans Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -8953,6 +9847,10 @@
     "gss": "E07000241",
     "slug": "welwyn-hatfield",
     "name": "Welwyn Hatfield",
+    "displayName": "Welwyn Hatfield",
+    "searchNames": [
+      "Welwyn Hatfield"
+    ],
     "officialName": "Welwyn Hatfield Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -8993,6 +9891,10 @@
     "gss": "E07000242",
     "slug": "east-hertfordshire",
     "name": "East Hertfordshire",
+    "displayName": "East Hertfordshire",
+    "searchNames": [
+      "East Hertfordshire"
+    ],
     "officialName": "East Hertfordshire Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -9033,6 +9935,10 @@
     "gss": "E07000243",
     "slug": "stevenage",
     "name": "Stevenage",
+    "displayName": "Stevenage",
+    "searchNames": [
+      "Stevenage"
+    ],
     "officialName": "Stevenage Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -9073,6 +9979,10 @@
     "gss": "E07000244",
     "slug": "east-suffolk",
     "name": "East Suffolk",
+    "displayName": "East Suffolk",
+    "searchNames": [
+      "East Suffolk"
+    ],
     "officialName": "East Suffolk Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -9113,6 +10023,10 @@
     "gss": "E07000245",
     "slug": "west-suffolk",
     "name": "West Suffolk",
+    "displayName": "West Suffolk",
+    "searchNames": [
+      "West Suffolk"
+    ],
     "officialName": "West Suffolk Council",
     "type": "Non-metropolitan district",
     "country": "England",
@@ -9153,6 +10067,10 @@
     "gss": "E08000001",
     "slug": "bolton",
     "name": "Bolton",
+    "displayName": "Bolton",
+    "searchNames": [
+      "Bolton"
+    ],
     "officialName": "Bolton Council",
     "type": "Metropolitan district",
     "country": "England",
@@ -9193,6 +10111,10 @@
     "gss": "E08000002",
     "slug": "bury",
     "name": "Bury",
+    "displayName": "Bury",
+    "searchNames": [
+      "Bury"
+    ],
     "officialName": "Bury Council",
     "type": "Metropolitan district",
     "country": "England",
@@ -9233,6 +10155,10 @@
     "gss": "E08000003",
     "slug": "manchester",
     "name": "Manchester",
+    "displayName": "Manchester",
+    "searchNames": [
+      "Manchester"
+    ],
     "officialName": "Manchester Council",
     "type": "Metropolitan district",
     "country": "England",
@@ -9273,6 +10199,10 @@
     "gss": "E08000004",
     "slug": "oldham",
     "name": "Oldham",
+    "displayName": "Oldham",
+    "searchNames": [
+      "Oldham"
+    ],
     "officialName": "Oldham Council",
     "type": "Metropolitan district",
     "country": "England",
@@ -9313,6 +10243,10 @@
     "gss": "E08000005",
     "slug": "rochdale",
     "name": "Rochdale",
+    "displayName": "Rochdale",
+    "searchNames": [
+      "Rochdale"
+    ],
     "officialName": "Rochdale Metropolitan Borough Council",
     "type": "Metropolitan district",
     "country": "England",
@@ -9353,6 +10287,10 @@
     "gss": "E08000006",
     "slug": "salford",
     "name": "Salford",
+    "displayName": "Salford",
+    "searchNames": [
+      "Salford"
+    ],
     "officialName": "Salford Council",
     "type": "Metropolitan district",
     "country": "England",
@@ -9393,6 +10331,10 @@
     "gss": "E08000007",
     "slug": "stockport",
     "name": "Stockport",
+    "displayName": "Stockport",
+    "searchNames": [
+      "Stockport"
+    ],
     "officialName": "Stockport Council",
     "type": "Metropolitan district",
     "country": "England",
@@ -9433,6 +10375,10 @@
     "gss": "E08000008",
     "slug": "tameside",
     "name": "Tameside",
+    "displayName": "Tameside",
+    "searchNames": [
+      "Tameside"
+    ],
     "officialName": "Tameside Metropolitan Borough Council",
     "type": "Metropolitan district",
     "country": "England",
@@ -9473,6 +10419,10 @@
     "gss": "E08000009",
     "slug": "trafford",
     "name": "Trafford",
+    "displayName": "Trafford",
+    "searchNames": [
+      "Trafford"
+    ],
     "officialName": "Trafford Council",
     "type": "Metropolitan district",
     "country": "England",
@@ -9513,6 +10463,10 @@
     "gss": "E08000010",
     "slug": "wigan",
     "name": "Wigan",
+    "displayName": "Wigan",
+    "searchNames": [
+      "Wigan"
+    ],
     "officialName": "Wigan Metropolitan Borough Council",
     "type": "Metropolitan district",
     "country": "England",
@@ -9553,6 +10507,10 @@
     "gss": "E08000011",
     "slug": "knowsley",
     "name": "Knowsley",
+    "displayName": "Knowsley",
+    "searchNames": [
+      "Knowsley"
+    ],
     "officialName": "Knowsley Council",
     "type": "Metropolitan district",
     "country": "England",
@@ -9593,6 +10551,10 @@
     "gss": "E08000012",
     "slug": "liverpool",
     "name": "Liverpool",
+    "displayName": "Liverpool",
+    "searchNames": [
+      "Liverpool"
+    ],
     "officialName": "Liverpool Council",
     "type": "Metropolitan district",
     "country": "England",
@@ -9633,6 +10595,10 @@
     "gss": "E08000013",
     "slug": "st-helens",
     "name": "St Helens",
+    "displayName": "St Helens",
+    "searchNames": [
+      "St Helens"
+    ],
     "officialName": "St Helens Borough Council",
     "type": "Metropolitan district",
     "country": "England",
@@ -9673,6 +10639,10 @@
     "gss": "E08000014",
     "slug": "sefton",
     "name": "Sefton",
+    "displayName": "Sefton",
+    "searchNames": [
+      "Sefton"
+    ],
     "officialName": "Sefton Council",
     "type": "Metropolitan district",
     "country": "England",
@@ -9713,6 +10683,10 @@
     "gss": "E08000015",
     "slug": "wirral",
     "name": "Wirral",
+    "displayName": "Wirral",
+    "searchNames": [
+      "Wirral"
+    ],
     "officialName": "Wirral Council",
     "type": "Metropolitan district",
     "country": "England",
@@ -9753,6 +10727,10 @@
     "gss": "E08000017",
     "slug": "doncaster",
     "name": "Doncaster",
+    "displayName": "Doncaster",
+    "searchNames": [
+      "Doncaster"
+    ],
     "officialName": "City of Doncaster Council",
     "type": "Metropolitan district",
     "country": "England",
@@ -9793,6 +10771,10 @@
     "gss": "E08000018",
     "slug": "rotherham",
     "name": "Rotherham",
+    "displayName": "Rotherham",
+    "searchNames": [
+      "Rotherham"
+    ],
     "officialName": "Rotherham Council",
     "type": "Metropolitan district",
     "country": "England",
@@ -9833,6 +10815,10 @@
     "gss": "E08000021",
     "slug": "newcastle-upon-tyne",
     "name": "Newcastle upon Tyne",
+    "displayName": "Newcastle upon Tyne",
+    "searchNames": [
+      "Newcastle upon Tyne"
+    ],
     "officialName": "Newcastle upon Tyne City Council",
     "type": "Metropolitan district",
     "country": "England",
@@ -9873,6 +10859,10 @@
     "gss": "E08000022",
     "slug": "north-tyneside",
     "name": "North Tyneside",
+    "displayName": "North Tyneside",
+    "searchNames": [
+      "North Tyneside"
+    ],
     "officialName": "North Tyneside Council",
     "type": "Metropolitan district",
     "country": "England",
@@ -9913,6 +10903,10 @@
     "gss": "E08000023",
     "slug": "south-tyneside",
     "name": "South Tyneside",
+    "displayName": "South Tyneside",
+    "searchNames": [
+      "South Tyneside"
+    ],
     "officialName": "South Tyneside Council",
     "type": "Metropolitan district",
     "country": "England",
@@ -9953,6 +10947,10 @@
     "gss": "E08000024",
     "slug": "sunderland",
     "name": "Sunderland",
+    "displayName": "Sunderland",
+    "searchNames": [
+      "Sunderland"
+    ],
     "officialName": "Sunderland City Council",
     "type": "Metropolitan district",
     "country": "England",
@@ -9993,6 +10991,10 @@
     "gss": "E08000025",
     "slug": "birmingham",
     "name": "Birmingham",
+    "displayName": "Birmingham",
+    "searchNames": [
+      "Birmingham"
+    ],
     "officialName": "Birmingham Council",
     "type": "Metropolitan district",
     "country": "England",
@@ -10033,6 +11035,10 @@
     "gss": "E08000026",
     "slug": "coventry",
     "name": "Coventry",
+    "displayName": "Coventry",
+    "searchNames": [
+      "Coventry"
+    ],
     "officialName": "Coventry City Council",
     "type": "Metropolitan district",
     "country": "England",
@@ -10073,6 +11079,10 @@
     "gss": "E08000027",
     "slug": "dudley",
     "name": "Dudley",
+    "displayName": "Dudley",
+    "searchNames": [
+      "Dudley"
+    ],
     "officialName": "Dudley Metropolitan Borough Council",
     "type": "Metropolitan district",
     "country": "England",
@@ -10113,6 +11123,10 @@
     "gss": "E08000028",
     "slug": "sandwell",
     "name": "Sandwell",
+    "displayName": "Sandwell",
+    "searchNames": [
+      "Sandwell"
+    ],
     "officialName": "Sandwell Metropolitan Borough Council",
     "type": "Metropolitan district",
     "country": "England",
@@ -10153,6 +11167,10 @@
     "gss": "E08000029",
     "slug": "solihull",
     "name": "Solihull",
+    "displayName": "Solihull",
+    "searchNames": [
+      "Solihull"
+    ],
     "officialName": "Solihull Metropolitan Borough Council",
     "type": "Metropolitan district",
     "country": "England",
@@ -10193,6 +11211,10 @@
     "gss": "E08000030",
     "slug": "walsall",
     "name": "Walsall",
+    "displayName": "Walsall",
+    "searchNames": [
+      "Walsall"
+    ],
     "officialName": "Walsall Metropolitan Borough Council",
     "type": "Metropolitan district",
     "country": "England",
@@ -10233,6 +11255,10 @@
     "gss": "E08000031",
     "slug": "wolverhampton",
     "name": "Wolverhampton",
+    "displayName": "Wolverhampton",
+    "searchNames": [
+      "Wolverhampton"
+    ],
     "officialName": "Wolverhampton Council",
     "type": "Metropolitan district",
     "country": "England",
@@ -10273,6 +11299,10 @@
     "gss": "E08000032",
     "slug": "bradford",
     "name": "Bradford",
+    "displayName": "Bradford",
+    "searchNames": [
+      "Bradford"
+    ],
     "officialName": "City of Bradford Metropolitan District Council",
     "type": "Metropolitan district",
     "country": "England",
@@ -10313,6 +11343,10 @@
     "gss": "E08000033",
     "slug": "calderdale",
     "name": "Calderdale",
+    "displayName": "Calderdale",
+    "searchNames": [
+      "Calderdale"
+    ],
     "officialName": "Calderdale Metropolitan Borough Council",
     "type": "Metropolitan district",
     "country": "England",
@@ -10353,6 +11387,10 @@
     "gss": "E08000034",
     "slug": "kirklees",
     "name": "Kirklees",
+    "displayName": "Kirklees",
+    "searchNames": [
+      "Kirklees"
+    ],
     "officialName": "Kirklees Metropolitan Borough Council",
     "type": "Metropolitan district",
     "country": "England",
@@ -10393,6 +11431,10 @@
     "gss": "E08000035",
     "slug": "leeds",
     "name": "Leeds",
+    "displayName": "Leeds",
+    "searchNames": [
+      "Leeds"
+    ],
     "officialName": "Leeds Council",
     "type": "Metropolitan district",
     "country": "England",
@@ -10433,6 +11475,10 @@
     "gss": "E08000036",
     "slug": "wakefield",
     "name": "Wakefield",
+    "displayName": "Wakefield",
+    "searchNames": [
+      "Wakefield"
+    ],
     "officialName": "Wakefield Metropolitan District Council",
     "type": "Metropolitan district",
     "country": "England",
@@ -10473,6 +11519,10 @@
     "gss": "E08000037",
     "slug": "gateshead",
     "name": "Gateshead",
+    "displayName": "Gateshead",
+    "searchNames": [
+      "Gateshead"
+    ],
     "officialName": "Gateshead Metropolitan Borough Council",
     "type": "Metropolitan district",
     "country": "England",
@@ -10513,6 +11563,10 @@
     "gss": "E08000038",
     "slug": "barnsley",
     "name": "Barnsley",
+    "displayName": "Barnsley",
+    "searchNames": [
+      "Barnsley"
+    ],
     "officialName": "Barnsley",
     "type": "Metropolitan district",
     "country": "England",
@@ -10553,6 +11607,10 @@
     "gss": "E08000039",
     "slug": "sheffield",
     "name": "Sheffield",
+    "displayName": "Sheffield",
+    "searchNames": [
+      "Sheffield"
+    ],
     "officialName": "Sheffield",
     "type": "Metropolitan district",
     "country": "England",
@@ -10593,6 +11651,10 @@
     "gss": "E09000001",
     "slug": "city-of-london",
     "name": "City of London",
+    "displayName": "City of London",
+    "searchNames": [
+      "City of London"
+    ],
     "officialName": "City of London Corporation",
     "type": "London borough",
     "country": "England",
@@ -10633,6 +11695,10 @@
     "gss": "E09000002",
     "slug": "barking-and-dagenham",
     "name": "Barking and Dagenham",
+    "displayName": "Barking and Dagenham",
+    "searchNames": [
+      "Barking and Dagenham"
+    ],
     "officialName": "Barking & Dagenham Council",
     "type": "London borough",
     "country": "England",
@@ -10673,6 +11739,10 @@
     "gss": "E09000003",
     "slug": "barnet",
     "name": "Barnet",
+    "displayName": "Barnet",
+    "searchNames": [
+      "Barnet"
+    ],
     "officialName": "Barnet Council",
     "type": "London borough",
     "country": "England",
@@ -10713,6 +11783,10 @@
     "gss": "E09000004",
     "slug": "bexley",
     "name": "Bexley",
+    "displayName": "Bexley",
+    "searchNames": [
+      "Bexley"
+    ],
     "officialName": "Bexley Council",
     "type": "London borough",
     "country": "England",
@@ -10753,6 +11827,10 @@
     "gss": "E09000005",
     "slug": "brent",
     "name": "Brent",
+    "displayName": "Brent",
+    "searchNames": [
+      "Brent"
+    ],
     "officialName": "Brent Council",
     "type": "London borough",
     "country": "England",
@@ -10793,6 +11871,10 @@
     "gss": "E09000006",
     "slug": "bromley",
     "name": "Bromley",
+    "displayName": "Bromley",
+    "searchNames": [
+      "Bromley"
+    ],
     "officialName": "Bromley Council",
     "type": "London borough",
     "country": "England",
@@ -10833,6 +11915,10 @@
     "gss": "E09000007",
     "slug": "camden",
     "name": "Camden",
+    "displayName": "Camden",
+    "searchNames": [
+      "Camden"
+    ],
     "officialName": "Camden Council",
     "type": "London borough",
     "country": "England",
@@ -10873,6 +11959,10 @@
     "gss": "E09000008",
     "slug": "croydon",
     "name": "Croydon",
+    "displayName": "Croydon",
+    "searchNames": [
+      "Croydon"
+    ],
     "officialName": "Croydon Council",
     "type": "London borough",
     "country": "England",
@@ -10913,6 +12003,10 @@
     "gss": "E09000009",
     "slug": "ealing",
     "name": "Ealing",
+    "displayName": "Ealing",
+    "searchNames": [
+      "Ealing"
+    ],
     "officialName": "Ealing London Borough Council",
     "type": "London borough",
     "country": "England",
@@ -10953,6 +12047,10 @@
     "gss": "E09000010",
     "slug": "enfield",
     "name": "Enfield",
+    "displayName": "Enfield",
+    "searchNames": [
+      "Enfield"
+    ],
     "officialName": "Enfield Council",
     "type": "London borough",
     "country": "England",
@@ -10993,6 +12091,10 @@
     "gss": "E09000011",
     "slug": "greenwich",
     "name": "Greenwich",
+    "displayName": "Greenwich",
+    "searchNames": [
+      "Greenwich"
+    ],
     "officialName": "Greenwich Council",
     "type": "London borough",
     "country": "England",
@@ -11033,6 +12135,10 @@
     "gss": "E09000012",
     "slug": "hackney",
     "name": "Hackney",
+    "displayName": "Hackney",
+    "searchNames": [
+      "Hackney"
+    ],
     "officialName": "Hackney Council",
     "type": "London borough",
     "country": "England",
@@ -11073,6 +12179,10 @@
     "gss": "E09000013",
     "slug": "hammersmith-and-fulham",
     "name": "Hammersmith and Fulham",
+    "displayName": "Hammersmith and Fulham",
+    "searchNames": [
+      "Hammersmith and Fulham"
+    ],
     "officialName": "Hammersmith & Fulham Council",
     "type": "London borough",
     "country": "England",
@@ -11113,6 +12223,10 @@
     "gss": "E09000014",
     "slug": "haringey",
     "name": "Haringey",
+    "displayName": "Haringey",
+    "searchNames": [
+      "Haringey"
+    ],
     "officialName": "Haringey Council",
     "type": "London borough",
     "country": "England",
@@ -11153,6 +12267,10 @@
     "gss": "E09000015",
     "slug": "harrow",
     "name": "Harrow",
+    "displayName": "Harrow",
+    "searchNames": [
+      "Harrow"
+    ],
     "officialName": "Harrow Council",
     "type": "London borough",
     "country": "England",
@@ -11193,6 +12311,10 @@
     "gss": "E09000016",
     "slug": "havering",
     "name": "Havering",
+    "displayName": "Havering",
+    "searchNames": [
+      "Havering"
+    ],
     "officialName": "Havering London Borough Council",
     "type": "London borough",
     "country": "England",
@@ -11233,6 +12355,10 @@
     "gss": "E09000017",
     "slug": "hillingdon",
     "name": "Hillingdon",
+    "displayName": "Hillingdon",
+    "searchNames": [
+      "Hillingdon"
+    ],
     "officialName": "Hillingdon Council",
     "type": "London borough",
     "country": "England",
@@ -11273,6 +12399,10 @@
     "gss": "E09000018",
     "slug": "hounslow",
     "name": "Hounslow",
+    "displayName": "Hounslow",
+    "searchNames": [
+      "Hounslow"
+    ],
     "officialName": "Hounslow Council",
     "type": "London borough",
     "country": "England",
@@ -11313,6 +12443,10 @@
     "gss": "E09000019",
     "slug": "islington",
     "name": "Islington",
+    "displayName": "Islington",
+    "searchNames": [
+      "Islington"
+    ],
     "officialName": "Islington Council",
     "type": "London borough",
     "country": "England",
@@ -11353,6 +12487,10 @@
     "gss": "E09000020",
     "slug": "kensington-and-chelsea",
     "name": "Kensington and Chelsea",
+    "displayName": "Kensington and Chelsea",
+    "searchNames": [
+      "Kensington and Chelsea"
+    ],
     "officialName": "Kensington & Chelsea Council",
     "type": "London borough",
     "country": "England",
@@ -11393,6 +12531,10 @@
     "gss": "E09000021",
     "slug": "kingston-upon-thames",
     "name": "Kingston upon Thames",
+    "displayName": "Kingston upon Thames",
+    "searchNames": [
+      "Kingston upon Thames"
+    ],
     "officialName": "Kingston Upon Thames Council",
     "type": "London borough",
     "country": "England",
@@ -11433,6 +12575,10 @@
     "gss": "E09000022",
     "slug": "lambeth",
     "name": "Lambeth",
+    "displayName": "Lambeth",
+    "searchNames": [
+      "Lambeth"
+    ],
     "officialName": "Lambeth Council",
     "type": "London borough",
     "country": "England",
@@ -11473,6 +12619,10 @@
     "gss": "E09000023",
     "slug": "lewisham",
     "name": "Lewisham",
+    "displayName": "Lewisham",
+    "searchNames": [
+      "Lewisham"
+    ],
     "officialName": "Lewisham Council",
     "type": "London borough",
     "country": "England",
@@ -11513,6 +12663,10 @@
     "gss": "E09000024",
     "slug": "merton",
     "name": "Merton",
+    "displayName": "Merton",
+    "searchNames": [
+      "Merton"
+    ],
     "officialName": "Merton Council",
     "type": "London borough",
     "country": "England",
@@ -11553,6 +12707,10 @@
     "gss": "E09000025",
     "slug": "newham",
     "name": "Newham",
+    "displayName": "Newham",
+    "searchNames": [
+      "Newham"
+    ],
     "officialName": "Newham Council",
     "type": "London borough",
     "country": "England",
@@ -11593,6 +12751,10 @@
     "gss": "E09000026",
     "slug": "redbridge",
     "name": "Redbridge",
+    "displayName": "Redbridge",
+    "searchNames": [
+      "Redbridge"
+    ],
     "officialName": "Redbridge Council",
     "type": "London borough",
     "country": "England",
@@ -11633,6 +12795,10 @@
     "gss": "E09000027",
     "slug": "richmond-upon-thames",
     "name": "Richmond upon Thames",
+    "displayName": "Richmond upon Thames",
+    "searchNames": [
+      "Richmond upon Thames"
+    ],
     "officialName": "Richmond upon Thames Council",
     "type": "London borough",
     "country": "England",
@@ -11673,6 +12839,10 @@
     "gss": "E09000028",
     "slug": "southwark",
     "name": "Southwark",
+    "displayName": "Southwark",
+    "searchNames": [
+      "Southwark"
+    ],
     "officialName": "Southwark Council",
     "type": "London borough",
     "country": "England",
@@ -11713,6 +12883,10 @@
     "gss": "E09000029",
     "slug": "sutton",
     "name": "Sutton",
+    "displayName": "Sutton",
+    "searchNames": [
+      "Sutton"
+    ],
     "officialName": "Sutton Council",
     "type": "London borough",
     "country": "England",
@@ -11753,6 +12927,10 @@
     "gss": "E09000030",
     "slug": "tower-hamlets",
     "name": "Tower Hamlets",
+    "displayName": "Tower Hamlets",
+    "searchNames": [
+      "Tower Hamlets"
+    ],
     "officialName": "Tower Hamlets London Borough Council",
     "type": "London borough",
     "country": "England",
@@ -11793,6 +12971,10 @@
     "gss": "E09000031",
     "slug": "waltham-forest",
     "name": "Waltham Forest",
+    "displayName": "Waltham Forest",
+    "searchNames": [
+      "Waltham Forest"
+    ],
     "officialName": "Waltham Forest Council",
     "type": "London borough",
     "country": "England",
@@ -11833,6 +13015,10 @@
     "gss": "E09000032",
     "slug": "wandsworth",
     "name": "Wandsworth",
+    "displayName": "Wandsworth",
+    "searchNames": [
+      "Wandsworth"
+    ],
     "officialName": "Wandsworth Council",
     "type": "London borough",
     "country": "England",
@@ -11873,6 +13059,10 @@
     "gss": "E09000033",
     "slug": "westminster",
     "name": "Westminster",
+    "displayName": "Westminster",
+    "searchNames": [
+      "Westminster"
+    ],
     "officialName": "Westminster Council",
     "type": "London borough",
     "country": "England",
@@ -11913,6 +13103,10 @@
     "gss": "N09000001",
     "slug": "antrim-and-newtownabbey",
     "name": "Antrim and Newtownabbey",
+    "displayName": "Antrim and Newtownabbey",
+    "searchNames": [
+      "Antrim and Newtownabbey"
+    ],
     "officialName": "Antrim and Newtownabbey",
     "type": "Northern Ireland local government district",
     "country": "Northern Ireland",
@@ -11953,6 +13147,10 @@
     "gss": "N09000002",
     "slug": "armagh-city-banbridge-and-craigavon",
     "name": "Armagh City, Banbridge and Craigavon",
+    "displayName": "Armagh City, Banbridge and Craigavon",
+    "searchNames": [
+      "Armagh City, Banbridge and Craigavon"
+    ],
     "officialName": "Armagh City, Banbridge and Craigavon",
     "type": "Northern Ireland local government district",
     "country": "Northern Ireland",
@@ -11993,6 +13191,10 @@
     "gss": "N09000003",
     "slug": "belfast",
     "name": "Belfast",
+    "displayName": "Belfast",
+    "searchNames": [
+      "Belfast"
+    ],
     "officialName": "Belfast",
     "type": "Northern Ireland local government district",
     "country": "Northern Ireland",
@@ -12033,6 +13235,10 @@
     "gss": "N09000004",
     "slug": "causeway-coast-and-glens",
     "name": "Causeway Coast and Glens",
+    "displayName": "Causeway Coast and Glens",
+    "searchNames": [
+      "Causeway Coast and Glens"
+    ],
     "officialName": "Causeway Coast and Glens",
     "type": "Northern Ireland local government district",
     "country": "Northern Ireland",
@@ -12073,6 +13279,10 @@
     "gss": "N09000005",
     "slug": "derry-city-and-strabane",
     "name": "Derry City and Strabane",
+    "displayName": "Derry City and Strabane",
+    "searchNames": [
+      "Derry City and Strabane"
+    ],
     "officialName": "Derry City and Strabane",
     "type": "Northern Ireland local government district",
     "country": "Northern Ireland",
@@ -12113,6 +13323,10 @@
     "gss": "N09000006",
     "slug": "fermanagh-and-omagh",
     "name": "Fermanagh and Omagh",
+    "displayName": "Fermanagh and Omagh",
+    "searchNames": [
+      "Fermanagh and Omagh"
+    ],
     "officialName": "Fermanagh and Omagh",
     "type": "Northern Ireland local government district",
     "country": "Northern Ireland",
@@ -12153,6 +13367,10 @@
     "gss": "N09000007",
     "slug": "lisburn-and-castlereagh",
     "name": "Lisburn and Castlereagh",
+    "displayName": "Lisburn and Castlereagh",
+    "searchNames": [
+      "Lisburn and Castlereagh"
+    ],
     "officialName": "Lisburn and Castlereagh",
     "type": "Northern Ireland local government district",
     "country": "Northern Ireland",
@@ -12193,6 +13411,10 @@
     "gss": "N09000008",
     "slug": "mid-and-east-antrim",
     "name": "Mid and East Antrim",
+    "displayName": "Mid and East Antrim",
+    "searchNames": [
+      "Mid and East Antrim"
+    ],
     "officialName": "Mid and East Antrim",
     "type": "Northern Ireland local government district",
     "country": "Northern Ireland",
@@ -12233,6 +13455,10 @@
     "gss": "N09000009",
     "slug": "mid-ulster",
     "name": "Mid Ulster",
+    "displayName": "Mid Ulster",
+    "searchNames": [
+      "Mid Ulster"
+    ],
     "officialName": "Mid Ulster",
     "type": "Northern Ireland local government district",
     "country": "Northern Ireland",
@@ -12273,6 +13499,10 @@
     "gss": "N09000010",
     "slug": "newry-mourne-and-down",
     "name": "Newry, Mourne and Down",
+    "displayName": "Newry, Mourne and Down",
+    "searchNames": [
+      "Newry, Mourne and Down"
+    ],
     "officialName": "Newry, Mourne and Down",
     "type": "Northern Ireland local government district",
     "country": "Northern Ireland",
@@ -12313,6 +13543,10 @@
     "gss": "N09000011",
     "slug": "ards-and-north-down",
     "name": "Ards and North Down",
+    "displayName": "Ards and North Down",
+    "searchNames": [
+      "Ards and North Down"
+    ],
     "officialName": "Ards and North Down",
     "type": "Northern Ireland local government district",
     "country": "Northern Ireland",
@@ -12353,6 +13587,10 @@
     "gss": "S12000005",
     "slug": "clackmannanshire",
     "name": "Clackmannanshire",
+    "displayName": "Clackmannanshire",
+    "searchNames": [
+      "Clackmannanshire"
+    ],
     "officialName": "Clackmannanshire",
     "type": "Council area",
     "country": "Scotland",
@@ -12393,6 +13631,10 @@
     "gss": "S12000006",
     "slug": "dumfries-and-galloway",
     "name": "Dumfries and Galloway",
+    "displayName": "Dumfries and Galloway",
+    "searchNames": [
+      "Dumfries and Galloway"
+    ],
     "officialName": "Dumfries and Galloway",
     "type": "Council area",
     "country": "Scotland",
@@ -12433,6 +13675,10 @@
     "gss": "S12000008",
     "slug": "east-ayrshire",
     "name": "East Ayrshire",
+    "displayName": "East Ayrshire",
+    "searchNames": [
+      "East Ayrshire"
+    ],
     "officialName": "East Ayrshire",
     "type": "Council area",
     "country": "Scotland",
@@ -12473,6 +13719,10 @@
     "gss": "S12000010",
     "slug": "east-lothian",
     "name": "East Lothian",
+    "displayName": "East Lothian",
+    "searchNames": [
+      "East Lothian"
+    ],
     "officialName": "East Lothian",
     "type": "Council area",
     "country": "Scotland",
@@ -12513,6 +13763,10 @@
     "gss": "S12000011",
     "slug": "east-renfrewshire",
     "name": "East Renfrewshire",
+    "displayName": "East Renfrewshire",
+    "searchNames": [
+      "East Renfrewshire"
+    ],
     "officialName": "East Renfrewshire",
     "type": "Council area",
     "country": "Scotland",
@@ -12553,6 +13807,10 @@
     "gss": "S12000013",
     "slug": "na-h-eileanan-siar",
     "name": "Na h-Eileanan Siar",
+    "displayName": "Na h-Eileanan Siar",
+    "searchNames": [
+      "Na h-Eileanan Siar"
+    ],
     "officialName": "Na h-Eileanan Siar",
     "type": "Council area",
     "country": "Scotland",
@@ -12593,6 +13851,10 @@
     "gss": "S12000014",
     "slug": "falkirk",
     "name": "Falkirk",
+    "displayName": "Falkirk",
+    "searchNames": [
+      "Falkirk"
+    ],
     "officialName": "Falkirk",
     "type": "Council area",
     "country": "Scotland",
@@ -12633,6 +13895,10 @@
     "gss": "S12000017",
     "slug": "highland",
     "name": "Highland",
+    "displayName": "Highland",
+    "searchNames": [
+      "Highland"
+    ],
     "officialName": "Highland",
     "type": "Council area",
     "country": "Scotland",
@@ -12673,6 +13939,10 @@
     "gss": "S12000018",
     "slug": "inverclyde",
     "name": "Inverclyde",
+    "displayName": "Inverclyde",
+    "searchNames": [
+      "Inverclyde"
+    ],
     "officialName": "Inverclyde",
     "type": "Council area",
     "country": "Scotland",
@@ -12713,6 +13983,10 @@
     "gss": "S12000019",
     "slug": "midlothian",
     "name": "Midlothian",
+    "displayName": "Midlothian",
+    "searchNames": [
+      "Midlothian"
+    ],
     "officialName": "Midlothian",
     "type": "Council area",
     "country": "Scotland",
@@ -12753,6 +14027,10 @@
     "gss": "S12000020",
     "slug": "moray",
     "name": "Moray",
+    "displayName": "Moray",
+    "searchNames": [
+      "Moray"
+    ],
     "officialName": "Moray",
     "type": "Council area",
     "country": "Scotland",
@@ -12793,6 +14071,10 @@
     "gss": "S12000021",
     "slug": "north-ayrshire",
     "name": "North Ayrshire",
+    "displayName": "North Ayrshire",
+    "searchNames": [
+      "North Ayrshire"
+    ],
     "officialName": "North Ayrshire",
     "type": "Council area",
     "country": "Scotland",
@@ -12833,6 +14115,10 @@
     "gss": "S12000023",
     "slug": "orkney-islands",
     "name": "Orkney Islands",
+    "displayName": "Orkney Islands",
+    "searchNames": [
+      "Orkney Islands"
+    ],
     "officialName": "Orkney Islands",
     "type": "Council area",
     "country": "Scotland",
@@ -12873,6 +14159,10 @@
     "gss": "S12000026",
     "slug": "scottish-borders",
     "name": "Scottish Borders",
+    "displayName": "Scottish Borders",
+    "searchNames": [
+      "Scottish Borders"
+    ],
     "officialName": "Scottish Borders",
     "type": "Council area",
     "country": "Scotland",
@@ -12913,6 +14203,10 @@
     "gss": "S12000027",
     "slug": "shetland-islands",
     "name": "Shetland Islands",
+    "displayName": "Shetland Islands",
+    "searchNames": [
+      "Shetland Islands"
+    ],
     "officialName": "Shetland Islands",
     "type": "Council area",
     "country": "Scotland",
@@ -12953,6 +14247,10 @@
     "gss": "S12000028",
     "slug": "south-ayrshire",
     "name": "South Ayrshire",
+    "displayName": "South Ayrshire",
+    "searchNames": [
+      "South Ayrshire"
+    ],
     "officialName": "South Ayrshire",
     "type": "Council area",
     "country": "Scotland",
@@ -12993,6 +14291,10 @@
     "gss": "S12000029",
     "slug": "south-lanarkshire",
     "name": "South Lanarkshire",
+    "displayName": "South Lanarkshire",
+    "searchNames": [
+      "South Lanarkshire"
+    ],
     "officialName": "South Lanarkshire",
     "type": "Council area",
     "country": "Scotland",
@@ -13033,6 +14335,10 @@
     "gss": "S12000030",
     "slug": "stirling",
     "name": "Stirling",
+    "displayName": "Stirling",
+    "searchNames": [
+      "Stirling"
+    ],
     "officialName": "Stirling",
     "type": "Council area",
     "country": "Scotland",
@@ -13073,6 +14379,10 @@
     "gss": "S12000033",
     "slug": "aberdeen-city",
     "name": "Aberdeen City",
+    "displayName": "Aberdeen City",
+    "searchNames": [
+      "Aberdeen City"
+    ],
     "officialName": "Aberdeen City",
     "type": "Council area",
     "country": "Scotland",
@@ -13113,6 +14423,10 @@
     "gss": "S12000034",
     "slug": "aberdeenshire",
     "name": "Aberdeenshire",
+    "displayName": "Aberdeenshire",
+    "searchNames": [
+      "Aberdeenshire"
+    ],
     "officialName": "Aberdeenshire",
     "type": "Council area",
     "country": "Scotland",
@@ -13153,6 +14467,10 @@
     "gss": "S12000035",
     "slug": "argyll-and-bute",
     "name": "Argyll and Bute",
+    "displayName": "Argyll and Bute",
+    "searchNames": [
+      "Argyll and Bute"
+    ],
     "officialName": "Argyll and Bute",
     "type": "Council area",
     "country": "Scotland",
@@ -13193,6 +14511,10 @@
     "gss": "S12000036",
     "slug": "city-of-edinburgh",
     "name": "City of Edinburgh",
+    "displayName": "City of Edinburgh",
+    "searchNames": [
+      "City of Edinburgh"
+    ],
     "officialName": "City of Edinburgh",
     "type": "Council area",
     "country": "Scotland",
@@ -13233,6 +14555,10 @@
     "gss": "S12000038",
     "slug": "renfrewshire",
     "name": "Renfrewshire",
+    "displayName": "Renfrewshire",
+    "searchNames": [
+      "Renfrewshire"
+    ],
     "officialName": "Renfrewshire",
     "type": "Council area",
     "country": "Scotland",
@@ -13273,6 +14599,10 @@
     "gss": "S12000039",
     "slug": "west-dunbartonshire",
     "name": "West Dunbartonshire",
+    "displayName": "West Dunbartonshire",
+    "searchNames": [
+      "West Dunbartonshire"
+    ],
     "officialName": "West Dunbartonshire",
     "type": "Council area",
     "country": "Scotland",
@@ -13313,6 +14643,10 @@
     "gss": "S12000040",
     "slug": "west-lothian",
     "name": "West Lothian",
+    "displayName": "West Lothian",
+    "searchNames": [
+      "West Lothian"
+    ],
     "officialName": "West Lothian",
     "type": "Council area",
     "country": "Scotland",
@@ -13353,6 +14687,10 @@
     "gss": "S12000041",
     "slug": "angus",
     "name": "Angus",
+    "displayName": "Angus",
+    "searchNames": [
+      "Angus"
+    ],
     "officialName": "Angus",
     "type": "Council area",
     "country": "Scotland",
@@ -13393,6 +14731,10 @@
     "gss": "S12000042",
     "slug": "dundee-city",
     "name": "Dundee City",
+    "displayName": "Dundee City",
+    "searchNames": [
+      "Dundee City"
+    ],
     "officialName": "Dundee City",
     "type": "Council area",
     "country": "Scotland",
@@ -13433,6 +14775,10 @@
     "gss": "S12000045",
     "slug": "east-dunbartonshire",
     "name": "East Dunbartonshire",
+    "displayName": "East Dunbartonshire",
+    "searchNames": [
+      "East Dunbartonshire"
+    ],
     "officialName": "East Dunbartonshire",
     "type": "Council area",
     "country": "Scotland",
@@ -13473,6 +14819,10 @@
     "gss": "S12000047",
     "slug": "fife",
     "name": "Fife",
+    "displayName": "Fife",
+    "searchNames": [
+      "Fife"
+    ],
     "officialName": "Fife",
     "type": "Council area",
     "country": "Scotland",
@@ -13513,6 +14863,10 @@
     "gss": "S12000048",
     "slug": "perth-and-kinross",
     "name": "Perth and Kinross",
+    "displayName": "Perth and Kinross",
+    "searchNames": [
+      "Perth and Kinross"
+    ],
     "officialName": "Perth and Kinross",
     "type": "Council area",
     "country": "Scotland",
@@ -13553,6 +14907,10 @@
     "gss": "S12000049",
     "slug": "glasgow-city",
     "name": "Glasgow City",
+    "displayName": "Glasgow City",
+    "searchNames": [
+      "Glasgow City"
+    ],
     "officialName": "Glasgow City",
     "type": "Council area",
     "country": "Scotland",
@@ -13593,6 +14951,10 @@
     "gss": "S12000050",
     "slug": "north-lanarkshire",
     "name": "North Lanarkshire",
+    "displayName": "North Lanarkshire",
+    "searchNames": [
+      "North Lanarkshire"
+    ],
     "officialName": "North Lanarkshire",
     "type": "Council area",
     "country": "Scotland",
@@ -13633,6 +14995,10 @@
     "gss": "W06000001",
     "slug": "isle-of-anglesey",
     "name": "Isle of Anglesey",
+    "displayName": "Isle of Anglesey",
+    "searchNames": [
+      "Isle of Anglesey"
+    ],
     "officialName": "Isle of Anglesey",
     "type": "Welsh principal area",
     "country": "Wales",
@@ -13673,6 +15039,10 @@
     "gss": "W06000002",
     "slug": "gwynedd",
     "name": "Gwynedd",
+    "displayName": "Gwynedd",
+    "searchNames": [
+      "Gwynedd"
+    ],
     "officialName": "Gwynedd",
     "type": "Welsh principal area",
     "country": "Wales",
@@ -13713,6 +15083,10 @@
     "gss": "W06000003",
     "slug": "conwy",
     "name": "Conwy",
+    "displayName": "Conwy",
+    "searchNames": [
+      "Conwy"
+    ],
     "officialName": "Conwy",
     "type": "Welsh principal area",
     "country": "Wales",
@@ -13753,6 +15127,10 @@
     "gss": "W06000004",
     "slug": "denbighshire",
     "name": "Denbighshire",
+    "displayName": "Denbighshire",
+    "searchNames": [
+      "Denbighshire"
+    ],
     "officialName": "Denbighshire",
     "type": "Welsh principal area",
     "country": "Wales",
@@ -13793,6 +15171,10 @@
     "gss": "W06000005",
     "slug": "flintshire",
     "name": "Flintshire",
+    "displayName": "Flintshire",
+    "searchNames": [
+      "Flintshire"
+    ],
     "officialName": "Flintshire",
     "type": "Welsh principal area",
     "country": "Wales",
@@ -13833,6 +15215,10 @@
     "gss": "W06000006",
     "slug": "wrexham",
     "name": "Wrexham",
+    "displayName": "Wrexham",
+    "searchNames": [
+      "Wrexham"
+    ],
     "officialName": "Wrexham",
     "type": "Welsh principal area",
     "country": "Wales",
@@ -13873,6 +15259,10 @@
     "gss": "W06000008",
     "slug": "ceredigion",
     "name": "Ceredigion",
+    "displayName": "Ceredigion",
+    "searchNames": [
+      "Ceredigion"
+    ],
     "officialName": "Ceredigion",
     "type": "Welsh principal area",
     "country": "Wales",
@@ -13913,6 +15303,10 @@
     "gss": "W06000009",
     "slug": "pembrokeshire",
     "name": "Pembrokeshire",
+    "displayName": "Pembrokeshire",
+    "searchNames": [
+      "Pembrokeshire"
+    ],
     "officialName": "Pembrokeshire",
     "type": "Welsh principal area",
     "country": "Wales",
@@ -13953,6 +15347,10 @@
     "gss": "W06000010",
     "slug": "carmarthenshire",
     "name": "Carmarthenshire",
+    "displayName": "Carmarthenshire",
+    "searchNames": [
+      "Carmarthenshire"
+    ],
     "officialName": "Carmarthenshire",
     "type": "Welsh principal area",
     "country": "Wales",
@@ -13993,6 +15391,10 @@
     "gss": "W06000011",
     "slug": "swansea",
     "name": "Swansea",
+    "displayName": "Swansea",
+    "searchNames": [
+      "Swansea"
+    ],
     "officialName": "Swansea",
     "type": "Welsh principal area",
     "country": "Wales",
@@ -14033,6 +15435,10 @@
     "gss": "W06000012",
     "slug": "neath-port-talbot",
     "name": "Neath Port Talbot",
+    "displayName": "Neath Port Talbot",
+    "searchNames": [
+      "Neath Port Talbot"
+    ],
     "officialName": "Neath Port Talbot",
     "type": "Welsh principal area",
     "country": "Wales",
@@ -14073,6 +15479,10 @@
     "gss": "W06000013",
     "slug": "bridgend",
     "name": "Bridgend",
+    "displayName": "Bridgend",
+    "searchNames": [
+      "Bridgend"
+    ],
     "officialName": "Bridgend",
     "type": "Welsh principal area",
     "country": "Wales",
@@ -14113,6 +15523,10 @@
     "gss": "W06000014",
     "slug": "vale-of-glamorgan",
     "name": "Vale of Glamorgan",
+    "displayName": "Vale of Glamorgan",
+    "searchNames": [
+      "Vale of Glamorgan"
+    ],
     "officialName": "Vale of Glamorgan",
     "type": "Welsh principal area",
     "country": "Wales",
@@ -14153,6 +15567,10 @@
     "gss": "W06000015",
     "slug": "cardiff",
     "name": "Cardiff",
+    "displayName": "Cardiff",
+    "searchNames": [
+      "Cardiff"
+    ],
     "officialName": "Cardiff",
     "type": "Welsh principal area",
     "country": "Wales",
@@ -14193,6 +15611,10 @@
     "gss": "W06000016",
     "slug": "rhondda-cynon-taf",
     "name": "Rhondda Cynon Taf",
+    "displayName": "Rhondda Cynon Taf",
+    "searchNames": [
+      "Rhondda Cynon Taf"
+    ],
     "officialName": "Rhondda Cynon Taf",
     "type": "Welsh principal area",
     "country": "Wales",
@@ -14233,6 +15655,10 @@
     "gss": "W06000018",
     "slug": "caerphilly",
     "name": "Caerphilly",
+    "displayName": "Caerphilly",
+    "searchNames": [
+      "Caerphilly"
+    ],
     "officialName": "Caerphilly",
     "type": "Welsh principal area",
     "country": "Wales",
@@ -14273,6 +15699,10 @@
     "gss": "W06000019",
     "slug": "blaenau-gwent",
     "name": "Blaenau Gwent",
+    "displayName": "Blaenau Gwent",
+    "searchNames": [
+      "Blaenau Gwent"
+    ],
     "officialName": "Blaenau Gwent",
     "type": "Welsh principal area",
     "country": "Wales",
@@ -14313,6 +15743,10 @@
     "gss": "W06000020",
     "slug": "torfaen",
     "name": "Torfaen",
+    "displayName": "Torfaen",
+    "searchNames": [
+      "Torfaen"
+    ],
     "officialName": "Torfaen",
     "type": "Welsh principal area",
     "country": "Wales",
@@ -14353,6 +15787,10 @@
     "gss": "W06000021",
     "slug": "monmouthshire",
     "name": "Monmouthshire",
+    "displayName": "Monmouthshire",
+    "searchNames": [
+      "Monmouthshire"
+    ],
     "officialName": "Monmouthshire",
     "type": "Welsh principal area",
     "country": "Wales",
@@ -14393,6 +15831,10 @@
     "gss": "W06000022",
     "slug": "newport",
     "name": "Newport",
+    "displayName": "Newport",
+    "searchNames": [
+      "Newport"
+    ],
     "officialName": "Newport",
     "type": "Welsh principal area",
     "country": "Wales",
@@ -14433,6 +15875,10 @@
     "gss": "W06000023",
     "slug": "powys",
     "name": "Powys",
+    "displayName": "Powys",
+    "searchNames": [
+      "Powys"
+    ],
     "officialName": "Powys",
     "type": "Welsh principal area",
     "country": "Wales",
@@ -14473,6 +15919,10 @@
     "gss": "W06000024",
     "slug": "merthyr-tydfil",
     "name": "Merthyr Tydfil",
+    "displayName": "Merthyr Tydfil",
+    "searchNames": [
+      "Merthyr Tydfil"
+    ],
     "officialName": "Merthyr Tydfil",
     "type": "Welsh principal area",
     "country": "Wales",

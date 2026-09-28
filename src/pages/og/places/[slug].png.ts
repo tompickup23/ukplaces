@@ -20,7 +20,7 @@ export const GET: APIRoute = async ({ props }) => {
     .filter(({ signal }) => signal.value !== null && signal.label)
     .map(({ source, signal }) => ({ label: signal.label as string, value: formatSignalValue(signal), accent: source.accent }));
   const png = await renderOgCard({
-    heading: place.name,
+    heading: place.displayName,
     eyebrow: place.region === place.country ? `${place.type} · ${place.country}` : `${place.type} · ${place.region}`,
     lines,
     path: `/places/${place.slug}/`,

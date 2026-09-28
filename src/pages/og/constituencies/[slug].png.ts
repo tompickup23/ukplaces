@@ -25,7 +25,7 @@ export function getStaticPaths() {
 export const GET: APIRoute = async ({ props }) => {
   const constituency = (constituencies as Record<string, Constituency>)[props.slug as string];
   const region = resolveConstituencyRegion(constituency.region, constituency.ladCodes);
-  const authorities = constituency.ladCodes.map((gss) => placesByGss[gss]?.name ?? gss);
+  const authorities = constituency.ladCodes.map((gss) => placesByGss[gss]?.displayName ?? gss);
   const authorityText = authorities.length > 3
     ? `${authorities.slice(0, 3).join(", ")} and ${authorities.length - 3} more`
     : authorities.length > 1 ? `${authorities.slice(0, -1).join(", ")} and ${authorities.at(-1)}` : authorities[0];
