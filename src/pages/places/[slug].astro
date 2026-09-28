@@ -44,7 +44,7 @@ const regionCount = Object.values(placesByGss).filter((other) => other.region ==
 const countyDistrictCount = place.parentGss ? Object.values(placesByGss).filter((other) => other.parentGss === place.parentGss).length : 0;
 const whereText = regionIsCountry
   ? `in ${place.country}`
-  : `in ${place.county ? `the ceremonial county of ${place.county}, ` : ""}in the ${place.region} region of ${place.country}`;
+  : `${place.county ? `in the ceremonial county of ${place.county}, ` : ""}in the ${place.region} region of ${place.country}`;
 const NUMBER_WORDS = ["no", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"];
 const numberWord = (count: number) => NUMBER_WORDS[count] ?? String(count);
 const capitalise = (text: string) => text.charAt(0).toUpperCase() + text.slice(1);
