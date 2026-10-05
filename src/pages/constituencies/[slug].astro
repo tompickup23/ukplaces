@@ -1,4 +1,6 @@
 ---
+import { sourceLabel } from "../../lib/source-label";
+import { constituencyLastModified } from "../../lib/constituency-dates";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { SITE_URL, normalisePageTitle } from "../../lib/site";
 import { resolveConstituencyRegion } from "../../lib/regions";
@@ -39,7 +41,7 @@ const authorityList = authorityNames.length > 1
 const description = [
   `${constituency.name} parliamentary constituency.`,
   authorityList ? `${authorityNames.length > 1 ? "Local authorities" : "Local authority"}: ${authorityList}.` : "Constituent local authorities are not listed in the source file.",
-  constituency.result.winnerParty ? `2024 winner: ${constituency.result.winnerParty}.` : null,
+  constituency.result.winnerParty ? `2024 winner: ${sourceLabel(constituency.result.winnerParty)}.` : null,
   "Codes and source links on the record.",
 ].filter(Boolean).join(" ");
 const structuredData = [
@@ -49,7 +51,7 @@ const structuredData = [
     "@id": `${canonicalUrl}#webpage`,
     url: canonicalUrl,
     name: normalisePageTitle(`${constituency.name} constituency`),
-    ...(constituency.mp?.snapshotDate ? { dateModified: constituency.mp.snapshotDate } : {}),
+    dateModified: constituencyLastModified(constituency),
     about: { "@id": `${canonicalUrl}#constituency` },
   },
   {
@@ -135,7 +137,7 @@ const formatDate = (date: string) => new Intl.DateTimeFormat("en-GB", {
         <div class="place-geo__item">
           <dt class="place-geo__label">Election result</dt>
           <dd class="place-geo__value">
-            {constituency.result.winnerName && constituency.result.winnerParty && <><span>2024 winner: {constituency.result.winnerName} · {constituency.result.winnerParty}</span><br /></>}
+            {constituency.result.winnerName && constituency.result.winnerParty && <><span>2024 winner: {constituency.result.winnerName} · {sourceLabel(constituency.result.winnerParty)}</span><br /></>}
             <a href={constituency.result.url}>Open the UKE result record</a>
           </dd>
         </div>

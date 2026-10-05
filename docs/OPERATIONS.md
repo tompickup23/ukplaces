@@ -99,3 +99,19 @@ npm run test:local-links
 ```
 
 The build downloads the export, joins it on GSS code (falling back to an authority's ONS same-name predecessor code, from `src/data/registry/gss-predecessors.json`, where the export still uses the old one), then requests every link itself and publishes only those that return HTTP 200 without landing on a home page; a failure is retried once. Each place records why a link is missing. A place's date moves only when its links change. Northern Ireland has domestic rates, so it gets no council tax link. North Yorkshire and Somerset have no links in the export and no same-name predecessor, so they show none. A few council sites answer intermittently, so the published count varies by one to three links between runs. `gss-predecessors.json` comes from `node scripts/build-gss-predecessors.mjs <Changes.csv> "<edition>"` with the unzipped ONS Code History Database; rerun it after a GSS recode.
+
+## Constituency content dates
+
+The sitemap and WebPage structured data use the later of the MP source snapshot
+and the constituency record's last recorded change in UK Places. Source snapshot
+dates and the displayed MP source date stay unchanged.
+
+After committing a constituency registry update, run `npm run build:constituency-dates`
+from a checkout with the full registry history. Review and commit the resulting
+`src/data/registry/constituency-content-dates.json`. Each entry records the content
+hash, Git revision and its date. The constituency test refuses stale hashes;
+rebuilding unchanged data does not advance its date.
+
+`npm run check:landing` checks source and generated HTML punctuation, place
+indexability, Food Hygiene links and FSA provenance, and privacy wording.
+`npm run check:sitemap` requires a date and non-empty HTML for every listed URL.

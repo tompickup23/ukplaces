@@ -46,4 +46,5 @@ jobs:
       - run: npm run check:sitemap
       - run: npm run check:metadata
       - run: npm run check:analytics
+      - run: npm run check:landing
       - run: npm run check:parity

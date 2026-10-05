@@ -1,3 +1,4 @@
+import { constituencyLastModified } from "../lib/constituency-dates";
 import constituencies from "../data/registry/constituencies.json";
 import { getLastModified, getLatestChangelogDate, getSignalsLastModified, placesByGss } from "../lib/place-records";
 import { getRegionGroups } from "../lib/regions";
@@ -16,7 +17,7 @@ export function GET() {
     ...Object.values(placesByGss).map((place) => ({ pathname: `/places/${place.slug}/`, lastmod: getLastModified(place.gss) })),
     ...Object.values(constituencies).map((constituency) => ({
       pathname: `/constituencies/${constituency.slug}/`,
-      lastmod: constituency.mp?.snapshotDate ?? null,
+      lastmod: constituencyLastModified(constituency),
     })),
     // A region page changes when the signals of one of its places do. It shows no
     // school holiday card, so a calendar change does not move it.

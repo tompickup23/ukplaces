@@ -176,6 +176,7 @@ const formatDate = (date: string) => new Intl.DateTimeFormat("en-GB", {
                 <span class="place-source__period">{signal.period}</span>
               </>
             )}
+            {source.id === "ukfoodhygiene" && <p class="place-source__period">Source: Food Standards Agency (FSA), food hygiene ratings register, via UK Food Hygiene.</p>}
             <a class="place-source__link" href={signal.url ?? place.coverage[source.id].url}>Open the detailed {source.name} record</a>
           </article>
         ))}

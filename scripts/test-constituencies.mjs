@@ -1,3 +1,4 @@
+import { createHash } from "node:crypto";
 import assert from "node:assert/strict";
 import fs from "node:fs";
 import path from "node:path";
@@ -7,6 +8,7 @@ const siteRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), ".."
 const recordsPath = path.join(siteRoot, "src", "data", "registry", "constituencies.json");
 const records = JSON.parse(fs.readFileSync(recordsPath, "utf8"));
 const entries = Object.entries(records);
+const dates = JSON.parse(fs.readFileSync(path.join(siteRoot, "src/data/registry/constituency-content-dates.json"), "utf8"));
 const places = JSON.parse(fs.readFileSync(path.join(siteRoot, "src", "data", "registry", "places.json"), "utf8"));
 const placeConstituencies = JSON.parse(fs.readFileSync(path.join(siteRoot, "src", "data", "registry", "place-constituencies.json"), "utf8"));
 
@@ -16,6 +18,9 @@ assert.equal(new Set(entries.map(([slug]) => slug)).size, entries.length, "every
 assert.equal(new Set(entries.map(([, record]) => record.slug)).size, entries.length, "every record slug must be unique");
 
 for (const [slug, record] of entries) {
+  assert.equal(dates[slug]?.sha256, createHash("sha256").update(JSON.stringify(record)).digest("hex"), `${slug} content date matches its record`);
+  assert.match(dates[slug].date, /^\d{4}-\d{2}-\d{2}$/, `${slug} content date is recorded`);
+  assert.match(dates[slug].revision, /^[a-f0-9]{40}$/, `${slug} has a provenance commit`);
   assert.equal(record.slug, slug, `${slug} must match its registry key`);
   assert.ok(record.name, `${slug} has a name`);
   assert.ok(Array.isArray(record.lad24cds), `${slug} keeps the UK Elections local-authority codes`);

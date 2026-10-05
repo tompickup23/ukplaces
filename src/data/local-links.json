@@ -2,10 +2,10 @@
   "source": {
     "name": "GOV.UK Local Links Manager",
     "url": "https://local-links-manager.publishing.service.gov.uk/data/links_to_services_provided_by_local_authorities.csv",
-    "exportDate": "2026-09-27",
+    "exportDate": "2026-10-05",
     "licence": "Open Government Licence v3.0"
   },
-  "checkedOn": "2026-09-28",
+  "checkedOn": "2026-10-05",
   "services": [
     {
       "id": "councilTax",
@@ -100,13 +100,12 @@
     },
     "E06000008": {
       "links": {
-        "councilTax": "https://www.blackburn.gov.uk/council-tax/paying-your-council-tax"
+        "councilTax": "https://www.blackburn.gov.uk/council-tax/paying-your-council-tax",
+        "bins": "https://www.blackburn.gov.uk/waste-and-recycling/bins"
       },
-      "notes": {
-        "bins": "Not published: HTTP 404"
-      },
-      "sha256": "74f75868af7a3934a12fa8d2109b97ef9363a423450fb06f9c2cff7e03376027",
-      "since": "2026-09-28"
+      "notes": {},
+      "sha256": "d271135e4446053d8e6bdea620d2af99a8b235da93d066700fcf02b347d604b0",
+      "since": "2026-10-05"
     },
     "E06000009": {
       "links": {
@@ -145,13 +144,13 @@
       "since": "2026-09-28"
     },
     "E06000013": {
-      "links": {},
-      "notes": {
-        "councilTax": "Not published: fetch failed",
-        "bins": "Not published: fetch failed"
+      "links": {
+        "councilTax": "https://www.northlincs.gov.uk/council-tax-benefits-and-housing/council-tax/pay-your-council-tax/",
+        "bins": "https://www.northlincs.gov.uk/bins-waste-and-recycling/collection-dates/"
       },
-      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
-      "since": null
+      "notes": {},
+      "sha256": "17a623f1265a1d8e0d42ab64d7be63072aa69d36649fb022f65da0416089b704",
+      "since": "2026-10-05"
     },
     "E06000014": {
       "links": {
@@ -444,13 +443,12 @@
     },
     "E06000049": {
       "links": {
+        "councilTax": "https://www.cheshireeast.gov.uk/council-tax/paying-council-tax",
         "bins": "http://online.cheshireeast.gov.uk/MyCollectionDay/"
       },
-      "notes": {
-        "councilTax": "Not published: HTTP 404"
-      },
-      "sha256": "d27720c4b097b909273abc423215795809c11dc76b8296290f3c88e492094d1e",
-      "since": "2026-09-28"
+      "notes": {},
+      "sha256": "48d6cbeaaf7bc87585a0318fecb6b4fe38d7ef17f2d39097e086be70d186a222",
+      "since": "2026-10-05"
     },
     "E06000050": {
       "links": {
@@ -661,14 +659,13 @@
       "since": "2026-09-28"
     },
     "E07000033": {
-      "links": {
-        "bins": "https://www.bolsover.gov.uk/index.php?option=com_content&view=article&id=139"
-      },
+      "links": {},
       "notes": {
-        "councilTax": "Not published: HTTP 403"
+        "councilTax": "Not published: HTTP 403",
+        "bins": "Not published: HTTP 403"
       },
-      "sha256": "9fc60738c425d648379c7ff8466b51b6fc4d87a10b29ce25c1e51ba2839ecadb",
-      "since": "2026-09-28"
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "since": null
     },
     "E07000034": {
       "links": {
@@ -1602,7 +1599,7 @@
         "councilTax": "https://www.bassetlaw.gov.uk/council-tax/how-to-pay-your-council-tax/"
       },
       "notes": {
-        "bins": "Not published: HTTP 404"
+        "bins": "Not published: HTTP 500"
       },
       "sha256": "312300d1f58421422a1bb54dfda9d3aa8558df4e936ee41d58e3f17d34cb9227",
       "since": "2026-09-28"
@@ -2197,13 +2194,13 @@
       "since": "2026-09-28"
     },
     "E08000009": {
-      "links": {
-        "councilTax": "https://www.trafford.gov.uk/council-tax/pay-your-council-tax",
-        "bins": "http://www.trafford.gov.uk/bincollections/"
+      "links": {},
+      "notes": {
+        "councilTax": "Not published: HTTP 403",
+        "bins": "Not published: HTTP 403"
       },
-      "notes": {},
-      "sha256": "b3776b515c498f19c24ff824ee12c28f25c0e9c80866968f782039fcf409eed0",
-      "since": "2026-09-28"
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "since": null
     },
     "E08000010": {
       "links": {
@@ -2962,13 +2959,13 @@
       "since": "2026-09-28"
     },
     "S12000023": {
-      "links": {
-        "councilTax": "https://www.orkney.gov.uk/online/pay-it/online-payment/",
-        "bins": "http://www.orkney.gov.uk/Service-Directory/R/rubbish-and-recycling.htm"
+      "links": {},
+      "notes": {
+        "councilTax": "Not published: HTTP 404",
+        "bins": "Not published: HTTP 404"
       },
-      "notes": {},
-      "sha256": "1e92e5de8543037749c9a760befbcb55291cd39d79c2d48413d21b7019bc7716",
-      "since": "2026-09-28"
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "since": null
     },
     "S12000026": {
       "links": {

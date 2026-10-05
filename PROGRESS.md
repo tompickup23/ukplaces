@@ -115,3 +115,9 @@ See the UKSHD execution report for checks and remaining release dependencies.
 Note 28 September 2026: the sitemap no longer uses the calendar snapshot date. A
 place's calendar date is the date its card content last changed; see Follow-up D
 in the Round 2 log.
+
+## Round 2 landing repair, 6 October 2026
+
+Resolved the failed lastmod gate using Git-backed constituency record dates, kept MP source dates unchanged, disabled development analytics explicitly, added the FSA provenance line, and applied house punctuation to displayed party labels while preserving source records. Added a generated HTML landing gate to both workflows. Refreshed GOV.UK service links: 299 Council Tax and 248 bin collection links. Compatible lockfile updates removed the high-severity production advisories. Local install, tests, lint, ordinary build, metadata, sitemap, HTML, analytics, accessibility and HTTP content checks passed. The share-card build and GitHub CI remain pending.
+
+All content PRs #15 to #23 are contained in the original 23-commit landing branch. No landing or deployment yet. The two original untracked files remain excluded. Main's linear-history rule conflicts with the requested merge commit and remains unchanged. Full comparison and check record: docs/ROUND-2-LANDING-2026-10-06.md. Open questions: UK Places indexing for council-name searches when UK Councils is the front door, and the analytics token.

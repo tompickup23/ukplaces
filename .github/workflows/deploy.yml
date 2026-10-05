@@ -55,6 +55,7 @@ jobs:
       - run: npm run check:sitemap
       - run: npm run check:metadata
       - run: npm run check:analytics
+      - run: npm run check:landing
       - run: npm run check:parity
       # Before the deploy, while the live sitemap is still the old one: the URLs
       # whose lastmod changed, for the indexnow job below.

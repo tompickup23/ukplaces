@@ -24,12 +24,16 @@ for (const url of urls) {
     ? path.join(distRoot, "index.html")
     : path.join(distRoot, pathname, "index.html");
   assert.ok(fs.existsSync(filePath), `${pathname} is present in dist`);
+  const html = fs.readFileSync(filePath, "utf8");
+  assert.match(html, /<main\b[^>]*>[\s\S]*<h1\b[^>]*>[^<]+/i, `${pathname} has page content`);
 }
 
 // lastmod: places from the latest signal snapshotDate on the record and the date
 // their school holiday card last changed (never the calendar snapshot date), constituencies
-// from the MP record snapshot, static pages from the latest changelog date.
+// from the later of their recorded content change and MP snapshot, static pages
+// from the latest changelog date.
 const readData = (...parts) => JSON.parse(fs.readFileSync(path.join(siteRoot, "src", "data", ...parts), "utf8"));
+const contentDates = readData("registry", "constituency-content-dates.json");
 const sources = readData("sources.json");
 const calendarDirectory = path.join(siteRoot, "data", "school-holidays");
 const { feed: calendarFeed } = readFeed(calendarDirectory);
@@ -47,7 +51,7 @@ const expectedLastmod = new Map([
     `/places/${place.slug}/`,
     latest([signalsDate(place), calendarCardFor(calendarFeed, calendarDates, place, predecessors)?.contentDate, localLinks.places[place.gss]?.since]),
   ]),
-  ...constituencies.map((constituency) => [`/constituencies/${constituency.slug}/`, constituency.mp?.snapshotDate ?? null]),
+  ...constituencies.map((constituency) => [`/constituencies/${constituency.slug}/`, latest([constituency.mp?.snapshotDate, contentDates[constituency.slug]?.date])]),
   // A region page shows no school holiday card, so only its places' signal dates count.
   ...[...new Set(places.map((place) => place.region))].map((region) => [
     `/places/regions/${regionSlug(region)}/`,
@@ -58,6 +62,7 @@ const today = new Date().toISOString().slice(0, 10);
 let datedCount = 0;
 for (const { url, lastmod } of entries) {
   const pathname = new URL(url).pathname;
+  assert.ok(lastmod, `${pathname} has a lastmod`);
   if (lastmod !== null) {
     datedCount += 1;
     assert.match(lastmod, /^\d{4}-\d{2}-\d{2}$/, `${pathname} lastmod is a date`);

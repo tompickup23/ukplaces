@@ -1,3 +1,4 @@
+import { sourceLabel } from "../../../lib/source-label";
 import type { APIRoute } from "astro";
 import constituencies from "../../../data/registry/constituencies.json";
 import { renderOgCard } from "../../../lib/og";
@@ -31,7 +32,7 @@ export const GET: APIRoute = async ({ props }) => {
     : authorities.length > 1 ? `${authorities.slice(0, -1).join(", ")} and ${authorities.at(-1)}` : authorities[0];
   const lines = [
     ...(authorityText ? [{ label: authorities.length > 1 ? "Local authorities" : "Local authority", value: authorityText }] : []),
-    ...(constituency.result.winnerParty ? [{ label: "2024 winner", value: constituency.result.winnerParty }] : []),
+    ...(constituency.result.winnerParty ? [{ label: "2024 winner", value: sourceLabel(constituency.result.winnerParty) }] : []),
   ];
   const png = await renderOgCard({
     heading: constituency.name,
