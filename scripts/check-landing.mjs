@@ -1,3 +1,4 @@
+import { parse } from "parse5";
 import assert from "node:assert/strict";
 import fs from "node:fs";
 import path from "node:path";
@@ -10,13 +11,18 @@ function* files(root) {
     else yield file;
   }
 }
+function visibleText(node) {
+  if (node.tagName === "script" || node.tagName === "style") return "";
+  if (node.nodeName === "#text") return node.value;
+  return (node.childNodes ?? []).map(visibleText).join(" ");
+}
 let pages = 0;
 for (const file of [...files("src"), ...[...files("dist")].filter(file => file.endsWith(".html"))]) {
   const text = fs.readFileSync(file, "utf8");
   assert.ok(!dash.test(text), `${file} contains a prohibited dash`);
   if (file.endsWith(".html")) {
     pages++;
-    const visible = text.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, "").replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi, "").replace(/<[^>]*>/g, " ");
+    const visible = visibleText(parse(text));
     assert.ok(!visible.includes(" \u002d "), `${file} contains a visible pseudo-dash`);
   }
 }

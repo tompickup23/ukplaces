@@ -66,7 +66,7 @@ The 12 previously undated constituencies now have record-change dates derived fr
 
 The GOV.UK service-link refresh uses the 5 October export and publishes 299 Council Tax links and 248 bin collection links. Failed destinations are omitted under the existing collector rules.
 
-The local share-card build and required GitHub checks are pending. Main requires linear history, which conflicts with the requested merge commit; that protection has not been changed.
+GitHub Site checks passed on b1a3262, including the complete share-card build. The duplicate local share-card run was stopped after a generated card was visually checked. CodeQL flagged regex-based HTML text extraction in the new checker; this has been replaced with parse5 tree traversal, and fresh CI is required. Main requires linear history, which conflicts with the requested merge commit; that protection has not been changed.
 
 ## Open decisions
 
