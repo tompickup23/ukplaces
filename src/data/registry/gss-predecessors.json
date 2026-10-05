@@ -1,0 +1,157 @@
+{
+  "source": "Office for National Statistics, Code History Database (June 2026) for the UK, Changes table",
+  "predecessors": {
+    "E06000053": [
+      {
+        "gss": "E07000025",
+        "name": "Isles of Scilly",
+        "from": "2009-04-01",
+        "order": "The Cornwall (Structural Change) Order 2008 (SI 491/2008)"
+      }
+    ],
+    "E06000055": [
+      {
+        "gss": "E07000002",
+        "name": "Bedford",
+        "from": "2009-04-01",
+        "order": "The Bedfordshire (Structural Changes) Order 2008 (SI 907/2008)"
+      }
+    ],
+    "E06000057": [
+      {
+        "gss": "E06000048",
+        "name": "Northumberland",
+        "from": "2013-04-01",
+        "order": "The Gateshead and Northumberland (Boundary Change) Order 2013 (SI 595/2013)"
+      }
+    ],
+    "E07000240": [
+      {
+        "gss": "E07000100",
+        "name": "St Albans",
+        "from": "2012-04-01",
+        "order": "The St Albans and Welwyn Hatfield (Boundary Change) Order 2012 (SI 667/2012)"
+      }
+    ],
+    "E07000241": [
+      {
+        "gss": "E07000104",
+        "name": "Welwyn Hatfield",
+        "from": "2012-04-01",
+        "order": "The St Albans and Welwyn Hatfield (Boundary Change) Order 2012 (SI 667/2012)"
+      }
+    ],
+    "E07000242": [
+      {
+        "gss": "E07000097",
+        "name": "East Hertfordshire",
+        "from": "2013-04-01",
+        "order": "The East Hertfordshire and Stevenage (Boundary Change) Order 2013 (SI 596/2013)"
+      }
+    ],
+    "E07000243": [
+      {
+        "gss": "E07000101",
+        "name": "Stevenage",
+        "from": "2013-04-01",
+        "order": "The East Hertfordshire and Stevenage (Boundary Change) Order 2013 (SI 596/2013)"
+      }
+    ],
+    "E08000037": [
+      {
+        "gss": "E08000020",
+        "name": "Gateshead",
+        "from": "2013-04-01",
+        "order": "The Gateshead and Northumberland (Boundary Change) Order 2013 (SI 595/2013)"
+      }
+    ],
+    "E08000038": [
+      {
+        "gss": "E08000016",
+        "name": "Barnsley",
+        "from": "2025-04-01",
+        "order": "The Barnsley and Sheffield (Boundary Changes) Order 2024 (SI 1328/2024)"
+      }
+    ],
+    "E08000039": [
+      {
+        "gss": "E08000019",
+        "name": "Sheffield",
+        "from": "2025-04-01",
+        "order": "The Barnsley and Sheffield (Boundary Changes) Order 2024 (SI 1328/2024)"
+      }
+    ],
+    "S12000041": [
+      {
+        "gss": "S12000003",
+        "name": "Angus",
+        "from": "2010-04-01",
+        "order": "The Angus Council Area and Dundee City Council Area (Fithiebank) Boundaries Amendment Order 2009 (SI 442/2009)"
+      }
+    ],
+    "S12000042": [
+      {
+        "gss": "S12000007",
+        "name": "Dundee City",
+        "from": "2010-04-01",
+        "order": "The Angus Council Area and Dundee City Council Area (Fithiebank) Boundaries Amendment Order 2009 (SI 442/2009)"
+      }
+    ],
+    "S12000045": [
+      {
+        "gss": "S12000009",
+        "name": "East Dunbartonshire",
+        "from": "2011-04-01",
+        "order": "The East Dunbartonshire Council Area and Glasgow City Council Area (Princes Gate and Greenacres by Robroyston) Boundaries Alteration Order 2010 (SI 353/2010)"
+      }
+    ],
+    "S12000047": [
+      {
+        "gss": "S12000015",
+        "name": "Fife",
+        "from": "2018-02-02",
+        "order": "The Fife Council Area and Perth and Kinross Council Area (Keltybridge and Fife Environmental Energy Park at Westfield) Boundaries Amendment Order 2017 (SI 430/2017)"
+      }
+    ],
+    "S12000048": [
+      {
+        "gss": "S12000024",
+        "name": "Perth and Kinross",
+        "from": "2018-02-02",
+        "order": "The Fife Council Area and Perth and Kinross Council Area (Keltybridge and Fife Environmental Energy Park at Westfield) Boundaries Amendment Order 2017 (SI 430/2017)"
+      }
+    ],
+    "S12000049": [
+      {
+        "gss": "S12000046",
+        "name": "Glasgow City",
+        "from": "2019-04-01",
+        "order": "The Glasgow City Council Area and North Lanarkshire Council Area (Cardowan by Stepps) Boundaries Amendment Order 2018 (SI 308/2018)"
+      }
+    ],
+    "S12000050": [
+      {
+        "gss": "S12000044",
+        "name": "North Lanarkshire",
+        "from": "2019-04-01",
+        "order": "The Glasgow City Council Area and North Lanarkshire Council Area (Cardowan by Stepps) Boundaries Amendment Order 2018 (SI 308/2018)"
+      }
+    ],
+    "W06000023": [
+      {
+        "gss": "W06000007",
+        "name": "Powys",
+        "from": "2009-06-01",
+        "order": "The Merthyr Tydfil and Powys (Areas) Order 2009 (SI 889/2009)"
+      }
+    ],
+    "W06000024": [
+      {
+        "gss": "W06000017",
+        "name": "Merthyr Tydfil",
+        "from": "2009-06-01",
+        "order": "The Merthyr Tydfil and Powys (Areas) Order 2009 (SI 889/2009)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,3252 @@
+{
+  "aberafan-maesteg": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "c6b3cbac8615b32b69cbd24572b13ac77a69214e4930a1c3f8ce77ad3b180ff9"
+  },
+  "aberdeen-north": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "c35fc3e2f1336108cc60436849a1a3f0f5f8b0471aa33c50f30039c6d6979700"
+  },
+  "aberdeen-south": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "d5cd72870009bbf829aa7abba58711407abbe5c110755873ee751793810c12c6"
+  },
+  "aberdeenshire-north-and-moray-east": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "1d2ee43ca17b0a62cc3bd5a1552061c0f01683261dc5059b72d071dec186147f"
+  },
+  "airdrie-and-shotts": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "7ffa53e948b98db6e97e731b66acc67e78e247c565100e02a2075129003e22e2"
+  },
+  "aldershot": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "0cb1b3ae19fb68eb257352f236d1ebec82141ba5661f95a06317922cf3fe6a12"
+  },
+  "aldridge-brownhills": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "7a3978f9ac7b2ec318d30398e0ea47cec863ddf46e41142a3ee4b65c56cdba5a"
+  },
+  "alloa-and-grangemouth": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "fdc2a50e21f72540f5b34a045877999b0b4156f3a5d36faff79b26ed49d41fe9"
+  },
+  "altrincham-and-sale-west": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "21ea8cf3e800072a315bc5b92aefafec579516b4223de3cba7afef42977317ed"
+  },
+  "alyn-and-deeside": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "f2e707392aa05f7b273f5f7aad4418b64a570fa1c6e017b24d809b7bb223a3b3"
+  },
+  "amber-valley": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "355988d28a63710a6498c18eb24ae89728fdeee3ca4eab49363d2aa6f9777380"
+  },
+  "angus-and-perthshire-glens": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "f0c0a4f9e1beae3a61cad1611759d1fbc80e7fce008e5fedf393499a397a45b2"
+  },
+  "arbroath-and-broughty-ferry": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "c1e5aed4ef77d1853d51b3ca55b6add88b3f79e6eb9394f3d87c1f42d6a01418"
+  },
+  "argyll-bute-and-south-lochaber": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "e6d9aa497355ebcf6b11fcfde143e2e4a2e2a364d50943bbd056048f3d28f2d6"
+  },
+  "arundel-and-south-downs": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "d42ff0557a7f23643011f297c14ec409237b819f9af2059ebbf06cfbe9057cc9"
+  },
+  "ashfield": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "b3b9ace2b8cb03c47621ed8df5de17693bc16deb774f377ee803cad99bc82b70"
+  },
+  "ashford": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "23b9bb02fb425561ea4c3df88a07b7f2d0d42dbaf3a5c5bbd24c76747d201c54"
+  },
+  "ashton-under-lyne": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "b55e2d5414ab555d6e48a1b9493b7f58e7cbda3082915df57e41bdba05dbaf33"
+  },
+  "aylesbury": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "59682e69cdee619a1c3c34bc6881d0769e42a7c9c75d86e23047896f63d6e25e"
+  },
+  "ayr-carrick-and-cumnock": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "03dccf269d31520d8c22b1c4f89a54f17a83565ba16efad8e20f34c8ca21cfd0"
+  },
+  "banbury": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "c30f5e5ceee30d24f31b85dc2f4b56e5a035689d144e2ccb7c60cab2839b2881"
+  },
+  "bangor-aberconwy": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "a23c26afb73cf037e5af1d610ca85917d5ff52b3fe2aeb41da0604f5b82f26bd"
+  },
+  "barking": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "116b3173d10929ff6fe9d5cc9a346b10fced4311804c17171b7a209645dc7d0b"
+  },
+  "barnsley-north": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "642288d97aa5fc271a9a1fd8707715c1ace84d8d30123e1afe2d64bc68e6cd45"
+  },
+  "barnsley-south": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "830ee1512c944914cdb668d4f0d23f010564d7aaf64879458b0f7daecf0941e0"
+  },
+  "barrow-and-furness": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "51d141674f6715ba03bfad05c4805506d7503dddf83404e46580fb536963242f"
+  },
+  "basildon-and-billericay": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "de02f86bbd2226b26bb65ac76ce1f4f74bbb6ad074aad9cc52204f49cdc1ab6f"
+  },
+  "basingstoke": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "35accdfe213704ba54371202dbb779e7942d723c90966d650f03155bca744a20"
+  },
+  "bassetlaw": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "6591a953119fb1eefcf19f03ec0c31ed6f4c53abc61565842ac101c0ef9c8a7f"
+  },
+  "bath": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "e46b073380eb7b144b23afaf5d1b19f3faecdfdd5dad059c1fe21e2c5dcfbabf"
+  },
+  "bathgate-and-linlithgow": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "780a775b4f33126d0325d2366bd28fda8ddbb0eef7e4365808d4ee54bae89d6f"
+  },
+  "battersea": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "59c11a725522a2bf5dba7d6ea294876f799c24310a38ef1b74c977043e0ff8af"
+  },
+  "beaconsfield": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "4a42b07a913210983e01405929db91405432b3c2ed692c917bcd7193cca3bf6c"
+  },
+  "beckenham-and-penge": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "7e843303e1e1a90d63cd6ebc8adbffc0835897d51b7d2a4a0ad32cf24eb43e2c"
+  },
+  "bedford": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "994f4cd6fe9c3fc5f6d1dca442c59f2b4a4ecbc7dba364a4c996242e20502aa3"
+  },
+  "belfast-east": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "3e86fca481a5f521ab13a56077f6313fe422d3f14347269b8378ecb725055fec"
+  },
+  "belfast-north": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "cdc8c37ec0b5b66151c4b451e85d7f8dea6a8fc77a91fa94b9ad92dde78f4721"
+  },
+  "belfast-south-and-mid-down": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "b009dd211c3bf5281608ac7a04fe708189c92f69d0da661ed94bac9318b2c7a7"
+  },
+  "belfast-west": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "c2284b8c4cb5ae388f0854b26300282012ae76545250a93b7c0c106b669bf3fa"
+  },
+  "bermondsey-and-old-southwark": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "612c574500f1d85005f50d949a6ce103f683a4b265ce2655a710d7950984c6c5"
+  },
+  "berwickshire-roxburgh-and-selkirk": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "341e224f2eedfaa6f3ec2a6cd1f6ea6326a51f807875973132eb711b762a76eb"
+  },
+  "bethnal-green-and-stepney": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "ea36982bec5d0a5dbd039343befc8edb268dec1ffca7943b4983b9c6832332f8"
+  },
+  "beverley-and-holderness": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "58ee1dbf2538b794360a2f94da81ff4657661e5e4a50dae1a54f78044b7090d3"
+  },
+  "bexhill-and-battle": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "fb9ee6139ea958ceed16401fd9042f80aeb5c734c81062ad6a55671c2f44140b"
+  },
+  "bexleyheath-and-crayford": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "570774e82d1bbd2b6b245bdcb8788e54f562876eceeb88675f75214e52bde686"
+  },
+  "bicester-and-woodstock": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "d3037c5ad388b993116867cc57dbac98c5bb49056a442197652e1dcedeffb970"
+  },
+  "birkenhead": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "c6d78c8faddf596350c443090a10aab5b4d1c2116794f3e49f8d20cd5c53975e"
+  },
+  "birmingham-edgbaston": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "02a7ea611c4315b45a4b1ed1752daf52564ee915b108453ae91c01a93bc37af0"
+  },
+  "birmingham-erdington": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "d8c460a3726f9bcad06659a69d139733cfc937046f87950a5e38ebb50c1ce4ee"
+  },
+  "birmingham-hall-green-and-moseley": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "293e630b8c57bddc964628594a6f5cd32f571c274de35019213405af600f7869"
+  },
+  "birmingham-hodge-hill-and-solihull-north": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "1cc2046f77cd1e1debbb06d759b3a5d07a068d484de44af398dbd9000e0e3750"
+  },
+  "birmingham-ladywood": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "1a9f050d7db7aaa1d82748da4beb109c4311c4e531dc692f4657d7145a68f8b0"
+  },
+  "birmingham-northfield": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "90145a41d12928d4c8ad1e9f784cdd35110540d371a46f19a077a8e53fca8410"
+  },
+  "birmingham-perry-barr": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "f21a81e7bc2481e6d4d7bcb27758687d46812cc79503a215de72f06414704a92"
+  },
+  "birmingham-selly-oak": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "f01a3c560181e40bd3d7ae9a85601515bd723d9c0c120894ee813e7797930858"
+  },
+  "birmingham-yardley": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "5602b48f7df69c9ba3f1bcaa4de8c4f8a2ddcb95247b8d77390efe72bae13e28"
+  },
+  "bishop-auckland": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "e118e2bb18a48848c2d651584246b2d3e80e88139f4fe36b85195b355de9db91"
+  },
+  "blackburn": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "711769d0c5c34e9396d5f134b40be9d7fe21df3175d4f6779c0a5007338205bb"
+  },
+  "blackley-and-middleton-south": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "9194c293a9611e8d2c1e0ce38d9a2bd421af930b4fa50dd768ec57f17e5f3667"
+  },
+  "blackpool-north-and-fleetwood": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "bdf1c7350a5e165565c98d61620f4b2a0f920cc93b648e510455dfe8330b5187"
+  },
+  "blackpool-south": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "5302d26021114f4846b7de0c08a594313a967c906d846a168908ad456748b3f1"
+  },
+  "blaenau-gwent-and-rhymney": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "f843048cca889d5c3b89d80520e74a6acbad9fd6e4fb1cfd49776679e18076e0"
+  },
+  "blaydon-and-consett": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "3cdbe41d66f07a1512ca338f4db0ae75003dd3fa3a127318a48bdff6089d8656"
+  },
+  "blyth-and-ashington": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "cbed1a48d2717111f2b2ac678549dc5733826af5c94c327a749abff95ca5654d"
+  },
+  "bognor-regis-and-littlehampton": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "940f257564830b1e497265eda4f4529f5761142d8efddc04f3fdbf11c1b5d3dc"
+  },
+  "bolsover": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "abf3d7e256bdf83844901a7ef8718fa2080a8052842ec5f0af3c5306e1c39fac"
+  },
+  "bolton-north-east": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "bb357c93083d8eb5b1a54341056db67722cb01a6600e53f509dd107b765f3a81"
+  },
+  "bolton-south-and-walkden": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "bb55b9379b4274c178398968a869976e764ba5f5cf4a2ea57e5a22e445af2810"
+  },
+  "bolton-west": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "fa9295bd2a620d04f74dece784f83a76663e35dafda35931031f4d9b1a3b38ba"
+  },
+  "bootle": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "1770f03a6bce02642ae0bf9380f96a2f6558905ee68f5ce5ac8f30df71903c12"
+  },
+  "boston-and-skegness": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "bbf946304d81349c10eba93c876cfb7530b5a5904df94c49e52111d2ccc483cc"
+  },
+  "bournemouth-east": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "8b9d686da0ac03fe1035392ddba7949b9abb5d96f3a177d36ef8819c5943b649"
+  },
+  "bournemouth-west": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "af28a1a3bf681ced0dc4a861ae69cb50d2d6898d68cc102717f3f2f299a1783c"
+  },
+  "bracknell": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "e0978cb5e245a58cf22797f4b232890cdca65ff1857427f48db264ee88fc0753"
+  },
+  "bradford-east": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "8839b57c58a8e145e666600052da576c2efb960f79def2eace6e5e90fa966ba2"
+  },
+  "bradford-south": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "7d5a8e40f49cc56f469809489081beb45ba414b45a95dd61ac153b952e470e3d"
+  },
+  "bradford-west": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "e2b79c9cece05fdba36004523386a6a9ba8375348537a378f27a6c0c9e79f9a6"
+  },
+  "braintree": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "88b068eaf6c43a44afe9575e1c92f0dce9b819bf4c267b292dc62ecb1817e37e"
+  },
+  "brecon-radnor-and-cwm-tawe": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "1adaccbd795b2841dd5f79a0e5bfdb5b61854a69bf8d2f3134afbfc472cd2263"
+  },
+  "brent-east": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "ffcbbd7a3e48885ff8866ee99fbf02053ee7ee5c1b8ea4facb2ab3af5b3d32ab"
+  },
+  "brent-west": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "97ca71fa505b1788d76f9b28f2c57b90e051ff6026d15efd15db3fd4dc2ce390"
+  },
+  "brentford-and-isleworth": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "ba55da3652a818d00f2b2c46d0a4e5f32700ebe81ef9e1b2eeebbb3d28483b36"
+  },
+  "brentwood-and-ongar": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "1f4219618bec481a231a2cb1c475a43de71ccdac1443b230981468d977750e6a"
+  },
+  "bridgend": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "dce8ad66d4f72375e92a8a90f663e8c6c236ff480a187216079221756f4d87a3"
+  },
+  "bridgwater": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "ff7d9517fb4ed142becb45ce25b5a6200cc528f08fb876c1113b0a234e6b8666"
+  },
+  "bridlington-and-the-wolds": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "b6015a61b88dc51404af0f96b4303a328b381e46bc31d813c2caac8fbe2d8c52"
+  },
+  "brigg-and-immingham": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "577f267ce5429d7b25cb603d23d9c57ede2bce5df75235de95a32ee53dd02377"
+  },
+  "brighton-kemptown-and-peacehaven": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "77772e2ffb7f307dafb6f743e5cee669563806aa242d50fdd6508ac1b4402cce"
+  },
+  "brighton-pavilion": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "ad87f98cacd2c63ea0dda0bee829b3848dc8d00af567964120ee6d178c944ec4"
+  },
+  "bristol-central": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "31e3418f96e9c9480a7d6d43bbe7e2c293268e5811c520cfa8a0a6f4d96bef82"
+  },
+  "bristol-east": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "73d220c3c23072762b18a8c4d816aef8ccfa916a44290385e8bc8156a51c4d8f"
+  },
+  "bristol-north-east": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "e23b62900b2c12e53b728a79f9c03e1b95cbe17855dedf5ed42d2a2032c6c44f"
+  },
+  "bristol-north-west": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "20619bd04796d2deb89f91f941faf0dfdd140a342b221f869219761ef803c409"
+  },
+  "bristol-south": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "51e2474119cb362fc0cbf4823476de420d0f183a6d1e0a848ed1c1601926f75c"
+  },
+  "broadland-and-fakenham": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "8ce975f351a466760cd017ceafe0a745f0e0a674952d8fc24fe25225edfee114"
+  },
+  "bromley-and-biggin-hill": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "487851e3d695d9884f879919212d86376283624e78453401dd90ad9127e81f5a"
+  },
+  "bromsgrove": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "1fea4ce76e51056cddd2ee1b6863dc6448c3d854f820cedc87dbeb08856791dd"
+  },
+  "broxbourne": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "f7582de2929a01650431a68f1d45a76db4fe2cc66ea34fa8ca6fdb7c6cb79616"
+  },
+  "broxtowe": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "567a52811a8fd548529490873f6f785a1e789e10ac032aaf2c592520e1af0ea6"
+  },
+  "buckingham-and-bletchley": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "053d84ef1bef8b0fc096d8612467aeee301de4aec879de3389a756b83d026926"
+  },
+  "burnley": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "51e8f9b27d55054b15001862579acdf82b21fd633c8138328a3cd7beac7d82e3"
+  },
+  "burton-and-uttoxeter": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "74310b015a0d1f1a5911e5701150f1d389850e166975bdcb5d2d894e236d1532"
+  },
+  "bury-north": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "54cc5e5bde89d2246ece9b7bf4abeedc44ff353f6ed33013d2204fe370b4cfb6"
+  },
+  "bury-south": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "28f72a6f817c65d00a2a8820198bae6e106e2192a162d35a24da0b91667b506b"
+  },
+  "bury-st-edmunds-and-stowmarket": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "c2692319be989630b6a2851ade9b30fc76435c841c371dd8ecbcf0059d9ca76a"
+  },
+  "caerfyrddin": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "3edbe1bc74bae0d7b170af89018936fcb0cc2d8a6ca8119f9159825167269f8f"
+  },
+  "caerphilly": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "4e32ebe72e7c3712009d3134462fcd2abe8ce33d02c54840b2eb61223a053c63"
+  },
+  "caithness-sutherland-and-easter-ross": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "e65785ea85ba87a632bb564bfe1df6282352a70cb54f2599e3f8f85f113619f7"
+  },
+  "calder-valley": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "24b1e9b8b149ddfaf73f0dc792a60a7166df523cd0ae9bdca47be4961e233e0c"
+  },
+  "camborne-and-redruth": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "98490d0c1b34c941ee2facc7a98d575969e685f9797789ae68559a6570f5f4f3"
+  },
+  "cambridge": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "1f5bf90cfc581284c013080182d7a94443197d53f620150102c5c3377b55a57c"
+  },
+  "cannock-chase": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "a66c632a31395b44fe9864e7f91a1cc0d65944472dc420ae7cce46f6fc570b1b"
+  },
+  "canterbury": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "a1bbba32887f88a62c82afd6c3eecb5dc92d9dd703e9b565a1724a826bddfd1a"
+  },
+  "cardiff-east": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "b48a7941285f1e4a42c9775792b58f968ed680438b184607bd099af576682d55"
+  },
+  "cardiff-north": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "38fd2959edcffbcb318a3e3d33d02e645393e8cf691f446ef0f242132288605a"
+  },
+  "cardiff-south-and-penarth": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "4011fafbeb8aca7a5730b66f065cf2ce5f76f04839c5d2f2f579ad9f862e8485"
+  },
+  "cardiff-west": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "d55593bfa39e0df1adb60ffac528b314809328af6db4d32979beb01dfed11a10"
+  },
+  "carlisle": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "a0a6b11e744a8891c8db369a0518d62080f91a26cbfea066d5acd252232528c8"
+  },
+  "carshalton-and-wallington": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "af557ad6561aad7dc50c0a33ae0ddaaa40187f2671a4cf2d366935f9f7c73fba"
+  },
+  "castle-point": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "44705b63b633c3a230df509c339dc9a20496d75006ada18ff6de0ef16647ec8e"
+  },
+  "central-ayrshire": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "b3322664908c15777f25b9bfe1b844d569df0e01a3bbcd73f9f3511753f83e34"
+  },
+  "central-devon": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "913a0c188808c7f114286f02ac33bf577a098e7a441bcfdd9a12781e1ae4425c"
+  },
+  "central-suffolk-and-north-ipswich": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "da0ca4099e4eb974a6b53b0f3cf21e37c79607af2f8468beb261ea3c9fef3577"
+  },
+  "ceredigion-preseli": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "ca2c3fec074734c882eba508838ec3f547ea510721724fb0ff9126e6fd5f4779"
+  },
+  "chatham-and-aylesford": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "49597e79b8d115044806f37ca10cb20ad51570dc64243d713d887ef7159cd761"
+  },
+  "cheadle": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "ee6fc284cb85070cf52e9f66d2bccea8e67ffc1a4a897d6654a91de87ba57667"
+  },
+  "chelmsford": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "3e2a5f0555de32acb9105493a62625d5bf8e86abcab9d4e52b1e3346bca47b8c"
+  },
+  "chelsea-and-fulham": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "fb0d82b988a215fd26261ad71e873a069c657cb7fd509e81cc4578132c25eb45"
+  },
+  "cheltenham": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "f101214765986c864fcd70fb4e0f1d95e4e5eea7bf04c5ab8507c53a0ae65f23"
+  },
+  "chesham-and-amersham": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "5172efb2a66c7987af22319e3413866f0b64a85d6f207905b1073861411c2b1a"
+  },
+  "chester-north-and-neston": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "b3f3bf26405c3eded078bbcfc90c7ba0460e86b893e6937037fbf361f843eedb"
+  },
+  "chester-south-and-eddisbury": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "8fa709be4b79d1369292c66e2ab3abb8034542b438e8a11763abf0bfa97af932"
+  },
+  "chesterfield": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "971c47951d1de0513e65e8394f34cc2562226a4ca585fdbf0a1556d417f9da1a"
+  },
+  "chichester": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "63ecc8068053313bf16513317fcda10ea4ff4c18996058d25ba384714c55ce36"
+  },
+  "chingford-and-woodford-green": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "1365295008cad78f4d87b502ddf218c0262f56f4ae4b84f64d58dd7fec1744c1"
+  },
+  "chippenham": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "5d4ad2380eb236c070590d5a67ba16cab2f908bfeadfaf0a1015d4a0de752310"
+  },
+  "chipping-barnet": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "110bbdea0be06fedceb7f2825781bac7a57d42792133d68c91360ccbd65667c8"
+  },
+  "chorley": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "49f3c5c91d856574053d96a771ddd4f4d5b7f8fc1cfea8500be1a2a9d66c5c48"
+  },
+  "christchurch": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "c0efa2e6bdfba0e43d91637e04530246fad709c61e9b8b8edadc2a418a2d7e45"
+  },
+  "cities-of-london-and-westminster": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "d94320ae75a63e2a561d89299fbad945532d01ebf5dded6c74cd0c69d8b07c53"
+  },
+  "city-of-durham": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "f4e4601fef212f7071bee1a19977008ea3c4486d0619d2f616582c6e3e60686e"
+  },
+  "clacton": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "cb561c043e19fc0dac350686ff254a5a2fb2a1e0ef6c5937b839cd94dd9b9472"
+  },
+  "clapham-and-brixton-hill": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "58e89189a2294248b2a760f019a08ff68e5fc847c463610f81c40dc07177a0db"
+  },
+  "clwyd-east": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "d455ed2e69c5d44891adc8419ce506aeacf1120884bc918275e08657f4847138"
+  },
+  "clwyd-north": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "be854da68153900f15b3114edc7dde92d4baf608bc687b9b4929f77152fb76e9"
+  },
+  "coatbridge-and-bellshill": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "e629a38f563d7f150ab3eeba0e8826fb53f05e1350b3aa3802db4065f73a7f1d"
+  },
+  "colchester": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "b508cbac5593e1635278c5fd7954e55f83a217bd8d51ab95b645e2df0aa79df4"
+  },
+  "colne-valley": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "8efa9e69568983eef7245d354403b74f97cf7573843ab1fd4a6b24122536e9be"
+  },
+  "congleton": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "2e7b2fd9e617c9ee70bf954974857e1fef7485a78deaa8f3441c838e62ac54e8"
+  },
+  "corby-and-east-northamptonshire": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "65c1d1c633a9bdc8d3496757551263fab4da3fcf6cbf0bb5fd385773bb2e57cc"
+  },
+  "coventry-east": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "00fef88bd3485ca1e684f8de2f99aebbd543ae10e6d1ad002509edb5befb47e3"
+  },
+  "coventry-north-west": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "b6b6b3e1eea6eb1252de795838d3b0d4bb69ed54078835b303799e83fdb6ac10"
+  },
+  "coventry-south": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "722f69e7d29a1a9f4e3a0e35eea08b98e54a44d489ac3e5bc75fb9982a1689a6"
+  },
+  "cowdenbeath-and-kirkcaldy": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "faa4e220b31c51da88d7557f1c314e18a1139ace0ee54602aed91a7100c8417d"
+  },
+  "cramlington-and-killingworth": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "0fd7c284faddac52721ec28506ebb4220953e20ba5f21c302bcf155c6a915236"
+  },
+  "crawley": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "80e69d0c647525e68a9e47a1b6a47f4f627acea82d575027a8c597dc6c217b85"
+  },
+  "crewe-and-nantwich": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "75723185a552c2969f6784c25f8cb45ca71b11beb5dfea8962820078183a548a"
+  },
+  "croydon-east": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "b9229fbef3093ff0ebe8f3c80c78881d8b648676997afa2ffb4707c6eed7f290"
+  },
+  "croydon-south": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "cf85d371e8f7ebe7d4c6b34a720caff0eeb94327908408d0010a21f7bd0b7f13"
+  },
+  "croydon-west": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "b2b7c7742d397b15e29fd2b0769e0662488cedcfa939e1f3425fd14c9ebfa99b"
+  },
+  "cumbernauld-and-kirkintilloch": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "7824f66b537100e43759debbee2c1de28e75df9fa25668f7455b22ddba2e7c10"
+  },
+  "dagenham-and-rainham": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "4098cf77cb1db1076fde2ec0bcc880175c80373acc470790db1b8ab10ff02250"
+  },
+  "darlington": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "911158ee9380a890a095daad94ebf5c66b66e5709ff4ec85d8e35a2f855c8356"
+  },
+  "dartford": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "ab970c5d0448ae65f380ee7e3e7365c28b84c16aa70dd2ed5457804ed314d9b9"
+  },
+  "daventry": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "c9ed9ccb7d61156f81a78e7a1df9e37581f25bbcee6cd592b1495e4e243ad08f"
+  },
+  "derby-north": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "6853eb80e20715f13190e1e5c8d0ec7be13646cda04ec3ebe66ef52ce79c1ceb"
+  },
+  "derby-south": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "a4dee1fa9b34d24bf7604a8539a1a05f575454d8ea6996af4a5555f6b01418f2"
+  },
+  "derbyshire-dales": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "5adbc3da85227cbe59a82561df9db2a65f807a208cf19de407f97ab420b6c24a"
+  },
+  "dewsbury-and-batley": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "df5dc39c8c91ea95ca95ee22d042d2f9f2e87a899a0f213c9f6b681376d07535"
+  },
+  "didcot-and-wantage": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "23c04e1780fd15e7161f79371f61bc06a65052e1bb49b9b888c022f0f61f0fa9"
+  },
+  "doncaster-central": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "30a679354d51d8707adc687f3cc02092f5279b4599c8b44580bd21ddfbf749fd"
+  },
+  "doncaster-east-and-the-isle-of-axholme": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "5a3cb0212bda15661370783e4d2ab3c82a5f4589f4a8a1bb5002fedee230c693"
+  },
+  "doncaster-north": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "05970cd10cde65cd7d9f05365923186b4a26bc6c7f33d677f6ba3e996ead014d"
+  },
+  "dorking-and-horley": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "edc51f98bb50c82bfd89015b7d5ce2931edd92e26b4a7e0dd5e6e722c1be2b5c"
+  },
+  "dover-and-deal": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "be5d56aa36235fb8da83e2574f617e165f1adf48755d7df06766ecfcaf129fdb"
+  },
+  "droitwich-and-evesham": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "3b7cc42db6103daac75268fb6612b4fae399f7e9fc3b5deaf4f6dcb18ac0d870"
+  },
+  "dudley": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "f817ec2c576910c7cf95913fdc548f1ae4a08e894a685492e82b1c26d2d4f887"
+  },
+  "dulwich-and-west-norwood": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "8758d9b721460554ae6cca6300bae8c8b0888772faf7f0e469ccbe7cbe1b5262"
+  },
+  "dumfries-and-galloway": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "64b91e9f5085b322600f38cb74fc72e3e74e173688f34bfe4399ef82844d7239"
+  },
+  "dumfriesshire-clydesdale-and-tweeddale": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "76d6e5aa6f93e5bf598d3a9fcd2bece7113569907563939922722bf4ee9de984"
+  },
+  "dundee-central": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "9fc780a1448061babc8846a07b6bfbf67bb30a1d3a482367a167a792dca963ca"
+  },
+  "dunfermline-and-dollar": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "c8c06f53692f3ffb1f7fe8354e840c013957344f4782d3832e68e680ff816e06"
+  },
+  "dunstable-and-leighton-buzzard": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "f355636e6f13f9f69c7b374af01dcd5138bc197926b8158e20317fa7b08f4b8d"
+  },
+  "dwyfor-meirionnydd": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "ab24d9453b5155c46f47c038931e63abd084d90330b47c0def09f4e64ca0b08d"
+  },
+  "ealing-central-and-acton": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "514cec39e08988f8b2f9adfe19316bd3d71e0aebe2993b081bd46818bef80a94"
+  },
+  "ealing-north": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "00fd9b8fe9ccc696dbe083fc4476cd2d11a9299b0febff19b9ad747e567c0d76"
+  },
+  "ealing-southall": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "c7ac93cda263b356b26fa114bee26a7549a9d0f1e6490fcf22ed4ecf5e5c07a8"
+  },
+  "earley-and-woodley": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "b9a30b679bfc542f328cf70f8f44f7b8e35f054055a8d2369d4217adf89e6b2c"
+  },
+  "easington": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "a51ca02194457af255478c4742445c3496be87c9bc92783016e03b6e3318448d"
+  },
+  "east-antrim": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "60044b3b4a6f686d601e38086fb92e9d0f3d7c4f0da2f97156d638c7ac834dc4"
+  },
+  "east-grinstead-and-uckfield": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "50ad26ecc174f6b5093a2c13e6a200b17d7a6a87e02cd857edcbb15adbeec6b1"
+  },
+  "east-ham": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "49a85b7fd8a844bb88b8565ca764ce6ca0182c82d268c7562199e6d3ffbeafad"
+  },
+  "east-hampshire": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "335940874d1a0fd3af3690a2fa63931f46d68e63e0a46c85ae8a78224aede3ea"
+  },
+  "east-kilbride-and-strathaven": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "e92691372100a2bdf5442da8294a1daaed4c6b6d0107b726973724e9fd5a16fa"
+  },
+  "east-londonderry": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "214e47c1f1be2a9d4781b1fbf83460f1c091d70b654d86a5dba64ede01402cb1"
+  },
+  "east-renfrewshire": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "3c74e4710de55bc5e52dc7283eabd9d4fd7be9303566443a3627224e1230698a"
+  },
+  "east-surrey": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "25adcd65ad61411b6a127e43629334f31a84e8bdfa2893f1e4438f969988287c"
+  },
+  "east-thanet": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "408af7bac3e81d753742a1ffa7b0e163f7a13abb8b981fd67ce64ea11ed041ae"
+  },
+  "east-wiltshire": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "9a42c51075456bfc19aa60fc9cab44e827b75afff99cb07b1d19e7f59792932a"
+  },
+  "east-worthing-and-shoreham": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "75e16b42c3413de2a016f0f801073521d8f09e76b93e069c4d61d54ec33fd7b0"
+  },
+  "eastbourne": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "2babac9cbf8f9a519513aa1ead925d2ef8254e4e9e1172624e30eec34934da4d"
+  },
+  "eastleigh": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "522ffb96c5507757249d9e7bb221cca7db944e4276cad171e89218982730e633"
+  },
+  "edinburgh-east-and-musselburgh": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "270785200d3bbf54024984cafab978cba6fe3540d229180f567c37ea44cca5d8"
+  },
+  "edinburgh-north-and-leith": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "a2883b2455dae09a8d5c990a8fbdbe0c8b471ddfa403d0a861958b4dc3038107"
+  },
+  "edinburgh-south": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "7e160150fe1eb8ace8d213263abc7926b9289679af3930859452968600fedc42"
+  },
+  "edinburgh-south-west": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "5f2cc9d42b08420c8a60aedc4729171cd96ec37ab7cf5fcdf2068b9a8ac01a9a"
+  },
+  "edinburgh-west": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "44eb555e268705ae7997f279cf5517b52eeea21d36e0fc2f62d9926c8bedaa73"
+  },
+  "edmonton-and-winchmore-hill": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "b140c3b25790ebdcdb58b8c73b3d90b65d5c1fd751813a760fbe379e37809d44"
+  },
+  "ellesmere-port-and-bromborough": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "f45730ed1cf145a8eb12dcc7a83b0e19bf600ca2ebd67ec4e4a86e344d78f0f8"
+  },
+  "eltham-and-chislehurst": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "c0f3dcc1a5872c23bb477318cbef19b632511d9bbb5aaf081df5ce329faf75b4"
+  },
+  "ely-and-east-cambridgeshire": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "b7ee578f52294cccb61b09e22d157953cbdc0692bc0c1b6c2c2c603dbbc4795b"
+  },
+  "enfield-north": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "03107529876a81ff4487b206575b64bce21a502258eff4886f44ee53c4f9190b"
+  },
+  "epping-forest": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "faa752e62f7414e129f0e3cb4b3dbcee1c9ac3afc0a0408517956ce8834d870b"
+  },
+  "epsom-and-ewell": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "f2f7262bedcb81a0fc3b6fe5dee2c7d72f1dd117328cc4955cb118959d43a552"
+  },
+  "erewash": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "8e1a4f71f8b8d1f7bdad898dafa852d2847bee68b837d47fbbd9776148d9b867"
+  },
+  "erith-and-thamesmead": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "0f36902a908d1b0d9351a032864f726900d104606d3231c4a7426b5bff4b561b"
+  },
+  "esher-and-walton": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "f721c86cf43fa1846d27e6f92b15f39e9b2da26a73c5645b93b9970fc1d439c1"
+  },
+  "exeter": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "3638048ce190d8c8e2b9bb1f6b6e5b8ab28b1e83beff8c0261c14c036a029086"
+  },
+  "exmouth-and-exeter-east": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "bf5797df68c1ad64b55693122ce73ab23bd04c25b980acdaaba2169f02e9ed6a"
+  },
+  "falkirk": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "1265a3086e1fb588a65a2369a8a7e49ef3e2de24ef9281143a62973fb6280d4b"
+  },
+  "fareham-and-waterlooville": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "8205afeada9b13c409daf44879ec8ab17f2b6c85bda7c0f15b9756745355f1c8"
+  },
+  "farnham-and-bordon": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "930c9e096101fc64f1bc0e34e61b3b5a9d0dcfdb6c447627584492f1bd2a78b1"
+  },
+  "faversham-and-mid-kent": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "583c572fde8bb041d05aab2e9baf24ba2ca8602043d64fdcb10301f4379d92cc"
+  },
+  "feltham-and-heston": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "2b04f47d702b7df3fa9514d383cda604301a1900173a4494e74e75cc8a13fe79"
+  },
+  "fermanagh-and-south-tyrone": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "ebcfeab907389b9b29a8f7c74c739f1f5214c83f1abbb2d1e1222be95652adc7"
+  },
+  "filton-and-bradley-stoke": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "300563cc86877d6e9445f2b13781bde611322c78902f23594165ed4a31c6a573"
+  },
+  "finchley-and-golders-green": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "af2c687baf54382e85a64911f6a8e45c22105a36becb6269f1fc494a4bff71aa"
+  },
+  "folkestone-and-hythe": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "121ca63458d4b9cabc8b06b512deee92360a357f81265f99e32fcf55074cfdfa"
+  },
+  "forest-of-dean": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "3f10724ade7e3ea21069fe6029fa5fd789d616d2bc867ab50e629c25d941e9f2"
+  },
+  "foyle": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "ddaf8f19e3f84e5226a6efea242d8979e632f2341bc100b18ca9f69d00038b9d"
+  },
+  "frome-and-east-somerset": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "1e156de19231087473fc7423b168a8b769840d0557fb86b58db0583f43b7b88e"
+  },
+  "fylde": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "32ab8e8fd1319f3a2f2e988251d738497194f67f464bd03c3049b1365b9ff25b"
+  },
+  "gainsborough": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "3d1a96fb236ab293114045bc416c8b6db0c316faf5d9d5a9265972a5b3bc88a3"
+  },
+  "gateshead-central-and-whickham": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "8def7184c8c2b84063ca4f263c521efbdc914f162b2d101ad039a39458c2386a"
+  },
+  "gedling": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "69c387bd729d96dea8cc68353c01fab2672e8393c2ef0cfd76e71e20d26b1c35"
+  },
+  "gillingham-and-rainham": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "6a14cd7cea3f55209f90fce24fc958083873c30ce9a007612e8065806b9b4155"
+  },
+  "glasgow-east": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "dc0c9dd26c8660a52cbc7b8f03e6bc17a2e7634256e592078c4b10310520025e"
+  },
+  "glasgow-north": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "1b5e4890fef96ea485e459e2118e8e562cb0bc1d09c6347876e49b60c75cbddd"
+  },
+  "glasgow-north-east": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "b187341d68721380da5cbcf84ad1bbb790331527779b9691cc22acea3cde0dac"
+  },
+  "glasgow-south": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "be309b16a54e348871649e33b2c00653435d2049bcecea45c6fc585b0f552f5c"
+  },
+  "glasgow-south-west": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "6d2bd903445e6f2e40dd59ca4fa34c74fb89e7d5c8aa5f2c83358cb400285ba3"
+  },
+  "glasgow-west": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "badd8e3dddb2da0d3e46ba7cb8dbfecdeefa6a6e2c7794ccb8592575a1559eaa"
+  },
+  "glastonbury-and-somerton": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "2acae7202255555e446897445cc0062aa3b450858b5b49d11e2665e475141376"
+  },
+  "glenrothes-and-mid-fife": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "fdc9e0caec23d99eb4d36cc384c9192f9d85e14b6e7a2ec7ab0abbf6c0a8f682"
+  },
+  "gloucester": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "0e57ea36d5d307a9d5a829ba88166331cbc047ad9cab12e09c816da1b9da6a2f"
+  },
+  "godalming-and-ash": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "b4a09aec944a5a290bd70e9c7d9473982ed14cc7140beb14e926ab19245de0ec"
+  },
+  "goole-and-pocklington": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "e74e26f0492478a90cc103c6855a2f63bf9cfcf41106fbaace7888e0c5a0c1ee"
+  },
+  "gordon-and-buchan": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "a805891e4b2243e1a260023d93b7ecd42f4eac4e364933f0c2de921a4d7de6ac"
+  },
+  "gorton-and-denton": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "a27c893ae8fabeb57f86c106bc4d5fe857738bff8cb7f96b5badf95c483fb6ba"
+  },
+  "gosport": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "1945866c0255ed2e3cb2bc87590cc8a1780ace35637d84ad2e6b3e808ba2b506"
+  },
+  "gower": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "cf0c7405344277e625de7dff05a64a697d45440eac8f7bc58d0f092217b1fc07"
+  },
+  "grantham-and-bourne": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "102a8a598d8c262dc63f56bd2f856af110c6870c3b5d2ee6b0668a59af37935a"
+  },
+  "gravesham": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "a50da92f6684312d34543aa0db99d71a78f406ba598d5182f434356a61072061"
+  },
+  "great-grimsby-and-cleethorpes": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "54af2a3b5b9a40b3ff67db6e174821881a04f79b1503cbe3126bf2d4a83e3f85"
+  },
+  "great-yarmouth": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "a2085d7e2811f1d9f84aca391072fd0492d868a0dc22055637cca92bd317706f"
+  },
+  "greenwich-and-woolwich": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "1c34ba58f7cb2cc0154ddd133f22f4710936fa35004bb226d266d417af7ddac2"
+  },
+  "guildford": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "39d5c8cec986d1cbb5a200e95338af4b84068d6a4e4f0d8671e104f0dd622ee3"
+  },
+  "hackney-north-and-stoke-newington": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "80b9b5f3aaa431e4f792e0f65fef51eaf2e6a7c8418549d0032f4999e66c4fee"
+  },
+  "hackney-south-and-shoreditch": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "7c703b03115db2c2be35e442ae10252ea57285b865cb3f9fba296e3de4343406"
+  },
+  "halesowen": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "ddd8ab464c9bb59afa4834b402cd7f77def9c078ff2006a23c26fda69f65034d"
+  },
+  "halifax": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "8b571eaaf585f04a5272bf212b6e1811ad6cd30940fb71195eff5291b0cffee6"
+  },
+  "hamble-valley": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "a64fe76bafde46aa6633d4df51ff3e503f6b2f410b661b808b057775e1e4e82c"
+  },
+  "hamilton-and-clyde-valley": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "562135e4bc0bc8d0a2e33aafc98624cea7376936167e38dc46c141c3268d3e14"
+  },
+  "hammersmith-and-chiswick": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "2eecfcbf4a2a4afd4c47412c50b1a6391c367228396d781dc67f38390b58b64d"
+  },
+  "hampstead-and-highgate": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "c14d99976c9d88534af6b3e412b3472d16783d85a4966ae64a831896ccaf3d6f"
+  },
+  "harborough-oadby-and-wigston": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "6a77a8ed67b5831044df1a3e8bea7b0e5b096d2ce44d871c2b069446261a140a"
+  },
+  "harlow": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "95b1d43377300a36aa6d5f0568be946dc5b114377418d04081d2d3cd417ce2ab"
+  },
+  "harpenden-and-berkhamsted": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "ac8c58119605dbc58fd62254ee387bc76d0b61943ed3d77e658baf373959f85e"
+  },
+  "harrogate-and-knaresborough": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "3fb629460306a2964a8c4f2cb31913819b3d8ed51fec21711874310c6a573a41"
+  },
+  "harrow-east": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "25c3a95d787a31a09c80628044f0496ca86ae6de29698f9c490418aab034f9f8"
+  },
+  "harrow-west": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "78762e67feb52ab85c735d5dbd7e04cf1f9fadf5788d345201fc0b273ab1627d"
+  },
+  "hartlepool": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "ff3c0fa79d11804e7e50db979a61e85cf3cbca20e5cabb5558c0c76cf848bd4d"
+  },
+  "harwich-and-north-essex": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "c4b62654132297a6ca82e6a18fb479e2b11d3eff81d897cdcb2f3f55acb6ae4e"
+  },
+  "hastings-and-rye": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "47a8ac4cc4a31a0676ba9db4df0e34b6cb8b08c11b3f2e283ff0418eb0edcaf9"
+  },
+  "havant": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "8123dfb061588daedb5bc3e1a1b7d6d4bee90724c6f74c0b8f069b6504692c93"
+  },
+  "hayes-and-harlington": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "055892f5c85027d4461472e9fbe09c9a7ce01fab77d1616e74a722193a9ba52b"
+  },
+  "hazel-grove": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "8100305a082bab84245c4c5ea5a3f07bbb5a7c0fae4db44dac87ff939ddb85c4"
+  },
+  "hemel-hempstead": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "538309f2e6d7f1a9d32f5d68c067d3d0c044c3e25e769cd2ac0c6aa5a7a74348"
+  },
+  "hendon": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "538b0175077bb2bf94a94d7d48510a9cb499892c888c18e3c5fca0ba5c26ece5"
+  },
+  "henley-and-thame": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "2e21f84383b2b84a95d26796f233c46faea1dbd3cb8b2579ede5053f26208720"
+  },
+  "hereford-and-south-herefordshire": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "e32e116b7dca4ba266c518dbc74b7483215bff6e446584c532d0059fb6a83ba1"
+  },
+  "herne-bay-and-sandwich": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "4f881cc5005888e48bcd870a0618da069648aaa70ba0ddd2af4d4929733bfa25"
+  },
+  "hertford-and-stortford": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "90ef3a89e78d5e3b1dd8e8722833658b545fa8820a7c92970681c152de6a490f"
+  },
+  "hertsmere": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "df60eef5c4aec2466597541f6ba39bc3eb2d76acf70f2713275162c2494c19cc"
+  },
+  "hexham": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "f188773f1bf135290ea194844acb264a3cf740c397ee39b3b8f415855b89b0b0"
+  },
+  "heywood-and-middleton-north": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "4fcdf91291a4452427684c4bdd42683a68389bb4a290ce2f3439db039688d1d2"
+  },
+  "high-peak": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "1c4c45591b5b0f1d7e56cb48c9949691d900f5f586b1221a48e21b48d3067683"
+  },
+  "hinckley-and-bosworth": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "43a15df1f3966e60c57dec3538ce16356e68786a8b723f9097f65c698cb8cbaf"
+  },
+  "hitchin": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "64193b1aa6f5c4e3a7c77a3421543ed7a5c671453f245005fd8c58ecc7da4c56"
+  },
+  "holborn-and-st-pancras": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "d635d8cf71ca23ce195c4f0df470017713a2f6cf495cb01fa02bfaaa504a1690"
+  },
+  "honiton-and-sidmouth": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "7500fb3608c66403f98f5d832436d092cb8cba08b817403d8ab6e72e26a662ff"
+  },
+  "hornchurch-and-upminster": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "79c9b3d200a192116bbe272d99ac74354fd80186a80611307981b07808612ac8"
+  },
+  "hornsey-and-friern-barnet": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "978ee8af3e9e71f84f447f004f76e17175958aff3ac5f5a6dc35386a22213b68"
+  },
+  "horsham": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "89db08cbd6cd5d8bde0eef885d76e818462782cefbbd6316938c48ea51628b94"
+  },
+  "houghton-and-sunderland-south": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "5aa5b2817a7c09f674479cfc2aade5846d33e1510f44a2433b176f8cacc7de3e"
+  },
+  "hove-and-portslade": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "a0efe804678ee36c3e115dfbe8ff6c320781e45112abc9377997072ae5d3ddfa"
+  },
+  "huddersfield": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "076faaf4eab65abbc0de4fb52ba31547579d54445569ca04594c9873bd2cbcfa"
+  },
+  "huntingdon": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "e6dd1268511997cd4097dd23095d903fcd62e7e7d16fb57c3b7583cd45f82ee4"
+  },
+  "hyndburn": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "32769ad68052fee43184fd0f8f675d53bfa5993b0e2161074d9d73a95cee6e38"
+  },
+  "ilford-north": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "0862891a8759b39f2d4c3a429cfe62b7f1b389c41ff5a7c2fe232c6edb9f9a50"
+  },
+  "ilford-south": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "8507f2687b3a77e0d8dcb3b8e31c980d7d3487367c654dd231ebf88c1d0878c7"
+  },
+  "inverclyde-and-renfrewshire-west": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "59ac1b6255d4805e343254756e9ab5477c89c27b9b33689bde4dbc3431fb8372"
+  },
+  "inverness-skye-and-west-ross-shire": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "0a8cda2005077db8b63ef37d72504edbf40db635924d85c5e91b2182431b80d2"
+  },
+  "ipswich": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "13f09fd4bd3c536db28e7e7f9e8ac87269d620ae90402c8485a3971d313793b4"
+  },
+  "isle-of-wight-east": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "0af17d120c05916aabc273c129a3da20b1fb4ea660c2886275df5ba9632b2c94"
+  },
+  "isle-of-wight-west": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "f20b1bfae253f85c956717b85c945374c1debe0b03dd2fc1d0d76b9afc3d7023"
+  },
+  "islington-north": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "c38106041f757e22813969e6575c323c2e9e70f1526abc74dfd33df742ef683e"
+  },
+  "islington-south-and-finsbury": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "d1f1fa58aded8b2dc377951ba87e854c214a67790ec94c7f950026737226ff5e"
+  },
+  "jarrow-and-gateshead-east": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "8d9cb36343fc62ea09572c1e7ad564f3f5171a0b6a704f49b452f9853507fd4b"
+  },
+  "keighley-and-ilkley": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "1680483abf8a80fb2a5bd924c96222a29935234c6c2bbe2747b680e32d2ad20b"
+  },
+  "kenilworth-and-southam": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "d6205bd72cfa5d8479e9c8a41b3357b886e623ab9c1fe9dca6d3a4dc4aeb5fc8"
+  },
+  "kensington-and-bayswater": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "fd37533021a5e0dda5f71ad644cb5389e6b499ad8eb9e9ea3e876366924fc4c1"
+  },
+  "kettering": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "930475ff80a19b889522b5b75e869e4e09f5271b0c840e37f45347c5e93512de"
+  },
+  "kilmarnock-and-loudoun": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "5e21c007d4ae440667d1c5a0c464c436e6d2675464fe21b94b4a088b441d44bd"
+  },
+  "kingston-and-surbiton": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "ff27d8bc39c1037ba49982d5403f7e60cc50d9f2e8c90c805f745c3539e531ff"
+  },
+  "kingston-upon-hull-east": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "2aba53b8d25807d6ec84d034bd0d71ceaebab2fd7b75914364e131254305714f"
+  },
+  "kingston-upon-hull-north-and-cottingham": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "d0afe731a1fe3a8eda2379da2d08920d4593f0c7701d97941ccc49773af761ac"
+  },
+  "kingston-upon-hull-west-and-haltemprice": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "594d491b8d041d9520c9d90fc22ed75082d7ed6f557a088543199859b8e5d16d"
+  },
+  "kingswinford-and-south-staffordshire": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "a7cdd7b638215ee1c84c65d3a7c09474c951e29560d8392940a2eb7779d3fd1c"
+  },
+  "knowsley": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "426dad9d5e436ecb2bddaf03fc16cccd50c0b2ae9d7c1d6c40b7eaca8058dd76"
+  },
+  "lagan-valley": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "fe64018020df48800c5d5668f448a2a36e45d5d2119885b568670788643b86db"
+  },
+  "lancaster-and-wyre": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "debce5f40ca76a417142f9b9ed815415ea2f733885a783f73eb6bb6c438c06bd"
+  },
+  "leeds-central-and-headingley": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "1a61bcd926e52ad28fd33c79fa39e61023204cae73271445505d99f83ddd471c"
+  },
+  "leeds-east": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "44e4421f3336a833bd3cd48df719fd17b8ce4b6177d34a010499451726e10218"
+  },
+  "leeds-north-east": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "4dc82aa6ce000d62bbf03564fef451fe628847cf3c7119f6bf922c8bd34fd256"
+  },
+  "leeds-north-west": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "2af91d92d6512cc9576471da86827e42d7eacca88eabe4fe1683222ba8702ecf"
+  },
+  "leeds-south": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "62e6ed7c2bf5b9e24bdb764855991291befa94990f50e547387f9f6d4a173930"
+  },
+  "leeds-south-west-and-morley": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "b419bcf21e874beb66898386e34bad9da238ba8ea15121c2ebbb1bef2a2c0b20"
+  },
+  "leeds-west-and-pudsey": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "85fda469693ee34d2595107f3bf7c71e9a29b1bf590c94e595205db7920befa5"
+  },
+  "leicester-east": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "3f29e56b29dfac047dc77c98d25f2b6b82a787269c7099c85f976971a68e5635"
+  },
+  "leicester-south": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "bc1ee46d3eb848140e60f26e6bc3bb05187def04e2a3e4eff1d4cdca7f09cc75"
+  },
+  "leicester-west": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "657dd95e5158bcccb314004b1c5bc428408b92d7b403637bb25faf67f1664cac"
+  },
+  "leigh-and-atherton": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "078542db10098bbcf7b1027852ff2eace4604b56682b93b8307783d54ce22eef"
+  },
+  "lewes": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "26e7d78d04b3c6f24406268e3d900739881c18a522954501c2995ae6126ba53d"
+  },
+  "lewisham-east": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "aa690a48763ef6e09830fff2989d0a1160bd12537a28f654421718b5f45fbb08"
+  },
+  "lewisham-north": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "30b2d5a48836f006365c98365a6124c6634db70801d7125ce2be7559cab4dcb4"
+  },
+  "lewisham-west-and-east-dulwich": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "96234301722c933271a5542b028f32ae1e1cbf9b3d7f5e5c0d9df16a1aed9bf5"
+  },
+  "leyton-and-wanstead": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "06338c91ff90bea4a230e97c7a3499f6077990020df6b8b3dd9c3ebda8d63b5b"
+  },
+  "lichfield": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "2769d8157e10903275d4667fff8cbfd357791bba86588b7eb35f3e723d53d03b"
+  },
+  "lincoln": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "eafbf5a812e6b9947d79eac699114ea8d0592fc5c6529fa7dbc5d83990814065"
+  },
+  "liverpool-garston": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "b0eeb98c8b5fdaf0195b83d5205e306ae9ab19c6e92bb36eefc1fd8b8b51908d"
+  },
+  "liverpool-riverside": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "9e9518699fa91fb52d1067e50fb0136938421fec0679aa077b23e692d5996df8"
+  },
+  "liverpool-walton": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "b9de4d5d0ab47320508d0e6e8dd5b7d740b830f51f552420bd3bcc62a93a9cd9"
+  },
+  "liverpool-wavertree": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "d69778aaa95fbdef743ca7fa06dcbc01b0a05133fc9e51037c5f40e0e3573cdc"
+  },
+  "liverpool-west-derby": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "bc07041efdc12025c22788c628b25df04ac58e7e8eb21c198d1e23d2edd1b83c"
+  },
+  "livingston": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "53295a7cb4f925f337f284b44580082606f4e0978c1713e725f07d4e54b0d7f2"
+  },
+  "llanelli": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "b6daf95d2f969b3e1db7fbb794a9bf21df242c1e84ac16d026963a8cd6d25d98"
+  },
+  "lothian-east": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "8d8ba1b0bfc7b2701c2615109ec20cea583933bf0ffd951314c76e60ef627b6f"
+  },
+  "loughborough": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "45c24b3a2720de329bd1912dd7b0497eb2929347ac47b53451f8ccb1b2f16114"
+  },
+  "louth-and-horncastle": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "cb030485273304bb11cb184b0222a7ea93d0a0f87b42e906e8cd2c2095235f00"
+  },
+  "lowestoft": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "f5e16aafb65d15cfb41d9afe24c6e2ee6b25ac6cf5507d2d45fc421ebc334489"
+  },
+  "luton-north": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "424619d5cd3fb72d9b6c7af7455430fc1327298cdcef14844737d38589f45bd7"
+  },
+  "luton-south-and-south-bedfordshire": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "096bfc24f0efefc8aa31ab581a35e6ae036bf2392875ef329713b470c7815cff"
+  },
+  "macclesfield": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "169531553c7cac581538b954429808628da463eb6d737ea92325f4b8529fa88f"
+  },
+  "maidenhead": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "29516cc037558958503dde69f95e26ec3157c8145c80a7160e3019a861af0f1e"
+  },
+  "maidstone-and-malling": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "1010b76814d47ce2bf20ad3467097d1891ab1aaa9309d311fba9b7d8eae8152f"
+  },
+  "makerfield": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "495718d65f57828529f6ad07949264632a214fb6a6d217842c1b9523b783a1d8"
+  },
+  "maldon": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "fe2c8119eea326a0dffce5e0e664525e7212b8ec7b88e112cc8d53ef85da7ce5"
+  },
+  "manchester-central": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "2a69e62b9ecb681e9f3ea731db52f66607d23ce66b9f807a9b0731140b42ab93"
+  },
+  "manchester-rusholme": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "1d64c8a3486e7a2ff01f54c39626c2277a030b42541dab2a54b29b672ebe16f1"
+  },
+  "manchester-withington": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "3f83d5cb77d3fedf091a563fd72920665d6ed48cba94b03d5beb885b72fe5672"
+  },
+  "mansfield": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "0724b0df5bc5305e8caaaa5dd63c538e6b301b612563fb548b624a16187ff7a3"
+  },
+  "melksham-and-devizes": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "af7c9c513fcb11a135b7033fc25d4384e64b1ed835197ebd945fee80a9809da2"
+  },
+  "melton-and-syston": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "6af86481a843ca6748cf2cdb65d9c4717f8429e14892f15831be0f385dfd0304"
+  },
+  "meriden-and-solihull-east": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "e9292ed7df4e9edc1b7b60fc9aadc86cb41c56b183a6e6e27d61e1f92ee9440d"
+  },
+  "merthyr-tydfil-and-aberdare": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "9f223d9b0c22707e24e254b1d68e2cb53c1a61386e88da27c5408524c790f606"
+  },
+  "mid-and-south-pembrokeshire": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "36f7853294df691feadbb64eb1cc4369d12950a78ec13158f9ce392f497cb506"
+  },
+  "mid-bedfordshire": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "fc51015e0b3652b35e8dd741a69f5b29627dc7b4ac28e930178bdbfdf8240862"
+  },
+  "mid-buckinghamshire": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "3ff6d49e9822f1e58de5c68ac63b2bb5221bb7e2709536b316bb5bc40198a7d6"
+  },
+  "mid-cheshire": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "20ce656acb363f1514a2e2d0ec925ec5c8e8a386d3fafbacad0682916869289d"
+  },
+  "mid-derbyshire": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "3d750913c0d739cc348ee6cdd2a95f66eca7fe07b0c6dd52761af5cff26fe5a8"
+  },
+  "mid-dorset-and-north-poole": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "64fedb0c3dd1867369025b2f4217d89ca4ae3e58c0beeaa816830d9b17e46c79"
+  },
+  "mid-dunbartonshire": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "55f96fa6a983ebab91d5d65723eaab1ed104a46236b10250cdbe5ba0c68a5745"
+  },
+  "mid-leicestershire": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "0516af4518c0da8e883a3e755f157fefaf7cdc35bbb0ee4d9e1eaeedad495803"
+  },
+  "mid-norfolk": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "b0b662ea229a320c391568295d0586c758213928b92e474d3d794670f257bec3"
+  },
+  "mid-sussex": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "db67ceb96a2bc26f8210e926d0c774cb9f1fdaa7039307aff06be1354748ed2c"
+  },
+  "mid-ulster": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "73a6be1f8bf4bb58ab0b0991eaccf9c6a3bd8cb60da666bc21a553fbf05f3cce"
+  },
+  "middlesbrough-and-thornaby-east": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "0352a6f5e6629d3204becfd57c27a4c52f73f1f97400bc514ce9c50b72f52b2b"
+  },
+  "middlesbrough-south-and-east-cleveland": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "20bd6746f89993205c1f1f61afb862f63171309e782722018c4ac3b61b2a5629"
+  },
+  "midlothian": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "d21c3293b3a4d95dc35dd3f30359250b58d09371c4025d2f588ffa20661b3260"
+  },
+  "milton-keynes-central": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "b280610ed2018cb88fed7380cddcbbf068960a4ee207a509dd9f9b0b4348b0d2"
+  },
+  "milton-keynes-north": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "2dd60193187dc34319955a824e0d35ef23f98187a03585682f563c54fb32cd60"
+  },
+  "mitcham-and-morden": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "728bf5cf04966afb09d7e85cd53e88e28c3203b4b9fe4ea85dd8f8a121c5cc35"
+  },
+  "monmouthshire": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "e2b1ec23990cf7b9a83cb9d561bec86aa2d53cffb5f30592f2b2cd58726c194c"
+  },
+  "montgomeryshire-and-glyndwr": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "c5febd024737193f32bb8f1ffbb52bbf3b03b6a64495c241c7720e73afc79be7"
+  },
+  "moray-west-nairn-and-strathspey": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "3bae030fa8c3eb2ae64872f43b0bbf9ba70a77f72f9ade3b4132808c0ce3a1c2"
+  },
+  "morecambe-and-lunesdale": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "aa4c8f1aa02be8d0ee9529b76326286d914233bddbfdd7b182fe45e1e2d0f5b9"
+  },
+  "motherwell-wishaw-and-carluke": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "e2f1badcb2c19bdaeba356b233f16f5b33fdd2cac9499a1e442a147d30aad45d"
+  },
+  "na-h-eileanan-an-iar": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "d069474698a9adda5762ecca3e79646808c4470a8d9916d192aea00de037b896"
+  },
+  "neath-and-swansea-east": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "2bd39c51f3391ea1dcf330c91d750418b0b73f6ee991c08a4c4e6e86835da5a6"
+  },
+  "new-forest-east": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "f7d5e7989ffa7519c0e77d3b1781af68ae99d9ffa327fcb3223137f45d093509"
+  },
+  "new-forest-west": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "7778809ec864a61c8d5c1d5bd606a150d60f2bfed6f6386fb416b83545d7ca38"
+  },
+  "newark": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "972e91e35329e3f6acc5177a2982a512b0fa344a4cccebd4ff0c691684cda790"
+  },
+  "newbury": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "aad9421ced5ba88fc752eaec89c9454e6fdc9a9e014684e992bb507b58747ab8"
+  },
+  "newcastle-under-lyme": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "8ea12786263b78bbd249a94075610bcfe62737cb534a755e440330bbf0b98c1e"
+  },
+  "newcastle-upon-tyne-central-and-west": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "1450404bb8fb0ddab3d8a5289d77963dd95885e1db757d89f84de1698683a10f"
+  },
+  "newcastle-upon-tyne-east-and-wallsend": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "af3cbdf23238627f18c1ce9e31cc9ade5c82d3981dd019fc5e30b1cd8f1e87ed"
+  },
+  "newcastle-upon-tyne-north": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "271a20d2714617035bb112a6840a0597fdefd4e7ac9dd36e2baa95e29d9553be"
+  },
+  "newport-east": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "30d41de189cb43dd12ce7e6a874016983e55a88c30b7f5096f0087859ff9107e"
+  },
+  "newport-west-and-islwyn": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "867a80b219862fda1c1f4acf18086aaf433d7f38c4c864d97c01c31b9fa9cc7c"
+  },
+  "newry-and-armagh": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "cf7f87b3d2c1726f39e384f95f0213ffa9cc7eb1e7fbffac367a7c41815172b9"
+  },
+  "newton-abbot": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "669f69f712bd1c0e54719618bec12aa80f3a0b9190574d4d95a2026882c6378e"
+  },
+  "newton-aycliffe-and-spennymoor": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "daf3627c75f62b96c84dd7ec24f998863ed37261b4352164816df4d185e0095e"
+  },
+  "normanton-and-hemsworth": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "21e5d8d7d6221d0382219fe0df7f1bf382d7775d1f05639691dfacf53d4eb5f9"
+  },
+  "north-antrim": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "19ced9532dcea5d3bd853d4113ad729d2668c04ad5bca36c4e7ddf9fc765905b"
+  },
+  "north-ayrshire-and-arran": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "3c9b8ebdee2c3c285284cd5e4fbff07e794e084ab098b3c4a20c4d18a384d4da"
+  },
+  "north-bedfordshire": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "79ae7723597095885766dc1e277d0587c3ea98eb3a94520773394828d6174581"
+  },
+  "north-cornwall": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "b5c7ce49d68fe91a3eafba3f7c8fd81d2423326521f67f82baba47f23fda1b29"
+  },
+  "north-cotswolds": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "b13673f74dd0c46c719d2dcf91a615f1828b2a72c08767abda2442e9b7b8aa27"
+  },
+  "north-devon": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "5d83c9bb9226d210fb9db33e04e5040844f089d6c5e00d729784fd957ea4b12f"
+  },
+  "north-dorset": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "aa8dca0d25e50205aeb37dfd1704dfbf277eabcd07513ba1c837fbdce6867032"
+  },
+  "north-down": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "712766bf8ce3e3665a44229ae4546addc9824d4bbbff8d3f4f80256b962a6338"
+  },
+  "north-durham": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "27c34548d103147a008e337fd272f7940a34929ed0d10ec48ae41eca3715770d"
+  },
+  "north-east-cambridgeshire": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "835224d8210a73d32a2f31b66c45a6208b06dba829c4331811b7ac7fbc4aae59"
+  },
+  "north-east-derbyshire": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "4e4696a79f27fe5f90983c2629aadd64500b3653626ad3b7f319ef74eabeeb98"
+  },
+  "north-east-fife": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "cc18e7e91dbf0aad4a8527ca2c16ef32ee00e0481c93436219f8c542ddd12b42"
+  },
+  "north-east-hampshire": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "4bb4512a891e689faf5906dbf9ee5c906a5838494f8b548b2e9097426e2cdfd3"
+  },
+  "north-east-hertfordshire": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "ad24f1ca63764da75f1b5556e69e8858275cc3e2f50d33e51867014d3a85d27a"
+  },
+  "north-east-somerset-and-hanham": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "51dace33145b478e2794ecf8a7068d51b6b55496e97221ce95e726f3df087975"
+  },
+  "north-herefordshire": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "5167f5add48fa141467587fd80d8fbb61dbcb6a2efea7b35041ae69ec6a34cf1"
+  },
+  "north-norfolk": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "196337b5e712a197939a087731bf81d0865853978e1744a6e3df2779e1f3df37"
+  },
+  "north-northumberland": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "0ca7bc989bb3ac4c235b2f1b0933890d882fc0d677233fe8c6c665fbf3bbdc80"
+  },
+  "north-shropshire": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "59a0bb53144903433fd7b4bb84a4eb9d3bb106ecc2b7c7c7537fe95db883757f"
+  },
+  "north-somerset": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "3716fbb637c649c5e29a24ccced8a004a9ed07dec9061d1ed40a92d3ef5e1fdb"
+  },
+  "north-warwickshire-and-bedworth": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "83643d2f26126cf891cbe3337f5fa6c367af8bb088cf4291f14b3ff871072ab2"
+  },
+  "north-west-cambridgeshire": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "75972bbf820f6feaf2b390fc3deb3ddfda50f96675fa640ead355fa58e953d9e"
+  },
+  "north-west-essex": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "0e7c73f71e55b465eed6d8c8c3a2cfee63ccb4880bbc0b51031d72df07ef94f2"
+  },
+  "north-west-hampshire": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "830c344cbdd13fab8817b069893cb6bc8fd9a9cd3250ef35208d2901908b05a1"
+  },
+  "north-west-leicestershire": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "2c397251fabd70e72017560ede4afa15749f660bc00316674ae6ae98f80bb6a1"
+  },
+  "north-west-norfolk": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "3e1861925b82e995c33ad18ad36be7f9e656ddb30b00f7c28541d78d6c033d78"
+  },
+  "northampton-north": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "f7dde1c94a8897d77b0854a2751f8e7ef0cb305165e003c0b2f3a93674f17e98"
+  },
+  "northampton-south": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "59b56b68b6a8e936912a5de75e2ab50a1899f7b9c77a8e23d614cd05b455a981"
+  },
+  "norwich-north": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "6827cb7bdd113dae19f5a56f7cb6cd72fd2ac087954d3502cbf5ea376fb49126"
+  },
+  "norwich-south": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "c87023b071ef3b9098ed408048a0e6a8bd0430d87d176125eb0cb1ba214167f4"
+  },
+  "nottingham-east": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "9123411489dbca5f492ac9260b7ef870e54f97f82bdea8e22c9ca058e58fc78b"
+  },
+  "nottingham-north-and-kimberley": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "f5617c033ce02423b0cd6621db09196a71ae05393b8389c681ad100df116325e"
+  },
+  "nottingham-south": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "75841659fb9d1eab5281c108e7d0b7301793ca1bf7ecacf2e4fb324533c367dd"
+  },
+  "nuneaton": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "fa96a1ab10e40e4b20baef7026a20ca0f0663fc5e74b220093a82f54dec6185d"
+  },
+  "old-bexley-and-sidcup": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "82ff505fcc2a614b4e4eef04a12011eda1b5fb07b5f21aa17ae7192e4a561be8"
+  },
+  "oldham-east-and-saddleworth": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "b030c02d4a3ff5bc94517dba89ec9af09f90f411d1fbef2868a808473afd75a8"
+  },
+  "oldham-west-chadderton-and-royton": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "e43d6860d4364931beec448567ff5e7bc2a95a75d048c7cbe92122672c5abd91"
+  },
+  "orkney-and-shetland": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "26a2ab7ed706c971616c09fe4c5c29a192825da887c2740d2c4c38ce2ce67027"
+  },
+  "orpington": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "9cc42ca294b0c47ebaf58c29e7ab28fc4a16b1cc8b73ddf0238a5fb20ebc00f2"
+  },
+  "ossett-and-denby-dale": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "972ba5aa9e8b342ffb223d97294d035cd7511813d3d0591da1af35cc04dc8266"
+  },
+  "oxford-east": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "ce45be48d6cd136fb8455fd2c0ef89be4ed482799df16d0c48d57909ab2620b4"
+  },
+  "oxford-west-and-abingdon": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "4555e5712e4ced542ab22a3c32895440e23dc4ff984457c26597d26349e7e901"
+  },
+  "paisley-and-renfrewshire-north": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "b59dcdd33619564140b72f752451fa0e5366cb1358e1bee01c836076e517038e"
+  },
+  "paisley-and-renfrewshire-south": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "5cb128638f1e1a35a601eca278698a80e7f5a83267559ffb271d9853013ed7ad"
+  },
+  "peckham": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "b42b2d6ea663b6ba915e3b987ad8476521543e5da566e45b94f56b21b471d588"
+  },
+  "pendle-and-clitheroe": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "5833a3cd757b409409cc0b7ad0f4f9b2c981425ec421abe978b712eee321f18a"
+  },
+  "penistone-and-stocksbridge": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "aee5d51bafeebca7cfcdc09f0aa84e802e41b2b565a114803a0c20cbda367549"
+  },
+  "penrith-and-solway": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "135613a6ece1c86541b4c97b5102d755e47c4694e3b7cf28668136ddd6f03199"
+  },
+  "perth-and-kinross-shire": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "a7c049c60f6cb6518040bede1cd699355c3c95f4baae5c761aca25b07a318a83"
+  },
+  "peterborough": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "4dda2e4e54af209bb91c56ee4ceea9a9edf0e3e670935fd2bdac6ace8a646a01"
+  },
+  "plymouth-moor-view": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "ede8b919616aa6089fe506c01bc007ee819a50d481f840e487617fc6750474ba"
+  },
+  "plymouth-sutton-and-devonport": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "616954dce4c55e82312d14bfb856c8624604bfe613262514981d94a1d0c9b202"
+  },
+  "pontefract-castleford-and-knottingley": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "d679298f58c2a99a57b3ba7715b1edd95c72b83e760cd2e2526d27f116ed3f45"
+  },
+  "pontypridd": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "d7bc959b6f9acd7f5a8be742a053740af0f83fdae4f8134907b19568680d0508"
+  },
+  "poole": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "590b3b6d046e8cdd0fe8c6e6a29afd291bb4956fd26275307ec7eb49019223c0"
+  },
+  "poplar-and-limehouse": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "2d30d8857d5431495c8390571a0d01ba1d9dec6f05e99944902ee818f9f0f04c"
+  },
+  "portsmouth-north": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "330e4f1e9acf9503211709d41c8e1b8861051e00294bf968a837c428d0219384"
+  },
+  "portsmouth-south": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "c89850e5e8311b11ac5697b3774177278ed0479a109c3c75982ed778f2cc00cf"
+  },
+  "preston": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "e57abd76d4f49dc8ba3443412daef575d0639de653ea2019ae2137d98076f388"
+  },
+  "putney": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "ad61163293c63352778ffcf0a866bab610ea47acf3dedf6b0def28c825602ac8"
+  },
+  "queens-park-and-maida-vale": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "298c20d6d76cbf35637c6ddfe6bdcf3370329c19755a99dc98c36e7b0150da55"
+  },
+  "rawmarsh-and-conisbrough": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "8adf5de112956dfac6f5c52e2622352832579e12da3cd5320535fdcb4e43460c"
+  },
+  "rayleigh-and-wickford": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "5a1a7abee1f5efc404eacd7d843b5f46a2bba0fb7c9a0e2a6cd4c5a947130991"
+  },
+  "reading-central": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "2cc0eac4cc181fd0d149126ecf9747339f59b4b8d09dbc43ae61d96163edde60"
+  },
+  "reading-west-and-mid-berkshire": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "05d1f7b8241adaa71d38f58be3f9af28d5e155f0e4a0057e56cd2b7c53183184"
+  },
+  "redcar": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "80507c2a78b96e4720e0c4317bf1f719f4f053279b25846c17eabf33ed9bbdd9"
+  },
+  "redditch": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "9f6c327ddb222842dcb1fc9ac8d68c1e5e95a46f128b331ff5d762b9f52efb0c"
+  },
+  "reigate": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "58e52d693df528edf71a0f2161352947a846e2b66f2f456925c47a27df67d117"
+  },
+  "rhondda-and-ogmore": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "2775d1c2f23e7059c5f869080c2cf726e387bdbe110da177f2ea78d6112f0f36"
+  },
+  "ribble-valley": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "a92eee2fa898f47de0e5998d4db6a877d4d6448d8571b1bd313c3bc529f51656"
+  },
+  "richmond-and-northallerton": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "f00a9a7880ab44f9c20becc6c25b464ab0ec2123381c894c9266d1f9a217c1a5"
+  },
+  "richmond-park": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "23aa006c0cd103b1db68f7e5aba8225e3f38a6fa92ad71a0933376c79b66e318"
+  },
+  "rochdale": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "cc91d59e4e4df29aa447abb0b0d594c84e658175777037ecded24c5c31917258"
+  },
+  "rochester-and-strood": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "d69a7272fa1d39ebe50bc03d0cd4ef97eb4ca90118c983af42b99f660f30489b"
+  },
+  "romford": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "37b55a2907b22682c51d5ce26957ce77f197fe3a2c023854cfb03cca99a9f84c"
+  },
+  "romsey-and-southampton-north": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "b3b85848150c222b73254b30e2639059a02b7ea1ba208306d657465859d1c4bc"
+  },
+  "rossendale-and-darwen": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "2a888016a3fb1b6d9a5744ceb6d462861bac6dfabce5472d2fb8d9ee87b4ad28"
+  },
+  "rother-valley": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "07f2248182d5ad133b34feb2b7751674b3ca2d59bacebd870548e41509a34aa0"
+  },
+  "rotherham": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "75044f0ae8d01ae837878474c36cf539c3e37a3df02603afdd3d6d358dba4613"
+  },
+  "rugby": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "52f417c4d25b6cb3577d10e0ef1e1ca7cd7dc66c05dd6e8790a61ccba74aa0bf"
+  },
+  "ruislip-northwood-and-pinner": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "76dc53ff07cf3fdb2fdbd1a459207f7c63976069c0df8d3b880acc1232f07533"
+  },
+  "runcorn-and-helsby": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "b1058bd29b29c78439dba11bfe8e015e444e98c0c520d88a2950c733328cde9f"
+  },
+  "runnymede-and-weybridge": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "4d6572b50fe284676e62ea2429f0b579449dc7a15abc75fe524d20d1f4ff2304"
+  },
+  "rushcliffe": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "8f6fe8320c7dc59b1c56ab8d56c2b732fa21b513972de67d7d8d3527626f98df"
+  },
+  "rutherglen": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "bc215e63b21d6c79072f02aa38bf4b04f374034e92f57f748d44c9b175a16d73"
+  },
+  "rutland-and-stamford": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "c66bb4212c1feeb56cfeccea6b607f4948a4dc09f5f3d4fe02e00c8a8734a6f7"
+  },
+  "salford": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "0c81d00440d65cb83b733ffbe933f07a148f7464791ad13fd8669436b57d1ad1"
+  },
+  "salisbury": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "3d86eae5b11b24674771d7712c6d8e271902e67f18c553bb49d1e696ba0d692d"
+  },
+  "scarborough-and-whitby": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "55a39dc9914a6a597430468d15361746011e8f7efa7eacf1d4e6dbd511c44d0d"
+  },
+  "scunthorpe": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "ba7a98b7144d3abe4055e0a4e96413349122b7b28f929fb01446d27a26c6776d"
+  },
+  "sefton-central": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "ac56fc67dfffbb3dfccd625fbf84273cab65501a0774f9a88a92d8a6e8bc19ad"
+  },
+  "selby": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "e2d968d8e7c987c7d884f2560231188f18612bc74d2f0d28fb41e674cdf8e3fd"
+  },
+  "sevenoaks": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "83c328a221a2275544ef6125a74b839640606dda2a0586472f4225a50d38f3c0"
+  },
+  "sheffield-brightside-and-hillsborough": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "aa0b4fe163c481ab6cbed43aefe85f56e9cccbeae158ea0d3b78895e0c0c904b"
+  },
+  "sheffield-central": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "1942b59cb49690175fb18b3d2714203e165ba02bab98751770c8223f34b08475"
+  },
+  "sheffield-hallam": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "36706f89dd8b2627c4d50d1216564d1faee9bd85a6620a1995df961419d3466f"
+  },
+  "sheffield-heeley": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "8a48a77588422cb52d7b43ebeace171770d472f684497c722e2532be7148af76"
+  },
+  "sheffield-south-east": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "85d4a539d06941147696040ff5101fcdbd64908d918ba39551f62fa3e7a260f2"
+  },
+  "sherwood-forest": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "b143ec154393ddec61a179f6b3b6643140a3b183a397dba63fbc29d0fd391fb7"
+  },
+  "shipley": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "f2e7df1d25f8a30a47626735cda51f8e926f0b941a038e98d259e69586e77e00"
+  },
+  "shrewsbury": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "2974fe21cdeaa2eb4b3644aefa9448e4252f7b6edbb86ca0809047f46e84e099"
+  },
+  "sittingbourne-and-sheppey": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "9f1cbcdc23eaf7864e1270fa4b400a7071ea19038f1e255fcefd03000f5e0795"
+  },
+  "skipton-and-ripon": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "5d79f301ecd1f245424f6ba1b31f5ce4d92f950030bf5903603b104b97de0729"
+  },
+  "sleaford-and-north-hykeham": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "ae717ea1d85e24ea5c35eccd02b6ecd872199611d3248bc5eb3719034aa283de"
+  },
+  "slough": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "735ec0ef6024913f30412a84eb04933d00d6d09c33964c78db5693aa483d6ce7"
+  },
+  "smethwick": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "c6af9f9fb61240258ba0ee9be4967ba4e5979234dca9849c170df2c71f873e45"
+  },
+  "solihull-west-and-shirley": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "09cb64b2a5718f2ef72aff9a7ee78e5b4309ab71e7b612a7eefc5608f9591c0f"
+  },
+  "south-antrim": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "7a4b2c4914496890544492c75aea8b39a2f05558852cc8581cc73ebffa79b0eb"
+  },
+  "south-basildon-and-east-thurrock": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "b2d9893c420b4f9951b34c77d217dcb0f56b457315643eec0e51f19c3cc317de"
+  },
+  "south-cambridgeshire": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "2ce26f0750e1b0046c42ec35bbbfb44f965e3f0a735c8b91e6294a89572bc23a"
+  },
+  "south-cotswolds": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "a3fb2e29a4bc7147853cfc913490a81119cd993c219dae896982b066ea2a4d11"
+  },
+  "south-derbyshire": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "ac1e7bdc22789ddcdf054bee20f3a9c51b9addb0b6fc93cbd919e064c8e045c3"
+  },
+  "south-devon": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "6723fdfc9e38d90cade9ed1e03055ca9c6eb82bf5b1d3dbd8fafd054376c9c97"
+  },
+  "south-dorset": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "7ea48c101a748b2b7e4a83bd0dd490f42f38e96929cdcc59f23277f79f5f1e44"
+  },
+  "south-down": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "af040130d1eb2bee54e414552c6fa777c93aae0f22419755591f026aea5917c5"
+  },
+  "south-east-cornwall": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "8fd6eed52aa911e63f7cbb749a743331e83a8b9b03a1543f46a8a05dbe905227"
+  },
+  "south-holland-and-the-deepings": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "31035eb80aa50de4c19b3f41ca95d9cdac2534e6173d6741ac897e4b593dc782"
+  },
+  "south-leicestershire": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "6866d3d9cf3dd48f84dcdc340dc7eec905ecffa8c15ee25f764c7a8df0bc14b0"
+  },
+  "south-norfolk": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "501a2faa4d960499ca000d0beb05f15eb5262fdce8341af140191c6f248227b2"
+  },
+  "south-northamptonshire": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "b55f6571c3d21122e6dd278e3c5986aafbc29be8832ad78cfad55df4b8be24c8"
+  },
+  "south-ribble": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "70e7d52240ef65ccfb4c3a818d809b9047554781b631eefd144a4a97ed1bf5d0"
+  },
+  "south-shields": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "2e4100583d1c0b0da658b13ce426cfe460e6c6f97a2f86b9f7fb0dc763979a4f"
+  },
+  "south-shropshire": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "ca104361e0a3dc246f3271aec90a516a994608845a2b8fe4eaac5a12fa2be88e"
+  },
+  "south-suffolk": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "dabb159aaf5db9056e83480b3a6e2bd95ef64276dd407bc0ff00142cc7c5c3cd"
+  },
+  "south-west-devon": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "daf9db1314f5699108b438441d44196de7d24b69b06bc597ef0e32e9ac4f020e"
+  },
+  "south-west-hertfordshire": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "deb84b32113b56ac020a755e6af31f0f6ad2d05573dc40e1e825a16440ac0658"
+  },
+  "south-west-norfolk": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "bbf38d85d9670cd0c749d691de791cb1d03af0793d18b434d2c4b7edf98abb7a"
+  },
+  "south-west-wiltshire": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "42d68e1a07eb004909f3b5a076e1d3fafb8bf689545b1e5a2667e3edfade3560"
+  },
+  "southampton-itchen": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "714cf7439adf826e7c04a32c230601e7fcdd88563827be9d6395bd742b31deb1"
+  },
+  "southampton-test": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "f814fa45c12f01bf1095967b47b73ae91fcb629396b1cee74661f867847f4237"
+  },
+  "southend-east-and-rochford": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "23af4d8f85c5f2fd8560c728b7a93c2a518fc6b79ecadc7f7382a2f580bdadfa"
+  },
+  "southend-west-and-leigh": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "835c2b7b8610b577e4d3132895c5cf2e6607c95199f70aca9ad464316a8b82ba"
+  },
+  "southgate-and-wood-green": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "a79c53c4e31958634a990ab77033457b25294c623148961709ecca400147e6df"
+  },
+  "southport": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "0db88531353eacd152f8559f4837b2f8875515456df68d8035639aef2ce92f66"
+  },
+  "spelthorne": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "f36ef3e01051df12b0c80b71eaf4071e182b659f4ab694162ccb259a804d822a"
+  },
+  "spen-valley": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "38c7d567c5b658702d1c4544ecbd63b942dad34b3164eb4086d971816012285c"
+  },
+  "st-albans": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "9acb4b984ec73fcdaf240b84c76bb7b40010946ffeff5d66aeb8d3983a099b8c"
+  },
+  "st-austell-and-newquay": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "43f0f8234f9c8636dc19add18ce2b43c8ee4c87d4c7711a633dc013bbf78c591"
+  },
+  "st-helens-north": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "54002d6fb5df6e31a2fd3df5fc049ccb24b87f7dc7f35526104ea74ddd312bbd"
+  },
+  "st-helens-south-and-whiston": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "96697a9f20d1c7bbbc87c1b124bde9e91f0342f0d2200d95ad04844c1b4f2684"
+  },
+  "st-ives": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "39e5841c9f25f14e557d0247912a6f8720fd72a99cc3d9e85a969931a0c54a8e"
+  },
+  "st-neots-and-mid-cambridgeshire": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "943b5498843f4a5b6e7e786754b27dcee2999819a51572dc37cbb4bb97f9e146"
+  },
+  "stafford": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "71ef47cc38920616624ea0555655db6444a83e7515d8d3cd23a0e291371b99e0"
+  },
+  "staffordshire-moorlands": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "8ca023730fecd60a9876c08af514ce1cd4f3356992186eb2f0868546ab12e96f"
+  },
+  "stalybridge-and-hyde": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "57a5e6d2f6d48f9fd124eec78d06f4306d5112b1e5a63ed1e7533b5fd68073c0"
+  },
+  "stevenage": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "bde1a71cd7ec816ea7c8579e8b65fded1bfdac46d48a0accb598330bf3415b7b"
+  },
+  "stirling-and-strathallan": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "a3910359c82b46d5a0d7efb4142feb75ddba25a81fef8cb14dc22cdcdb3f7049"
+  },
+  "stockport": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "bc4b34c4ecc13d87a9b288ad010452886d0600d1b1cb7350afd7dbd4277e3dd1"
+  },
+  "stockton-north": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "b57562da9c13db7327798ce48b72f84b73c4f34b32f2b2f3c2ccac44cf3383e1"
+  },
+  "stockton-west": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "e155142a2adda8ff5e6b406b41b6a40d0005d293c1b2ce85a7f32cdf6f6659f4"
+  },
+  "stoke-on-trent-central": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "e1df0dace24eeb79e32068f92a3e004874b7e9b469e7c2bb1199fc2df9784ef9"
+  },
+  "stoke-on-trent-north": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "d29d74190b79414e79ac470c5de0b20015f77bd66f015f7b58a02fc98d5670fb"
+  },
+  "stoke-on-trent-south": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "20b586ec45d35bc2248709e3c730caf3ef9decc63144fb989f40d443e10a9ce5"
+  },
+  "stone-great-wyrley-and-penkridge": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "a98cfa2119f63d9d6dd6fbc4cafe72230b9dc3080ec4962c69fb28780e17a722"
+  },
+  "stourbridge": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "28c26fafc02bd5848aceb7a123369eb28b7258369d832c7cba8696e2becdfe8b"
+  },
+  "strangford": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "0875ddacf1afb0b726225960f9794e5a8b8382036f4555305438001408dff18b"
+  },
+  "stratford-and-bow": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "f74524d55193eeafff38097491e272d23586d62995037239733962ec1f1bca5a"
+  },
+  "stratford-on-avon": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "7d2100a49cb6f078ce3cf96d7027c6ad1c4c979f208d245ba83bf920d0c62c08"
+  },
+  "streatham-and-croydon-north": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "287f350167850d517cae84935647ca38831fbfaaf6d2074adbfb5624ccfcc9bb"
+  },
+  "stretford-and-urmston": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "72a82a2b8def22c77e48cc83de3adfcca0f6050253929cd2aa23125d8a3cc51a"
+  },
+  "stroud": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "442c83fd25082474d7c64ef14a374edf83d4731ee1bd632d77e6fab0c636681d"
+  },
+  "suffolk-coastal": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "2c45a3162a19d624651c7e49d708b98a4fc76adeb7a51f0234682bdd295ee3c3"
+  },
+  "sunderland-central": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "ad726f430d04d509d5d78872e28059278b46b5f8a3f59c2d2242783fab310b3c"
+  },
+  "surrey-heath": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "e74b5597b63bb236ea22147d705ce5680ad48f28e4ace673f50c78e2e3b2b36e"
+  },
+  "sussex-weald": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "224fa3dfe6a309b14d15596b6f9f18321cd304706b259d663ad02be2a81765c3"
+  },
+  "sutton-and-cheam": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "1b1bbcb594571ff7ab3f66e9b9ff0ea24212b1e5958ba3ba127e25a88c18e047"
+  },
+  "sutton-coldfield": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "218387a0cbf5656c4d0138bbd5b9a41d263b14be22cc4f27055c605f3db113bc"
+  },
+  "swansea-west": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "b114fdafdd649140fc77b5c845dcbfcdf344ec6ee9f53034e852f9e927ad7b6a"
+  },
+  "swindon-north": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "32fd50a26eb0cf0e94b47f91b1074efb6637c2c888213d88eb23fe36b540bc9c"
+  },
+  "swindon-south": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "7c43c3fefbde091863bc668468cf28a2ec0254444ab958de17e4aa2e4c7373e0"
+  },
+  "tamworth": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "b5def8fb2513ad2480a74cee7b0db13d050361d2ef726d326426490b97120b70"
+  },
+  "tatton": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "9f7b773afe9b6d0cb99a524d66d597678ec4729212aa95eb29865335d2fb0067"
+  },
+  "taunton-and-wellington": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "298ffb11654848f14de3e5afedb27f62026bc8d23cae2ac5ddc1f61e392f3ad9"
+  },
+  "telford": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "530e45c7c426336d196b5f31be704bb513b6173658f6ea48f1bc320db19b6771"
+  },
+  "tewkesbury": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "e175bedae5f82f6f38dbeda81eda8d59fe6b50ca484a3d534e15c029d8e99c2c"
+  },
+  "the-wrekin": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "080063ea9bdb230cdd0723c0226b007541b799da366a617f6659d9a5e076fb9b"
+  },
+  "thirsk-and-malton": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "6922257b29cf0adc68627c399b58f1fa7c9101d832b6df9bc2a77172ffffd84b"
+  },
+  "thornbury-and-yate": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "ef4ca95ce42209c83e72fb2395d62bddd7a68f75b0595b2a4f0ffbcb8156591e"
+  },
+  "thurrock": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "c57edc83516a3b539f681ef46debcae0337e020bec836ea3fa9274df1e4f5629"
+  },
+  "tipton-and-wednesbury": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "1c7b33f9408012693429fdd1cdf2a707dd1d8a78a1254c3ecadfd3ff5b4b1352"
+  },
+  "tiverton-and-minehead": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "460351ba969efe279b0f24f22426145f812f29ecc965726825e3ff7746322701"
+  },
+  "tonbridge": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "8c3ca5b15a7c0fa1952c6e1e7b0909edd2cbd68ff7602493fd5b01b9944622ae"
+  },
+  "tooting": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "5e8bd5212dfbfb0435b2e9b26ae736b1e3f9b399b461d54c5d34e15e58404c85"
+  },
+  "torbay": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "b8e0b3ffe5d8f2246581b2345593bfc9da7f081c1780181e599482bd138bb173"
+  },
+  "torfaen": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "02558784f32161d3ac26e10df8832ac6a3a906056067e8ff0b4b834b9bfc1569"
+  },
+  "torridge-and-tavistock": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "dd23a7dc98c909e4b833379715a294c096e2a10b3e6be7ae1dc1fa659317fbe1"
+  },
+  "tottenham": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "e2f9f5f657e6779da6f42203a57c3f2858be1dac792320844fb13d15fb176703"
+  },
+  "truro-and-falmouth": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "55c2fd39177af21d104586465d18fb97cef8ac8c684b2260d6ab96ca24946d25"
+  },
+  "tunbridge-wells": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "1e6072c7a12a6b5de8e9088515c91f9538d4a58e0b59789db146d769cfd52451"
+  },
+  "twickenham": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "e16b35b5ace9747a4ba9b9a5a690faa77a34f50fdb513ded0c51f387753ecd55"
+  },
+  "tynemouth": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "d4525bde7c8085ed7e11d4d11e6e0638220f02bcddae9859a689cd1eb37bcf3a"
+  },
+  "upper-bann": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "4bc4440e6a5d48973cb82996990d9d4841148353d7f27b56ee3a3f921a6f84d3"
+  },
+  "uxbridge-and-south-ruislip": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "eafaf0b7315baa0bdcfbdd0a70af221fe396720b8b5cabf8087c4441dc97294c"
+  },
+  "vale-of-glamorgan": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "37fbf2e8b59bbc1e7162a2cc14fb15ba92fb1814abfd84dcfceef2939833de29"
+  },
+  "vauxhall-and-camberwell-green": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "9a704ec21093f4483711e69db061b197af7e758cd42ee31a483096b51644377b"
+  },
+  "wakefield-and-rothwell": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "1f62f25bfd93334596dc2072b8d6995d06039ba431ee901041b88d55482e2d12"
+  },
+  "wallasey": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "fca0cfc495a104d159be571311afe0846a640d0ec5c5a225a63b1d1a68e25155"
+  },
+  "walsall-and-bloxwich": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "971f67811c05daa4a6e0716d83927e306a1499044db5de80c9684ee7756fc8f3"
+  },
+  "walthamstow": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "b23895bd0bee4e82702da6498f02c5beaa26e5d809e71dbb2105884816b9df42"
+  },
+  "warrington-north": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "f2283669024e926026a576f05c9fe1e4029e29a318503cc40d79737c51d43833"
+  },
+  "warrington-south": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "ab335001db5a97db18552eb53a310093e6c66b6e6d12ff8914bfb726d1b61c30"
+  },
+  "warwick-and-leamington": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "02723684802323607cc60fb166c29b15e1b563ee2c2bad2de09eafa8dc3711eb"
+  },
+  "washington-and-gateshead-south": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "0f7f85ac89c68da8f154b7bfdd4f16eea224ae543eb7e2c3f45e2b7a446538ad"
+  },
+  "watford": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "c4c7028a6bfa086318687f7161a64e059e2d73ce5a1be7a18300180dd3d3e2d7"
+  },
+  "waveney-valley": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "50649047f863c6633980854932c8322fd56a778565e2802648b3ac15a3c1ad47"
+  },
+  "weald-of-kent": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "7d9f91eea8dba2997708cc9e828b88539b00383c58f9282806dec345c3d81083"
+  },
+  "wellingborough-and-rushden": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "914bb31571eeeda3fbb9d1ecd227b62ddef7c36bb92177300fbd00df6fe3abae"
+  },
+  "wells-and-mendip-hills": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "efd3a291b5a77cf2e0c5a8588f4be7a7f2df7d6ab973a0ae887fbc3c574742e4"
+  },
+  "welwyn-hatfield": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "1059b2b63c3bf3eda6e77f77c317bf9ff7a156a135f11affeded7af001b7d4bf"
+  },
+  "west-aberdeenshire-and-kincardine": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "82b80a9009b344c7f67b2a24974585dff40bce55b4ad71f5d3cc0ca0fd73df7e"
+  },
+  "west-bromwich": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "459c1a29e7e9b0044fa2c312c99390eb02a8c3c8515315bd52cb791e723edad8"
+  },
+  "west-dorset": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "de8e8f776385acac95d0563d4019de4d2ba33e22f40d51dde071205bd290262c"
+  },
+  "west-dunbartonshire": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "d119af5c6e5f6208ded49bf45ba07db386dd6881b1b5dfe2aea56439c5a7c5ec"
+  },
+  "west-ham-and-beckton": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "88d89277e28e5a818994f6fad44b07a8ba7b3d27fddd92626968e4dc8eec7bd9"
+  },
+  "west-lancashire": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "1408b4b95bd697fa79ff9b39dca82fb73a4d5007ab0b207927144a4f4e033887"
+  },
+  "west-suffolk": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "6f6b17cac27f2819c47ee3588b2a3e71e577973521412b1b4fea0f3a88300090"
+  },
+  "west-tyrone": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "0995a2bdbb01114d171128b499b011b673c6af7eda8ed0a88fdf8048959a3ba5"
+  },
+  "west-worcestershire": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "27b92fd9b4ada199325a4e80a3e61958c8dcad8f00c4a53c482bc9c09caaf229"
+  },
+  "westmorland-and-lonsdale": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "c95981c8cb2a77e6ebc09d95d775b1495c398a1b81135f899e151dd46e0297e1"
+  },
+  "weston-super-mare": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "6b7d64d0729fd9571c01b5bc2d77fc9a7401cb4c0e57c107f2bbaf2328cd9332"
+  },
+  "wetherby-and-easingwold": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "e57ec2c898c3cd549c8e81f8e1d4308df9b2b649b1609a367376a8779576c72f"
+  },
+  "whitehaven-and-workington": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "73cb3132d6d5d36982fc4691e8831d6d77d2ba19974544f757fe671a3d673fbc"
+  },
+  "widnes-and-halewood": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "f5ea04fa5a8e923624a1498cfc84e5ced91692c478567ebcd48ab9be58a9db2b"
+  },
+  "wigan": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "af8a89ba9982b08c21bcce42f0167e4d2615b1374cf35a8f63225ddfc2975b9b"
+  },
+  "wimbledon": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "8cf997dac9a70c16a7cd9a0007c040e8f3a45f613bb305ee5268b624188822b2"
+  },
+  "winchester": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "c7fede2e6c9ed171fe05b2b7ebd3ef3e5ece4f1a2c4c94cfc32ec339603b6eb0"
+  },
+  "windsor": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "2db0a3833e39413945299708593a1f3ad1e37a6341e2d0d2512d3320844a35fe"
+  },
+  "wirral-west": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "705276b8687cd294768ab47541898a88d900fd950d10b8099b43861a95e8e533"
+  },
+  "witham": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "ef0acdd53ac70487b5c403c0c9f9887847652d7d6deda8c0cd3b7bcd0b85fe93"
+  },
+  "witney": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "ea3e9219e52ffaa81fbe17a547d0ce509ddb62045d7c6b86523213e70cb4e302"
+  },
+  "woking": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "ff8f77e6e8ef1a00366ebfa9744cfe68026bc849c6b8b0b2a6968a256d7c9715"
+  },
+  "wokingham": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "075a9c8ba003d364f0e8c2f9bca74cfb2a5e3ed2cd32148aa4268609f8eaf3ad"
+  },
+  "wolverhampton-north-east": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "6077908d308739ef1599f0dc6516b4da2f89d14b80e3aaaa63f3e12fd362aeaf"
+  },
+  "wolverhampton-south-east": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "e9de5e6ce41f72950ce3eac4f03fd67062dd57c520f7b8818cdb5b352598293a"
+  },
+  "wolverhampton-west": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "0faa0ac3aab689169588dd9e3da08db7db0246aaa2246550e401f9efe18e0330"
+  },
+  "worcester": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "9197e480ad6a0d6c79dd0888f1a2d4c0ee729a0d26ff01bba187aff576d944fd"
+  },
+  "worsley-and-eccles": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "2ddb5cc5a56adf5f836a82cf5c7693294fae83c03d40dd7cdbf6e229b8e84316"
+  },
+  "worthing-west": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "f2077c21b6e61e2db561c1af04490d8309a0657f7f43835c03fccad1a835ab07"
+  },
+  "wrexham": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "b879b54b2c896063820329e6d168e0e09239cae1113f47090cb021ff561095e2"
+  },
+  "wycombe": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "6f41119e2319e0b3ae10e079a9a2f9d543ff0d90f9e1fd55fb199d0ea4889e85"
+  },
+  "wyre-forest": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "0533e4accd10750f498ce60479bbc6c6d1e36b4537dd15083aa552366e5f4178"
+  },
+  "wythenshawe-and-sale-east": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "09b624ee758291fa9548acdf59c33ad2487fe817ba3344a56f9283a329553428"
+  },
+  "yeovil": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "919553657dc146347e47009d0c283c025418a9fd019ea0d2bf8da5199f4299c7"
+  },
+  "ynys-mon": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "8662073ff6a0c95d0cb3a6625971f2409bfe6fb1cecd1ab78da79b12eec2980a"
+  },
+  "york-central": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "e355379710ac255b894da7a7e3da7e2592658de717c4a3236c1b5b1024968eae"
+  },
+  "york-outer": {
+    "date": "2026-09-27",
+    "revision": "5204fb82c8e59f95d94c74c6715f7b64ec80995b",
+    "sha256": "ed337a843541fb61b7e77781945335216eb9787e89cca75b123676a73d52c26a"
+  }
+}

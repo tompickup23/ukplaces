@@ -1,0 +1,3353 @@
+{
+  "source": {
+    "name": "GOV.UK Local Links Manager",
+    "url": "https://local-links-manager.publishing.service.gov.uk/data/links_to_services_provided_by_local_authorities.csv",
+    "exportDate": "2026-10-05",
+    "licence": "Open Government Licence v3.0"
+  },
+  "checkedOn": "2026-10-05",
+  "services": [
+    {
+      "id": "councilTax",
+      "lgsl": 57,
+      "lgil": 8,
+      "title": "Pay your Council Tax",
+      "govuk": "https://www.gov.uk/pay-council-tax",
+      "countries": [
+        "England",
+        "Wales",
+        "Scotland"
+      ]
+    },
+    {
+      "id": "bins",
+      "lgsl": 524,
+      "lgil": 8,
+      "title": "Find out your rubbish collection day",
+      "govuk": "https://www.gov.uk/rubbish-collection-day",
+      "countries": [
+        "England",
+        "Wales",
+        "Scotland",
+        "Northern Ireland"
+      ]
+    }
+  ],
+  "places": {
+    "E06000001": {
+      "links": {
+        "councilTax": "https://www.hartlepool.gov.uk/council-tax/pay-council-tax",
+        "bins": "https://www.hartlepool.gov.uk/bincalendars"
+      },
+      "notes": {},
+      "sha256": "612098c21ef28ffbf1f0c038f882f43b62309c8cc2120f800beb0f4642a0e852",
+      "since": "2026-09-28"
+    },
+    "E06000002": {
+      "links": {},
+      "notes": {
+        "councilTax": "Not published: HTTP 403",
+        "bins": "Not published: HTTP 403"
+      },
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "since": null
+    },
+    "E06000003": {
+      "links": {
+        "councilTax": "https://www.redcar-cleveland.gov.uk/paycounciltax",
+        "bins": "https://www.redcar-cleveland.gov.uk/resident/bins-waste-and-recycling/Pages/bins-waste-and-recycling.aspx"
+      },
+      "notes": {},
+      "sha256": "c3da7eb17d306df85bb5ccdf908c2c71e0989c9560b739a03d8ea7d8fd5aec97",
+      "since": "2026-09-28"
+    },
+    "E06000004": {
+      "links": {},
+      "notes": {
+        "councilTax": "Not published: HTTP 403",
+        "bins": "Not published: HTTP 403"
+      },
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "since": null
+    },
+    "E06000005": {
+      "links": {
+        "councilTax": "https://www.darlington.gov.uk/council-tax/",
+        "bins": "https://www.darlington.gov.uk/bins-waste-and-recycling/collection-day-lookup/"
+      },
+      "notes": {},
+      "sha256": "0d4ddd276cb3145f885bd47f35a1140880db7825d6d886bafeeac4a50c64b480",
+      "since": "2026-09-28"
+    },
+    "E06000006": {
+      "links": {
+        "councilTax": "https://www3.halton.gov.uk/Pages/CouncilandBenefits/Pay-Council-Tax.aspx"
+      },
+      "notes": {
+        "bins": "Not published: redirects to the home page"
+      },
+      "sha256": "196ec8f94358addbf64579680366920859f83c54cf1ec1648e2141498ce6f51f",
+      "since": "2026-09-28"
+    },
+    "E06000007": {
+      "links": {
+        "councilTax": "https://www.warrington.gov.uk/directdebit",
+        "bins": "https://www.warrington.gov.uk/your-next-bin-collection-day"
+      },
+      "notes": {},
+      "sha256": "6b8c2e426b8aed9191e057e596ae431803ccf0b8955ab291624d2846378ba007",
+      "since": "2026-09-28"
+    },
+    "E06000008": {
+      "links": {
+        "councilTax": "https://www.blackburn.gov.uk/council-tax/paying-your-council-tax",
+        "bins": "https://www.blackburn.gov.uk/waste-and-recycling/bins"
+      },
+      "notes": {},
+      "sha256": "d271135e4446053d8e6bdea620d2af99a8b235da93d066700fcf02b347d604b0",
+      "since": "2026-10-05"
+    },
+    "E06000009": {
+      "links": {
+        "councilTax": "https://www.blackpool.gov.uk/Residents/Council-tax/Pay-Council-tax.aspx",
+        "bins": "http://www.blackpool.gov.uk/Residents/Waste-and-recycling/Bin-collections/Bin-collections.aspx"
+      },
+      "notes": {},
+      "sha256": "aa7a20ff75fc79b1da40d820212676bc623e85de2cadc3c4c8dbe03c08f0809d",
+      "since": "2026-09-28"
+    },
+    "E06000010": {
+      "links": {
+        "councilTax": "https://www.hull.gov.uk/accounts-charges/ways-pay-council-tax",
+        "bins": "https://www.hull.gov.uk/household-collections"
+      },
+      "notes": {},
+      "sha256": "36472fd7e6a3a9de77be11c25ad41b3527c5359107c3385024877f6582774dc2",
+      "since": "2026-09-28"
+    },
+    "E06000011": {
+      "links": {
+        "councilTax": "https://www.eastriding.gov.uk/housing/council-tax/council-tax-pay/council-tax-other-ways-to-pay/",
+        "bins": "https://www.eastriding.gov.uk/environment/bins-rubbish-recycling/bins-and-collections/bin-collection-dates/"
+      },
+      "notes": {},
+      "sha256": "f4786913412980d74ccca26a8516dc3c86246619cbecff9520430cf6dedfd900",
+      "since": "2026-09-28"
+    },
+    "E06000012": {
+      "links": {
+        "councilTax": "https://www.nelincs.gov.uk/council-tax/pay-your-council-tax/",
+        "bins": "https://www.nelincs.gov.uk/refuse-collection-schedule/"
+      },
+      "notes": {},
+      "sha256": "138b56d8ed1db8a44503733cdbb15a253bf075d44538559599523d4ce8093f78",
+      "since": "2026-09-28"
+    },
+    "E06000013": {
+      "links": {
+        "councilTax": "https://www.northlincs.gov.uk/council-tax-benefits-and-housing/council-tax/pay-your-council-tax/",
+        "bins": "https://www.northlincs.gov.uk/bins-waste-and-recycling/collection-dates/"
+      },
+      "notes": {},
+      "sha256": "17a623f1265a1d8e0d42ab64d7be63072aa69d36649fb022f65da0416089b704",
+      "since": "2026-10-05"
+    },
+    "E06000014": {
+      "links": {
+        "councilTax": "https://www.york.gov.uk/PayingYourBill",
+        "bins": "https://www.york.gov.uk/WasteCollectionCalendar"
+      },
+      "notes": {},
+      "sha256": "343c6b791fa0a216344c342bab01551a5a5cff4300f0306743c95c3b095d0782",
+      "since": "2026-09-28"
+    },
+    "E06000015": {
+      "links": {
+        "councilTax": "https://www.derby.gov.uk/advice-and-benefits/council-tax/pay-your-council-tax/",
+        "bins": "https://secure.derby.gov.uk/binday/"
+      },
+      "notes": {},
+      "sha256": "390bcc5070f28f8f41ab998ff12194d73f34efa65fd70052f6c606a89c5d6018",
+      "since": "2026-09-28"
+    },
+    "E06000016": {
+      "links": {
+        "councilTax": "https://www.leicester.gov.uk/your-community/council-tax/pay-your-council-tax-and-paperless-billing/",
+        "bins": "http://www.leicester.gov.uk/your-environment/recycling-and-waste/household-waste-collections"
+      },
+      "notes": {},
+      "sha256": "2de392be7e016b86a36c294687b213b36297f95cc70fcb4245d21a6aafbe695b",
+      "since": "2026-09-28"
+    },
+    "E06000017": {
+      "links": {
+        "councilTax": "https://www.rutland.gov.uk/council-tax/ways-pay",
+        "bins": "https://www.rutland.gov.uk/my-services/waste-and-recycling/"
+      },
+      "notes": {},
+      "sha256": "424ad6f4c19f3a90d85f5be68b21fd0575a8542ee3c6b0f1d987ff26913b2190",
+      "since": "2026-09-28"
+    },
+    "E06000018": {
+      "links": {
+        "councilTax": "https://www.nottinghamcity.gov.uk/information-for-residents/council-tax/general-information-about-your-council-tax/ways-to-pay-your-council-tax/",
+        "bins": "http://www.nottinghamcity.gov.uk/bin-and-rubbish-collections/check-my-bin-collection-day/"
+      },
+      "notes": {},
+      "sha256": "579396b2284855ea30028e24457e9da372fe15a5a8d6052ff3186dcca5f9a328",
+      "since": "2026-09-28"
+    },
+    "E06000019": {
+      "links": {
+        "councilTax": "https://www.herefordshire.gov.uk/pay-council-tax",
+        "bins": "https://www.herefordshire.gov.uk/rubbish-recycling"
+      },
+      "notes": {},
+      "sha256": "8cd37714ddc722b804402cab1c7b05a62b9b471f24304c80afb444476ca65e19",
+      "since": "2026-09-28"
+    },
+    "E06000020": {
+      "links": {
+        "councilTax": "https://www.telford.gov.uk/council-tax/paying-your-council-tax/",
+        "bins": "http://www.telford.gov.uk/info/1003/bins_and_recycling/221/report_a_missed_bin_collection"
+      },
+      "notes": {},
+      "sha256": "0d0e05059650ca89ab9fcb4298027ae08494bafbadd02bdccd5b35b47c02b9b0",
+      "since": "2026-09-28"
+    },
+    "E06000021": {
+      "links": {
+        "councilTax": "https://www.stoke.gov.uk/info/20001/council_tax_and_benefits/10/pay_your_council_tax",
+        "bins": "https://www.stoke.gov.uk/homepage/121/bin_day_calendar_view"
+      },
+      "notes": {},
+      "sha256": "b912add3ef817737ec1c5474a4247481c34a297a70082e501db25c0301d375ad",
+      "since": "2026-09-28"
+    },
+    "E06000022": {
+      "links": {
+        "councilTax": "https://www.bathnes.gov.uk/paying-your-council-tax",
+        "bins": "https://www.bathnes.gov.uk/rubbish-and-recycling"
+      },
+      "notes": {},
+      "sha256": "4972600e0ffc0ba28fdd31e967017f03ef5221fec59127a7ebee210fbac6afeb",
+      "since": "2026-09-28"
+    },
+    "E06000023": {
+      "links": {
+        "councilTax": "https://www.bristol.gov.uk/counciltax",
+        "bins": "http://www.bristol.gov.uk/bins"
+      },
+      "notes": {},
+      "sha256": "f935e45aa38b78b4ed1938020af3fa96fc5b6ff8b81f1bd1fb288ed1406ecbc9",
+      "since": "2026-09-28"
+    },
+    "E06000024": {
+      "links": {
+        "councilTax": "https://n-somerset.gov.uk/my-services/council-tax/paying-your-council-tax/how-pay-your-council-tax",
+        "bins": "http://www.n-somerset.gov.uk/my-services/waste/rubbish-collections/collection-days-from-june-2018/"
+      },
+      "notes": {},
+      "sha256": "9b72145ff47df66fd9e22865e798db2f00b1f7233f368de3716ec6f9cc460228",
+      "since": "2026-09-28"
+    },
+    "E06000025": {
+      "links": {
+        "councilTax": "https://beta.southglos.gov.uk/pay-your-council-tax/",
+        "bins": "https://beta.southglos.gov.uk/waste-and-recycling-collection-dates/"
+      },
+      "notes": {},
+      "sha256": "7e44b838e04fff0fb4ef7b2a3e8599abb48dda76896f900f1ce7f9e161bf288d",
+      "since": "2026-09-28"
+    },
+    "E06000026": {
+      "links": {
+        "councilTax": "https://www.plymouth.gov.uk/pay-your-council-tax",
+        "bins": "https://www.plymouth.gov.uk/bins-recycling-and-waste"
+      },
+      "notes": {},
+      "sha256": "4ba55e326b73b97349e3fdd4896c68c85a9a1784d875d8f1af5f69cb95675b44",
+      "since": "2026-09-28"
+    },
+    "E06000027": {
+      "links": {
+        "councilTax": "https://www.torbay.gov.uk/council-tax/pay-your-bill/",
+        "bins": "http://www.torbay.gov.uk/waste"
+      },
+      "notes": {},
+      "sha256": "3a362d108b70048a115ce2a292017481649dbfcafb05129e66b1367c27297eb9",
+      "since": "2026-09-28"
+    },
+    "E06000030": {
+      "links": {
+        "councilTax": "https://www.swindon.gov.uk/info/20020/council_tax/253/pay_your_council_tax",
+        "bins": "http://www.swindon.gov.uk/householdwaste"
+      },
+      "notes": {},
+      "sha256": "4f52762ab5ba00f8b8f26c95d8f64a53299341ec30a2661b4ddbcad19c8c0cbb",
+      "since": "2026-09-28"
+    },
+    "E06000031": {
+      "links": {
+        "councilTax": "https://www.peterborough.gov.uk/council-tax/council-tax-payments/council-tax-payment-options",
+        "bins": "https://www.peterborough.gov.uk/residents/rubbish-and-recycling/bins/"
+      },
+      "notes": {},
+      "sha256": "a8baeb5dfd870c05a501b85d618e8de0da44c238041d41d0bfd9b6cecdd1b4ad",
+      "since": "2026-09-28"
+    },
+    "E06000032": {
+      "links": {
+        "councilTax": "https://www.luton.gov.uk/council-tax/paying-your-council-tax/ways-pay-your-council-tax-bill",
+        "bins": "https://www.luton.gov.uk/bins-waste-recycling/bin-collections"
+      },
+      "notes": {},
+      "sha256": "c376167e10cdc152fcd5f0ed273d25f619d70067f7691d700957997d94ec1fe9",
+      "since": "2026-09-28"
+    },
+    "E06000033": {
+      "links": {
+        "councilTax": "https://www.southend.gov.uk/council-tax/pay-council-tax-1",
+        "bins": "https://www.southend.gov.uk/info/200327/rubbish_and_recycling/223/collection_days_delivery_dates_and_getting_additional_sacks"
+      },
+      "notes": {},
+      "sha256": "eafb9565d48f77a2ecba4f290578a68d381e6a44bf255a0604b90bfae2edeaca",
+      "since": "2026-09-28"
+    },
+    "E06000034": {
+      "links": {
+        "councilTax": "https://www.thurrock.gov.uk/paying-your-council-tax/your-council-tax",
+        "bins": "https://www.thurrock.gov.uk/wheeled-bin-collection-days"
+      },
+      "notes": {},
+      "sha256": "8b4d167889775f740b66c68449127be72ae09f18eabe8d007b2c9900f1f4b7f7",
+      "since": "2026-09-28"
+    },
+    "E06000035": {
+      "links": {
+        "councilTax": "https://www.medway.gov.uk/info/200131/council_tax/13/pay_your_council_tax/1",
+        "bins": "https://www.medway.gov.uk/info/200132/waste_and_recycling"
+      },
+      "notes": {},
+      "sha256": "ca9e99050bab2202275804841eafeda9f631114a7d3d9a7799018e35deb0c405",
+      "since": "2026-09-28"
+    },
+    "E06000036": {
+      "links": {
+        "councilTax": "https://www.bracknell-forest.gov.uk/council-tax/pay-your-council-tax",
+        "bins": "https://www.bracknell-forest.gov.uk/bins-and-recycling/find-your-collection-day"
+      },
+      "notes": {},
+      "sha256": "26b22d74d4ac8db8862cb745e692179b5a35bfbfae39bc05202bd0a6c88c0535",
+      "since": "2026-09-28"
+    },
+    "E06000037": {
+      "links": {},
+      "notes": {
+        "councilTax": "Not published: HTTP 403",
+        "bins": "Not published: HTTP 403"
+      },
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "since": null
+    },
+    "E06000038": {
+      "links": {
+        "councilTax": "https://www.reading.gov.uk/council-tax/pay-your-council-tax/",
+        "bins": "https://www.reading.gov.uk/bin-calendar/"
+      },
+      "notes": {},
+      "sha256": "d8d648f16fe05e98df056881c2657a8705d323d4210230ff90f36a861075f5a6",
+      "since": "2026-09-28"
+    },
+    "E06000039": {
+      "links": {
+        "councilTax": "https://www.slough.gov.uk/council-tax/pay-council-tax",
+        "bins": "https://www.slough.gov.uk/bins-waste-recycling/what-goes-in-bins"
+      },
+      "notes": {},
+      "sha256": "4b421f0f4de225b55ce2b7acc9692202a89685fe5ee27aac2d27e7474e2e7075",
+      "since": "2026-09-28"
+    },
+    "E06000040": {
+      "links": {
+        "councilTax": "https://www.rbwm.gov.uk/council-tax-and-benefits/council-tax",
+        "bins": "https://www.rbwm.gov.uk/environment-and-waste/recycling-and-rubbish"
+      },
+      "notes": {},
+      "sha256": "7d67043dfbdb8c410cfc88e19463f94a1089bc0bc91d34e7239111349c42fe46",
+      "since": "2026-09-28"
+    },
+    "E06000041": {
+      "links": {
+        "councilTax": "https://www.wokingham.gov.uk/council-tax",
+        "bins": "https://www.wokingham.gov.uk/rubbish-and-recycling/collections/"
+      },
+      "notes": {},
+      "sha256": "00c87e7d5bd2cc000bad163250bac3e0513d1b538bfe4fade2a454aa92b8f939",
+      "since": "2026-09-28"
+    },
+    "E06000042": {
+      "links": {
+        "councilTax": "https://www.milton-keynes.gov.uk/benefits-council-tax/how-to-pay-your-council-tax",
+        "bins": "https://www.milton-keynes.gov.uk/waste-recycling/collection-days"
+      },
+      "notes": {},
+      "sha256": "4651296f5745df10be57e81e3c5e669abf8a35b6f4e3410e4bbba54fa577776a",
+      "since": "2026-09-28"
+    },
+    "E06000043": {
+      "links": {
+        "councilTax": "https://www.brighton-hove.gov.uk/council-tax/paying-your-council-tax",
+        "bins": "https://www.brighton-hove.gov.uk/node/321871"
+      },
+      "notes": {},
+      "sha256": "d38276ca163e413b6345816a28db4fbc4d2e62e230739c19185cf7fb94685c40",
+      "since": "2026-09-28"
+    },
+    "E06000044": {
+      "links": {
+        "councilTax": "https://www.portsmouth.gov.uk/services/council-tax/"
+      },
+      "notes": {
+        "bins": "Not published: HTTP 404"
+      },
+      "sha256": "a6515500b455b3dcc6787f396d6f3cc98a5b504e4439e988b5d1f29938bf828a",
+      "since": "2026-09-28"
+    },
+    "E06000045": {
+      "links": {
+        "councilTax": "https://www.southampton.gov.uk/council-tax/your-council-tax/pay-your-council-tax/",
+        "bins": "https://www.southampton.gov.uk/bins-recycling/bins/"
+      },
+      "notes": {},
+      "sha256": "b067b84083a1739bc12484dc82d7822c75f0813fa591fc651372a52a9d846fd9",
+      "since": "2026-09-28"
+    },
+    "E06000046": {
+      "links": {},
+      "notes": {
+        "councilTax": "Not published: HTTP 403",
+        "bins": "Not published: HTTP 403"
+      },
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "since": null
+    },
+    "E06000047": {
+      "links": {
+        "councilTax": "https://www.durham.gov.uk/article/3447/Pay-your-Council-Tax",
+        "bins": "http://www.durham.gov.uk/bincollections"
+      },
+      "notes": {},
+      "sha256": "eabb56f3f5eb9953ac6e87237404ee3e3f7c7488031ba078019a6a6a435df348",
+      "since": "2026-09-28"
+    },
+    "E06000049": {
+      "links": {
+        "councilTax": "https://www.cheshireeast.gov.uk/council-tax/paying-council-tax",
+        "bins": "http://online.cheshireeast.gov.uk/MyCollectionDay/"
+      },
+      "notes": {},
+      "sha256": "48d6cbeaaf7bc87585a0318fecb6b4fe38d7ef17f2d39097e086be70d186a222",
+      "since": "2026-10-05"
+    },
+    "E06000050": {
+      "links": {
+        "councilTax": "https://www.cheshirewestandchester.gov.uk/residents/council-tax/paying-your-council-tax",
+        "bins": "http://www.cheshirewestandchester.gov.uk/default.aspx?page=13582"
+      },
+      "notes": {},
+      "sha256": "758a6d49f7a5c0d2e34f54ed14f0700dca63f02f65435721230bdd30cf95b6c4",
+      "since": "2026-09-28"
+    },
+    "E06000051": {
+      "links": {
+        "councilTax": "https://next.shropshire.gov.uk/council-tax/paying-your-council-tax/",
+        "bins": "https://www.shropshire.gov.uk/recycling-and-rubbish/what-to-do-with/your-collection-service/"
+      },
+      "notes": {},
+      "sha256": "7a860c5e3cace0c5f7048a258f420608d645a38f4deb7e0a48410eb7c0064790",
+      "since": "2026-09-28"
+    },
+    "E06000052": {
+      "links": {
+        "councilTax": "https://www.cornwall.gov.uk/council-tax/your-council-tax-bill/how-to-pay-your-council-tax/",
+        "bins": "http://www.cornwall.gov.uk/my-area"
+      },
+      "notes": {},
+      "sha256": "7d7d53ffc4da05baf184cbdf46071a5a444653c9845134d2e33255290e974ea9",
+      "since": "2026-09-28"
+    },
+    "E06000053": {
+      "links": {
+        "councilTax": "https://www.scilly.gov.uk/make-a-payment",
+        "bins": "http://www.scilly.gov.uk/waste"
+      },
+      "notes": {},
+      "sha256": "271227ab00f24158461210b935633041fe71ad0b452894eda4a65ec415aaa060",
+      "since": "2026-09-28"
+    },
+    "E06000054": {
+      "links": {
+        "bins": "https://ilambassadorformsprod.azurewebsites.net/wastecollectiondays/index"
+      },
+      "notes": {
+        "councilTax": "Not published: HTTP 403"
+      },
+      "sha256": "34658628f5426e70640b61261207177583f2ed91c48bfbd2e6f5012e25ae61dc",
+      "since": "2026-09-28"
+    },
+    "E06000055": {
+      "links": {
+        "councilTax": "https://www.bedford.gov.uk/council-tax/manage-and-pay-your-council-tax/how-pay-your-council-tax",
+        "bins": "https://apps.bedford.gov.uk/bcs/search.aspx"
+      },
+      "notes": {},
+      "sha256": "9cc5daae8dd80cd8301fffaff31499be62a300c0785c4d23ab30df2c7fd983f5",
+      "since": "2026-09-28"
+    },
+    "E06000056": {
+      "links": {
+        "councilTax": "https://www.centralbedfordshire.gov.uk/info/80/council_tax",
+        "bins": "http://www.centralbedfordshire.gov.uk/waste/bins/collection-day.aspx"
+      },
+      "notes": {},
+      "sha256": "75bb8bb6630cafeb09eaa02f3bdb8a38a30a9b0fdc4233f2bf75cef9e162d36c",
+      "since": "2026-09-28"
+    },
+    "E06000057": {
+      "links": {
+        "councilTax": "https://www.northumberland.gov.uk/council-tax/council-tax-payment-options",
+        "bins": "https://www.northumberland.gov.uk/bins-recycling-waste/bin-collections-residents"
+      },
+      "notes": {},
+      "sha256": "db389b9c476cd5dd07a9851f302b2914246ef302d467b838517c45dd28abc5c2",
+      "since": "2026-09-28"
+    },
+    "E06000058": {
+      "links": {
+        "councilTax": "https://www.bcpcouncil.gov.uk/council-tax/pay-your-council-tax",
+        "bins": "https://www.bcpcouncil.gov.uk/bins-waste-and-recycling/household-bins"
+      },
+      "notes": {},
+      "sha256": "8841eaec8b6892ec0306fb1617c05e8481cc697912927f4db48383d9b4ba075c",
+      "since": "2026-09-28"
+    },
+    "E06000059": {
+      "links": {
+        "councilTax": "https://www.dorsetcouncil.gov.uk/w/pay-council-tax",
+        "bins": "https://www.dorsetcouncil.gov.uk/bins-recycling-and-litter/bins-recycling-and-litter"
+      },
+      "notes": {},
+      "sha256": "9aa184a129e7d3f2fec55cabef782f915ba82d1a001a4a5479976a93cea5ad09",
+      "since": "2026-09-28"
+    },
+    "E06000060": {
+      "links": {
+        "councilTax": "https://www.buckinghamshire.gov.uk/council-tax-benefits-housing/council-tax/pay-your-council-tax/",
+        "bins": "https://www.buckinghamshire.gov.uk/waste-and-recycling/"
+      },
+      "notes": {},
+      "sha256": "f94de3e7f32ec28d7b30f53bb43eb51f74ab3f6a218baf2c9a09f5fc823122bc",
+      "since": "2026-09-28"
+    },
+    "E06000061": {
+      "links": {
+        "councilTax": "https://www.northnorthants.gov.uk/paycounciltax",
+        "bins": "https://www.northnorthants.gov.uk/bins-recycling-and-street-cleaning/bin-collection-day"
+      },
+      "notes": {},
+      "sha256": "13d08e63a48574f6659dca301be468f0e09bff1e9c174a2f4a09790b342d0fe1",
+      "since": "2026-09-28"
+    },
+    "E06000062": {
+      "links": {
+        "councilTax": "https://www.westnorthants.gov.uk/council-tax/pay-your-council-tax",
+        "bins": "https://www.westnorthants.gov.uk/bins-recycling-and-street-cleaning/bin-collection-day"
+      },
+      "notes": {},
+      "sha256": "991c8b36dbcf947bd14387190d9a43b09df14c26622322e08748ddb3654c9269",
+      "since": "2026-09-28"
+    },
+    "E06000063": {
+      "links": {},
+      "notes": {
+        "councilTax": "No link in the export",
+        "bins": "No link in the export"
+      },
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "since": null
+    },
+    "E06000064": {
+      "links": {},
+      "notes": {
+        "councilTax": "No link in the export",
+        "bins": "No link in the export"
+      },
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "since": null
+    },
+    "E06000065": {
+      "links": {},
+      "notes": {
+        "councilTax": "No link in the export",
+        "bins": "No link in the export"
+      },
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "since": null
+    },
+    "E06000066": {
+      "links": {},
+      "notes": {
+        "councilTax": "No link in the export",
+        "bins": "No link in the export"
+      },
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "since": null
+    },
+    "E07000008": {
+      "links": {
+        "councilTax": "https://www.cambridge.gov.uk/paying-your-council-tax",
+        "bins": "https://www.cambridge.gov.uk/check-when-your-bin-will-be-emptied"
+      },
+      "notes": {},
+      "sha256": "90ce4bc09c2a6509f1e2fdcfdca596e7a0e069a45e59ec835a2e833ea94b7262",
+      "since": "2026-09-28"
+    },
+    "E07000009": {
+      "links": {},
+      "notes": {
+        "councilTax": "Not published: fetch failed",
+        "bins": "Not published: HTTP 404"
+      },
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "since": null
+    },
+    "E07000010": {
+      "links": {},
+      "notes": {
+        "councilTax": "Not published: HTTP 403",
+        "bins": "Not published: HTTP 403"
+      },
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "since": null
+    },
+    "E07000011": {
+      "links": {
+        "councilTax": "https://www.huntingdonshire.gov.uk/contact-us/make-a-payment/",
+        "bins": "http://applications.huntingdonshire.gov.uk/applications/RefuseCalendarMVC"
+      },
+      "notes": {},
+      "sha256": "b052c2c3a87a568edfaa53cb40ee1b699258a90498a606c6f4c6c94c10bd63b9",
+      "since": "2026-09-28"
+    },
+    "E07000012": {
+      "links": {
+        "councilTax": "https://www.scambs.gov.uk/council-tax/ways-to-pay-your-council-tax",
+        "bins": "https://www.scambs.gov.uk/bins/"
+      },
+      "notes": {},
+      "sha256": "cfa57661bb6ab84a4286e83b9635836be2f66e8ef2d5db1ba3b1577122d5894b",
+      "since": "2026-09-28"
+    },
+    "E07000032": {
+      "links": {
+        "councilTax": "https://www.ambervalley.gov.uk/council-tax/paying-your-bill/",
+        "bins": "https://www.ambervalley.gov.uk/rubbish-waste-and-recycling"
+      },
+      "notes": {},
+      "sha256": "d610046eb87dc5429943caa172393099793030333e5dd22050f4ca046ada2b0e",
+      "since": "2026-09-28"
+    },
+    "E07000033": {
+      "links": {},
+      "notes": {
+        "councilTax": "Not published: HTTP 403",
+        "bins": "Not published: HTTP 403"
+      },
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "since": null
+    },
+    "E07000034": {
+      "links": {
+        "councilTax": "https://www.chesterfield.gov.uk/i-want-to/i-want-to-pay/pay-council-rent-council-tax-or-business-rates/"
+      },
+      "notes": {
+        "bins": "Not published: HTTP 404"
+      },
+      "sha256": "e1066be2ae5722b698e9e3bb66a6e7167e96961c2fe3fafa5fd03bee65cd63c7",
+      "since": "2026-09-28"
+    },
+    "E07000035": {
+      "links": {},
+      "notes": {
+        "councilTax": "Not published: HTTP 403",
+        "bins": "Not published: HTTP 403"
+      },
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "since": null
+    },
+    "E07000036": {
+      "links": {
+        "councilTax": "https://www.erewash.gov.uk/council-tax/how-pay-your-council-tax",
+        "bins": "https://map.erewash.gov.uk/isharelive.web/myerewash.aspx"
+      },
+      "notes": {},
+      "sha256": "af03f56490f8034a0c471671607355b29021625e5e00d599e23cc2c3eb0b91e9",
+      "since": "2026-09-28"
+    },
+    "E07000037": {
+      "links": {
+        "councilTax": "https://www.highpeak.gov.uk/payments",
+        "bins": "http://www.highpeak.gov.uk/hp/bins"
+      },
+      "notes": {},
+      "sha256": "a2386f7f955175fe232c2bf265fa1da24d39f586cf523633753bc02294de226b",
+      "since": "2026-09-28"
+    },
+    "E07000038": {
+      "links": {},
+      "notes": {
+        "councilTax": "Not published: HTTP 403",
+        "bins": "Not published: HTTP 403"
+      },
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "since": null
+    },
+    "E07000039": {
+      "links": {
+        "councilTax": "https://www.southderbyshire.gov.uk/our-services/council-tax/ways-to-pay",
+        "bins": "https://www.southderbyshire.gov.uk/our-services/recycling-bins-and-waste/bin-collection-dates"
+      },
+      "notes": {},
+      "sha256": "0414dcb0fc06bff749e0c3625b28dbbfb7563a7c5b3510767fdd759dee3a49ff",
+      "since": "2026-09-28"
+    },
+    "E07000040": {
+      "links": {
+        "councilTax": "https://eastdevon.gov.uk/council-tax/paying-council-tax/",
+        "bins": "http://eastdevon.gov.uk/recycling-and-rubbish/when-is-my-bin-collected/"
+      },
+      "notes": {},
+      "sha256": "d01e2d67487eff30c344f3963ed58c63ad167b1464422638e0cceb135d42d322",
+      "since": "2026-09-28"
+    },
+    "E07000041": {
+      "links": {
+        "councilTax": "https://exeter.gov.uk/council-tax/paying-your-council-tax/pay-your-council-tax/"
+      },
+      "notes": {
+        "bins": "Not published: HTTP 404"
+      },
+      "sha256": "30adf721f4b2c56c9872d65acaa2f540129683d79bf17a52e397ee27dff40211",
+      "since": "2026-09-28"
+    },
+    "E07000042": {
+      "links": {
+        "councilTax": "https://www.middevon.gov.uk/residents/council-tax/how-can-i-pay-my-council-tax/",
+        "bins": "https://www.middevon.gov.uk/residents/recycling-rubbish/check-collection-dates/"
+      },
+      "notes": {},
+      "sha256": "6c6e8f193c6d70baf243bf0cdc155650116dd0d8057fb98454489719dee3e0d1",
+      "since": "2026-09-28"
+    },
+    "E07000043": {
+      "links": {
+        "councilTax": "https://www.northdevon.gov.uk/council-tax",
+        "bins": "http://www.northdevon.gov.uk/bins-and-recycling/collection-dates/"
+      },
+      "notes": {},
+      "sha256": "933c96c00dd91561e29d777882a3dfe786e24e72e08af624d9c309ac87903d80",
+      "since": "2026-09-28"
+    },
+    "E07000044": {
+      "links": {
+        "councilTax": "https://www.southhams.gov.uk/council-tax",
+        "bins": "https://www.southhams.gov.uk/recyclingwaste"
+      },
+      "notes": {},
+      "sha256": "945fc400b532564e28a9153519294301dfdeec7ccb10e33fe7b708fba553f2a6",
+      "since": "2026-09-28"
+    },
+    "E07000045": {
+      "links": {
+        "councilTax": "https://www.teignbridge.gov.uk/council-tax/paying-council-tax/ways-to-pay-for-your-council-tax/pay-council-tax-online/",
+        "bins": "http://www.teignbridge.gov.uk/bins"
+      },
+      "notes": {},
+      "sha256": "a71ea9c266db4a5dd7bf5f11d826d15e4da98856e9e978e91ec7ffd478f51a19",
+      "since": "2026-09-28"
+    },
+    "E07000046": {
+      "links": {
+        "councilTax": "https://www.torridge.gov.uk/waystopay",
+        "bins": "https://www.torridge.gov.uk/forms/firmstep/wastecalendar.html"
+      },
+      "notes": {},
+      "sha256": "64aa20b162de24f510ef894bfeefe19ebc6bcfaeeaeec15139aa19181c8d60a0",
+      "since": "2026-09-28"
+    },
+    "E07000047": {
+      "links": {
+        "councilTax": "https://www.westdevon.gov.uk/council-tax"
+      },
+      "notes": {
+        "bins": "Not published: HTTP 404"
+      },
+      "sha256": "a1403a252eb19e475faaeef0732fb188b9fa1ec3435d9477711653b014ece192",
+      "since": "2026-09-28"
+    },
+    "E07000061": {
+      "links": {},
+      "notes": {
+        "councilTax": "Not published: HTTP 403",
+        "bins": "Not published: HTTP 403"
+      },
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "since": null
+    },
+    "E07000062": {
+      "links": {
+        "councilTax": "https://www.hastings.gov.uk/council-tax/pay/"
+      },
+      "notes": {
+        "bins": "Not published: HTTP 404"
+      },
+      "sha256": "6444addc85e5953abd8b26aedbfcec62b793b98106f4fb04c525cb2f3506824d",
+      "since": "2026-09-28"
+    },
+    "E07000063": {
+      "links": {},
+      "notes": {
+        "councilTax": "Not published: HTTP 403",
+        "bins": "Not published: HTTP 403"
+      },
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "since": null
+    },
+    "E07000064": {
+      "links": {
+        "councilTax": "https://www.rother.gov.uk/council-tax/pay-business-rates/",
+        "bins": "http://www.rother.gov.uk/whenismybinday"
+      },
+      "notes": {},
+      "sha256": "354d202d42431ab00582f611349b7c85e9767adc6661f7cad31563c5647a2029",
+      "since": "2026-09-28"
+    },
+    "E07000065": {
+      "links": {
+        "councilTax": "https://www.wealden.gov.uk/council-tax/",
+        "bins": "https://www.wealden.gov.uk/recycling-and-waste/bin-search/"
+      },
+      "notes": {},
+      "sha256": "8ab7bff3b1966daa97e39d0fdc608f83e16109527bc126c0676ddb979dd262b9",
+      "since": "2026-09-28"
+    },
+    "E07000066": {
+      "links": {},
+      "notes": {
+        "councilTax": "Not published: HTTP 403",
+        "bins": "Not published: HTTP 523"
+      },
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "since": null
+    },
+    "E07000067": {
+      "links": {
+        "councilTax": "https://www.braintree.gov.uk/council-tax/pay-council-tax"
+      },
+      "notes": {
+        "bins": "Not published: HTTP 404"
+      },
+      "sha256": "ef3d63c5c2566fb7ba056d7ce35e2d397a7fb01d0a5d661e8ead7625de3d65d6",
+      "since": "2026-09-28"
+    },
+    "E07000068": {
+      "links": {
+        "councilTax": "https://www.brentwood.gov.uk/pay-your-council-tax"
+      },
+      "notes": {
+        "bins": "Not published: redirects to the home page"
+      },
+      "sha256": "680afff0477520c4d20398a91c9f122d32600e09a8abf84529b67037e9801d0d",
+      "since": "2026-09-28"
+    },
+    "E07000069": {
+      "links": {
+        "councilTax": "https://www.castlepoint.gov.uk/how-to-pay-your-council-tax-bill"
+      },
+      "notes": {
+        "bins": "Not published: HTTP 404"
+      },
+      "sha256": "c501e9220419c347b49f73e4f463e9f42e9015cad1a830a6f4f3e8204cd77cd1",
+      "since": "2026-09-28"
+    },
+    "E07000070": {
+      "links": {
+        "councilTax": "https://www.chelmsford.gov.uk/council-tax/pay-your-council-tax/paying-your-council-tax/",
+        "bins": "https://www.chelmsford.gov.uk/bins-and-recycling/check-your-collection-day/"
+      },
+      "notes": {},
+      "sha256": "57329390d8464c1d12708636ab50ac097025011bde959d8066d3898891dd28fe",
+      "since": "2026-09-28"
+    },
+    "E07000071": {
+      "links": {
+        "councilTax": "https://www.colchester.gov.uk/make-a-payment/council-tax/",
+        "bins": "https://www.colchester.gov.uk/check-my-collection-day/#ValidationSummaryEntityFormView"
+      },
+      "notes": {},
+      "sha256": "9f5a030cab68862ffca02c8954e9092a9c7b360b0e778a487125bafacabd1a14",
+      "since": "2026-09-28"
+    },
+    "E07000072": {
+      "links": {
+        "councilTax": "https://www.eppingforestdc.gov.uk/council-tax/pay-your-council-tax/",
+        "bins": "https://www.eppingforestdc.gov.uk/recycling-and-rubbish/"
+      },
+      "notes": {},
+      "sha256": "52eaf954d84a0511acac1c6f0547c6bc7e4c1b17a9904bb5c6038121152e5a2b",
+      "since": "2026-09-28"
+    },
+    "E07000073": {
+      "links": {
+        "councilTax": "https://www.harlow.gov.uk/council-tax/pay-your-council-tax",
+        "bins": "https://selfserve.harlow.gov.uk/"
+      },
+      "notes": {},
+      "sha256": "04ce271fdf0e8638832f659e6b3c181d17ae008f64eb46ee9525df954da3b235",
+      "since": "2026-09-28"
+    },
+    "E07000074": {
+      "links": {
+        "councilTax": "https://www.maldon.gov.uk/info/20071/council_tax",
+        "bins": "http://www.maldon.gov.uk/info/200084/recycling_rubbish_and_waste"
+      },
+      "notes": {},
+      "sha256": "f4b168b0ad5168275a3b4dda76b3cb5fbc3595e0a9d2b090087eb6af04a01c7f",
+      "since": "2026-09-28"
+    },
+    "E07000075": {
+      "links": {
+        "councilTax": "https://www.rochford.gov.uk/council-tax",
+        "bins": "https://www.rochford.gov.uk/environment/recycling/bins-and-collections"
+      },
+      "notes": {},
+      "sha256": "1eff48a17649ed2b606f3c31320eb34969b85e54bc553c8dec208e00316d40de",
+      "since": "2026-09-28"
+    },
+    "E07000076": {
+      "links": {
+        "councilTax": "https://www.tendringdc.gov.uk/content/paying-your-council-tax-bill-2"
+      },
+      "notes": {
+        "bins": "Not published: HTTP 404"
+      },
+      "sha256": "dc23437c7b18442bdbad5246ef15666fa72b7c97ded64460cf43b1543ab09f7d",
+      "since": "2026-09-28"
+    },
+    "E07000077": {
+      "links": {
+        "bins": "http://bins.uttlesford.gov.uk/"
+      },
+      "notes": {
+        "councilTax": "Not published: HTTP 403"
+      },
+      "sha256": "871a637b528389aa5a306ee395b0d25ccb43d9229baf38a1ae182f06197b7942",
+      "since": "2026-09-28"
+    },
+    "E07000078": {
+      "links": {
+        "councilTax": "https://www.cheltenham.gov.uk/council-tax-and-benefits/pay-council-tax/",
+        "bins": "http://www.cheltenham.gov.uk/recycling"
+      },
+      "notes": {},
+      "sha256": "adcd349dedd33ba3767ed79b825416c09a6cc35c09f29bd039449934b1eb00ef",
+      "since": "2026-09-28"
+    },
+    "E07000079": {
+      "links": {
+        "councilTax": "https://www.cotswold.gov.uk/residents/council-tax/council-tax-payments/",
+        "bins": "https://www.cotswold.gov.uk/bins-and-recycling/check-your-collection-day/"
+      },
+      "notes": {},
+      "sha256": "96204179899a502981b0be454874565c9114eeb1783e7a67ee14ef954e001b16",
+      "since": "2026-09-28"
+    },
+    "E07000080": {
+      "links": {
+        "councilTax": "https://www.fdean.gov.uk/residents/council-tax/council-tax-payments/",
+        "bins": "https://www.fdean.gov.uk/residents/bins-recycling/"
+      },
+      "notes": {},
+      "sha256": "760e429a71d52101c363e99afe7d03ff1d75f171aa96fafed58da7bfa948c16d",
+      "since": "2026-09-28"
+    },
+    "E07000081": {
+      "links": {
+        "councilTax": "https://www.gloucester.gov.uk/council-tax/pay-your-council-tax/",
+        "bins": "https://www.gloucester.gov.uk/environment-waste-recycling/waste-recycling-street-cleaning/bins-recycling/"
+      },
+      "notes": {},
+      "sha256": "494ee8245ddfdcd09f537c61447853877adcf7dd2bca40e1edffee78322da20c",
+      "since": "2026-09-28"
+    },
+    "E07000082": {
+      "links": {
+        "councilTax": "https://www.stroud.gov.uk/online-services/pay-for-it/pay-council-tax/",
+        "bins": "https://www.stroud.gov.uk/environment/bins-rubbish-recycling"
+      },
+      "notes": {},
+      "sha256": "c8afdca67d91a07e3147e54437fdc097a595e3869bab352779d8b09f8cd5fbb8",
+      "since": "2026-09-28"
+    },
+    "E07000083": {
+      "links": {
+        "councilTax": "https://tewkesbury.gov.uk/services/council-tax-benefits-and-business-rates/council-tax/pay-your-council-tax-bill/",
+        "bins": "https://www.tewkesbury.gov.uk/waste-and-recycling?rq=bin%20collection"
+      },
+      "notes": {},
+      "sha256": "b164247514600c0554a6696d8118f6ae9335386cb1b6c3c5ba49ccd135915e9c",
+      "since": "2026-09-28"
+    },
+    "E07000084": {
+      "links": {
+        "councilTax": "https://www.basingstoke.gov.uk/paymyctax"
+      },
+      "notes": {
+        "bins": "Not published: fetch failed"
+      },
+      "sha256": "976ea6076027f7c2c4bd8545f15ef0976e8d13369df4f39c2e1a1e5bf9d7176e",
+      "since": "2026-09-28"
+    },
+    "E07000085": {
+      "links": {
+        "councilTax": "https://www.easthants.gov.uk/council-tax/paying-your-council-tax",
+        "bins": "http://www.easthants.gov.uk/recycling-and-waste/bin-collections"
+      },
+      "notes": {},
+      "sha256": "44dde6da57e0497da5e87afa529c0ba670e34564b2fe0d05ef786592a129b31c",
+      "since": "2026-09-28"
+    },
+    "E07000086": {
+      "links": {},
+      "notes": {
+        "councilTax": "Not published: HTTP 403",
+        "bins": "Not published: HTTP 403"
+      },
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "since": null
+    },
+    "E07000087": {
+      "links": {
+        "councilTax": "https://www.fareham.gov.uk/council_tax/paying_your_council_tax/intro.aspx"
+      },
+      "notes": {
+        "bins": "Not published: HTTP 404"
+      },
+      "sha256": "31e07b3357f4aac866de57c3734ff18a620f3e3e021d77702ee25ef5d5f31668",
+      "since": "2026-09-28"
+    },
+    "E07000088": {
+      "links": {
+        "councilTax": "https://www.gosport.gov.uk/article/1483/How-to-pay",
+        "bins": "https://www.gosport.gov.uk/refusecollections"
+      },
+      "notes": {},
+      "sha256": "f992c55b12c43960499bbcbeeff6985145ea63bba240603d065068c27289b6a3",
+      "since": "2026-09-28"
+    },
+    "E07000089": {
+      "links": {
+        "councilTax": "https://www.hart.gov.uk/council-tax/pay-your-council-tax",
+        "bins": "https://www.hart.gov.uk/your-area"
+      },
+      "notes": {},
+      "sha256": "7b0b1072dac5f55f607dcb8a4e884cd5b2f2301c9c29c70ebc9423f05108a7df",
+      "since": "2026-09-28"
+    },
+    "E07000090": {
+      "links": {
+        "councilTax": "https://www.havant.gov.uk/pay",
+        "bins": "http://www.havant.gov.uk/rubbish-and-recycling"
+      },
+      "notes": {},
+      "sha256": "7d7498384dcba61f5b01fceb40873ebb84832464d1df0da8d2b8aec282e024fd",
+      "since": "2026-09-28"
+    },
+    "E07000091": {
+      "links": {},
+      "notes": {
+        "councilTax": "Not published: HTTP 403",
+        "bins": "Not published: HTTP 403"
+      },
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "since": null
+    },
+    "E07000092": {
+      "links": {
+        "councilTax": "https://www.rushmoor.gov.uk/council-tax/paying-your-council-tax/how-to-pay-your-council-tax/",
+        "bins": "http://www.rushmoor.gov.uk/article/2061/Information-about-your-bins-and-collections"
+      },
+      "notes": {},
+      "sha256": "3f496f5dfd3bd1a22a4c84852bfa1fde90e390012ef771d95d053ccebcef673a",
+      "since": "2026-09-28"
+    },
+    "E07000093": {
+      "links": {
+        "councilTax": "https://www.testvalley.gov.uk/benefitsandcounciltax/counciltax/how-to-pay",
+        "bins": "http://www.testvalley.gov.uk/"
+      },
+      "notes": {},
+      "sha256": "e3afdbaf8486f2ec6c83151aa0c5a8638e0a578e4c7a84bd78948ff9ec400967",
+      "since": "2026-09-28"
+    },
+    "E07000094": {
+      "links": {
+        "councilTax": "https://www.winchester.gov.uk/council-tax/paying-council-tax/",
+        "bins": "http://www.winchester.gov.uk/bins"
+      },
+      "notes": {},
+      "sha256": "f2cc006e0719f052860b6c21cafbb9b7b5adbd03b731f7b290d8de81e377f1c9",
+      "since": "2026-09-28"
+    },
+    "E07000095": {
+      "links": {
+        "councilTax": "https://www.broxbourne.gov.uk/council-tax/pay-council-tax/1"
+      },
+      "notes": {
+        "bins": "Not published: fetch failed"
+      },
+      "sha256": "71a3d68c3f3ce4f0dc7a7f529a0630950de7692020cf970d0e905e85d89402c2",
+      "since": "2026-09-28"
+    },
+    "E07000096": {
+      "links": {
+        "councilTax": "https://www.dacorum.gov.uk/home/council-tax",
+        "bins": "http://www.dacorum.gov.uk/home/environment-street-care/recycling-refuse-waste/household-waste-recycling/your-waste-collection-calendar"
+      },
+      "notes": {},
+      "sha256": "4d2a02c0c0f2f70e2c2e3aaf4faecebe610c3a22b867a187f3c9d695d67a0f67",
+      "since": "2026-09-28"
+    },
+    "E07000098": {
+      "links": {
+        "councilTax": "https://www.hertsmere.gov.uk/council-tax/pay-my-council-tax"
+      },
+      "notes": {
+        "bins": "Not published: HTTP 404"
+      },
+      "sha256": "90a5593921deb443d673fcd746c33ac7217b640b9aded6684e2b1cd868992e6a",
+      "since": "2026-09-28"
+    },
+    "E07000099": {
+      "links": {
+        "councilTax": "https://www.north-herts.gov.uk/pay-your-council-tax",
+        "bins": "https://www.north-herts.gov.uk/home/waste-and-recycling"
+      },
+      "notes": {},
+      "sha256": "ae268b8d8f0cbd559e118acb671e8b7e027dfacdcf82150c13993a356bf2d8da",
+      "since": "2026-09-28"
+    },
+    "E07000102": {
+      "links": {
+        "councilTax": "https://www.threerivers.gov.uk/services/counciltax/how-to-pay-your-council-tax"
+      },
+      "notes": {
+        "bins": "Not published: HTTP 404"
+      },
+      "sha256": "ffa2a92e75933eb99c81d44d0fb84b43225a8ddc9444af64fe298a4ff81538f5",
+      "since": "2026-09-28"
+    },
+    "E07000103": {
+      "links": {
+        "councilTax": "https://www.watford.gov.uk/council-tax/payments-bills/2",
+        "bins": "https://watfordbc-self.achieveservice.com/en/service/Bin_collections"
+      },
+      "notes": {},
+      "sha256": "22d56ba030a7529fe163c64bd7a313b54eba4d2773e259f18ae9fe63e9a3b442",
+      "since": "2026-09-28"
+    },
+    "E07000105": {
+      "links": {
+        "councilTax": "https://www.ashford.gov.uk/council-tax/",
+        "bins": "http://www.ashford.gov.uk/waste"
+      },
+      "notes": {},
+      "sha256": "36919359339de14927cc8457b1a376acaed5aa3f3f9ab723b0385eabaf7f1e16",
+      "since": "2026-09-28"
+    },
+    "E07000106": {
+      "links": {
+        "councilTax": "https://www.canterbury.gov.uk/council-tax/pay-your-council-tax",
+        "bins": "https://www.canterbury.gov.uk/bin-collections"
+      },
+      "notes": {},
+      "sha256": "b32bafdc5dd823befca36c730f578aee6fbe4d4f73fcdaa5af698db60c4ffc66",
+      "since": "2026-09-28"
+    },
+    "E07000107": {
+      "links": {
+        "councilTax": "https://www.dartford.gov.uk/council-tax/how-do-i-pay/1",
+        "bins": "http://www.dartford.gov.uk/refuse"
+      },
+      "notes": {},
+      "sha256": "8bf0b173467ffff2566c7c071d02f6a59784b0e13bfca8c6a52f80913f0e4564",
+      "since": "2026-09-28"
+    },
+    "E07000108": {
+      "links": {
+        "councilTax": "https://www.dover.gov.uk/CouncilTax/How-to-pay.aspx",
+        "bins": "https://www.dover.gov.uk/waste-and-recycling"
+      },
+      "notes": {},
+      "sha256": "9ca8377d8cd8359aec6a9c16a537aabe4c1e4aeb158d83340833ee960b0de042",
+      "since": "2026-09-28"
+    },
+    "E07000109": {
+      "links": {
+        "councilTax": "https://www.gravesham.gov.uk/council-tax/ways-to-pay",
+        "bins": "https://www.gravesham.gov.uk/bins-recycling"
+      },
+      "notes": {},
+      "sha256": "38ed30d1268299444000db866bca4cb0a61bd89cf38732b74993beea3a105c32",
+      "since": "2026-09-28"
+    },
+    "E07000110": {
+      "links": {},
+      "notes": {
+        "councilTax": "Not published: HTTP 403",
+        "bins": "Not published: HTTP 403"
+      },
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "since": null
+    },
+    "E07000111": {
+      "links": {
+        "councilTax": "https://www.sevenoaks.gov.uk/info/20005/council_tax/27/paying_council_tax"
+      },
+      "notes": {
+        "bins": "Not published: timed out"
+      },
+      "sha256": "e0ca2691319aa10a0aa5053c25e09297ab05a54e9a24cb8f2cee9713a2651189",
+      "since": "2026-09-28"
+    },
+    "E07000112": {
+      "links": {
+        "councilTax": "https://www.folkestone-hythe.gov.uk/council-tax",
+        "bins": "http://www.folkestone-hythe.gov.uk/recycling-waste-and-bins"
+      },
+      "notes": {},
+      "sha256": "a475ded7e23cd32e47b0d5e977675d546094aeb590ee5be6798f2d20cc1350ea",
+      "since": "2026-09-28"
+    },
+    "E07000113": {
+      "links": {},
+      "notes": {
+        "councilTax": "Not published: HTTP 403",
+        "bins": "Not published: HTTP 403"
+      },
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "since": null
+    },
+    "E07000114": {
+      "links": {
+        "councilTax": "https://www.thanet.gov.uk/services/pay-your-council-tax/",
+        "bins": "https://www.thanet.gov.uk/online-services/your-collection-day/"
+      },
+      "notes": {},
+      "sha256": "9e3373ff287816d1e05bbc953a7045bd2aebd27ac8102ec65379ff4db6f548ef",
+      "since": "2026-09-28"
+    },
+    "E07000115": {
+      "links": {
+        "councilTax": "https://www.tmbc.gov.uk/council-tax-benefits/paying-council-tax",
+        "bins": "https://www.tmbc.gov.uk/bins-waste"
+      },
+      "notes": {},
+      "sha256": "a209102c255d84fb8a92def07170166e4d4b2ba12782467dd29ebf0c58c72486",
+      "since": "2026-09-28"
+    },
+    "E07000116": {
+      "links": {},
+      "notes": {
+        "councilTax": "Not published: HTTP 403",
+        "bins": "Not published: HTTP 403"
+      },
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "since": null
+    },
+    "E07000117": {
+      "links": {
+        "councilTax": "https://burnley.gov.uk/counciltax/paying-your-council-tax/",
+        "bins": "https://www.burnley.gov.uk/residents/streetscene/recycling-and-waste"
+      },
+      "notes": {},
+      "sha256": "e496ed5c8c8588415b4fc42fdb9b839dc229dbaeb42a937a0ecdbb1bbf43942f",
+      "since": "2026-09-28"
+    },
+    "E07000118": {
+      "links": {
+        "councilTax": "https://chorley.gov.uk/paycounciltax"
+      },
+      "notes": {
+        "bins": "Not published: HTTP 404"
+      },
+      "sha256": "5c7781f8d93955424bc3415558b78427fd6582c1e97770ef945d4689a68cdf14",
+      "since": "2026-09-28"
+    },
+    "E07000119": {
+      "links": {
+        "councilTax": "https://new.fylde.gov.uk/how-to-pay/"
+      },
+      "notes": {
+        "bins": "No link in the export"
+      },
+      "sha256": "2c4d2fbf5175e26fcff296d9c153abc7a3ba54ce33989ba12a6e53f4046bef33",
+      "since": "2026-09-28"
+    },
+    "E07000120": {
+      "links": {
+        "councilTax": "https://www.hyndburnbc.gov.uk/ctaxandbenefits/"
+      },
+      "notes": {
+        "bins": "Not published: fetch failed"
+      },
+      "sha256": "929bc16de2dc2afff1de6a8b7cfb55b37820ed1c5a18b6710693e2045ef78601",
+      "since": "2026-09-28"
+    },
+    "E07000121": {
+      "links": {
+        "councilTax": "https://www.lancaster.gov.uk/council-tax/pay-your-council-tax"
+      },
+      "notes": {
+        "bins": "Not published: fetch failed"
+      },
+      "sha256": "3183d700c2520454d560e6f4f8f20e78d59a26240f0beb7f07c00c347885aac3",
+      "since": "2026-09-28"
+    },
+    "E07000122": {
+      "links": {
+        "councilTax": "https://www.pendle.gov.uk/info/20102/your_council_tax_bill/303/pay_your_council_tax",
+        "bins": "https://www.pendle.gov.uk/info/20001/bins_and_recycling"
+      },
+      "notes": {},
+      "sha256": "04473c620d9f7209a1839018562c7fbddb0c1354e56c605c5e6d7b7877664651",
+      "since": "2026-09-28"
+    },
+    "E07000123": {
+      "links": {
+        "councilTax": "https://www.preston.gov.uk/paycounciltax",
+        "bins": "https://www.preston.gov.uk/bins"
+      },
+      "notes": {},
+      "sha256": "d52abbd6e904d65ffb040f2c438c5e87b49cf01ee8adf601142dafc546856537",
+      "since": "2026-09-28"
+    },
+    "E07000124": {
+      "links": {
+        "councilTax": "https://www.ribblevalley.gov.uk/council-tax/pay-council-tax"
+      },
+      "notes": {
+        "bins": "Not published: HTTP 404"
+      },
+      "sha256": "d0854311d4cf838b637aeafd702185b27a3621dbc6f37ab93fd76875b1939d35",
+      "since": "2026-09-28"
+    },
+    "E07000125": {
+      "links": {
+        "councilTax": "https://www.rossendale.gov.uk/council-tax/pay-council-tax",
+        "bins": "https://www.rossendale.gov.uk/info/210192/find_your_bin_collection_day"
+      },
+      "notes": {},
+      "sha256": "da86fc68e0f037092b7e89533688d15732a25ee6749636153112827ebebd704e",
+      "since": "2026-09-28"
+    },
+    "E07000126": {
+      "links": {
+        "councilTax": "https://www.southribble.gov.uk/paycounciltax",
+        "bins": "http://www.southribble.gov.uk/"
+      },
+      "notes": {},
+      "sha256": "6902d7d971cc1f1dcd248e716a683f13c85524f38afced7dfd551b90578c4975",
+      "since": "2026-09-28"
+    },
+    "E07000127": {
+      "links": {
+        "councilTax": "https://www.westlancs.gov.uk/bills-benefits/pay-a-bill.aspx",
+        "bins": "http://www.westlancs.gov.uk/refuse-recycling.aspx"
+      },
+      "notes": {},
+      "sha256": "06d7172dd81d5d17019d1c406a13aecd2ff6dd407bc1f69cf1c281a38e659656",
+      "since": "2026-09-28"
+    },
+    "E07000128": {
+      "links": {
+        "councilTax": "https://www.wyre.gov.uk/council-tax/pay-council-tax-1/1",
+        "bins": "https://www.wyre.gov.uk/bins"
+      },
+      "notes": {},
+      "sha256": "77f87164e27705204d4eff85731ad8d364f37de2c68eb2c05e3235d84d04fc93",
+      "since": "2026-09-28"
+    },
+    "E07000129": {
+      "links": {
+        "councilTax": "https://www.blaby.gov.uk/council-tax/your-council-tax/pay-your-council-tax/"
+      },
+      "notes": {
+        "bins": "Not published: fetch failed"
+      },
+      "sha256": "83ae157ede47c621a9ea399f87c4b6b7290afa4f3a787c05f90b3f70c8daf234",
+      "since": "2026-09-28"
+    },
+    "E07000130": {
+      "links": {
+        "councilTax": "https://www.charnwood.gov.uk/pages/how_to_pay",
+        "bins": "http://my.charnwood.gov.uk/recycling"
+      },
+      "notes": {},
+      "sha256": "b41b8ba1e434fd1259db055383b9a27c9102d48d602447da3f1f051e2613e2b5",
+      "since": "2026-09-28"
+    },
+    "E07000131": {
+      "links": {
+        "councilTax": "https://www.harborough.gov.uk/council-tax-pay",
+        "bins": "http://www.harborough.gov.uk/collections"
+      },
+      "notes": {},
+      "sha256": "426e65557858be1aac0293c5f1f6493ebb9d8c2f213ab775351e2be91ae11d53",
+      "since": "2026-09-28"
+    },
+    "E07000132": {
+      "links": {
+        "councilTax": "https://www.hinckley-bosworth.gov.uk/paycounciltax",
+        "bins": "https://www.hinckley-bosworth.gov.uk/collections"
+      },
+      "notes": {},
+      "sha256": "6cc305e6d30258b23e9eb61b11d1b070ffa451a90615a1435d55b924cd077f56",
+      "since": "2026-09-28"
+    },
+    "E07000133": {
+      "links": {
+        "councilTax": "https://www.melton.gov.uk/council-tax/your-council-tax/pay-your-council-tax/"
+      },
+      "notes": {
+        "bins": "Not published: HTTP 404"
+      },
+      "sha256": "0cde3bf39068f145db8da0ba63cf21d9cabfbb42d95f2fca88efe719035a5d81",
+      "since": "2026-09-28"
+    },
+    "E07000134": {
+      "links": {
+        "councilTax": "https://www.nwleics.gov.uk/pages/onlinepayments",
+        "bins": "http://www.nwleics.gov.uk/countyservice_details/home.asp?PID=524"
+      },
+      "notes": {},
+      "sha256": "400813ecbac2d53e9032cb4da93258414adc83ab86a3e6532d6e12d7b509d81e",
+      "since": "2026-09-28"
+    },
+    "E07000135": {
+      "links": {
+        "councilTax": "https://www.oadby-wigston.gov.uk/pages/how_to_pay_council_tax",
+        "bins": "https://www.oadby-wigston.gov.uk/pages/household_waste_collection"
+      },
+      "notes": {},
+      "sha256": "171c2db8392856c3bb1926c2045f0824fea04b2f03aac49cd02863e288005a9d",
+      "since": "2026-09-28"
+    },
+    "E07000136": {
+      "links": {},
+      "notes": {
+        "councilTax": "Not published: HTTP 403",
+        "bins": "Not published: fetch failed"
+      },
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "since": null
+    },
+    "E07000137": {
+      "links": {},
+      "notes": {
+        "councilTax": "Not published: HTTP 403",
+        "bins": "Not published: HTTP 403"
+      },
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "since": null
+    },
+    "E07000138": {
+      "links": {
+        "councilTax": "https://www.lincoln.gov.uk/online/pay-council-tax-online",
+        "bins": "https://www.lincoln.gov.uk/bins-recycling"
+      },
+      "notes": {},
+      "sha256": "2ff1b6826218e8f95a73204bcf0922f8ec2e366f41422a0a0ffd8459bab113b9",
+      "since": "2026-09-28"
+    },
+    "E07000139": {
+      "links": {
+        "councilTax": "https://www.n-kesteven.gov.uk/council-tax/pay-your-council-tax",
+        "bins": "https://www.n-kesteven.gov.uk/residents/waste-recycling-and-environment/find-information-about-the-waste-service/find-your-bin-collection-days/"
+      },
+      "notes": {},
+      "sha256": "2d27393f6079f213f191b8da15061c9ba8fcc8a035485f730e863b7da204e60e",
+      "since": "2026-09-28"
+    },
+    "E07000140": {
+      "links": {},
+      "notes": {
+        "councilTax": "Not published: HTTP 403",
+        "bins": "Not published: fetch failed"
+      },
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "since": null
+    },
+    "E07000141": {
+      "links": {
+        "councilTax": "https://www.southkesteven.gov.uk/council-tax-benefits/pay-my-council-tax",
+        "bins": "https://www.southkesteven.gov.uk/binday"
+      },
+      "notes": {},
+      "sha256": "bd2533c03581f7fee0789666913b05f02e5b62e244bee9ae5a96fd17dd3fd033",
+      "since": "2026-09-28"
+    },
+    "E07000142": {
+      "links": {
+        "councilTax": "https://www.west-lindsey.gov.uk/council-tax-council-bills/council-tax-payment-options",
+        "bins": "https://www.west-lindsey.gov.uk/bins-waste-recycling/find-your-bin-collection-day"
+      },
+      "notes": {},
+      "sha256": "25e650b57c49f3980b460dad46f309d9a1d1ff21a15608f7eb187050405bc78f",
+      "since": "2026-09-28"
+    },
+    "E07000143": {
+      "links": {
+        "councilTax": "https://www.angliarevenues.gov.uk/services/counciltax/pay-ctax/"
+      },
+      "notes": {
+        "bins": "Not published: HTTP 403"
+      },
+      "sha256": "37eb6beee221af2ba91b5bb54149fbfa5b13c334993463afe1e258d95c87ef84",
+      "since": "2026-09-28"
+    },
+    "E07000144": {
+      "links": {
+        "councilTax": "https://www.southnorfolkandbroadland.gov.uk/council-tax/pay-council-tax"
+      },
+      "notes": {
+        "bins": "Not published: HTTP 404"
+      },
+      "sha256": "e380795072bc675c1edef879dff586cb86c4d0cac0c4658bae58ee481a96b6ee",
+      "since": "2026-09-28"
+    },
+    "E07000145": {
+      "links": {},
+      "notes": {
+        "councilTax": "Not published: HTTP 403",
+        "bins": "Not published: HTTP 403"
+      },
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "since": null
+    },
+    "E07000146": {
+      "links": {
+        "councilTax": "https://www.west-norfolk.gov.uk/info/20115/how_to_pay_your_Council_Tax",
+        "bins": "https://www.west-norfolk.gov.uk/info/20174/bins_and_recycling_collection_dates"
+      },
+      "notes": {},
+      "sha256": "aba554fd85aa13818aec02eca9475924e765fefac2a73fd1fdbbbf4e9ca0bf8d",
+      "since": "2026-09-28"
+    },
+    "E07000147": {
+      "links": {
+        "councilTax": "https://www.north-norfolk.gov.uk/tasks/council-tax/pay-my-council-tax/"
+      },
+      "notes": {
+        "bins": "Not published: fetch failed"
+      },
+      "sha256": "44c86167e6f3b04822f80d87e014d58576ab8575c10d4ef67fa0ad892ebcfed7",
+      "since": "2026-09-28"
+    },
+    "E07000148": {
+      "links": {
+        "councilTax": "https://www.norwich.gov.uk/info/20002/council_tax/18/pay_your_council_tax",
+        "bins": "http://www.norwich.gov.uk/WasteAndRecycling/Pages/HowOurServiceWorks.aspx"
+      },
+      "notes": {},
+      "sha256": "24856094da7494094bbc6c3ca05e88d891b43bc3fa8a10864b0099ace7e7844c",
+      "since": "2026-09-28"
+    },
+    "E07000149": {
+      "links": {
+        "councilTax": "https://www.southnorfolkandbroadland.gov.uk/council-tax-1"
+      },
+      "notes": {
+        "bins": "Not published: HTTP 404"
+      },
+      "sha256": "640e366701cc381596336bc0c38ef0b48853d56e7ce77cbdafce8959a3fbb387",
+      "since": "2026-09-28"
+    },
+    "E07000170": {
+      "links": {
+        "councilTax": "https://www.ashfield.gov.uk/council-tax/pay-your-council-tax/"
+      },
+      "notes": {
+        "bins": "Not published: HTTP 404"
+      },
+      "sha256": "cca21fea165b2248903199b22ce1e3add6bbc451d946d429fd8ef2ca26eb90d2",
+      "since": "2026-09-28"
+    },
+    "E07000171": {
+      "links": {
+        "councilTax": "https://www.bassetlaw.gov.uk/council-tax/how-to-pay-your-council-tax/"
+      },
+      "notes": {
+        "bins": "Not published: HTTP 500"
+      },
+      "sha256": "312300d1f58421422a1bb54dfda9d3aa8558df4e936ee41d58e3f17d34cb9227",
+      "since": "2026-09-28"
+    },
+    "E07000172": {
+      "links": {
+        "councilTax": "https://www.broxtowe.gov.uk/for-you/council-tax/how-to-pay-council-tax/",
+        "bins": "https://www.broxtowe.gov.uk/for-you/waste-and-recycling/"
+      },
+      "notes": {},
+      "sha256": "218bd94e788594ee3515a697b2ce1b4f9acd219a41f587ad7b7dfb0b9131f0be",
+      "since": "2026-09-28"
+    },
+    "E07000173": {
+      "links": {
+        "councilTax": "https://www.gedling.gov.uk/resident/counciltax/paycounciltax/",
+        "bins": "https://www.gedling.gov.uk/rubbish/"
+      },
+      "notes": {},
+      "sha256": "eb2c09577cece58ef4c3d680886acb8030acb1ab64c7f7c36da451a801768f9c",
+      "since": "2026-09-28"
+    },
+    "E07000174": {
+      "links": {
+        "councilTax": "https://www.mansfield.gov.uk/council-tax/pay-council-tax-1/1",
+        "bins": "https://www.mansfield.gov.uk/bins-recycling"
+      },
+      "notes": {},
+      "sha256": "67ac066648a7a2dc80dea0465eb90868d6301fb56a94acec89bf66dd21c498ee",
+      "since": "2026-09-28"
+    },
+    "E07000175": {
+      "links": {
+        "councilTax": "https://www.newark-sherwooddc.gov.uk/payyourcounciltax/",
+        "bins": "https://app.newark-sherwooddc.gov.uk/bincollection/"
+      },
+      "notes": {},
+      "sha256": "e946f6b8f25a63977eeee13a4592833a0fcd5c7b1ab3a2b40a8f9115ac84b9ed",
+      "since": "2026-09-28"
+    },
+    "E07000176": {
+      "links": {
+        "councilTax": "https://www.rushcliffe.gov.uk/council-tax/pay-council-tax/"
+      },
+      "notes": {
+        "bins": "Not published: fetch failed"
+      },
+      "sha256": "e6b627abd7c4876ce5cd7b478834369698b303a40d7720583be9ec8b74f11ed7",
+      "since": "2026-09-28"
+    },
+    "E07000177": {
+      "links": {
+        "councilTax": "https://www.cherwell.gov.uk/info/25/council-tax/651/pay-your-council-tax",
+        "bins": "https://www.cherwell.gov.uk/info/10/rubbish-and-recycling"
+      },
+      "notes": {},
+      "sha256": "902bb61b35d2f977a650b120168457c99f200168ade51e31258cd89d88c4c052",
+      "since": "2026-09-28"
+    },
+    "E07000178": {
+      "links": {
+        "councilTax": "https://www.oxford.gov.uk/pay-council-tax",
+        "bins": "https://www.oxford.gov.uk/mybinday"
+      },
+      "notes": {},
+      "sha256": "8bcca6ebd714e3d3b23aa21a09a3f6dbea293d21fc71f6eb3c1cc32313e527d7",
+      "since": "2026-09-28"
+    },
+    "E07000179": {
+      "links": {
+        "councilTax": "https://www.southoxon.gov.uk/south-oxfordshire-district-council/council-tax/paying-your-council-tax/pay-your-council-tax/",
+        "bins": "https://www.southoxon.gov.uk/waste"
+      },
+      "notes": {},
+      "sha256": "6cdf58ecaea4e8a45d60960dcf1a4abdf4b01171b7ffc8b2bb4d4e5b3f7ab9a9",
+      "since": "2026-09-28"
+    },
+    "E07000180": {
+      "links": {
+        "councilTax": "https://www.whitehorsedc.gov.uk/vale-of-white-horse-district-council/council-tax/paying-your-council-tax/pay-your-council-tax/",
+        "bins": "https://www.whitehorsedc.gov.uk/waste"
+      },
+      "notes": {},
+      "sha256": "19f3b38abf8d40d79b561907d7d07d7f9b5761577bfcdc8990731b708d12d8dd",
+      "since": "2026-09-28"
+    },
+    "E07000181": {
+      "links": {
+        "councilTax": "https://www.westoxon.gov.uk/residents/council-tax/council-tax-payments/",
+        "bins": "https://www.westoxon.gov.uk/report/"
+      },
+      "notes": {},
+      "sha256": "e3f78d1ce803d482765013e4304b4f0c77f5717f4a85e57050c10d3cd712211c",
+      "since": "2026-09-28"
+    },
+    "E07000192": {
+      "links": {
+        "councilTax": "https://www.cannockchasedc.gov.uk/residents/council-tax/how-pay-your-council-tax"
+      },
+      "notes": {
+        "bins": "Not published: HTTP 404"
+      },
+      "sha256": "45891900cd9e05d94e9ae10464a2ee423162b09eab872e909fa43b6b4040f9bb",
+      "since": "2026-09-28"
+    },
+    "E07000193": {
+      "links": {
+        "councilTax": "https://www.eaststaffsbc.gov.uk/council-tax/ways-pay-your-council-tax"
+      },
+      "notes": {
+        "bins": "Not published: redirects to the home page"
+      },
+      "sha256": "7a06a16282741c4deb9527c5435604117b2d950b186cd4ebc883ead6a62f6488",
+      "since": "2026-09-28"
+    },
+    "E07000194": {
+      "links": {
+        "councilTax": "https://www.lichfielddc.gov.uk/council-tax/pay-council-tax/1",
+        "bins": "https://www.lichfielddc.gov.uk/Residents/Environment/Recycling-bins-and-waste/Recycling-bins-and-waste.aspx"
+      },
+      "notes": {},
+      "sha256": "5a5fef430096538bc322f7c1a4ac667f74d58c5eb921b5fc48cacef947cb3fd0",
+      "since": "2026-09-28"
+    },
+    "E07000195": {
+      "links": {
+        "councilTax": "https://www.newcastle-staffs.gov.uk/council-tax/pay-council-tax",
+        "bins": "http://www.newcastle-staffs.gov.uk/all-services/recycling-and-waste/collection-date-finder"
+      },
+      "notes": {},
+      "sha256": "9a11817b73a8c7bb201522df13506084603f4ae5f7fd2e83819fdc120374b5c3",
+      "since": "2026-09-28"
+    },
+    "E07000196": {
+      "links": {
+        "councilTax": "https://www.sstaffs.gov.uk/council-tax/paying-your-council-tax-bill",
+        "bins": "https://www.sstaffs.gov.uk/bins-recycling/index.cfm"
+      },
+      "notes": {},
+      "sha256": "e350bb9328e539c9c661c2649f557e628fcc43de6a9783302557c1f80c6b4d69",
+      "since": "2026-09-28"
+    },
+    "E07000197": {
+      "links": {
+        "councilTax": "https://www.staffordbc.gov.uk/how-to-pay-your-council-tax",
+        "bins": "https://www.staffordbc.gov.uk/binday"
+      },
+      "notes": {},
+      "sha256": "08f5b7290b2b42e592f1910c8cce29d7eed728590c98dc91f7b0107e7716bd11",
+      "since": "2026-09-28"
+    },
+    "E07000198": {
+      "links": {},
+      "notes": {
+        "councilTax": "Not published: fetch failed",
+        "bins": "Not published: fetch failed"
+      },
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "since": null
+    },
+    "E07000199": {
+      "links": {
+        "councilTax": "http://www.tamworth.gov.uk/council-tax/paying-your-council-tax",
+        "bins": "https://www.tamworth.gov.uk/bins"
+      },
+      "notes": {},
+      "sha256": "98eebce48bfa78d247f3272323fd7fbe3d896b23cfb131b176a5b54129d48ff3",
+      "since": "2026-09-28"
+    },
+    "E07000200": {
+      "links": {
+        "councilTax": "https://www.babergh.gov.uk/w/paying-council-tax-in-babergh",
+        "bins": "http://www.babergh.gov.uk/waste-services/collection-days/"
+      },
+      "notes": {},
+      "sha256": "68fa2dc6bf7bd081587d6f36b6434342cb2cc6713eebfec283dba8802b37aacf",
+      "since": "2026-09-28"
+    },
+    "E07000202": {
+      "links": {
+        "councilTax": "https://www.ipswich.gov.uk/counciltax"
+      },
+      "notes": {
+        "bins": "No link in the export"
+      },
+      "sha256": "b0f4af86d1c3bbd8a6a09e5a35603819b79b75ee5c420dc6ee0fa3843147e4b9",
+      "since": "2026-09-28"
+    },
+    "E07000203": {
+      "links": {
+        "councilTax": "https://www.midsuffolk.gov.uk/w/paying-council-tax-in-mid-suffolk",
+        "bins": "http://www.midsuffolk.gov.uk/waste-services/collection-days/"
+      },
+      "notes": {},
+      "sha256": "8a51539b6389b0c4a61e8f053b73ba24be51cfd373b93c8bfa613dcd1022bc1d",
+      "since": "2026-09-28"
+    },
+    "E07000207": {
+      "links": {
+        "councilTax": "https://www.elmbridge.gov.uk/council-tax/pay-your-council-tax",
+        "bins": "https://www.elmbridge.gov.uk/waste-and-recycling/missed-bins/"
+      },
+      "notes": {},
+      "sha256": "d55bdf0f1bcc9037781174e127aaafff973eddd4cdd02f48c2dfb4d1faf01b2f",
+      "since": "2026-09-28"
+    },
+    "E07000208": {
+      "links": {
+        "councilTax": "https://www.epsom-ewell.gov.uk/residents/council-tax/paying-you-council-tax",
+        "bins": "https://www.epsom-ewell.gov.uk/residents/recycling-and-waste"
+      },
+      "notes": {},
+      "sha256": "7768e7a1164c541790092f2f532fa6afe85dc62c2a9acebe13e7e00e364ca413",
+      "since": "2026-09-28"
+    },
+    "E07000209": {
+      "links": {
+        "councilTax": "https://www.guildford.gov.uk/article/25772/Pay-your-council-tax-by-direct-debit",
+        "bins": "http://www.guildford.gov.uk/yourguildford"
+      },
+      "notes": {},
+      "sha256": "cc10635d7383bb3843f654f5177478fbdcc1ed20982ad6cc62607655cc098eec",
+      "since": "2026-09-28"
+    },
+    "E07000210": {
+      "links": {
+        "councilTax": "https://www.molevalley.gov.uk/council-tax/paying-your-council-tax/"
+      },
+      "notes": {
+        "bins": "Not published: HTTP 404"
+      },
+      "sha256": "bb33d33f73847c8c9203a8aa28325513ed86df6fed2b91fdcdc75bcbf97f2554",
+      "since": "2026-09-28"
+    },
+    "E07000211": {
+      "links": {
+        "councilTax": "https://www.reigate-banstead.gov.uk/pay-council-tax",
+        "bins": "http://www.reigate-banstead.gov.uk/environment/recycling_rubbish_and_waste/proposals/index.asp"
+      },
+      "notes": {},
+      "sha256": "d7f74c89a3774b909132f9b8693e5d037ae06d1676530f3fe523bc394c5a454a",
+      "since": "2026-09-28"
+    },
+    "E07000212": {
+      "links": {
+        "councilTax": "https://www.runnymede.gov.uk/council-tax-11/council-tax-3"
+      },
+      "notes": {
+        "bins": "Not published: HTTP 404"
+      },
+      "sha256": "72b69782b03dd957718c873834468dc95bffb8feda9606a60eb9f43bacb2546a",
+      "since": "2026-09-28"
+    },
+    "E07000213": {
+      "links": {
+        "councilTax": "https://www.spelthorne.gov.uk/pay-online",
+        "bins": "https://www.spelthorne.gov.uk/rubbish"
+      },
+      "notes": {},
+      "sha256": "caade6afbec03d9ffeade7c0907f1fd4c66ae54964b1d7c8fa467a4797d43358",
+      "since": "2026-09-28"
+    },
+    "E07000214": {
+      "links": {
+        "councilTax": "https://www.surreyheath.gov.uk/council-tax/pay-your-council-tax"
+      },
+      "notes": {
+        "bins": "Not published: HTTP 403"
+      },
+      "sha256": "7e05c2fb1f01c7dc1c1301bacc59445e62e39277c837e5db0cf33c0216633c23",
+      "since": "2026-09-28"
+    },
+    "E07000215": {
+      "links": {
+        "councilTax": "https://www.tandridge.gov.uk/Council-tax",
+        "bins": "https://www.tandridge.gov.uk/Recycling-and-rubbish/Has-your-bin-been-missed"
+      },
+      "notes": {},
+      "sha256": "d763fbd101da4705929dbe9696f9170de88471dbbcc74d0422776b2697a474ac",
+      "since": "2026-09-28"
+    },
+    "E07000216": {
+      "links": {
+        "councilTax": "https://www.waverley.gov.uk/Services/Council-Tax/Pay-Council-Tax",
+        "bins": "https://www.waverley.gov.uk/bins"
+      },
+      "notes": {},
+      "sha256": "423c66801569f889d6fe1201b182c8f67d59391399c97c3570c5aed23a4c7df2",
+      "since": "2026-09-28"
+    },
+    "E07000217": {
+      "links": {
+        "councilTax": "https://www.woking.gov.uk/council-tax/council-tax-payments-refunds/pay-your-council-tax",
+        "bins": "https://www.woking.gov.uk/bins-waste-recycling"
+      },
+      "notes": {},
+      "sha256": "c651a59204604bb792b7b55c79ad20fa27f6d2eef6e4635883e7c05ffa8c28ef",
+      "since": "2026-09-28"
+    },
+    "E07000218": {
+      "links": {
+        "councilTax": "https://www.northwarks.gov.uk/council-tax",
+        "bins": "https://www.northwarks.gov.uk/info/20004/waste_and_recycling"
+      },
+      "notes": {},
+      "sha256": "f5804b5b64914aab21121b136d0c97f3af559ebbb48e5cecf42cc561f423c3c3",
+      "since": "2026-09-28"
+    },
+    "E07000219": {
+      "links": {
+        "councilTax": "https://www.nuneatonandbedworth.gov.uk/council-tax-account/pay-council-tax",
+        "bins": "https://www.nuneatonandbedworth.gov.uk/info/20001/rubbish_and_recycling"
+      },
+      "notes": {},
+      "sha256": "61ad40fe0c73f8f3bc7b622b06297f7d4024e6e9108d1d82733de34e71ca6caf",
+      "since": "2026-09-28"
+    },
+    "E07000220": {
+      "links": {
+        "councilTax": "https://www.rugby.gov.uk/w/how-to-pay-your-council-tax-1",
+        "bins": "https://www.rugby.gov.uk/binday"
+      },
+      "notes": {},
+      "sha256": "e2fdf3667f23d4358e698bfdf761bffe06f73a9d4ae844bbec869d53c258c4e9",
+      "since": "2026-09-28"
+    },
+    "E07000221": {
+      "links": {
+        "councilTax": "https://www.stratford.gov.uk/council-tax/council-tax-and-non-domestic-rates-payment-options.cfm",
+        "bins": "https://www.stratford.gov.uk/waste-recycling/help-with-your-collection.cfm"
+      },
+      "notes": {},
+      "sha256": "4911acb7c0c95134deb909d3f4e968d196bfe357b6c88d1c2f1308c7eb2fa6ec",
+      "since": "2026-09-28"
+    },
+    "E07000222": {
+      "links": {
+        "councilTax": "https://www.warwickdc.gov.uk/info/20593/council_tax/357/pay_your_council_tax",
+        "bins": "http://www.warwickdc.gov.uk/info/20478/refuse_collection"
+      },
+      "notes": {},
+      "sha256": "8835991909d65d5d3d077df72bbdff151dde0580b7771924538a02adc821d3f0",
+      "since": "2026-09-28"
+    },
+    "E07000223": {
+      "links": {
+        "councilTax": "https://www.adur-worthing.gov.uk/council-tax/how-to-pay-your-council-tax/",
+        "bins": "https://www.adur-worthing.gov.uk/bin-day/"
+      },
+      "notes": {},
+      "sha256": "840c7ef35ed4d21401bfbe164738b6b5b26356565b6554012b3b52408f702475",
+      "since": "2026-09-28"
+    },
+    "E07000224": {
+      "links": {
+        "councilTax": "https://www.arun.gov.uk/pay-your-council-tax"
+      },
+      "notes": {
+        "bins": "Not published: redirects to the home page"
+      },
+      "sha256": "d85ef8c2dc95231c87ed1d15036c353895c78458984258b92e5f17752da0eedb",
+      "since": "2026-09-28"
+    },
+    "E07000225": {
+      "links": {},
+      "notes": {
+        "councilTax": "Not published: HTTP 403",
+        "bins": "Not published: HTTP 403"
+      },
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "since": null
+    },
+    "E07000226": {
+      "links": {
+        "councilTax": "https://crawley.gov.uk/council-tax-and-benefits/about-council-tax/how-pay",
+        "bins": "https://crawley.gov.uk/waste-and-recycling/household-collections/collection-days"
+      },
+      "notes": {},
+      "sha256": "502b82b49192c36540735b47087f9decdf23be62b91ea866a252d92d2891f03c",
+      "since": "2026-09-28"
+    },
+    "E07000227": {
+      "links": {
+        "bins": "https://satellite.horsham.gov.uk/environment/refuse/refuse_cal1.asp"
+      },
+      "notes": {
+        "councilTax": "Not published: HTTP 403"
+      },
+      "sha256": "2b2177265c161bd04d07a46be9e2c3876718786a4561d5f85e3f8e174ad133c8",
+      "since": "2026-09-28"
+    },
+    "E07000228": {
+      "links": {
+        "councilTax": "https://www.midsussex.gov.uk/housing-council-tax/council-tax-benefits-and-business-rates/payments-and-refunds/how-to-pay/",
+        "bins": "https://www.midsussex.gov.uk/waste-recycling/household-rubbish/"
+      },
+      "notes": {},
+      "sha256": "18859e3e56104a89e7c12dff6215dd82ea5849a19a195e94fc5fb25ea6008c13",
+      "since": "2026-09-28"
+    },
+    "E07000229": {
+      "links": {
+        "councilTax": "https://www.adur-worthing.gov.uk/council-tax/how-to-pay-your-council-tax/",
+        "bins": "https://www.adur-worthing.gov.uk/bin-day/"
+      },
+      "notes": {},
+      "sha256": "840c7ef35ed4d21401bfbe164738b6b5b26356565b6554012b3b52408f702475",
+      "since": "2026-09-28"
+    },
+    "E07000234": {
+      "links": {
+        "councilTax": "https://www.bromsgrove.gov.uk/residents/money-education-skills/council-tax/pay-your-council-tax/",
+        "bins": "http://www.bromsgrove.gov.uk/my-place/bins-and-recycling.aspx"
+      },
+      "notes": {},
+      "sha256": "c9fb668a595e5a996a3c7eb354f51a3c9f8435b9ce2c7f9f25d3129382bf1c65",
+      "since": "2026-09-28"
+    },
+    "E07000235": {
+      "links": {
+        "councilTax": "https://www.malvernhills.gov.uk/council-tax/how-to-pay-your-council-tax",
+        "bins": "http://swict.malvernhills.gov.uk/mhdcroundlookup/"
+      },
+      "notes": {},
+      "sha256": "acb6408901c6b534bafa7e8da7e6816691682971181988de1cf013223a2b5a8d",
+      "since": "2026-09-28"
+    },
+    "E07000236": {
+      "links": {
+        "councilTax": "https://www.redditchbc.gov.uk/residents/money-education-skills/council-tax/pay-your-council-tax/",
+        "bins": "http://www.redditchbc.gov.uk/my-place/bins-and-recycling/what-is-my-bin-collection-day.aspx"
+      },
+      "notes": {},
+      "sha256": "fd89e61ea96702a45e67cefe64b69e23a21066eb258837b683e365aeb81c4860",
+      "since": "2026-09-28"
+    },
+    "E07000237": {
+      "links": {
+        "bins": "http://selfserve.worcester.gov.uk/wccroundlookup/wcc_search.jsp"
+      },
+      "notes": {
+        "councilTax": "Not published: HTTP 307"
+      },
+      "sha256": "e72b6a829519c6b5acb674a925855a4fd42390a854fdcc83be1945720ac4e30f",
+      "since": "2026-09-28"
+    },
+    "E07000238": {
+      "links": {},
+      "notes": {
+        "councilTax": "Not published: HTTP 307",
+        "bins": "Not published: HTTP 307"
+      },
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "since": null
+    },
+    "E07000239": {
+      "links": {
+        "councilTax": "https://www.wyreforestdc.gov.uk/council-tax-and-benefits/council-tax/how-to-pay-your-council-tax/"
+      },
+      "notes": {
+        "bins": "Not published: HTTP 404"
+      },
+      "sha256": "808fc8d0bc227560a39b893274823e0ab2074a9d5785b63b900dc333cff52880",
+      "since": "2026-09-28"
+    },
+    "E07000240": {
+      "links": {
+        "councilTax": "https://www.stalbans.gov.uk/paying-your-council-tax",
+        "bins": "https://www.stalbans.gov.uk/rubbish-collections"
+      },
+      "notes": {},
+      "sha256": "53ccaab500ef06a108d788f91b2f62d864a0a8e03c3ab418822ab9b87ba190b4",
+      "since": "2026-09-28"
+    },
+    "E07000241": {
+      "links": {
+        "councilTax": "https://www.welhat.gov.uk/council-tax/payment",
+        "bins": "https://www.welhat.gov.uk/rubbish-recycling/check-bin-collection-day"
+      },
+      "notes": {},
+      "sha256": "363dcc962d286829110b3f6bd46a4299179d87281fa917d28b80e5889ae1e313",
+      "since": "2026-09-28"
+    },
+    "E07000242": {
+      "links": {
+        "councilTax": "https://www.eastherts.gov.uk/council-tax/pay-your-council-tax",
+        "bins": "https://www.eastherts.gov.uk/bins-waste-recycling"
+      },
+      "notes": {},
+      "sha256": "a4c5685be761dd7bf6dfbe61c726f3d51d52a1a415c9f4c899676a07570e7e4d",
+      "since": "2026-09-28"
+    },
+    "E07000243": {
+      "links": {
+        "councilTax": "https://www.stevenage.gov.uk/council-tax"
+      },
+      "notes": {
+        "bins": "Not published: HTTP 404"
+      },
+      "sha256": "3bb3d2c20fd1de09e469b5c5910ad77904f5ac592da7e69559de8a1af70d56a4",
+      "since": "2026-09-28"
+    },
+    "E07000244": {
+      "links": {
+        "councilTax": "https://www.eastsuffolk.gov.uk/council-tax/",
+        "bins": "https://my.eastsuffolk.gov.uk/service/Bin_collection_dates_finder"
+      },
+      "notes": {},
+      "sha256": "b93eb44cb04f1927edda11cce4e906652b1a7e468822ae00c2a90af5d9acbaf7",
+      "since": "2026-09-28"
+    },
+    "E07000245": {
+      "links": {
+        "councilTax": "https://www.westsuffolk.gov.uk/counciltax/pay-ctax-now.cfm"
+      },
+      "notes": {
+        "bins": "Not published: HTTP 404"
+      },
+      "sha256": "b32578e48468dd7005662a07bfd35fff1edb75dee9dedf98380ef69ec591c7bd",
+      "since": "2026-09-28"
+    },
+    "E08000001": {
+      "links": {
+        "councilTax": "https://www.bolton.gov.uk/council-tax/pay-council-tax",
+        "bins": "https://www.bolton.gov.uk/next-bin-collection"
+      },
+      "notes": {},
+      "sha256": "689996b61c682c78f3483d7a8777f7a9de3aa8b21336b023400608412d4fee61",
+      "since": "2026-09-28"
+    },
+    "E08000002": {
+      "links": {
+        "councilTax": "https://www.bury.gov.uk/council-tax/paying-your-council-tax",
+        "bins": "http://www.bury.gov.uk/index.aspx?articleid=10493"
+      },
+      "notes": {},
+      "sha256": "381046f16415b270e126bfe42f391f47d9b687de1fa29813602807189053e6a7",
+      "since": "2026-09-28"
+    },
+    "E08000003": {
+      "links": {},
+      "notes": {
+        "councilTax": "Not published: HTTP 403",
+        "bins": "Not published: HTTP 403"
+      },
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "since": null
+    },
+    "E08000004": {
+      "links": {
+        "councilTax": "http://www.oldham.gov.uk/info/200940/pay_your_council_tax",
+        "bins": "https://adt.oldham.gov.uk/Forms/bincollectiondates/details"
+      },
+      "notes": {},
+      "sha256": "588254eeb35042c99209a5d05a0b2d787366e56b221baa0b45adbdb77a7bf028",
+      "since": "2026-09-28"
+    },
+    "E08000005": {
+      "links": {
+        "councilTax": "https://www.rochdale.gov.uk/council-tax/pay-council-tax",
+        "bins": "https://www.rochdale.gov.uk/bins"
+      },
+      "notes": {},
+      "sha256": "636b73eb66db1a6562bf825908440297457123f98caa7e6cc706966415f42926",
+      "since": "2026-09-28"
+    },
+    "E08000006": {
+      "links": {
+        "councilTax": "https://www.salford.gov.uk/council-tax/",
+        "bins": "https://www.salford.gov.uk/bins"
+      },
+      "notes": {},
+      "sha256": "3bda576bb25747b90c66668315df261f57ca5e84da37ef6c457deb0b849f4d0f",
+      "since": "2026-09-28"
+    },
+    "E08000007": {
+      "links": {},
+      "notes": {
+        "councilTax": "Not published: fetch failed",
+        "bins": "Not published: fetch failed"
+      },
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "since": null
+    },
+    "E08000008": {
+      "links": {
+        "councilTax": "https://www.tameside.gov.uk/counciltax",
+        "bins": "https://www.tameside.gov.uk/recycling"
+      },
+      "notes": {},
+      "sha256": "020049bf7bba94ff7e2584fadc8b80ae389e479cc851b8af5529e2a699c75500",
+      "since": "2026-09-28"
+    },
+    "E08000009": {
+      "links": {},
+      "notes": {
+        "councilTax": "Not published: HTTP 403",
+        "bins": "Not published: HTTP 403"
+      },
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "since": null
+    },
+    "E08000010": {
+      "links": {
+        "councilTax": "https://www.wigan.gov.uk/Resident/Council-Tax/Pay-your-Council-Tax/Pay-your-Council-Tax.aspx",
+        "bins": "https://apps.wigan.gov.uk/MyNeighbourhood/"
+      },
+      "notes": {},
+      "sha256": "0f07a02c7fc3e0c4d1ee1528ecd3620ffe676ff8ef1d62440a59e997255a8660",
+      "since": "2026-09-28"
+    },
+    "E08000011": {
+      "links": {
+        "councilTax": "https://www.knowsley.gov.uk/council-tax",
+        "bins": "http://www.knowsley.gov.uk/residents/housing.aspx"
+      },
+      "notes": {},
+      "sha256": "0c7086b142379d8ad0e1ec67b987f0c97048dc063b581b71dd1237777aedfbef",
+      "since": "2026-09-28"
+    },
+    "E08000012": {
+      "links": {
+        "councilTax": "https://www.liverpool.gov.uk/council-tax/how-to-pay/",
+        "bins": "http://liverpool.gov.uk/bins-and-recycling/bin-collection-dates/"
+      },
+      "notes": {},
+      "sha256": "612c3566af13cb1de65142a37f8b363a533506ec4ac823ec6c6bc6c5f3725fb6",
+      "since": "2026-09-28"
+    },
+    "E08000013": {
+      "links": {
+        "councilTax": "https://www.sthelens.gov.uk/article/3460/Pay-your-Council-Tax"
+      },
+      "notes": {
+        "bins": "Not published: HTTP 404"
+      },
+      "sha256": "758c2f0d58b1951c56d747e5e2fcc2c50fa474f4f795e8e5f7d9f445a9f5f0fd",
+      "since": "2026-09-28"
+    },
+    "E08000014": {
+      "links": {
+        "councilTax": "https://www.sefton.gov.uk/council-tax/council-tax/i-want-to-pay-my-bill/"
+      },
+      "notes": {
+        "bins": "Not published: HTTP 404"
+      },
+      "sha256": "5c2468b45ca1a133b40f56c55cca575b938719b9fb1c13ed4713531d0d6da3b0",
+      "since": "2026-09-28"
+    },
+    "E08000015": {
+      "links": {
+        "councilTax": "https://www.wirral.gov.uk/council-tax/pay-council-tax",
+        "bins": "https://www.wirral.gov.uk/bins-and-recycling/bin-collection-dates"
+      },
+      "notes": {},
+      "sha256": "f9270fcc7fd8e9ed37b95a673510ee0610d46c0fbd14b97581e7c0e021852aef",
+      "since": "2026-09-28"
+    },
+    "E08000017": {
+      "links": {
+        "councilTax": "https://www.doncaster.gov.uk/services/council-tax-benefits/how-to-pay",
+        "bins": "http://www.doncaster.gov.uk/services/bins-recycling-waste"
+      },
+      "notes": {},
+      "sha256": "04b8dc9524400ece75059448615008d84fd5271a86be19870598cf2761a1971c",
+      "since": "2026-09-28"
+    },
+    "E08000018": {
+      "links": {
+        "councilTax": "https://www.rotherham.gov.uk/council-tax/pay-council-tax"
+      },
+      "notes": {
+        "bins": "Not published: HTTP 404"
+      },
+      "sha256": "851c966bf8b7b40627faeea5b9b38d5a9f1f46e4c0e837cf721425e9402d3726",
+      "since": "2026-09-28"
+    },
+    "E08000021": {
+      "links": {
+        "councilTax": "https://new.newcastle.gov.uk/council-tax/ways-pay-your-council-tax-bill"
+      },
+      "notes": {
+        "bins": "Not published: fetch failed"
+      },
+      "sha256": "a4af63c9abdc056ef3e3551c97582f2a17ffce7399130c2af49202ed44b93373",
+      "since": "2026-09-28"
+    },
+    "E08000022": {
+      "links": {},
+      "notes": {
+        "councilTax": "Not published: redirects to the home page",
+        "bins": "Not published: redirects to the home page"
+      },
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "since": null
+    },
+    "E08000023": {
+      "links": {},
+      "notes": {
+        "councilTax": "Not published: HTTP 403",
+        "bins": "Not published: HTTP 403"
+      },
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "since": null
+    },
+    "E08000024": {
+      "links": {},
+      "notes": {
+        "councilTax": "Not published: HTTP 403",
+        "bins": "Not published: HTTP 403"
+      },
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "since": null
+    },
+    "E08000025": {
+      "links": {
+        "councilTax": "https://www.birmingham.gov.uk/info/20005/council_tax/223/pay_your_council_tax",
+        "bins": "https://www.birmingham.gov.uk/info/20009/rubbish_and_recycling"
+      },
+      "notes": {},
+      "sha256": "74a72a6853db1a4ec97349453a277474c90660d84c620598ef5f01e43da62323",
+      "since": "2026-09-28"
+    },
+    "E08000026": {
+      "links": {
+        "councilTax": "https://www.coventry.gov.uk/paycounciltax",
+        "bins": "https://www.coventry.gov.uk/rubbish-recycling/household-bins"
+      },
+      "notes": {},
+      "sha256": "b75fd89ea09d4ee343e6eeaa670e81c2a80a1f56201c895c5ac16f5fee63872b",
+      "since": "2026-09-28"
+    },
+    "E08000027": {
+      "links": {
+        "councilTax": "https://www.dudley.gov.uk/residents/council-tax/council-tax-ways-to-pay/",
+        "bins": "http://www.dudley.gov.uk/resident/bins-recycling/"
+      },
+      "notes": {},
+      "sha256": "5d74593e118370018cd6ce54e6099983785cf1251f060eb92aed1f3e5578bd3e",
+      "since": "2026-09-28"
+    },
+    "E08000028": {
+      "links": {
+        "councilTax": "https://www.sandwell.gov.uk/paycounciltax"
+      },
+      "notes": {
+        "bins": "Not published: HTTP 404"
+      },
+      "sha256": "fd3baf15832c64a48eea88e441e4c4c24ba2d088264dbad29e7b1583d10aa733",
+      "since": "2026-09-28"
+    },
+    "E08000029": {
+      "links": {
+        "councilTax": "https://www.solihull.gov.uk/Council-tax-and-benefits/how-to-pay-your-council-tax",
+        "bins": "https://www.solihull.gov.uk/Rubbish-and-recycling/Recycling-collections"
+      },
+      "notes": {},
+      "sha256": "aa2d6b7b668d1ce9c5c566e9577f1a4dcf14a1479b3bb5cbf8f6b680bc86a6d8",
+      "since": "2026-09-28"
+    },
+    "E08000030": {
+      "links": {
+        "councilTax": "https://go.walsall.gov.uk/ctax/pay_your_council_tax",
+        "bins": "https://go.walsall.gov.uk/bins/check_your_bin_collection_dates"
+      },
+      "notes": {},
+      "sha256": "6dafae1cab8bbe31ac3c8bc0d5dc39b94d143def73e4a3c7e561117881b6e7b8",
+      "since": "2026-09-28"
+    },
+    "E08000031": {
+      "links": {
+        "councilTax": "https://www.wolverhampton.gov.uk/council-tax/pay-your-council-tax",
+        "bins": "http://www.wolverhampton.gov.uk/bincollections"
+      },
+      "notes": {},
+      "sha256": "2dd389bb344b00f599058b485b9114e1016fa22a80df1d82945934e37fe28df8",
+      "since": "2026-09-28"
+    },
+    "E08000032": {
+      "links": {
+        "councilTax": "https://www.bradford.gov.uk/council-tax/payments-arrangements-and-balances/pay-your-council-tax-bill/"
+      },
+      "notes": {
+        "bins": "Not published: fetch failed"
+      },
+      "sha256": "07a4af97c6931e2f59a6c988f1a63a0ed0e9b6e2ffc96f2b6f3e728513922104",
+      "since": "2026-09-28"
+    },
+    "E08000033": {
+      "links": {
+        "councilTax": "https://new.calderdale.gov.uk/council-tax",
+        "bins": "https://www.calderdale.gov.uk/environment/waste/household-collections/collectiondayfinder.jsp"
+      },
+      "notes": {},
+      "sha256": "ca0263c6f02b51ff4655eb7e900fe3bf3f0298bdf579f7b304738a09184dd8db",
+      "since": "2026-09-28"
+    },
+    "E08000034": {
+      "links": {
+        "councilTax": "http://www.kirklees.gov.uk/beta/council-tax/pay-your-council-tax.aspx",
+        "bins": "http://www.kirklees.gov.uk/beta/your-property-bins-and-recycling.aspx"
+      },
+      "notes": {},
+      "sha256": "c8635ed0b63a9a5ca43eeea87afee00c2b738e9970794b564c2118746bec636d",
+      "since": "2026-09-28"
+    },
+    "E08000035": {
+      "links": {
+        "councilTax": "https://www.leeds.gov.uk/council-tax/how-to-pay-your-council-tax"
+      },
+      "notes": {
+        "bins": "Not published: HTTP 404"
+      },
+      "sha256": "41e31b337049104e744994b31456c4bb808d3e1973d6e70f103e52ed299e7214",
+      "since": "2026-09-28"
+    },
+    "E08000036": {
+      "links": {
+        "councilTax": "https://www.wakefield.gov.uk/council-tax/how-to-pay-your-council-tax",
+        "bins": "http://www.wakefield.gov.uk/site/where-i-live"
+      },
+      "notes": {},
+      "sha256": "f114db01ec405bfade79f611a9e88784633f8b4b1dcd88749eaa8267c32ddfab",
+      "since": "2026-09-28"
+    },
+    "E08000037": {
+      "links": {},
+      "notes": {
+        "councilTax": "Not published: HTTP 403",
+        "bins": "Not published: HTTP 403"
+      },
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "since": null
+    },
+    "E08000038": {
+      "links": {
+        "councilTax": "https://www.barnsley.gov.uk/services/council-tax/how-to-pay-your-council-tax/",
+        "bins": "https://www.barnsley.gov.uk/pid524"
+      },
+      "notes": {
+        "councilTax": "Listed under the previous code E08000016",
+        "bins": "Listed under the previous code E08000016"
+      },
+      "sha256": "6745d054fcb0a2df7b0a557e6855f81c889768b5aa8526d9ae41a2bfa917be0f",
+      "since": "2026-09-28"
+    },
+    "E08000039": {
+      "links": {
+        "councilTax": "https://www.sheffield.gov.uk/council-tax/pay-council-tax"
+      },
+      "notes": {
+        "councilTax": "Listed under the previous code E08000019",
+        "bins": "Not published: redirects to the home page"
+      },
+      "sha256": "0da47901b9e3f018bc47f701da7deca6a8a1d951565e815f202b472f7b485707",
+      "since": "2026-09-28"
+    },
+    "E09000001": {
+      "links": {
+        "councilTax": "https://www.cityoflondon.gov.uk/services/council-tax/view-and-pay-council-tax-online"
+      },
+      "notes": {
+        "bins": "Not published: HTTP 404"
+      },
+      "sha256": "a8f40a8059892e2a7bec420d5729c38590c9c770bf9f51027b135cc79f9027c2",
+      "since": "2026-09-28"
+    },
+    "E09000002": {
+      "links": {
+        "councilTax": "https://www.lbbd.gov.uk/council-tax",
+        "bins": "https://www.lbbd.gov.uk/bin-collection-days"
+      },
+      "notes": {},
+      "sha256": "8f16d4bcb583c4a3b357fc2cbea4b352d42b28174b73c06b8733f2dd37c7b4c0",
+      "since": "2026-09-28"
+    },
+    "E09000003": {
+      "links": {
+        "councilTax": "https://www.barnet.gov.uk/council-tax/pay-council-tax",
+        "bins": "http://www.barnet.gov.uk/household-waste"
+      },
+      "notes": {},
+      "sha256": "30d6219dffd3836783221eecaaf04dd9d9ec544335aaec6e897030bafe162b7b",
+      "since": "2026-09-28"
+    },
+    "E09000004": {
+      "links": {
+        "councilTax": "https://www.bexley.gov.uk/services/council-tax/pay-your-council-tax/ways-pay-your-council-tax",
+        "bins": "https://www.bexley.gov.uk/services/rubbish-and-recycling"
+      },
+      "notes": {},
+      "sha256": "2f6672d166b158c48c10b6521ee7f7f82e30b4a7e8c546d53944c4e91a0ba858",
+      "since": "2026-09-28"
+    },
+    "E09000005": {
+      "links": {
+        "councilTax": "https://www.brent.gov.uk/council-tax/pay-your-council-tax",
+        "bins": "https://www.brent.gov.uk/recycling"
+      },
+      "notes": {},
+      "sha256": "60193ee361c547dc857167bcc02342083cccc012da6023f4699a45beaf587ca4",
+      "since": "2026-09-28"
+    },
+    "E09000006": {
+      "links": {
+        "councilTax": "https://www.bromley.gov.uk/council-tax/paying-council-tax"
+      },
+      "notes": {
+        "bins": "Not published: HTTP 404"
+      },
+      "sha256": "b2a45360f10f68635810e2322edad3fc527a854ecbba791e5792292ab78323ba",
+      "since": "2026-09-28"
+    },
+    "E09000007": {
+      "links": {},
+      "notes": {
+        "councilTax": "Not published: HTTP 403",
+        "bins": "Not published: HTTP 403"
+      },
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "since": null
+    },
+    "E09000008": {
+      "links": {
+        "councilTax": "https://www.croydon.gov.uk/council-tax/paying-your-council-tax/ways-pay-your-council-tax",
+        "bins": "http://www.croydon.gov.uk/environment/rrandw/"
+      },
+      "notes": {},
+      "sha256": "c7d5835890008ac89e4388443d959b12689782b892ab8192160ace789c2a17b2",
+      "since": "2026-09-28"
+    },
+    "E09000009": {
+      "links": {
+        "councilTax": "https://www.ealing.gov.uk/info/201097/council_tax/2018/pay_your_council_tax",
+        "bins": "https://www.ealing.gov.uk/info/201167/rubbish_and_recycling/2015/find_your_rubbish_and_recycling_collection_day"
+      },
+      "notes": {},
+      "sha256": "86278658460269dff91243ef88a89722bcd29b34b32d57cc63f1a39f6d6f2c39",
+      "since": "2026-09-28"
+    },
+    "E09000010": {
+      "links": {},
+      "notes": {
+        "councilTax": "Not published: HTTP 403",
+        "bins": "Not published: HTTP 403"
+      },
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "since": null
+    },
+    "E09000011": {
+      "links": {
+        "councilTax": "https://www.royalgreenwich.gov.uk/council-tax/pay-council-tax/how-pay-your-council-tax",
+        "bins": "https://www.royalgreenwich.gov.uk/info/200171/recycling_and_rubbish/100/bin_collection_days"
+      },
+      "notes": {},
+      "sha256": "560821062cbae80b20eb807fc36665f6f8bd9c866354c38b5cc4375c892f004c",
+      "since": "2026-09-28"
+    },
+    "E09000012": {
+      "links": {
+        "councilTax": "https://hackney.gov.uk/paying-your-council-tax",
+        "bins": "https://hackney.gov.uk/rubbish"
+      },
+      "notes": {},
+      "sha256": "2aeac7cfc28d656413ee233443f11688b89e3dd6bbab9b66c29d0633ef47cbb2",
+      "since": "2026-09-28"
+    },
+    "E09000013": {
+      "links": {},
+      "notes": {
+        "councilTax": "Not published: HTTP 404",
+        "bins": "Not published: HTTP 404"
+      },
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "since": null
+    },
+    "E09000014": {
+      "links": {
+        "councilTax": "https://www.haringey.gov.uk/council-tax/council-tax-payments-refunds/how-to-pay-your-council-tax",
+        "bins": "https://www.haringey.gov.uk/environment-and-waste/refuse-and-recycling/bin-collections/collection-days"
+      },
+      "notes": {},
+      "sha256": "ca98898a0357f081acf5c6fc0202f10ff8307a0be4a39237dfeb4e6ebc4f16dc",
+      "since": "2026-09-28"
+    },
+    "E09000015": {
+      "links": {
+        "councilTax": "https://www.harrow.gov.uk/council-tax/paying-council-tax",
+        "bins": "https://www.harrow.gov.uk/bins"
+      },
+      "notes": {},
+      "sha256": "fac2686e013b9c053f6f4fa675a4cb5d4a943cbc0d232e112140a0611ca4e88d",
+      "since": "2026-09-28"
+    },
+    "E09000016": {
+      "links": {
+        "councilTax": "https://www.havering.gov.uk/counciltax",
+        "bins": "https://www.havering.gov.uk/info/20003/rubbish_and_recycling"
+      },
+      "notes": {},
+      "sha256": "3e8360051cfbab99362d48b0ababae21681e8963973529abc728ba890cfe554c",
+      "since": "2026-09-28"
+    },
+    "E09000017": {
+      "links": {
+        "councilTax": "https://www.hillingdon.gov.uk/article/2374/Pay-your-council-tax",
+        "bins": "https://www.hillingdon.gov.uk/rubbishandrecycling"
+      },
+      "notes": {},
+      "sha256": "b65d84285cc160ca0a005b14f636eae2c3d771d754e73a35f86c0737f6a09acc",
+      "since": "2026-09-28"
+    },
+    "E09000018": {
+      "links": {
+        "councilTax": "https://www.hounslow.gov.uk/council-tax",
+        "bins": "https://www.hounslow.gov.uk/collections"
+      },
+      "notes": {},
+      "sha256": "0060997d1bd011a5bfcc3ce1ec5ff0a2a1d71a43f2e445bb89935f6d89259cae",
+      "since": "2026-09-28"
+    },
+    "E09000019": {
+      "links": {
+        "councilTax": "https://www.islington.gov.uk/council-tax",
+        "bins": "https://www.islington.gov.uk/recycling-and-rubbish/recycling-and-rubbish-collections/recycling-and-rubbish-collection-times"
+      },
+      "notes": {},
+      "sha256": "4e7c50d1d8701b65e7891a8cdf8d9b53efcd85afde9e9d74fec996515a7ad866",
+      "since": "2026-09-28"
+    },
+    "E09000020": {
+      "links": {
+        "councilTax": "https://www.rbkc.gov.uk/council-tax/ways-pay-your-council-tax/ways-pay-your-council-tax",
+        "bins": "https://www.rbkc.gov.uk/bins-and-recycling"
+      },
+      "notes": {},
+      "sha256": "411dfc322108bf05638492149dca9300b3faa6e5fc277db1f227f9a2702f8562",
+      "since": "2026-09-28"
+    },
+    "E09000021": {
+      "links": {
+        "councilTax": "https://www.kingston.gov.uk/council-tax/pay-council-tax/1"
+      },
+      "notes": {
+        "bins": "Not published: HTTP 404"
+      },
+      "sha256": "5df7c0bc6431f5ed9d17cd892aa31923631af339e57dd7cb814b39ee0ec944d9",
+      "since": "2026-09-28"
+    },
+    "E09000022": {
+      "links": {
+        "councilTax": "https://www.lambeth.gov.uk/council-tax/pay-council-tax",
+        "bins": "https://www.lambeth.gov.uk/rubbish-recycling"
+      },
+      "notes": {},
+      "sha256": "b1d6e822038d9d89d869269b93569fd35dc3c0c355619e8b13f61c46c288e80e",
+      "since": "2026-09-28"
+    },
+    "E09000023": {
+      "links": {
+        "councilTax": "https://lewisham.gov.uk/myservices/counciltax/pay",
+        "bins": "http://www.lewisham.gov.uk/myservices/wasterecycle/your-bins/collection/Pages/default.aspx"
+      },
+      "notes": {},
+      "sha256": "a415684cb52f0cd6aa4c844004210164e33e4a0298dcedc35c438a2224ad476c",
+      "since": "2026-09-28"
+    },
+    "E09000024": {
+      "links": {
+        "councilTax": "https://www.merton.gov.uk/council-tax-benefits-and-housing/council-tax",
+        "bins": "http://www.merton.gov.uk/refusecollection"
+      },
+      "notes": {},
+      "sha256": "e07e6ea945831975a8bcd2153a9af6e565edcb04acc706322c8a79c2cb3c4428",
+      "since": "2026-09-28"
+    },
+    "E09000025": {
+      "links": {
+        "councilTax": "https://www.newham.gov.uk/council-tax",
+        "bins": "https://www.newham.gov.uk/Pages/Services/Recycling-household-collections.aspx"
+      },
+      "notes": {},
+      "sha256": "c87869707ab87f0245ba8d02519bbd696cf1c3e91d2cf750430c369e94c62b73",
+      "since": "2026-09-28"
+    },
+    "E09000026": {
+      "links": {
+        "councilTax": "https://www.redbridge.gov.uk/council-tax/pay-your-council-tax/",
+        "bins": "https://www.redbridge.gov.uk/bins-waste-and-recycling/"
+      },
+      "notes": {},
+      "sha256": "397f01f5d245fe8090f1f111f660210470e179bd81452fcc09f402e97670e1e8",
+      "since": "2026-09-28"
+    },
+    "E09000027": {
+      "links": {
+        "councilTax": "https://www.richmond.gov.uk/paying_your_council_tax",
+        "bins": "https://www.richmond.gov.uk/waste_and_recycling"
+      },
+      "notes": {},
+      "sha256": "d315edfd00938292be6c27302f84efecc78c816ad76ca30c707673ea6dad1a34",
+      "since": "2026-09-28"
+    },
+    "E09000028": {
+      "links": {
+        "councilTax": "https://www.southwark.gov.uk/council-tax/paying-council-tax/choose-how-pay",
+        "bins": "http://www.southwark.gov.uk/bins/lookup"
+      },
+      "notes": {},
+      "sha256": "d144bda9c6c39a4ac4f14dff82a9452428bfba9463eb5f092cf664c445503741",
+      "since": "2026-09-28"
+    },
+    "E09000029": {
+      "links": {
+        "councilTax": "https://www.sutton.gov.uk/w/pay-council-tax",
+        "bins": "https://www.sutton.gov.uk/info/200449/waste_and_recycling/1578/when_are_my_bins_collected"
+      },
+      "notes": {},
+      "sha256": "d2b2ab0ce40225cbcaec050c57d3560442db7f16e9a0d4424d9ca264fa99bd03",
+      "since": "2026-09-28"
+    },
+    "E09000030": {
+      "links": {
+        "councilTax": "https://www.towerhamlets.gov.uk/lgnl/council_and_democracy/council_tax/Your_Council_Tax.aspx",
+        "bins": "http://www.towerhamlets.gov.uk/lgnl/environment_and_planning/recycling_and_waste/recycling_and_waste.aspx"
+      },
+      "notes": {},
+      "sha256": "e1917faafffb20373968ca0b67418d0a81e1c9c0139720ebfd410d283209072d",
+      "since": "2026-09-28"
+    },
+    "E09000031": {
+      "links": {
+        "councilTax": "https://www.walthamforest.gov.uk/council-tax/pay-your-council-tax",
+        "bins": "https://www.walthamforest.gov.uk/rubbish-and-recycling/household-bin-collections/check-your-collection-days"
+      },
+      "notes": {},
+      "sha256": "86cdca93b2ce548db0ae043255ba9dfa4ec54db73f75ff92e325ad5a67b5b05f",
+      "since": "2026-09-28"
+    },
+    "E09000032": {
+      "links": {
+        "councilTax": "https://www.wandsworth.gov.uk/council-tax/ways-to-pay-council-tax/",
+        "bins": "http://www.wandsworth.gov.uk/info/200489/rubbish_and_recycling"
+      },
+      "notes": {},
+      "sha256": "9494fea407fcbd94ef6d34032c43a17a939cc56914335a68c8a161887a60bd5e",
+      "since": "2026-09-28"
+    },
+    "E09000033": {
+      "links": {
+        "councilTax": "https://www.westminster.gov.uk/council-tax/how-pay-your-council-tax",
+        "bins": "http://cleanstreets.westminster.gov.uk/"
+      },
+      "notes": {},
+      "sha256": "e6fb307a6253c9e2293e102a52ec32a9bd0205f29528dfc1acd284857b6f4e74",
+      "since": "2026-09-28"
+    },
+    "N09000001": {
+      "links": {
+        "bins": "http://www.antrimandnewtownabbey.gov.uk/Residents/Waste-Recycling/Antrim-Bin-Checker"
+      },
+      "notes": {},
+      "sha256": "7935cd8cf7a0d93b0787f45fce6e44dbf99ecfa6a53f7d2955c5776415bc82f9",
+      "since": "2026-09-28"
+    },
+    "N09000002": {
+      "links": {
+        "bins": "https://www.armaghbanbridgecraigavon.gov.uk/resident/when-is-my-bin-day/"
+      },
+      "notes": {},
+      "sha256": "7cef436f7ceb65e8f0ee8493a5acaa65ca8749ad71aab608bdd66e9f6974ed30",
+      "since": "2026-09-28"
+    },
+    "N09000003": {
+      "links": {},
+      "notes": {
+        "bins": "Not published: HTTP 404"
+      },
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "since": null
+    },
+    "N09000004": {
+      "links": {},
+      "notes": {
+        "bins": "Not published: HTTP 404"
+      },
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "since": null
+    },
+    "N09000005": {
+      "links": {
+        "bins": "https://www.derrystrabane.com/recycling"
+      },
+      "notes": {},
+      "sha256": "790b37277b793c6a1aebd6e1065a3d7561fcfeb782791928dc0865fdbc877b89",
+      "since": "2026-09-28"
+    },
+    "N09000006": {
+      "links": {},
+      "notes": {
+        "bins": "Not published: HTTP 404"
+      },
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "since": null
+    },
+    "N09000007": {
+      "links": {
+        "bins": "https://www.lisburncastlereagh.gov.uk/resident/bins-recycling/when-is-my-bin-collection-day"
+      },
+      "notes": {},
+      "sha256": "50093f016b4406fc846643dc9950248eec15228192e1fb325a57f4fa003e01a0",
+      "since": "2026-09-28"
+    },
+    "N09000008": {
+      "links": {
+        "bins": "https://www.midandeastantrim.gov.uk/resident/waste-recycling/collection-dates"
+      },
+      "notes": {},
+      "sha256": "99e597deb7b383ce82f9ff42a6e2feb62ca0c945f3ba8373b9d0d7b922af542c",
+      "since": "2026-09-28"
+    },
+    "N09000009": {
+      "links": {
+        "bins": "http://www.midulstercouncil.org/Services/Bins-Recycling"
+      },
+      "notes": {},
+      "sha256": "c2b7f841adacaeeb5a2d56f5ad8cb674129e9829ec0f732eb58dbdcff8029086",
+      "since": "2026-09-28"
+    },
+    "N09000010": {
+      "links": {
+        "bins": "http://www.newrymournedown.org/bin-collection-information-and-calendar"
+      },
+      "notes": {},
+      "sha256": "f042acfd88249178a27345c66814ae8d8de23804a861ad11b176762ce160369c",
+      "since": "2026-09-28"
+    },
+    "N09000011": {
+      "links": {
+        "bins": "http://www.ardsandnorthdown.gov.uk/resident/bins-and-recycling/bin-collection-dates"
+      },
+      "notes": {},
+      "sha256": "0ddc11a5cd13ed5459c9ba847efd47c769f81e764ac170615cced4e0e2a5e90c",
+      "since": "2026-09-28"
+    },
+    "S12000005": {
+      "links": {
+        "councilTax": "https://www.clacks.gov.uk/council/counciltaxpayment/",
+        "bins": "http://www.clacks.gov.uk/environment/wastecollection/"
+      },
+      "notes": {},
+      "sha256": "9f24be49a1c482046e6d8ab29e27afc52af14d97dc6aeb45fb0fa80984f5f643",
+      "since": "2026-09-28"
+    },
+    "S12000006": {
+      "links": {
+        "councilTax": "https://www.dumfriesandgalloway.gov.uk/council-tax/pay-council-tax",
+        "bins": "https://www.dumgal.gov.uk/article/21418/Kerbside-Waste-and-Recycling-Service"
+      },
+      "notes": {},
+      "sha256": "d697fa73111146ae7038d1b2ac9aa38a72df414490f09f72039df7d1aa406509",
+      "since": "2026-09-28"
+    },
+    "S12000008": {
+      "links": {
+        "councilTax": "https://www.east-ayrshire.gov.uk/CouncilAndGovernment/CouncilTax/ways-to-pay.aspx",
+        "bins": "https://www.east-ayrshire.gov.uk/Housing/RubbishAndRecycling/Rubbishandrecycling.aspx"
+      },
+      "notes": {},
+      "sha256": "330c5ce80babeace6583ed035789e095a849c6a0e11f235470bcd68ee2d9859a",
+      "since": "2026-09-28"
+    },
+    "S12000010": {
+      "links": {
+        "councilTax": "https://www.eastlothian.gov.uk/info/210559/council_tax_and_benefits/12129/pay_council_tax",
+        "bins": "http://collectiondates.eastlothian.gov.uk/home.asp"
+      },
+      "notes": {},
+      "sha256": "5ec447d3c8cc11d2b7e5a6b664e3461376d8e06b92b468aa48350366bf4dbac2",
+      "since": "2026-09-28"
+    },
+    "S12000011": {
+      "links": {},
+      "notes": {
+        "councilTax": "Not published: HTTP 403",
+        "bins": "Not published: HTTP 403"
+      },
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "since": null
+    },
+    "S12000013": {
+      "links": {
+        "councilTax": "https://www.cne-siar.gov.uk/council-tax-benefits-and-grants/council-tax/council-tax-payment"
+      },
+      "notes": {
+        "bins": "Not published: HTTP 404"
+      },
+      "sha256": "55cba2cbbb10be0956d233f190d421a72877eedea452f559c3c68b746f90b907",
+      "since": "2026-09-28"
+    },
+    "S12000014": {
+      "links": {
+        "councilTax": "https://www.falkirk.gov.uk/council-tax/how-to-pay-your-council-tax"
+      },
+      "notes": {
+        "bins": "Not published: redirects to the home page"
+      },
+      "sha256": "bc35d07a8ef2c644a644067f50ad6c4fa0bdefc4f20efd3fdc24591d7de4afeb",
+      "since": "2026-09-28"
+    },
+    "S12000017": {
+      "links": {
+        "councilTax": "https://www.highland.gov.uk/council-tax/pay-council-tax/2"
+      },
+      "notes": {
+        "bins": "Not published: HTTP 404"
+      },
+      "sha256": "7d1b621ba14eaca5d891182ac5ada5d11f09740c627c4d1b3a578401e2c582d4",
+      "since": "2026-09-28"
+    },
+    "S12000018": {
+      "links": {
+        "councilTax": "https://www.inverclyde.gov.uk/council-and-government/council-tax/about-paying-council-tax",
+        "bins": "https://www.inverclyde.gov.uk/environment/recycling-and-waste-services/when-are-my-bins-collected"
+      },
+      "notes": {},
+      "sha256": "da17e207d3898fd27d15b16e4e16bacc872bdc7c0e6ccdebdfc94d3d96610398",
+      "since": "2026-09-28"
+    },
+    "S12000019": {
+      "links": {
+        "councilTax": "https://www.midlothian.gov.uk/info/606/council_tax/105/pay_council_tax",
+        "bins": "https://www.midlothian.gov.uk/info/1054/bins_and_recycling/343/bin_collections"
+      },
+      "notes": {},
+      "sha256": "465ac5b4e20c93aba312b2be4dd037ab2d2e02d25a5221ed5b37a174a60828b3",
+      "since": "2026-09-28"
+    },
+    "S12000020": {
+      "links": {
+        "councilTax": "http://www.moray.gov.uk/moray_standard/page_95180.html"
+      },
+      "notes": {
+        "bins": "Not published: HTTP 403"
+      },
+      "sha256": "8f48c731456e88ee0a899943578ce1923953a15839fe7c5c0baf2f9a7acfad6d",
+      "since": "2026-09-28"
+    },
+    "S12000021": {
+      "links": {
+        "councilTax": "https://www.north-ayrshire.gov.uk/council-tax/pay-council-tax"
+      },
+      "notes": {
+        "bins": "Not published: HTTP 404"
+      },
+      "sha256": "7c27a182aadd51f35de899050bcdbb122df7ce18d6e0db5055eee29fe5de8d4f",
+      "since": "2026-09-28"
+    },
+    "S12000023": {
+      "links": {},
+      "notes": {
+        "councilTax": "Not published: HTTP 404",
+        "bins": "Not published: HTTP 404"
+      },
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "since": null
+    },
+    "S12000026": {
+      "links": {
+        "councilTax": "https://www.scotborders.gov.uk/payments",
+        "bins": "https://www.scotborders.gov.uk/info/20001/bins_rubbish_and_recycling/182/bin_collection_days"
+      },
+      "notes": {},
+      "sha256": "ab14a2279333e3c9e8a7804e27da616e70d6e06cd5e3881465e889de67dee800",
+      "since": "2026-09-28"
+    },
+    "S12000027": {
+      "links": {
+        "councilTax": "https://www.shetland.gov.uk/council-tax/pay-council-tax-1",
+        "bins": "http://www.shetland.gov.uk/rubbish-recycling/rubbish-collection.asp"
+      },
+      "notes": {},
+      "sha256": "ce53667187848d737cb14f819eb8e505ac2397a7256aa079368d28428849b64c",
+      "since": "2026-09-28"
+    },
+    "S12000028": {
+      "links": {},
+      "notes": {
+        "councilTax": "Not published: HTTP 403",
+        "bins": "Not published: HTTP 403"
+      },
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "since": null
+    },
+    "S12000029": {
+      "links": {
+        "councilTax": "https://www.southlanarkshire.gov.uk/info/200180/how_to_pay/1651/how_to_pay_council_tax",
+        "bins": "http://www.southlanarkshire.gov.uk/info/200156/bins_and_recycling/1670/bin_collections"
+      },
+      "notes": {},
+      "sha256": "1eb99f0d71189cde1cdc65f145dc86e4412d0796d2afd819d2c648cce1ef53a5",
+      "since": "2026-09-28"
+    },
+    "S12000030": {
+      "links": {},
+      "notes": {
+        "councilTax": "Not published: HTTP 403",
+        "bins": "Not published: HTTP 403"
+      },
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "since": null
+    },
+    "S12000033": {
+      "links": {
+        "councilTax": "https://www.aberdeencity.gov.uk/services/council-tax/pay-council-tax"
+      },
+      "notes": {
+        "bins": "Not published: redirects to the home page"
+      },
+      "sha256": "3e107b1971534ef78cc6472b8c2c24538f4164ac18f031a886163e1950e84a34",
+      "since": "2026-09-28"
+    },
+    "S12000034": {
+      "links": {
+        "councilTax": "https://www.aberdeenshire.gov.uk/council-tax/ways-to-pay/",
+        "bins": "https://online.aberdeenshire.gov.uk/Apps/Waste-Collections/"
+      },
+      "notes": {},
+      "sha256": "813d1a2eefd40a19111539c311b58f4f12e6f9526f7b6e2d0030c1f00e6e0a30",
+      "since": "2026-09-28"
+    },
+    "S12000035": {
+      "links": {
+        "councilTax": "https://www.argyll-bute.gov.uk/council-tax-and-benefits/council-tax/council-tax-making-payments",
+        "bins": "https://www.argyll-bute.gov.uk/planning-and-environment/bin-collection"
+      },
+      "notes": {},
+      "sha256": "ce148927248e0b0d6a326df69ca8a373103e567f4e149eb4d983b8b2f327783d",
+      "since": "2026-09-28"
+    },
+    "S12000036": {
+      "links": {
+        "councilTax": "https://www.edinburgh.gov.uk/council-tax/pay-council-tax/1",
+        "bins": "http://www.edinburgh.gov.uk/recycling"
+      },
+      "notes": {},
+      "sha256": "fd3b890286ccc481c3e0ce812c953630d6c75ff5a09be3f56dbf5f97e80488f7",
+      "since": "2026-09-28"
+    },
+    "S12000038": {
+      "links": {
+        "councilTax": "https://www.renfrewshire.gov.uk/article/14065/Council-tax-payments",
+        "bins": "http://www.renfrewshire.gov.uk/checkyourbincollectionday"
+      },
+      "notes": {},
+      "sha256": "adbcdf325a1960b52ed126d9d5a733044f300140c6f15244e6d224efd5db5d13",
+      "since": "2026-09-28"
+    },
+    "S12000039": {
+      "links": {
+        "councilTax": "https://www.west-dunbarton.gov.uk/council-tax/council-tax-payment-options/"
+      },
+      "notes": {
+        "bins": "Not published: HTTP 404"
+      },
+      "sha256": "b900ec5ee82a64ce9986aeaf673d1413e395e0354330cf735329be562082bd8f",
+      "since": "2026-09-28"
+    },
+    "S12000040": {
+      "links": {
+        "councilTax": "https://www.westlothian.gov.uk/article/42785/Ways-You-Can-Pay-Council-Tax",
+        "bins": "https://www.westlothian.gov.uk/bins"
+      },
+      "notes": {},
+      "sha256": "14b7181c55bbe7b1518d704ce441d1ff159bdc17e61b9975dd8a0c729f87efe8",
+      "since": "2026-09-28"
+    },
+    "S12000041": {
+      "links": {
+        "councilTax": "https://www.angus.gov.uk/council_tax/pay_your_council_tax",
+        "bins": "https://www.angus.gov.uk/bins_and_recycling/bin_collection_days"
+      },
+      "notes": {},
+      "sha256": "d580d0460465fd491b35466f4eb5ea620dbb9dc29616e70210e6aa142dec4e70",
+      "since": "2026-09-28"
+    },
+    "S12000042": {
+      "links": {
+        "councilTax": "https://www.dundeecity.gov.uk/service-area/corporate-services/digital-and-customer-services/council-tax",
+        "bins": "https://my.dundeecity.gov.uk/en/service/Bin_Collection_Calendar"
+      },
+      "notes": {},
+      "sha256": "24f4718268376309f031df2c2a2cafeac43fbcfc9ff6c7dc9f6392648596db05",
+      "since": "2026-09-28"
+    },
+    "S12000045": {
+      "links": {
+        "councilTax": "https://www.eastdunbarton.gov.uk/services/a-z-of-services/council-tax/make-a-payment/",
+        "bins": "https://www.eastdunbarton.gov.uk/residents/recycling-waste/bins-and-recycling"
+      },
+      "notes": {},
+      "sha256": "6b3910888377145f1db9415f8d39252a4b744085613de792a68addd383c8488e",
+      "since": "2026-09-28"
+    },
+    "S12000047": {
+      "links": {},
+      "notes": {
+        "councilTax": "Not published: HTTP 403",
+        "bins": "Not published: HTTP 403"
+      },
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "since": null
+    },
+    "S12000048": {
+      "links": {
+        "councilTax": "https://www.pkc.gov.uk/article/15359/Council-tax-payments",
+        "bins": "http://www.pkc.gov.uk/bindates"
+      },
+      "notes": {
+        "councilTax": "Listed under the previous code S12000024",
+        "bins": "Listed under the previous code S12000024"
+      },
+      "sha256": "e3592a601bea64d8bbd3b7307035a1b8200a5864ec20cd9178f46e5ebe0f1296",
+      "since": "2026-09-28"
+    },
+    "S12000049": {
+      "links": {},
+      "notes": {
+        "councilTax": "Not published: HTTP 403",
+        "bins": "Not published: HTTP 403"
+      },
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "since": null
+    },
+    "S12000050": {
+      "links": {
+        "councilTax": "https://www.northlanarkshire.gov.uk/council-tax/pay-your-council-tax",
+        "bins": "http://www.northlanarkshire.gov.uk/index.aspx?articleid=7451"
+      },
+      "notes": {
+        "councilTax": "Listed under the previous code S12000044",
+        "bins": "Listed under the previous code S12000044"
+      },
+      "sha256": "b97259da67995cdc1def2f45f8c84ed7b59327b159c03c10c0ef35f53b48dc86",
+      "since": "2026-09-28"
+    },
+    "W06000001": {
+      "links": {
+        "councilTax": "https://www.anglesey.gov.wales/en/Residents/Council-tax/Pay-your-Council-Tax.aspx",
+        "bins": "https://www.anglesey.gov.uk/en/Residents/Bins-and-recycling/Household-waste-collection-on-Anglesey.aspx"
+      },
+      "notes": {},
+      "sha256": "6ea9c649946ced61bca92a8d1d0b1ae2c624ad6ea0023875b567f452f65c9ba3",
+      "since": "2026-09-28"
+    },
+    "W06000002": {
+      "links": {
+        "councilTax": "https://www.gwynedd.llyw.cymru/en/Residents/Council-tax/How-to-pay.aspx",
+        "bins": "https://www.gwynedd.llyw.cymru/en/Residents/Bins-and-recycling/When-is-my-waste-collected.aspx"
+      },
+      "notes": {},
+      "sha256": "847d8ea33db154d43be833e92ed1565507827363b899e5ea7f918d43b05f2268",
+      "since": "2026-09-28"
+    },
+    "W06000003": {
+      "links": {
+        "councilTax": "http://www.conwy.gov.uk/en/Resident/Council-Tax/Pay-Council-Tax.aspx",
+        "bins": "http://www.conwy.gov.uk/en/Resident/Recycling-and-Waste/Recycling-and-Waste.aspx"
+      },
+      "notes": {},
+      "sha256": "2dfbb2b0bdbe2a731ee18fe7ed89f41b70386a2b0720c74479a1ec0ba53304ae",
+      "since": "2026-09-28"
+    },
+    "W06000004": {
+      "links": {
+        "councilTax": "https://www.denbighshire.gov.uk/en/council-tax/pay-council-tax.aspx",
+        "bins": "https://www.denbighshire.gov.uk/en/bins-and-recycling/bins-recycling.aspx"
+      },
+      "notes": {},
+      "sha256": "70db85e034b0c656e7e513c296be33409d2e6b887977c5648ba8d979c150fda2",
+      "since": "2026-09-28"
+    },
+    "W06000005": {
+      "links": {
+        "councilTax": "https://www.flintshire.gov.uk/en/Resident/Council-Tax-and-Benefits-and-Grants/Council-Tax.aspx",
+        "bins": "http://www.flintshire.gov.uk/en/Resident/Bins-Recycling-and-Waste/Check-your-bin-day.aspx"
+      },
+      "notes": {},
+      "sha256": "b766069907a0f5af7ba888658d7fc1e2cc5808a1eba110ce5f01a4d55820a51d",
+      "since": "2026-09-28"
+    },
+    "W06000006": {
+      "links": {
+        "councilTax": "https://www.wrexham.gov.uk/service/how-pay-your-council-tax",
+        "bins": "https://www.wrexham.gov.uk/services/bins-and-recycling"
+      },
+      "notes": {},
+      "sha256": "f1d34a3e061d51353dd1928ddd152140c724b4961c1325d033f175f066849745",
+      "since": "2026-09-28"
+    },
+    "W06000008": {
+      "links": {
+        "councilTax": "https://www.ceredigion.gov.uk/resident/council-tax/how-to-pay/"
+      },
+      "notes": {
+        "bins": "Not published: HTTP 404"
+      },
+      "sha256": "fb6242795527919f31cdc547ea5a95597755971914ed3cf1f79fa650ba9b583b",
+      "since": "2026-09-28"
+    },
+    "W06000009": {
+      "links": {
+        "councilTax": "https://www.pembrokeshire.gov.uk/council-tax",
+        "bins": "https://www.pembrokeshire.gov.uk/waste-and-recycling"
+      },
+      "notes": {},
+      "sha256": "97c49611a822f3544b4f07f67b0eba78d267c39352b23712f3596fb61a537f26",
+      "since": "2026-09-28"
+    },
+    "W06000010": {
+      "links": {
+        "councilTax": "https://www.carmarthenshire.gov.wales/council-services/council-tax/",
+        "bins": "https://www.carmarthenshire.gov.wales/home/council-services/recycling-bins-and-litter/recycling-bin-collections/#.WwVmKdMvxTY"
+      },
+      "notes": {},
+      "sha256": "33f3e64d68b17976679350e11235068e5e5191e97c10c27a9af5f77522fee636",
+      "since": "2026-09-28"
+    },
+    "W06000011": {
+      "links": {},
+      "notes": {
+        "councilTax": "Not published: HTTP 403",
+        "bins": "Not published: HTTP 403"
+      },
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "since": null
+    },
+    "W06000012": {
+      "links": {
+        "councilTax": "https://www.npt.gov.uk/council-tax/pay-your-council-tax/"
+      },
+      "notes": {
+        "bins": "Not published: HTTP 404"
+      },
+      "sha256": "813790e1169895b42dadc0e13dd0f8a91096576b94734fa148d1c0db989ef6d2",
+      "since": "2026-09-28"
+    },
+    "W06000013": {
+      "links": {
+        "councilTax": "https://www.bridgend.gov.uk/residents/council-tax/pay-your-council-tax/"
+      },
+      "notes": {
+        "bins": "Not published: HTTP 404"
+      },
+      "sha256": "84d67c92bcf292389ab19e3a04d8c8f82dc4d959c62e2ab492895165cb53093c",
+      "since": "2026-09-28"
+    },
+    "W06000014": {
+      "links": {
+        "councilTax": "https://www.valeofglamorgan.gov.uk/en/our_council/council_tax/Council-Tax.aspx",
+        "bins": "https://www.valeofglamorgan.gov.uk/"
+      },
+      "notes": {},
+      "sha256": "58711d1caefea12b0380e20cfd9b6b3629327e9bf8839a229ef1ca9cf8e81c87",
+      "since": "2026-09-28"
+    },
+    "W06000015": {
+      "links": {},
+      "notes": {
+        "councilTax": "Not published: HTTP 403",
+        "bins": "Not published: HTTP 403"
+      },
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "since": null
+    },
+    "W06000016": {
+      "links": {
+        "councilTax": "https://www.rctcbc.gov.uk/EN/Resident/CouncilTax/CouncilTaxPayyourCouncilTax.aspx",
+        "bins": "http://www.rctcbc.gov.uk/EN/Resident/BinsandRecycling/BinCollectionDays.aspx"
+      },
+      "notes": {},
+      "sha256": "bc3d0ed12052d3f4fbad3eee5a4ae9cbcce5088a994e850f2e569d16006f63f3",
+      "since": "2026-09-28"
+    },
+    "W06000018": {
+      "links": {
+        "councilTax": "https://www.caerphilly.gov.uk/services/council-tax/pay-your-bill",
+        "bins": "http://www.caerphilly.gov.uk/site.aspx?s=ZIyINmF1JYMpiIuezYGXDQ=="
+      },
+      "notes": {},
+      "sha256": "38005ec6555b2bfbd1904c2ca32b4d5c1297c21e35eab7701a6fb8f754e97ef0",
+      "since": "2026-09-28"
+    },
+    "W06000019": {
+      "links": {
+        "councilTax": "https://www.blaenau-gwent.gov.uk/resident/council-tax/pay-your-council-tax/",
+        "bins": "https://www.blaenau-gwent.gov.uk/en/resident/waste-recycling/"
+      },
+      "notes": {},
+      "sha256": "5a3b46f09d4d7ea646a4651d73f1565ec44310a9a27216b325d734cd9b58f258",
+      "since": "2026-09-28"
+    },
+    "W06000020": {
+      "links": {
+        "councilTax": "https://www.torfaen.gov.uk/en/CouncilTaxAndBenefits/CouncilTax/Counciltax-generalinformation/Council-Tax.aspx",
+        "bins": "http://www.torfaen.gov.uk/en/RubbishAndRecycling/Householdwaste-rubbishcollections/Bin-Collection-Days.aspx"
+      },
+      "notes": {},
+      "sha256": "74bf8732e816edd8eb4af78532c2ea9d72d46b8d92e21cd52b9219e3df1473f8",
+      "since": "2026-09-28"
+    },
+    "W06000021": {
+      "links": {
+        "councilTax": "https://www.monmouthshire.gov.uk/home/report-pay-or-request/pay-for-it/",
+        "bins": "http://www.monmouthshire.gov.uk/home/streets-parking-and-transport/recycling-and-waste/"
+      },
+      "notes": {},
+      "sha256": "ea2b8d23c7c76b0ed5b85cabab7c55091ed3bc2067b42fd318b7361aaa0b949d",
+      "since": "2026-09-28"
+    },
+    "W06000022": {
+      "links": {},
+      "notes": {
+        "councilTax": "Not published: HTTP 403",
+        "bins": "Not published: HTTP 403"
+      },
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "since": null
+    },
+    "W06000023": {
+      "links": {
+        "councilTax": "https://en.powys.gov.uk/paycounciltax"
+      },
+      "notes": {
+        "bins": "Not published: redirects to the home page"
+      },
+      "sha256": "64eda92fff0965ccf7fa91055234c3a1cde0b4eab2998041acbb89d3674c89d7",
+      "since": "2026-09-28"
+    },
+    "W06000024": {
+      "links": {
+        "councilTax": "https://www.merthyr.gov.uk/resident/council-tax/council-tax-payments/"
+      },
+      "notes": {
+        "bins": "No link in the export"
+      },
+      "sha256": "0f90c971dcea49a99d18c9702d95d07983e39561a49dd173b957744ec391ca14",
+      "since": "2026-09-28"
+    }
+  }
+}

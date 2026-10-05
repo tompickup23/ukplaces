@@ -1,17 +1,21 @@
 ---
+import { sourceLabel } from "../../lib/source-label";
+import { constituencyLastModified } from "../../lib/constituency-dates";
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { SITE_URL } from "../../lib/site";
+import { SITE_URL, normalisePageTitle } from "../../lib/site";
+import { resolveConstituencyRegion } from "../../lib/regions";
+import { buildOg, constituencyOgPath } from "../../lib/og-flag";
 import registry from "../../data/registry/places.json";
 import constituencies from "../../data/registry/constituencies.json";
 
-type Place = { gss: string; slug: string; name: string; type: string };
+type Place = { gss: string; slug: string; name: string; displayName: string; type: string };
 type Constituency = {
   slug: string;
   name: string;
   pcon24cd: string | null;
   country: string | null;
   region: string | null;
-  lad24cds: string[];
+  ladCodes: string[];
   mp: { name: string; party: string; electedDate: string | null; snapshotDate: string | null } | null;
   result: { winnerName: string | null; winnerParty: string | null; sourceUrl: string | null; url: string };
   ukdemographics: { hasPage: boolean; slug: string | null; url: string | null };
@@ -27,11 +31,29 @@ export function getStaticPaths() {
 const { slug } = Astro.props;
 const constituency = (constituencies as Record<string, Constituency>)[slug];
 const placesByGss = registry as Record<string, Place>;
-const localAuthorities = constituency.lad24cds.map((gss) => ({ gss, place: placesByGss[gss] ?? null }));
-const regionName = constituency.region?.replace(/_/g, " ").replace(/\b\w/g, (letter) => letter.toUpperCase()) ?? null;
+const localAuthorities = constituency.ladCodes.map((gss) => ({ gss, place: placesByGss[gss] ?? null }));
+const region = resolveConstituencyRegion(constituency.region, constituency.ladCodes);
 const canonicalUrl = `${SITE_URL}/constituencies/${constituency.slug}/`;
-const description = `${constituency.name} parliamentary constituency geography record: PCON code, constituent local authorities and source links.`;
+const authorityNames = localAuthorities.map(({ gss, place }) => place?.displayName ?? `GSS code ${gss}`);
+const authorityList = authorityNames.length > 1
+  ? `${authorityNames.slice(0, -1).join(", ")} and ${authorityNames.at(-1)}`
+  : authorityNames[0] ?? null;
+const description = [
+  `${constituency.name} parliamentary constituency.`,
+  authorityList ? `${authorityNames.length > 1 ? "Local authorities" : "Local authority"}: ${authorityList}.` : "Constituent local authorities are not listed in the source file.",
+  constituency.result.winnerParty ? `2024 winner: ${sourceLabel(constituency.result.winnerParty)}.` : null,
+  "Codes and source links on the record.",
+].filter(Boolean).join(" ");
 const structuredData = [
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": `${canonicalUrl}#webpage`,
+    url: canonicalUrl,
+    name: normalisePageTitle(`${constituency.name} constituency`),
+    dateModified: constituencyLastModified(constituency),
+    about: { "@id": `${canonicalUrl}#constituency` },
+  },
   {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -65,7 +87,13 @@ const formatDate = (date: string) => new Intl.DateTimeFormat("en-GB", {
 }).format(new Date(`${date}T00:00:00Z`));
 ---
 
-<BaseLayout title={`${constituency.name} constituency`} description={description} structuredData={structuredData}>
+<BaseLayout
+  title={`${constituency.name} constituency`}
+  description={description}
+  structuredData={structuredData}
+  image={buildOg ? constituencyOgPath(constituency.slug) : undefined}
+  imageAlt={buildOg ? `${constituency.name} parliamentary constituency: its local authorities and 2024 winning party on UK Places.` : undefined}
+>
   <main class="shell place-page" id="main-content">
     <nav class="breadcrumbs" aria-label="Breadcrumb">
       <a href="/">UK Places</a>
@@ -76,7 +104,7 @@ const formatDate = (date: string) => new Intl.DateTimeFormat("en-GB", {
     </nav>
 
     <header class="place-hero">
-      <p class="eyebrow">Parliamentary constituency{regionName && ` · ${regionName}`}</p>
+      <p class="eyebrow">Parliamentary constituency{region && <> · {region.slug ? <a href={`/places/regions/${region.slug}/`}>{region.name}</a> : region.name}</>}</p>
       <h1>{constituency.name}</h1>
       {constituency.pcon24cd ? <p class="place-hero__meta">PCON code {constituency.pcon24cd}</p> : <p class="place-hero__summary">PCON code is not present in the source file for this record.</p>}
     </header>
@@ -89,7 +117,7 @@ const formatDate = (date: string) => new Intl.DateTimeFormat("en-GB", {
           {localAuthorities.map(({ gss, place }) => (
             <div class="place-geo__item">
               <dt class="place-geo__label">Local authority</dt>
-              <dd class="place-geo__value">{place ? <a href={`/places/${place.slug}/`}>{place.name}</a> : `GSS code ${gss}`}</dd>
+              <dd class="place-geo__value">{place ? <a href={`/places/${place.slug}/`}>{place.displayName}</a> : `GSS code ${gss}`}</dd>
             </div>
           ))}
         </dl>
@@ -109,7 +137,7 @@ const formatDate = (date: string) => new Intl.DateTimeFormat("en-GB", {
         <div class="place-geo__item">
           <dt class="place-geo__label">Election result</dt>
           <dd class="place-geo__value">
-            {constituency.result.winnerName && constituency.result.winnerParty && <><span>2024 winner: {constituency.result.winnerName} · {constituency.result.winnerParty}</span><br /></>}
+            {constituency.result.winnerName && constituency.result.winnerParty && <><span>2024 winner: {constituency.result.winnerName} · {sourceLabel(constituency.result.winnerParty)}</span><br /></>}
             <a href={constituency.result.url}>Open the UKE result record</a>
           </dd>
         </div>

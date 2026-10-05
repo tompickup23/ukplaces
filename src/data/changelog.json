@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-09-27",
+    "title": "UK Food Hygiene added as a fifth source.",
+    "summary": "Every local authority record now shows the share of rated businesses scoring 5 on the official food hygiene register, dated to the register snapshot and linked to the council page on UK Food Hygiene. Scottish councils use a different scheme and show no share."
+  },
+  {
+    "date": "2026-09-27",
+    "title": "Constituencies linked to every local authority.",
+    "summary": "Every parliamentary constituency now lists its local authorities from ONS postcode data, and every place record lists its constituencies, including Scotland, Northern Ireland and the councils created in 2023."
+  },
+  {
     "date": "2026-09-10",
     "title": "Burnley profile reviewed and rebuilt.",
     "summary": "Added a standalone source-led Burnley route, clear data definitions, source ledger and methodology links. Figures retain their individual source dates."

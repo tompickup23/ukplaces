@@ -14,24 +14,104 @@ UKPLACES_MONITOR_URL=http://127.0.0.1:4321 npm run check:production
 
 The weekly refresh automation works from the sibling source repositories named in the build scripts. It only regenerates the local registry, signals, and constituency data from those source files; it must leave unconfirmed fields as `null` and never infer a value, date, URL, or coverage record.
 
+UK Food Hygiene is the one source whose signal input is not committed anywhere: `councils.json` and `meta.json` are gitignored ETL output. Before a refresh, copy both from `vps-main:/root/ukfoodhygiene-release/site/src/data/` (the checkout the live site is built from each night; `/root/ukfoodhygiene` is not refreshed) into `/Users/tompickup/ukfoodhygiene/site/src/data/`. `npm run build:signals` stops with an error when `data_date` is more than seven days old rather than publish a stale figure.
+
+```sh
+scp vps-main:/root/ukfoodhygiene-release/site/src/data/councils.json vps-main:/root/ukfoodhygiene-release/site/src/data/meta.json /Users/tompickup/ukfoodhygiene/site/src/data/
+```
+
 When a source snapshot changes, run these commands in order:
 
 ```sh
 npm run build:registry
 npm run build:signals
-npm run build:place-constituencies
 npm run build:constituencies
+npm run build:place-constituencies
 npm run test:registry
 npm run test:signals
 npm run test:constituencies
 npm run test:source-onboarding
+npm run test:house-style
+npm run test:school-holidays
 npm run lint
-npm run build
+BUILD_OG=1 npm run build
 npm run check:text-size
 npm run check:contrast
 npm run check:sitemap
+npm run check:metadata
 npm run check:parity
 npm run audit:prod
 ```
 
 Review the generated JSON diff before committing. The refresh routine must not push, deploy, alter DNS, or modify a source repository.
+
+## Build checks added in Round 2 (27 September 2026)
+
+- `npm run test:house-style` fails on any em or en dash, literal or entity, under `src/` and `scripts/`.
+- `npm run check:metadata` reads every indexable page in `dist/` and fails on a repeated title or description, a description outside 70 to 300 characters, a dash character in either, or an `og:image` that is not in `dist/`. Run it after the build.
+- `npm run check:sitemap` also asserts every `lastmod` against its source date.
+- `npm run check:contrast` also fails when text set in a source accent has no dark-mode ink override.
+
+All four run in `site-checks.yml` and `deploy.yml`.
+
+## Share cards
+
+`BUILD_OG=1 npm run build` renders 361 place and 650 constituency cards under `dist/og/`; both workflows set it in an `env:` block. The cards took 38 seconds on a GitHub runner (about 4 minutes on the Mac), so the job timeout is 15 minutes. A build without it renders no cards and every page falls back to `/og.png`, so iteration builds stay fast. After editing `src/lib/og.ts` or an endpoint under `src/pages/og/`, delete `.astro/` and `node_modules/.vite/` before rebuilding, or Astro serves the cached endpoint.
+
+## Wikidata identifiers
+
+`src/data/registry/wikidata-by-gss.json` is committed output of `node scripts/build-wikidata-lookup.mjs`, which queries Wikidata SPARQL on P836 (GSS code) and keeps only codes carried by exactly one item. Rerun it by hand after a GSS recode, review the diff, update the pinned count in `scripts/test-registry.mjs`, then run `npm run build:registry`. The registry build never calls Wikidata itself.
+
+## Published registry
+
+`npm run build:registry` writes `src/data/registry/places.json` and the copy sister sites read at `public/data/registry/places.json`; `npm run test:registry` fails if the two differ. It also writes `src/data/registry/county-councils.json` from the AI DOGE crosswalk.
+
+## Constituency geography
+
+`npm run build:constituencies` fills the PCON code UK Elections leaves null (77 seats in Scotland and Northern Ireland) by an exact, unique match on the official ONS name in `ukelections/data/geography/pcon24-simplified.geojson`; it stops if that match disagrees with any code UK Elections does carry. Each seat's current local authorities (`ladCodes`) come from `ukelections/data/ons-pcon24-lad25-postcode-crosswalk.json` (ONS Postcode Directory), counting a pair only where at least 10 live postcodes fall in both. `lad24cds` keeps the UK Elections list unchanged. Run `build:place-constituencies` after it, because place membership is built from the constituency registry.
+
+## School holiday calendar
+
+The school holiday card reads a verified snapshot exported by UK School Holiday Dates. To refresh it, point the importer at the directory holding the exported `manifest.json` and `calendar-<sha256>.json`:
+
+```sh
+node scripts/import-school-holidays.mjs <export directory>
+npm run test:school-holidays
+```
+
+The importer refuses a snapshot that fails its integrity checks, copies it into `data/school-holidays/`, and updates `card-dates.json`: an education authority's date moves to the new snapshot date only where its card would read differently, so an unchanged calendar leaves every sitemap `lastmod` where it was. It prints how many dates moved. When a change to UK Places code (not a new snapshot) changes what cards show, rerun it on the current export with `--date <the day it ships>`; it refuses a date earlier than the latest card date. It does not delete the superseded `calendar-<sha256>.json`; remove that by hand in the same commit. The card chooses the next break in the reader's browser, so no rebuild is needed when a holiday passes. Nothing refreshes the snapshot on a schedule, so `test:school-holidays` fails once the snapshot's academic year has ended (2026/27 on 31 August 2027): import the next snapshot before then.
+
+## Analytics
+
+The Cloudflare Web Analytics beacon is built in but off until a token exists. To switch it on, create a Web Analytics site for `ukplaces.co.uk` in the Cloudflare dashboard (manual install, not automatic), copy its token from the JavaScript snippet, and set it as the repository variable `CF_BEACON_TOKEN` (Settings, Secrets and variables, Actions, Variables). Both workflows pass it to the build as `PUBLIC_CF_BEACON_TOKEN`. `npm run check:analytics` then requires exactly one beacon with that token on every page and the Cloudflare sentence on `/privacy/`; with no variable it requires no beacon anywhere. The token is public, so a variable rather than a secret. The Cloudflare API token on vps-main can list Web Analytics sites but not create them.
+
+## IndexNow
+
+Every deploy tells IndexNow search engines (Bing and the others that share submissions through `https://api.indexnow.org/indexnow`) which pages changed, and only those. In the build job, before the deploy, `node scripts/indexnow.mjs plan` compares `dist/sitemap.xml` with the live sitemap: a URL is submitted when it is new, when its `lastmod` differs, or when it has gone. Undated URLs already live are left out. After the deploy the `indexnow` job checks that the key file is live, then posts the list. If the live sitemap cannot be read, nothing is submitted and the build shows a warning; it never falls back to submitting everything. The key is public by design: the one `public/<32 hex>.txt` file (now `public/86b4d2de7b2c388aee6abf1824309a17.txt`), which contains its own name. To rotate it, replace that file; `npm run test:indexnow` checks there is exactly one. Google does not take part in IndexNow; the sitemap `lastmod` serves it.
+
+## Council service links
+
+The "Council services" section on a place page links the council's own pages for paying council tax and finding the rubbish collection day, from GOV.UK Local Links Manager's daily export (Open Government Licence v3.0; LGSL 57 and 524, interaction 8, the codes GOV.UK's own pages use). Rebuild it by hand and review the diff before committing:
+
+```sh
+npm run build:local-links
+npm run test:local-links
+```
+
+The build downloads the export, joins it on GSS code (falling back to an authority's ONS same-name predecessor code, from `src/data/registry/gss-predecessors.json`, where the export still uses the old one), then requests every link itself and publishes only those that return HTTP 200 without landing on a home page; a failure is retried once. Each place records why a link is missing. A place's date moves only when its links change. Northern Ireland has domestic rates, so it gets no council tax link. North Yorkshire and Somerset have no links in the export and no same-name predecessor, so they show none. A few council sites answer intermittently, so the published count varies by one to three links between runs. `gss-predecessors.json` comes from `node scripts/build-gss-predecessors.mjs <Changes.csv> "<edition>"` with the unzipped ONS Code History Database; rerun it after a GSS recode.
+
+## Constituency content dates
+
+The sitemap and WebPage structured data use the later of the MP source snapshot
+and the constituency record's last recorded change in UK Places. Source snapshot
+dates and the displayed MP source date stay unchanged.
+
+After committing a constituency registry update, run `npm run build:constituency-dates`
+from a checkout with the full registry history. Review and commit the resulting
+`src/data/registry/constituency-content-dates.json`. Each entry records the content
+hash, Git revision and its date. The constituency test refuses stale hashes;
+rebuilding unchanged data does not advance its date.
+
+`npm run check:landing` checks source and generated HTML punctuation, place
+indexability, Food Hygiene links and FSA provenance, and privacy wording.
+`npm run check:sitemap` requires a date and non-empty HTML for every listed URL.

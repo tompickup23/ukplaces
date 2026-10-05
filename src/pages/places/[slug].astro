@@ -1,41 +1,26 @@
 ---
+import CouncilServices from "../../components/CouncilServices.astro";
+import SchoolHolidays from "../../components/SchoolHolidays.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { SITE_URL } from "../../lib/site";
-import registry from "../../data/registry/places.json";
+import { SITE_URL, normalisePageTitle } from "../../lib/site";
+import { describePlace, placeTitle, type Signal } from "../../lib/place-meta";
 import constituenciesByPlace from "../../data/registry/place-constituencies.json";
+import countyCouncilData from "../../data/registry/county-councils.json";
+import { getCoverageRows, getLastModified, placesByGss } from "../../lib/place-records";
+import { regionSlug } from "../../lib/regions";
+import { buildOg, placeOgPath } from "../../lib/og-flag";
 import sources from "../../data/sources.json";
 
-type Coverage = { hasPage: boolean; slug: string | null; url: string | null };
-type Place = {
-  gss: string;
-  slug: string;
-  name: string;
-  officialName: string;
-  type: string;
-  country: string;
-  region: string;
-  county: string | null;
-  parentGss: string | null;
-  wikidata: string | null;
-  reorganisation: { note: string; sourceUrl: string } | null;
-  coverage: Record<string, Coverage>;
-};
 type Constituency = { pcon24cd: string; name: string; slug: string; url: string };
-type Signal = { value: string | number | null; unit: string | null; label: string | null; period: string | null; snapshotDate: string | null; url: string | null };
 
-const placesByGss = registry as Record<string, Place>;
+type CountyCouncil = { gss: string; name: string; aidoge: { hasPage: boolean; url: string | null } };
+
 const constituenciesByGss = constituenciesByPlace as Record<string, Constituency[]>;
-const signalModules = import.meta.glob("../../data/signals/*.json", { eager: true });
-const feedsBySource = Object.fromEntries(
-  Object.entries(signalModules).map(([filePath, module]) => [
-    filePath.split("/").at(-1)?.replace(/\.json$/, ""),
-    (module as { default: Record<string, Signal> }).default,
-  ]),
-) as Record<string, Record<string, Signal>>;
-const blankSignal: Signal = { value: null, unit: null, label: null, period: null, snapshotDate: null, url: null };
+const countyCouncils = countyCouncilData as Record<string, CountyCouncil>;
+const SIBLING_CAP = 20;
 
 export function getStaticPaths() {
-  return Object.values(registry).map((place) => ({
+  return Object.values(placesByGss).map((place) => ({
     params: { slug: place.slug },
     props: { gss: place.gss },
   }));
@@ -44,41 +29,83 @@ export function getStaticPaths() {
 const { gss } = Astro.props;
 const place = placesByGss[gss];
 const constituencies = constituenciesByGss[gss] ?? [];
-const coverageRows = sources
-  .filter((source) => place.coverage[source.id]?.hasPage)
-  .map((source) => ({ source, signal: feedsBySource[source.id]?.[gss] ?? blankSignal }));
-const reviewDates = coverageRows
-  .map(({ signal }) => signal.snapshotDate)
-  .filter((date): date is string => typeof date === "string")
-  .sort();
-const lastReviewed = reviewDates.at(-1) ?? null;
+const coverageRows = getCoverageRows(gss);
+const lastReviewed = getLastModified(gss);
 const canonicalUrl = `${SITE_URL}/places/${place.slug}/`;
-const description = `${place.name} geography record: local authority code, geography and source coverage.`;
+const regionPath = `/places/regions/${regionSlug(place.region)}/`;
+// Scotland, Wales and Northern Ireland have region equal to country: name it once.
+const regionIsCountry = place.region === place.country;
+const countyCouncil = place.parentGss ? countyCouncils[place.parentGss] ?? null : null;
+// Other places in the same ceremonial county, or the same region where the
+// registry has no county, alphabetically.
+const siblingGroup = place.county ?? place.region;
+const siblings = Object.values(placesByGss)
+  .filter((other) => other.gss !== place.gss && (place.county ? other.county === place.county : other.region === place.region))
+  .sort((left, right) => left.name.localeCompare(right.name));
+const regionCount = Object.values(placesByGss).filter((other) => other.region === place.region).length;
+const countyDistrictCount = place.parentGss ? Object.values(placesByGss).filter((other) => other.parentGss === place.parentGss).length : 0;
+const whereText = regionIsCountry
+  ? `in ${place.country}`
+  : `${place.county ? `in the ceremonial county of ${place.county}, ` : ""}in the ${place.region} region of ${place.country}`;
+const NUMBER_WORDS = ["no", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"];
+const numberWord = (count: number) => NUMBER_WORDS[count] ?? String(count);
+const capitalise = (text: string) => text.charAt(0).toUpperCase() + text.slice(1);
+// A factual introduction built only from the registry, so every record reads differently.
+const introduction = [
+  `${place.displayName} is a ${place.type.toLowerCase()} ${whereText}.`,
+  countyDistrictCount > 0 && countyCouncil ? `${countyCouncil.name} is the county council for its area and ${numberWord(countyDistrictCount - 1)} other ${countyDistrictCount - 1 === 1 ? "district" : "districts"} on UK Places.` : null,
+  constituencies.length > 0 ? `Its area overlaps ${constituencies.length === 1 ? "one Westminster constituency" : `${numberWord(constituencies.length)} Westminster constituencies`}.` : null,
+  coverageRows.length === sources.length
+    ? `All ${numberWord(sources.length)} sources on UK Places cover it.`
+    : `${capitalise(numberWord(coverageRows.length))} of the ${numberWord(sources.length)} sources on UK Places ${coverageRows.length === 1 ? "covers" : "cover"} it.`,
+].filter(Boolean).join(" ");
+const description = describePlace(place, coverageRows.map(({ signal }) => signal));
+const title = placeTitle(place.displayName, coverageRows.map(({ source }) => source.id));
 const structuredData = [
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": `${canonicalUrl}#webpage`,
+    url: canonicalUrl,
+    name: normalisePageTitle(title),
+    ...(lastReviewed ? { dateModified: lastReviewed } : {}),
+    about: { "@id": `${canonicalUrl}#place` },
+  },
   {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "UK Places", item: `${SITE_URL}/` },
       { "@type": "ListItem", position: 2, name: "Places", item: `${SITE_URL}/places/` },
-      { "@type": "ListItem", position: 3, name: place.name, item: canonicalUrl },
+      { "@type": "ListItem", position: 3, name: place.region, item: `${SITE_URL}${regionPath}` },
+      { "@type": "ListItem", position: 4, name: place.displayName, item: canonicalUrl },
     ],
   },
   {
     "@context": "https://schema.org",
     "@type": "AdministrativeArea",
     "@id": `${canonicalUrl}#place`,
-    name: place.name,
+    name: place.displayName,
+    ...(place.displayName !== place.name ? { alternateName: place.name } : {}),
     url: canonicalUrl,
     identifier: {
       "@type": "PropertyValue",
       propertyID: "GSS code",
       value: place.gss,
     },
-    ...(place.wikidata ? { sameAs: place.wikidata } : {}),
+    containedInPlace: place.region === place.country
+      ? { "@type": "Country", name: place.country }
+      : {
+        "@type": "AdministrativeArea",
+        name: place.region,
+        url: `${SITE_URL}/places/regions/${regionSlug(place.region)}/`,
+        containedInPlace: { "@type": "Country", name: place.country },
+      },
+    ...(place.wikidata ? { sameAs: `https://www.wikidata.org/wiki/${place.wikidata}` } : {}),
   },
 ];
-const formatSignal = (signal: Signal) => signal.unit === "GBP" ? signal.value : `${signal.value} ${signal.unit}`;
+// Money and percentage values already carry their unit.
+const formatSignal = (signal: Signal) => signal.unit === "GBP" || signal.unit === "%" ? signal.value : `${signal.value} ${signal.unit}`;
 
 const formatDate = (date: string) => new Intl.DateTimeFormat("en-GB", {
   day: "numeric",
@@ -88,20 +115,29 @@ const formatDate = (date: string) => new Intl.DateTimeFormat("en-GB", {
 }).format(new Date(`${date}T00:00:00Z`));
 ---
 
-<BaseLayout title={place.name} description={description} structuredData={structuredData}>
+<BaseLayout
+  title={title}
+  description={description}
+  structuredData={structuredData}
+  image={buildOg ? placeOgPath(place.slug) : undefined}
+  imageAlt={buildOg ? `${place.displayName}: ${place.type.toLowerCase()}, with one dated figure from each source on the UK Places record.` : undefined}
+>
   <main class="shell place-page" id="main-content">
     <nav class="breadcrumbs" aria-label="Breadcrumb">
       <a href="/">UK Places</a>
       <span aria-hidden="true">/</span>
       <a href="/places/">Places</a>
       <span aria-hidden="true">/</span>
-      <span aria-current="page">{place.name}</span>
+      <a href={regionPath}>{place.region}</a>
+      <span aria-hidden="true">/</span>
+      <span aria-current="page">{place.displayName}</span>
     </nav>
 
     <header class="place-hero">
-      <p class="eyebrow">{place.type} · {place.region}</p>
-      <h1>{place.name}</h1>
+      <p class="eyebrow">{place.type} · <a href={regionPath}>{place.region}</a></p>
+      <h1>{place.displayName}</h1>
       <p class="place-hero__meta">GSS code {place.gss}</p>
+      <p class="place-hero__intro">{introduction}</p>
       {lastReviewed && <p class="place-hero__summary">Last reviewed {formatDate(lastReviewed)} from the latest source snapshot on this record.</p>}
     </header>
 
@@ -111,13 +147,17 @@ const formatDate = (date: string) => new Intl.DateTimeFormat("en-GB", {
       <dl class="place-geo">
         <div class="place-geo__item"><dt class="place-geo__label">Council</dt><dd class="place-geo__value">{place.officialName}</dd></div>
         <div class="place-geo__item"><dt class="place-geo__label">Authority type</dt><dd class="place-geo__value">{place.type}</dd></div>
-        <div class="place-geo__item"><dt class="place-geo__label">Country and region</dt><dd class="place-geo__value">{place.country} · {place.region}</dd></div>
+        {regionIsCountry
+          ? <div class="place-geo__item"><dt class="place-geo__label">Country</dt><dd class="place-geo__value"><a href={regionPath}>{place.country}</a></dd></div>
+          : <div class="place-geo__item"><dt class="place-geo__label">Country and region</dt><dd class="place-geo__value">{place.country} · <a href={regionPath}>{place.region}</a></dd></div>}
         {place.county && <div class="place-geo__item"><dt class="place-geo__label">Ceremonial county</dt><dd class="place-geo__value">{place.county}</dd></div>}
-        {place.parentGss && <div class="place-geo__item"><dt class="place-geo__label">Parent county GSS code</dt><dd class="place-geo__value">{place.parentGss}</dd></div>}
-        {constituencies.length > 0 && <div class="place-geo__item"><dt class="place-geo__label">Westminster constituency</dt><dd class="place-geo__value">{constituencies.map((constituency, index) => <Fragment>{index > 0 && ", "}<a href={constituency.url}>{constituency.name}</a></Fragment>)}</dd></div>}
+        {place.parentGss && <div class="place-geo__item"><dt class="place-geo__label">County council</dt><dd class="place-geo__value">{countyCouncil
+          ? <>{countyCouncil.aidoge.hasPage && countyCouncil.aidoge.url ? <a href={countyCouncil.aidoge.url}>{countyCouncil.name}</a> : countyCouncil.name} <span class="place-geo__code">GSS code {place.parentGss}</span></>
+          : <>GSS code {place.parentGss}</>}</dd></div>}
+        {constituencies.length > 0 && <div class="place-geo__item"><dt class="place-geo__label">{constituencies.length > 1 ? "Westminster constituencies" : "Westminster constituency"}</dt><dd class="place-geo__value">{constituencies.map((constituency, index) => <Fragment>{index > 0 && ", "}<a href={`/constituencies/${constituency.slug}/`}>{constituency.name}</a></Fragment>)}</dd></div>}
         {place.reorganisation && <div class="place-geo__item"><dt class="place-geo__label">Reorganisation</dt><dd class="place-geo__value">{place.reorganisation.note} <a href={place.reorganisation.sourceUrl}>Source</a></dd></div>}
       </dl>
-      <p class="place-boundary-note"><strong>What this record is:</strong> this is the {place.type.toLowerCase()} named {place.name}; it is a geography record rather than a record for a settlement with the same name.</p>
+      <p class="place-boundary-note"><strong>What this record is:</strong> this is the {place.type.toLowerCase()} named {place.displayName}; it is a geography record rather than a record for a settlement with the same name.</p>
     </section>
 
     <section class="place-section" aria-labelledby="coverage-heading">
@@ -128,7 +168,7 @@ const formatDate = (date: string) => new Intl.DateTimeFormat("en-GB", {
           <article class="place-source" style={`--source-accent: ${source.accent}`}>
             <span class="place-source__name">{source.name}</span>
             {signal.value === null ? (
-              <p class="place-source__empty">This source has a place page, but no current signal is available in the source data read for this build.</p>
+              <p class="place-source__empty">No single figure from this source is shown for this place. The linked record holds the detail.</p>
             ) : (
               <>
                 <strong class="place-source__signal">{formatSignal(signal)}</strong>
@@ -136,12 +176,15 @@ const formatDate = (date: string) => new Intl.DateTimeFormat("en-GB", {
                 <span class="place-source__period">{signal.period}</span>
               </>
             )}
+            {source.id === "ukfoodhygiene" && <p class="place-source__period">Source: Food Standards Agency (FSA), food hygiene ratings register, via UK Food Hygiene.</p>}
             <a class="place-source__link" href={signal.url ?? place.coverage[source.id].url}>Open the detailed {source.name} record</a>
           </article>
         ))}
       </div>
     </section>
 
+    <SchoolHolidays place={place} />
+    <CouncilServices place={place} />
     <section class="place-section place-sources" aria-labelledby="sources-heading">
       <p class="eyebrow">Sources and dates</p>
       <h2 id="sources-heading">Each source keeps its own update cycle</h2>
@@ -150,5 +193,18 @@ const formatDate = (date: string) => new Intl.DateTimeFormat("en-GB", {
         {coverageRows.map(({ source, signal }) => signal.snapshotDate && <div><dt>{source.name}</dt><dd>{formatDate(signal.snapshotDate)}</dd></div>)}
       </dl>
     </section>
+
+    {siblings.length > 0 && (
+      <section class="place-section" aria-labelledby="siblings-heading">
+        <p class="eyebrow">Nearby records</p>
+        <h2 id="siblings-heading">Also in {siblingGroup}</h2>
+        <ul class="directory-list place-siblings">
+          {siblings.slice(0, SIBLING_CAP).map((other) => (
+            <li><a href={`/places/${other.slug}/`}>{other.displayName}<span>{other.type}</span></a></li>
+          ))}
+        </ul>
+        {siblings.length > SIBLING_CAP && <p class="place-siblings__more"><a href={regionPath}>All {regionCount} records in {place.region}</a></p>}
+      </section>
+    )}
   </main>
 </BaseLayout>

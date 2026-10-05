@@ -1215,10 +1215,146 @@
       "url": "https://ukelections.co.uk/seats/parliament/south-northamptonshire/"
     }
   ],
-  "E06000063": [],
-  "E06000064": [],
-  "E06000065": [],
-  "E06000066": [],
+  "E06000063": [
+    {
+      "pcon24cd": "E14001076",
+      "name": "Barrow and Furness",
+      "slug": "barrow-and-furness",
+      "url": "https://ukelections.co.uk/seats/parliament/barrow-and-furness/"
+    },
+    {
+      "pcon24cd": "E14001152",
+      "name": "Carlisle",
+      "slug": "carlisle",
+      "url": "https://ukelections.co.uk/seats/parliament/carlisle/"
+    },
+    {
+      "pcon24cd": "E14001424",
+      "name": "Penrith and Solway",
+      "slug": "penrith-and-solway",
+      "url": "https://ukelections.co.uk/seats/parliament/penrith-and-solway/"
+    },
+    {
+      "pcon24cd": "E14001583",
+      "name": "Whitehaven and Workington",
+      "slug": "whitehaven-and-workington",
+      "url": "https://ukelections.co.uk/seats/parliament/whitehaven-and-workington/"
+    }
+  ],
+  "E06000064": [
+    {
+      "pcon24cd": "E14001076",
+      "name": "Barrow and Furness",
+      "slug": "barrow-and-furness",
+      "url": "https://ukelections.co.uk/seats/parliament/barrow-and-furness/"
+    },
+    {
+      "pcon24cd": "E14001372",
+      "name": "Morecambe and Lunesdale",
+      "slug": "morecambe-and-lunesdale",
+      "url": "https://ukelections.co.uk/seats/parliament/morecambe-and-lunesdale/"
+    },
+    {
+      "pcon24cd": "E14001424",
+      "name": "Penrith and Solway",
+      "slug": "penrith-and-solway",
+      "url": "https://ukelections.co.uk/seats/parliament/penrith-and-solway/"
+    },
+    {
+      "pcon24cd": "E14001580",
+      "name": "Westmorland and Lonsdale",
+      "slug": "westmorland-and-lonsdale",
+      "url": "https://ukelections.co.uk/seats/parliament/westmorland-and-lonsdale/"
+    }
+  ],
+  "E06000065": [
+    {
+      "pcon24cd": "E14001269",
+      "name": "Harrogate and Knaresborough",
+      "slug": "harrogate-and-knaresborough",
+      "url": "https://ukelections.co.uk/seats/parliament/harrogate-and-knaresborough/"
+    },
+    {
+      "pcon24cd": "E14001444",
+      "name": "Richmond and Northallerton",
+      "slug": "richmond-and-northallerton",
+      "url": "https://ukelections.co.uk/seats/parliament/richmond-and-northallerton/"
+    },
+    {
+      "pcon24cd": "E14001461",
+      "name": "Scarborough and Whitby",
+      "slug": "scarborough-and-whitby",
+      "url": "https://ukelections.co.uk/seats/parliament/scarborough-and-whitby/"
+    },
+    {
+      "pcon24cd": "E14001464",
+      "name": "Selby",
+      "slug": "selby",
+      "url": "https://ukelections.co.uk/seats/parliament/selby/"
+    },
+    {
+      "pcon24cd": "E14001475",
+      "name": "Skipton and Ripon",
+      "slug": "skipton-and-ripon",
+      "url": "https://ukelections.co.uk/seats/parliament/skipton-and-ripon/"
+    },
+    {
+      "pcon24cd": "E14001544",
+      "name": "Thirsk and Malton",
+      "slug": "thirsk-and-malton",
+      "url": "https://ukelections.co.uk/seats/parliament/thirsk-and-malton/"
+    },
+    {
+      "pcon24cd": "E14001582",
+      "name": "Wetherby and Easingwold",
+      "slug": "wetherby-and-easingwold",
+      "url": "https://ukelections.co.uk/seats/parliament/wetherby-and-easingwold/"
+    }
+  ],
+  "E06000066": [
+    {
+      "pcon24cd": "E14001126",
+      "name": "Bridgwater",
+      "slug": "bridgwater",
+      "url": "https://ukelections.co.uk/seats/parliament/bridgwater/"
+    },
+    {
+      "pcon24cd": "E14001241",
+      "name": "Frome and East Somerset",
+      "slug": "frome-and-east-somerset",
+      "url": "https://ukelections.co.uk/seats/parliament/frome-and-east-somerset/"
+    },
+    {
+      "pcon24cd": "E14001247",
+      "name": "Glastonbury and Somerton",
+      "slug": "glastonbury-and-somerton",
+      "url": "https://ukelections.co.uk/seats/parliament/glastonbury-and-somerton/"
+    },
+    {
+      "pcon24cd": "E14001540",
+      "name": "Taunton and Wellington",
+      "slug": "taunton-and-wellington",
+      "url": "https://ukelections.co.uk/seats/parliament/taunton-and-wellington/"
+    },
+    {
+      "pcon24cd": "E14001548",
+      "name": "Tiverton and Minehead",
+      "slug": "tiverton-and-minehead",
+      "url": "https://ukelections.co.uk/seats/parliament/tiverton-and-minehead/"
+    },
+    {
+      "pcon24cd": "E14001572",
+      "name": "Wells and Mendip Hills",
+      "slug": "wells-and-mendip-hills",
+      "url": "https://ukelections.co.uk/seats/parliament/wells-and-mendip-hills/"
+    },
+    {
+      "pcon24cd": "E14001603",
+      "name": "Yeovil",
+      "slug": "yeovil",
+      "url": "https://ukelections.co.uk/seats/parliament/yeovil/"
+    }
+  ],
   "E07000008": [
     {
       "pcon24cd": "E14001149",
@@ -4417,8 +4553,64 @@
       "url": "https://ukelections.co.uk/seats/parliament/washington-and-gateshead-south/"
     }
   ],
-  "E08000038": [],
-  "E08000039": [],
+  "E08000038": [
+    {
+      "pcon24cd": "E14001074",
+      "name": "Barnsley North",
+      "slug": "barnsley-north",
+      "url": "https://ukelections.co.uk/seats/parliament/barnsley-north/"
+    },
+    {
+      "pcon24cd": "E14001075",
+      "name": "Barnsley South",
+      "slug": "barnsley-south",
+      "url": "https://ukelections.co.uk/seats/parliament/barnsley-south/"
+    },
+    {
+      "pcon24cd": "E14001423",
+      "name": "Penistone and Stocksbridge",
+      "slug": "penistone-and-stocksbridge",
+      "url": "https://ukelections.co.uk/seats/parliament/penistone-and-stocksbridge/"
+    }
+  ],
+  "E08000039": [
+    {
+      "pcon24cd": "E14001423",
+      "name": "Penistone and Stocksbridge",
+      "slug": "penistone-and-stocksbridge",
+      "url": "https://ukelections.co.uk/seats/parliament/penistone-and-stocksbridge/"
+    },
+    {
+      "pcon24cd": "E14001466",
+      "name": "Sheffield Brightside and Hillsborough",
+      "slug": "sheffield-brightside-and-hillsborough",
+      "url": "https://ukelections.co.uk/seats/parliament/sheffield-brightside-and-hillsborough/"
+    },
+    {
+      "pcon24cd": "E14001467",
+      "name": "Sheffield Central",
+      "slug": "sheffield-central",
+      "url": "https://ukelections.co.uk/seats/parliament/sheffield-central/"
+    },
+    {
+      "pcon24cd": "E14001468",
+      "name": "Sheffield Hallam",
+      "slug": "sheffield-hallam",
+      "url": "https://ukelections.co.uk/seats/parliament/sheffield-hallam/"
+    },
+    {
+      "pcon24cd": "E14001469",
+      "name": "Sheffield Heeley",
+      "slug": "sheffield-heeley",
+      "url": "https://ukelections.co.uk/seats/parliament/sheffield-heeley/"
+    },
+    {
+      "pcon24cd": "E14001470",
+      "name": "Sheffield South East",
+      "slug": "sheffield-south-east",
+      "url": "https://ukelections.co.uk/seats/parliament/sheffield-south-east/"
+    }
+  ],
   "E09000001": [
     {
       "pcon24cd": "E14001172",
@@ -5097,50 +5289,790 @@
       "url": "https://ukelections.co.uk/seats/parliament/queens-park-and-maida-vale/"
     }
   ],
-  "N09000001": [],
-  "N09000002": [],
-  "N09000003": [],
-  "N09000004": [],
-  "N09000005": [],
-  "N09000006": [],
-  "N09000007": [],
-  "N09000008": [],
-  "N09000009": [],
-  "N09000010": [],
-  "N09000011": [],
-  "S12000005": [],
-  "S12000006": [],
-  "S12000008": [],
-  "S12000010": [],
-  "S12000011": [],
-  "S12000013": [],
-  "S12000014": [],
-  "S12000017": [],
-  "S12000018": [],
-  "S12000019": [],
-  "S12000020": [],
-  "S12000021": [],
-  "S12000023": [],
-  "S12000026": [],
-  "S12000027": [],
-  "S12000028": [],
-  "S12000029": [],
-  "S12000030": [],
-  "S12000033": [],
-  "S12000034": [],
-  "S12000035": [],
-  "S12000036": [],
-  "S12000038": [],
-  "S12000039": [],
-  "S12000040": [],
-  "S12000041": [],
-  "S12000042": [],
-  "S12000045": [],
-  "S12000047": [],
-  "S12000048": [],
-  "S12000049": [],
-  "S12000050": [],
-  "W06000001": [],
+  "N09000001": [
+    {
+      "pcon24cd": "N05000002",
+      "name": "Belfast North",
+      "slug": "belfast-north",
+      "url": "https://ukelections.co.uk/seats/parliament/belfast-north/"
+    },
+    {
+      "pcon24cd": "N05000005",
+      "name": "East Antrim",
+      "slug": "east-antrim",
+      "url": "https://ukelections.co.uk/seats/parliament/east-antrim/"
+    },
+    {
+      "pcon24cd": "N05000014",
+      "name": "South Antrim",
+      "slug": "south-antrim",
+      "url": "https://ukelections.co.uk/seats/parliament/south-antrim/"
+    }
+  ],
+  "N09000002": [
+    {
+      "pcon24cd": "N05000007",
+      "name": "Fermanagh and South Tyrone",
+      "slug": "fermanagh-and-south-tyrone",
+      "url": "https://ukelections.co.uk/seats/parliament/fermanagh-and-south-tyrone/"
+    },
+    {
+      "pcon24cd": "N05000009",
+      "name": "Lagan Valley",
+      "slug": "lagan-valley",
+      "url": "https://ukelections.co.uk/seats/parliament/lagan-valley/"
+    },
+    {
+      "pcon24cd": "N05000010",
+      "name": "Mid Ulster",
+      "slug": "mid-ulster",
+      "url": "https://ukelections.co.uk/seats/parliament/mid-ulster/"
+    },
+    {
+      "pcon24cd": "N05000011",
+      "name": "Newry and Armagh",
+      "slug": "newry-and-armagh",
+      "url": "https://ukelections.co.uk/seats/parliament/newry-and-armagh/"
+    },
+    {
+      "pcon24cd": "N05000015",
+      "name": "South Down",
+      "slug": "south-down",
+      "url": "https://ukelections.co.uk/seats/parliament/south-down/"
+    },
+    {
+      "pcon24cd": "N05000017",
+      "name": "Upper Bann",
+      "slug": "upper-bann",
+      "url": "https://ukelections.co.uk/seats/parliament/upper-bann/"
+    }
+  ],
+  "N09000003": [
+    {
+      "pcon24cd": "N05000001",
+      "name": "Belfast East",
+      "slug": "belfast-east",
+      "url": "https://ukelections.co.uk/seats/parliament/belfast-east/"
+    },
+    {
+      "pcon24cd": "N05000002",
+      "name": "Belfast North",
+      "slug": "belfast-north",
+      "url": "https://ukelections.co.uk/seats/parliament/belfast-north/"
+    },
+    {
+      "pcon24cd": "N05000003",
+      "name": "Belfast South and Mid Down",
+      "slug": "belfast-south-and-mid-down",
+      "url": "https://ukelections.co.uk/seats/parliament/belfast-south-and-mid-down/"
+    },
+    {
+      "pcon24cd": "N05000004",
+      "name": "Belfast West",
+      "slug": "belfast-west",
+      "url": "https://ukelections.co.uk/seats/parliament/belfast-west/"
+    },
+    {
+      "pcon24cd": "N05000013",
+      "name": "North Down",
+      "slug": "north-down",
+      "url": "https://ukelections.co.uk/seats/parliament/north-down/"
+    }
+  ],
+  "N09000004": [
+    {
+      "pcon24cd": "N05000005",
+      "name": "East Antrim",
+      "slug": "east-antrim",
+      "url": "https://ukelections.co.uk/seats/parliament/east-antrim/"
+    },
+    {
+      "pcon24cd": "N05000006",
+      "name": "East Londonderry",
+      "slug": "east-londonderry",
+      "url": "https://ukelections.co.uk/seats/parliament/east-londonderry/"
+    },
+    {
+      "pcon24cd": "N05000012",
+      "name": "North Antrim",
+      "slug": "north-antrim",
+      "url": "https://ukelections.co.uk/seats/parliament/north-antrim/"
+    }
+  ],
+  "N09000005": [
+    {
+      "pcon24cd": "N05000006",
+      "name": "East Londonderry",
+      "slug": "east-londonderry",
+      "url": "https://ukelections.co.uk/seats/parliament/east-londonderry/"
+    },
+    {
+      "pcon24cd": "N05000008",
+      "name": "Foyle",
+      "slug": "foyle",
+      "url": "https://ukelections.co.uk/seats/parliament/foyle/"
+    },
+    {
+      "pcon24cd": "N05000018",
+      "name": "West Tyrone",
+      "slug": "west-tyrone",
+      "url": "https://ukelections.co.uk/seats/parliament/west-tyrone/"
+    }
+  ],
+  "N09000006": [
+    {
+      "pcon24cd": "N05000007",
+      "name": "Fermanagh and South Tyrone",
+      "slug": "fermanagh-and-south-tyrone",
+      "url": "https://ukelections.co.uk/seats/parliament/fermanagh-and-south-tyrone/"
+    },
+    {
+      "pcon24cd": "N05000018",
+      "name": "West Tyrone",
+      "slug": "west-tyrone",
+      "url": "https://ukelections.co.uk/seats/parliament/west-tyrone/"
+    }
+  ],
+  "N09000007": [
+    {
+      "pcon24cd": "N05000001",
+      "name": "Belfast East",
+      "slug": "belfast-east",
+      "url": "https://ukelections.co.uk/seats/parliament/belfast-east/"
+    },
+    {
+      "pcon24cd": "N05000003",
+      "name": "Belfast South and Mid Down",
+      "slug": "belfast-south-and-mid-down",
+      "url": "https://ukelections.co.uk/seats/parliament/belfast-south-and-mid-down/"
+    },
+    {
+      "pcon24cd": "N05000004",
+      "name": "Belfast West",
+      "slug": "belfast-west",
+      "url": "https://ukelections.co.uk/seats/parliament/belfast-west/"
+    },
+    {
+      "pcon24cd": "N05000009",
+      "name": "Lagan Valley",
+      "slug": "lagan-valley",
+      "url": "https://ukelections.co.uk/seats/parliament/lagan-valley/"
+    },
+    {
+      "pcon24cd": "N05000014",
+      "name": "South Antrim",
+      "slug": "south-antrim",
+      "url": "https://ukelections.co.uk/seats/parliament/south-antrim/"
+    }
+  ],
+  "N09000008": [
+    {
+      "pcon24cd": "N05000005",
+      "name": "East Antrim",
+      "slug": "east-antrim",
+      "url": "https://ukelections.co.uk/seats/parliament/east-antrim/"
+    },
+    {
+      "pcon24cd": "N05000012",
+      "name": "North Antrim",
+      "slug": "north-antrim",
+      "url": "https://ukelections.co.uk/seats/parliament/north-antrim/"
+    }
+  ],
+  "N09000009": [
+    {
+      "pcon24cd": "N05000007",
+      "name": "Fermanagh and South Tyrone",
+      "slug": "fermanagh-and-south-tyrone",
+      "url": "https://ukelections.co.uk/seats/parliament/fermanagh-and-south-tyrone/"
+    },
+    {
+      "pcon24cd": "N05000010",
+      "name": "Mid Ulster",
+      "slug": "mid-ulster",
+      "url": "https://ukelections.co.uk/seats/parliament/mid-ulster/"
+    },
+    {
+      "pcon24cd": "N05000018",
+      "name": "West Tyrone",
+      "slug": "west-tyrone",
+      "url": "https://ukelections.co.uk/seats/parliament/west-tyrone/"
+    }
+  ],
+  "N09000010": [
+    {
+      "pcon24cd": "N05000003",
+      "name": "Belfast South and Mid Down",
+      "slug": "belfast-south-and-mid-down",
+      "url": "https://ukelections.co.uk/seats/parliament/belfast-south-and-mid-down/"
+    },
+    {
+      "pcon24cd": "N05000011",
+      "name": "Newry and Armagh",
+      "slug": "newry-and-armagh",
+      "url": "https://ukelections.co.uk/seats/parliament/newry-and-armagh/"
+    },
+    {
+      "pcon24cd": "N05000015",
+      "name": "South Down",
+      "slug": "south-down",
+      "url": "https://ukelections.co.uk/seats/parliament/south-down/"
+    },
+    {
+      "pcon24cd": "N05000016",
+      "name": "Strangford",
+      "slug": "strangford",
+      "url": "https://ukelections.co.uk/seats/parliament/strangford/"
+    }
+  ],
+  "N09000011": [
+    {
+      "pcon24cd": "N05000013",
+      "name": "North Down",
+      "slug": "north-down",
+      "url": "https://ukelections.co.uk/seats/parliament/north-down/"
+    },
+    {
+      "pcon24cd": "N05000016",
+      "name": "Strangford",
+      "slug": "strangford",
+      "url": "https://ukelections.co.uk/seats/parliament/strangford/"
+    }
+  ],
+  "S12000005": [
+    {
+      "pcon24cd": "S14000064",
+      "name": "Alloa and Grangemouth",
+      "slug": "alloa-and-grangemouth",
+      "url": "https://ukelections.co.uk/seats/parliament/alloa-and-grangemouth/"
+    },
+    {
+      "pcon24cd": "S14000076",
+      "name": "Dunfermline and Dollar",
+      "slug": "dunfermline-and-dollar",
+      "url": "https://ukelections.co.uk/seats/parliament/dunfermline-and-dollar/"
+    }
+  ],
+  "S12000006": [
+    {
+      "pcon24cd": "S14000073",
+      "name": "Dumfries and Galloway",
+      "slug": "dumfries-and-galloway",
+      "url": "https://ukelections.co.uk/seats/parliament/dumfries-and-galloway/"
+    },
+    {
+      "pcon24cd": "S14000074",
+      "name": "Dumfriesshire Clydesdale and Tweeddale",
+      "slug": "dumfriesshire-clydesdale-and-tweeddale",
+      "url": "https://ukelections.co.uk/seats/parliament/dumfriesshire-clydesdale-and-tweeddale/"
+    }
+  ],
+  "S12000008": [
+    {
+      "pcon24cd": "S14000107",
+      "name": "Ayr Carrick and Cumnock",
+      "slug": "ayr-carrick-and-cumnock",
+      "url": "https://ukelections.co.uk/seats/parliament/ayr-carrick-and-cumnock/"
+    },
+    {
+      "pcon24cd": "S14000110",
+      "name": "Kilmarnock and Loudoun",
+      "slug": "kilmarnock-and-loudoun",
+      "url": "https://ukelections.co.uk/seats/parliament/kilmarnock-and-loudoun/"
+    }
+  ],
+  "S12000010": [
+    {
+      "pcon24cd": "S14000078",
+      "name": "Edinburgh East and Musselburgh",
+      "slug": "edinburgh-east-and-musselburgh",
+      "url": "https://ukelections.co.uk/seats/parliament/edinburgh-east-and-musselburgh/"
+    },
+    {
+      "pcon24cd": "S14000096",
+      "name": "Lothian East",
+      "slug": "lothian-east",
+      "url": "https://ukelections.co.uk/seats/parliament/lothian-east/"
+    }
+  ],
+  "S12000011": [
+    {
+      "pcon24cd": "S14000021",
+      "name": "East Renfrewshire",
+      "slug": "east-renfrewshire",
+      "url": "https://ukelections.co.uk/seats/parliament/east-renfrewshire/"
+    }
+  ],
+  "S12000013": [
+    {
+      "pcon24cd": "S14000027",
+      "name": "Na H Eileanan An Iar",
+      "slug": "na-h-eileanan-an-iar",
+      "url": "https://ukelections.co.uk/seats/parliament/na-h-eileanan-an-iar/"
+    }
+  ],
+  "S12000014": [
+    {
+      "pcon24cd": "S14000064",
+      "name": "Alloa and Grangemouth",
+      "slug": "alloa-and-grangemouth",
+      "url": "https://ukelections.co.uk/seats/parliament/alloa-and-grangemouth/"
+    },
+    {
+      "pcon24cd": "S14000068",
+      "name": "Bathgate and Linlithgow",
+      "slug": "bathgate-and-linlithgow",
+      "url": "https://ukelections.co.uk/seats/parliament/bathgate-and-linlithgow/"
+    },
+    {
+      "pcon24cd": "S14000083",
+      "name": "Falkirk",
+      "slug": "falkirk",
+      "url": "https://ukelections.co.uk/seats/parliament/falkirk/"
+    }
+  ],
+  "S12000017": [
+    {
+      "pcon24cd": "S14000067",
+      "name": "Argyll Bute and South Lochaber",
+      "slug": "argyll-bute-and-south-lochaber",
+      "url": "https://ukelections.co.uk/seats/parliament/argyll-bute-and-south-lochaber/"
+    },
+    {
+      "pcon24cd": "S14000069",
+      "name": "Caithness Sutherland and Easter Ross",
+      "slug": "caithness-sutherland-and-easter-ross",
+      "url": "https://ukelections.co.uk/seats/parliament/caithness-sutherland-and-easter-ross/"
+    },
+    {
+      "pcon24cd": "S14000094",
+      "name": "Inverness Skye and West Ross Shire",
+      "slug": "inverness-skye-and-west-ross-shire",
+      "url": "https://ukelections.co.uk/seats/parliament/inverness-skye-and-west-ross-shire/"
+    },
+    {
+      "pcon24cd": "S14000098",
+      "name": "Moray West Nairn and Strathspey",
+      "slug": "moray-west-nairn-and-strathspey",
+      "url": "https://ukelections.co.uk/seats/parliament/moray-west-nairn-and-strathspey/"
+    }
+  ],
+  "S12000018": [
+    {
+      "pcon24cd": "S14000093",
+      "name": "Inverclyde and Renfrewshire West",
+      "slug": "inverclyde-and-renfrewshire-west",
+      "url": "https://ukelections.co.uk/seats/parliament/inverclyde-and-renfrewshire-west/"
+    }
+  ],
+  "S12000019": [
+    {
+      "pcon24cd": "S14000045",
+      "name": "Midlothian",
+      "slug": "midlothian",
+      "url": "https://ukelections.co.uk/seats/parliament/midlothian/"
+    }
+  ],
+  "S12000020": [
+    {
+      "pcon24cd": "S14000062",
+      "name": "Aberdeenshire North and Moray East",
+      "slug": "aberdeenshire-north-and-moray-east",
+      "url": "https://ukelections.co.uk/seats/parliament/aberdeenshire-north-and-moray-east/"
+    },
+    {
+      "pcon24cd": "S14000098",
+      "name": "Moray West Nairn and Strathspey",
+      "slug": "moray-west-nairn-and-strathspey",
+      "url": "https://ukelections.co.uk/seats/parliament/moray-west-nairn-and-strathspey/"
+    }
+  ],
+  "S12000021": [
+    {
+      "pcon24cd": "S14000109",
+      "name": "Central Ayrshire",
+      "slug": "central-ayrshire",
+      "url": "https://ukelections.co.uk/seats/parliament/central-ayrshire/"
+    },
+    {
+      "pcon24cd": "S14000048",
+      "name": "North Ayrshire and Arran",
+      "slug": "north-ayrshire-and-arran",
+      "url": "https://ukelections.co.uk/seats/parliament/north-ayrshire-and-arran/"
+    }
+  ],
+  "S12000023": [
+    {
+      "pcon24cd": "S14000051",
+      "name": "Orkney and Shetland",
+      "slug": "orkney-and-shetland",
+      "url": "https://ukelections.co.uk/seats/parliament/orkney-and-shetland/"
+    }
+  ],
+  "S12000026": [
+    {
+      "pcon24cd": "S14000108",
+      "name": "Berwickshire Roxburgh and Selkirk",
+      "slug": "berwickshire-roxburgh-and-selkirk",
+      "url": "https://ukelections.co.uk/seats/parliament/berwickshire-roxburgh-and-selkirk/"
+    },
+    {
+      "pcon24cd": "S14000074",
+      "name": "Dumfriesshire Clydesdale and Tweeddale",
+      "slug": "dumfriesshire-clydesdale-and-tweeddale",
+      "url": "https://ukelections.co.uk/seats/parliament/dumfriesshire-clydesdale-and-tweeddale/"
+    }
+  ],
+  "S12000027": [
+    {
+      "pcon24cd": "S14000051",
+      "name": "Orkney and Shetland",
+      "slug": "orkney-and-shetland",
+      "url": "https://ukelections.co.uk/seats/parliament/orkney-and-shetland/"
+    }
+  ],
+  "S12000028": [
+    {
+      "pcon24cd": "S14000107",
+      "name": "Ayr Carrick and Cumnock",
+      "slug": "ayr-carrick-and-cumnock",
+      "url": "https://ukelections.co.uk/seats/parliament/ayr-carrick-and-cumnock/"
+    },
+    {
+      "pcon24cd": "S14000109",
+      "name": "Central Ayrshire",
+      "slug": "central-ayrshire",
+      "url": "https://ukelections.co.uk/seats/parliament/central-ayrshire/"
+    }
+  ],
+  "S12000029": [
+    {
+      "pcon24cd": "S14000074",
+      "name": "Dumfriesshire Clydesdale and Tweeddale",
+      "slug": "dumfriesshire-clydesdale-and-tweeddale",
+      "url": "https://ukelections.co.uk/seats/parliament/dumfriesshire-clydesdale-and-tweeddale/"
+    },
+    {
+      "pcon24cd": "S14000077",
+      "name": "East Kilbride and Strathaven",
+      "slug": "east-kilbride-and-strathaven",
+      "url": "https://ukelections.co.uk/seats/parliament/east-kilbride-and-strathaven/"
+    },
+    {
+      "pcon24cd": "S14000092",
+      "name": "Hamilton and Clyde Valley",
+      "slug": "hamilton-and-clyde-valley",
+      "url": "https://ukelections.co.uk/seats/parliament/hamilton-and-clyde-valley/"
+    },
+    {
+      "pcon24cd": "S14000099",
+      "name": "Motherwell Wishaw and Carluke",
+      "slug": "motherwell-wishaw-and-carluke",
+      "url": "https://ukelections.co.uk/seats/parliament/motherwell-wishaw-and-carluke/"
+    },
+    {
+      "pcon24cd": "S14000104",
+      "name": "Rutherglen",
+      "slug": "rutherglen",
+      "url": "https://ukelections.co.uk/seats/parliament/rutherglen/"
+    }
+  ],
+  "S12000030": [
+    {
+      "pcon24cd": "S14000105",
+      "name": "Stirling and Strathallan",
+      "slug": "stirling-and-strathallan",
+      "url": "https://ukelections.co.uk/seats/parliament/stirling-and-strathallan/"
+    }
+  ],
+  "S12000033": [
+    {
+      "pcon24cd": "S14000060",
+      "name": "Aberdeen North",
+      "slug": "aberdeen-north",
+      "url": "https://ukelections.co.uk/seats/parliament/aberdeen-north/"
+    },
+    {
+      "pcon24cd": "S14000061",
+      "name": "Aberdeen South",
+      "slug": "aberdeen-south",
+      "url": "https://ukelections.co.uk/seats/parliament/aberdeen-south/"
+    }
+  ],
+  "S12000034": [
+    {
+      "pcon24cd": "S14000062",
+      "name": "Aberdeenshire North and Moray East",
+      "slug": "aberdeenshire-north-and-moray-east",
+      "url": "https://ukelections.co.uk/seats/parliament/aberdeenshire-north-and-moray-east/"
+    },
+    {
+      "pcon24cd": "S14000091",
+      "name": "Gordon and Buchan",
+      "slug": "gordon-and-buchan",
+      "url": "https://ukelections.co.uk/seats/parliament/gordon-and-buchan/"
+    },
+    {
+      "pcon24cd": "S14000111",
+      "name": "West Aberdeenshire and Kincardine",
+      "slug": "west-aberdeenshire-and-kincardine",
+      "url": "https://ukelections.co.uk/seats/parliament/west-aberdeenshire-and-kincardine/"
+    }
+  ],
+  "S12000035": [
+    {
+      "pcon24cd": "S14000067",
+      "name": "Argyll Bute and South Lochaber",
+      "slug": "argyll-bute-and-south-lochaber",
+      "url": "https://ukelections.co.uk/seats/parliament/argyll-bute-and-south-lochaber/"
+    }
+  ],
+  "S12000036": [
+    {
+      "pcon24cd": "S14000078",
+      "name": "Edinburgh East and Musselburgh",
+      "slug": "edinburgh-east-and-musselburgh",
+      "url": "https://ukelections.co.uk/seats/parliament/edinburgh-east-and-musselburgh/"
+    },
+    {
+      "pcon24cd": "S14000079",
+      "name": "Edinburgh North and Leith",
+      "slug": "edinburgh-north-and-leith",
+      "url": "https://ukelections.co.uk/seats/parliament/edinburgh-north-and-leith/"
+    },
+    {
+      "pcon24cd": "S14000080",
+      "name": "Edinburgh South",
+      "slug": "edinburgh-south",
+      "url": "https://ukelections.co.uk/seats/parliament/edinburgh-south/"
+    },
+    {
+      "pcon24cd": "S14000081",
+      "name": "Edinburgh South West",
+      "slug": "edinburgh-south-west",
+      "url": "https://ukelections.co.uk/seats/parliament/edinburgh-south-west/"
+    },
+    {
+      "pcon24cd": "S14000082",
+      "name": "Edinburgh West",
+      "slug": "edinburgh-west",
+      "url": "https://ukelections.co.uk/seats/parliament/edinburgh-west/"
+    }
+  ],
+  "S12000038": [
+    {
+      "pcon24cd": "S14000093",
+      "name": "Inverclyde and Renfrewshire West",
+      "slug": "inverclyde-and-renfrewshire-west",
+      "url": "https://ukelections.co.uk/seats/parliament/inverclyde-and-renfrewshire-west/"
+    },
+    {
+      "pcon24cd": "S14000101",
+      "name": "Paisley and Renfrewshire North",
+      "slug": "paisley-and-renfrewshire-north",
+      "url": "https://ukelections.co.uk/seats/parliament/paisley-and-renfrewshire-north/"
+    },
+    {
+      "pcon24cd": "S14000102",
+      "name": "Paisley and Renfrewshire South",
+      "slug": "paisley-and-renfrewshire-south",
+      "url": "https://ukelections.co.uk/seats/parliament/paisley-and-renfrewshire-south/"
+    }
+  ],
+  "S12000039": [
+    {
+      "pcon24cd": "S14000106",
+      "name": "West Dunbartonshire",
+      "slug": "west-dunbartonshire",
+      "url": "https://ukelections.co.uk/seats/parliament/west-dunbartonshire/"
+    }
+  ],
+  "S12000040": [
+    {
+      "pcon24cd": "S14000068",
+      "name": "Bathgate and Linlithgow",
+      "slug": "bathgate-and-linlithgow",
+      "url": "https://ukelections.co.uk/seats/parliament/bathgate-and-linlithgow/"
+    },
+    {
+      "pcon24cd": "S14000095",
+      "name": "Livingston",
+      "slug": "livingston",
+      "url": "https://ukelections.co.uk/seats/parliament/livingston/"
+    }
+  ],
+  "S12000041": [
+    {
+      "pcon24cd": "S14000065",
+      "name": "Angus and Perthshire Glens",
+      "slug": "angus-and-perthshire-glens",
+      "url": "https://ukelections.co.uk/seats/parliament/angus-and-perthshire-glens/"
+    },
+    {
+      "pcon24cd": "S14000066",
+      "name": "Arbroath and Broughty Ferry",
+      "slug": "arbroath-and-broughty-ferry",
+      "url": "https://ukelections.co.uk/seats/parliament/arbroath-and-broughty-ferry/"
+    }
+  ],
+  "S12000042": [
+    {
+      "pcon24cd": "S14000066",
+      "name": "Arbroath and Broughty Ferry",
+      "slug": "arbroath-and-broughty-ferry",
+      "url": "https://ukelections.co.uk/seats/parliament/arbroath-and-broughty-ferry/"
+    },
+    {
+      "pcon24cd": "S14000075",
+      "name": "Dundee Central",
+      "slug": "dundee-central",
+      "url": "https://ukelections.co.uk/seats/parliament/dundee-central/"
+    }
+  ],
+  "S12000045": [
+    {
+      "pcon24cd": "S14000072",
+      "name": "Cumbernauld and Kirkintilloch",
+      "slug": "cumbernauld-and-kirkintilloch",
+      "url": "https://ukelections.co.uk/seats/parliament/cumbernauld-and-kirkintilloch/"
+    },
+    {
+      "pcon24cd": "S14000097",
+      "name": "Mid Dunbartonshire",
+      "slug": "mid-dunbartonshire",
+      "url": "https://ukelections.co.uk/seats/parliament/mid-dunbartonshire/"
+    }
+  ],
+  "S12000047": [
+    {
+      "pcon24cd": "S14000071",
+      "name": "Cowdenbeath and Kirkcaldy",
+      "slug": "cowdenbeath-and-kirkcaldy",
+      "url": "https://ukelections.co.uk/seats/parliament/cowdenbeath-and-kirkcaldy/"
+    },
+    {
+      "pcon24cd": "S14000076",
+      "name": "Dunfermline and Dollar",
+      "slug": "dunfermline-and-dollar",
+      "url": "https://ukelections.co.uk/seats/parliament/dunfermline-and-dollar/"
+    },
+    {
+      "pcon24cd": "S14000090",
+      "name": "Glenrothes and Mid Fife",
+      "slug": "glenrothes-and-mid-fife",
+      "url": "https://ukelections.co.uk/seats/parliament/glenrothes-and-mid-fife/"
+    },
+    {
+      "pcon24cd": "S14000100",
+      "name": "North East Fife",
+      "slug": "north-east-fife",
+      "url": "https://ukelections.co.uk/seats/parliament/north-east-fife/"
+    }
+  ],
+  "S12000048": [
+    {
+      "pcon24cd": "S14000065",
+      "name": "Angus and Perthshire Glens",
+      "slug": "angus-and-perthshire-glens",
+      "url": "https://ukelections.co.uk/seats/parliament/angus-and-perthshire-glens/"
+    },
+    {
+      "pcon24cd": "S14000103",
+      "name": "Perth and Kinross Shire",
+      "slug": "perth-and-kinross-shire",
+      "url": "https://ukelections.co.uk/seats/parliament/perth-and-kinross-shire/"
+    },
+    {
+      "pcon24cd": "S14000105",
+      "name": "Stirling and Strathallan",
+      "slug": "stirling-and-strathallan",
+      "url": "https://ukelections.co.uk/seats/parliament/stirling-and-strathallan/"
+    }
+  ],
+  "S12000049": [
+    {
+      "pcon24cd": "S14000084",
+      "name": "Glasgow East",
+      "slug": "glasgow-east",
+      "url": "https://ukelections.co.uk/seats/parliament/glasgow-east/"
+    },
+    {
+      "pcon24cd": "S14000085",
+      "name": "Glasgow North",
+      "slug": "glasgow-north",
+      "url": "https://ukelections.co.uk/seats/parliament/glasgow-north/"
+    },
+    {
+      "pcon24cd": "S14000086",
+      "name": "Glasgow North East",
+      "slug": "glasgow-north-east",
+      "url": "https://ukelections.co.uk/seats/parliament/glasgow-north-east/"
+    },
+    {
+      "pcon24cd": "S14000087",
+      "name": "Glasgow South",
+      "slug": "glasgow-south",
+      "url": "https://ukelections.co.uk/seats/parliament/glasgow-south/"
+    },
+    {
+      "pcon24cd": "S14000088",
+      "name": "Glasgow South West",
+      "slug": "glasgow-south-west",
+      "url": "https://ukelections.co.uk/seats/parliament/glasgow-south-west/"
+    },
+    {
+      "pcon24cd": "S14000089",
+      "name": "Glasgow West",
+      "slug": "glasgow-west",
+      "url": "https://ukelections.co.uk/seats/parliament/glasgow-west/"
+    },
+    {
+      "pcon24cd": "S14000101",
+      "name": "Paisley and Renfrewshire North",
+      "slug": "paisley-and-renfrewshire-north",
+      "url": "https://ukelections.co.uk/seats/parliament/paisley-and-renfrewshire-north/"
+    },
+    {
+      "pcon24cd": "S14000106",
+      "name": "West Dunbartonshire",
+      "slug": "west-dunbartonshire",
+      "url": "https://ukelections.co.uk/seats/parliament/west-dunbartonshire/"
+    }
+  ],
+  "S12000050": [
+    {
+      "pcon24cd": "S14000063",
+      "name": "Airdrie and Shotts",
+      "slug": "airdrie-and-shotts",
+      "url": "https://ukelections.co.uk/seats/parliament/airdrie-and-shotts/"
+    },
+    {
+      "pcon24cd": "S14000070",
+      "name": "Coatbridge and Bellshill",
+      "slug": "coatbridge-and-bellshill",
+      "url": "https://ukelections.co.uk/seats/parliament/coatbridge-and-bellshill/"
+    },
+    {
+      "pcon24cd": "S14000072",
+      "name": "Cumbernauld and Kirkintilloch",
+      "slug": "cumbernauld-and-kirkintilloch",
+      "url": "https://ukelections.co.uk/seats/parliament/cumbernauld-and-kirkintilloch/"
+    },
+    {
+      "pcon24cd": "S14000099",
+      "name": "Motherwell Wishaw and Carluke",
+      "slug": "motherwell-wishaw-and-carluke",
+      "url": "https://ukelections.co.uk/seats/parliament/motherwell-wishaw-and-carluke/"
+    }
+  ],
+  "W06000001": [
+    {
+      "pcon24cd": "W07000112",
+      "name": "Ynys Mon",
+      "slug": "ynys-mon",
+      "url": "https://ukelections.co.uk/seats/parliament/ynys-mon/"
+    }
+  ],
   "W06000002": [
     {
       "pcon24cd": "W07000083",
@@ -5215,6 +6147,12 @@
       "name": "Clwyd East",
       "slug": "clwyd-east",
       "url": "https://ukelections.co.uk/seats/parliament/clwyd-east/"
+    },
+    {
+      "pcon24cd": "W07000102",
+      "name": "Montgomeryshire and Glyndwr",
+      "slug": "montgomeryshire-and-glyndwr",
+      "url": "https://ukelections.co.uk/seats/parliament/montgomeryshire-and-glyndwr/"
     },
     {
       "pcon24cd": "W07000111",
@@ -5455,6 +6393,12 @@
       "name": "Brecon, Radnor and Cwm Tawe",
       "slug": "brecon-radnor-and-cwm-tawe",
       "url": "https://ukelections.co.uk/seats/parliament/brecon-radnor-and-cwm-tawe/"
+    },
+    {
+      "pcon24cd": "W07000102",
+      "name": "Montgomeryshire and Glyndwr",
+      "slug": "montgomeryshire-and-glyndwr",
+      "url": "https://ukelections.co.uk/seats/parliament/montgomeryshire-and-glyndwr/"
     }
   ],
   "W06000024": [

@@ -10,7 +10,12 @@ permissions:
 jobs:
   validate:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
+    # The Cloudflare Web Analytics beacon token is public (it ships in every page).
+    # It comes from the CF_BEACON_TOKEN repository variable, set by the repo owner;
+    # when unset the site builds with no beacon and check:analytics asserts that.
+    env:
+      PUBLIC_CF_BEACON_TOKEN: ${{ vars.CF_BEACON_TOKEN }}
     steps:
       - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09
         with:
@@ -25,9 +30,21 @@ jobs:
       - run: npm run test:signals
       - run: npm run test:constituencies
       - run: npm run test:source-onboarding
+      - run: npm run test:house-style
+      - run: npm run test:school-holidays
+      - run: npm run test:indexnow
+      - run: npm run test:local-links
       - run: npm run lint
-      - run: npm run build
+      # BUILD_OG=1 renders the 1,011 per-record share cards. Set in an env block:
+      # pure shell, no GitHub event interpolation, no injection risk.
+      - name: Build with share cards
+        run: npm run build
+        env:
+          BUILD_OG: "1"
       - run: npm run check:contrast
       - run: npm run check:text-size
       - run: npm run check:sitemap
+      - run: npm run check:metadata
+      - run: npm run check:analytics
+      - run: npm run check:landing
       - run: npm run check:parity

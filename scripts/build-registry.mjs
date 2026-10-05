@@ -1,11 +1,14 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { displayNameFor, searchNamesFor } from "./place-names.mjs";
 
 const siteRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const registryDir = path.join(siteRoot, "src", "data", "registry");
 const outputPath = path.join(registryDir, "places.json");
 const overridesPath = path.join(registryDir, "slug-overrides.json");
+// Committed output of scripts/build-wikidata-lookup.mjs, so a clean checkout builds offline.
+const wikidataPath = path.join(registryDir, "wikidata-by-gss.json");
 
 const sourcePaths = {
   crosswalk: "/Users/tompickup/aidoge-site/data/shared/council_crosswalk.json",
@@ -16,6 +19,9 @@ const sourcePaths = {
   asylumstats: "/Users/tompickup/asylumstats/data/marts/uk_routes/local-route-latest.json",
   counties: "/Users/tompickup/asylumstats/src/data/live/lad-to-county.json",
   reorganisation: "/Users/tompickup/ukelections/data/geography/lancashire-unitaries.json",
+  // Both committed in the food hygiene repo, so a clean checkout of it is enough.
+  ukfoodhygieneLaMap: "/Users/tompickup/ukfoodhygiene/etl/la_map.csv",
+  ukfoodhygieneCrosswalk: "/Users/tompickup/ukfoodhygiene/etl/current_lad25_crosswalk.csv",
 };
 
 const sourceUrls = {
@@ -23,6 +29,7 @@ const sourceUrls = {
   ukdemographics: "https://ukdemographics.co.uk/places/",
   aidoge: "https://aidoge.co.uk/councils/",
   asylumstats: "https://asylumstats.co.uk/places/",
+  ukfoodhygiene: "https://ukfoodhygiene.co.uk/councils/",
 };
 
 const typeLabels = {
@@ -36,6 +43,14 @@ const typeLabels = {
 };
 
 const readJson = (filePath) => JSON.parse(fs.readFileSync(filePath, "utf8"));
+
+// Minimal CSV reader: comma-separated, double-quoted fields may contain commas.
+function readCsv(filePath) {
+  const [header, ...rows] = fs.readFileSync(filePath, "utf8").trim().split(/\r?\n/).map((line) =>
+    [...line.matchAll(/(?:^|,)(?:"((?:[^"]|"")*)"|([^,]*))/g)].map(([, quoted, plain]) => quoted?.replace(/""/g, "\"") ?? plain),
+  );
+  return rows.map((row) => Object.fromEntries(header.map((key, index) => [key, row[index] ?? ""])));
+}
 
 function slugifyPublishedName(name) {
   return name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
@@ -63,6 +78,7 @@ const asylumstats = readJson(sourcePaths.asylumstats);
 const counties = readJson(sourcePaths.counties);
 const reorganisation = readJson(sourcePaths.reorganisation);
 const slugOverrides = readJson(overridesPath);
+const wikidataByGss = readJson(wikidataPath);
 
 const asylumAreas = asylumstats.areas;
 if (!Array.isArray(asylumAreas) || asylumAreas.length !== 361) {
@@ -127,6 +143,20 @@ for (const row of crosswalkRows) {
   aidogeByGss.set(row.ons_code, current);
 }
 
+// UK Food Hygiene council pages keyed on GSS from its own join file. Its LAD24 codes
+// are moved to the current code only through the repo's own committed crosswalk
+// (Barnsley and Sheffield); the two port health authorities carry no GSS code.
+const ukfoodhygieneCrosswalk = new Map(
+  readCsv(sourcePaths.ukfoodhygieneCrosswalk).map((row) => [row.legacy_gss_code, row.current_lad_code]),
+);
+const ukfoodhygieneByGss = new Map();
+for (const row of readCsv(sourcePaths.ukfoodhygieneLaMap)) {
+  if (!row.gss_code || !row.council_slug) continue;
+  const gss = ukfoodhygieneCrosswalk.get(row.gss_code) ?? row.gss_code;
+  if (ukfoodhygieneByGss.has(gss)) throw new Error(`Multiple UK Food Hygiene councils map to ${gss}.`);
+  ukfoodhygieneByGss.set(gss, row.council_slug);
+}
+
 const decidedModel = reorganisation.models["four-unitary"];
 const reorganisationBySlug = new Map();
 for (const unitary of decidedModel.unitaries) {
@@ -165,36 +195,59 @@ for (const area of [...asylumAreas].sort((left, right) => left.areaCode.localeCo
   const ukdArea = ukdemographics.areas[gss] ?? ukdemographicsBySlug.get(defaultSlug) ?? null;
   const ukdSlug = ukdArea ? slugifyPublishedName(ukdArea.areaName) : null;
   const asylumSlug = slugifyPublishedName(area.areaName);
+  const foodHygieneSlug = ukfoodhygieneByGss.get(gss) ?? null;
 
   registry[gss] = {
     gss,
     slug,
     name: area.areaName,
+    displayName: displayNameFor(area.areaName),
+    searchNames: searchNamesFor(area.areaName),
     officialName: aidogeMatch?.summary.name ?? exactCrosswalk?.name ?? area.areaName,
     type,
     country: area.countryName,
     region: area.regionName,
     county,
     parentGss,
-    wikidata: null,
+    wikidata: wikidataByGss[gss] ?? null,
     reorganisation: reorganisationBySlug.get(slug) ?? null,
     coverage: {
       ukelections: coverage(Boolean(ukeSlug), ukeSlug, sourceUrls.ukelections),
       ukdemographics: coverage(Boolean(ukdSlug), ukdSlug, sourceUrls.ukdemographics),
       aidoge: coverage(Boolean(aidogeMatch), aidogeMatch?.id ?? null, sourceUrls.aidoge),
       asylumstats: coverage(true, asylumSlug, sourceUrls.asylumstats),
+      ukfoodhygiene: coverage(Boolean(foodHygieneSlug), foodHygieneSlug, sourceUrls.ukfoodhygiene),
     },
   };
 }
+
+// County councils named by the parent GSS codes above, from the AI DOGE crosswalk
+// only: the name AI DOGE publishes where it confirms a page, the crosswalk name
+// otherwise, and no record at all where the crosswalk holds no single row.
+const countyCouncils = {};
+for (const parentGss of [...new Set(Object.values(registry).map((place) => place.parentGss).filter(Boolean))].sort()) {
+  const crosswalkMatches = crosswalkByGss.get(parentGss) ?? [];
+  if (crosswalkMatches.length !== 1) continue;
+  const aidogeMatches = aidogeByGss.get(parentGss) ?? [];
+  const aidogeMatch = aidogeMatches.length === 1 ? aidogeMatches[0] : null;
+  countyCouncils[parentGss] = {
+    gss: parentGss,
+    name: aidogeMatch?.summary.name ?? crosswalkMatches[0].name,
+    aidoge: coverage(Boolean(aidogeMatch), aidogeMatch?.id ?? null, sourceUrls.aidoge),
+  };
+}
+fs.writeFileSync(path.join(registryDir, "county-councils.json"), `${JSON.stringify(countyCouncils, null, 2)}\n`);
 
 if (unresolvedParents.length) {
   console.warn(`Parent GSS unavailable: ${unresolvedParents.join(", ")}`);
 }
 
 fs.writeFileSync(outputPath, `${JSON.stringify(registry, null, 2)}\n`);
+// The published copy that sister sites read at /data/registry/places.json.
+fs.writeFileSync(path.join(siteRoot, "public", "data", "registry", "places.json"), `${JSON.stringify(registry, null, 2)}\n`);
 
 const coverageCounts = Object.fromEntries(
-  ["ukelections", "ukdemographics", "aidoge", "asylumstats"].map((source) => [
+  ["ukelections", "ukdemographics", "aidoge", "asylumstats", "ukfoodhygiene"].map((source) => [
     source,
     Object.values(registry).filter((place) => place.coverage[source].hasPage).length,
   ]),
@@ -203,4 +256,5 @@ const coverageCounts = Object.fromEntries(
 console.table(
   Object.entries(coverageCounts).map(([source, covered]) => ({ source, covered, total: Object.keys(registry).length })),
 );
+console.log(`County councils named: ${Object.keys(countyCouncils).length}`);
 console.log("Burnley coverage:", registry.E07000117.coverage);

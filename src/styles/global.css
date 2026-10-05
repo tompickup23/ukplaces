@@ -431,7 +431,7 @@ a {
 
 .place-geo__value {
   display: block;
-  margin-top: 0.35rem;
+  margin: 0.35rem 0 0;
 }
 
 .place-geo__value a:focus-visible,
@@ -645,8 +645,11 @@ a {
   width: fit-content;
 }
 
+/* Source accents are too dark to read as text on the dark ground; they stay on
+   the borders as wayfinding and the text takes the ink colour. */
 @media (prefers-color-scheme: dark) {
-  .place-source__name {
+  .place-source__name,
+  .home-source-card h3 {
     color: var(--text);
   }
 }
@@ -865,4 +868,54 @@ a {
 .updates-list h2 {
   font-size: 1.35rem;
   margin-top: 0.5rem;
+}
+
+.eyebrow a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.eyebrow a:hover {
+  color: var(--accent);
+}
+
+.eyebrow a:focus-visible,
+.place-siblings__more a:focus-visible {
+  outline: 3px solid var(--focus-ring, var(--accent));
+  outline-offset: 3px;
+}
+
+.place-geo__code {
+  color: var(--text-muted);
+  font-size: 0.875rem;
+  white-space: nowrap;
+}
+
+.place-siblings {
+  margin-top: 1.25rem;
+}
+
+.place-siblings__more {
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin: 1rem 0 0;
+}
+
+.home-source-card .home-source-card__open {
+  font-size: 1rem;
+}
+
+.home-source-card .home-source-card__about {
+  color: var(--text-muted);
+  display: block;
+  font-weight: 400;
+  margin-top: 0.5rem;
+}
+
+.place-hero__intro {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  margin: 1rem 0 0;
+  max-width: 62ch;
 }
