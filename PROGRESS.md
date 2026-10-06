@@ -123,3 +123,29 @@ Resolved the failed lastmod gate using Git-backed constituency record dates, kep
 All content PRs #15 to #23 are contained in the original 23-commit landing branch. No landing or deployment yet. The two original untracked files remain excluded. Main's linear-history rule conflicts with the requested merge commit and remains unchanged. Full comparison and check record: docs/ROUND-2-LANDING-2026-10-06.md. Open questions: UK Places indexing for council-name searches when UK Councils is the front door, and the analytics token.
 
 The first GitHub Site checks run passed, including all share cards. CodeQL flagged the new HTML checker's regex-based text extraction. Replaced it with parse5 tree traversal rather than suppressing the alerts. The local build, landing, sitemap, metadata and analytics checks pass again. A fresh CI run is required before any merge.
+
+Landed 5 October 2026 as PR #26 (merge `5b79c16`). Production now serves the Round 2 site. New work follows `docs/ROUND-3-PLAN.md`.
+
+## Round 3
+
+Plan: `docs/ROUND-3-PLAN.md`. Baseline `git rev-parse HEAD`: `5b79c16850304033a14f9d816525325e40b562ce` (`origin/main` after PR #26).
+
+This round writes the estate role that Codex and Opus only cited, then adds the UK Councils link without a sixth source. It does not add modules until Search Console counts exist (D15).
+
+### Steps
+
+- [x] 0. Open Round 3, point Codex and Opus at the new plan, rewrite playbook positioning for D11.
+- [ ] 1. UK Councils coverage link, not a sixth source.
+- [ ] 2. Reverse link in the UK Councils repo.
+- [ ] 3. Query-language guard against "council tax" in titles and descriptions.
+- [ ] 4. Token provenance (`apply.py` if reachable, otherwise document the match).
+- [ ] 5. Search Console paste and www check (Tom).
+- [ ] 6. Close: playbook, operations, final log line.
+
+### Blocked
+
+- None yet. Step 5 waits on Tom. Step 4 waits on the clawd design-system tree if token generation is required; the ship-without path is a note in `docs/OPERATIONS.md`.
+
+### Log
+
+- 2026-10-06, Step 0: opened Round 3 after a review of the live site, UK Councils, and the August 2026 brand memories. Codex and Opus plans marked historical. Playbook positioning now calls UK Places the geography spine and routes council tax to UK Councils. New decisions D11 to D15 are in `docs/ROUND-3-PLAN.md`. Verified: Round 3 heading present; playbook no longer uses an unqualified "front door"; house-style check covers `src/` and `scripts/` only and is unchanged by this docs commit. Next: step 1.
