@@ -149,3 +149,4 @@ This round writes the estate role that Codex and Opus only cited, then adds the 
 ### Log
 
 - 2026-10-06, Step 0: opened Round 3 after a review of the live site, UK Councils, and the August 2026 brand memories. Codex and Opus plans marked historical. Playbook positioning now calls UK Places the geography spine and routes council tax to UK Councils. New decisions D11 to D15 are in `docs/ROUND-3-PLAN.md`. Verified: Round 3 heading present; playbook no longer uses an unqualified "front door"; house-style check covers `src/` and `scripts/` only and is unchanged by this docs commit. Next: step 1.
+- 2026-10-06, Session archived: no further coding from this session. Handoff for the next run is `docs/SESSION-2026-10-06-ROUND-3-ARCHIVE.md`. Open draft PR #27. Waiting on Tom's D11 line before steps 1 to 3.
