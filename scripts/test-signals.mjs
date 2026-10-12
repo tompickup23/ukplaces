@@ -35,14 +35,46 @@ assert.deepEqual(feeds.ukelections.E07000117, {
   snapshotDate: "2026-08-30",
   url: "https://ukelections.co.uk/seats/burnley/",
 });
-assert.deepEqual(feeds.ukdemographics.E07000117, {
-  value: 107.4,
-  unit: "per 1,000 residents",
-  label: "Total recorded crime",
-  period: "latest held by source: Year ending March 2024; dataset updated 28 April 2026.",
-  snapshotDate: "2026-04-28",
-  url: "https://ukdemographics.co.uk/places/burnley/",
-});
+// UK Demographics crime: shape and cross-source checks rather than a pinned release figure,
+// so a quarterly ONS edition passes without editing this file.
+const registry = JSON.parse(fs.readFileSync(path.join(siteRoot, "src", "data", "registry", "places.json"), "utf8"));
+const formatLongDate = (iso) =>
+  new Intl.DateTimeFormat("en-GB", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" }).format(new Date(`${iso}T00:00:00Z`));
+const crimeSignals = Object.entries(feeds.ukdemographics).filter(([, signal]) => signal.value !== null);
+assert.ok(crimeSignals.length > 0, "UK Demographics crime feed has signals");
+const crimeSnapshots = new Set(crimeSignals.map(([, signal]) => signal.snapshotDate));
+assert.equal(crimeSnapshots.size, 1, "every UK Demographics crime signal comes from one edition");
+for (const [gss, signal] of crimeSignals) {
+  const coverage = registry[gss]?.coverage?.ukdemographics;
+  assert.ok(coverage?.hasPage, `ukdemographics ${gss} has a signal only where the registry has a page`);
+  assert.equal(signal.url, coverage.url, `ukdemographics ${gss} URL matches the registry`);
+  assert.equal(typeof signal.value, "number", `ukdemographics ${gss} value is a number`);
+  assert.ok(signal.value > 0 && Number(signal.value.toFixed(1)) === signal.value, `ukdemographics ${gss} value is a positive one-decimal rate`);
+  assert.equal(signal.unit, "per 1,000 residents");
+  assert.equal(signal.label, "Total recorded crime");
+  assert.match(signal.snapshotDate, /^\d{4}-\d{2}-\d{2}$/);
+  assert.match(signal.period, /^latest held by source: Year ending [A-Z][a-z]+ \d{4}, [^;]+; dataset updated \d{1,2} [A-Z][a-z]+ \d{4}\.$/, `ukdemographics ${gss} period names the year ending and the source`);
+  assert.ok(signal.period.endsWith(`dataset updated ${formatLongDate(signal.snapshotDate)}.`), `ukdemographics ${gss} period date matches snapshotDate`);
+}
+// Cross-source, on this Mac only: the UK Demographics file the feed was built from. CI has
+// no copy, and a local checkout of another edition is reported rather than failed.
+const ukdCrimePath = process.env.UKD_CRIME_DASHBOARD ?? "/Users/tompickup/ukdemographics/src/data/live/crime-dashboard.json";
+if (fs.existsSync(ukdCrimePath)) {
+  const ukd = JSON.parse(fs.readFileSync(ukdCrimePath, "utf8"));
+  const [feedSnapshot] = crimeSnapshots;
+  if (ukd.lastUpdated === feedSnapshot) {
+    for (const [gss, signal] of Object.entries(feeds.ukdemographics)) {
+      const area = ukd.areas[gss];
+      const expected = area && registry[gss].coverage.ukdemographics.hasPage && area.totalCrimeRate !== null ? Number(area.totalCrimeRate.toFixed(1)) : null;
+      assert.equal(signal.value, expected, `ukdemographics ${gss} value matches ${ukdCrimePath}`);
+    }
+    console.log(`UK Demographics crime feed matches ${ukdCrimePath} for all ${Object.keys(feeds.ukdemographics).length} places.`);
+  } else {
+    console.warn(`Skipped the UK Demographics cross-check: ${ukdCrimePath} is the ${ukd.lastUpdated} edition, the feed is ${feedSnapshot}.`);
+  }
+} else {
+  console.log("Skipped the UK Demographics cross-check: no local crime-dashboard.json.");
+}
 assert.deepEqual(feeds.aidoge.E07000117, {
   value: "£38,056,787",
   unit: "GBP",
@@ -70,4 +102,4 @@ for (const [gss, signal] of Object.entries(feeds.ukfoodhygiene)) {
   if (gss.startsWith("S")) assert.equal(signal.value, null, `${gss} Scottish pass/improvement scheme has no 0 to 5 share`);
 }
 
-console.log(`Signal checks passed for ${sourceIds.length} source feeds and the exact Burnley signals (UK Food Hygiene ${foodBurnley.value} of ${foodBurnley.label.match(/out of ([\d,]+)/)[1]} rated, ${foodBurnley.snapshotDate}).`);
+console.log(`Signal checks passed for ${sourceIds.length} source feeds, the UK Demographics crime checks and the exact Burnley signals for the other feeds (UK Food Hygiene ${foodBurnley.value} of ${foodBurnley.label.match(/out of ([\d,]+)/)[1]} rated, ${foodBurnley.snapshotDate}).`);
