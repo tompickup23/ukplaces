@@ -1,5 +1,8 @@
 # Round 2 landing review
 
+Landed on `main` as PR #26 on 5 October 2026 (merge `5b79c16`). New work
+follows `docs/ROUND-3-PLAN.md`.
+
 ## Route
 
 Compared the fetched PR base and head trees with origin/feat/local-links at 5ca78c5eea0cccb3f99325aa21291d39f40f751f. All nine content PR heads are ancestors of the landing branch. Files subsequently changed by later commits were compared as part of the review. Dependency PRs remain separate.
@@ -70,6 +73,9 @@ GitHub Site checks passed on b1a3262, including the complete share-card build. T
 
 ## Open decisions
 
-Tom still needs to decide whether UK Places should stay out of council-name searches, with UK Councils as the front door. No place noindex is introduced here. The CF_BEACON_TOKEN repository variable is absent, so production remains free of analytics until Tom supplies it.
+The council-name search question is decided for Round 3 in
+`docs/ROUND-3-PLAN.md` (D11): UK Places stays indexable; UK Councils owns
+council-tax queries in England. The CF_BEACON_TOKEN repository variable is
+absent, so production remains free of analytics until Tom supplies it.
 
 There are no parish or town-specific routes in this registry. A town-named local-authority record can be checked, but must not be presented as a parish or settlement page.
