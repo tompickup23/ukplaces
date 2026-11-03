@@ -10,6 +10,7 @@
     "lint": "astro check",
     "build:registry": "node scripts/build-registry.mjs",
     "test:registry": "node scripts/test-registry.mjs",
+    "test:counties": "node scripts/test-counties.mjs",
     "build:signals": "node scripts/build-signals.mjs",
     "test:signals": "node scripts/test-signals.mjs",
     "test:source-onboarding": "node scripts/test-source-onboarding.mjs",

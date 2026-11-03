@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { displayNameFor, searchNamesFor } from "./place-names.mjs";
+import { countyFor } from "./county-reference.mjs";
 
 const siteRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const registryDir = path.join(siteRoot, "src", "data", "registry");
@@ -17,7 +18,6 @@ const sourcePaths = {
   ukelections: "/Users/tompickup/ukelections/data/identity/council-slug-to-lad24.json",
   ukdemographics: "/Users/tompickup/ukdemographics/src/data/live/ethnic-projections.json",
   asylumstats: "/Users/tompickup/asylumstats/data/marts/uk_routes/local-route-latest.json",
-  counties: "/Users/tompickup/asylumstats/src/data/live/lad-to-county.json",
   reorganisation: "/Users/tompickup/ukelections/data/geography/lancashire-unitaries.json",
   // Both committed in the food hygiene repo, so a clean checkout of it is enough.
   ukfoodhygieneLaMap: "/Users/tompickup/ukfoodhygiene/etl/la_map.csv",
@@ -75,7 +75,6 @@ const sisterLinks = readJson(sourcePaths.sisterLinks);
 const ukelections = readJson(sourcePaths.ukelections);
 const ukdemographics = readJson(sourcePaths.ukdemographics);
 const asylumstats = readJson(sourcePaths.asylumstats);
-const counties = readJson(sourcePaths.counties);
 const reorganisation = readJson(sourcePaths.reorganisation);
 const slugOverrides = readJson(overridesPath);
 const wikidataByGss = readJson(wikidataPath);
@@ -184,7 +183,7 @@ for (const area of [...asylumAreas].sort((left, right) => left.areaCode.localeCo
   const exactCrosswalk = crosswalkMatches.length === 1 ? crosswalkMatches[0] : null;
   const aidogeMatches = aidogeByGss.get(gss) ?? [];
   const aidogeMatch = aidogeMatches.length === 1 ? aidogeMatches[0] : null;
-  const county = area.countryName === "England" ? counties.lookup[gss] ?? null : null;
+  const county = countyFor(gss);
   const parentGss = gss.startsWith("E07") && county
     ? countyCouncilGssByName.get(normaliseCountyName(county)) ?? null
     : null;

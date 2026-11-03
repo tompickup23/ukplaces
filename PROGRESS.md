@@ -1,5 +1,23 @@
 # UK Places progress
 
+## County audit, 3 November 2026
+
+Reviewed the live Lieutenancies Act 1997 Schedule 1 and recorded its URL, access
+date, response hash, quoted entries and decisions in `data/ceremonialcounties.json`.
+The audit covers all 33 London records and all 63 English unitary records. Corrected
+83 county values in both registry copies, including Wandsworth and Luton. Thirteen
+English unitary values remain blank with notes. All other record fields are
+unchanged. Existing district memberships and other blanks are recorded separately
+in the reference table without claiming that the schedule names every district.
+
+The registry builder now reads the committed county evidence instead of the
+sibling county lookup. The new county test runs within the existing registry
+gate and checks every one of the 361 records in both copies. It failed on the
+original data with 83 mismatches and passes after the corrections. No sibling
+signals were rebuilt. Main CI has an existing undici dependency failure covered
+by Dependabot PR 37, which only Tom can merge. That PR and dependencies are
+unchanged. This work is for a feature branch PR only, with no merge or deployment.
+
 Baseline `git rev-parse HEAD`: `2685f4f19c42c2d0d4be14fff4c3d40763408ee4`
 
 ## Steps

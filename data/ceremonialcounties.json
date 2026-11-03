@@ -1,0 +1,3081 @@
+{
+  "source": {
+    "title": "Lieutenancies Act 1997, Schedule 1",
+    "url": "https://www.legislation.gov.uk/ukpga/1997/23/schedule/1",
+    "retrievedFrom": "https://www.legislation.gov.uk/ukpga/1997/23/schedule/1/data.xml",
+    "accessed": "3 November 2026",
+    "sha256": "11a1a1da0b42a48a686d33ba5823d7516d38371a07b15fbbe16e7c6be9589de8",
+    "licence": "Crown copyright. Contains public sector information licensed under the Open Government Licence v3.0."
+  },
+  "method": "All 33 London records and all 63 English unitary records reviewed against the current schedule. The other 265 records retain existing county membership or blanks, with the applicable schedule provision recorded. Welsh principal areas and Scottish council areas are explicitly noted. GSS codes identify registry records and are not claimed to appear in the Act. This reference is maintained independently of the registry builder.",
+  "entries": {
+    "Bedfordshire": {
+      "county": "Bedfordshire",
+      "quote": "Bedford, Central Bedfordshire and Luton",
+      "paragraph": "3"
+    },
+    "Buckinghamshire": {
+      "county": "Buckinghamshire",
+      "quote": "Buckinghamshire and Milton Keynes",
+      "paragraph": "3"
+    },
+    "Cambridgeshire": {
+      "county": "Cambridgeshire",
+      "quote": "Cambridgeshire and Peterborough",
+      "paragraph": "3"
+    },
+    "Cheshire": {
+      "county": "Cheshire",
+      "quote": "Cheshire East, Cheshire West and Chester, and, Halton and Warrington",
+      "paragraph": "3"
+    },
+    "Cumbria": {
+      "county": "Cumbria",
+      "quote": "Cumberland, Westmorland and Furness",
+      "paragraph": "3"
+    },
+    "Derbyshire": {
+      "county": "Derbyshire",
+      "quote": "Derbyshire and Derby",
+      "paragraph": "3"
+    },
+    "Devon": {
+      "county": "Devon",
+      "quote": "Devon, Plymouth and Torbay",
+      "paragraph": "3"
+    },
+    "Dorset": {
+      "county": "Dorset",
+      "quote": "Bournemouth, Christchurch and Poole and Dorset",
+      "paragraph": "3"
+    },
+    "Durham": {
+      "county": "Durham",
+      "quote": "Durham, Darlington, Hartlepool and so much of Stockton-on-Tees as lies north of the line for the time being of the centre of the River Tees",
+      "paragraph": "3"
+    },
+    "The East Riding of Yorkshire": {
+      "county": "The East Riding of Yorkshire",
+      "quote": "The East Riding of Yorkshire and Kingston upon Hull (City of)",
+      "paragraph": "3"
+    },
+    "East Sussex": {
+      "county": "East Sussex",
+      "quote": "East Sussex and Brighton and Hove",
+      "paragraph": "3"
+    },
+    "Essex": {
+      "county": "Essex",
+      "quote": "Essex, Southend-on-Sea and Thurrock",
+      "paragraph": "3"
+    },
+    "Gloucestershire": {
+      "county": "Gloucestershire",
+      "quote": "Gloucestershire and South Gloucestershire",
+      "paragraph": "3"
+    },
+    "Hampshire": {
+      "county": "Hampshire",
+      "quote": "Hampshire, Portsmouth and Southampton",
+      "paragraph": "3"
+    },
+    "Kent": {
+      "county": "Kent",
+      "quote": "Kent and the Medway Towns",
+      "paragraph": "3"
+    },
+    "Lancashire": {
+      "county": "Lancashire",
+      "quote": "Lancashire, Blackburn and Blackpool",
+      "paragraph": "3"
+    },
+    "Leicestershire": {
+      "county": "Leicestershire",
+      "quote": "Leicestershire and Leicester",
+      "paragraph": "3"
+    },
+    "Lincolnshire": {
+      "county": "Lincolnshire",
+      "quote": "Lincolnshire, North Lincolnshire and North East Lincolnshire",
+      "paragraph": "3"
+    },
+    "Northamptonshire": {
+      "county": "Northamptonshire",
+      "quote": "North Northamptonshire and West Northamptonshire",
+      "paragraph": "3"
+    },
+    "North Yorkshire": {
+      "county": "North Yorkshire",
+      "quote": "North Yorkshire, Middlesbrough, Redcar and Cleveland, York and so much of Stockton-on-Tees as lies south of the line for the time being of the centre of the River Tees",
+      "paragraph": "3"
+    },
+    "Nottinghamshire": {
+      "county": "Nottinghamshire",
+      "quote": "Nottinghamshire and Nottingham",
+      "paragraph": "3"
+    },
+    "Shropshire": {
+      "county": "Shropshire",
+      "quote": "Shropshire and The Wrekin",
+      "paragraph": "3"
+    },
+    "Somerset": {
+      "county": "Somerset",
+      "quote": "Somerset, Bath and North East Somerset and North Somerset.",
+      "paragraph": "3"
+    },
+    "Staffordshire": {
+      "county": "Staffordshire",
+      "quote": "Staffordshire and Stoke-on-Trent",
+      "paragraph": "3"
+    },
+    "Wiltshire": {
+      "county": "Wiltshire",
+      "quote": "Wiltshire and Thamesdown.",
+      "paragraph": "3"
+    },
+    "London": {
+      "paragraph": "2(a)",
+      "quote": "Greater London (excluding the City of London);",
+      "county": "Greater London"
+    },
+    "OtherEnglishCounties": {
+      "paragraph": "2(c)",
+      "quote": "any other areas in England which are counties for the purposes of the Local Government Act 1972."
+    },
+    "City": {
+      "paragraph": "4",
+      "quote": "The City of London shall be treated as a county for the purposes of sections 5 and 6.",
+      "county": "City of London"
+    },
+    "Scilly": {
+      "paragraph": "5",
+      "quote": "The Isles of Scilly shall be treated as part of the county of Cornwall for the purposes of this Act.",
+      "county": "Cornwall"
+    },
+    "Wales": {
+      "paragraph": "6",
+      "quote": "The counties in Wales for the purposes of this Act are the preserved counties, that is to say, the counties in Wales as they stood immediately before the passing of the Local Government (Wales) Act 1994 (but subject to any redrawing of their boundaries by or under that Act or the Local Government Act 1972)."
+    },
+    "Scotland": {
+      "paragraph": "7",
+      "quote": "the cities of Aberdeen, Dundee, Edinburgh and Glasgow;"
+    },
+    "Scope": {
+      "paragraph": "1",
+      "quote": "The provisions of this Schedule identify the areas which constitute counties in England, counties in Wales or areas in Scotland for the purposes of the lieutenancies in Great Britain."
+    }
+  },
+  "records": {
+    "E06000001": {
+      "name": "Hartlepool",
+      "county": "Durham",
+      "entries": [
+        "Durham"
+      ],
+      "note": "Named local government area in the schedule."
+    },
+    "E06000002": {
+      "name": "Middlesbrough",
+      "county": "North Yorkshire",
+      "entries": [
+        "North Yorkshire"
+      ],
+      "note": "Named local government area in the schedule."
+    },
+    "E06000003": {
+      "name": "Redcar and Cleveland",
+      "county": "North Yorkshire",
+      "entries": [
+        "North Yorkshire"
+      ],
+      "note": "Named local government area in the schedule."
+    },
+    "E06000004": {
+      "name": "Stockton-on-Tees",
+      "county": null,
+      "entries": [
+        "Durham",
+        "North Yorkshire"
+      ],
+      "note": "The schedule divides this authority at the centre of the River Tees between Durham and North Yorkshire. A single county would be misleading, so the field stays blank."
+    },
+    "E06000005": {
+      "name": "Darlington",
+      "county": "Durham",
+      "entries": [
+        "Durham"
+      ],
+      "note": "Named local government area in the schedule."
+    },
+    "E06000006": {
+      "name": "Halton",
+      "county": "Cheshire",
+      "entries": [
+        "Cheshire"
+      ],
+      "note": "Named local government area in the schedule."
+    },
+    "E06000007": {
+      "name": "Warrington",
+      "county": "Cheshire",
+      "entries": [
+        "Cheshire"
+      ],
+      "note": "Named local government area in the schedule."
+    },
+    "E06000008": {
+      "name": "Blackburn with Darwen",
+      "county": "Lancashire",
+      "entries": [
+        "Lancashire"
+      ],
+      "note": "Article 3 footnote records the change from Blackburn to Blackburn with Darwen on 2 May 1997.",
+      "nameEvidence": {
+        "scheduleName": "Blackburn",
+        "url": "https://www.legislation.gov.uk/uksi/2002/3223/made",
+        "accessed": "3 November 2026"
+      }
+    },
+    "E06000009": {
+      "name": "Blackpool",
+      "county": "Lancashire",
+      "entries": [
+        "Lancashire"
+      ],
+      "note": "Named local government area in the schedule."
+    },
+    "E06000010": {
+      "name": "Kingston upon Hull, City of",
+      "county": "East Riding of Yorkshire",
+      "entries": [
+        "The East Riding of Yorkshire"
+      ],
+      "note": "The schedule names Kingston upon Hull (City of). The county display name omits the initial article The."
+    },
+    "E06000011": {
+      "name": "East Riding of Yorkshire",
+      "county": "East Riding of Yorkshire",
+      "entries": [
+        "The East Riding of Yorkshire"
+      ],
+      "note": "The county display name omits the initial article The."
+    },
+    "E06000012": {
+      "name": "North East Lincolnshire",
+      "county": "Lincolnshire",
+      "entries": [
+        "Lincolnshire"
+      ],
+      "note": "Named local government area in the schedule."
+    },
+    "E06000013": {
+      "name": "North Lincolnshire",
+      "county": "Lincolnshire",
+      "entries": [
+        "Lincolnshire"
+      ],
+      "note": "Named local government area in the schedule."
+    },
+    "E06000014": {
+      "name": "York",
+      "county": "North Yorkshire",
+      "entries": [
+        "North Yorkshire"
+      ],
+      "note": "Named local government area in the schedule."
+    },
+    "E06000015": {
+      "name": "Derby",
+      "county": "Derbyshire",
+      "entries": [
+        "Derbyshire"
+      ],
+      "note": "Named local government area in the schedule."
+    },
+    "E06000016": {
+      "name": "Leicester",
+      "county": "Leicestershire",
+      "entries": [
+        "Leicestershire"
+      ],
+      "note": "Named local government area in the schedule."
+    },
+    "E06000017": {
+      "name": "Rutland",
+      "county": null,
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "No direct assignment of this current authority appears in the schedule. Paragraph 2(c) incorporates other legislation but does not name this mapping. Left blank pending separate evidence, not an assertion that the authority has no ceremonial county."
+    },
+    "E06000018": {
+      "name": "Nottingham",
+      "county": "Nottinghamshire",
+      "entries": [
+        "Nottinghamshire"
+      ],
+      "note": "Named local government area in the schedule."
+    },
+    "E06000019": {
+      "name": "Herefordshire, County of",
+      "county": null,
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "No direct assignment of this current authority appears in the schedule. Paragraph 2(c) incorporates other legislation but does not name this mapping. Left blank pending separate evidence, not an assertion that the authority has no ceremonial county."
+    },
+    "E06000020": {
+      "name": "Telford and Wrekin",
+      "county": "Shropshire",
+      "entries": [
+        "Shropshire"
+      ],
+      "note": "Article 3 footnote records the change from The Wrekin to Telford and Wrekin on 1 April 1998.",
+      "nameEvidence": {
+        "scheduleName": "The Wrekin",
+        "url": "https://www.legislation.gov.uk/uksi/2002/2373/made",
+        "accessed": "3 November 2026"
+      }
+    },
+    "E06000021": {
+      "name": "Stoke-on-Trent",
+      "county": "Staffordshire",
+      "entries": [
+        "Staffordshire"
+      ],
+      "note": "Named local government area in the schedule."
+    },
+    "E06000022": {
+      "name": "Bath and North East Somerset",
+      "county": "Somerset",
+      "entries": [
+        "Somerset"
+      ],
+      "note": "Named local government area in the schedule."
+    },
+    "E06000023": {
+      "name": "Bristol, City of",
+      "county": null,
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "No direct assignment of this current authority appears in the schedule. Paragraph 2(c) incorporates other legislation but does not name this mapping. Left blank pending separate evidence, not an assertion that the authority has no ceremonial county."
+    },
+    "E06000024": {
+      "name": "North Somerset",
+      "county": "Somerset",
+      "entries": [
+        "Somerset"
+      ],
+      "note": "Named local government area in the schedule."
+    },
+    "E06000025": {
+      "name": "South Gloucestershire",
+      "county": "Gloucestershire",
+      "entries": [
+        "Gloucestershire"
+      ],
+      "note": "Named local government area in the schedule."
+    },
+    "E06000026": {
+      "name": "Plymouth",
+      "county": "Devon",
+      "entries": [
+        "Devon"
+      ],
+      "note": "Named local government area in the schedule."
+    },
+    "E06000027": {
+      "name": "Torbay",
+      "county": "Devon",
+      "entries": [
+        "Devon"
+      ],
+      "note": "Named local government area in the schedule."
+    },
+    "E06000030": {
+      "name": "Swindon",
+      "county": "Wiltshire",
+      "entries": [
+        "Wiltshire"
+      ],
+      "note": "The Swindon electoral order replaces the Thamesdown electoral arrangements in article 9.",
+      "nameEvidence": {
+        "scheduleName": "Thamesdown",
+        "url": "https://www.legislation.gov.uk/uksi/1999/2927/made",
+        "accessed": "3 November 2026"
+      }
+    },
+    "E06000031": {
+      "name": "Peterborough",
+      "county": "Cambridgeshire",
+      "entries": [
+        "Cambridgeshire"
+      ],
+      "note": "Named local government area in the schedule."
+    },
+    "E06000032": {
+      "name": "Luton",
+      "county": "Bedfordshire",
+      "entries": [
+        "Bedfordshire"
+      ],
+      "note": "Named local government area in the schedule."
+    },
+    "E06000033": {
+      "name": "Southend-on-Sea",
+      "county": "Essex",
+      "entries": [
+        "Essex"
+      ],
+      "note": "Named local government area in the schedule."
+    },
+    "E06000034": {
+      "name": "Thurrock",
+      "county": "Essex",
+      "entries": [
+        "Essex"
+      ],
+      "note": "Named local government area in the schedule."
+    },
+    "E06000035": {
+      "name": "Medway",
+      "county": "Kent",
+      "entries": [
+        "Kent"
+      ],
+      "note": "Schedule 2 footnote records the change from Medway Towns to Medway on 1 April 1998.",
+      "nameEvidence": {
+        "scheduleName": "the Medway Towns",
+        "url": "https://www.legislation.gov.uk/uksi/2004/1046/made",
+        "accessed": "3 November 2026"
+      }
+    },
+    "E06000036": {
+      "name": "Bracknell Forest",
+      "county": null,
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "No direct assignment of this current authority appears in the schedule. Paragraph 2(c) incorporates other legislation but does not name this mapping. Left blank pending separate evidence, not an assertion that the authority has no ceremonial county."
+    },
+    "E06000037": {
+      "name": "West Berkshire",
+      "county": null,
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "No direct assignment of this current authority appears in the schedule. Paragraph 2(c) incorporates other legislation but does not name this mapping. Left blank pending separate evidence, not an assertion that the authority has no ceremonial county."
+    },
+    "E06000038": {
+      "name": "Reading",
+      "county": null,
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "No direct assignment of this current authority appears in the schedule. Paragraph 2(c) incorporates other legislation but does not name this mapping. Left blank pending separate evidence, not an assertion that the authority has no ceremonial county."
+    },
+    "E06000039": {
+      "name": "Slough",
+      "county": null,
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "No direct assignment of this current authority appears in the schedule. Paragraph 2(c) incorporates other legislation but does not name this mapping. Left blank pending separate evidence, not an assertion that the authority has no ceremonial county."
+    },
+    "E06000040": {
+      "name": "Windsor and Maidenhead",
+      "county": null,
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "No direct assignment of this current authority appears in the schedule. Paragraph 2(c) incorporates other legislation but does not name this mapping. Left blank pending separate evidence, not an assertion that the authority has no ceremonial county."
+    },
+    "E06000041": {
+      "name": "Wokingham",
+      "county": null,
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "No direct assignment of this current authority appears in the schedule. Paragraph 2(c) incorporates other legislation but does not name this mapping. Left blank pending separate evidence, not an assertion that the authority has no ceremonial county."
+    },
+    "E06000042": {
+      "name": "Milton Keynes",
+      "county": "Buckinghamshire",
+      "entries": [
+        "Buckinghamshire"
+      ],
+      "note": "Named local government area in the schedule."
+    },
+    "E06000043": {
+      "name": "Brighton and Hove",
+      "county": "East Sussex",
+      "entries": [
+        "East Sussex"
+      ],
+      "note": "Named local government area in the schedule."
+    },
+    "E06000044": {
+      "name": "Portsmouth",
+      "county": "Hampshire",
+      "entries": [
+        "Hampshire"
+      ],
+      "note": "Named local government area in the schedule."
+    },
+    "E06000045": {
+      "name": "Southampton",
+      "county": "Hampshire",
+      "entries": [
+        "Hampshire"
+      ],
+      "note": "Named local government area in the schedule."
+    },
+    "E06000046": {
+      "name": "Isle of Wight",
+      "county": null,
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "No direct assignment of this current authority appears in the schedule. Paragraph 2(c) incorporates other legislation but does not name this mapping. Left blank pending separate evidence, not an assertion that the authority has no ceremonial county."
+    },
+    "E06000047": {
+      "name": "County Durham",
+      "county": "Durham",
+      "entries": [
+        "Durham"
+      ],
+      "note": "County Durham is the registry name of the local government area named Durham in the schedule."
+    },
+    "E06000049": {
+      "name": "Cheshire East",
+      "county": "Cheshire",
+      "entries": [
+        "Cheshire"
+      ],
+      "note": "Named local government area in the schedule."
+    },
+    "E06000050": {
+      "name": "Cheshire West and Chester",
+      "county": "Cheshire",
+      "entries": [
+        "Cheshire"
+      ],
+      "note": "Named local government area in the schedule."
+    },
+    "E06000051": {
+      "name": "Shropshire",
+      "county": "Shropshire",
+      "entries": [
+        "Shropshire"
+      ],
+      "note": "Named local government area in the schedule."
+    },
+    "E06000052": {
+      "name": "Cornwall",
+      "county": null,
+      "entries": [
+        "OtherEnglishCounties",
+        "Scilly"
+      ],
+      "note": "No direct assignment of this current authority appears in the schedule. Paragraph 2(c) incorporates other legislation but does not name this mapping. Left blank pending separate evidence, not an assertion that the authority has no ceremonial county. Paragraph 5 assigns Scilly to Cornwall but does not define the current Cornwall authority."
+    },
+    "E06000053": {
+      "name": "Isles of Scilly",
+      "county": "Cornwall",
+      "entries": [
+        "Scilly"
+      ],
+      "note": "Paragraph 5 expressly places the Isles of Scilly in Cornwall for this Act."
+    },
+    "E06000054": {
+      "name": "Wiltshire",
+      "county": "Wiltshire",
+      "entries": [
+        "Wiltshire"
+      ],
+      "note": "Named local government area in the schedule."
+    },
+    "E06000055": {
+      "name": "Bedford",
+      "county": "Bedfordshire",
+      "entries": [
+        "Bedfordshire"
+      ],
+      "note": "Named local government area in the schedule."
+    },
+    "E06000056": {
+      "name": "Central Bedfordshire",
+      "county": "Bedfordshire",
+      "entries": [
+        "Bedfordshire"
+      ],
+      "note": "Named local government area in the schedule."
+    },
+    "E06000057": {
+      "name": "Northumberland",
+      "county": null,
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "No direct assignment of this current authority appears in the schedule. Paragraph 2(c) incorporates other legislation but does not name this mapping. Left blank pending separate evidence, not an assertion that the authority has no ceremonial county."
+    },
+    "E06000058": {
+      "name": "Bournemouth, Christchurch and Poole",
+      "county": "Dorset",
+      "entries": [
+        "Dorset"
+      ],
+      "note": "Named local government area in the schedule."
+    },
+    "E06000059": {
+      "name": "Dorset",
+      "county": "Dorset",
+      "entries": [
+        "Dorset"
+      ],
+      "note": "Named local government area in the schedule."
+    },
+    "E06000060": {
+      "name": "Buckinghamshire",
+      "county": "Buckinghamshire",
+      "entries": [
+        "Buckinghamshire"
+      ],
+      "note": "Named local government area in the schedule."
+    },
+    "E06000061": {
+      "name": "North Northamptonshire",
+      "county": "Northamptonshire",
+      "entries": [
+        "Northamptonshire"
+      ],
+      "note": "Named local government area in the schedule."
+    },
+    "E06000062": {
+      "name": "West Northamptonshire",
+      "county": "Northamptonshire",
+      "entries": [
+        "Northamptonshire"
+      ],
+      "note": "Named local government area in the schedule."
+    },
+    "E06000063": {
+      "name": "Cumberland",
+      "county": "Cumbria",
+      "entries": [
+        "Cumbria"
+      ],
+      "note": "Named local government area in the schedule."
+    },
+    "E06000064": {
+      "name": "Westmorland and Furness",
+      "county": "Cumbria",
+      "entries": [
+        "Cumbria"
+      ],
+      "note": "Named local government area in the schedule."
+    },
+    "E06000065": {
+      "name": "North Yorkshire",
+      "county": "North Yorkshire",
+      "entries": [
+        "North Yorkshire"
+      ],
+      "note": "Named local government area in the schedule."
+    },
+    "E06000066": {
+      "name": "Somerset",
+      "county": "Somerset",
+      "entries": [
+        "Somerset"
+      ],
+      "note": "Named local government area in the schedule."
+    },
+    "E07000008": {
+      "name": "Cambridge",
+      "county": "Cambridgeshire",
+      "entries": [
+        "Cambridgeshire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000009": {
+      "name": "East Cambridgeshire",
+      "county": "Cambridgeshire",
+      "entries": [
+        "Cambridgeshire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000010": {
+      "name": "Fenland",
+      "county": "Cambridgeshire",
+      "entries": [
+        "Cambridgeshire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000011": {
+      "name": "Huntingdonshire",
+      "county": "Cambridgeshire",
+      "entries": [
+        "Cambridgeshire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000012": {
+      "name": "South Cambridgeshire",
+      "county": "Cambridgeshire",
+      "entries": [
+        "Cambridgeshire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000032": {
+      "name": "Amber Valley",
+      "county": "Derbyshire",
+      "entries": [
+        "Derbyshire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000033": {
+      "name": "Bolsover",
+      "county": "Derbyshire",
+      "entries": [
+        "Derbyshire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000034": {
+      "name": "Chesterfield",
+      "county": "Derbyshire",
+      "entries": [
+        "Derbyshire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000035": {
+      "name": "Derbyshire Dales",
+      "county": "Derbyshire",
+      "entries": [
+        "Derbyshire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000036": {
+      "name": "Erewash",
+      "county": "Derbyshire",
+      "entries": [
+        "Derbyshire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000037": {
+      "name": "High Peak",
+      "county": "Derbyshire",
+      "entries": [
+        "Derbyshire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000038": {
+      "name": "North East Derbyshire",
+      "county": "Derbyshire",
+      "entries": [
+        "Derbyshire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000039": {
+      "name": "South Derbyshire",
+      "county": "Derbyshire",
+      "entries": [
+        "Derbyshire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000040": {
+      "name": "East Devon",
+      "county": "Devon",
+      "entries": [
+        "Devon"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000041": {
+      "name": "Exeter",
+      "county": "Devon",
+      "entries": [
+        "Devon"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000042": {
+      "name": "Mid Devon",
+      "county": "Devon",
+      "entries": [
+        "Devon"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000043": {
+      "name": "North Devon",
+      "county": "Devon",
+      "entries": [
+        "Devon"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000044": {
+      "name": "South Hams",
+      "county": "Devon",
+      "entries": [
+        "Devon"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000045": {
+      "name": "Teignbridge",
+      "county": "Devon",
+      "entries": [
+        "Devon"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000046": {
+      "name": "Torridge",
+      "county": "Devon",
+      "entries": [
+        "Devon"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000047": {
+      "name": "West Devon",
+      "county": "Devon",
+      "entries": [
+        "Devon"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000061": {
+      "name": "Eastbourne",
+      "county": "East Sussex",
+      "entries": [
+        "East Sussex"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000062": {
+      "name": "Hastings",
+      "county": "East Sussex",
+      "entries": [
+        "East Sussex"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000063": {
+      "name": "Lewes",
+      "county": "East Sussex",
+      "entries": [
+        "East Sussex"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000064": {
+      "name": "Rother",
+      "county": "East Sussex",
+      "entries": [
+        "East Sussex"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000065": {
+      "name": "Wealden",
+      "county": "East Sussex",
+      "entries": [
+        "East Sussex"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000066": {
+      "name": "Basildon",
+      "county": "Essex",
+      "entries": [
+        "Essex"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000067": {
+      "name": "Braintree",
+      "county": "Essex",
+      "entries": [
+        "Essex"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000068": {
+      "name": "Brentwood",
+      "county": "Essex",
+      "entries": [
+        "Essex"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000069": {
+      "name": "Castle Point",
+      "county": "Essex",
+      "entries": [
+        "Essex"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000070": {
+      "name": "Chelmsford",
+      "county": "Essex",
+      "entries": [
+        "Essex"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000071": {
+      "name": "Colchester",
+      "county": "Essex",
+      "entries": [
+        "Essex"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000072": {
+      "name": "Epping Forest",
+      "county": "Essex",
+      "entries": [
+        "Essex"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000073": {
+      "name": "Harlow",
+      "county": "Essex",
+      "entries": [
+        "Essex"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000074": {
+      "name": "Maldon",
+      "county": "Essex",
+      "entries": [
+        "Essex"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000075": {
+      "name": "Rochford",
+      "county": "Essex",
+      "entries": [
+        "Essex"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000076": {
+      "name": "Tendring",
+      "county": "Essex",
+      "entries": [
+        "Essex"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000077": {
+      "name": "Uttlesford",
+      "county": "Essex",
+      "entries": [
+        "Essex"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000078": {
+      "name": "Cheltenham",
+      "county": "Gloucestershire",
+      "entries": [
+        "Gloucestershire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000079": {
+      "name": "Cotswold",
+      "county": "Gloucestershire",
+      "entries": [
+        "Gloucestershire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000080": {
+      "name": "Forest of Dean",
+      "county": "Gloucestershire",
+      "entries": [
+        "Gloucestershire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000081": {
+      "name": "Gloucester",
+      "county": "Gloucestershire",
+      "entries": [
+        "Gloucestershire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000082": {
+      "name": "Stroud",
+      "county": "Gloucestershire",
+      "entries": [
+        "Gloucestershire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000083": {
+      "name": "Tewkesbury",
+      "county": "Gloucestershire",
+      "entries": [
+        "Gloucestershire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000084": {
+      "name": "Basingstoke and Deane",
+      "county": "Hampshire",
+      "entries": [
+        "Hampshire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000085": {
+      "name": "East Hampshire",
+      "county": "Hampshire",
+      "entries": [
+        "Hampshire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000086": {
+      "name": "Eastleigh",
+      "county": "Hampshire",
+      "entries": [
+        "Hampshire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000087": {
+      "name": "Fareham",
+      "county": "Hampshire",
+      "entries": [
+        "Hampshire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000088": {
+      "name": "Gosport",
+      "county": "Hampshire",
+      "entries": [
+        "Hampshire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000089": {
+      "name": "Hart",
+      "county": "Hampshire",
+      "entries": [
+        "Hampshire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000090": {
+      "name": "Havant",
+      "county": "Hampshire",
+      "entries": [
+        "Hampshire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000091": {
+      "name": "New Forest",
+      "county": "Hampshire",
+      "entries": [
+        "Hampshire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000092": {
+      "name": "Rushmoor",
+      "county": "Hampshire",
+      "entries": [
+        "Hampshire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000093": {
+      "name": "Test Valley",
+      "county": "Hampshire",
+      "entries": [
+        "Hampshire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000094": {
+      "name": "Winchester",
+      "county": "Hampshire",
+      "entries": [
+        "Hampshire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000095": {
+      "name": "Broxbourne",
+      "county": "Hertfordshire",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000096": {
+      "name": "Dacorum",
+      "county": "Hertfordshire",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000098": {
+      "name": "Hertsmere",
+      "county": "Hertfordshire",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000099": {
+      "name": "North Hertfordshire",
+      "county": "Hertfordshire",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000102": {
+      "name": "Three Rivers",
+      "county": "Hertfordshire",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000103": {
+      "name": "Watford",
+      "county": "Hertfordshire",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000105": {
+      "name": "Ashford",
+      "county": "Kent",
+      "entries": [
+        "Kent"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000106": {
+      "name": "Canterbury",
+      "county": "Kent",
+      "entries": [
+        "Kent"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000107": {
+      "name": "Dartford",
+      "county": "Kent",
+      "entries": [
+        "Kent"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000108": {
+      "name": "Dover",
+      "county": "Kent",
+      "entries": [
+        "Kent"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000109": {
+      "name": "Gravesham",
+      "county": "Kent",
+      "entries": [
+        "Kent"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000110": {
+      "name": "Maidstone",
+      "county": "Kent",
+      "entries": [
+        "Kent"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000111": {
+      "name": "Sevenoaks",
+      "county": "Kent",
+      "entries": [
+        "Kent"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000112": {
+      "name": "Shepway",
+      "county": "Kent",
+      "entries": [
+        "Kent"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000113": {
+      "name": "Swale",
+      "county": "Kent",
+      "entries": [
+        "Kent"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000114": {
+      "name": "Thanet",
+      "county": "Kent",
+      "entries": [
+        "Kent"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000115": {
+      "name": "Tonbridge and Malling",
+      "county": "Kent",
+      "entries": [
+        "Kent"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000116": {
+      "name": "Tunbridge Wells",
+      "county": "Kent",
+      "entries": [
+        "Kent"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000117": {
+      "name": "Burnley",
+      "county": "Lancashire",
+      "entries": [
+        "Lancashire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000118": {
+      "name": "Chorley",
+      "county": "Lancashire",
+      "entries": [
+        "Lancashire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000119": {
+      "name": "Fylde",
+      "county": "Lancashire",
+      "entries": [
+        "Lancashire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000120": {
+      "name": "Hyndburn",
+      "county": "Lancashire",
+      "entries": [
+        "Lancashire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000121": {
+      "name": "Lancaster",
+      "county": "Lancashire",
+      "entries": [
+        "Lancashire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000122": {
+      "name": "Pendle",
+      "county": "Lancashire",
+      "entries": [
+        "Lancashire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000123": {
+      "name": "Preston",
+      "county": "Lancashire",
+      "entries": [
+        "Lancashire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000124": {
+      "name": "Ribble Valley",
+      "county": "Lancashire",
+      "entries": [
+        "Lancashire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000125": {
+      "name": "Rossendale",
+      "county": "Lancashire",
+      "entries": [
+        "Lancashire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000126": {
+      "name": "South Ribble",
+      "county": "Lancashire",
+      "entries": [
+        "Lancashire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000127": {
+      "name": "West Lancashire",
+      "county": "Lancashire",
+      "entries": [
+        "Lancashire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000128": {
+      "name": "Wyre",
+      "county": "Lancashire",
+      "entries": [
+        "Lancashire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000129": {
+      "name": "Blaby",
+      "county": "Leicestershire",
+      "entries": [
+        "Leicestershire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000130": {
+      "name": "Charnwood",
+      "county": "Leicestershire",
+      "entries": [
+        "Leicestershire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000131": {
+      "name": "Harborough",
+      "county": "Leicestershire",
+      "entries": [
+        "Leicestershire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000132": {
+      "name": "Hinckley and Bosworth",
+      "county": "Leicestershire",
+      "entries": [
+        "Leicestershire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000133": {
+      "name": "Melton",
+      "county": "Leicestershire",
+      "entries": [
+        "Leicestershire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000134": {
+      "name": "North West Leicestershire",
+      "county": "Leicestershire",
+      "entries": [
+        "Leicestershire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000135": {
+      "name": "Oadby and Wigston",
+      "county": "Leicestershire",
+      "entries": [
+        "Leicestershire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000136": {
+      "name": "Boston",
+      "county": "Lincolnshire",
+      "entries": [
+        "Lincolnshire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000137": {
+      "name": "East Lindsey",
+      "county": "Lincolnshire",
+      "entries": [
+        "Lincolnshire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000138": {
+      "name": "Lincoln",
+      "county": "Lincolnshire",
+      "entries": [
+        "Lincolnshire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000139": {
+      "name": "North Kesteven",
+      "county": "Lincolnshire",
+      "entries": [
+        "Lincolnshire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000140": {
+      "name": "South Holland",
+      "county": "Lincolnshire",
+      "entries": [
+        "Lincolnshire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000141": {
+      "name": "South Kesteven",
+      "county": "Lincolnshire",
+      "entries": [
+        "Lincolnshire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000142": {
+      "name": "West Lindsey",
+      "county": "Lincolnshire",
+      "entries": [
+        "Lincolnshire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000143": {
+      "name": "Breckland",
+      "county": "Norfolk",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000144": {
+      "name": "Broadland",
+      "county": "Norfolk",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000145": {
+      "name": "Great Yarmouth",
+      "county": "Norfolk",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000146": {
+      "name": "King's Lynn and West Norfolk",
+      "county": "Norfolk",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000147": {
+      "name": "North Norfolk",
+      "county": "Norfolk",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000148": {
+      "name": "Norwich",
+      "county": "Norfolk",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000149": {
+      "name": "South Norfolk",
+      "county": "Norfolk",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000170": {
+      "name": "Ashfield",
+      "county": "Nottinghamshire",
+      "entries": [
+        "Nottinghamshire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000171": {
+      "name": "Bassetlaw",
+      "county": "Nottinghamshire",
+      "entries": [
+        "Nottinghamshire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000172": {
+      "name": "Broxtowe",
+      "county": "Nottinghamshire",
+      "entries": [
+        "Nottinghamshire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000173": {
+      "name": "Gedling",
+      "county": "Nottinghamshire",
+      "entries": [
+        "Nottinghamshire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000174": {
+      "name": "Mansfield",
+      "county": "Nottinghamshire",
+      "entries": [
+        "Nottinghamshire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000175": {
+      "name": "Newark and Sherwood",
+      "county": "Nottinghamshire",
+      "entries": [
+        "Nottinghamshire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000176": {
+      "name": "Rushcliffe",
+      "county": "Nottinghamshire",
+      "entries": [
+        "Nottinghamshire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000177": {
+      "name": "Cherwell",
+      "county": "Oxfordshire",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000178": {
+      "name": "Oxford",
+      "county": "Oxfordshire",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000179": {
+      "name": "South Oxfordshire",
+      "county": "Oxfordshire",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000180": {
+      "name": "Vale of White Horse",
+      "county": "Oxfordshire",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000181": {
+      "name": "West Oxfordshire",
+      "county": "Oxfordshire",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000192": {
+      "name": "Cannock Chase",
+      "county": "Staffordshire",
+      "entries": [
+        "Staffordshire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000193": {
+      "name": "East Staffordshire",
+      "county": "Staffordshire",
+      "entries": [
+        "Staffordshire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000194": {
+      "name": "Lichfield",
+      "county": "Staffordshire",
+      "entries": [
+        "Staffordshire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000195": {
+      "name": "Newcastle-under-Lyme",
+      "county": "Staffordshire",
+      "entries": [
+        "Staffordshire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000196": {
+      "name": "South Staffordshire",
+      "county": "Staffordshire",
+      "entries": [
+        "Staffordshire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000197": {
+      "name": "Stafford",
+      "county": "Staffordshire",
+      "entries": [
+        "Staffordshire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000198": {
+      "name": "Staffordshire Moorlands",
+      "county": "Staffordshire",
+      "entries": [
+        "Staffordshire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000199": {
+      "name": "Tamworth",
+      "county": "Staffordshire",
+      "entries": [
+        "Staffordshire"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000200": {
+      "name": "Babergh",
+      "county": "Suffolk",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000202": {
+      "name": "Ipswich",
+      "county": "Suffolk",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000203": {
+      "name": "Mid Suffolk",
+      "county": "Suffolk",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000207": {
+      "name": "Elmbridge",
+      "county": "Surrey",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000208": {
+      "name": "Epsom and Ewell",
+      "county": "Surrey",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000209": {
+      "name": "Guildford",
+      "county": "Surrey",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000210": {
+      "name": "Mole Valley",
+      "county": "Surrey",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000211": {
+      "name": "Reigate and Banstead",
+      "county": "Surrey",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000212": {
+      "name": "Runnymede",
+      "county": "Surrey",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000213": {
+      "name": "Spelthorne",
+      "county": "Surrey",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000214": {
+      "name": "Surrey Heath",
+      "county": "Surrey",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000215": {
+      "name": "Tandridge",
+      "county": "Surrey",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000216": {
+      "name": "Waverley",
+      "county": "Surrey",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000217": {
+      "name": "Woking",
+      "county": "Surrey",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000218": {
+      "name": "North Warwickshire",
+      "county": "Warwickshire",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000219": {
+      "name": "Nuneaton and Bedworth",
+      "county": "Warwickshire",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000220": {
+      "name": "Rugby",
+      "county": "Warwickshire",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000221": {
+      "name": "Stratford-on-Avon",
+      "county": "Warwickshire",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000222": {
+      "name": "Warwick",
+      "county": "Warwickshire",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000223": {
+      "name": "Adur",
+      "county": "West Sussex",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000224": {
+      "name": "Arun",
+      "county": "West Sussex",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000225": {
+      "name": "Chichester",
+      "county": "West Sussex",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000226": {
+      "name": "Crawley",
+      "county": "West Sussex",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000227": {
+      "name": "Horsham",
+      "county": "West Sussex",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000228": {
+      "name": "Mid Sussex",
+      "county": "West Sussex",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000229": {
+      "name": "Worthing",
+      "county": "West Sussex",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000234": {
+      "name": "Bromsgrove",
+      "county": "Worcestershire",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000235": {
+      "name": "Malvern Hills",
+      "county": "Worcestershire",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000236": {
+      "name": "Redditch",
+      "county": "Worcestershire",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000237": {
+      "name": "Worcester",
+      "county": "Worcestershire",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000238": {
+      "name": "Wychavon",
+      "county": "Worcestershire",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000239": {
+      "name": "Wyre Forest",
+      "county": "Worcestershire",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000240": {
+      "name": "St Albans",
+      "county": "Hertfordshire",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000241": {
+      "name": "Welwyn Hatfield",
+      "county": "Hertfordshire",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000242": {
+      "name": "East Hertfordshire",
+      "county": "Hertfordshire",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000243": {
+      "name": "Stevenage",
+      "county": "Hertfordshire",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000244": {
+      "name": "East Suffolk",
+      "county": "Suffolk",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E07000245": {
+      "name": "West Suffolk",
+      "county": "Suffolk",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing district membership of its county council retained. The schedule defines the ceremonial county using that local government county, rather than listing its constituent districts."
+    },
+    "E08000001": {
+      "name": "Bolton",
+      "county": "Greater Manchester",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing metropolitan county membership retained under paragraph 2(c), which incorporates counties under the Local Government Act 1972 rather than listing their districts."
+    },
+    "E08000002": {
+      "name": "Bury",
+      "county": "Greater Manchester",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing metropolitan county membership retained under paragraph 2(c), which incorporates counties under the Local Government Act 1972 rather than listing their districts."
+    },
+    "E08000003": {
+      "name": "Manchester",
+      "county": "Greater Manchester",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing metropolitan county membership retained under paragraph 2(c), which incorporates counties under the Local Government Act 1972 rather than listing their districts."
+    },
+    "E08000004": {
+      "name": "Oldham",
+      "county": "Greater Manchester",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing metropolitan county membership retained under paragraph 2(c), which incorporates counties under the Local Government Act 1972 rather than listing their districts."
+    },
+    "E08000005": {
+      "name": "Rochdale",
+      "county": "Greater Manchester",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing metropolitan county membership retained under paragraph 2(c), which incorporates counties under the Local Government Act 1972 rather than listing their districts."
+    },
+    "E08000006": {
+      "name": "Salford",
+      "county": "Greater Manchester",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing metropolitan county membership retained under paragraph 2(c), which incorporates counties under the Local Government Act 1972 rather than listing their districts."
+    },
+    "E08000007": {
+      "name": "Stockport",
+      "county": "Greater Manchester",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing metropolitan county membership retained under paragraph 2(c), which incorporates counties under the Local Government Act 1972 rather than listing their districts."
+    },
+    "E08000008": {
+      "name": "Tameside",
+      "county": "Greater Manchester",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing metropolitan county membership retained under paragraph 2(c), which incorporates counties under the Local Government Act 1972 rather than listing their districts."
+    },
+    "E08000009": {
+      "name": "Trafford",
+      "county": "Greater Manchester",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing metropolitan county membership retained under paragraph 2(c), which incorporates counties under the Local Government Act 1972 rather than listing their districts."
+    },
+    "E08000010": {
+      "name": "Wigan",
+      "county": "Greater Manchester",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing metropolitan county membership retained under paragraph 2(c), which incorporates counties under the Local Government Act 1972 rather than listing their districts."
+    },
+    "E08000011": {
+      "name": "Knowsley",
+      "county": "Merseyside",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing metropolitan county membership retained under paragraph 2(c), which incorporates counties under the Local Government Act 1972 rather than listing their districts."
+    },
+    "E08000012": {
+      "name": "Liverpool",
+      "county": "Merseyside",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing metropolitan county membership retained under paragraph 2(c), which incorporates counties under the Local Government Act 1972 rather than listing their districts."
+    },
+    "E08000013": {
+      "name": "St Helens",
+      "county": "Merseyside",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing metropolitan county membership retained under paragraph 2(c), which incorporates counties under the Local Government Act 1972 rather than listing their districts."
+    },
+    "E08000014": {
+      "name": "Sefton",
+      "county": "Merseyside",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing metropolitan county membership retained under paragraph 2(c), which incorporates counties under the Local Government Act 1972 rather than listing their districts."
+    },
+    "E08000015": {
+      "name": "Wirral",
+      "county": "Merseyside",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing metropolitan county membership retained under paragraph 2(c), which incorporates counties under the Local Government Act 1972 rather than listing their districts."
+    },
+    "E08000017": {
+      "name": "Doncaster",
+      "county": "South Yorkshire",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing metropolitan county membership retained under paragraph 2(c), which incorporates counties under the Local Government Act 1972 rather than listing their districts."
+    },
+    "E08000018": {
+      "name": "Rotherham",
+      "county": "South Yorkshire",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing metropolitan county membership retained under paragraph 2(c), which incorporates counties under the Local Government Act 1972 rather than listing their districts."
+    },
+    "E08000021": {
+      "name": "Newcastle upon Tyne",
+      "county": "Tyne and Wear",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing metropolitan county membership retained under paragraph 2(c), which incorporates counties under the Local Government Act 1972 rather than listing their districts."
+    },
+    "E08000022": {
+      "name": "North Tyneside",
+      "county": "Tyne and Wear",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing metropolitan county membership retained under paragraph 2(c), which incorporates counties under the Local Government Act 1972 rather than listing their districts."
+    },
+    "E08000023": {
+      "name": "South Tyneside",
+      "county": "Tyne and Wear",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing metropolitan county membership retained under paragraph 2(c), which incorporates counties under the Local Government Act 1972 rather than listing their districts."
+    },
+    "E08000024": {
+      "name": "Sunderland",
+      "county": "Tyne and Wear",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing metropolitan county membership retained under paragraph 2(c), which incorporates counties under the Local Government Act 1972 rather than listing their districts."
+    },
+    "E08000025": {
+      "name": "Birmingham",
+      "county": "West Midlands",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing metropolitan county membership retained under paragraph 2(c), which incorporates counties under the Local Government Act 1972 rather than listing their districts."
+    },
+    "E08000026": {
+      "name": "Coventry",
+      "county": "West Midlands",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing metropolitan county membership retained under paragraph 2(c), which incorporates counties under the Local Government Act 1972 rather than listing their districts."
+    },
+    "E08000027": {
+      "name": "Dudley",
+      "county": "West Midlands",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing metropolitan county membership retained under paragraph 2(c), which incorporates counties under the Local Government Act 1972 rather than listing their districts."
+    },
+    "E08000028": {
+      "name": "Sandwell",
+      "county": "West Midlands",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing metropolitan county membership retained under paragraph 2(c), which incorporates counties under the Local Government Act 1972 rather than listing their districts."
+    },
+    "E08000029": {
+      "name": "Solihull",
+      "county": "West Midlands",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing metropolitan county membership retained under paragraph 2(c), which incorporates counties under the Local Government Act 1972 rather than listing their districts."
+    },
+    "E08000030": {
+      "name": "Walsall",
+      "county": "West Midlands",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing metropolitan county membership retained under paragraph 2(c), which incorporates counties under the Local Government Act 1972 rather than listing their districts."
+    },
+    "E08000031": {
+      "name": "Wolverhampton",
+      "county": "West Midlands",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing metropolitan county membership retained under paragraph 2(c), which incorporates counties under the Local Government Act 1972 rather than listing their districts."
+    },
+    "E08000032": {
+      "name": "Bradford",
+      "county": "West Yorkshire",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing metropolitan county membership retained under paragraph 2(c), which incorporates counties under the Local Government Act 1972 rather than listing their districts."
+    },
+    "E08000033": {
+      "name": "Calderdale",
+      "county": "West Yorkshire",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing metropolitan county membership retained under paragraph 2(c), which incorporates counties under the Local Government Act 1972 rather than listing their districts."
+    },
+    "E08000034": {
+      "name": "Kirklees",
+      "county": "West Yorkshire",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing metropolitan county membership retained under paragraph 2(c), which incorporates counties under the Local Government Act 1972 rather than listing their districts."
+    },
+    "E08000035": {
+      "name": "Leeds",
+      "county": "West Yorkshire",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing metropolitan county membership retained under paragraph 2(c), which incorporates counties under the Local Government Act 1972 rather than listing their districts."
+    },
+    "E08000036": {
+      "name": "Wakefield",
+      "county": "West Yorkshire",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing metropolitan county membership retained under paragraph 2(c), which incorporates counties under the Local Government Act 1972 rather than listing their districts."
+    },
+    "E08000037": {
+      "name": "Gateshead",
+      "county": "Tyne and Wear",
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "Existing metropolitan county membership retained under paragraph 2(c), which incorporates counties under the Local Government Act 1972 rather than listing their districts."
+    },
+    "E08000038": {
+      "name": "Barnsley",
+      "county": null,
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "The schedule does not name this district or assign it directly to a county. Existing blank retained outside the London and unitary audit; requires an evidenced district mapping under the legislation incorporated by paragraph 2(c)."
+    },
+    "E08000039": {
+      "name": "Sheffield",
+      "county": null,
+      "entries": [
+        "OtherEnglishCounties"
+      ],
+      "note": "The schedule does not name this district or assign it directly to a county. Existing blank retained outside the London and unitary audit; requires an evidenced district mapping under the legislation incorporated by paragraph 2(c)."
+    },
+    "E09000001": {
+      "name": "City of London",
+      "county": "City of London",
+      "entries": [
+        "City"
+      ],
+      "note": "Paragraph 4 treats the City as a county for sections 5 and 6 only; paragraph 2(a) excludes it from Greater London."
+    },
+    "E09000002": {
+      "name": "Barking and Dagenham",
+      "county": "Greater London",
+      "entries": [
+        "London"
+      ],
+      "note": "London borough within Greater London under paragraph 2(a). Inner London and Outer London are not counties in this schedule."
+    },
+    "E09000003": {
+      "name": "Barnet",
+      "county": "Greater London",
+      "entries": [
+        "London"
+      ],
+      "note": "London borough within Greater London under paragraph 2(a). Inner London and Outer London are not counties in this schedule."
+    },
+    "E09000004": {
+      "name": "Bexley",
+      "county": "Greater London",
+      "entries": [
+        "London"
+      ],
+      "note": "London borough within Greater London under paragraph 2(a). Inner London and Outer London are not counties in this schedule."
+    },
+    "E09000005": {
+      "name": "Brent",
+      "county": "Greater London",
+      "entries": [
+        "London"
+      ],
+      "note": "London borough within Greater London under paragraph 2(a). Inner London and Outer London are not counties in this schedule."
+    },
+    "E09000006": {
+      "name": "Bromley",
+      "county": "Greater London",
+      "entries": [
+        "London"
+      ],
+      "note": "London borough within Greater London under paragraph 2(a). Inner London and Outer London are not counties in this schedule."
+    },
+    "E09000007": {
+      "name": "Camden",
+      "county": "Greater London",
+      "entries": [
+        "London"
+      ],
+      "note": "London borough within Greater London under paragraph 2(a). Inner London and Outer London are not counties in this schedule."
+    },
+    "E09000008": {
+      "name": "Croydon",
+      "county": "Greater London",
+      "entries": [
+        "London"
+      ],
+      "note": "London borough within Greater London under paragraph 2(a). Inner London and Outer London are not counties in this schedule."
+    },
+    "E09000009": {
+      "name": "Ealing",
+      "county": "Greater London",
+      "entries": [
+        "London"
+      ],
+      "note": "London borough within Greater London under paragraph 2(a). Inner London and Outer London are not counties in this schedule."
+    },
+    "E09000010": {
+      "name": "Enfield",
+      "county": "Greater London",
+      "entries": [
+        "London"
+      ],
+      "note": "London borough within Greater London under paragraph 2(a). Inner London and Outer London are not counties in this schedule."
+    },
+    "E09000011": {
+      "name": "Greenwich",
+      "county": "Greater London",
+      "entries": [
+        "London"
+      ],
+      "note": "London borough within Greater London under paragraph 2(a). Inner London and Outer London are not counties in this schedule."
+    },
+    "E09000012": {
+      "name": "Hackney",
+      "county": "Greater London",
+      "entries": [
+        "London"
+      ],
+      "note": "London borough within Greater London under paragraph 2(a). Inner London and Outer London are not counties in this schedule."
+    },
+    "E09000013": {
+      "name": "Hammersmith and Fulham",
+      "county": "Greater London",
+      "entries": [
+        "London"
+      ],
+      "note": "London borough within Greater London under paragraph 2(a). Inner London and Outer London are not counties in this schedule."
+    },
+    "E09000014": {
+      "name": "Haringey",
+      "county": "Greater London",
+      "entries": [
+        "London"
+      ],
+      "note": "London borough within Greater London under paragraph 2(a). Inner London and Outer London are not counties in this schedule."
+    },
+    "E09000015": {
+      "name": "Harrow",
+      "county": "Greater London",
+      "entries": [
+        "London"
+      ],
+      "note": "London borough within Greater London under paragraph 2(a). Inner London and Outer London are not counties in this schedule."
+    },
+    "E09000016": {
+      "name": "Havering",
+      "county": "Greater London",
+      "entries": [
+        "London"
+      ],
+      "note": "London borough within Greater London under paragraph 2(a). Inner London and Outer London are not counties in this schedule."
+    },
+    "E09000017": {
+      "name": "Hillingdon",
+      "county": "Greater London",
+      "entries": [
+        "London"
+      ],
+      "note": "London borough within Greater London under paragraph 2(a). Inner London and Outer London are not counties in this schedule."
+    },
+    "E09000018": {
+      "name": "Hounslow",
+      "county": "Greater London",
+      "entries": [
+        "London"
+      ],
+      "note": "London borough within Greater London under paragraph 2(a). Inner London and Outer London are not counties in this schedule."
+    },
+    "E09000019": {
+      "name": "Islington",
+      "county": "Greater London",
+      "entries": [
+        "London"
+      ],
+      "note": "London borough within Greater London under paragraph 2(a). Inner London and Outer London are not counties in this schedule."
+    },
+    "E09000020": {
+      "name": "Kensington and Chelsea",
+      "county": "Greater London",
+      "entries": [
+        "London"
+      ],
+      "note": "London borough within Greater London under paragraph 2(a). Inner London and Outer London are not counties in this schedule."
+    },
+    "E09000021": {
+      "name": "Kingston upon Thames",
+      "county": "Greater London",
+      "entries": [
+        "London"
+      ],
+      "note": "London borough within Greater London under paragraph 2(a). Inner London and Outer London are not counties in this schedule."
+    },
+    "E09000022": {
+      "name": "Lambeth",
+      "county": "Greater London",
+      "entries": [
+        "London"
+      ],
+      "note": "London borough within Greater London under paragraph 2(a). Inner London and Outer London are not counties in this schedule."
+    },
+    "E09000023": {
+      "name": "Lewisham",
+      "county": "Greater London",
+      "entries": [
+        "London"
+      ],
+      "note": "London borough within Greater London under paragraph 2(a). Inner London and Outer London are not counties in this schedule."
+    },
+    "E09000024": {
+      "name": "Merton",
+      "county": "Greater London",
+      "entries": [
+        "London"
+      ],
+      "note": "London borough within Greater London under paragraph 2(a). Inner London and Outer London are not counties in this schedule."
+    },
+    "E09000025": {
+      "name": "Newham",
+      "county": "Greater London",
+      "entries": [
+        "London"
+      ],
+      "note": "London borough within Greater London under paragraph 2(a). Inner London and Outer London are not counties in this schedule."
+    },
+    "E09000026": {
+      "name": "Redbridge",
+      "county": "Greater London",
+      "entries": [
+        "London"
+      ],
+      "note": "London borough within Greater London under paragraph 2(a). Inner London and Outer London are not counties in this schedule."
+    },
+    "E09000027": {
+      "name": "Richmond upon Thames",
+      "county": "Greater London",
+      "entries": [
+        "London"
+      ],
+      "note": "London borough within Greater London under paragraph 2(a). Inner London and Outer London are not counties in this schedule."
+    },
+    "E09000028": {
+      "name": "Southwark",
+      "county": "Greater London",
+      "entries": [
+        "London"
+      ],
+      "note": "London borough within Greater London under paragraph 2(a). Inner London and Outer London are not counties in this schedule."
+    },
+    "E09000029": {
+      "name": "Sutton",
+      "county": "Greater London",
+      "entries": [
+        "London"
+      ],
+      "note": "London borough within Greater London under paragraph 2(a). Inner London and Outer London are not counties in this schedule."
+    },
+    "E09000030": {
+      "name": "Tower Hamlets",
+      "county": "Greater London",
+      "entries": [
+        "London"
+      ],
+      "note": "London borough within Greater London under paragraph 2(a). Inner London and Outer London are not counties in this schedule."
+    },
+    "E09000031": {
+      "name": "Waltham Forest",
+      "county": "Greater London",
+      "entries": [
+        "London"
+      ],
+      "note": "London borough within Greater London under paragraph 2(a). Inner London and Outer London are not counties in this schedule."
+    },
+    "E09000032": {
+      "name": "Wandsworth",
+      "county": "Greater London",
+      "entries": [
+        "London"
+      ],
+      "note": "London borough within Greater London under paragraph 2(a). Inner London and Outer London are not counties in this schedule."
+    },
+    "E09000033": {
+      "name": "Westminster",
+      "county": "Greater London",
+      "entries": [
+        "London"
+      ],
+      "note": "London borough within Greater London under paragraph 2(a). Inner London and Outer London are not counties in this schedule."
+    },
+    "N09000001": {
+      "name": "Antrim and Newtownabbey",
+      "county": null,
+      "entries": [
+        "Scope"
+      ],
+      "note": "Schedule 1 covers Great Britain, not Northern Ireland. Left blank."
+    },
+    "N09000002": {
+      "name": "Armagh City, Banbridge and Craigavon",
+      "county": null,
+      "entries": [
+        "Scope"
+      ],
+      "note": "Schedule 1 covers Great Britain, not Northern Ireland. Left blank."
+    },
+    "N09000003": {
+      "name": "Belfast",
+      "county": null,
+      "entries": [
+        "Scope"
+      ],
+      "note": "Schedule 1 covers Great Britain, not Northern Ireland. Left blank."
+    },
+    "N09000004": {
+      "name": "Causeway Coast and Glens",
+      "county": null,
+      "entries": [
+        "Scope"
+      ],
+      "note": "Schedule 1 covers Great Britain, not Northern Ireland. Left blank."
+    },
+    "N09000005": {
+      "name": "Derry City and Strabane",
+      "county": null,
+      "entries": [
+        "Scope"
+      ],
+      "note": "Schedule 1 covers Great Britain, not Northern Ireland. Left blank."
+    },
+    "N09000006": {
+      "name": "Fermanagh and Omagh",
+      "county": null,
+      "entries": [
+        "Scope"
+      ],
+      "note": "Schedule 1 covers Great Britain, not Northern Ireland. Left blank."
+    },
+    "N09000007": {
+      "name": "Lisburn and Castlereagh",
+      "county": null,
+      "entries": [
+        "Scope"
+      ],
+      "note": "Schedule 1 covers Great Britain, not Northern Ireland. Left blank."
+    },
+    "N09000008": {
+      "name": "Mid and East Antrim",
+      "county": null,
+      "entries": [
+        "Scope"
+      ],
+      "note": "Schedule 1 covers Great Britain, not Northern Ireland. Left blank."
+    },
+    "N09000009": {
+      "name": "Mid Ulster",
+      "county": null,
+      "entries": [
+        "Scope"
+      ],
+      "note": "Schedule 1 covers Great Britain, not Northern Ireland. Left blank."
+    },
+    "N09000010": {
+      "name": "Newry, Mourne and Down",
+      "county": null,
+      "entries": [
+        "Scope"
+      ],
+      "note": "Schedule 1 covers Great Britain, not Northern Ireland. Left blank."
+    },
+    "N09000011": {
+      "name": "Ards and North Down",
+      "county": null,
+      "entries": [
+        "Scope"
+      ],
+      "note": "Schedule 1 covers Great Britain, not Northern Ireland. Left blank."
+    },
+    "S12000005": {
+      "name": "Clackmannanshire",
+      "county": null,
+      "entries": [
+        "Scotland"
+      ],
+      "note": "Paragraphs 7 and 8 define Scottish lieutenancy areas, not counties for this field. Left blank."
+    },
+    "S12000006": {
+      "name": "Dumfries and Galloway",
+      "county": null,
+      "entries": [
+        "Scotland"
+      ],
+      "note": "Paragraphs 7 and 8 define Scottish lieutenancy areas, not counties for this field. Left blank."
+    },
+    "S12000008": {
+      "name": "East Ayrshire",
+      "county": null,
+      "entries": [
+        "Scotland"
+      ],
+      "note": "Paragraphs 7 and 8 define Scottish lieutenancy areas, not counties for this field. Left blank."
+    },
+    "S12000010": {
+      "name": "East Lothian",
+      "county": null,
+      "entries": [
+        "Scotland"
+      ],
+      "note": "Paragraphs 7 and 8 define Scottish lieutenancy areas, not counties for this field. Left blank."
+    },
+    "S12000011": {
+      "name": "East Renfrewshire",
+      "county": null,
+      "entries": [
+        "Scotland"
+      ],
+      "note": "Paragraphs 7 and 8 define Scottish lieutenancy areas, not counties for this field. Left blank."
+    },
+    "S12000013": {
+      "name": "Na h-Eileanan Siar",
+      "county": null,
+      "entries": [
+        "Scotland"
+      ],
+      "note": "Paragraphs 7 and 8 define Scottish lieutenancy areas, not counties for this field. Left blank."
+    },
+    "S12000014": {
+      "name": "Falkirk",
+      "county": null,
+      "entries": [
+        "Scotland"
+      ],
+      "note": "Paragraphs 7 and 8 define Scottish lieutenancy areas, not counties for this field. Left blank."
+    },
+    "S12000017": {
+      "name": "Highland",
+      "county": null,
+      "entries": [
+        "Scotland"
+      ],
+      "note": "Paragraphs 7 and 8 define Scottish lieutenancy areas, not counties for this field. Left blank."
+    },
+    "S12000018": {
+      "name": "Inverclyde",
+      "county": null,
+      "entries": [
+        "Scotland"
+      ],
+      "note": "Paragraphs 7 and 8 define Scottish lieutenancy areas, not counties for this field. Left blank."
+    },
+    "S12000019": {
+      "name": "Midlothian",
+      "county": null,
+      "entries": [
+        "Scotland"
+      ],
+      "note": "Paragraphs 7 and 8 define Scottish lieutenancy areas, not counties for this field. Left blank."
+    },
+    "S12000020": {
+      "name": "Moray",
+      "county": null,
+      "entries": [
+        "Scotland"
+      ],
+      "note": "Paragraphs 7 and 8 define Scottish lieutenancy areas, not counties for this field. Left blank."
+    },
+    "S12000021": {
+      "name": "North Ayrshire",
+      "county": null,
+      "entries": [
+        "Scotland"
+      ],
+      "note": "Paragraphs 7 and 8 define Scottish lieutenancy areas, not counties for this field. Left blank."
+    },
+    "S12000023": {
+      "name": "Orkney Islands",
+      "county": null,
+      "entries": [
+        "Scotland"
+      ],
+      "note": "Paragraphs 7 and 8 define Scottish lieutenancy areas, not counties for this field. Left blank."
+    },
+    "S12000026": {
+      "name": "Scottish Borders",
+      "county": null,
+      "entries": [
+        "Scotland"
+      ],
+      "note": "Paragraphs 7 and 8 define Scottish lieutenancy areas, not counties for this field. Left blank."
+    },
+    "S12000027": {
+      "name": "Shetland Islands",
+      "county": null,
+      "entries": [
+        "Scotland"
+      ],
+      "note": "Paragraphs 7 and 8 define Scottish lieutenancy areas, not counties for this field. Left blank."
+    },
+    "S12000028": {
+      "name": "South Ayrshire",
+      "county": null,
+      "entries": [
+        "Scotland"
+      ],
+      "note": "Paragraphs 7 and 8 define Scottish lieutenancy areas, not counties for this field. Left blank."
+    },
+    "S12000029": {
+      "name": "South Lanarkshire",
+      "county": null,
+      "entries": [
+        "Scotland"
+      ],
+      "note": "Paragraphs 7 and 8 define Scottish lieutenancy areas, not counties for this field. Left blank."
+    },
+    "S12000030": {
+      "name": "Stirling",
+      "county": null,
+      "entries": [
+        "Scotland"
+      ],
+      "note": "Paragraphs 7 and 8 define Scottish lieutenancy areas, not counties for this field. Left blank."
+    },
+    "S12000033": {
+      "name": "Aberdeen City",
+      "county": null,
+      "entries": [
+        "Scotland"
+      ],
+      "note": "Paragraphs 7 and 8 define Scottish lieutenancy areas, not counties for this field. Left blank."
+    },
+    "S12000034": {
+      "name": "Aberdeenshire",
+      "county": null,
+      "entries": [
+        "Scotland"
+      ],
+      "note": "Paragraphs 7 and 8 define Scottish lieutenancy areas, not counties for this field. Left blank."
+    },
+    "S12000035": {
+      "name": "Argyll and Bute",
+      "county": null,
+      "entries": [
+        "Scotland"
+      ],
+      "note": "Paragraphs 7 and 8 define Scottish lieutenancy areas, not counties for this field. Left blank."
+    },
+    "S12000036": {
+      "name": "City of Edinburgh",
+      "county": null,
+      "entries": [
+        "Scotland"
+      ],
+      "note": "Paragraphs 7 and 8 define Scottish lieutenancy areas, not counties for this field. Left blank."
+    },
+    "S12000038": {
+      "name": "Renfrewshire",
+      "county": null,
+      "entries": [
+        "Scotland"
+      ],
+      "note": "Paragraphs 7 and 8 define Scottish lieutenancy areas, not counties for this field. Left blank."
+    },
+    "S12000039": {
+      "name": "West Dunbartonshire",
+      "county": null,
+      "entries": [
+        "Scotland"
+      ],
+      "note": "Paragraphs 7 and 8 define Scottish lieutenancy areas, not counties for this field. Left blank."
+    },
+    "S12000040": {
+      "name": "West Lothian",
+      "county": null,
+      "entries": [
+        "Scotland"
+      ],
+      "note": "Paragraphs 7 and 8 define Scottish lieutenancy areas, not counties for this field. Left blank."
+    },
+    "S12000041": {
+      "name": "Angus",
+      "county": null,
+      "entries": [
+        "Scotland"
+      ],
+      "note": "Paragraphs 7 and 8 define Scottish lieutenancy areas, not counties for this field. Left blank."
+    },
+    "S12000042": {
+      "name": "Dundee City",
+      "county": null,
+      "entries": [
+        "Scotland"
+      ],
+      "note": "Paragraphs 7 and 8 define Scottish lieutenancy areas, not counties for this field. Left blank."
+    },
+    "S12000045": {
+      "name": "East Dunbartonshire",
+      "county": null,
+      "entries": [
+        "Scotland"
+      ],
+      "note": "Paragraphs 7 and 8 define Scottish lieutenancy areas, not counties for this field. Left blank."
+    },
+    "S12000047": {
+      "name": "Fife",
+      "county": null,
+      "entries": [
+        "Scotland"
+      ],
+      "note": "Paragraphs 7 and 8 define Scottish lieutenancy areas, not counties for this field. Left blank."
+    },
+    "S12000048": {
+      "name": "Perth and Kinross",
+      "county": null,
+      "entries": [
+        "Scotland"
+      ],
+      "note": "Paragraphs 7 and 8 define Scottish lieutenancy areas, not counties for this field. Left blank."
+    },
+    "S12000049": {
+      "name": "Glasgow City",
+      "county": null,
+      "entries": [
+        "Scotland"
+      ],
+      "note": "Paragraphs 7 and 8 define Scottish lieutenancy areas, not counties for this field. Left blank."
+    },
+    "S12000050": {
+      "name": "North Lanarkshire",
+      "county": null,
+      "entries": [
+        "Scotland"
+      ],
+      "note": "Paragraphs 7 and 8 define Scottish lieutenancy areas, not counties for this field. Left blank."
+    },
+    "W06000001": {
+      "name": "Isle of Anglesey",
+      "county": null,
+      "entries": [
+        "Wales"
+      ],
+      "note": "Paragraph 6 incorporates the preserved counties without listing present principal area membership. Left blank; no mapping inferred from an authority name."
+    },
+    "W06000002": {
+      "name": "Gwynedd",
+      "county": null,
+      "entries": [
+        "Wales"
+      ],
+      "note": "Paragraph 6 incorporates the preserved counties without listing present principal area membership. Left blank; no mapping inferred from an authority name."
+    },
+    "W06000003": {
+      "name": "Conwy",
+      "county": null,
+      "entries": [
+        "Wales"
+      ],
+      "note": "Paragraph 6 incorporates the preserved counties without listing present principal area membership. Left blank; no mapping inferred from an authority name."
+    },
+    "W06000004": {
+      "name": "Denbighshire",
+      "county": null,
+      "entries": [
+        "Wales"
+      ],
+      "note": "Paragraph 6 incorporates the preserved counties without listing present principal area membership. Left blank; no mapping inferred from an authority name."
+    },
+    "W06000005": {
+      "name": "Flintshire",
+      "county": null,
+      "entries": [
+        "Wales"
+      ],
+      "note": "Paragraph 6 incorporates the preserved counties without listing present principal area membership. Left blank; no mapping inferred from an authority name."
+    },
+    "W06000006": {
+      "name": "Wrexham",
+      "county": null,
+      "entries": [
+        "Wales"
+      ],
+      "note": "Paragraph 6 incorporates the preserved counties without listing present principal area membership. Left blank; no mapping inferred from an authority name."
+    },
+    "W06000008": {
+      "name": "Ceredigion",
+      "county": null,
+      "entries": [
+        "Wales"
+      ],
+      "note": "Paragraph 6 incorporates the preserved counties without listing present principal area membership. Left blank; no mapping inferred from an authority name."
+    },
+    "W06000009": {
+      "name": "Pembrokeshire",
+      "county": null,
+      "entries": [
+        "Wales"
+      ],
+      "note": "Paragraph 6 incorporates the preserved counties without listing present principal area membership. Left blank; no mapping inferred from an authority name."
+    },
+    "W06000010": {
+      "name": "Carmarthenshire",
+      "county": null,
+      "entries": [
+        "Wales"
+      ],
+      "note": "Paragraph 6 incorporates the preserved counties without listing present principal area membership. Left blank; no mapping inferred from an authority name."
+    },
+    "W06000011": {
+      "name": "Swansea",
+      "county": null,
+      "entries": [
+        "Wales"
+      ],
+      "note": "Paragraph 6 incorporates the preserved counties without listing present principal area membership. Left blank; no mapping inferred from an authority name."
+    },
+    "W06000012": {
+      "name": "Neath Port Talbot",
+      "county": null,
+      "entries": [
+        "Wales"
+      ],
+      "note": "Paragraph 6 incorporates the preserved counties without listing present principal area membership. Left blank; no mapping inferred from an authority name."
+    },
+    "W06000013": {
+      "name": "Bridgend",
+      "county": null,
+      "entries": [
+        "Wales"
+      ],
+      "note": "Paragraph 6 incorporates the preserved counties without listing present principal area membership. Left blank; no mapping inferred from an authority name."
+    },
+    "W06000014": {
+      "name": "Vale of Glamorgan",
+      "county": null,
+      "entries": [
+        "Wales"
+      ],
+      "note": "Paragraph 6 incorporates the preserved counties without listing present principal area membership. Left blank; no mapping inferred from an authority name."
+    },
+    "W06000015": {
+      "name": "Cardiff",
+      "county": null,
+      "entries": [
+        "Wales"
+      ],
+      "note": "Paragraph 6 incorporates the preserved counties without listing present principal area membership. Left blank; no mapping inferred from an authority name."
+    },
+    "W06000016": {
+      "name": "Rhondda Cynon Taf",
+      "county": null,
+      "entries": [
+        "Wales"
+      ],
+      "note": "Paragraph 6 incorporates the preserved counties without listing present principal area membership. Left blank; no mapping inferred from an authority name."
+    },
+    "W06000018": {
+      "name": "Caerphilly",
+      "county": null,
+      "entries": [
+        "Wales"
+      ],
+      "note": "Paragraph 6 incorporates the preserved counties without listing present principal area membership. Left blank; no mapping inferred from an authority name."
+    },
+    "W06000019": {
+      "name": "Blaenau Gwent",
+      "county": null,
+      "entries": [
+        "Wales"
+      ],
+      "note": "Paragraph 6 incorporates the preserved counties without listing present principal area membership. Left blank; no mapping inferred from an authority name."
+    },
+    "W06000020": {
+      "name": "Torfaen",
+      "county": null,
+      "entries": [
+        "Wales"
+      ],
+      "note": "Paragraph 6 incorporates the preserved counties without listing present principal area membership. Left blank; no mapping inferred from an authority name."
+    },
+    "W06000021": {
+      "name": "Monmouthshire",
+      "county": null,
+      "entries": [
+        "Wales"
+      ],
+      "note": "Paragraph 6 incorporates the preserved counties without listing present principal area membership. Left blank; no mapping inferred from an authority name."
+    },
+    "W06000022": {
+      "name": "Newport",
+      "county": null,
+      "entries": [
+        "Wales"
+      ],
+      "note": "Paragraph 6 incorporates the preserved counties without listing present principal area membership. Left blank; no mapping inferred from an authority name."
+    },
+    "W06000023": {
+      "name": "Powys",
+      "county": null,
+      "entries": [
+        "Wales"
+      ],
+      "note": "Paragraph 6 incorporates the preserved counties without listing present principal area membership. Left blank; no mapping inferred from an authority name."
+    },
+    "W06000024": {
+      "name": "Merthyr Tydfil",
+      "county": null,
+      "entries": [
+        "Wales"
+      ],
+      "note": "Paragraph 6 incorporates the preserved counties without listing present principal area membership. Left blank; no mapping inferred from an authority name."
+    }
+  }
+}
