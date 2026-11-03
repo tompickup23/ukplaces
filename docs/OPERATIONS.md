@@ -74,17 +74,24 @@ read live on 3 November 2026 through the legislation XML endpoint recorded in th
 table. The table contains the source URL, access date, response hash, quoted
 entries and a decision note for every registry record.
 
-All 33 London records and all 63 English unitary records were reviewed against
-the schedule. The 32 boroughs belong to Greater London. The City of London is
+All 33 London records, all 63 English unitary records and all 36 metropolitan
+records were reviewed against the schedule and the legislation incorporated by
+paragraph 2(c). The 32 boroughs belong to Greater London. The City of London is
 separate under paragraph 4, which treats it as a county for sections 5 and 6.
-Fifty unitary records have direct assignments. The other thirteen remain blank:
-one spans the Durham and North Yorkshire entries, while twelve lack a direct
-assignment of the current authority in the schedule. Each blank has its own
-note. A blank does not assert that a ceremonial county does not exist.
+Fifty unitary records have direct assignments. Twelve more follow paragraph 2(c)
+through the structural legislation: the six Berkshire districts, Bristol,
+Herefordshire, Rutland, Cornwall, Northumberland and the Isle of Wight. Bristol
+uses the statutory county name City of Bristol. Stockton is the only English
+blank because the schedule divides it between Durham and North Yorkshire at the
+centre of the River Tees. A single county would misrepresent the whole authority.
 
 Paragraph 2(c) incorporates other English counties through the Local Government
-Act 1972. The existing district county relationships are retained, not presented
-as individually named entries in this schedule. Wales refers to preserved
+Act 1972. The evidence table records eleven additional statutory sources with
+their URLs, access dates, response hashes and exact quoted provisions. It also
+records the 1973 order naming every metropolitan district within its county,
+including Barnsley and Sheffield within South Yorkshire. The existing county
+council district relationships are retained, not presented as individually
+named entries in this schedule. Wales refers to preserved
 counties without listing current principal area membership. Scotland has
 lieutenancy areas, and Northern Ireland is outside the schedule. Those existing
 blanks are retained and explained in the table. No membership is inferred from
@@ -92,8 +99,11 @@ a similar name or a regional label.
 
 `npm run test:counties` checks all 361 county values in both registry copies
 against this committed table. It also checks complete coverage, decision notes,
-schedule citations and the London and unitary assignments against their quoted
-county entries. `npm run test:registry` runs it too, so both existing CI workflows
+schedule citations and direct assignments against their quoted county entries.
+Assignments through paragraph 2(c) must cite the incorporated evidence, and each
+metropolitan district must appear in its county entry in the 1973 order. The
+test also requires Stockton to be the sole English blank.
+`npm run test:registry` runs it too, so both existing CI workflows
 include the guard. The registry builder refuses an authority without an evidence
 row. Review the live schedule and update the evidence first when adding an
 authority or changing a county. Do not regenerate this table from the registry.

@@ -4,17 +4,21 @@
 
 Reviewed the live Lieutenancies Act 1997 Schedule 1 and recorded its URL, access
 date, response hash, quoted entries and decisions in `data/ceremonialcounties.json`.
-The audit covers all 33 London records and all 63 English unitary records. Corrected
-83 county values in both registry copies, including Wandsworth and Luton. Thirteen
-English unitary values remain blank with notes. All other record fields are
-unchanged. Existing district memberships and other blanks are recorded separately
-in the reference table without claiming that the schedule names every district.
+The audit covers all 33 London records, all 63 English unitary records and all 36
+metropolitan records, including the legislation incorporated by paragraph 2(c).
+Corrected 97 county values in both registry copies, including Wandsworth and Luton.
+Stockton is the sole English blank because the schedule divides it between two
+counties. All other record fields are unchanged. The reference table records the
+full statutory chain, including eleven additional official sources read live.
+Existing county council district memberships and the 65 other national blanks
+are retained and explained.
 
 The registry builder now reads the committed county evidence instead of the
 sibling county lookup. The new county test runs within the existing registry
 gate and checks every one of the 361 records in both copies. It failed on the
-original data with 83 mismatches and passes after the corrections. No sibling
-signals were rebuilt. Main CI has an existing undici dependency failure covered
+original data with 97 mismatches and passes after the corrections. The extended
+test also failed on the first correction with all fourteen further omissions.
+No sibling signals were rebuilt. Main CI has an existing undici dependency failure covered
 by Dependabot PR 37, which only Tom can merge. That PR and dependencies are
 unchanged. This work is for a feature branch PR only, with no merge or deployment.
 
