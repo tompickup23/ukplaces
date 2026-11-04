@@ -1,5 +1,9 @@
 # UK Places: build plan for Codex
 
+Historical. Round 1 is done. The source of truth for new work is
+`docs/ROUND-3-PLAN.md`. Decisions D1 to D5 and D7 below still stand; D6 was
+reversed on 27 September 2026. Do not run the STEPS loop in this file.
+
 Written 10 September 2026 after a full audit of https://ukplaces.co.uk and the four
 sister repos. Work through the STEPS section in a loop. This file is the single source
 of truth; PROGRESS.md (created in step 0) is the running log.

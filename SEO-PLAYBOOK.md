@@ -2,9 +2,11 @@
 
 ## Positioning
 
-UK Places is the front door to source-led local intelligence. It should earn
-organic traffic by making a place genuinely easier to understand, then send
-readers to the specialist projects that contain the underlying evidence.
+UK Places is the GSS geography spine and civic hub for the estate. It should
+earn organic traffic by making a local-authority record easier to understand,
+then send readers to the specialist projects that hold the evidence. It is not
+the council-tax or "my council" front door: that door for England is UK
+Councils. See `docs/ROUND-3-PLAN.md` decision D11.
 
 The goal is not to manufacture a page for every settlement. A profile exists
 only when it offers a useful, current briefing for that particular geography.
@@ -25,6 +27,8 @@ Each profile should include only the lenses that have current source coverage:
    routed to UK Elections and AI DOGE.
 4. **Asylum & local context**: local asylum information with a visible source,
    period and caveat, routed to Asylum Stats.
+5. **Council tax (England)**: the published charge and comparison, routed to
+   UK Councils. UK Places does not print a Band D or other billing figure.
 
 Every module must state the source, the period it describes and the exact route
 to the specialist page. If a source does not support a place or a lens is not
@@ -53,7 +57,9 @@ check that enforces it.
   and dates list. No date is hand-typed.
 - **Direct links** to the exact UK Elections, UK Demographics, AI DOGE, Asylum
   Stats and UK Food Hygiene page, only where the source's own data confirms the
-  page (`scripts/build-registry.mjs`).
+  page (`scripts/build-registry.mjs`). A UK Councils council-tax page is linked
+  the same way where that site confirms one (Round 3 step 1). It is not a sixth
+  source and contributes no figure.
 - **Internal links.** The region is linked to its region page, the county council
   is named (from the AI DOGE crosswalk) and linked to AI DOGE, and up to 20 other
   places in the same ceremonial county or region are listed.
@@ -118,7 +124,8 @@ pages. Do not produce near-identical town pages that simply swap place names.
 
 Done on 10 September 2026: the Astro site is live on GitHub Pages at
 `https://ukplaces.co.uk`, the sitemap is submitted in Search Console, and robots,
-canonicals and structured data are generated from the registry. The measure of
-the Round 2 work is the Search Console Pages report: the counts under "Crawled,
-currently not indexed" and "Discovered, currently not indexed" before and four
-weeks after the metadata PR merges.
+canonicals and structured data are generated from the registry. Round 2 landed
+on 5 October 2026 (PR #26). The measure of that work, still open, is the Search
+Console Pages report: the counts under "Crawled, currently not indexed" and
+"Discovered, currently not indexed" before the merge and four weeks after.
+Round 3 does not add another module until those counts are pasted (D15).
