@@ -66,6 +66,53 @@ All four run in `site-checks.yml` and `deploy.yml`.
 
 `npm run build:registry` writes `src/data/registry/places.json` and the copy sister sites read at `public/data/registry/places.json`; `npm run test:registry` fails if the two differ. It also writes `src/data/registry/county-councils.json` from the AI DOGE crosswalk.
 
+### Ceremonial county evidence
+
+County values now come from `data/ceremonialcounties.json`, independently of sibling
+data. Its source is [Schedule 1 of the Lieutenancies Act 1997](https://www.legislation.gov.uk/ukpga/1997/23/schedule/1),
+read live on 3 November 2026 through the legislation XML endpoint recorded in the
+table. The table contains the source URL, access date, response hash, quoted
+entries and a decision note for every registry record.
+
+All 33 London records, all 63 English unitary records and all 36 metropolitan
+records were reviewed against the schedule and the legislation incorporated by
+paragraph 2(c). The 32 boroughs belong to Greater London. The City of London is
+separate under paragraph 4, which treats it as a county for sections 5 and 6.
+Fifty unitary records have direct assignments. Twelve more follow paragraph 2(c)
+through the structural legislation: the six Berkshire districts, Bristol,
+Herefordshire, Rutland, Cornwall, Northumberland and the Isle of Wight. Bristol
+uses the statutory county name City of Bristol. Stockton is the only English
+blank because the schedule divides it between Durham and North Yorkshire at the
+centre of the River Tees. A single county would misrepresent the whole authority.
+
+Paragraph 2(c) incorporates other English counties through the Local Government
+Act 1972. The evidence table records eleven additional statutory sources with
+their URLs, access dates, response hashes and exact quoted provisions. It also
+records the 1973 order naming every metropolitan district within its county,
+including Barnsley and Sheffield within South Yorkshire. The existing county
+council district relationships are retained, not presented as individually
+named entries in this schedule. Wales refers to preserved
+counties without listing current principal area membership. Scotland has
+lieutenancy areas, and Northern Ireland is outside the schedule. Those existing
+blanks are retained and explained in the table. No membership is inferred from
+a similar name or a regional label.
+
+`npm run test:counties` checks all 361 county values in both registry copies
+against this committed table. It also checks complete coverage, decision notes,
+schedule citations and direct assignments against their quoted county entries.
+Assignments through paragraph 2(c) must cite the incorporated evidence, and each
+metropolitan district must appear in its county entry in the 1973 order. The
+test also requires Stockton to be the sole English blank.
+`npm run test:registry` runs it too, so both existing CI workflows
+include the guard. The registry builder refuses an authority without an evidence
+row. Review the live schedule and update the evidence first when adding an
+authority or changing a county. Do not regenerate this table from the registry.
+
+For a correction confined to counties, update only the county fields in both
+registry copies and run these tests. Do not rebuild signals or unrelated source
+coverage. An optional file argument to the county test allows the same assertions
+to check an earlier registry snapshot without overwriting the working files.
+
 ## Constituency geography
 
 `npm run build:constituencies` fills the PCON code UK Elections leaves null (77 seats in Scotland and Northern Ireland) by an exact, unique match on the official ONS name in `ukelections/data/geography/pcon24-simplified.geojson`; it stops if that match disagrees with any code UK Elections does carry. Each seat's current local authorities (`ladCodes`) come from `ukelections/data/ons-pcon24-lad25-postcode-crosswalk.json` (ONS Postcode Directory), counting a pair only where at least 10 live postcodes fall in both. `lad24cds` keeps the UK Elections list unchanged. Run `build:place-constituencies` after it, because place membership is built from the constituency registry.
