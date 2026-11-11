@@ -15,7 +15,7 @@ import sources from "../data/sources.json";
     <section aria-labelledby="sister-sites-heading">
       <h2 id="sister-sites-heading">Sister sites</h2>
       <ul class="site-footer__source-list">
-        {sources.map((source) => <li><a href={source.siteUrl}>{source.name}</a></li>)}
+        {sources.filter((source) => source.linked !== false).map((source) => <li><a href={source.siteUrl}>{source.name}</a></li>)}
       </ul>
     </section>
     <nav aria-label="Footer navigation">
@@ -23,6 +23,9 @@ import sources from "../data/sources.json";
       <a href="/places/">Places</a>
       <a href="/sources/">Sources</a>
       <a href="/methodology/">Methodology</a>
+      <a href="/about/">About</a>
+      <a href="/contact/">Contact</a>
+      <a href="/corrections/">Corrections</a>
       <a href="/privacy/">Privacy</a>
     </nav>
   </div>

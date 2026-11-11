@@ -13,6 +13,9 @@ const dashPattern = /[\u2013\u2014]/;
 // Templated prose must not repeat a word, as "a unitary authority in in the ... region"
 // once did on 65 place introductions.
 const doubledWord = /\b(\w+)\s+\1\b/i;
+// Round 3 D11: council tax searches belong to UK Councils, so no indexable title
+// or description here may use the phrase.
+const councilTax = /council\s+tax/i;
 
 const entities = { amp: "&", lt: "<", gt: ">", quot: "\"", "#39": "'", "#x27": "'", apos: "'" };
 const decode = (text) => text
@@ -66,6 +69,7 @@ for (const { page, title, description } of pages) {
   }
   if (dashPattern.test(title) || dashPattern.test(description)) failures.push(`${page}: dash character in title or description`);
   if (doubledWord.test(title) || doubledWord.test(description)) failures.push(`${page}: repeated word in title or description`);
+  if (councilTax.test(title) || councilTax.test(description)) failures.push(`${page}: "council tax" in title or description (D11)`);
 }
 
 failures.push(...doubled);
