@@ -14,7 +14,7 @@ assert.equal(urls.length, [...sitemap.matchAll(/<loc>/g)].length, "every sitemap
 const places = Object.values(JSON.parse(fs.readFileSync(path.join(siteRoot, "src", "data", "registry", "places.json"), "utf8")));
 const constituencies = Object.values(JSON.parse(fs.readFileSync(path.join(siteRoot, "src", "data", "registry", "constituencies.json"), "utf8")));
 const regionSlugs = new Set(places.map((place) => place.region.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "")));
-const expectedUrlCount = 7 + places.length + constituencies.length + regionSlugs.size;
+const expectedUrlCount = 10 + places.length + constituencies.length + regionSlugs.size;
 assert.equal(urls.length, expectedUrlCount, "sitemap has static, place, constituency and region routes");
 
 for (const url of urls) {
@@ -45,7 +45,7 @@ const latest = (dates) => dates.filter(Boolean).sort().at(-1) ?? null;
 const signalsDate = (place) => latest(sources.filter((source) => place.coverage[source.id]?.hasPage).map((source) => feeds[source.id][place.gss]?.snapshotDate));
 const regionSlug = (region) => region.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
 const expectedLastmod = new Map([
-  ...["/", "/places/", "/constituencies/", "/methodology/", "/sources/", "/updates/", "/privacy/"]
+  ...["/", "/places/", "/constituencies/", "/methodology/", "/sources/", "/updates/", "/privacy/", "/about/", "/contact/", "/corrections/"]
     .map((pathname) => [pathname, latest(readData("changelog.json").map((entry) => entry.date))]),
   ...places.map((place) => [
     `/places/${place.slug}/`,
