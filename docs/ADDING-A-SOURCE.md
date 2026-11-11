@@ -67,3 +67,12 @@ npm run build
 ```
 
 `test:source-onboarding` temporarily adds a dummy source and coverage record, confirms that the existing place template renders the extra coverage row, then restores the data and checks the restored build. Keep this test when adding future sources.
+
+## Linked and named sources
+
+Each manifest entry may carry `linked`. Where it is `false`, the source is named
+on records, the home page, the sources page and nowhere in the footer, and no
+hyperlink to it is rendered: the figure, its label, period and snapshot date
+still show. This follows the estate tier ruling of 4 November 2026 (signed sites
+name tier C sources in text and do not link them). AI DOGE and Asylum Stats are
+set this way. A source with no `linked` field is linked.

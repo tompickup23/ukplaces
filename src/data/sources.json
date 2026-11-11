@@ -4,49 +4,64 @@
     "name": "UK Elections",
     "accent": "#6b5334",
     "topic": "Election results and representation",
-    "levels": ["local-authority"],
+    "levels": [
+      "local-authority"
+    ],
     "feedPath": "/data/signals/ukelections.json",
     "schemaVersion": "signals-v1",
-    "siteUrl": "https://ukelections.co.uk"
+    "siteUrl": "https://ukelections.co.uk",
+    "linked": true
   },
   {
     "id": "ukdemographics",
     "name": "UK Demographics",
     "accent": "#4338ca",
     "topic": "Population, crime and local context",
-    "levels": ["local-authority"],
+    "levels": [
+      "local-authority"
+    ],
     "feedPath": "/data/signals/ukdemographics.json",
     "schemaVersion": "signals-v1",
-    "siteUrl": "https://ukdemographics.co.uk"
+    "siteUrl": "https://ukdemographics.co.uk",
+    "linked": true
   },
   {
     "id": "aidoge",
     "name": "AI DOGE",
     "accent": "#18718a",
     "topic": "Published council payment records",
-    "levels": ["local-authority"],
+    "levels": [
+      "local-authority"
+    ],
     "feedPath": "/data/signals/aidoge.json",
     "schemaVersion": "signals-v1",
-    "siteUrl": "https://aidoge.co.uk"
+    "siteUrl": "https://aidoge.co.uk",
+    "linked": false
   },
   {
     "id": "asylumstats",
     "name": "Asylum Stats",
     "accent": "#2f5773",
     "topic": "Home Office asylum support data",
-    "levels": ["local-authority"],
+    "levels": [
+      "local-authority"
+    ],
     "feedPath": "/data/signals/asylumstats.json",
     "schemaVersion": "signals-v1",
-    "siteUrl": "https://asylumstats.co.uk"
+    "siteUrl": "https://asylumstats.co.uk",
+    "linked": false
   },
   {
     "id": "ukfoodhygiene",
     "name": "UK Food Hygiene",
     "accent": "#1f5c4a",
     "topic": "Food hygiene ratings from the official register",
-    "levels": ["local-authority"],
+    "levels": [
+      "local-authority"
+    ],
     "feedPath": "/data/signals/ukfoodhygiene.json",
     "schemaVersion": "signals-v1",
-    "siteUrl": "https://ukfoodhygiene.co.uk"
+    "siteUrl": "https://ukfoodhygiene.co.uk",
+    "linked": true
   }
 ]

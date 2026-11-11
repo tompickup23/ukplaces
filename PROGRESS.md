@@ -159,7 +159,7 @@ This round writes the estate role that Codex and Opus only cited, then adds the 
 - [x] 0. Open Round 3, point Codex and Opus at the new plan, rewrite playbook positioning for D11.
 - [ ] 1. UK Councils coverage link, not a sixth source.
 - [ ] 2. Reverse link in the UK Councils repo.
-- [ ] 3. Query-language guard against "council tax" in titles and descriptions.
+- [x] 3. Query-language guard against "council tax" in titles and descriptions. (Done in Round 4 phase 1, 11 November 2026.)
 - [ ] 4. Token provenance (`apply.py` if reachable, otherwise document the match).
 - [ ] 5. Search Console paste and www check (Tom).
 - [ ] 6. Close: playbook, operations, final log line.
@@ -172,3 +172,48 @@ This round writes the estate role that Codex and Opus only cited, then adds the 
 
 - 2026-10-06, Step 0: opened Round 3 after a review of the live site, UK Councils, and the August 2026 brand memories. Codex and Opus plans marked historical. Playbook positioning now calls UK Places the geography spine and routes council tax to UK Councils. New decisions D11 to D15 are in `docs/ROUND-3-PLAN.md`. Verified: Round 3 heading present; playbook no longer uses an unqualified "front door"; house-style check covers `src/` and `scripts/` only and is unchanged by this docs commit. Next: step 1.
 - 2026-10-06, Session archived: no further coding from this session. Handoff for the next run is `docs/SESSION-2026-10-06-ROUND-3-ARCHIVE.md`. Open draft PR #27. Waiting on Tom's D11 line before steps 1 to 3.
+
+## Round 2 landing outcome, 6 October 2026
+
+PR #26 merged with merge commit 5b79c16850304033a14f9d816525325e40b562ce after every local gate and required validate and CodeQL check passed on cb441748f0ec737837c93d9d874b965897514c3b. Tom explicitly approved temporarily disabling only required linear history. All original branch-protection settings were restored immediately and verified.
+
+Pages workflow 37387196060: build succeeded and deployment succeeded. The final IndexNow job failed with HTTP 403, errorCode SiteVerificationNotCompleted. The service requested waiting for verification and trying again. Release actions stopped at this failure; no workflow retry or further merges were attempted.
+
+Live checks at 2026-10-05T23:15:10.393Z:
+
+| Route | HTTP | New elements verified |
+| --- | --- | --- |
+| / | 200 | Yes |
+| /places/burnley/ | 200 | Yes |
+| /places/reading/ | 200 | Yes |
+| /constituencies/burnley/ | 200 | Yes |
+| /privacy/ | 200 | Yes |
+| /og/places/burnley.png | 200 | Yes |
+| /sitemap.xml | 200 | Yes |
+
+The live sitemap has 1,030 URLs, all dated. Burnley's Food Hygiene panel links to ukfoodhygiene.co.uk and names FSA provenance. The share card is a valid 1200 by 630 PNG. Privacy correctly says analytics is inactive. No parish or town-specific routes exist. Reading was checked as a town-named local-authority record, not a settlement or parish page.
+
+GitHub automatically marked #15 merged when #26 landed. PRs #16 to #23 remain open because cleanup stopped on the IndexNow failure; supersession comments have not been posted. Dependabot #24 and #25 conflict with the new main and have no green post-merge CI, so remain open. The two original untracked files remain untouched.
+
+Open questions for Tom: whether UK Places should stay out of council-name searches, with UK Councils as the front door; and the analytics token. The CF_BEACON_TOKEN variable remains absent. No other repository or VPS changed.
+
+Archive handover prepared on 6 October 2026: see docs/HANDOFF-CLAUDE-2026-10-06.md. IndexNow remains stopped on site verification; the handover supersedes the earlier Dependabot conflict snapshot, as #24 and #25 have since moved to new heads and report BLOCKED. Final outcome documentation and the handover are local and uncommitted. No additional release actions were taken.
+
+## Round 4
+
+Plan: `docs/ROUND-4-PLAN.md` (proposed 11 November 2026; Tom: "Yes, start" for phases 0 and 1 as a time-boxed exception). Baseline `origin/main` `2bea52d`.
+
+Round 3 D15 is met: the Search Console counts it waited for were read on 2 November 2026 (2 clicks on 4,650 impressions, average position 21, 4 to 31 October 2026; 970 pages indexed, 60 discovered and not indexed; Reports `Traffic/seo/audits/ukplaces.co.uk.md`).
+
+### Steps
+
+- [x] Phase 0. Housekeeping: the 6 October landing outcome and handover, which existed only as uncommitted files in the old checkout, are carried onto this branch.
+- [x] Phase 1. Listing and trust.
+- [ ] Phase 1b. Measurement (Tom): analytics token, Bing verification, the www record, the Search Console service account.
+- [ ] Phase 2. Codes and geography pages.
+- [ ] Phase 3. Reverse links in the sister repositories.
+
+### Log
+
+- 2026-11-11, Phase 1 (branch `feat/round4-listing-trust`): place titles now read "Luton (E06000032): county, region and council" (the county is promised only where the registry holds one; "region, council and codes" and "country, council and codes" otherwise) and descriptions open with the geography answer (type, ceremonial county, region, GSS code), adding the county council or the council's official name only while the text stays within 160 characters; across the 361 records they run 108 to 174 characters. The home title is "Find your local authority: GSS code, county and region", with `WebSite` and `Organization` JSON-LD and links to all 12 nation and region pages. "London borough" keeps its capital in every sentence, and "Northern Ireland local government district in Northern Ireland" and "Welsh principal area in Wales" no longer name the country twice. `check:metadata` now fails on "council tax" in any indexable title or description (Round 3 step 3; proved to fail on a doctored Burnley description and pass on the real build). New pages `/about/` (publisher named, as the brand index records UK Places as a signed site), `/contact/` and `/corrections/`, in the footer and the sitemap, and `/llms.txt`. No contact address is published: `CONTACT_EMAIL` in `src/lib/site.ts` is null until Tom confirms a mailbox, and the page says one is being set up. Tier ruling of 4 November 2026 applied: `linked: false` on AI DOGE and Asylum Stats in `src/data/sources.json`, so both are named as sources with their figure, period and snapshot date and no hyperlink on records, the home page and the sources page, and both are out of the footer; the county council name no longer links to AI DOGE; no link to either host remains anywhere in `dist`. This reverses Round 3 D13. Verified: lint 0 errors; all nine test scripts; build of 1,034 pages; metadata, sitemap (1,033 URLs), landing, contrast, text-size, parity and analytics checks; Burnley, home, sources and about read in the browser at desktop and 375px in dark, with no horizontal overflow at 375px. Not run: the `BUILD_OG=1` card build (CI runs it) and `/design-check`. Place `lastmod` dates do not move, because they follow source snapshot dates, so IndexNow will submit only the static pages.
+- 2026-11-11, Session archived: phase 1 is tompickup23/ukplaces#50 (branch `feat/round4-listing-trust`, worktree `~/ukplaces-wt-round4`), all three checks green, not merged; merging deploys. Before merging, Tom checks three things: `/about/` names him as publisher, no contact address is published (`CONTACT_EMAIL` is null), and AI DOGE and Asylum Stats are unlinked sitewide. Left undone: Dependabot PRs 47, 48 and 4; the Reports register rows (R430, R432, R443 to done; R435, R437 in review); phase 1b (Tom). The old checkout `~/ukplaces` is still on `feat/local-links` with its uncommitted notes, now also on this branch; nothing there was deleted. Next session: after the merge, read the live titles, then start phase 2 (`docs/ROUND-4-PLAN.md` section 7). Open questions Q3 (towns pilot), Q4 (registry as open data) and Q5 (kit route for a public repository) are unanswered.

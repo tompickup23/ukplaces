@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-11-11",
+    "title": "Titles now name the code and geography; about, contact and corrections pages added.",
+    "summary": "Each local authority record is titled with its GSS code and opens its description with its type, county and region. The home page links every region. New pages say who publishes UK Places, how to get in touch and how corrections are recorded. AI DOGE and Asylum Stats are named as sources on each record without a link."
+  },
+  {
     "date": "2026-09-27",
     "title": "UK Food Hygiene added as a fifth source.",
     "summary": "Every local authority record now shows the share of rated businesses scoring 5 on the official food hygiene register, dated to the register snapshot and linked to the council page on UK Food Hygiene. Scottish councils use a different scheme and show no share."
