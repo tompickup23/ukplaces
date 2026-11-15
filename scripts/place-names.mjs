@@ -3,8 +3,29 @@
 // ONS lists a few authorities in inverted form so they sort under their own name:
 // "Bristol, City of" is the City of Bristol. Only a trailing ", City of" or
 // ", County of" is an inversion; "Newry, Mourne and Down" is a list and stays as it is.
-// The registry keeps `name` exactly as ONS publishes it, and lists sort on it.
+// The registry keeps the source name except for evidenced short-name corrections.
 const ONS_INVERTED = /^(.+), (City|County) of$/;
+
+export const shortNameCorrections = {
+  E07000112: {
+    sourceName: "Shepway",
+    name: "Folkestone and Hythe",
+    publisher: "Folkestone and Hythe District Council",
+    title: "Extraordinary meeting, Council, 17 January 2018: Proposal to change the name of the district, item 75",
+    date: "2018-01-17",
+    effectiveDate: "2018-04-01",
+    url: "https://folkestone-hythe.moderngov.co.uk/ieListDocuments.aspx?CId=122&MeetingId=4420",
+  },
+};
+
+export function shortNameFor(gss, sourceName) {
+  const correction = shortNameCorrections[gss];
+  if (!correction) return sourceName;
+  if (![correction.sourceName, correction.name].includes(sourceName)) {
+    throw new Error(`Unexpected short name for ${gss}; review the council evidence.`);
+  }
+  return correction.name;
+}
 
 export function displayNameFor(onsName) {
   const match = onsName.match(ONS_INVERTED);

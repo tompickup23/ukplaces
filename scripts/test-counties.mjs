@@ -1,6 +1,7 @@
 import assert from "node:assert/strict";
 import fs from "node:fs";
 import { countyFor, countyReference } from "./county-reference.mjs";
+import { shortNameFor } from "./place-names.mjs";
 
 const { source, entries, records, incorporatedSources, incorporatedEntries } = countyReference;
 assert.equal(source.url, "https://www.legislation.gov.uk/ukpga/1997/23/schedule/1");
@@ -71,7 +72,7 @@ for (const file of paths) {
   assert.deepEqual(Object.keys(registry).sort(), Object.keys(records).sort(), "county reference and registry cover exactly the same authorities");
   const errors = [];
   for (const [gss, place] of Object.entries(registry)) {
-    assert.equal(records[gss].name, place.name, `${gss} evidence identifies the same authority`);
+    assert.equal(shortNameFor(gss, records[gss].name), shortNameFor(gss, place.name), `${gss} evidence identifies the same authority after evidenced renames`);
     if (place.county !== countyFor(gss)) {
       errors.push(`${gss} ${place.name}: ${JSON.stringify(place.county)} should be ${JSON.stringify(countyFor(gss))}`);
     }

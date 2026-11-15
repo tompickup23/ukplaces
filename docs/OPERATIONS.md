@@ -66,6 +66,29 @@ All four run in `site-checks.yml` and `deploy.yml`.
 
 `npm run build:registry` writes `src/data/registry/places.json` and the copy sister sites read at `public/data/registry/places.json`; `npm run test:registry` fails if the two differ. It also writes `src/data/registry/county-councils.json`. Council names use the pinned GOV.UK Local Links Manager evidence; see [Council official names](OFFICIAL-NAMES.md) for the refresh and build guards.
 
+### Short-name corrections
+
+The registry normally takes `name` from `areaName` in the asylum data input.
+`scripts/place-names.mjs` records an evidenced correction for E07000112,
+from Shepway to Folkestone and Hythe. Its source is Folkestone and Hythe
+District Council, *Extraordinary meeting, Council, 17 January 2018:
+Proposal to change the name of the district, item 75*, dated 17 January 2018.
+The [council minutes](https://folkestone-hythe.moderngov.co.uk/ieListDocuments.aspx?CId=122&MeetingId=4420)
+record the resolution taking effect on 1 April 2018.
+
+Both the full registry build and `npm run build:registry -- --short-names-only`
+apply this correction by GSS code. The focused command regenerates both copies
+from the committed snapshot, changing only `name` and retaining key order.
+It avoids unrelated sibling data refreshes. The correction accepts the old or
+current name and stops if that code acquires an unexpected name.
+
+This single-field correction retains `slug: "shepway"`, `officialName`,
+`displayName: "Shepway"` and `searchNames: ["Shepway"]`. The latter two still
+drive UK Places display and search behaviour; changing them is outside this
+export correction. Any future slug migration needs a separate coordinated
+decision covering UK Places, UK Councils and UK Council Tax, with permanent
+redirects, updated sitemaps and canonicals, and IndexNow submissions.
+
 ### Ceremonial county evidence
 
 County values now come from `data/ceremonialcounties.json`, independently of sibling
