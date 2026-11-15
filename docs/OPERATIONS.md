@@ -82,10 +82,12 @@ from the committed snapshot, changing only `name` and retaining key order.
 It avoids unrelated sibling data refreshes. The correction accepts the old or
 current name and stops if that code acquires an unexpected name.
 
-This single-field correction retains `slug: "shepway"`, `officialName`,
-`displayName: "Shepway"` and `searchNames: ["Shepway"]`. The latter two still
-drive UK Places display and search behaviour; changing them is outside this
-export correction. Any future slug migration needs a separate coordinated
+The same evidence supplies `displayName: "Folkestone and Hythe"` and
+`searchNames: ["Folkestone and Hythe", "Shepway"]` in the full build and in
+`npm run build:registry -- --display-names-only`. The focused command changes
+only those two fields in both committed copies. Folkestone, Hythe and Shepway
+each find E07000112. The correction retains `slug: "shepway"`, `officialName`
+and all other record fields. Any future slug migration needs a separate coordinated
 decision covering UK Places, UK Councils and UK Council Tax, with permanent
 redirects, updated sitemaps and canonicals, and IndexNow submissions.
 
