@@ -4,6 +4,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { displayNameFor, matchesQuery, normaliseSearchText, searchKey, searchNamesFor } from "./place-names.mjs";
 import "./test-counties.mjs";
+import "./test-official-names.mjs";
 
 const siteRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const registryPath = path.join(siteRoot, "src", "data", "registry", "places.json");

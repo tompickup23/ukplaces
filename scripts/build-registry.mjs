@@ -3,6 +3,10 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { displayNameFor, searchNamesFor } from "./place-names.mjs";
 import { countyFor } from "./county-reference.mjs";
+import { authorityIndex, readOfficialNameInputs, resolveOfficialName, validateOfficialNames } from "./official-names.mjs";
+
+const { reference: officialNameReference, predecessors } = readOfficialNameInputs();
+const officialNames = authorityIndex(officialNameReference.rows);
 
 const siteRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const registryDir = path.join(siteRoot, "src", "data", "registry");
@@ -179,8 +183,6 @@ for (const area of [...asylumAreas].sort((left, right) => left.areaCode.localeCo
   const type = typeLabels[gss.slice(0, 3)];
   if (!type) throw new Error(`No type label is configured for ${gss}.`);
 
-  const crosswalkMatches = crosswalkByGss.get(gss) ?? [];
-  const exactCrosswalk = crosswalkMatches.length === 1 ? crosswalkMatches[0] : null;
   const aidogeMatches = aidogeByGss.get(gss) ?? [];
   const aidogeMatch = aidogeMatches.length === 1 ? aidogeMatches[0] : null;
   const county = countyFor(gss);
@@ -202,7 +204,7 @@ for (const area of [...asylumAreas].sort((left, right) => left.areaCode.localeCo
     name: area.areaName,
     displayName: displayNameFor(area.areaName),
     searchNames: searchNamesFor(area.areaName),
-    officialName: aidogeMatch?.summary.name ?? exactCrosswalk?.name ?? area.areaName,
+    ...resolveOfficialName(gss, officialNames, predecessors),
     type,
     country: area.countryName,
     region: area.regionName,
@@ -220,9 +222,7 @@ for (const area of [...asylumAreas].sort((left, right) => left.areaCode.localeCo
   };
 }
 
-// County councils named by the parent GSS codes above, from the AI DOGE crosswalk
-// only: the name AI DOGE publishes where it confirms a page, the crosswalk name
-// otherwise, and no record at all where the crosswalk holds no single row.
+// County council identities and coverage use the crosswalk; names use the pinned export.
 const countyCouncils = {};
 for (const parentGss of [...new Set(Object.values(registry).map((place) => place.parentGss).filter(Boolean))].sort()) {
   const crosswalkMatches = crosswalkByGss.get(parentGss) ?? [];
@@ -231,10 +231,11 @@ for (const parentGss of [...new Set(Object.values(registry).map((place) => place
   const aidogeMatch = aidogeMatches.length === 1 ? aidogeMatches[0] : null;
   countyCouncils[parentGss] = {
     gss: parentGss,
-    name: aidogeMatch?.summary.name ?? crosswalkMatches[0].name,
+    name: resolveOfficialName(parentGss, officialNames, predecessors).officialName,
     aidoge: coverage(Boolean(aidogeMatch), aidogeMatch?.id ?? null, sourceUrls.aidoge),
   };
 }
+validateOfficialNames({ places: registry, counties: countyCouncils, predecessors, reference: officialNameReference });
 fs.writeFileSync(path.join(registryDir, "county-councils.json"), `${JSON.stringify(countyCouncils, null, 2)}\n`);
 
 if (unresolvedParents.length) {

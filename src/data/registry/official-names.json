@@ -1,0 +1,1924 @@
+{
+  "source": {
+    "name": "GOV.UK Local Links Manager",
+    "url": "https://local-links-manager.publishing.service.gov.uk/data/links_to_services_provided_by_local_authorities.csv",
+    "lastModified": "Sun, 15 Nov 2026 03:00:05 GMT",
+    "retrievedOn": "2026-11-15",
+    "sha256": "303804531a0cdc1cf2c51d99c2dfa5ba1f4ec024d77c8224457a8e0a50547de2",
+    "licence": "Open Government Licence v3.0",
+    "columns": [
+      "Authority Name",
+      "GSS",
+      "Description",
+      "LGSL",
+      "LGIL",
+      "URL",
+      "Title",
+      "Supported by GOV.UK"
+    ],
+    "rowNumbering": "CSV record number, with the header as row 1",
+    "totalRows": 45438
+  },
+  "rows": [
+    {
+      "row": 15948,
+      "GSS": "E06000001",
+      "Authority Name": "Hartlepool Borough Council"
+    },
+    {
+      "row": 25337,
+      "GSS": "E06000002",
+      "Authority Name": "Middlesbrough Borough Council"
+    },
+    {
+      "row": 31278,
+      "GSS": "E06000003",
+      "Authority Name": "Redcar and Cleveland Borough Council"
+    },
+    {
+      "row": 37974,
+      "GSS": "E06000004",
+      "Authority Name": "Stockton-on-Tees Borough Council"
+    },
+    {
+      "row": 9686,
+      "GSS": "E06000005",
+      "Authority Name": "Darlington Borough Council"
+    },
+    {
+      "row": 15401,
+      "GSS": "E06000006",
+      "Authority Name": "Halton Borough Council"
+    },
+    {
+      "row": 42106,
+      "GSS": "E06000007",
+      "Authority Name": "Warrington Borough Council"
+    },
+    {
+      "row": 2054,
+      "GSS": "E06000008",
+      "Authority Name": "Blackburn with Darwen Borough Council"
+    },
+    {
+      "row": 2214,
+      "GSS": "E06000009",
+      "Authority Name": "Blackpool Borough Council"
+    },
+    {
+      "row": 16983,
+      "GSS": "E06000010",
+      "Authority Name": "Hull City Council"
+    },
+    {
+      "row": 12427,
+      "GSS": "E06000011",
+      "Authority Name": "East Riding of Yorkshire Council"
+    },
+    {
+      "row": 27346,
+      "GSS": "E06000012",
+      "Authority Name": "North East Lincolnshire Council"
+    },
+    {
+      "row": 27782,
+      "GSS": "E06000013",
+      "Authority Name": "North Lincolnshire Council"
+    },
+    {
+      "row": 8301,
+      "GSS": "E06000014",
+      "Authority Name": "City of York Council"
+    },
+    {
+      "row": 10110,
+      "GSS": "E06000015",
+      "Authority Name": "Derby City"
+    },
+    {
+      "row": 18441,
+      "GSS": "E06000016",
+      "Authority Name": "Leicester City Council"
+    },
+    {
+      "row": 33546,
+      "GSS": "E06000017",
+      "Authority Name": "Rutland County Council"
+    },
+    {
+      "row": 29110,
+      "GSS": "E06000018",
+      "Authority Name": "Nottingham City Council"
+    },
+    {
+      "row": 16287,
+      "GSS": "E06000019",
+      "Authority Name": "Herefordshire Council"
+    },
+    {
+      "row": 39660,
+      "GSS": "E06000020",
+      "Authority Name": "Telford & Wrekin Council"
+    },
+    {
+      "row": 38167,
+      "GSS": "E06000021",
+      "Authority Name": "Stoke-on-Trent City Council"
+    },
+    {
+      "row": 1435,
+      "GSS": "E06000022",
+      "Authority Name": "Bath and North East Somerset Council"
+    },
+    {
+      "row": 3839,
+      "GSS": "E06000023",
+      "Authority Name": "Bristol City Council"
+    },
+    {
+      "row": 28164,
+      "GSS": "E06000024",
+      "Authority Name": "North Somerset Council"
+    },
+    {
+      "row": 35919,
+      "GSS": "E06000025",
+      "Authority Name": "South Gloucestershire Council"
+    },
+    {
+      "row": 30476,
+      "GSS": "E06000026",
+      "Authority Name": "Plymouth City Council"
+    },
+    {
+      "row": 40730,
+      "GSS": "E06000027",
+      "Authority Name": "Torbay Council"
+    },
+    {
+      "row": 39083,
+      "GSS": "E06000030",
+      "Authority Name": "Swindon Borough Council"
+    },
+    {
+      "row": 30289,
+      "GSS": "E06000031",
+      "Authority Name": "Peterborough City Council"
+    },
+    {
+      "row": 24071,
+      "GSS": "E06000032",
+      "Authority Name": "Luton Borough Council"
+    },
+    {
+      "row": 35728,
+      "GSS": "E06000033",
+      "Authority Name": "Southend-on-Sea City Council"
+    },
+    {
+      "row": 40438,
+      "GSS": "E06000034",
+      "Authority Name": "Thurrock Council"
+    },
+    {
+      "row": 24770,
+      "GSS": "E06000035",
+      "Authority Name": "Medway Council"
+    },
+    {
+      "row": 3170,
+      "GSS": "E06000036",
+      "Authority Name": "Bracknell Forest Council"
+    },
+    {
+      "row": 42863,
+      "GSS": "E06000037",
+      "Authority Name": "West Berkshire Council"
+    },
+    {
+      "row": 31099,
+      "GSS": "E06000038",
+      "Authority Name": "Reading Borough Council"
+    },
+    {
+      "row": 34815,
+      "GSS": "E06000039",
+      "Authority Name": "Slough Borough Council"
+    },
+    {
+      "row": 33036,
+      "GSS": "E06000040",
+      "Authority Name": "Royal Borough of Windsor and Maidenhead"
+    },
+    {
+      "row": 44505,
+      "GSS": "E06000041",
+      "Authority Name": "Wokingham Borough Council"
+    },
+    {
+      "row": 25836,
+      "GSS": "E06000042",
+      "Authority Name": "Milton Keynes City Council"
+    },
+    {
+      "row": 3673,
+      "GSS": "E06000043",
+      "Authority Name": "Brighton and Hove City Council"
+    },
+    {
+      "row": 30668,
+      "GSS": "E06000044",
+      "Authority Name": "Portsmouth City Council"
+    },
+    {
+      "row": 35301,
+      "GSS": "E06000045",
+      "Authority Name": "Southampton City Council"
+    },
+    {
+      "row": 17529,
+      "GSS": "E06000046",
+      "Authority Name": "Isle of Wight Council"
+    },
+    {
+      "row": 11394,
+      "GSS": "E06000047",
+      "Authority Name": "Durham County Council"
+    },
+    {
+      "row": 6398,
+      "GSS": "E06000049",
+      "Authority Name": "Cheshire East Council"
+    },
+    {
+      "row": 6554,
+      "GSS": "E06000050",
+      "Authority Name": "Cheshire West and Chester Council"
+    },
+    {
+      "row": 34633,
+      "GSS": "E06000051",
+      "Authority Name": "Shropshire Council"
+    },
+    {
+      "row": 8831,
+      "GSS": "E06000052",
+      "Authority Name": "Cornwall Council"
+    },
+    {
+      "row": 9130,
+      "GSS": "E06000053",
+      "Authority Name": "Council of the Isles of Scilly"
+    },
+    {
+      "row": 43936,
+      "GSS": "E06000054",
+      "Authority Name": "Wiltshire Council"
+    },
+    {
+      "row": 1576,
+      "GSS": "E06000055",
+      "Authority Name": "Bedford Borough Council"
+    },
+    {
+      "row": 5683,
+      "GSS": "E06000056",
+      "Authority Name": "Central Bedfordshire Council"
+    },
+    {
+      "row": 28498,
+      "GSS": "E06000057",
+      "Authority Name": "Northumberland County Council"
+    },
+    {
+      "row": 3059,
+      "GSS": "E06000058",
+      "Authority Name": "Bournemouth, Christchurch and Poole Council"
+    },
+    {
+      "row": 10799,
+      "GSS": "E06000059",
+      "Authority Name": "Dorset Council"
+    },
+    {
+      "row": 4336,
+      "GSS": "E06000060",
+      "Authority Name": "Buckinghamshire Council"
+    },
+    {
+      "row": 28049,
+      "GSS": "E06000061",
+      "Authority Name": "North Northamptonshire Council"
+    },
+    {
+      "row": 43451,
+      "GSS": "E06000062",
+      "Authority Name": "West Northamptonshire Council"
+    },
+    {
+      "row": 9584,
+      "GSS": "E06000063",
+      "Authority Name": "Cumberland Council"
+    },
+    {
+      "row": 43448,
+      "GSS": "E06000064",
+      "Authority Name": "Westmorland and Furness Council"
+    },
+    {
+      "row": 5046,
+      "GSS": "E07000008",
+      "Authority Name": "Cambridge City Council"
+    },
+    {
+      "row": 11736,
+      "GSS": "E07000009",
+      "Authority Name": "East Cambridgeshire District Council"
+    },
+    {
+      "row": 13603,
+      "GSS": "E07000010",
+      "Authority Name": "Fenland District Council"
+    },
+    {
+      "row": 17152,
+      "GSS": "E07000011",
+      "Authority Name": "Huntingdonshire District Council"
+    },
+    {
+      "row": 35544,
+      "GSS": "E07000012",
+      "Authority Name": "South Cambridgeshire District Council"
+    },
+    {
+      "row": 257,
+      "GSS": "E07000032",
+      "Authority Name": "Amber Valley Borough Council"
+    },
+    {
+      "row": 2537,
+      "GSS": "E07000033",
+      "Authority Name": "Bolsover District Council"
+    },
+    {
+      "row": 6740,
+      "GSS": "E07000034",
+      "Authority Name": "Chesterfield Borough Council"
+    },
+    {
+      "row": 10380,
+      "GSS": "E07000035",
+      "Authority Name": "Derbyshire Dales District Council"
+    },
+    {
+      "row": 13163,
+      "GSS": "E07000036",
+      "Authority Name": "Erewash Borough Council"
+    },
+    {
+      "row": 16686,
+      "GSS": "E07000037",
+      "Authority Name": "High Peak Borough Council"
+    },
+    {
+      "row": 27259,
+      "GSS": "E07000038",
+      "Authority Name": "North East Derbyshire District Council"
+    },
+    {
+      "row": 35621,
+      "GSS": "E07000039",
+      "Authority Name": "South Derbyshire District Council"
+    },
+    {
+      "row": 11823,
+      "GSS": "E07000040",
+      "Authority Name": "East Devon District Council"
+    },
+    {
+      "row": 13353,
+      "GSS": "E07000041",
+      "Authority Name": "Exeter City Council"
+    },
+    {
+      "row": 25269,
+      "GSS": "E07000042",
+      "Authority Name": "Mid Devon District Council"
+    },
+    {
+      "row": 27170,
+      "GSS": "E07000043",
+      "Authority Name": "North Devon Council"
+    },
+    {
+      "row": 36111,
+      "GSS": "E07000044",
+      "Authority Name": "South Hams District Council"
+    },
+    {
+      "row": 39577,
+      "GSS": "E07000045",
+      "Authority Name": "Teignbridge District Council"
+    },
+    {
+      "row": 41076,
+      "GSS": "E07000046",
+      "Authority Name": "Torridge District Council"
+    },
+    {
+      "row": 43036,
+      "GSS": "E07000047",
+      "Authority Name": "West Devon Borough Council"
+    },
+    {
+      "row": 11629,
+      "GSS": "E07000061",
+      "Authority Name": "Eastbourne Borough Council"
+    },
+    {
+      "row": 16099,
+      "GSS": "E07000062",
+      "Authority Name": "Hastings Borough Council"
+    },
+    {
+      "row": 18730,
+      "GSS": "E07000063",
+      "Authority Name": "Lewes District Council"
+    },
+    {
+      "row": 32238,
+      "GSS": "E07000064",
+      "Authority Name": "Rother District Council"
+    },
+    {
+      "row": 42669,
+      "GSS": "E07000065",
+      "Authority Name": "Wealden District Council"
+    },
+    {
+      "row": 1140,
+      "GSS": "E07000066",
+      "Authority Name": "Basildon Borough Council"
+    },
+    {
+      "row": 3323,
+      "GSS": "E07000067",
+      "Authority Name": "Braintree District Council"
+    },
+    {
+      "row": 3507,
+      "GSS": "E07000068",
+      "Authority Name": "Brentwood Borough Council"
+    },
+    {
+      "row": 5556,
+      "GSS": "E07000069",
+      "Authority Name": "Castle Point Borough Council"
+    },
+    {
+      "row": 6095,
+      "GSS": "E07000070",
+      "Authority Name": "Chelmsford City Council"
+    },
+    {
+      "row": 8543,
+      "GSS": "E07000071",
+      "Authority Name": "Colchester City Council"
+    },
+    {
+      "row": 12964,
+      "GSS": "E07000072",
+      "Authority Name": "Epping Forest District Council"
+    },
+    {
+      "row": 15765,
+      "GSS": "E07000073",
+      "Authority Name": "Harlow Council"
+    },
+    {
+      "row": 24304,
+      "GSS": "E07000074",
+      "Authority Name": "Maldon District Council"
+    },
+    {
+      "row": 32059,
+      "GSS": "E07000075",
+      "Authority Name": "Rochford District Council"
+    },
+    {
+      "row": 39845,
+      "GSS": "E07000076",
+      "Authority Name": "Tendring District Council"
+    },
+    {
+      "row": 41413,
+      "GSS": "E07000077",
+      "Authority Name": "Uttlesford District Council"
+    },
+    {
+      "row": 6192,
+      "GSS": "E07000078",
+      "Authority Name": "Cheltenham Borough Council"
+    },
+    {
+      "row": 9025,
+      "GSS": "E07000079",
+      "Authority Name": "Cotswold District Council"
+    },
+    {
+      "row": 14056,
+      "GSS": "E07000080",
+      "Authority Name": "Forest of Dean District Council"
+    },
+    {
+      "row": 14629,
+      "GSS": "E07000081",
+      "Authority Name": "Gloucester City Council"
+    },
+    {
+      "row": 38412,
+      "GSS": "E07000082",
+      "Authority Name": "Stroud District Council"
+    },
+    {
+      "row": 40037,
+      "GSS": "E07000083",
+      "Authority Name": "Tewkesbury Borough Council"
+    },
+    {
+      "row": 1241,
+      "GSS": "E07000084",
+      "Authority Name": "Basingstoke and Deane Borough Council"
+    },
+    {
+      "row": 11960,
+      "GSS": "E07000085",
+      "Authority Name": "East Hampshire District Council"
+    },
+    {
+      "row": 12146,
+      "GSS": "E07000086",
+      "Authority Name": "Eastleigh Borough Council"
+    },
+    {
+      "row": 13500,
+      "GSS": "E07000087",
+      "Authority Name": "Fareham Borough Council"
+    },
+    {
+      "row": 14819,
+      "GSS": "E07000088",
+      "Authority Name": "Gosport Borough Council"
+    },
+    {
+      "row": 15834,
+      "GSS": "E07000089",
+      "Authority Name": "Hart District Council"
+    },
+    {
+      "row": 16192,
+      "GSS": "E07000090",
+      "Authority Name": "Havant Borough Council"
+    },
+    {
+      "row": 26726,
+      "GSS": "E07000091",
+      "Authority Name": "New Forest District Council"
+    },
+    {
+      "row": 33447,
+      "GSS": "E07000092",
+      "Authority Name": "Rushmoor Borough Council"
+    },
+    {
+      "row": 39949,
+      "GSS": "E07000093",
+      "Authority Name": "Test Valley Borough Council"
+    },
+    {
+      "row": 44113,
+      "GSS": "E07000094",
+      "Authority Name": "Winchester City Council"
+    },
+    {
+      "row": 2923,
+      "GSS": "E07000095",
+      "Authority Name": "Borough of Broxbourne"
+    },
+    {
+      "row": 9586,
+      "GSS": "E07000096",
+      "Authority Name": "Dacorum Borough Council"
+    },
+    {
+      "row": 16595,
+      "GSS": "E07000098",
+      "Authority Name": "Hertsmere Borough Council"
+    },
+    {
+      "row": 27527,
+      "GSS": "E07000099",
+      "Authority Name": "North Hertfordshire District Council"
+    },
+    {
+      "row": 40330,
+      "GSS": "E07000102",
+      "Authority Name": "Three Rivers District Council"
+    },
+    {
+      "row": 42475,
+      "GSS": "E07000103",
+      "Authority Name": "Watford Borough Council"
+    },
+    {
+      "row": 775,
+      "GSS": "E07000105",
+      "Authority Name": "Ashford Borough Council"
+    },
+    {
+      "row": 5324,
+      "GSS": "E07000106",
+      "Authority Name": "Canterbury City Council"
+    },
+    {
+      "row": 9840,
+      "GSS": "E07000107",
+      "Authority Name": "Dartford Borough Council"
+    },
+    {
+      "row": 10998,
+      "GSS": "E07000108",
+      "Authority Name": "Dover District Council"
+    },
+    {
+      "row": 14932,
+      "GSS": "E07000109",
+      "Authority Name": "Gravesham Borough Council"
+    },
+    {
+      "row": 24248,
+      "GSS": "E07000110",
+      "Authority Name": "Maidstone Borough Council"
+    },
+    {
+      "row": 34316,
+      "GSS": "E07000111",
+      "Authority Name": "Sevenoaks District Council"
+    },
+    {
+      "row": 13993,
+      "GSS": "E07000112",
+      "Authority Name": "Folkestone and Hythe District Council"
+    },
+    {
+      "row": 38987,
+      "GSS": "E07000113",
+      "Authority Name": "Swale Borough Council"
+    },
+    {
+      "row": 40154,
+      "GSS": "E07000114",
+      "Authority Name": "Thanet District Council"
+    },
+    {
+      "row": 40639,
+      "GSS": "E07000115",
+      "Authority Name": "Tonbridge and Malling Borough Council"
+    },
+    {
+      "row": 41342,
+      "GSS": "E07000116",
+      "Authority Name": "Tunbridge Wells Borough Council"
+    },
+    {
+      "row": 4500,
+      "GSS": "E07000117",
+      "Authority Name": "Burnley Borough Council"
+    },
+    {
+      "row": 6948,
+      "GSS": "E07000118",
+      "Authority Name": "Chorley Council"
+    },
+    {
+      "row": 14176,
+      "GSS": "E07000119",
+      "Authority Name": "Fylde Borough Council"
+    },
+    {
+      "row": 17225,
+      "GSS": "E07000120",
+      "Authority Name": "Hyndburn Borough Council"
+    },
+    {
+      "row": 18182,
+      "GSS": "E07000121",
+      "Authority Name": "Lancaster City Council"
+    },
+    {
+      "row": 30126,
+      "GSS": "E07000122",
+      "Authority Name": "Pendle Borough Council"
+    },
+    {
+      "row": 31010,
+      "GSS": "E07000123",
+      "Authority Name": "Preston City Council"
+    },
+    {
+      "row": 31790,
+      "GSS": "E07000124",
+      "Authority Name": "Ribble Valley Borough Council"
+    },
+    {
+      "row": 32137,
+      "GSS": "E07000125",
+      "Authority Name": "Rossendale Borough Council"
+    },
+    {
+      "row": 36673,
+      "GSS": "E07000126",
+      "Authority Name": "South Ribble Borough Council"
+    },
+    {
+      "row": 43185,
+      "GSS": "E07000127",
+      "Authority Name": "West Lancashire Borough Council"
+    },
+    {
+      "row": 45258,
+      "GSS": "E07000128",
+      "Authority Name": "Wyre Council"
+    },
+    {
+      "row": 1974,
+      "GSS": "E07000129",
+      "Authority Name": "Blaby District Council"
+    },
+    {
+      "row": 5987,
+      "GSS": "E07000130",
+      "Authority Name": "Charnwood Borough Council"
+    },
+    {
+      "row": 15676,
+      "GSS": "E07000131",
+      "Authority Name": "Harborough District Council"
+    },
+    {
+      "row": 16765,
+      "GSS": "E07000132",
+      "Authority Name": "Hinckley and Bosworth Borough Council"
+    },
+    {
+      "row": 24964,
+      "GSS": "E07000133",
+      "Authority Name": "Melton Borough Council"
+    },
+    {
+      "row": 28726,
+      "GSS": "E07000134",
+      "Authority Name": "North West Leicestershire District Council"
+    },
+    {
+      "row": 29480,
+      "GSS": "E07000135",
+      "Authority Name": "Oadby and Wigston Borough Council"
+    },
+    {
+      "row": 2996,
+      "GSS": "E07000136",
+      "Authority Name": "Boston Borough Council"
+    },
+    {
+      "row": 12239,
+      "GSS": "E07000137",
+      "Authority Name": "East Lindsey District Council"
+    },
+    {
+      "row": 7696,
+      "GSS": "E07000138",
+      "Authority Name": "City of Lincoln Council"
+    },
+    {
+      "row": 27622,
+      "GSS": "E07000139",
+      "Authority Name": "North Kesteven District Council"
+    },
+    {
+      "row": 36196,
+      "GSS": "E07000140",
+      "Authority Name": "South Holland District Council"
+    },
+    {
+      "row": 36294,
+      "GSS": "E07000141",
+      "Authority Name": "South Kesteven District Council"
+    },
+    {
+      "row": 43290,
+      "GSS": "E07000142",
+      "Authority Name": "West Lindsey District Council"
+    },
+    {
+      "row": 3425,
+      "GSS": "E07000143",
+      "Authority Name": "Breckland Council"
+    },
+    {
+      "row": 4040,
+      "GSS": "E07000144",
+      "Authority Name": "Broadland District Council"
+    },
+    {
+      "row": 15041,
+      "GSS": "E07000145",
+      "Authority Name": "Great Yarmouth Borough Council"
+    },
+    {
+      "row": 2827,
+      "GSS": "E07000146",
+      "Authority Name": "Borough Council of Kings Lynn and West Norfolk"
+    },
+    {
+      "row": 27978,
+      "GSS": "E07000147",
+      "Authority Name": "North Norfolk District Council"
+    },
+    {
+      "row": 29007,
+      "GSS": "E07000148",
+      "Authority Name": "Norwich City Council"
+    },
+    {
+      "row": 36463,
+      "GSS": "E07000149",
+      "Authority Name": "South Norfolk District Council"
+    },
+    {
+      "row": 684,
+      "GSS": "E07000170",
+      "Authority Name": "Ashfield District Council"
+    },
+    {
+      "row": 1333,
+      "GSS": "E07000171",
+      "Authority Name": "Bassetlaw District Council"
+    },
+    {
+      "row": 4230,
+      "GSS": "E07000172",
+      "Authority Name": "Broxtowe Borough Council"
+    },
+    {
+      "row": 14454,
+      "GSS": "E07000173",
+      "Authority Name": "Gedling Borough Council"
+    },
+    {
+      "row": 24676,
+      "GSS": "E07000174",
+      "Authority Name": "Mansfield District Council"
+    },
+    {
+      "row": 26368,
+      "GSS": "E07000175",
+      "Authority Name": "Newark and Sherwood District Council"
+    },
+    {
+      "row": 33351,
+      "GSS": "E07000176",
+      "Authority Name": "Rushcliffe Borough Council"
+    },
+    {
+      "row": 6300,
+      "GSS": "E07000177",
+      "Authority Name": "Cherwell District Council"
+    },
+    {
+      "row": 29772,
+      "GSS": "E07000178",
+      "Authority Name": "Oxford City Council"
+    },
+    {
+      "row": 36576,
+      "GSS": "E07000179",
+      "Authority Name": "South Oxfordshire District Council"
+    },
+    {
+      "row": 41663,
+      "GSS": "E07000180",
+      "Authority Name": "Vale of White Horse District Council"
+    },
+    {
+      "row": 43569,
+      "GSS": "E07000181",
+      "Authority Name": "West Oxfordshire District Council"
+    },
+    {
+      "row": 5221,
+      "GSS": "E07000192",
+      "Authority Name": "Cannock Chase District Council"
+    },
+    {
+      "row": 12625,
+      "GSS": "E07000193",
+      "Authority Name": "East Staffordshire Borough Council"
+    },
+    {
+      "row": 18833,
+      "GSS": "E07000194",
+      "Authority Name": "Lichfield District Council"
+    },
+    {
+      "row": 26642,
+      "GSS": "E07000195",
+      "Authority Name": "Newcastle-under-Lyme District Council"
+    },
+    {
+      "row": 36773,
+      "GSS": "E07000196",
+      "Authority Name": "South Staffordshire Council"
+    },
+    {
+      "row": 37107,
+      "GSS": "E07000197",
+      "Authority Name": "Stafford Borough Council"
+    },
+    {
+      "row": 37301,
+      "GSS": "E07000198",
+      "Authority Name": "Staffordshire Moorlands District Council"
+    },
+    {
+      "row": 39394,
+      "GSS": "E07000199",
+      "Authority Name": "Tamworth Borough Council"
+    },
+    {
+      "row": 885,
+      "GSS": "E07000200",
+      "Authority Name": "Babergh District Council"
+    },
+    {
+      "row": 17313,
+      "GSS": "E07000202",
+      "Authority Name": "Ipswich Borough Council"
+    },
+    {
+      "row": 25585,
+      "GSS": "E07000203",
+      "Authority Name": "Mid Suffolk District Council"
+    },
+    {
+      "row": 12848,
+      "GSS": "E07000207",
+      "Authority Name": "Elmbridge Borough Council"
+    },
+    {
+      "row": 13056,
+      "GSS": "E07000208",
+      "Authority Name": "Epsom and Ewell Borough Council"
+    },
+    {
+      "row": 15151,
+      "GSS": "E07000209",
+      "Authority Name": "Guildford Borough Council"
+    },
+    {
+      "row": 25972,
+      "GSS": "E07000210",
+      "Authority Name": "Mole Valley District Council"
+    },
+    {
+      "row": 31507,
+      "GSS": "E07000211",
+      "Authority Name": "Reigate and Banstead Borough Council"
+    },
+    {
+      "row": 33268,
+      "GSS": "E07000212",
+      "Authority Name": "Runnymede Borough Council"
+    },
+    {
+      "row": 37009,
+      "GSS": "E07000213",
+      "Authority Name": "Spelthorne Borough Council"
+    },
+    {
+      "row": 38884,
+      "GSS": "E07000214",
+      "Authority Name": "Surrey Heath Borough Council"
+    },
+    {
+      "row": 39472,
+      "GSS": "E07000215",
+      "Authority Name": "Tandridge District Council"
+    },
+    {
+      "row": 42558,
+      "GSS": "E07000216",
+      "Authority Name": "Waverley Borough Council"
+    },
+    {
+      "row": 44407,
+      "GSS": "E07000217",
+      "Authority Name": "Woking Borough Council"
+    },
+    {
+      "row": 28641,
+      "GSS": "E07000218",
+      "Authority Name": "North Warwickshire Borough Council"
+    },
+    {
+      "row": 29391,
+      "GSS": "E07000219",
+      "Authority Name": "Nuneaton and Bedworth Borough Council"
+    },
+    {
+      "row": 33201,
+      "GSS": "E07000220",
+      "Authority Name": "Rugby Borough Council"
+    },
+    {
+      "row": 38321,
+      "GSS": "E07000221",
+      "Authority Name": "Stratford-on-Avon District Council"
+    },
+    {
+      "row": 42277,
+      "GSS": "E07000222",
+      "Authority Name": "Warwick District Council"
+    },
+    {
+      "row": 145,
+      "GSS": "E07000223",
+      "Authority Name": "Adur District Council"
+    },
+    {
+      "row": 578,
+      "GSS": "E07000224",
+      "Authority Name": "Arun District Council"
+    },
+    {
+      "row": 6847,
+      "GSS": "E07000225",
+      "Authority Name": "Chichester District Council"
+    },
+    {
+      "row": 9470,
+      "GSS": "E07000226",
+      "Authority Name": "Crawley Borough Council"
+    },
+    {
+      "row": 16871,
+      "GSS": "E07000227",
+      "Authority Name": "Horsham District Council"
+    },
+    {
+      "row": 25686,
+      "GSS": "E07000228",
+      "Authority Name": "Mid Sussex District Council"
+    },
+    {
+      "row": 44874,
+      "GSS": "E07000229",
+      "Authority Name": "Worthing Borough Council"
+    },
+    {
+      "row": 4153,
+      "GSS": "E07000234",
+      "Authority Name": "Bromsgrove District Council"
+    },
+    {
+      "row": 24413,
+      "GSS": "E07000235",
+      "Authority Name": "Malvern Hills District Council"
+    },
+    {
+      "row": 31437,
+      "GSS": "E07000236",
+      "Authority Name": "Redditch Borough Council"
+    },
+    {
+      "row": 44704,
+      "GSS": "E07000237",
+      "Authority Name": "Worcester City Council"
+    },
+    {
+      "row": 45158,
+      "GSS": "E07000238",
+      "Authority Name": "Wychavon District Council"
+    },
+    {
+      "row": 45355,
+      "GSS": "E07000239",
+      "Authority Name": "Wyre Forest District Council"
+    },
+    {
+      "row": 37403,
+      "GSS": "E07000240",
+      "Authority Name": "St Albans City and District Council"
+    },
+    {
+      "row": 42773,
+      "GSS": "E07000241",
+      "Authority Name": "Welwyn Hatfield Council"
+    },
+    {
+      "row": 12050,
+      "GSS": "E07000242",
+      "Authority Name": "East Hertfordshire District Council"
+    },
+    {
+      "row": 37514,
+      "GSS": "E07000243",
+      "Authority Name": "Stevenage Borough Council"
+    },
+    {
+      "row": 12704,
+      "GSS": "E07000244",
+      "Authority Name": "East Suffolk District Council"
+    },
+    {
+      "row": 43672,
+      "GSS": "E07000245",
+      "Authority Name": "West Suffolk District Council"
+    },
+    {
+      "row": 2652,
+      "GSS": "E08000001",
+      "Authority Name": "Bolton Metropolitan Borough Council"
+    },
+    {
+      "row": 4576,
+      "GSS": "E08000002",
+      "Authority Name": "Bury Metropolitan Borough Council"
+    },
+    {
+      "row": 24509,
+      "GSS": "E08000003",
+      "Authority Name": "Manchester City Council"
+    },
+    {
+      "row": 29551,
+      "GSS": "E08000004",
+      "Authority Name": "Oldham Metropolitan Borough Council"
+    },
+    {
+      "row": 31867,
+      "GSS": "E08000005",
+      "Authority Name": "Rochdale Metropolitan Borough Council"
+    },
+    {
+      "row": 33705,
+      "GSS": "E08000006",
+      "Authority Name": "Salford City Council"
+    },
+    {
+      "row": 37804,
+      "GSS": "E08000007",
+      "Authority Name": "Stockport Metropolitan Borough Council"
+    },
+    {
+      "row": 39251,
+      "GSS": "E08000008",
+      "Authority Name": "Tameside Metropolitan Borough Council"
+    },
+    {
+      "row": 41169,
+      "GSS": "E08000009",
+      "Authority Name": "Trafford Metropolitan Borough Council"
+    },
+    {
+      "row": 43798,
+      "GSS": "E08000010",
+      "Authority Name": "Wigan Metropolitan Borough Council"
+    },
+    {
+      "row": 17960,
+      "GSS": "E08000011",
+      "Authority Name": "Knowsley Metropolitan Borough Council"
+    },
+    {
+      "row": 19063,
+      "GSS": "E08000012",
+      "Authority Name": "Liverpool City Council"
+    },
+    {
+      "row": 37615,
+      "GSS": "E08000013",
+      "Authority Name": "St Helens Council"
+    },
+    {
+      "row": 34125,
+      "GSS": "E08000014",
+      "Authority Name": "Sefton Metropolitan Borough Council"
+    },
+    {
+      "row": 44221,
+      "GSS": "E08000015",
+      "Authority Name": "Wirral Council"
+    },
+    {
+      "row": 985,
+      "GSS": "E08000016",
+      "Authority Name": "Barnsley Metropolitan Borough Council"
+    },
+    {
+      "row": 10636,
+      "GSS": "E08000017",
+      "Authority Name": "Doncaster Metropolitan Borough Council"
+    },
+    {
+      "row": 32315,
+      "GSS": "E08000018",
+      "Authority Name": "Rotherham Metropolitan Borough Council"
+    },
+    {
+      "row": 34407,
+      "GSS": "E08000019",
+      "Authority Name": "Sheffield City Council"
+    },
+    {
+      "row": 26465,
+      "GSS": "E08000021",
+      "Authority Name": "Newcastle City Council"
+    },
+    {
+      "row": 28318,
+      "GSS": "E08000022",
+      "Authority Name": "North Tyneside Council"
+    },
+    {
+      "row": 36821,
+      "GSS": "E08000023",
+      "Authority Name": "South Tyneside Council"
+    },
+    {
+      "row": 38601,
+      "GSS": "E08000024",
+      "Authority Name": "Sunderland City Council"
+    },
+    {
+      "row": 1782,
+      "GSS": "E08000025",
+      "Authority Name": "Birmingham City Council"
+    },
+    {
+      "row": 9292,
+      "GSS": "E08000026",
+      "Authority Name": "Coventry City Council"
+    },
+    {
+      "row": 11103,
+      "GSS": "E08000027",
+      "Authority Name": "Dudley Metropolitan Borough Council"
+    },
+    {
+      "row": 33889,
+      "GSS": "E08000028",
+      "Authority Name": "Sandwell Metropolitan Borough Council"
+    },
+    {
+      "row": 35002,
+      "GSS": "E08000029",
+      "Authority Name": "Solihull Metropolitan Borough Council"
+    },
+    {
+      "row": 41931,
+      "GSS": "E08000030",
+      "Authority Name": "Walsall Metropolitan Borough Council"
+    },
+    {
+      "row": 8135,
+      "GSS": "E08000031",
+      "Authority Name": "City of Wolverhampton Council"
+    },
+    {
+      "row": 7223,
+      "GSS": "E08000032",
+      "Authority Name": "City of Bradford Metropolitan District Council"
+    },
+    {
+      "row": 4857,
+      "GSS": "E08000033",
+      "Authority Name": "Calderdale Metropolitan Borough Council"
+    },
+    {
+      "row": 17792,
+      "GSS": "E08000034",
+      "Authority Name": "Kirklees Council"
+    },
+    {
+      "row": 18275,
+      "GSS": "E08000035",
+      "Authority Name": "Leeds City Council"
+    },
+    {
+      "row": 41759,
+      "GSS": "E08000036",
+      "Authority Name": "Wakefield Metropolitan District Council"
+    },
+    {
+      "row": 14256,
+      "GSS": "E08000037",
+      "Authority Name": "Gateshead Metropolitan Borough Council"
+    },
+    {
+      "row": 7808,
+      "GSS": "E09000001",
+      "Authority Name": "City of London Corporation"
+    },
+    {
+      "row": 19223,
+      "GSS": "E09000002",
+      "Authority Name": "London Borough of Barking and Dagenham"
+    },
+    {
+      "row": 19410,
+      "GSS": "E09000003",
+      "Authority Name": "London Borough of Barnet"
+    },
+    {
+      "row": 19559,
+      "GSS": "E09000004",
+      "Authority Name": "London Borough of Bexley"
+    },
+    {
+      "row": 19730,
+      "GSS": "E09000005",
+      "Authority Name": "London Borough of Brent"
+    },
+    {
+      "row": 19933,
+      "GSS": "E09000006",
+      "Authority Name": "London Borough of Bromley"
+    },
+    {
+      "row": 20128,
+      "GSS": "E09000007",
+      "Authority Name": "London Borough of Camden"
+    },
+    {
+      "row": 20314,
+      "GSS": "E09000008",
+      "Authority Name": "London Borough of Croydon"
+    },
+    {
+      "row": 20496,
+      "GSS": "E09000009",
+      "Authority Name": "London Borough of Ealing"
+    },
+    {
+      "row": 20674,
+      "GSS": "E09000010",
+      "Authority Name": "London Borough of Enfield"
+    },
+    {
+      "row": 32511,
+      "GSS": "E09000011",
+      "Authority Name": "Royal Borough of Greenwich"
+    },
+    {
+      "row": 20800,
+      "GSS": "E09000012",
+      "Authority Name": "London Borough of Hackney"
+    },
+    {
+      "row": 20972,
+      "GSS": "E09000013",
+      "Authority Name": "London Borough of Hammersmith & Fulham"
+    },
+    {
+      "row": 21131,
+      "GSS": "E09000014",
+      "Authority Name": "London Borough of Haringey"
+    },
+    {
+      "row": 21327,
+      "GSS": "E09000015",
+      "Authority Name": "London Borough of Harrow"
+    },
+    {
+      "row": 21521,
+      "GSS": "E09000016",
+      "Authority Name": "London Borough of Havering"
+    },
+    {
+      "row": 21724,
+      "GSS": "E09000017",
+      "Authority Name": "London Borough of Hillingdon"
+    },
+    {
+      "row": 21913,
+      "GSS": "E09000018",
+      "Authority Name": "London Borough of Hounslow"
+    },
+    {
+      "row": 22112,
+      "GSS": "E09000019",
+      "Authority Name": "London Borough of Islington"
+    },
+    {
+      "row": 32691,
+      "GSS": "E09000020",
+      "Authority Name": "Royal Borough of Kensington and Chelsea"
+    },
+    {
+      "row": 32855,
+      "GSS": "E09000021",
+      "Authority Name": "Royal Borough of Kingston upon Thames"
+    },
+    {
+      "row": 22290,
+      "GSS": "E09000022",
+      "Authority Name": "London Borough of Lambeth"
+    },
+    {
+      "row": 22466,
+      "GSS": "E09000023",
+      "Authority Name": "London Borough of Lewisham"
+    },
+    {
+      "row": 22652,
+      "GSS": "E09000024",
+      "Authority Name": "London Borough of Merton"
+    },
+    {
+      "row": 22837,
+      "GSS": "E09000025",
+      "Authority Name": "London Borough of Newham"
+    },
+    {
+      "row": 22972,
+      "GSS": "E09000026",
+      "Authority Name": "London Borough of Redbridge"
+    },
+    {
+      "row": 23122,
+      "GSS": "E09000027",
+      "Authority Name": "London Borough of Richmond upon Thames"
+    },
+    {
+      "row": 23305,
+      "GSS": "E09000028",
+      "Authority Name": "London Borough of Southwark"
+    },
+    {
+      "row": 23497,
+      "GSS": "E09000029",
+      "Authority Name": "London Borough of Sutton"
+    },
+    {
+      "row": 23562,
+      "GSS": "E09000030",
+      "Authority Name": "London Borough of Tower Hamlets"
+    },
+    {
+      "row": 23740,
+      "GSS": "E09000031",
+      "Authority Name": "London Borough of Waltham Forest"
+    },
+    {
+      "row": 23915,
+      "GSS": "E09000032",
+      "Authority Name": "London Borough of Wandsworth"
+    },
+    {
+      "row": 7970,
+      "GSS": "E09000033",
+      "Authority Name": "City of Westminster"
+    },
+    {
+      "row": 5127,
+      "GSS": "E10000003",
+      "Authority Name": "Cambridgeshire County Council"
+    },
+    {
+      "row": 10279,
+      "GSS": "E10000007",
+      "Authority Name": "Derbyshire County Council"
+    },
+    {
+      "row": 10542,
+      "GSS": "E10000008",
+      "Authority Name": "Devon County Council"
+    },
+    {
+      "row": 12754,
+      "GSS": "E10000011",
+      "Authority Name": "East Sussex County Council"
+    },
+    {
+      "row": 13255,
+      "GSS": "E10000012",
+      "Authority Name": "Essex County Council"
+    },
+    {
+      "row": 14714,
+      "GSS": "E10000013",
+      "Authority Name": "Gloucestershire County Council"
+    },
+    {
+      "row": 15571,
+      "GSS": "E10000014",
+      "Authority Name": "Hampshire County Council"
+    },
+    {
+      "row": 16486,
+      "GSS": "E10000015",
+      "Authority Name": "Hertfordshire County Council"
+    },
+    {
+      "row": 17691,
+      "GSS": "E10000016",
+      "Authority Name": "Kent County Council"
+    },
+    {
+      "row": 18097,
+      "GSS": "E10000017",
+      "Authority Name": "Lancashire County Council"
+    },
+    {
+      "row": 18627,
+      "GSS": "E10000018",
+      "Authority Name": "Leicestershire County Council"
+    },
+    {
+      "row": 18932,
+      "GSS": "E10000019",
+      "Authority Name": "Lincolnshire County Council"
+    },
+    {
+      "row": 27017,
+      "GSS": "E10000020",
+      "Authority Name": "Norfolk County Council"
+    },
+    {
+      "row": 29295,
+      "GSS": "E10000024",
+      "Authority Name": "Nottinghamshire County Council"
+    },
+    {
+      "row": 29886,
+      "GSS": "E10000025",
+      "Authority Name": "Oxfordshire County Council"
+    },
+    {
+      "row": 37202,
+      "GSS": "E10000028",
+      "Authority Name": "Staffordshire County Council"
+    },
+    {
+      "row": 38509,
+      "GSS": "E10000029",
+      "Authority Name": "Suffolk County Council"
+    },
+    {
+      "row": 38775,
+      "GSS": "E10000030",
+      "Authority Name": "Surrey County Council"
+    },
+    {
+      "row": 42378,
+      "GSS": "E10000031",
+      "Authority Name": "Warwickshire County Council"
+    },
+    {
+      "row": 43702,
+      "GSS": "E10000032",
+      "Authority Name": "West Sussex County Council"
+    },
+    {
+      "row": 44770,
+      "GSS": "E10000034",
+      "Authority Name": "Worcestershire County Council"
+    },
+    {
+      "row": 407,
+      "GSS": "N09000001",
+      "Authority Name": "Antrim and Newtownabbey Borough Council"
+    },
+    {
+      "row": 540,
+      "GSS": "N09000002",
+      "Authority Name": "Armagh City, Banbridge and Craigavon Borough Council"
+    },
+    {
+      "row": 1743,
+      "GSS": "N09000003",
+      "Authority Name": "Belfast City Council"
+    },
+    {
+      "row": 5645,
+      "GSS": "N09000004",
+      "Authority Name": "Causeway Coast and Glens Borough Council"
+    },
+    {
+      "row": 10496,
+      "GSS": "N09000005",
+      "Authority Name": "Derry City and Strabane District Council"
+    },
+    {
+      "row": 13658,
+      "GSS": "N09000006",
+      "Authority Name": "Fermanagh and Omagh District Council"
+    },
+    {
+      "row": 19026,
+      "GSS": "N09000007",
+      "Authority Name": "Lisburn and Castlereagh City Council"
+    },
+    {
+      "row": 25229,
+      "GSS": "N09000008",
+      "Authority Name": "Mid and East Antrim Borough Council"
+    },
+    {
+      "row": 25797,
+      "GSS": "N09000009",
+      "Authority Name": "Mid Ulster District Council"
+    },
+    {
+      "row": 26980,
+      "GSS": "N09000010",
+      "Authority Name": "Newry, Mourne and Down District Council"
+    },
+    {
+      "row": 444,
+      "GSS": "N09000011",
+      "Authority Name": "Ards and North Down Borough Council"
+    },
+    {
+      "row": 8496,
+      "GSS": "S12000005",
+      "Authority Name": "Clackmannanshire Council"
+    },
+    {
+      "row": 11297,
+      "GSS": "S12000006",
+      "Authority Name": "Dumfries and Galloway Council"
+    },
+    {
+      "row": 11584,
+      "GSS": "S12000008",
+      "Authority Name": "East Ayrshire Council"
+    },
+    {
+      "row": 12338,
+      "GSS": "S12000010",
+      "Authority Name": "East Lothian Council"
+    },
+    {
+      "row": 12384,
+      "GSS": "S12000011",
+      "Authority Name": "East Renfrewshire Council"
+    },
+    {
+      "row": 8631,
+      "GSS": "S12000013",
+      "Authority Name": "Comhairle nan Eilean Siar"
+    },
+    {
+      "row": 13450,
+      "GSS": "S12000014",
+      "Authority Name": "Falkirk Council"
+    },
+    {
+      "row": 13694,
+      "GSS": "S12000015",
+      "Authority Name": "Fife Council"
+    },
+    {
+      "row": 40229,
+      "GSS": "S12000017",
+      "Authority Name": "The Highland Council"
+    },
+    {
+      "row": 17266,
+      "GSS": "S12000018",
+      "Authority Name": "Inverclyde Council"
+    },
+    {
+      "row": 25537,
+      "GSS": "S12000019",
+      "Authority Name": "Midlothian Council"
+    },
+    {
+      "row": 40282,
+      "GSS": "S12000020",
+      "Authority Name": "The Moray Council"
+    },
+    {
+      "row": 27122,
+      "GSS": "S12000021",
+      "Authority Name": "North Ayrshire Council"
+    },
+    {
+      "row": 29729,
+      "GSS": "S12000023",
+      "Authority Name": "Orkney Islands Council"
+    },
+    {
+      "row": 30224,
+      "GSS": "S12000024",
+      "Authority Name": "Perth and Kinross Council"
+    },
+    {
+      "row": 34074,
+      "GSS": "S12000026",
+      "Authority Name": "Scottish Borders Council"
+    },
+    {
+      "row": 34595,
+      "GSS": "S12000027",
+      "Authority Name": "Shetland Islands Council"
+    },
+    {
+      "row": 35494,
+      "GSS": "S12000028",
+      "Authority Name": "South Ayrshire Council"
+    },
+    {
+      "row": 36407,
+      "GSS": "S12000029",
+      "Authority Name": "South Lanarkshire Council"
+    },
+    {
+      "row": 37760,
+      "GSS": "S12000030",
+      "Authority Name": "Stirling Council"
+    },
+    {
+      "row": 2,
+      "GSS": "S12000033",
+      "Authority Name": "Aberdeen City Council"
+    },
+    {
+      "row": 89,
+      "GSS": "S12000034",
+      "Authority Name": "Aberdeenshire Council"
+    },
+    {
+      "row": 483,
+      "GSS": "S12000035",
+      "Authority Name": "Argyll and Bute Council"
+    },
+    {
+      "row": 7537,
+      "GSS": "S12000036",
+      "Authority Name": "City of Edinburgh Council"
+    },
+    {
+      "row": 31609,
+      "GSS": "S12000038",
+      "Authority Name": "Renfrewshire Council"
+    },
+    {
+      "row": 43127,
+      "GSS": "S12000039",
+      "Authority Name": "West Dunbartonshire Council"
+    },
+    {
+      "row": 43394,
+      "GSS": "S12000040",
+      "Authority Name": "West Lothian Council"
+    },
+    {
+      "row": 353,
+      "GSS": "S12000041",
+      "Authority Name": "Angus Council"
+    },
+    {
+      "row": 11343,
+      "GSS": "S12000042",
+      "Authority Name": "Dundee City Council"
+    },
+    {
+      "row": 27731,
+      "GSS": "S12000044",
+      "Authority Name": "North Lanarkshire Council"
+    },
+    {
+      "row": 11909,
+      "GSS": "S12000045",
+      "Authority Name": "East Dunbartonshire Council"
+    },
+    {
+      "row": 14563,
+      "GSS": "S12000046",
+      "Authority Name": "Glasgow City Council"
+    },
+    {
+      "row": 17412,
+      "GSS": "W06000001",
+      "Authority Name": "Isle of Anglesey County Council"
+    },
+    {
+      "row": 15242,
+      "GSS": "W06000002",
+      "Authority Name": "Gwynedd Council"
+    },
+    {
+      "row": 8670,
+      "GSS": "W06000003",
+      "Authority Name": "Conwy County Borough Council"
+    },
+    {
+      "row": 9927,
+      "GSS": "W06000004",
+      "Authority Name": "Denbighshire County Council"
+    },
+    {
+      "row": 13818,
+      "GSS": "W06000005",
+      "Authority Name": "Flintshire County Council"
+    },
+    {
+      "row": 44987,
+      "GSS": "W06000006",
+      "Authority Name": "Wrexham County Borough Council"
+    },
+    {
+      "row": 5885,
+      "GSS": "W06000008",
+      "Authority Name": "Ceredigion County Council"
+    },
+    {
+      "row": 29974,
+      "GSS": "W06000009",
+      "Authority Name": "Pembrokeshire County Council"
+    },
+    {
+      "row": 5424,
+      "GSS": "W06000010",
+      "Authority Name": "Carmarthenshire County Council"
+    },
+    {
+      "row": 7051,
+      "GSS": "W06000011",
+      "Authority Name": "City and County of Swansea Council"
+    },
+    {
+      "row": 26211,
+      "GSS": "W06000012",
+      "Authority Name": "Neath Port Talbot County Borough Council"
+    },
+    {
+      "row": 3572,
+      "GSS": "W06000013",
+      "Authority Name": "Bridgend County Borough Council"
+    },
+    {
+      "row": 41473,
+      "GSS": "W06000014",
+      "Authority Name": "Vale of Glamorgan Council"
+    },
+    {
+      "row": 7388,
+      "GSS": "W06000015",
+      "Authority Name": "City of Cardiff Council"
+    },
+    {
+      "row": 31663,
+      "GSS": "W06000016",
+      "Authority Name": "Rhondda Cynon Taf County Borough Council"
+    },
+    {
+      "row": 4681,
+      "GSS": "W06000018",
+      "Authority Name": "Caerphilly County Borough Council"
+    },
+    {
+      "row": 2375,
+      "GSS": "W06000019",
+      "Authority Name": "Blaenau Gwent County Borough Council"
+    },
+    {
+      "row": 40903,
+      "GSS": "W06000020",
+      "Authority Name": "Torfaen County Borough Council"
+    },
+    {
+      "row": 26068,
+      "GSS": "W06000021",
+      "Authority Name": "Monmouthshire County Council"
+    },
+    {
+      "row": 26837,
+      "GSS": "W06000022",
+      "Authority Name": "Newport City Council"
+    },
+    {
+      "row": 30835,
+      "GSS": "W06000023",
+      "Authority Name": "Powys County Council"
+    },
+    {
+      "row": 25044,
+      "GSS": "W06000024",
+      "Authority Name": "Merthyr Tydfil County Borough Council"
+    }
+  ]
+}

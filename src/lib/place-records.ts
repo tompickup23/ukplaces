@@ -14,6 +14,7 @@ export type Place = {
   displayName: string;
   searchNames: string[];
   officialName: string;
+  officialNameVia?: string;
   type: string;
   country: string;
   region: string;

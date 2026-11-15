@@ -49,6 +49,7 @@
         "slug": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
         "name": { "type": "string" },
         "officialName": { "type": "string" },
+        "officialNameVia": { "type": "string", "pattern": "^[ESWN][0-9]{8}$" },
         "type": { "type": "string" },
         "country": { "type": "string" },
         "region": { "type": "string" },

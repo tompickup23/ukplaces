@@ -64,7 +64,7 @@ All four run in `site-checks.yml` and `deploy.yml`.
 
 ## Published registry
 
-`npm run build:registry` writes `src/data/registry/places.json` and the copy sister sites read at `public/data/registry/places.json`; `npm run test:registry` fails if the two differ. It also writes `src/data/registry/county-councils.json` from the AI DOGE crosswalk.
+`npm run build:registry` writes `src/data/registry/places.json` and the copy sister sites read at `public/data/registry/places.json`; `npm run test:registry` fails if the two differ. It also writes `src/data/registry/county-councils.json`. Council names use the pinned GOV.UK Local Links Manager evidence; see [Council official names](OFFICIAL-NAMES.md) for the refresh and build guards.
 
 ### Ceremonial county evidence
 
