@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { displayNameFor, searchNamesFor } from "./place-names.mjs";
+import { displayNameFor, searchNamesFor, shortNameFor } from "./place-names.mjs";
 import { countyFor } from "./county-reference.mjs";
 import { authorityIndex, readOfficialNameInputs, resolveOfficialName, validateOfficialNames } from "./official-names.mjs";
 
@@ -14,6 +14,20 @@ const outputPath = path.join(registryDir, "places.json");
 const overridesPath = path.join(registryDir, "slug-overrides.json");
 // Committed output of scripts/build-wikidata-lookup.mjs, so a clean checkout builds offline.
 const wikidataPath = path.join(registryDir, "wikidata-by-gss.json");
+
+// Apply only the evidenced short names to the committed snapshot, without
+// refreshing sibling data or changing display names, search aliases or routes.
+if (process.argv.includes("--short-names-only")) {
+  const registry = JSON.parse(fs.readFileSync(outputPath, "utf8"));
+  for (const [gss, place] of Object.entries(registry)) {
+    place.name = shortNameFor(gss, place.name);
+  }
+  const output = `${JSON.stringify(registry, null, 2)}\n`;
+  fs.writeFileSync(outputPath, output);
+  fs.writeFileSync(path.join(siteRoot, "public", "data", "registry", "places.json"), output);
+  console.log("Regenerated registry short names from the council evidence.");
+  process.exit(0);
+}
 
 const sourcePaths = {
   crosswalk: "/Users/tompickup/aidoge-site/data/shared/council_crosswalk.json",
@@ -201,7 +215,7 @@ for (const area of [...asylumAreas].sort((left, right) => left.areaCode.localeCo
   registry[gss] = {
     gss,
     slug,
-    name: area.areaName,
+    name: shortNameFor(gss, area.areaName),
     displayName: displayNameFor(area.areaName),
     searchNames: searchNamesFor(area.areaName),
     ...resolveOfficialName(gss, officialNames, predecessors),
