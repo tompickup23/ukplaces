@@ -1,4 +1,5 @@
 import { createHash } from "node:crypto";
+import { EXPORT_URL, fetchLocalLinksExport } from "./local-links-export.mjs";
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -11,7 +12,6 @@ import { fileURLToPath } from "node:url";
 // (src/data/registry/gss-predecessors.json), never a name match. Run by hand, review the
 // diff and commit; the site build never calls GOV.UK or a council site.
 const siteRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const EXPORT_URL = "https://local-links-manager.publishing.service.gov.uk/data/links_to_services_provided_by_local_authorities.csv";
 const USER_AGENT = "UKPlacesLinkCheck/1.0 (+https://ukplaces.co.uk/methodology/)";
 const outputPath = path.join(siteRoot, "src", "data", "local-links.json");
 // Titles and codes as GOV.UK publishes them (www.gov.uk/api/content/<page>, details.lgsl_code
@@ -20,28 +20,6 @@ const SERVICES = [
   { id: "councilTax", lgsl: 57, lgil: 8, title: "Pay your Council Tax", govuk: "https://www.gov.uk/pay-council-tax", countries: ["England", "Wales", "Scotland"] },
   { id: "bins", lgsl: 524, lgil: 8, title: "Find out your rubbish collection day", govuk: "https://www.gov.uk/rubbish-collection-day", countries: ["England", "Wales", "Scotland", "Northern Ireland"] },
 ];
-
-function parseCsv(text) {
-  const rows = [];
-  let row = [];
-  let cell = "";
-  let quoted = false;
-  for (let index = 0; index < text.length; index += 1) {
-    const character = text[index];
-    if (quoted) {
-      if (character === '"' && text[index + 1] === '"') { cell += '"'; index += 1; }
-      else if (character === '"') quoted = false;
-      else cell += character;
-    } else if (character === '"') quoted = true;
-    else if (character === ",") { row.push(cell); cell = ""; }
-    else if (character === "\n" || character === "\r") {
-      if (character === "\r" && text[index + 1] === "\n") index += 1;
-      row.push(cell); rows.push(row); row = []; cell = "";
-    } else cell += character;
-  }
-  if (cell || row.length) { row.push(cell); rows.push(row); }
-  return rows.filter((cells) => cells.length > 1);
-}
 
 async function check(url) {
   const controller = new AbortController();
@@ -73,12 +51,8 @@ const registry = JSON.parse(fs.readFileSync(path.join(siteRoot, "src", "data", "
 const { predecessors } = JSON.parse(fs.readFileSync(path.join(siteRoot, "src", "data", "registry", "gss-predecessors.json"), "utf8"));
 const previous = fs.existsSync(outputPath) ? JSON.parse(fs.readFileSync(outputPath, "utf8")) : { places: {} };
 
-const response = await fetch(EXPORT_URL, { headers: { "User-Agent": USER_AGENT } });
-if (!response.ok) throw new Error(`Local Links Manager export returned HTTP ${response.status}`);
-const lastModified = new Date(response.headers.get("last-modified") ?? "").toISOString().slice(0, 10);
-const [header, ...rows] = parseCsv(await response.text());
-const expected = ["Authority Name", "GSS", "Description", "LGSL", "LGIL", "URL", "Title", "Supported by GOV.UK"];
-if (header.join() !== expected.join()) throw new Error(`Unexpected export columns: ${header.join()}`);
+const { source: exportSource, rows } = await fetchLocalLinksExport();
+const lastModified = new Date(exportSource.lastModified).toISOString().slice(0, 10);
 const urlsByKey = new Map();
 for (const [, gss, , lgsl, lgil, rawUrl] of rows) {
   // A few export URLs carry stray spaces (Hull's bin page had a trailing one).
