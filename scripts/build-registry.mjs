@@ -15,17 +15,23 @@ const overridesPath = path.join(registryDir, "slug-overrides.json");
 // Committed output of scripts/build-wikidata-lookup.mjs, so a clean checkout builds offline.
 const wikidataPath = path.join(registryDir, "wikidata-by-gss.json");
 
-// Apply only the evidenced short names to the committed snapshot, without
-// refreshing sibling data or changing display names, search aliases or routes.
-if (process.argv.includes("--short-names-only")) {
+// Apply the selected name fields to the committed snapshot without refreshing
+// sibling data or changing routes.
+const displayNamesOnly = process.argv.includes("--display-names-only");
+if (process.argv.includes("--short-names-only") || displayNamesOnly) {
   const registry = JSON.parse(fs.readFileSync(outputPath, "utf8"));
   for (const [gss, place] of Object.entries(registry)) {
-    place.name = shortNameFor(gss, place.name);
+    if (displayNamesOnly) {
+      place.displayName = displayNameFor(place.name, gss);
+      place.searchNames = searchNamesFor(place.name, gss);
+    } else {
+      place.name = shortNameFor(gss, place.name);
+    }
   }
   const output = `${JSON.stringify(registry, null, 2)}\n`;
   fs.writeFileSync(outputPath, output);
   fs.writeFileSync(path.join(siteRoot, "public", "data", "registry", "places.json"), output);
-  console.log("Regenerated registry short names from the council evidence.");
+  console.log(`Regenerated registry ${displayNamesOnly ? "display and search names" : "short names"} from the council evidence.`);
   process.exit(0);
 }
 
@@ -216,8 +222,8 @@ for (const area of [...asylumAreas].sort((left, right) => left.areaCode.localeCo
     gss,
     slug,
     name: shortNameFor(gss, area.areaName),
-    displayName: displayNameFor(area.areaName),
-    searchNames: searchNamesFor(area.areaName),
+    displayName: displayNameFor(area.areaName, gss),
+    searchNames: searchNamesFor(area.areaName, gss),
     ...resolveOfficialName(gss, officialNames, predecessors),
     type,
     country: area.countryName,

@@ -1,4 +1,4 @@
-// Display and search names derived from the ONS name, never typed by hand.
+// Display and search names derived from the ONS name and evidenced corrections.
 //
 // ONS lists a few authorities in inverted form so they sort under their own name:
 // "Bristol, City of" is the City of Bristol. Only a trailing ", City of" or
@@ -27,15 +27,19 @@ export function shortNameFor(gss, sourceName) {
   return correction.name;
 }
 
-export function displayNameFor(onsName) {
-  const match = onsName.match(ONS_INVERTED);
-  return match ? `${match[2]} of ${match[1]}` : onsName;
+export function displayNameFor(onsName, gss) {
+  const name = shortNameFor(gss, onsName);
+  const match = name.match(ONS_INVERTED);
+  return match ? `${match[2]} of ${match[1]}` : name;
 }
 
 // The display name, the name without its status, and the ONS form, in that order.
-export function searchNamesFor(onsName) {
+// An evidenced rename keeps the former name as a search alias.
+export function searchNamesFor(onsName, gss) {
+  const correction = shortNameCorrections[gss];
+  if (correction) return [displayNameFor(onsName, gss), correction.sourceName];
   const match = onsName.match(ONS_INVERTED);
-  return match ? [displayNameFor(onsName), match[1], onsName] : [onsName];
+  return match ? [displayNameFor(onsName, gss), match[1], onsName] : [onsName];
 }
 
 // Lower case, apostrophes dropped, every other run of punctuation or space one space.

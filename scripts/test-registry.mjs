@@ -70,8 +70,8 @@ for (const source of sourceIds) {
 }
 
 
-// This correction changes only the exported short name. Display and search names
-// still follow the original source name; GSS keys and slugs do not move.
+// The evidenced correction supplies the current display name and retains the
+// former name for search; GSS keys and slugs do not move.
 assert.deepEqual(Object.keys(shortNameCorrections), ["E07000112"], "only the evidenced council rename is corrected");
 assert.equal(shortNameFor("E07000112", "Shepway"), "Folkestone and Hythe");
 assert.equal(shortNameFor("E07000112", "Folkestone and Hythe"), "Folkestone and Hythe", "the correction is idempotent");
@@ -81,8 +81,16 @@ assert.throws(() => shortNameFor("E07000112", "Unexpected name"), /review the co
 assert.equal(registry.E07000112.name, "Folkestone and Hythe");
 assert.equal(registry.E07000112.slug, "shepway", "the existing route is retained");
 assert.equal(registry.E07000112.officialName, "Folkestone and Hythe District Council");
-assert.equal(registry.E07000112.displayName, "Shepway", "display name is outside this single-field correction");
-assert.deepEqual(registry.E07000112.searchNames, ["Shepway"], "search aliases are outside this single-field correction");
+assert.equal(registry.E07000112.displayName, "Folkestone and Hythe");
+assert.deepEqual(registry.E07000112.searchNames, ["Folkestone and Hythe", "Shepway"]);
+for (const sourceName of ["Shepway", "Folkestone and Hythe"]) {
+  assert.equal(displayNameFor(sourceName, "E07000112"), "Folkestone and Hythe");
+  assert.deepEqual(searchNamesFor(sourceName, "E07000112"), ["Folkestone and Hythe", "Shepway"], "both source editions retain the former name");
+}
+assert.equal(displayNameFor("Shepway", "E07000117"), "Shepway", "display correction uses the GSS code");
+assert.deepEqual(searchNamesFor("Shepway", "E07000117"), ["Shepway"], "search correction uses the GSS code");
+assert.throws(() => displayNameFor("Unexpected name", "E07000112"), /review the council evidence/);
+assert.throws(() => searchNamesFor("Unexpected name", "E07000112"), /review the council evidence/);
 
 const inverted = {
   E06000010: ["City of Kingston upon Hull", "kingston-upon-hull-city-of"],
@@ -92,16 +100,23 @@ const inverted = {
 for (const [gss, place] of records) {
   const sourceName = shortNameCorrections[gss]?.sourceName ?? place.name;
   assert.equal(place.name, shortNameFor(gss, sourceName), `${gss} short name follows the council evidence`);
-  assert.equal(place.displayName, displayNameFor(sourceName), `${gss} display name follows the ONS rule`);
-  assert.deepEqual(place.searchNames, searchNamesFor(sourceName), `${gss} search names follow the ONS rule`);
-  if (!inverted[gss]) assert.equal(place.displayName, sourceName, `${gss} display name is the source name`);
+  assert.equal(place.displayName, displayNameFor(sourceName, gss), `${gss} display name follows the ONS rule and council evidence`);
+  assert.deepEqual(place.searchNames, searchNamesFor(sourceName, gss), `${gss} search names follow the ONS rule and council evidence`);
+  if (!shortNameCorrections[gss]) {
+    assert.equal(place.displayName, displayNameFor(sourceName), `${gss} retains its uncorrected display name`);
+    assert.deepEqual(place.searchNames, searchNamesFor(sourceName), `${gss} retains its uncorrected search names`);
+  }
+  if (!inverted[gss]) assert.equal(place.displayName, place.name, `${gss} display name is the current short name`);
 }
 for (const [gss, [displayName, slug]] of Object.entries(inverted)) {
   assert.equal(registry[gss].displayName, displayName, `${gss} display name`);
   assert.equal(registry[gss].slug, slug, `${gss} slug is unchanged`);
 }
-assert.equal(records.filter(([gss, place]) => place.displayName !== (shortNameCorrections[gss]?.sourceName ?? place.name)).length, 3, "only the three inverted ONS display names change");
+assert.equal(records.filter(([, place]) => place.displayName !== place.name).length, 3, "only the three inverted ONS display names differ from the current short name");
 const findPlaces = (query) => records.filter(([, place]) => matchesQuery(searchKey(place.searchNames), query)).map(([gss]) => gss);
+for (const query of ["Folkestone", "Hythe", "Shepway"]) {
+  assert.deepEqual(findPlaces(query), ["E07000112"], `${query} finds only Folkestone and Hythe`);
+}
 assert.deepEqual(findPlaces("Hull"), ["E06000010"], "Hull finds Kingston upon Hull and not Solihull");
 assert.ok(findPlaces("Solihull").includes("E08000029"), "Solihull still finds Solihull");
 assert.deepEqual(findPlaces("Bristol"), ["E06000023"], "Bristol finds the City of Bristol");
