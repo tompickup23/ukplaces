@@ -31,7 +31,8 @@
     "check:analytics": "node scripts/check-analytics.mjs",
     "check:parity": "node scripts/check-parity.mjs",
     "check:production": "node scripts/check-production.mjs",
-    "audit:prod": "npm audit --omit=dev --audit-level=high",
+    "audit:prod": "node scripts/audit-prod.mjs",
+    "test:audit-gate": "node scripts/test-audit-gate.mjs",
     "build:constituency-dates": "node scripts/build-constituency-dates.mjs",
     "check:landing": "node scripts/check-landing.mjs"
   },
