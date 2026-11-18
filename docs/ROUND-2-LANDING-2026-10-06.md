@@ -79,3 +79,27 @@ council-tax queries in England. The CF_BEACON_TOKEN repository variable is
 absent, so production remains free of analytics until Tom supplies it.
 
 There are no parish or town-specific routes in this registry. A town-named local-authority record can be checked, but must not be presented as a parish or settlement page.
+
+## Round 2 landing outcome, 6 October 2026
+
+PR #26 merged with merge commit 5b79c16850304033a14f9d816525325e40b562ce after every local gate and required validate and CodeQL check passed on cb441748f0ec737837c93d9d874b965897514c3b. Tom explicitly approved temporarily disabling only required linear history. All original branch-protection settings were restored immediately and verified.
+
+Pages workflow 37387196060: build succeeded and deployment succeeded. The final IndexNow job failed with HTTP 403, errorCode SiteVerificationNotCompleted. The service requested waiting for verification and trying again. Release actions stopped at this failure; no workflow retry or further merges were attempted.
+
+Live checks at 2026-10-05T23:15:10.393Z:
+
+| Route | HTTP | New elements verified |
+| --- | --- | --- |
+| / | 200 | Yes |
+| /places/burnley/ | 200 | Yes |
+| /places/reading/ | 200 | Yes |
+| /constituencies/burnley/ | 200 | Yes |
+| /privacy/ | 200 | Yes |
+| /og/places/burnley.png | 200 | Yes |
+| /sitemap.xml | 200 | Yes |
+
+The live sitemap has 1,030 URLs, all dated. Burnley's Food Hygiene panel links to ukfoodhygiene.co.uk and names FSA provenance. The share card is a valid 1200 by 630 PNG. Privacy correctly says analytics is inactive. No parish or town-specific routes exist. Reading was checked as a town-named local-authority record, not a settlement or parish page.
+
+GitHub automatically marked #15 merged when #26 landed. PRs #16 to #23 remain open because cleanup stopped on the IndexNow failure; supersession comments have not been posted. Dependabot #24 and #25 conflict with the new main and have no green post-merge CI, so remain open. The two original untracked files remain untouched.
+
+Open questions for Tom: whether UK Places should stay out of council-name searches, with UK Councils as the front door; and the analytics token. The CF_BEACON_TOKEN variable remains absent. No other repository or VPS changed.

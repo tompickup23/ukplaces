@@ -3,7 +3,8 @@ import SiteMark from "../components/SiteMark.astro";
 import sources from "../data/sources.json";
 import registry from "../data/registry/places.json";
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { DEFAULT_DESCRIPTION, SITE_NAME } from "../lib/site";
+import { DEFAULT_DESCRIPTION, HOME_TITLE, SITE_NAME, SITE_URL } from "../lib/site";
+import { getRegionGroups } from "../lib/regions";
 import { searchKey } from "../../scripts/place-names.mjs";
 
 // Sorted on the ONS name, whose inverted form files "Bristol, City of" under B.
@@ -18,9 +19,30 @@ const sourceAnswers: Record<string, string> = {
   asylumstats: "Home Office support data with the reporting period, local rate and a clear definition of what it covers.",
   ukfoodhygiene: "Food hygiene ratings from the official register, with the date of the register snapshot behind each figure.",
 };
+const regions = getRegionGroups();
+const structuredData = [
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": `${SITE_URL}/#website`,
+    url: `${SITE_URL}/`,
+    name: SITE_NAME,
+    description: DEFAULT_DESCRIPTION,
+    inLanguage: "en-GB",
+    publisher: { "@id": `${SITE_URL}/#organization` },
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": `${SITE_URL}/#organization`,
+    name: SITE_NAME,
+    url: `${SITE_URL}/`,
+    logo: `${SITE_URL}/uk-places-mark.svg`,
+  },
+];
 ---
 
-<BaseLayout title={SITE_NAME} description={DEFAULT_DESCRIPTION}>
+<BaseLayout title={HOME_TITLE} description={DEFAULT_DESCRIPTION} structuredData={structuredData}>
   <main class="home-page" id="main-content">
     <section class="home-hero">
       <div class="shell home-hero__inner">
@@ -53,11 +75,21 @@ const sourceAnswers: Record<string, string> = {
           <article class="home-source-card" style={`--source-accent: ${source.accent}`}>
             <h3>{source.name}</h3>
             <p>{sourceAnswers[source.id] ?? source.topic}</p>
-            <a class="home-source-card__open" href={source.siteUrl}>Open {source.name}</a>
+            {source.linked !== false && <a class="home-source-card__open" href={source.siteUrl}>Open {source.name}</a>}
             <a class="home-source-card__about" href="/sources/">About this source</a>
           </article>
         ))}
       </div>
+    </section>
+
+    <section class="shell home-section" aria-labelledby="regions-heading">
+      <p class="eyebrow">Browse by region</p>
+      <h2 id="regions-heading">Every local authority, by nation and region.</h2>
+      <ul class="directory-list">
+        {regions.map((region) => (
+          <li><a href={`/places/regions/${region.slug}/`}>{region.name}<span>{region.places.length} local {region.places.length === 1 ? "authority" : "authorities"}</span></a></li>
+        ))}
+      </ul>
     </section>
 
     <section class="home-record-section">

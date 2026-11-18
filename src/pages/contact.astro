@@ -1,0 +1,17 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { CONTACT_EMAIL } from "../lib/site";
+---
+
+<BaseLayout title="Contact" description="How to contact UK Places about the site or a factual error, and where to go instead for a question about your own council's services.">
+  <main class="shell static-page" id="main-content">
+    <section class="static-hero"><p class="eyebrow">Contact</p><h1>Contact UK Places.</h1><p>UK Places is an independent reference site. It cannot answer for a council or act on a council account.</p></section>
+    <div class="static-content">
+      <section><h2>Site questions and factual errors</h2>{CONTACT_EMAIL
+        ? <p>Email <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> about the content of this site, including factual errors.</p>
+        : <p>A public contact mailbox for this site is being set up and will be given here. There is no contact form.</p>}
+        <p>For a factual error, give the page address, the statement concerned and a link to the official source that shows the right answer. The <a href="/corrections/">corrections page</a> explains what happens next.</p></section>
+      <section><h2>Your council</h2><p>For bins, bills, planning or any other service, use your council's own website. <a href="https://www.gov.uk/find-local-council">Find your local council on GOV.UK</a>.</p></section>
+    </div>
+  </main>
+</BaseLayout>

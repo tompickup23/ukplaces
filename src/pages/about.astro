@@ -1,0 +1,25 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import constituencies from "../data/registry/constituencies.json";
+import sources from "../data/sources.json";
+import { placesByGss } from "../lib/place-records";
+import { getRegionGroups } from "../lib/regions";
+import { PUBLISHER_NAME, PUBLISHER_URL } from "../lib/site";
+
+// Counted from the registry, never typed.
+const placeCount = Object.keys(placesByGss).length;
+const constituencyCount = Object.keys(constituencies).length;
+const regionCount = getRegionGroups().length;
+---
+
+<BaseLayout title="About UK Places" description="What UK Places is, who publishes it, what each local authority record holds and what the site does not do.">
+  <main class="shell static-page" id="main-content">
+    <section class="static-hero"><p class="eyebrow">About</p><h1>A record for every UK local authority.</h1><p>UK Places is a reference site. It holds one record for each of the {placeCount} local authorities in the United Kingdom, with its official code and geography.</p></section>
+    <div class="static-content">
+      <section><h2>Who publishes it</h2><p>UK Places is published by <a href={PUBLISHER_URL}>{PUBLISHER_NAME}</a>. It is independent of the Office for National Statistics, of government and of every council it lists.</p></section>
+      <section><h2>What a record holds</h2><p>Each record gives the authority's GSS code, its type, its ceremonial county where the registry holds one, its region and country, its county council where there is one, and the Westminster constituencies its area overlaps. The site also has a page for each of {constituencyCount} constituencies and {regionCount} nations and regions.</p><p>Beside the geography, a record shows one dated figure from each of {sources.length} specialist sources that cover the place. The figure belongs to its source, which holds the definition and the detail. The <a href="/sources/">sources page</a> lists them and the <a href="/methodology/">methodology</a> sets out the rules.</p></section>
+      <section><h2>What it does not do</h2><p>UK Places does not rank places, score them or estimate a missing value. Where a source has no figure for a place, the record says so. It holds records for local authorities, not for towns or villages that share a name with one.</p></section>
+      <section><h2>Getting in touch</h2><p>See <a href="/contact/">contact</a> for questions about the site, and <a href="/corrections/">corrections</a> for how to report an error and how changes are recorded.</p></section>
+    </div>
+  </main>
+</BaseLayout>
