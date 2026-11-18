@@ -1,0 +1,12 @@
+{
+  "note": "Production audit exceptions. Each entry lets audit:prod pass one named advisory in one named package until its expiry date (inclusive, UTC). After that date the gate fails again if the advisory is still present. Add an entry only on Tom's decision, with a reason and a date.",
+  "exceptions": [
+    {
+      "advisory": "GHSA-fc5q-39xc-vjpf",
+      "package": "picomatch",
+      "expires": "2026-12-18",
+      "decided": "Tom Pickup, 18 November 2026",
+      "reason": "picomatch ReDoS through repeated extglobs, widened on 17 November 2026 to every published version (<= 4.0.7) with no patched release. picomatch runs only at build time through Astro and Vite; this static site passes it no visitor input. Remove the entry once a patched picomatch is in the lockfile."
+    }
+  ]
+}
